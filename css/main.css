@@ -1490,7 +1490,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #47ff1f;
+    background: #189dff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3155,7 +3155,7 @@ body {
   line-height: 40px;
   background: linear-gradient(to right, #9733ee, #ff512f);
   border-radius: 20px;
-  color: #fff !important;
+  color: #4f4f4f !important;
   font-size: 16px !important;
   transition: all 0.5s;
   position: relative;
