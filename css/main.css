@@ -1426,6 +1426,9 @@ pre code {
   z-index: 5;
 }
 @media (max-width: 991px) {
+  .github-corner {
+    display: none;
+  }
   .github-corner svg {
     color: var(--theme-color);
     fill: #fff;
@@ -1487,7 +1490,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #f2b521;
+    background: #47ff1f;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2685,6 +2688,110 @@ ul.breadcrumb li:last-child {
     color: #eee;
   }
 }
+.search-active {
+  overflow: hidden;
+}
+.search-pop-overlay {
+  background: rgba(0,0,0,0);
+  display: flex;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: visibility 0.4s, background 0.4s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 40;
+}
+.search-active .search-pop-overlay {
+  background: rgba(0,0,0,0.3);
+  visibility: visible;
+}
+.search-popup {
+  background: var(--card-bg-color);
+  border-radius: 5px;
+  height: 80%;
+  margin: auto;
+  transform: scale(0);
+  transition: transform 0.4s;
+  width: 700px;
+}
+.search-active .search-popup {
+  transform: scale(1);
+}
+@media (max-width: 767px) {
+  .search-popup {
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+.search-popup .search-icon,
+.search-popup .popup-btn-close {
+  color: #999;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.search-popup .popup-btn-close {
+  cursor: pointer;
+}
+.search-popup .popup-btn-close:hover .fa {
+  color: #222;
+}
+.search-popup .search-header {
+  background: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  padding: 5px;
+}
+@media (prefers-color-scheme: dark) {
+  .search-popup .search-header {
+    background: #666;
+  }
+}
+.search-popup input.search-input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 100%;
+}
+.search-popup input.search-input::-webkit-search-cancel-button {
+  display: none;
+}
+.search-popup .search-result-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 55px);
+  overflow: auto;
+  padding: 5px 25px;
+}
+.search-popup .search-result-container hr {
+  flex-shrink: 0;
+  margin: 5px 0 10px;
+}
+.search-popup .search-result-container hr:first-child {
+  display: none;
+}
+.search-popup .search-result-list {
+  margin: 0 5px;
+  padding: 0;
+}
+.search-popup a.search-result-title {
+  font-weight: bold;
+}
+.search-popup p.search-result {
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 0;
+}
+.search-popup .search-input-container {
+  flex-grow: 1;
+  padding: 2px;
+}
+.search-popup .search-result-icon {
+  color: #ccc;
+  margin: auto;
+}
 mark.search-keyword {
   background: transparent;
   border-bottom: 1px dashed #ff2a2a;
@@ -3037,3 +3144,92 @@ body {
   border-radius: 8px !important;
 }
 */
+.tag-cloud {
+  text-align: center;
+  padding: 30px;
+}
+.tag-cloud a {
+  display: inline-block;
+  margin: 10px;
+  padding: 0 15px;
+  line-height: 40px;
+  background: linear-gradient(to right, #9733ee, #ff512f);
+  border-radius: 20px;
+  color: #fff !important;
+  font-size: 16px !important;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+.tag-cloud a:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.tag-cloud a:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+.tag-cloud a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75px;
+  width: 50px;
+  height: 100%;
+  background: rgba(255,255,255,0.3);
+  transform: skewX(-15deg);
+  transition: 0.5s;
+}
+.tag-cloud a small {
+  margin-left: 5px;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+/* 标签云悬浮动画 */
+.tag-cloud a {
+  animation: float 3s ease-in-out infinite;
+}
+.tag-cloud a:nth-child(3n) {
+  animation-delay: 0s;
+}
+.tag-cloud a:nth-child(3n+1) {
+  animation-delay: 0.5s;
+}
+.tag-cloud a:nth-child(3n+2) {
+  animation-delay: 1s;
+}
+[data-theme="dark"] .tag-cloud a {
+  background: linear-gradient(to right, #614385, #516395);
+}
+[data-theme="dark"] .tag-cloud a:hover {
+  box-shadow: 0 10px 20px rgba(255,255,255,0.1);
+}
+.tag-cloud-tags {
+  text-align: center;
+  padding: 30px;
+}
+.tag-cloud-tags a {
+  display: inline-block;
+  margin: 8px;
+  padding: 5px 10px;
+  background: transparent;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.tag-cloud-tags a:hover {
+  background: rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
