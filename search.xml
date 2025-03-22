@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Basic Electricity Chapter 1:PARTA Atomic Structure and Properties</title>
+    <url>/2024/03/21/2024-03-21-atomic-structure/</url>
+    <content><![CDATA[<p><img src="https://i.imgur.com/8JQZxGX.png" alt="Atomic Structure"></p>
+<h1 id="Basic-Electricity-Chapter-1-PARTA-Atomic-Structure-and-Properties"><a href="#Basic-Electricity-Chapter-1-PARTA-Atomic-Structure-and-Properties" class="headerlink" title="Basic Electricity Chapter 1:PARTA Atomic Structure and Properties"></a>Basic Electricity Chapter 1:PARTA Atomic Structure and Properties</h1><h2 id="Atomic-Structure"><a href="#Atomic-Structure" class="headerlink" title="Atomic Structure"></a>Atomic Structure</h2><ul>
+<li>The center of an atom contains a nucleus, which consists of positively charged protons and electrically neutral neutrons.</li>
+<li>Negatively charged electrons orbit around the nucleus. For teaching purposes, different orbits are distinguished by different colors.</li>
+<li>An atom is electrically neutral because the positive charge of protons in the nucleus equals and cancels out the negative charge of electrons outside the nucleus.</li>
+<li>Electrons in the outermost orbit are called valence electrons, and their number determines the element’s valence in the periodic table.</li>
+</ul>
+<h2 id="Atomic-Number"><a href="#Atomic-Number" class="headerlink" title="Atomic Number"></a>Atomic Number</h2><ul>
+<li>The atomic number represents the number of protons in the atomic nucleus.</li>
+<li>In a neutral atom, the atomic number also equals the number of electrons outside the nucleus.</li>
+<li>The periodic table is arranged according to atomic numbers.</li>
+<li>Examples: Hydrogen (H) has atomic number 1, meaning it has 1 proton and 1 electron. An atom with atomic number 5 has 5 protons and 5 electrons.</li>
+<li>Common element examples: Copper (Cu) has atomic number 29 (29 protons and 29 electrons), Germanium (Ge) has atomic number 32 (32 protons and 32 electrons), and Silicon (Si) has atomic number 14 (14 protons and 14 electrons).</li>
+</ul>
+<h2 id="Electron-Orbital-Distribution"><a href="#Electron-Orbital-Distribution" class="headerlink" title="Electron Orbital Distribution"></a>Electron Orbital Distribution</h2><ul>
+<li>Electrons outside the nucleus are distributed in different orbits in layers.</li>
+<li>The maximum number of electrons each layer can hold can be calculated using the formula 2n², where n is the orbit number (n&#x3D;1, 2, 3, 4…).</li>
+<li>This formula is only applicable for orbits n ≤ 4.</li>
+<li>The first layer (n&#x3D;1), also called K shell, can hold up to 2 × (1)² &#x3D; 2 electrons.</li>
+<li>The second layer (n&#x3D;2), also called L shell, can hold up to 2 × (2)² &#x3D; 8 electrons.</li>
+<li>The third layer (n&#x3D;3), also called M shell, can hold up to 2 × (3)² &#x3D; 18 electrons.</li>
+<li>The fourth layer (n&#x3D;4), also called N shell, can hold up to 2 × (4)² &#x3D; 32 electrons.</li>
+<li>The outermost electron layer is called the valence shell.</li>
+<li>Example: Silicon (Si) has atomic number 14, with electron distribution: 2 electrons in K shell, 8 electrons in L shell, and 4 electrons in M shell. Therefore, silicon has 4 valence electrons and is a tetravalent atom.</li>
+</ul>
+<h2 id="Electric-Charge-and-Mass"><a href="#Electric-Charge-and-Mass" class="headerlink" title="Electric Charge and Mass"></a>Electric Charge and Mass</h2><ul>
+<li>The unit of electric charge is Coulomb (C).</li>
+<li>Electrons carry negative charge of -1.602 × 10⁻¹⁹ Coulombs.</li>
+<li>Protons carry positive charge of +1.602 × 10⁻¹⁹ Coulombs. The charge magnitudes of electrons and protons are equal but opposite in sign.</li>
+<li>Neutrons carry no charge (0).</li>
+<li>The unit of mass is kilograms (kg).</li>
+<li>Electron mass is approximately 9.107 × 10⁻³¹ kg.</li>
+<li>Proton mass is approximately 1.6729 × 10⁻²⁷ kg.</li>
+<li>Proton mass is much larger than electron mass, about 1840 times greater.</li>
+</ul>
+<h2 id="Summary-and-Recommendations"><a href="#Summary-and-Recommendations" class="headerlink" title="Summary and Recommendations"></a>Summary and Recommendations</h2><ul>
+<li>This lesson introduced the basic structure of atoms.</li>
+<li>Students are recommended to practice drawing atomic structures of Copper (Cu), Germanium (Ge), and Silicon (Si), showing electron distribution and valence electrons, using the 2n² formula.</li>
+</ul>
+<hr>
+<h1 id="基本電學-第一章：PARTA-原子結構與特性"><a href="#基本電學-第一章：PARTA-原子結構與特性" class="headerlink" title="基本電學 第一章：PARTA 原子結構與特性"></a>基本電學 第一章：PARTA 原子結構與特性</h1><h2 id="原子結構"><a href="#原子結構" class="headerlink" title="原子結構"></a>原子結構</h2><ul>
+<li>原子中心有一個原子核，原子核由帶正電荷的質子和不帶電荷的中子組成。</li>
+<li>帶負電荷的電子在原子核外的軌道上運行。為了方便講解，軌道會用不同顏色區分。</li>
+<li>原子是電中性的，因為原子核內質子的正電荷與核外電子的負電荷數量相等且互相抵消。</li>
+<li>最外層軌道的電子稱為價電子，價電子的數量決定了該元素在元素週期表上的價數。</li>
+</ul>
+<h2 id="原子序"><a href="#原子序" class="headerlink" title="原子序"></a>原子序</h2><ul>
+<li>原子序代表了該原子核中的質子數量。</li>
+<li>在電中性的原子中，原子序也等於核外電子的數量。</li>
+<li>元素週期表是根據原子序排列的。</li>
+<li>例如：原子序為 1 的氫原子，其原子核中含有 1 個質子，核外也有 1 個電子。原子序為 5 的原子，其原子核中有 5 個質子，核外有 5 個電子。</li>
+<li>常見元素的原子序例子：銅 (Cu) 的原子序是 29，表示其有 29 個質子和 29 個電子；鍺 (Ge) 的原子序是 32，表示其有 32 個質子和 32 個電子；矽 (Si) 的原子序是 14，表示其有 14 個質子和 14 個電子。</li>
+</ul>
+<h2 id="原子軌道分佈"><a href="#原子軌道分佈" class="headerlink" title="原子軌道分佈"></a>原子軌道分佈</h2><ul>
+<li>核外電子是分層分佈在不同的軌道上。</li>
+<li>每個電子層能容納的最大電子數可以用公式 2n² 計算，其中 n 是軌道數目（n&#x3D;1, 2, 3, 4…）。</li>
+<li>這個公式只適用於軌道數小於等於 4 的情況。</li>
+<li>第一層 (n&#x3D;1) 又稱為 K 層，最多可容納 2 × (1)² &#x3D; 2 個電子。</li>
+<li>第二層 (n&#x3D;2) 又稱為 L 層，最多可容納 2 × (2)² &#x3D; 8 個電子。</li>
+<li>第三層 (n&#x3D;3) 又稱為 M 層，最多可容納 2 × (3)² &#x3D; 18 個電子。</li>
+<li>第四層 (n&#x3D;4) 又稱為 N 層，最多可容納 2 × (4)² &#x3D; 32 個電子。</li>
+<li>最外層的電子層又稱為價層。</li>
+<li>矽 (Si) 的原子序是 14，其電子分佈為：第一層 (K) 2 個電子，第二層 (L) 8 個電子，第三層 (M) 4 個電子。因此，矽原子最外層有 4 個價電子，是四價原子。</li>
+</ul>
+<h2 id="帶電量與質量"><a href="#帶電量與質量" class="headerlink" title="帶電量與質量"></a>帶電量與質量</h2><ul>
+<li>電荷的單位是庫侖 (Coulomb)。</li>
+<li>電子帶負電荷，電荷量為 -1.602 × 10⁻¹⁹ 庫侖。</li>
+<li>質子帶正電荷，電荷量為 +1.602 × 10⁻¹⁹ 庫侖。電子和質子的電荷量大小相等，符號相反。</li>
+<li>中子不帶電荷，電荷量為 0。</li>
+<li>質量的單位是公斤 (kg)。</li>
+<li>電子的質量約為 9.107 × 10⁻³¹ 公斤。</li>
+<li>質子的質量約為 1.6729 × 10⁻²⁷ 公斤。</li>
+<li>質子的質量遠大於電子的質量，約為電子的 1840 倍。</li>
+</ul>
+<h2 id="總結與建議"><a href="#總結與建議" class="headerlink" title="總結與建議"></a>總結與建議</h2><ul>
+<li>本次課程介紹了原子的基本結構。</li>
+<li>建議同學練習繪製銅 (Cu)、鍺 (Ge) 和矽 (Si) 的原子結構圖，標示出電子分佈和價電子，並善用 2n² 公式。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Atomic Structure</tag>
+        <tag>Basic Electronics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Basic Electricity Chapter 1 Introduction to Electricity</title>
     <url>/2024/03/21/2024-03-21-basic-electricity-chapter1/</url>
     <content><![CDATA[<p><img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Electricity Concept"></p>
