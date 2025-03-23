@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://bill55tt.github.io/subscribe/index.html</loc>
+    
+    <lastmod>2025-03-23T08:06:16.848Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://bill55tt.github.io/about/index.html</loc>
     
-    <lastmod>2025-03-23T07:47:08.740Z</lastmod>
+    <lastmod>2025-03-23T07:55:10.168Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -86,15 +95,6 @@
     <loc>https://bill55tt.github.io/tags/index.html</loc>
     
     <lastmod>2025-03-22T03:40:51.068Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/subscribe/index.html</loc>
-    
-    <lastmod>2025-03-21T07:23:50.672Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
