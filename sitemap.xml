@@ -2,9 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://bill55tt.github.io/2024/03/24/electrical-units-and-international-system/</loc>
+    
+    <lastmod>2025-04-06T12:40:14.100Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/23/2025-04-06/</loc>
+    
+    <lastmod>2025-04-06T12:15:18.936Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/23/2024-04-06/</loc>
+    
+    <lastmod>2025-04-06T12:14:34.892Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/21/2024-03-21-basic-electronics/</loc>
+    
+    <lastmod>2025-04-06T12:13:56.372Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/23/pcb-manufacturing-process-guide/</loc>
+    
+    <lastmod>2025-03-24T15:17:15.688Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://bill55tt.github.io/subscribe/index.html</loc>
     
-    <lastmod>2025-03-23T12:28:44.640Z</lastmod>
+    <lastmod>2025-03-24T14:50:00.900Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/23/electronic-components-identification-and-soldering-guide/</loc>
+    
+    <lastmod>2025-03-24T14:48:33.992Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -41,15 +95,6 @@
     <loc>https://bill55tt.github.io/schedule/index.html</loc>
     
     <lastmod>2025-03-23T07:00:48.736Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2024/03/21/2024-03-21-basic-electronics/</loc>
-    
-    <lastmod>2025-03-22T15:00:30.540Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

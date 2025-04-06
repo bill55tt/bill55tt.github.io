@@ -1461,7 +1461,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #a6b4ff;
+    background: #fffbff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3097,6 +3097,14 @@ header.header {
     padding: 10px 12px;
   }
 }
+/*
+ * @Author: bill503084699 bill503084699@gmail.com
+ * @Date: 2025-03-21 20:44:21
+ * @LastEditors: bill503084699 bill503084699@gmail.com
+ * @LastEditTime: 2025-03-24 22:50:48
+ * @FilePath: /bill55tt.github.io/source/_data/styles.styl
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /* 背景图片 */
 body {
   background: url("/images/bg.jpg") no-repeat center center fixed !important;
