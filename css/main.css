@@ -1461,7 +1461,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #fffbff;
+    background: #ff7fc6;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3209,6 +3209,51 @@ body {
   background: rgba(0,0,0,0.1);
   transform: translateY(-2px);
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.language-toggle {
+  margin: 20px 0;
+  text-align: center;
+  user-select: none;
+}
+.language-toggle button {
+  margin: 0 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.language-toggle button:hover {
+  background-color: #e0e0e0;
+}
+.language-toggle button.active {
+  background-color: #4a90e2;
+  color: #fff;
+}
+.lang {
+  display: none;
+}
+.lang-show-zh .lang-zh,
+.lang-show-en .lang-en,
+.lang-show-both .lang-zh,
+.lang-show-both .lang-en {
+  display: block;
+}
+.lang-show-both .lang-zh {
+  border-left: 3px solid #ddd;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.lang-show-both .lang-en {
+  border-left: 3px solid #eee;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+.bilingual-section {
+  margin-bottom: 20px;
 }
 @keyframes float {
   0% {
