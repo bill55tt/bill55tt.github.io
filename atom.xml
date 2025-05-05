@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-05-05T14:19:28.012Z</updated>
+  <updated>2025-05-05T14:41:33.540Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -15,6 +15,284 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>High School Basic Electricity: Fundamental Theories of Electricity - Power Part A - 高中基本電學：電學基礎理論 - 電功率 PART A</title>
+    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-a/"/>
+    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-a/</id>
+    <published>2025-05-05T05:00:00.000Z</published>
+    <updated>2025-05-05T14:41:33.540Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Title & Introduction Outline</h2>    <p><b>Title:</b> High School Basic Electricity: Basic Theory of Electricity - Power Part A: Power, Horsepower, Electric Power, Examples</p>    <ul>      <li>Power</li>      <li>Horsepower</li>      <li>Electric Power</li>      <li>Examples</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>標題與前言大綱</h2>    <p><b>標題：</b>高中基本電學_電學基礎理論_電功率_PART A 功率、馬力、電功率、範例</p>    <ul>      <li>功率</li>      <li>馬力</li>      <li>電功率</li>      <li>範例</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Power</b><br>        Definition: The work done or energy used per unit time.<br>        Formula: $P = \frac{W}{t}$<br>        Unit: Watt (W)      </li>      <li><b>Horsepower</b><br>        Definition: The power required to lift a 76 kg weight by 1 meter in 1 second.<br>        Unit: Horsepower (hp)<br>        Conversion: 1 hp = 746 W      </li>      <li><b>Electric Power</b><br>        Definition: The product of voltage and current in a circuit.<br>        Formula: $P = VI$<br>        Unit: Watt (W)      </li>      <li><b>Examples</b>        <ul>          <li>Example 1: A lamp has a potential difference of 12 V and a current of 5 A. What is the power consumed?<br>          $P = VI = 12 \times 5 = 60\,W$</li>          <li>Example 2: A prime mover lifts a 1000 N weight by 20 m in 4 seconds. What is the output power and its horsepower?<br>          Work $W = FS = 1000 \times 20 = 20,000\,J$<br>          Power $P = \frac{W}{t} = \frac{20,000}{4} = 5,000\,W = 5\,kW$<br>          Horsepower $= \frac{5,000}{746} \approx 6.7\,hp$</li>        </ul>      </li>    </ol>    <h3>Vocabulary</h3>    <ul>      <li>Power</li>      <li>Horsepower</li>      <li>Electric Power</li>      <li>Watt</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>詳細重點統整</h2>    <ol>      <li><b>功率</b><br>        定義：單位時間內所做的功或能量。<br>        公式：$P = \frac{W}{t}$<br>        單位：瓦特 (Watt, W)      </li>      <li><b>馬力</b><br>        定義：一匹馬在1秒鐘內將76公斤的重物提高1公尺。<br>        單位：馬力 (Horsepower, hp)<br>        換算：1 hp = 746 W      </li>      <li><b>電功率</b><br>        定義：電路中電壓和電流的乘積。<br>        公式：$P = VI$<br>        單位：瓦特 (Watt, W)      </li>      <li><b>範例</b>        <ul>          <li>範例一：電燈兩端的電位差12伏特，流過電燈的電流5安培，消耗功率多少瓦特？<br>          $P = VI = 12 \times 5 = 60\,W$</li>          <li>範例二：有一個原動機在4秒鐘將1000牛頓的重物提高20公尺，輸出功率多少瓦還有它的馬力是多少？<br>          做功 $W = FS = 1000 \times 20 = 20,000\,J$<br>          功率 $P = \frac{W}{t} = \frac{20,000}{4} = 5,000\,W = 5\,kW$<br>          馬力 $= \frac{5,000}{746} \approx 6.7\,hp$</li>        </ul>      </li>    </ol>    <h3>英文翻譯</h3>    <ul>      <li>功率: Power</li>      <li>馬力: Horsepower</li>      <li>電功率: Electric Power</li>      <li>瓦特: Watt</li>    </ul>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=AsYKEFYRNYk&embeds_referring_euri=https://app.youlearn.ai/&embeds_referring_origin=https://app.youlearn.ai">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Title &amp; Introduction Outline&lt;/h2&gt;
+    &lt;p&gt;&lt;b&gt;Title:&lt;/b&gt; High School Basi</summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Power" scheme="https://bill55tt.github.io/tags/Power/"/>
+    
+    <category term="Horsepower" scheme="https://bill55tt.github.io/tags/Horsepower/"/>
+    
+    <category term="Watt" scheme="https://bill55tt.github.io/tags/Watt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Fundamental Theories of Electricity - Power Part B - 高中基本電學：電學基礎理論 - 電功率 PART B</title>
+    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-b/"/>
+    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-b/</id>
+    <published>2025-05-05T05:00:00.000Z</published>
+    <updated>2025-05-05T14:38:54.254Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This lesson, taught by Mr. Chen Zhengxu, introduces the concepts of electric energy and kilowatt-hour (kWh), including practical calculation examples.</p>  </div>  <div class="lang lang-zh">    <h2>課程簡介</h2>    <p>高中基本電學_電學基礎理論_電功率_PART B 電能與電度，由陳政旭老師主講，主要介紹電能與電度的概念。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ul>      <li><b>Meaning of Electric Energy:</b> Electric energy is the energy consumed by an electrical appliance with power P (watts) over t seconds.<br>Formula: $W = P \cdot t$, unit: joule (J).</li>      <li><b>Kilowatt-Hour (kWh):</b> kWh is the unit used by power companies to measure electric energy. 1 kWh = the energy consumed by a 1000-watt appliance used for 1 hour.</li>      <li><b>Conversion between Electric Energy and kWh:</b> 1 kWh = $3.6 \times 10^6$ joules.</li>    </ul>    <h3>Examples</h3>    <ul>      <li><b>Example 1:</b> How much energy (in joules) does a 4000-watt motor consume in 30 minutes?<br>$W = 4000 \cdot (30 \cdot 60) = 7.2 \times 10^6$ J</li>      <li><b>Example 2:</b> Calculating a household's daily electricity cost.<br>Total usage: 6 kWh.<br>Total cost: $6 \cdot 3 = 18$ NTD/day.<br>30-day total: $18 \cdot 30 = 540$ NTD.</li>    </ul>    <h3>Vocabulary</h3>    <ul>      <li>Electric Energy</li>      <li>Electricity Degree or Kilowatt-Hour (kWh)</li>      <li>Electric Power</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>影片重點統整</h2>    <ul>      <li><b>電能的涵義：</b>電能是功率為P瓦特的電器用品，使用t秒鐘所消耗的能量。<br>公式：$W = P \cdot t$，單位為焦耳。</li>      <li><b>電度：</b>電度是電力公司對電能的計算方式。1度電 = 1000瓦的功率的電器用品，使用1個小時所消耗的電能。</li>      <li><b>電能與電度的換算：</b>1度電 = $3.6 \times 10^6$焦耳。</li>    </ul>    <h3>範例</h3>    <ul>      <li><b>範例一：</b>4000瓦的電動機運轉30分鐘，共消耗電能多少焦耳？<br>$W = 4000 \cdot (30 \cdot 60) = 7.2 \times 10^6$焦耳。</li>      <li><b>範例二：</b>某家庭每日用電量計算，總共要付多少電費？<br>總用電量：6度電。<br>總電費：$6 \cdot 3 = 18$元/天。<br>30天總電費：$18 \cdot 30 = 540$元。</li>    </ul>    <h3>英文翻譯</h3>    <ul>      <li>電能：Electric Energy</li>      <li>電度：Electricity Degree or Kilowatt-Hour (kWh)</li>      <li>電功率：Electric Power</li>    </ul>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=GOAqeMwiiYo&t=1s">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;This lesson, taught by Mr. Chen Zhengxu, intro</summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Power" scheme="https://bill55tt.github.io/tags/Power/"/>
+    
+    <category term="Electric Energy" scheme="https://bill55tt.github.io/tags/Electric-Energy/"/>
+    
+    <category term="kWh" scheme="https://bill55tt.github.io/tags/kWh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Fundamental Theories of Electricity - Power Part C - 高中基本電學：電學基礎理論 - 電功率 PART C</title>
+    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-c/"/>
+    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-c/</id>
+    <published>2025-05-05T05:00:00.000Z</published>
+    <updated>2025-05-05T14:39:54.739Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This lesson covers the concept of efficiency in electrical power, including its definition, formula, and practical examples. Understanding efficiency is crucial for analyzing energy conversion systems and optimizing performance.</p>  </div>  <div class="lang lang-zh">    <h2>前言</h2>    <p>本課程介紹電功率中的效率概念，包括定義、公式與實際範例。理解效率對於分析能量轉換系統與提升效能至關重要。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ul>      <li><b>Efficiency Definition:</b> Efficiency is defined as the ratio of output energy to input energy, expressed as a percentage.</li>      <li><b>Efficiency Formula:</b> Efficiency = (Output Energy / Input Energy) × 100%</li>      <li><b>Energy Conversion System:</b> An energy conversion system can consist of multiple subsystems connected in series, with the overall efficiency being the product of the efficiencies of the individual subsystems.</li>    </ul>    <h3>Example Analysis</h3>    <ul>      <li><b>Example 1:</b> A water pump motor with an input power of 880 watts and an efficiency of 0.85, find output power and loss power.</li>      <li><b>Example 2:</b> A power system consisting of two subsystems with efficiencies of 0.8 and 0.9, find the overall efficiency and output energy.</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>詳細重點統整</h2>    <ul>      <li><b>效率的定義：</b>效率是指輸出能量與輸入能量的比值，以百分率表示。</li>      <li><b>效率公式：</b>效率 = (輸出能量 / 輸入能量) × 100%</li>      <li><b>能量轉換系統：</b>能量轉換系統可以由多個子系統串接而成，總效率為各子系統效率的乘積。</li>    </ul>    <h3>範例解析</h3>    <ul>      <li><b>範例一：</b>抽水馬達輸入功率 880 瓦，效率 0.85，求輸出功率和損失功率。</li>      <li><b>範例二：</b>電力系統由兩個子系統組成，效率分別為 0.8 和 0.9，求總效率和輸出能量。</li>    </ul>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;This lesson covers the concept of efficiency i</summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Power" scheme="https://bill55tt.github.io/tags/Power/"/>
+    
+    <category term="Efficiency" scheme="https://bill55tt.github.io/tags/Efficiency/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Fundamental Theories of Electricity - Current Part B - 高中基本電學：電學基礎理論 - 電流 PART B</title>
+    <link href="https://bill55tt.github.io/2024/05/05/2024-05-05-electricity-fundamental-theories-current-part-b/"/>
+    <id>https://bill55tt.github.io/2024/05/05/2024-05-05-electricity-fundamental-theories-current-part-b/</id>
+    <published>2024-05-05T05:00:00.000Z</published>
+    <updated>2025-05-05T14:31:08.180Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Current is a fundamental concept in electricity that describes the flow of electric charge. This article explores an alternative method for calculating current based on the physical properties of conductors and electron movement.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>電流是電學中的基本概念，描述電荷的流動。本文探討基於導體物理特性和電子運動的電流計算替代方法。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Current Definition and Basic Formula</h2>    <p>Current (I) is defined as the amount of charge (Q) passing through a conductor's cross-section per unit time (t):</p>    <p>I = Q/t</p>  </div>  <div class="lang lang-zh">    <h2>電流定義與基本公式</h2>    <p>電流(I)定義為單位時間(t)內通過導體截面的電荷量(Q)：</p>    <p>I = Q/t</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Alternative Current Calculation Method</h2>    <p>Current can also be calculated using the following formula:</p>    <p>I = N × A × v × e</p>    <p>Where:</p>    <ul>      <li>N: Number of free electrons per cubic meter</li>      <li>A: Cross-sectional area of the conductor (m²)</li>      <li>v: Velocity of electron flow (m/s)</li>      <li>e: Charge of an electron (approximately 1.6 × 10^-19 coulombs)</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>電流計算的替代方法</h2>    <p>電流也可以使用以下公式計算：</p>    <p>I = N × A × v × e</p>    <p>其中：</p>    <ul>      <li>N：每立方公尺的自由電子數量</li>      <li>A：導體的截面積（m²）</li>      <li>v：電子的移動速率（m/s）</li>      <li>e：電子的電荷量（約1.6 × 10^-19庫侖）</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Calculation Examples</h2>    <h3>Example 1: Current Calculation in Copper Wire</h3>    <p>Given:</p>    <ul>      <li>Free electron density (N) = 8.5 × 10^28 electrons/m³</li>      <li>Cross-sectional area (A) = 1 × 10^-6 m²</li>      <li>Electron velocity (v) = 0.1 mm/s</li>    </ul>    <p>Calculate the current:</p>    <p>I = N × A × v × e</p>    <p>I = (8.5 × 10^28) × (1 × 10^-6) × (0.1 × 10^-3) × (1.6 × 10^-19)</p>    <p>I = 1.36 A</p>    <h3>Example 2: Electron Velocity Calculation</h3>    <p>Given:</p>    <ul>      <li>Current (I) = 2 A</li>      <li>Free electron density (N) = 8.5 × 10^28 electrons/m³</li>      <li>Cross-sectional area (A) = 2 × 10^-6 m²</li>    </ul>    <p>Calculate the electron velocity:</p>    <p>v = I / (N × A × e)</p>    <p>v = 2 / [(8.5 × 10^28) × (2 × 10^-6) × (1.6 × 10^-19)]</p>    <p>v ≈ 0.074 mm/s</p>  </div>  <div class="lang lang-zh">    <h2>計算範例</h2>    <h3>範例1：銅線中的電流計算</h3>    <p>已知：</p>    <ul>      <li>自由電子密度(N) = 8.5 × 10^28 電子/m³</li>      <li>截面積(A) = 1 × 10^-6 m²</li>      <li>電子速度(v) = 0.1 mm/s</li>    </ul>    <p>計算電流：</p>    <p>I = N × A × v × e</p>    <p>I = (8.5 × 10^28) × (1 × 10^-6) × (0.1 × 10^-3) × (1.6 × 10^-19)</p>    <p>I = 1.36 A</p>    <h3>範例2：電子速度計算</h3>    <p>已知：</p>    <ul>      <li>電流(I) = 2 A</li>      <li>自由電子密度(N) = 8.5 × 10^28 電子/m³</li>      <li>截面積(A) = 2 × 10^-6 m²</li>    </ul>    <p>計算電子速度：</p>    <p>v = I / (N × A × e)</p>    <p>v = 2 / [(8.5 × 10^28) × (2 × 10^-6) × (1.6 × 10^-19)]</p>    <p>v ≈ 0.074 mm/s</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Understanding current calculation methods is essential for electrical engineering</p>    <p>Both basic and alternative formulas provide valuable insights</p>    <p>Proper unit conversion is crucial for accurate calculations</p>    <p>Physical properties of conductors affect current flow</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>理解電流計算方法對電機工程至關重要</p>    <p>基本公式和替代公式都提供了寶貴的見解</p>    <p>正確的單位轉換對準確計算至關重要</p>    <p>導體的物理特性影響電流流動</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=yX5MYFl2Vlw">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Electric Current"> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;Current is a fundamental concept in electricit</summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Current" scheme="https://bill55tt.github.io/tags/Current/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Calculation" scheme="https://bill55tt.github.io/tags/Calculation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Fundamental Theories of Electricity - Charge Part A - 高中基本電學：電學基礎理論 - 電荷 PART A</title>
+    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-electricity-fundamental-theories-charge-part-a/"/>
+    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-electricity-fundamental-theories-charge-part-a/</id>
+    <published>2024-03-25T05:00:00.000Z</published>
+    <updated>2025-05-05T14:22:24.084Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>The study of electricity begins with understanding the fundamental concept of electric charge. This article explores the historical development of charge theory and introduces key scientific contributions that shaped our understanding of electricity.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>電學的研究始於理解電荷的基本概念。本文探討電荷理論的歷史發展，並介紹塑造我們對電學理解的關鍵科學貢獻。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Historical Background</h2>    <p>The understanding of electric charge has evolved through the contributions of several important scientists:</p>    <p>Sir Isaac Newton (1643-1727): His work on universal gravitation influenced later theories of electrical forces</p>    <p>Charles-Augustin de Coulomb (1736-1806): Formulated Coulomb's law describing electrical forces</p>    <p>John Dalton (1766-1844): Proposed atomic theory, though later modified</p>    <p>Robert Millikan (1868-1953): Measured the charge of a single electron</p>    <p>Ernest Rutherford (1871-1937): Contributed to understanding atomic structure</p>  </div>  <div class="lang lang-zh">    <h2>歷史背景</h2>    <p>對電荷的理解通過幾位重要科學家的貢獻而發展：</p>    <p>艾薩克・牛頓爵士(1643-1727)：他對萬有引力的研究影響了後來的電力理論</p>    <p>查爾斯・奧古斯丁・庫侖(1736-1806)：提出描述電力作用的庫侖定律</p>    <p>約翰・道耳吞(1766-1844)：提出原子理論，後被修正</p>    <p>羅伯特・密利根(1868-1953)：測量單一電子的電荷</p>    <p>歐內斯特・拉塞福(1871-1937)：對理解原子結構做出貢獻</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Basic Charge and Electric Quantity</h2>    <p>The fundamental unit of electric charge is the coulomb (C)</p>    <p>One electron carries a charge of -1.6 × 10^-19 coulombs</p>    <p>One proton carries a charge of +1.6 × 10^-19 coulombs</p>    <p>The charge of an electron is equal in magnitude but opposite in sign to that of a proton</p>  </div>  <div class="lang lang-zh">    <h2>基本電荷與電量</h2>    <p>電量的基本單位是庫侖(C)</p>    <p>一個電子帶有-1.6 × 10^-19庫侖的電量</p>    <p>一個質子帶有+1.6 × 10^-19庫侖的電量</p>    <p>電子的電量與質子大小相等但符號相反</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Scientific Contributions</h2>    <h3>Newton's Law of Universal Gravitation</h3>    <p>Influenced the development of Coulomb's law</p>    <p>Demonstrated the concept of action at a distance</p>    <p>Established mathematical relationships for forces</p>    <h3>Coulomb's Law</h3>    <p>Describes the force between two point charges</p>    <p>Like charges repel, unlike charges attract</p>    <p>Force is proportional to the product of charges</p>    <p>Force is inversely proportional to the square of distance</p>    <h3>Dalton's Atomic Theory</h3>    <p>Atoms are indivisible (later revised)</p>    <p>All atoms of an element are identical</p>    <p>Atoms combine in simple whole number ratios</p>    <h3>Millikan's Oil Drop Experiment</h3>    <p>Measured the charge of a single electron</p>    <p>Determined the basic charge unit</p>    <p>Confirmed the quantization of electric charge</p>  </div>  <div class="lang lang-zh">    <h2>關鍵科學貢獻</h2>    <h3>牛頓的萬有引力定律</h3>    <p>影響了庫侖定律的發展</p>    <p>展示了超距作用的概念</p>    <p>建立了力的數學關係</p>    <h3>庫侖定律</h3>    <p>描述兩個點電荷之間的力</p>    <p>同性相斥，異性相吸</p>    <p>力與電荷乘積成正比</p>    <p>力與距離平方成反比</p>    <h3>道耳吞的原子理論</h3>    <p>原子是不可分割的（後被修正）</p>    <p>同一元素的所有原子都相同</p>    <p>原子以簡單整數比結合</p>    <h3>密利根的油滴實驗</h3>    <p>測量單一電子的電荷</p>    <p>確定了基本電荷單位</p>    <p>證實了電荷的量子化</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Charge Calculations</h2>    <h3>Example 1: Total Charge Calculation</h3>    <p>Calculate the total charge of 5 × 10^19 electrons:</p>    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>    <p>Q = -8 coulombs</p>    <p>The negative sign indicates excess electrons</p>    <h3>Example 2: Number of Electrons</h3>    <p>Calculate the number of electrons in 1 coulomb:</p>    <p>Number of electrons = 1 / (1.6 × 10^-19)</p>    <p>Number of electrons = 6.25 × 10^18</p>  </div>  <div class="lang lang-zh">    <h2>電荷計算</h2>    <h3>範例1：總電量計算</h3>    <p>計算5 × 10^19個電子的總電量：</p>    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>    <p>Q = -8庫侖</p>    <p>負號表示過量的電子</p>    <h3>範例2：電子數量</h3>    <p>計算1庫侖中的電子數量：</p>    <p>電子數量 = 1 / (1.6 × 10^-19)</p>    <p>電子數量 = 6.25 × 10^18</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Electric charge is a fundamental property of matter</p>    <p>The basic unit of charge is the coulomb</p>    <p>Charges interact through Coulomb's law</p>    <p>Understanding charge is essential for electricity</p>    <p>Historical experiments shaped our understanding</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>電荷是物質的基本屬性</p>    <p>電量的基本單位是庫侖</p>    <p>電荷通過庫侖定律相互作用</p>    <p>理解電荷對電學至關重要</p>    <p>歷史實驗塑造了我們的理解</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Q9t-cVgXueM">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Electric Charge"> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;The study of electricity begins with understan</summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Charge" scheme="https://bill55tt.github.io/tags/Charge/"/>
+    
+    <category term="History" scheme="https://bill55tt.github.io/tags/History/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Characteristics of Static Charge and Example Exercises - 高中基本電學：靜電荷的特性與範例練習</title>
+    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-static-charge-characteristics/"/>
+    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-static-charge-characteristics/</id>
+    <published>2024-03-25T04:00:00.000Z</published>
+    <updated>2025-05-05T14:20:55.178Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Static charge is a fundamental concept in electricity that helps us understand the behavior of electric charges at rest. This article explores the basic characteristics of static charge, including the concepts of electrons and coulombs, and provides practical examples to enhance understanding.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>靜電荷是電學中的基本概念，幫助我們理解靜止狀態下電荷的行為。本文將探討靜電荷的基本特性，包括電子和庫侖的概念，並提供實際範例以加深理解。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Basic Unit of Electric Charge</h2>    <p>The fundamental unit of electric charge is the coulomb (C)</p>    <p>One electron carries a charge of -1.6 × 10^-19 coulombs</p>    <p>One proton carries a charge of +1.6 × 10^-19 coulombs</p>    <p>The charge of an electron is equal in magnitude but opposite in sign to that of a proton</p>  </div>  <div class="lang lang-zh">    <h2>電量的基本單位</h2>    <p>電量的基本單位是庫侖(C)</p>    <p>一個電子帶有-1.6 × 10^-19庫侖的電量</p>    <p>一個質子帶有+1.6 × 10^-19庫侖的電量</p>    <p>電子的電量與質子大小相等但符號相反</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Definition of Static Charge</h2>    <p>Static charge refers to electric charge that is at rest</p>    <p>It is the accumulation of electric charge on the surface of an object</p>    <p>Static charge can be generated through friction, contact, or induction</p>    <p>The charge remains stationary until it is discharged or neutralized</p>  </div>  <div class="lang lang-zh">    <h2>靜電荷的定義</h2>    <p>靜電荷指的是靜止不動的電荷</p>    <p>它是物體表面電荷的累積</p>    <p>靜電荷可以通過摩擦、接觸或感應產生</p>    <p>電荷保持靜止直到被放電或中和</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Characteristics of Static Charge</h2>    <h3>Like Charges Repel</h3>    <p>Charges of the same type repel each other</p>    <p>Positive charges repel other positive charges</p>    <p>Negative charges repel other negative charges</p>    <p>This is a fundamental property of electric charges</p>    <h3>Opposite Charges Attract</h3>    <p>Charges of different types attract each other</p>    <p>Positive and negative charges are attracted to each other</p>    <p>This attraction is the basis of many electrical phenomena</p>    <p>The force of attraction increases with decreasing distance</p>    <h3>Electrostatic Induction</h3>    <p>Neutral objects can be affected by nearby charged objects</p>    <p>Charges in the neutral object redistribute themselves</p>    <p>This creates temporary charge separation</p>    <p>The effect is stronger at closer distances</p>  </div>  <div class="lang lang-zh">    <h2>靜電荷的特性</h2>    <h3>同性相斥</h3>    <p>相同類型的電荷互相排斥</p>    <p>正電荷排斥其他正電荷</p>    <p>負電荷排斥其他負電荷</p>    <p>這是電荷的基本特性</p>    <h3>異性相吸</h3>    <p>不同類型的電荷互相吸引</p>    <p>正電荷和負電荷互相吸引</p>    <p>這種吸引力是許多電學現象的基礎</p>    <p>吸引力隨距離減少而增加</p>    <h3>靜電感應</h3>    <p>中性物體會受到附近帶電物體的影響</p>    <p>中性物體中的電荷會重新分布</p>    <p>這會產生暫時的電荷分離</p>    <p>距離越近，效果越強</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Franklin's Experiment</h2>    <p>Benjamin Franklin conducted experiments with static electricity</p>    <p>He rubbed a glass rod with silk to generate static charge</p>    <p>The glass rod became positively charged</p>    <p>The silk became negatively charged</p>    <p>This experiment demonstrated the transfer of electrons</p>  </div>  <div class="lang lang-zh">    <h2>富蘭克林的實驗</h2>    <p>班傑明・富蘭克林進行了靜電實驗</p>    <p>他通過摩擦玻璃棒和絲綢產生靜電</p>    <p>玻璃棒帶正電</p>    <p>絲綢帶負電</p>    <p>這個實驗展示了電子的轉移</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Example Exercises</h2>    <h3>Example 1: Calculating Atomic Charge</h3>    <p>Calculate the electric charge of an atom with 6 electrons and 3 protons:</p>    <p>Q = -6 × 1.6 × 10^-19 + 3 × 1.6 × 10^-19</p>    <p>Q = -4.8 × 10^-19 C</p>    <p>The atom has a net negative charge</p>    <h3>Example 2: Charge Removal</h3>    <p>Calculate the final charge after removing -1.5 microcoulombs:</p>    <p>Initial charge = -1.5 × 10^-6 C</p>    <p>Removed charge = -1.5 × 10^-6 C</p>    <p>Final charge = 0 C (neutral)</p>  </div>  <div class="lang lang-zh">    <h2>範例練習</h2>    <h3>範例1：計算原子電量</h3>    <p>計算帶有6個電子和3個質子的原子電量：</p>    <p>Q = -6 × 1.6 × 10^-19 + 3 × 1.6 × 10^-19</p>    <p>Q = -4.8 × 10^-19 C</p>    <p>該原子帶有淨負電荷</p>    <h3>範例2：電荷移除</h3>    <p>計算移去-1.5微庫侖電荷後的帶電量：</p>    <p>初始電量 = -1.5 × 10^-6 C</p>    <p>移除電量 = -1.5 × 10^-6 C</p>    <p>最終電量 = 0 C（中性）</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Static charge is electric charge at rest</p>    <p>Like charges repel, opposite charges attract</p>    <p>Electrostatic induction affects neutral objects</p>    <p>Charge can be calculated using the number of electrons and protons</p>    <p>Understanding static charge is fundamental to electricity</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>靜電荷是靜止的電荷</p>    <p>同性相斥，異性相吸</p>    <p>靜電感應影響中性物體</p>    <p>電量可以通過電子和質子數量計算</p>    <p>理解靜電荷是電學的基礎</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=4CrKgU8xJlM">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Static Charge"> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;Static charge is a fundamental concept in elec</summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Static Charge" scheme="https://bill55tt.github.io/tags/Static-Charge/"/>
+    
+  </entry>
   
   <entry>
     <title>High School Basic Electricity: Current Direction and Magnitude - 高中基本電學：電流的方向與大小</title>
@@ -450,36 +728,6 @@
         
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/FMkFcWl.png&quot; alt=&quot;Next Theme Configuration&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Next-Theme-Configuration-Guide&quot;&gt;&lt;a href=&quot;#Next-The</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://bill55tt.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Next Theme" scheme="https://bill55tt.github.io/tags/Next-Theme/"/>
-    
-    <category term="Configuration" scheme="https://bill55tt.github.io/tags/Configuration/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo NexT 主题侧边栏配置：文章概要和目录</title>
-    <link href="https://bill55tt.github.io/2024/03/21/sidebar-toc/"/>
-    <id>https://bill55tt.github.io/2024/03/21/sidebar-toc/</id>
-    <published>2024-03-21T03:00:00.000Z</published>
-    <updated>2025-03-22T14:59:05.440Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/FMkFcWl.png"></p><h2 id="配置文章概要和目录"><a href="#配置文章概要和目录" class="headerlink" title="配置文章概要和目录"></a>配置文章概要和目录</h2><p>在 NexT 主题中，侧边栏可以显示文章概要和目录，这对于阅读长文章特别有帮助。以下是具体的配置方法：</p><h3 id="1-配置文章概要（Post-Outline）"><a href="#1-配置文章概要（Post-Outline）" class="headerlink" title="1. 配置文章概要（Post Outline）"></a>1. 配置文章概要（Post Outline）</h3><p>在 <code>_config.next.yml</code> 中找到并修改以下配置：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Table of Contents in the Sidebar</span></span><br><span class="line"><span class="comment"># Front-matter variable (nonsupport wrap expand_all).</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 自动添加列表序号</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 如果标题宽度超过侧边栏宽度，是否换行</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 是否展开所有目录</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 目录最大深度</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure><h3 id="2-配置侧边栏位置和宽度"><a href="#2-配置侧边栏位置和宽度" class="headerlink" title="2. 配置侧边栏位置和宽度"></a>2. 配置侧边栏位置和宽度</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="comment"># 侧边栏位置：left（左侧）| right（右侧）</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏宽度（适用于 Muse | Mist 主题）</span></span><br><span class="line">  <span class="attr">width:</span> <span class="number">300</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏显示条件</span></span><br><span class="line">  <span class="comment"># post    - 默认，在文章页面自动展开</span></span><br><span class="line">  <span class="comment"># always  - 在所有页面自动展开</span></span><br><span class="line">  <span class="comment"># hide    - 点击侧边栏按钮时展开</span></span><br><span class="line">  <span class="comment"># remove  - 完全移除侧边栏</span></span><br><span class="line">  <span class="attr">display:</span> <span class="string">post</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏内边距（像素）</span></span><br><span class="line">  <span class="attr">padding:</span> <span class="number">18</span></span><br><span class="line">  <span class="comment"># 侧边栏与顶部菜单栏的偏移（仅适用于 Pisces | Gemini 主题）</span></span><br><span class="line">  <span class="attr">offset:</span> <span class="number">12</span></span><br></pre></td></tr></table></figure><h3 id="3-在文章中启用目录"><a href="#3-在文章中启用目录" class="headerlink" title="3. 在文章中启用目录"></a>3. 在文章中启用目录</h3><p>在文章的 Front-matter 中添加：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">你的文章标题</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2024-03-21 11:00:00</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><h3 id="4-配置目录样式"><a href="#4-配置目录样式" class="headerlink" title="4. 配置目录样式"></a>4. 配置目录样式</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 目录样式设置</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 自动添加列表序号</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 如果标题宽度超过侧边栏宽度，是否换行</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 是否展开所有目录</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 目录最大深度</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure><h3 id="5-配置文章信息显示"><a href="#5-配置文章信息显示" class="headerlink" title="5. 配置文章信息显示"></a>5. 配置文章信息显示</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Post meta display settings</span></span><br><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h2 id="使用效果"><a href="#使用效果" class="headerlink" title="使用效果"></a>使用效果</h2><p>配置完成后，你的文章页面将会：</p><ol><li>在侧边栏显示文章目录</li><li>目录会自动根据文章标题生成</li><li>可以点击目录直接跳转到对应位置</li><li>当前阅读位置的目录项会高亮显示</li></ol><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol><li>确保你的文章使用了正确的 Markdown 标题格式（# ## ###）</li><li>目录只会显示在文章页面</li><li>如果文章没有标题，则不会显示目录</li><li>建议保持标题层级的连续性，不要跳级使用</li></ol><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h3 id="目录不显示？"><a href="#目录不显示？" class="headerlink" title="目录不显示？"></a>目录不显示？</h3><p>检查以下几点：</p><ol><li>确认 <code>_config.next.yml</code> 中的 <code>toc.enable</code> 设置为 <code>true</code></li><li>确认文章 Front-matter 中设置了 <code>toc: true</code></li><li>确认文章中使用了正确的标题格式</li></ol><h3 id="目录显示不全？"><a href="#目录显示不全？" class="headerlink" title="目录显示不全？"></a>目录显示不全？</h3><ol><li>检查 <code>max_depth</code> 设置是否合适</li><li>确认标题层级使用正确</li><li>检查标题格式是否规范</li></ol><h3 id="目录不能点击跳转？"><a href="#目录不能点击跳转？" class="headerlink" title="目录不能点击跳转？"></a>目录不能点击跳转？</h3><ol><li>确认主题版本是否最新</li><li>检查是否有 JavaScript 错误</li><li>尝试清除浏览器缓存</li></ol><h2 id="进阶配置"><a href="#进阶配置" class="headerlink" title="进阶配置"></a>进阶配置</h2><h3 id="自定义目录样式"><a href="#自定义目录样式" class="headerlink" title="自定义目录样式"></a>自定义目录样式</h3><p>你可以在 <code>source/_data/styles.styl</code> 中添加自定义样式：</p><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 自定义目录样式</span></span><br><span class="line"><span class="selector-class">.post-toc</span> &#123;</span><br><span class="line">  <span class="selector-class">.nav-item</span> &#123;</span><br><span class="line">    <span class="comment">// 目录项样式</span></span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">1.8</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">14px</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 当前阅读位置的目录项</span></span><br><span class="line">    &amp;<span class="selector-class">.active</span> &gt; <span class="selector-class">.nav-link</span> &#123;</span><br><span class="line">      <span class="attribute">color</span>: <span class="number">#fc6423</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="优化目录显示"><a href="#优化目录显示" class="headerlink" title="优化目录显示"></a>优化目录显示</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 滚动时固定侧边栏</span></span><br><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">sticky:</span> <span class="literal">true</span></span><br><span class="line">  </span><br><span class="line"><span class="comment"># 显示目录滚动条</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>合理配置文章概要和目录可以大大提升博客的阅读体验。建议根据自己的需求和偏好调整这些设置，找到最适合的配置方案。</p><hr><blockquote><p>如果你在配置过程中遇到任何问题，欢迎在评论区留言交流。 </p></blockquote>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/FMkFcWl.png&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;配置文章概要和目录&quot;&gt;&lt;a href=&quot;#配置文章概要和目录&quot; class=&quot;headerlink&quot; title=&quot;配置文章概要和目录&quot;&gt;&lt;/a&gt;配置文章概要和目</summary>
         
       
     
