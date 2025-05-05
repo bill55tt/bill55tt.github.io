@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-04-06T12:54:12.016Z</updated>
+  <updated>2025-05-05T14:08:13.725Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>High School Basic Electricity: Voltage - 高中基本電學：電壓</title>
+    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/"/>
+    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/</id>
+    <published>2024-03-25T02:00:00.000Z</published>
+    <updated>2025-05-05T14:08:13.725Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Voltage is one of the fundamental concepts in electricity, playing a crucial role in understanding how electrical circuits work. This article will explain voltage through everyday examples and analogies, making it easier to grasp this important concept.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>電壓是電學中的基本概念之一，對於理解電路運作起著至關重要的作用。本文將通過日常生活中的例子和類比來解釋電壓，使這個重要概念更容易理解。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>What is Voltage?</h2>    <p>Voltage can be understood through a simple water analogy:</p>    <ul>      <li>Just as water flows from high to low levels, electricity flows from high to low voltage</li>      <li>Water pressure pushes water through pipes, voltage pushes electrons through wires</li>      <li>The greater the height difference, the stronger the water flow; similarly, the greater the voltage difference, the stronger the current</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>什麼是電壓？</h2>    <p>電壓可以通過簡單的水流類比來理解：</p>    <ul>      <li>就像水從高處流向低處，電流從高電壓流向低電壓</li>      <li>水壓推動水通過管道，電壓推動電子通過導線</li>      <li>高度差越大，水流越強；同樣，電壓差越大，電流越強</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Definition of Voltage</h2>    <p>Voltage is defined as the energy required to move electric charges in a circuit. It is measured in volts (V) and represents the potential energy difference between two points in an electrical circuit.</p>  </div>  <div class="lang lang-zh">    <h2>電壓的定義</h2>    <p>電壓被定義為在電路中移動電荷所需的能量。它以伏特(V)為單位，代表電路中兩點之間的電位能差。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Types of Voltage</h2>    <ul>      <li><strong>Electric Potential</strong>: The potential energy at a specific point in an electric field</li>      <li><strong>Potential Difference</strong>: The difference in electric potential between two points</li>      <li><strong>Electromotive Force (EMF)</strong>: The energy provided by a power source to move charges</li>      <li><strong>Voltage Drop</strong>: The decrease in voltage across a component in a circuit</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>電壓的類型</h2>    <ul>      <li><strong>電位</strong>：電場中特定點的電位能</li>      <li><strong>電位差</strong>：兩點之間的電位差異</li>      <li><strong>電動勢</strong>：電源提供的移動電荷的能量</li>      <li><strong>電壓降</strong>：電路中元件兩端的電壓降低</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Concepts</h2>    <h3>Voltage and Current Flow</h3>    <p>Voltage is the driving force behind current flow, similar to how water pressure drives water flow. The relationship can be expressed as:</p>    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>    <p>For example, if point A has a potential of 100V and point B has 60V:</p>    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>  </div>  <div class="lang lang-zh">    <h2>重要概念</h2>    <h3>電壓與電流流動</h3>    <p>電壓是推動電流流動的力量，類似於水壓推動水流動。其關係可以表示為：</p>    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>    <p>例如，如果A點電位為100V，B點電位為60V：</p>    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Unit of Voltage</h2>    <p>The volt (V) is the SI unit of voltage, named after Alessandro Volta, who invented the first chemical battery. One volt is defined as the potential difference that will drive one ampere of current through one ohm of resistance.</p>  </div>  <div class="lang lang-zh">    <h2>電壓的單位</h2>    <p>伏特(V)是電壓的國際單位，以發明第一個化學電池的亞歷山大·伏特命名。一伏特被定義為能夠驅動一安培電流通過一歐姆電阻的電位差。</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Xhd_YWy0TKo">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Voltage Basics"> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;Voltage is one of the fundamental concepts in </summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Voltage" scheme="https://bill55tt.github.io/tags/Voltage/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+  </entry>
   
   <entry>
     <title>Bilingual Test - 雙語測試</title>
