@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-05-05T14:08:13.725Z</updated>
+  <updated>2025-05-05T14:19:28.012Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -17,11 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>High School Basic Electricity: Current Direction and Magnitude - 高中基本電學：電流的方向與大小</title>
+    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-current-direction-magnitude/"/>
+    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-current-direction-magnitude/</id>
+    <published>2024-03-25T03:00:00.000Z</published>
+    <updated>2025-05-05T14:19:28.012Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Understanding current direction and magnitude is fundamental to electrical engineering. This article explores the basic concepts of current flow, its direction, and how to calculate its magnitude in practical applications. We will cover both theoretical concepts and practical examples to help you better understand current in electrical circuits.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>理解電流的方向和大小是電機工程的基本要素。本文將探討電流流動的基本概念、方向以及如何在實際應用中計算其大小。我們將涵蓋理論概念和實際範例，幫助您更好地理解電路中的電流。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Definition of Current</h2>    <p>Current is defined as the rate of flow of electric charge. It represents the amount of charge passing through a conductor's cross-section per unit time. This fundamental concept is essential for understanding how electricity works in circuits.</p>    <p>Current is measured in amperes (A)</p>    <p>One ampere equals one coulomb per second</p>    <p>Current can be either direct (DC) or alternating (AC)</p>  </div>  <div class="lang lang-zh">    <h2>電流的定義</h2>    <p>電流被定義為電荷流動的速率。它代表單位時間內通過導體截面的電荷量。這個基本概念對於理解電路中電的工作原理至關重要。</p>    <p>電流以安培(A)為單位</p>    <p>一安培等於每秒一庫侖</p>    <p>電流可以是直流(DC)或交流(AC)</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Direction of Current</h2>    <h3>Conventional Current</h3>    <p>Conventional current flows from positive to negative terminal</p>    <p>This concept originated from Benjamin Franklin's hypothesis in the 18th century</p>    <p>The conventional current direction is still used in circuit analysis and schematics</p>    <p>This direction is opposite to the actual electron flow</p>    <h3>Electron Flow</h3>    <p>In reality, electrons flow from negative to positive terminal</p>    <p>Electron flow represents the actual movement of charge carriers</p>    <p>Understanding both concepts is crucial for circuit analysis</p>    <p>Electron flow is important for understanding semiconductor behavior</p>  </div>  <div class="lang lang-zh">    <h2>電流的方向</h2>    <h3>傳統電流</h3>    <p>傳統電流從正極流向負極</p>    <p>這個概念源自18世紀班傑明・富蘭克林的假設</p>    <p>傳統電流方向仍用於電路分析和電路圖</p>    <p>這個方向與實際的電子流動方向相反</p>    <h3>電子流動</h3>    <p>實際上，電子從負極流向正極</p>    <p>電子流動代表電荷載子的實際運動</p>    <p>理解這兩個概念對電路分析至關重要</p>    <p>電子流動對於理解半導體行為很重要</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Magnitude of Current</h2>    <h3>Basic Formula</h3>    <p>The magnitude of current is calculated using the formula:</p>    <p>I = Q/t</p>    <p>Where:</p>    <p>I = Current in amperes (A)</p>    <p>Q = Charge in coulombs (C)</p>    <p>t = Time in seconds (s)</p>    <h3>Important Relationships</h3>    <p>Current is directly proportional to charge (I ∝ Q)</p>    <p>Current is inversely proportional to time (I ∝ 1/t)</p>    <p>Current can be measured using an ammeter</p>    <p>Current is a fundamental quantity in electrical circuits</p>  </div>  <div class="lang lang-zh">    <h2>電流的大小</h2>    <h3>基本公式</h3>    <p>電流的大小使用以下公式計算：</p>    <p>I = Q/t</p>    <p>其中：</p>    <p>I = 電流，單位為安培(A)</p>    <p>Q = 電荷量，單位為庫侖(C)</p>    <p>t = 時間，單位為秒(s)</p>    <h3>重要關係</h3>    <p>電流與電荷量成正比 (I ∝ Q)</p>    <p>電流與時間成反比 (I ∝ 1/t)</p>    <p>電流可以用電流表測量</p>    <p>電流是電路中的基本量</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Practical Examples</h2>    <h3>Example 1: Calculating Average Current</h3>    <p>If 3000 coulombs of charge flow through a conductor in 5 minutes:</p>    <p>Time = 5 minutes = 300 seconds</p>    <p>Charge = 3000 coulombs</p>    <p>Current = 3000/300 = 10 amperes</p>    <p>This represents a relatively high current flow</p>    <h3>Example 2: Battery Charging Time</h3>    <p>For a 1750mAh battery charged at 1 ampere:</p>    <p>Battery capacity = 1750mAh = 1.75Ah</p>    <p>Charging current = 1A</p>    <p>Charging time = 1.75 hours</p>    <p>This is a typical charging scenario for mobile devices</p>    <h3>Example 3: Household Circuit</h3>    <p>In a typical household circuit:</p>    <p>Standard voltage = 110V or 220V (depending on region)</p>    <p>Typical current = 15-20 amperes</p>    <p>Power = Voltage × Current</p>    <p>This current rating is for safety and practical usage</p>  </div>  <div class="lang lang-zh">    <h2>實際範例</h2>    <h3>範例1：計算平均電流</h3>    <p>如果在5分鐘內有3000庫侖的電量流過導體：</p>    <p>時間 = 5分鐘 = 300秒</p>    <p>電荷量 = 3000庫侖</p>    <p>電流 = 3000/300 = 10安培</p>    <p>這代表一個相對較高的電流</p>    <h3>範例2：電池充電時間</h3>    <p>對於1750mAh的電池以1安培充電：</p>    <p>電池容量 = 1750mAh = 1.75Ah</p>    <p>充電電流 = 1A</p>    <p>充電時間 = 1.75小時</p>    <p>這是移動設備的典型充電情況</p>    <h3>範例3：家用電路</h3>    <p>在典型的家用電路中：</p>    <p>標準電壓 = 110V或220V（依地區而定）</p>    <p>典型電流 = 15-20安培</p>    <p>功率 = 電壓 × 電流</p>    <p>這個電流額定值是基於安全和實際使用考慮</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Current is the flow of electric charge through a conductor</p>    <p>Conventional current flows from positive to negative</p>    <p>Electron flow is in the opposite direction</p>    <p>Current magnitude is calculated using I = Q/t</p>    <p>Understanding current is essential for circuit analysis</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>電流是電荷在導體中的流動</p>    <p>傳統電流從正極流向負極</p>    <p>電子流動方向與之相反</p>    <p>電流大小使用I = Q/t計算</p>    <p>理解電流對電路分析至關重要</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Xhd_YWy0TKo">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Current Direction"> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;Understanding current direction and magnitude </summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Current" scheme="https://bill55tt.github.io/tags/Current/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+  </entry>
+  
+  <entry>
     <title>High School Basic Electricity: Voltage - 高中基本電學：電壓</title>
     <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/"/>
     <id>https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/</id>
     <published>2024-03-25T02:00:00.000Z</published>
-    <updated>2025-05-05T14:08:13.725Z</updated>
+    <updated>2025-05-05T14:12:17.864Z</updated>
     
     <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Voltage is one of the fundamental concepts in electricity, playing a crucial role in understanding how electrical circuits work. This article will explain voltage through everyday examples and analogies, making it easier to grasp this important concept.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>電壓是電學中的基本概念之一，對於理解電路運作起著至關重要的作用。本文將通過日常生活中的例子和類比來解釋電壓，使這個重要概念更容易理解。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>What is Voltage?</h2>    <p>Voltage can be understood through a simple water analogy:</p>    <ul>      <li>Just as water flows from high to low levels, electricity flows from high to low voltage</li>      <li>Water pressure pushes water through pipes, voltage pushes electrons through wires</li>      <li>The greater the height difference, the stronger the water flow; similarly, the greater the voltage difference, the stronger the current</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>什麼是電壓？</h2>    <p>電壓可以通過簡單的水流類比來理解：</p>    <ul>      <li>就像水從高處流向低處，電流從高電壓流向低電壓</li>      <li>水壓推動水通過管道，電壓推動電子通過導線</li>      <li>高度差越大，水流越強；同樣，電壓差越大，電流越強</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Definition of Voltage</h2>    <p>Voltage is defined as the energy required to move electric charges in a circuit. It is measured in volts (V) and represents the potential energy difference between two points in an electrical circuit.</p>  </div>  <div class="lang lang-zh">    <h2>電壓的定義</h2>    <p>電壓被定義為在電路中移動電荷所需的能量。它以伏特(V)為單位，代表電路中兩點之間的電位能差。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Types of Voltage</h2>    <ul>      <li><strong>Electric Potential</strong>: The potential energy at a specific point in an electric field</li>      <li><strong>Potential Difference</strong>: The difference in electric potential between two points</li>      <li><strong>Electromotive Force (EMF)</strong>: The energy provided by a power source to move charges</li>      <li><strong>Voltage Drop</strong>: The decrease in voltage across a component in a circuit</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>電壓的類型</h2>    <ul>      <li><strong>電位</strong>：電場中特定點的電位能</li>      <li><strong>電位差</strong>：兩點之間的電位差異</li>      <li><strong>電動勢</strong>：電源提供的移動電荷的能量</li>      <li><strong>電壓降</strong>：電路中元件兩端的電壓降低</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Concepts</h2>    <h3>Voltage and Current Flow</h3>    <p>Voltage is the driving force behind current flow, similar to how water pressure drives water flow. The relationship can be expressed as:</p>    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>    <p>For example, if point A has a potential of 100V and point B has 60V:</p>    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>  </div>  <div class="lang lang-zh">    <h2>重要概念</h2>    <h3>電壓與電流流動</h3>    <p>電壓是推動電流流動的力量，類似於水壓推動水流動。其關係可以表示為：</p>    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>    <p>例如，如果A點電位為100V，B點電位為60V：</p>    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Unit of Voltage</h2>    <p>The volt (V) is the SI unit of voltage, named after Alessandro Volta, who invented the first chemical battery. One volt is defined as the potential difference that will drive one ampere of current through one ohm of resistance.</p>  </div>  <div class="lang lang-zh">    <h2>電壓的單位</h2>    <p>伏特(V)是電壓的國際單位，以發明第一個化學電池的亞歷山大·伏特命名。一伏特被定義為能夠驅動一安培電流通過一歐姆電阻的電位差。</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Xhd_YWy0TKo">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Voltage Basics"> </p>]]></content>
     
@@ -44,9 +88,9 @@
     
     <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
     
-    <category term="Voltage" scheme="https://bill55tt.github.io/tags/Voltage/"/>
-    
     <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Voltage" scheme="https://bill55tt.github.io/tags/Voltage/"/>
     
   </entry>
   
@@ -168,9 +212,9 @@
     <category term="Science" scheme="https://bill55tt.github.io/categories/Science/"/>
     
     
-    <category term="Atomic Theory" scheme="https://bill55tt.github.io/tags/Atomic-Theory/"/>
-    
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Atomic Theory" scheme="https://bill55tt.github.io/tags/Atomic-Theory/"/>
     
     <category term="Chemistry" scheme="https://bill55tt.github.io/tags/Chemistry/"/>
     
