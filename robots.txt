@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://bill55tt.github.io/sitemap.xml
-
