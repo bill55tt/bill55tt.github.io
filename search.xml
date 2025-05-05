@@ -584,171 +584,6 @@
       </tags>
   </entry>
   <entry>
-    <title>High School Basic Electricity: Fundamental Theories of Electricity - Charge Part A - 高中基本電學：電學基礎理論 - 電荷 PART A</title>
-    <url>/2024/03/25/2024-03-25-electricity-fundamental-theories-charge-part-a/</url>
-    <content><![CDATA[<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Introduction</h2>
-    <p>The study of electricity begins with understanding the fundamental concept of electric charge. This article explores the historical development of charge theory and introduces key scientific contributions that shaped our understanding of electricity.</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>引言</h2>
-    <p>電學的研究始於理解電荷的基本概念。本文探討電荷理論的歷史發展，並介紹塑造我們對電學理解的關鍵科學貢獻。</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Historical Background</h2>
-    <p>The understanding of electric charge has evolved through the contributions of several important scientists:</p>
-    <p>Sir Isaac Newton (1643-1727): His work on universal gravitation influenced later theories of electrical forces</p>
-    <p>Charles-Augustin de Coulomb (1736-1806): Formulated Coulomb's law describing electrical forces</p>
-    <p>John Dalton (1766-1844): Proposed atomic theory, though later modified</p>
-    <p>Robert Millikan (1868-1953): Measured the charge of a single electron</p>
-    <p>Ernest Rutherford (1871-1937): Contributed to understanding atomic structure</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>歷史背景</h2>
-    <p>對電荷的理解通過幾位重要科學家的貢獻而發展：</p>
-    <p>艾薩克・牛頓爵士(1643-1727)：他對萬有引力的研究影響了後來的電力理論</p>
-    <p>查爾斯・奧古斯丁・庫侖(1736-1806)：提出描述電力作用的庫侖定律</p>
-    <p>約翰・道耳吞(1766-1844)：提出原子理論，後被修正</p>
-    <p>羅伯特・密利根(1868-1953)：測量單一電子的電荷</p>
-    <p>歐內斯特・拉塞福(1871-1937)：對理解原子結構做出貢獻</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Basic Charge and Electric Quantity</h2>
-    <p>The fundamental unit of electric charge is the coulomb (C)</p>
-    <p>One electron carries a charge of -1.6 × 10^-19 coulombs</p>
-    <p>One proton carries a charge of +1.6 × 10^-19 coulombs</p>
-    <p>The charge of an electron is equal in magnitude but opposite in sign to that of a proton</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>基本電荷與電量</h2>
-    <p>電量的基本單位是庫侖(C)</p>
-    <p>一個電子帶有-1.6 × 10^-19庫侖的電量</p>
-    <p>一個質子帶有+1.6 × 10^-19庫侖的電量</p>
-    <p>電子的電量與質子大小相等但符號相反</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Key Scientific Contributions</h2>
-    <h3>Newton's Law of Universal Gravitation</h3>
-    <p>Influenced the development of Coulomb's law</p>
-    <p>Demonstrated the concept of action at a distance</p>
-    <p>Established mathematical relationships for forces</p>
-    <h3>Coulomb's Law</h3>
-    <p>Describes the force between two point charges</p>
-    <p>Like charges repel, unlike charges attract</p>
-    <p>Force is proportional to the product of charges</p>
-    <p>Force is inversely proportional to the square of distance</p>
-    <h3>Dalton's Atomic Theory</h3>
-    <p>Atoms are indivisible (later revised)</p>
-    <p>All atoms of an element are identical</p>
-    <p>Atoms combine in simple whole number ratios</p>
-    <h3>Millikan's Oil Drop Experiment</h3>
-    <p>Measured the charge of a single electron</p>
-    <p>Determined the basic charge unit</p>
-    <p>Confirmed the quantization of electric charge</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>關鍵科學貢獻</h2>
-    <h3>牛頓的萬有引力定律</h3>
-    <p>影響了庫侖定律的發展</p>
-    <p>展示了超距作用的概念</p>
-    <p>建立了力的數學關係</p>
-    <h3>庫侖定律</h3>
-    <p>描述兩個點電荷之間的力</p>
-    <p>同性相斥，異性相吸</p>
-    <p>力與電荷乘積成正比</p>
-    <p>力與距離平方成反比</p>
-    <h3>道耳吞的原子理論</h3>
-    <p>原子是不可分割的（後被修正）</p>
-    <p>同一元素的所有原子都相同</p>
-    <p>原子以簡單整數比結合</p>
-    <h3>密利根的油滴實驗</h3>
-    <p>測量單一電子的電荷</p>
-    <p>確定了基本電荷單位</p>
-    <p>證實了電荷的量子化</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Charge Calculations</h2>
-    <h3>Example 1: Total Charge Calculation</h3>
-    <p>Calculate the total charge of 5 × 10^19 electrons:</p>
-    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>
-    <p>Q = -8 coulombs</p>
-    <p>The negative sign indicates excess electrons</p>
-    <h3>Example 2: Number of Electrons</h3>
-    <p>Calculate the number of electrons in 1 coulomb:</p>
-    <p>Number of electrons = 1 / (1.6 × 10^-19)</p>
-    <p>Number of electrons = 6.25 × 10^18</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>電荷計算</h2>
-    <h3>範例1：總電量計算</h3>
-    <p>計算5 × 10^19個電子的總電量：</p>
-    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>
-    <p>Q = -8庫侖</p>
-    <p>負號表示過量的電子</p>
-    <h3>範例2：電子數量</h3>
-    <p>計算1庫侖中的電子數量：</p>
-    <p>電子數量 = 1 / (1.6 × 10^-19)</p>
-    <p>電子數量 = 6.25 × 10^18</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Summary</h2>
-    <p>Electric charge is a fundamental property of matter</p>
-    <p>The basic unit of charge is the coulomb</p>
-    <p>Charges interact through Coulomb's law</p>
-    <p>Understanding charge is essential for electricity</p>
-    <p>Historical experiments shaped our understanding</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>總結</h2>
-    <p>電荷是物質的基本屬性</p>
-    <p>電量的基本單位是庫侖</p>
-    <p>電荷通過庫侖定律相互作用</p>
-    <p>理解電荷對電學至關重要</p>
-    <p>歷史實驗塑造了我們的理解</p>
-  </div>
-</div>
-
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Q9t-cVgXueM">here</a>.</p>
-<p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Electric Charge"> </p>
-]]></content>
-      <categories>
-        <category>Electronics</category>
-        <category>Physics</category>
-        <category>Basic Electronics</category>
-      </categories>
-      <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
-        <tag>Charge</tag>
-        <tag>History</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>High School Basic Electricity: Characteristics of Static Charge and Example Exercises - 高中基本電學：靜電荷的特性與範例練習</title>
     <url>/2024/03/25/2024-03-25-static-charge-characteristics/</url>
     <content><![CDATA[<div class="bilingual-section">
@@ -924,6 +759,171 @@
         <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Static Charge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Fundamental Theories of Electricity - Charge Part A - 高中基本電學：電學基礎理論 - 電荷 PART A</title>
+    <url>/2024/03/25/2024-03-25-electricity-fundamental-theories-charge-part-a/</url>
+    <content><![CDATA[<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Introduction</h2>
+    <p>The study of electricity begins with understanding the fundamental concept of electric charge. This article explores the historical development of charge theory and introduces key scientific contributions that shaped our understanding of electricity.</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>引言</h2>
+    <p>電學的研究始於理解電荷的基本概念。本文探討電荷理論的歷史發展，並介紹塑造我們對電學理解的關鍵科學貢獻。</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Historical Background</h2>
+    <p>The understanding of electric charge has evolved through the contributions of several important scientists:</p>
+    <p>Sir Isaac Newton (1643-1727): His work on universal gravitation influenced later theories of electrical forces</p>
+    <p>Charles-Augustin de Coulomb (1736-1806): Formulated Coulomb's law describing electrical forces</p>
+    <p>John Dalton (1766-1844): Proposed atomic theory, though later modified</p>
+    <p>Robert Millikan (1868-1953): Measured the charge of a single electron</p>
+    <p>Ernest Rutherford (1871-1937): Contributed to understanding atomic structure</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>歷史背景</h2>
+    <p>對電荷的理解通過幾位重要科學家的貢獻而發展：</p>
+    <p>艾薩克・牛頓爵士(1643-1727)：他對萬有引力的研究影響了後來的電力理論</p>
+    <p>查爾斯・奧古斯丁・庫侖(1736-1806)：提出描述電力作用的庫侖定律</p>
+    <p>約翰・道耳吞(1766-1844)：提出原子理論，後被修正</p>
+    <p>羅伯特・密利根(1868-1953)：測量單一電子的電荷</p>
+    <p>歐內斯特・拉塞福(1871-1937)：對理解原子結構做出貢獻</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Basic Charge and Electric Quantity</h2>
+    <p>The fundamental unit of electric charge is the coulomb (C)</p>
+    <p>One electron carries a charge of -1.6 × 10^-19 coulombs</p>
+    <p>One proton carries a charge of +1.6 × 10^-19 coulombs</p>
+    <p>The charge of an electron is equal in magnitude but opposite in sign to that of a proton</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>基本電荷與電量</h2>
+    <p>電量的基本單位是庫侖(C)</p>
+    <p>一個電子帶有-1.6 × 10^-19庫侖的電量</p>
+    <p>一個質子帶有+1.6 × 10^-19庫侖的電量</p>
+    <p>電子的電量與質子大小相等但符號相反</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Key Scientific Contributions</h2>
+    <h3>Newton's Law of Universal Gravitation</h3>
+    <p>Influenced the development of Coulomb's law</p>
+    <p>Demonstrated the concept of action at a distance</p>
+    <p>Established mathematical relationships for forces</p>
+    <h3>Coulomb's Law</h3>
+    <p>Describes the force between two point charges</p>
+    <p>Like charges repel, unlike charges attract</p>
+    <p>Force is proportional to the product of charges</p>
+    <p>Force is inversely proportional to the square of distance</p>
+    <h3>Dalton's Atomic Theory</h3>
+    <p>Atoms are indivisible (later revised)</p>
+    <p>All atoms of an element are identical</p>
+    <p>Atoms combine in simple whole number ratios</p>
+    <h3>Millikan's Oil Drop Experiment</h3>
+    <p>Measured the charge of a single electron</p>
+    <p>Determined the basic charge unit</p>
+    <p>Confirmed the quantization of electric charge</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>關鍵科學貢獻</h2>
+    <h3>牛頓的萬有引力定律</h3>
+    <p>影響了庫侖定律的發展</p>
+    <p>展示了超距作用的概念</p>
+    <p>建立了力的數學關係</p>
+    <h3>庫侖定律</h3>
+    <p>描述兩個點電荷之間的力</p>
+    <p>同性相斥，異性相吸</p>
+    <p>力與電荷乘積成正比</p>
+    <p>力與距離平方成反比</p>
+    <h3>道耳吞的原子理論</h3>
+    <p>原子是不可分割的（後被修正）</p>
+    <p>同一元素的所有原子都相同</p>
+    <p>原子以簡單整數比結合</p>
+    <h3>密利根的油滴實驗</h3>
+    <p>測量單一電子的電荷</p>
+    <p>確定了基本電荷單位</p>
+    <p>證實了電荷的量子化</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Charge Calculations</h2>
+    <h3>Example 1: Total Charge Calculation</h3>
+    <p>Calculate the total charge of 5 × 10^19 electrons:</p>
+    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>
+    <p>Q = -8 coulombs</p>
+    <p>The negative sign indicates excess electrons</p>
+    <h3>Example 2: Number of Electrons</h3>
+    <p>Calculate the number of electrons in 1 coulomb:</p>
+    <p>Number of electrons = 1 / (1.6 × 10^-19)</p>
+    <p>Number of electrons = 6.25 × 10^18</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>電荷計算</h2>
+    <h3>範例1：總電量計算</h3>
+    <p>計算5 × 10^19個電子的總電量：</p>
+    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>
+    <p>Q = -8庫侖</p>
+    <p>負號表示過量的電子</p>
+    <h3>範例2：電子數量</h3>
+    <p>計算1庫侖中的電子數量：</p>
+    <p>電子數量 = 1 / (1.6 × 10^-19)</p>
+    <p>電子數量 = 6.25 × 10^18</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Summary</h2>
+    <p>Electric charge is a fundamental property of matter</p>
+    <p>The basic unit of charge is the coulomb</p>
+    <p>Charges interact through Coulomb's law</p>
+    <p>Understanding charge is essential for electricity</p>
+    <p>Historical experiments shaped our understanding</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>總結</h2>
+    <p>電荷是物質的基本屬性</p>
+    <p>電量的基本單位是庫侖</p>
+    <p>電荷通過庫侖定律相互作用</p>
+    <p>理解電荷對電學至關重要</p>
+    <p>歷史實驗塑造了我們的理解</p>
+  </div>
+</div>
+
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Q9t-cVgXueM">here</a>.</p>
+<p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Electric Charge"> </p>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+        <category>Physics</category>
+        <category>Basic Electronics</category>
+      </categories>
+      <tags>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Tutorial</tag>
+        <tag>Charge</tag>
+        <tag>History</tag>
       </tags>
   </entry>
   <entry>
@@ -1314,86 +1314,73 @@
       </tags>
   </entry>
   <entry>
-    <title>Summary of Energy and Work</title>
-    <url>/2024/03/23/2025-04-06/</url>
-    <content><![CDATA[<h2 id="Summary-of-Energy-and-Work"><a href="#Summary-of-Energy-and-Work" class="headerlink" title="Summary of Energy and Work"></a>Summary of Energy and Work</h2><h3 id="1-Definitions-of-Energy-and-Work"><a href="#1-Definitions-of-Energy-and-Work" class="headerlink" title="1. Definitions of Energy and Work"></a>1. Definitions of Energy and Work</h3><p><strong>English:</strong></p>
-<ul>
-<li>Energy: The capacity of matter to do work.</li>
-<li>Work: The process of energy transformation, measured in joules (J).</li>
-</ul>
-<p><strong>中文:</strong></p>
-<ul>
-<li>能量: 物质做功的能力。</li>
-<li>功: 能量的转化过程，单位为焦耳 (J)。</li>
-</ul>
-<h3 id="2-Work-Calculation"><a href="#2-Work-Calculation" class="headerlink" title="2. Work Calculation"></a>2. Work Calculation</h3><p><strong>English:</strong></p>
-<ul>
-<li>Work formula:<br>[<br>W &#x3D; F \times S<br>]<ul>
-<li>W: Work (Joules)</li>
-<li>F: Applied force (Newtons)</li>
-<li>S: Displacement (meters)</li>
-</ul>
-</li>
-</ul>
-<p><strong>中文:</strong></p>
-<ul>
-<li>功的公式：<br>[<br>W &#x3D; F \times S<br>]<ul>
-<li>W：功 (焦耳)</li>
-<li>F：施加的力 (牛顿)</li>
-<li>S：位移 (米)</li>
-</ul>
-</li>
-</ul>
-<h3 id="3-Example-Illustrations"><a href="#3-Example-Illustrations" class="headerlink" title="3. Example Illustrations"></a>3. Example Illustrations</h3><p><strong>English:</strong></p>
-<ul>
-<li><p>Pushing a Handcart:</p>
-<ul>
-<li>Applying 20 Newtons of force to move 4 meters.</li>
-<li>Work &#x3D; 20 N × 4 m &#x3D; 80 J.</li>
-</ul>
-</li>
-<li><p>Diving Athlete:</p>
-<ul>
-<li>Weight of 60 kg, potential energy calculation:<br>[<br>F &#x3D; m \times g &#x3D; 60 , \text{kg} \times 9.8 , \text{m&#x2F;s}^2 &#x3D; 588 , \text{N}<br>]</li>
-<li>Work done climbing 5 meters:<br>[<br>W &#x3D; F \times h &#x3D; 588 , \text{N} \times 5 , \text{m} &#x3D; 2940 , \text{J}<br>]</li>
-<li>During the dive, potential energy converts to kinetic energy.</li>
-</ul>
-</li>
-</ul>
-<p><strong>中文:</strong></p>
-<ul>
-<li><p>推手推车：</p>
-<ul>
-<li>施加20牛顿的力，推动4米。</li>
-<li>功 &#x3D; 20 N × 4 m &#x3D; 80 J。</li>
-</ul>
-</li>
-<li><p>跳水选手：</p>
-<ul>
-<li>重60公斤，位能计算：<br>[<br>F &#x3D; m \times g &#x3D; 60 , \text{kg} \times 9.8 , \text{m&#x2F;s}^2 &#x3D; 588 , \text{N}<br>]</li>
-<li>爬升5米的功：<br>[<br>W &#x3D; F \times h &#x3D; 588 , \text{N} \times 5 , \text{m} &#x3D; 2940 , \text{J}<br>]</li>
-<li>跳水时，位能转化为动能。</li>
-</ul>
-</li>
-</ul>
-<h3 id="4-Energy-Conversion"><a href="#4-Energy-Conversion" class="headerlink" title="4. Energy Conversion"></a>4. Energy Conversion</h3><p><strong>English:</strong></p>
-<ul>
-<li>Electrical energy powers technological products, such as electric cars and televisions, improving human life.</li>
-</ul>
-<p><strong>中文:</strong></p>
-<ul>
-<li>电能可以驱动科技产品，例如电动汽车和电视，改善人类生活。</li>
-</ul>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more information, you can watch the video <a href="https://www.youtube.com/watch?v=T7x-ERyhG7w">here</a>.</p>
-<p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Energy and Work"></p>
+    <title>High School Basic Electricity: Parallel Combination of Inductors (Without Mutual Inductance, With Mutual Inductance) - 高中基本電學：電感器並聯組合(無互感、互感)</title>
+    <url>/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-parallel-combination/</url>
+    <content><![CDATA[<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Introduction</h2>
+    <p>This article introduces the calculation methods for parallel combinations of inductors, including both cases without mutual inductance and with mutual inductance. It also explains how the direction of mutual inductance (assisting or opposing) affects the total inductance.</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>引言</h2>
+    <p>本文介紹電感器並聯組合的計算方法，包含無互感與有互感兩種情況，並說明互感方向（互助或互消）對總電感量的影響。</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Key Points</h2>
+    <ol>
+      <li><b>Parallel Inductors Without Mutual Inductance</b>:<br>
+        The formula is similar to parallel resistors:<br>
+        $$L_T = \frac{L_1 \times L_2}{L_1 + L_2}$$
+      </li>
+      <li><b>Parallel Inductors With Mutual Inductance</b>:<br>
+        Determine if the mutual effect is assisting (same magnetic field direction) or opposing (opposite magnetic field direction).<br>
+        The formula is:<br>
+        $$L_T = \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}$$<br>
+        Use minus sign (−2M) for assisting mutual inductance (larger total inductance).<br>
+        Use plus sign (+2M) for opposing mutual inductance (smaller total inductance).
+      </li>
+    </ol>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>重點歸納</h2>
+    <ol>
+      <li><b>無互感並聯電感</b>：<br>
+        計算公式與電阻並聯相似：<br>
+        $$L_T = \frac{L_1 \times L_2}{L_1 + L_2}$$
+      </li>
+      <li><b>有互感並聯電感</b>：<br>
+        需判斷互感是互助（磁場方向相同）或互消（磁場方向相反）。<br>
+        公式：<br>
+        $$L_T = \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}$$<br>
+        互助取負號（−2M），電感量較大。<br>
+        互消取正號（+2M），電感量較小。
+      </li>
+    </ol>
+  </div>
+</div>
+
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=JhOxJFNb5Tc">here</a>.</p>
+<p><em>Date: 2025-05-05</em> </p>
 ]]></content>
       <categories>
+        <category>Electronics</category>
         <category>Physics</category>
+        <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Energy</tag>
-        <tag>Work</tag>
-        <tag>Mechanics</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Tutorial</tag>
+        <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Parallel</tag>
       </tags>
   </entry>
   <entry>
@@ -1480,73 +1467,86 @@
       </tags>
   </entry>
   <entry>
-    <title>High School Basic Electricity: Parallel Combination of Inductors (Without Mutual Inductance, With Mutual Inductance) - 高中基本電學：電感器並聯組合(無互感、互感)</title>
-    <url>/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-parallel-combination/</url>
-    <content><![CDATA[<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Introduction</h2>
-    <p>This article introduces the calculation methods for parallel combinations of inductors, including both cases without mutual inductance and with mutual inductance. It also explains how the direction of mutual inductance (assisting or opposing) affects the total inductance.</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>引言</h2>
-    <p>本文介紹電感器並聯組合的計算方法，包含無互感與有互感兩種情況，並說明互感方向（互助或互消）對總電感量的影響。</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Key Points</h2>
-    <ol>
-      <li><b>Parallel Inductors Without Mutual Inductance</b>:<br>
-        The formula is similar to parallel resistors:<br>
-        $$L_T = \frac{L_1 \times L_2}{L_1 + L_2}$$
-      </li>
-      <li><b>Parallel Inductors With Mutual Inductance</b>:<br>
-        Determine if the mutual effect is assisting (same magnetic field direction) or opposing (opposite magnetic field direction).<br>
-        The formula is:<br>
-        $$L_T = \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}$$<br>
-        Use minus sign (−2M) for assisting mutual inductance (larger total inductance).<br>
-        Use plus sign (+2M) for opposing mutual inductance (smaller total inductance).
-      </li>
-    </ol>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>重點歸納</h2>
-    <ol>
-      <li><b>無互感並聯電感</b>：<br>
-        計算公式與電阻並聯相似：<br>
-        $$L_T = \frac{L_1 \times L_2}{L_1 + L_2}$$
-      </li>
-      <li><b>有互感並聯電感</b>：<br>
-        需判斷互感是互助（磁場方向相同）或互消（磁場方向相反）。<br>
-        公式：<br>
-        $$L_T = \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}$$<br>
-        互助取負號（−2M），電感量較大。<br>
-        互消取正號（+2M），電感量較小。
-      </li>
-    </ol>
-  </div>
-</div>
-
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=JhOxJFNb5Tc">here</a>.</p>
-<p><em>Date: 2025-05-05</em> </p>
+    <title>Summary of Energy and Work</title>
+    <url>/2024/03/23/2025-04-06/</url>
+    <content><![CDATA[<h2 id="Summary-of-Energy-and-Work"><a href="#Summary-of-Energy-and-Work" class="headerlink" title="Summary of Energy and Work"></a>Summary of Energy and Work</h2><h3 id="1-Definitions-of-Energy-and-Work"><a href="#1-Definitions-of-Energy-and-Work" class="headerlink" title="1. Definitions of Energy and Work"></a>1. Definitions of Energy and Work</h3><p><strong>English:</strong></p>
+<ul>
+<li>Energy: The capacity of matter to do work.</li>
+<li>Work: The process of energy transformation, measured in joules (J).</li>
+</ul>
+<p><strong>中文:</strong></p>
+<ul>
+<li>能量: 物质做功的能力。</li>
+<li>功: 能量的转化过程，单位为焦耳 (J)。</li>
+</ul>
+<h3 id="2-Work-Calculation"><a href="#2-Work-Calculation" class="headerlink" title="2. Work Calculation"></a>2. Work Calculation</h3><p><strong>English:</strong></p>
+<ul>
+<li>Work formula:<br>[<br>W &#x3D; F \times S<br>]<ul>
+<li>W: Work (Joules)</li>
+<li>F: Applied force (Newtons)</li>
+<li>S: Displacement (meters)</li>
+</ul>
+</li>
+</ul>
+<p><strong>中文:</strong></p>
+<ul>
+<li>功的公式：<br>[<br>W &#x3D; F \times S<br>]<ul>
+<li>W：功 (焦耳)</li>
+<li>F：施加的力 (牛顿)</li>
+<li>S：位移 (米)</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Example-Illustrations"><a href="#3-Example-Illustrations" class="headerlink" title="3. Example Illustrations"></a>3. Example Illustrations</h3><p><strong>English:</strong></p>
+<ul>
+<li><p>Pushing a Handcart:</p>
+<ul>
+<li>Applying 20 Newtons of force to move 4 meters.</li>
+<li>Work &#x3D; 20 N × 4 m &#x3D; 80 J.</li>
+</ul>
+</li>
+<li><p>Diving Athlete:</p>
+<ul>
+<li>Weight of 60 kg, potential energy calculation:<br>[<br>F &#x3D; m \times g &#x3D; 60 , \text{kg} \times 9.8 , \text{m&#x2F;s}^2 &#x3D; 588 , \text{N}<br>]</li>
+<li>Work done climbing 5 meters:<br>[<br>W &#x3D; F \times h &#x3D; 588 , \text{N} \times 5 , \text{m} &#x3D; 2940 , \text{J}<br>]</li>
+<li>During the dive, potential energy converts to kinetic energy.</li>
+</ul>
+</li>
+</ul>
+<p><strong>中文:</strong></p>
+<ul>
+<li><p>推手推车：</p>
+<ul>
+<li>施加20牛顿的力，推动4米。</li>
+<li>功 &#x3D; 20 N × 4 m &#x3D; 80 J。</li>
+</ul>
+</li>
+<li><p>跳水选手：</p>
+<ul>
+<li>重60公斤，位能计算：<br>[<br>F &#x3D; m \times g &#x3D; 60 , \text{kg} \times 9.8 , \text{m&#x2F;s}^2 &#x3D; 588 , \text{N}<br>]</li>
+<li>爬升5米的功：<br>[<br>W &#x3D; F \times h &#x3D; 588 , \text{N} \times 5 , \text{m} &#x3D; 2940 , \text{J}<br>]</li>
+<li>跳水时，位能转化为动能。</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Energy-Conversion"><a href="#4-Energy-Conversion" class="headerlink" title="4. Energy Conversion"></a>4. Energy Conversion</h3><p><strong>English:</strong></p>
+<ul>
+<li>Electrical energy powers technological products, such as electric cars and televisions, improving human life.</li>
+</ul>
+<p><strong>中文:</strong></p>
+<ul>
+<li>电能可以驱动科技产品，例如电动汽车和电视，改善人类生活。</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more information, you can watch the video <a href="https://www.youtube.com/watch?v=T7x-ERyhG7w">here</a>.</p>
+<p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Energy and Work"></p>
 ]]></content>
       <categories>
-        <category>Electronics</category>
         <category>Physics</category>
-        <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
-        <tag>Inductance</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Parallel</tag>
+        <tag>Energy</tag>
+        <tag>Work</tag>
+        <tag>Mechanics</tag>
       </tags>
   </entry>
   <entry>
@@ -1611,82 +1611,6 @@
 </div>
 
 <h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=HJCpPPi4Q7E">here</a>.</p>
-<p><em>Date: 2025-05-05</em> </p>
-]]></content>
-      <categories>
-        <category>Electronics</category>
-        <category>Physics</category>
-        <category>Basic Electronics</category>
-      </categories>
-      <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
-        <tag>Inductance</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Series</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductance Part G Example: Series Inductance Calculation Without and With Mutual Inductance - 高中基本電學：電感與電磁_電感量_PART G 範例：不考慮互感的串聯總電感運算、考慮互感的串聯總電感運算_陳政旭</title>
-    <url>/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/</url>
-    <content><![CDATA[<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Introduction</h2>
-    <p>This article explains how to calculate the total inductance of inductors in series, both without and with mutual inductance. It also covers the effect of mutual aiding and opposing (magnetic flux direction) on the total inductance.</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>引言</h2>
-    <p>本文說明如何計算串聯電感的總電感量，包含不考慮互感與考慮互感的情況，並介紹互助與互消（磁力線方向）對總電感的影響。</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Key Points</h2>
-    <ol>
-      <li><b>Series Inductance without Mutual Inductance</b>:<br>
-        Total inductance is the sum of each inductance, similar to resistors in series.<br>
-        $$L_{total} = L_1 + L_2 + L_3$$
-      </li>
-      <li><b>Series Inductance with Mutual Inductance</b>:<br>
-        For three inductors \(L_1, L_2, L_3\) in series with mutual inductances \(M_{12}, M_{23}, M_{31}\):<br>
-        Mutual aiding (same magnetic flux direction) uses addition; mutual opposing uses subtraction.<br>
-        Total inductance formula:<br>
-        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$
-      </li>
-      <li><b>Example Calculations</b>:<br>
-        Without mutual inductance: 12H + 4H + 6H = 22H.<br>
-        With mutual inductance: Determine aiding or opposing by magnetic flux direction, then calculate using the formula.
-      </li>
-    </ol>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>重點歸納</h2>
-    <ol>
-      <li><b>不考慮互感的串聯電感計算</b>：<br>
-        總電感為各電感直接相加，類似電阻串聯計算。<br>
-        $$L_{total} = L_1 + L_2 + L_3$$
-      </li>
-      <li><b>考慮互感的串聯電感計算</b>：<br>
-        三個電感 \(L_1, L_2, L_3\) 串聯，考慮互感 \(M_{12}, M_{23}, M_{31}\)。<br>
-        互助（磁力線方向相同）取加號，互消（磁力線方向相反）取減號。<br>
-        總電感公式：<br>
-        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$
-      </li>
-      <li><b>範例計算</b>：<br>
-        不考慮互感：12H + 4H + 6H = 22H。<br>
-        考慮互感：根據磁力線方向判斷互助或互消，代入公式計算。
-      </li>
-    </ol>
-  </div>
-</div>
-
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=zRMD1nQZN1w">here</a>.</p>
 <p><em>Date: 2025-05-05</em> </p>
 ]]></content>
       <categories>
@@ -1773,6 +1697,82 @@
         <tag>Inductance</tag>
         <tag>Electromagnetism</tag>
         <tag>Parallel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductance Part G Example: Series Inductance Calculation Without and With Mutual Inductance - 高中基本電學：電感與電磁_電感量_PART G 範例：不考慮互感的串聯總電感運算、考慮互感的串聯總電感運算_陳政旭</title>
+    <url>/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/</url>
+    <content><![CDATA[<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Introduction</h2>
+    <p>This article explains how to calculate the total inductance of inductors in series, both without and with mutual inductance. It also covers the effect of mutual aiding and opposing (magnetic flux direction) on the total inductance.</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>引言</h2>
+    <p>本文說明如何計算串聯電感的總電感量，包含不考慮互感與考慮互感的情況，並介紹互助與互消（磁力線方向）對總電感的影響。</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Key Points</h2>
+    <ol>
+      <li><b>Series Inductance without Mutual Inductance</b>:<br>
+        Total inductance is the sum of each inductance, similar to resistors in series.<br>
+        $$L_{total} = L_1 + L_2 + L_3$$
+      </li>
+      <li><b>Series Inductance with Mutual Inductance</b>:<br>
+        For three inductors \(L_1, L_2, L_3\) in series with mutual inductances \(M_{12}, M_{23}, M_{31}\):<br>
+        Mutual aiding (same magnetic flux direction) uses addition; mutual opposing uses subtraction.<br>
+        Total inductance formula:<br>
+        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$
+      </li>
+      <li><b>Example Calculations</b>:<br>
+        Without mutual inductance: 12H + 4H + 6H = 22H.<br>
+        With mutual inductance: Determine aiding or opposing by magnetic flux direction, then calculate using the formula.
+      </li>
+    </ol>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>重點歸納</h2>
+    <ol>
+      <li><b>不考慮互感的串聯電感計算</b>：<br>
+        總電感為各電感直接相加，類似電阻串聯計算。<br>
+        $$L_{total} = L_1 + L_2 + L_3$$
+      </li>
+      <li><b>考慮互感的串聯電感計算</b>：<br>
+        三個電感 \(L_1, L_2, L_3\) 串聯，考慮互感 \(M_{12}, M_{23}, M_{31}\)。<br>
+        互助（磁力線方向相同）取加號，互消（磁力線方向相反）取減號。<br>
+        總電感公式：<br>
+        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$
+      </li>
+      <li><b>範例計算</b>：<br>
+        不考慮互感：12H + 4H + 6H = 22H。<br>
+        考慮互感：根據磁力線方向判斷互助或互消，代入公式計算。
+      </li>
+    </ol>
+  </div>
+</div>
+
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=zRMD1nQZN1w">here</a>.</p>
+<p><em>Date: 2025-05-05</em> </p>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+        <category>Physics</category>
+        <category>Basic Electronics</category>
+      </categories>
+      <tags>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Tutorial</tag>
+        <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Series</tag>
       </tags>
   </entry>
   <entry>
@@ -2561,95 +2561,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Bilingual Test - 雙語測試</title>
-    <url>/2024/03/24/bilingual-test/</url>
-    <content><![CDATA[<h1 id="雙語文章示例-Bilingual-Article-Example"><a href="#雙語文章示例-Bilingual-Article-Example" class="headerlink" title="雙語文章示例 - Bilingual Article Example"></a>雙語文章示例 - Bilingual Article Example</h1><p>這篇文章展示如何使用新的雙語切換功能。This article demonstrates how to use the new bilingual toggle feature.</p>
-<h2 id="基本使用方法-Basic-Usage"><a href="#基本使用方法-Basic-Usage" class="headerlink" title="基本使用方法 - Basic Usage"></a>基本使用方法 - Basic Usage</h2><p>在文章頂部，您會看到語言切換按鈕，可以選擇只顯示中文、英文或同時顯示兩種語言。</p>
-<p>At the top of the article, you’ll see language toggle buttons that allow you to choose to display Chinese only, English only, or both languages simultaneously.</p>
-<h2 id="雙語內容範例-Bilingual-Content-Examples"><a href="#雙語內容範例-Bilingual-Content-Examples" class="headerlink" title="雙語內容範例 - Bilingual Content Examples"></a>雙語內容範例 - Bilingual Content Examples</h2><div class="bilingual-section">
-  <div class="lang lang-en">
-    <h3>Atomic Structure</h3>
-    <p>An atom consists of a nucleus containing protons and neutrons, surrounded by electrons in specific orbital layers. The number of protons determines the element.</p>
-    <ul>
-      <li>Protons: Positive charge (+)</li>
-      <li>Neutrons: No charge (neutral)</li>
-      <li>Electrons: Negative charge (-)</li>
-    </ul>
-  </div>
-
-  <div class="lang lang-zh">
-    <h3>原子結構</h3>
-    <p>原子由含有質子和中子的原子核組成，周圍是特定軌道層中的電子。質子的數量決定了元素。</p>
-    <ul>
-      <li>質子：正電荷 (+)</li>
-      <li>中子：無電荷（中性）</li>
-      <li>電子：負電荷 (-)</li>
-    </ul>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h3>Work and Energy</h3>
-    <p>Work is defined as the energy transferred when a force moves an object through a distance. The formula for work is:</p>
-    <p><strong>W = F × d × cos(θ)</strong></p>
-    <p>Where:</p>
-    <ul>
-      <li>W = Work (joules, J)</li>
-      <li>F = Force (newtons, N)</li>
-      <li>d = Distance (meters, m)</li>
-      <li>θ = Angle between the force and displacement vectors</li>
-    </ul>
-  </div>
-
-  <div class="lang lang-zh">
-    <h3>功和能量</h3>
-    <p>功被定義為當力使物體移動一段距離時所傳遞的能量。功的公式為：</p>
-    <p><strong>W = F × d × cos(θ)</strong></p>
-    <p>其中：</p>
-    <ul>
-      <li>W = 功（焦耳，J）</li>
-      <li>F = 力（牛頓，N）</li>
-      <li>d = 距離（米，m）</li>
-      <li>θ = 力和位移向量之間的角度</li>
-    </ul>
-  </div>
-</div>
-
-<h2 id="如何實現雙語內容-How-to-Implement-Bilingual-Content"><a href="#如何實現雙語內容-How-to-Implement-Bilingual-Content" class="headerlink" title="如何實現雙語內容 - How to Implement Bilingual Content"></a>如何實現雙語內容 - How to Implement Bilingual Content</h2><p>要創建雙語內容區塊，請使用以下HTML結構：</p>
-<p>To create bilingual content blocks, use the following HTML structure:</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bilingual-section&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;lang lang-en&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- English content here --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;lang lang-zh&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- Chinese content here --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="優點-Advantages"><a href="#優點-Advantages" class="headerlink" title="優點 - Advantages"></a>優點 - Advantages</h2><div class="bilingual-section">
-  <div class="lang lang-en">
-    <h3>Benefits of Bilingual Content</h3>
-    <ul>
-      <li>Reaches a wider audience</li>
-      <li>Improves accessibility</li>
-      <li>Enhances learning experience</li>
-      <li>User can choose their preferred language</li>
-    </ul>
-  </div>
-
-  <div class="lang lang-zh">
-    <h3>雙語內容的好處</h3>
-    <ul>
-      <li>觸及更廣泛的受眾</li>
-      <li>提高可訪問性</li>
-      <li>增強學習體驗</li>
-      <li>用戶可以選擇他們偏好的語言</li>
-    </ul>
-  </div>
-</div> ]]></content>
-      <categories>
-        <category>Demo</category>
-      </categories>
-      <tags>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Electrical Units and International System</title>
     <url>/2024/03/24/electrical-units-and-international-system/</url>
     <content><![CDATA[<h2 id="Importance-of-Numbers-and-Units"><a href="#Importance-of-Numbers-and-Units" class="headerlink" title="Importance of Numbers and Units"></a>Importance of Numbers and Units</h2><p><strong>English:</strong></p>
@@ -2871,6 +2782,95 @@
         <tag>Measurement</tag>
         <tag>Electrical</tag>
         <tag>SI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bilingual Test - 雙語測試</title>
+    <url>/2024/03/24/bilingual-test/</url>
+    <content><![CDATA[<h1 id="雙語文章示例-Bilingual-Article-Example"><a href="#雙語文章示例-Bilingual-Article-Example" class="headerlink" title="雙語文章示例 - Bilingual Article Example"></a>雙語文章示例 - Bilingual Article Example</h1><p>這篇文章展示如何使用新的雙語切換功能。This article demonstrates how to use the new bilingual toggle feature.</p>
+<h2 id="基本使用方法-Basic-Usage"><a href="#基本使用方法-Basic-Usage" class="headerlink" title="基本使用方法 - Basic Usage"></a>基本使用方法 - Basic Usage</h2><p>在文章頂部，您會看到語言切換按鈕，可以選擇只顯示中文、英文或同時顯示兩種語言。</p>
+<p>At the top of the article, you’ll see language toggle buttons that allow you to choose to display Chinese only, English only, or both languages simultaneously.</p>
+<h2 id="雙語內容範例-Bilingual-Content-Examples"><a href="#雙語內容範例-Bilingual-Content-Examples" class="headerlink" title="雙語內容範例 - Bilingual Content Examples"></a>雙語內容範例 - Bilingual Content Examples</h2><div class="bilingual-section">
+  <div class="lang lang-en">
+    <h3>Atomic Structure</h3>
+    <p>An atom consists of a nucleus containing protons and neutrons, surrounded by electrons in specific orbital layers. The number of protons determines the element.</p>
+    <ul>
+      <li>Protons: Positive charge (+)</li>
+      <li>Neutrons: No charge (neutral)</li>
+      <li>Electrons: Negative charge (-)</li>
+    </ul>
+  </div>
+
+  <div class="lang lang-zh">
+    <h3>原子結構</h3>
+    <p>原子由含有質子和中子的原子核組成，周圍是特定軌道層中的電子。質子的數量決定了元素。</p>
+    <ul>
+      <li>質子：正電荷 (+)</li>
+      <li>中子：無電荷（中性）</li>
+      <li>電子：負電荷 (-)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h3>Work and Energy</h3>
+    <p>Work is defined as the energy transferred when a force moves an object through a distance. The formula for work is:</p>
+    <p><strong>W = F × d × cos(θ)</strong></p>
+    <p>Where:</p>
+    <ul>
+      <li>W = Work (joules, J)</li>
+      <li>F = Force (newtons, N)</li>
+      <li>d = Distance (meters, m)</li>
+      <li>θ = Angle between the force and displacement vectors</li>
+    </ul>
+  </div>
+
+  <div class="lang lang-zh">
+    <h3>功和能量</h3>
+    <p>功被定義為當力使物體移動一段距離時所傳遞的能量。功的公式為：</p>
+    <p><strong>W = F × d × cos(θ)</strong></p>
+    <p>其中：</p>
+    <ul>
+      <li>W = 功（焦耳，J）</li>
+      <li>F = 力（牛頓，N）</li>
+      <li>d = 距離（米，m）</li>
+      <li>θ = 力和位移向量之間的角度</li>
+    </ul>
+  </div>
+</div>
+
+<h2 id="如何實現雙語內容-How-to-Implement-Bilingual-Content"><a href="#如何實現雙語內容-How-to-Implement-Bilingual-Content" class="headerlink" title="如何實現雙語內容 - How to Implement Bilingual Content"></a>如何實現雙語內容 - How to Implement Bilingual Content</h2><p>要創建雙語內容區塊，請使用以下HTML結構：</p>
+<p>To create bilingual content blocks, use the following HTML structure:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bilingual-section&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;lang lang-en&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- English content here --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;lang lang-zh&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- Chinese content here --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="優點-Advantages"><a href="#優點-Advantages" class="headerlink" title="優點 - Advantages"></a>優點 - Advantages</h2><div class="bilingual-section">
+  <div class="lang lang-en">
+    <h3>Benefits of Bilingual Content</h3>
+    <ul>
+      <li>Reaches a wider audience</li>
+      <li>Improves accessibility</li>
+      <li>Enhances learning experience</li>
+      <li>User can choose their preferred language</li>
+    </ul>
+  </div>
+
+  <div class="lang lang-zh">
+    <h3>雙語內容的好處</h3>
+    <ul>
+      <li>觸及更廣泛的受眾</li>
+      <li>提高可訪問性</li>
+      <li>增強學習體驗</li>
+      <li>用戶可以選擇他們偏好的語言</li>
+    </ul>
+  </div>
+</div> ]]></content>
+      <categories>
+        <category>Demo</category>
+      </categories>
+      <tags>
+        <tag>Bilingual</tag>
+        <tag>Tutorial</tag>
       </tags>
   </entry>
   <entry>
