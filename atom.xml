@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-05-05T15:02:21.884Z</updated>
+  <updated>2025-05-05T14:59:55.301Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>High School Basic Electricity: Conductance and Conductance Coefficient - 高中基本電學：電導與電導係數</title>
+    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/"/>
+    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/</id>
+    <published>2025-05-05T05:00:00.000Z</published>
+    <updated>2025-05-05T14:59:55.301Z</updated>
+    
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article introduces the fundamental concepts of conductance and conductance coefficient, including their definitions, mathematical relationships, and the factors that affect conductance in materials.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文介紹電導與電導係數的基本概念，包括其定義、數學關係以及影響材料電導的因素。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Definition of Conductance</b>:<br>        Conductance describes the ability of a material to allow charged particles to flow, which is the opposite of resistance.      </li>      <li><b>Relationship Between Conductance and Resistance</b>:<br>        Conductance \( G \) and resistance \( R \) are reciprocals:<br>        $$ G = \frac{1}{R} $$<br>        Conductance formula:<br>        $$ G = \gamma \cdot \frac{A}{L} $$<br>        Where \( \gamma \) is the conductance coefficient, \( A \) is the cross-sectional area, and \( L \) is the length of the object.      </li>      <li><b>Factors Affecting Conductance</b>:<br>        <b>Conductance Coefficient</b> (\( \gamma \)): The conductivity of the material.<br>        <b>Length of the Object</b> (\( L \)): Longer lengths result in lower conductance.<br>        <b>Cross-sectional Area</b> (\( A \)): Larger areas result in higher conductance.      </li>      <li><b>Percentage Conductance Coefficient</b>:<br>        Used to compare the conductivity of materials against standard copper.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>電導的定義</b>：<br>        電導是描述物體允許帶電粒子流動的能力，與電阻相反。      </li>      <li><b>電導與電阻的關係</b>：<br>        電導 \( G \) 與電阻 \( R \) 互為倒數：<br>        $$ G = \frac{1}{R} $$<br>        電導公式：<br>        $$ G = \gamma \cdot \frac{A}{L} $$<br>        其中，\( \gamma \) 是電導係數，\( A \) 是截面積，\( L \) 是物體長度。      </li>      <li><b>影響電導的因素</b>：<br>        <b>電導係數</b>（\( \gamma \)）：材質的導電能力。<br>        <b>物體長度</b>（\( L \)）：長度越長，電導越小。<br>        <b>截面積</b>（\( A \)）：截面積越大，電導越大。      </li>      <li><b>百分率電導係數</b>：<br>        用於比較材料的導電能力，以標準韌銅為基準。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=sq14FPh5WIk">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
+  &lt;div class=&quot;lang lang-en&quot;&gt;
+    &lt;h2&gt;Introduction&lt;/h2&gt;
+    &lt;p&gt;This article introduces the fundamental concep</summary>
+        
+      
+    
+    
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Conductance" scheme="https://bill55tt.github.io/tags/Conductance/"/>
+    
+    <category term="Conductivity" scheme="https://bill55tt.github.io/tags/Conductivity/"/>
+    
+  </entry>
   
   <entry>
     <title>High School Basic Electricity: Parallel Combination of Inductors (Without Mutual Inductance, With Mutual Inductance) - 高中基本電學：電感器並聯組合(無互感、互感)</title>
@@ -65,13 +111,13 @@
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Conductance and Conductance Coefficient - 高中基本電學：電導與電導係數</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/</id>
+    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductors in Series (Without and With Mutual Inductance) - 高中基本電學：電感與電磁_電感量_PART F 電感器串聯組合(無互感、有互感)_陳政旭</title>
+    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/"/>
+    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/</id>
     <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:59:55.301Z</updated>
+    <updated>2025-05-05T15:04:35.882Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article introduces the fundamental concepts of conductance and conductance coefficient, including their definitions, mathematical relationships, and the factors that affect conductance in materials.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文介紹電導與電導係數的基本概念，包括其定義、數學關係以及影響材料電導的因素。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Definition of Conductance</b>:<br>        Conductance describes the ability of a material to allow charged particles to flow, which is the opposite of resistance.      </li>      <li><b>Relationship Between Conductance and Resistance</b>:<br>        Conductance \( G \) and resistance \( R \) are reciprocals:<br>        $$ G = \frac{1}{R} $$<br>        Conductance formula:<br>        $$ G = \gamma \cdot \frac{A}{L} $$<br>        Where \( \gamma \) is the conductance coefficient, \( A \) is the cross-sectional area, and \( L \) is the length of the object.      </li>      <li><b>Factors Affecting Conductance</b>:<br>        <b>Conductance Coefficient</b> (\( \gamma \)): The conductivity of the material.<br>        <b>Length of the Object</b> (\( L \)): Longer lengths result in lower conductance.<br>        <b>Cross-sectional Area</b> (\( A \)): Larger areas result in higher conductance.      </li>      <li><b>Percentage Conductance Coefficient</b>:<br>        Used to compare the conductivity of materials against standard copper.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>電導的定義</b>：<br>        電導是描述物體允許帶電粒子流動的能力，與電阻相反。      </li>      <li><b>電導與電阻的關係</b>：<br>        電導 \( G \) 與電阻 \( R \) 互為倒數：<br>        $$ G = \frac{1}{R} $$<br>        電導公式：<br>        $$ G = \gamma \cdot \frac{A}{L} $$<br>        其中，\( \gamma \) 是電導係數，\( A \) 是截面積，\( L \) 是物體長度。      </li>      <li><b>影響電導的因素</b>：<br>        <b>電導係數</b>（\( \gamma \)）：材質的導電能力。<br>        <b>物體長度</b>（\( L \)）：長度越長，電導越小。<br>        <b>截面積</b>（\( A \)）：截面積越大，電導越大。      </li>      <li><b>百分率電導係數</b>：<br>        用於比較材料的導電能力，以標準韌銅為基準。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=sq14FPh5WIk">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article summarizes the calculation of total inductance for inductors in series, both without and with mutual inductance. It explains the difference between series aiding and series opposing, and how to use the dot convention to determine the polarity of coils.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文整理電感器串聯組合的總電感量計算，包含無互感與有互感的情況，說明串聯互助與互消的差異，以及如何利用打點法則判斷線圈極性。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Inductors in Series without Mutual Inductance</b>:<br>        The total inductance is the sum of the individual inductances:<br>        $$L_{total} = L_1 + L_2$$      </li>      <li><b>Inductors in Series with Mutual Inductance</b>:<br>        It is necessary to determine whether the mutual inductance is aiding or opposing.<br>        <b>Series Aiding (Mutual Inductance Aiding)</b>:<br>        The magnetic fields have the same direction, so the mutual inductance is positive.<br>        $$L_{total} = L_1 + L_2 + 2M$$<br>        <b>Series Opposing (Mutual Inductance Opposing)</b>:<br>        The magnetic fields have opposite directions, so the mutual inductance is negative.<br>        $$L_{total} = L_1 + L_2 - 2M$$      </li>      <li><b>Marking Polarity (N-dot Convention)</b>:<br>        Use dots to indicate the polarity (N-pole direction) of the coils to determine whether the mutual inductance is aiding or opposing.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>無互感串聯電感</b>：<br>        總電感量為各電感相加：<br>        $$L_{total} = L_1 + L_2$$      </li>      <li><b>有互感串聯電感</b>：<br>        需判斷互助（助磁）或互消（消磁）。<br>        <b>串聯互助</b>：<br>        磁場方向相同，互感為正。<br>        $$L_{total} = L_1 + L_2 + 2M$$<br>        <b>串聯互消</b>：<br>        磁場方向相反，互感為負。<br>        $$L_{total} = L_1 + L_2 - 2M$$      </li>      <li><b>標示N極方向（打點法則）</b>：<br>        用點標示線圈N極方向，判斷互助或互消。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=HJCpPPi4Q7E">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
     
     
       
@@ -81,7 +127,7 @@
     <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
   &lt;div class=&quot;lang lang-en&quot;&gt;
     &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article introduces the fundamental concep</summary>
+    &lt;p&gt;This article summarizes the calculation of tot</summary>
         
       
     
@@ -104,20 +150,22 @@
     
     <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
     
-    <category term="Conductance" scheme="https://bill55tt.github.io/tags/Conductance/"/>
+    <category term="Inductance" scheme="https://bill55tt.github.io/tags/Inductance/"/>
     
-    <category term="Conductivity" scheme="https://bill55tt.github.io/tags/Conductivity/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Series" scheme="https://bill55tt.github.io/tags/Series/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductors in Series (Without and With Mutual Inductance) - 高中基本電學：電感與電磁_電感量_PART F 電感器串聯組合(無互感、有互感)_陳政旭</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/</id>
+    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductance Part G Example: Series Inductance Calculation Without and With Mutual Inductance - 高中基本電學：電感與電磁_電感量_PART G 範例：不考慮互感的串聯總電感運算、考慮互感的串聯總電感運算_陳政旭</title>
+    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/"/>
+    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/</id>
     <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T15:04:35.882Z</updated>
+    <updated>2025-05-05T15:02:15.367Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article summarizes the calculation of total inductance for inductors in series, both without and with mutual inductance. It explains the difference between series aiding and series opposing, and how to use the dot convention to determine the polarity of coils.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文整理電感器串聯組合的總電感量計算，包含無互感與有互感的情況，說明串聯互助與互消的差異，以及如何利用打點法則判斷線圈極性。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Inductors in Series without Mutual Inductance</b>:<br>        The total inductance is the sum of the individual inductances:<br>        $$L_{total} = L_1 + L_2$$      </li>      <li><b>Inductors in Series with Mutual Inductance</b>:<br>        It is necessary to determine whether the mutual inductance is aiding or opposing.<br>        <b>Series Aiding (Mutual Inductance Aiding)</b>:<br>        The magnetic fields have the same direction, so the mutual inductance is positive.<br>        $$L_{total} = L_1 + L_2 + 2M$$<br>        <b>Series Opposing (Mutual Inductance Opposing)</b>:<br>        The magnetic fields have opposite directions, so the mutual inductance is negative.<br>        $$L_{total} = L_1 + L_2 - 2M$$      </li>      <li><b>Marking Polarity (N-dot Convention)</b>:<br>        Use dots to indicate the polarity (N-pole direction) of the coils to determine whether the mutual inductance is aiding or opposing.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>無互感串聯電感</b>：<br>        總電感量為各電感相加：<br>        $$L_{total} = L_1 + L_2$$      </li>      <li><b>有互感串聯電感</b>：<br>        需判斷互助（助磁）或互消（消磁）。<br>        <b>串聯互助</b>：<br>        磁場方向相同，互感為正。<br>        $$L_{total} = L_1 + L_2 + 2M$$<br>        <b>串聯互消</b>：<br>        磁場方向相反，互感為負。<br>        $$L_{total} = L_1 + L_2 - 2M$$      </li>      <li><b>標示N極方向（打點法則）</b>：<br>        用點標示線圈N極方向，判斷互助或互消。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=HJCpPPi4Q7E">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article explains how to calculate the total inductance of inductors in series, both without and with mutual inductance. It also covers the effect of mutual aiding and opposing (magnetic flux direction) on the total inductance.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文說明如何計算串聯電感的總電感量，包含不考慮互感與考慮互感的情況，並介紹互助與互消（磁力線方向）對總電感的影響。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Series Inductance without Mutual Inductance</b>:<br>        Total inductance is the sum of each inductance, similar to resistors in series.<br>        $$L_{total} = L_1 + L_2 + L_3$$      </li>      <li><b>Series Inductance with Mutual Inductance</b>:<br>        For three inductors \(L_1, L_2, L_3\) in series with mutual inductances \(M_{12}, M_{23}, M_{31}\):<br>        Mutual aiding (same magnetic flux direction) uses addition; mutual opposing uses subtraction.<br>        Total inductance formula:<br>        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$      </li>      <li><b>Example Calculations</b>:<br>        Without mutual inductance: 12H + 4H + 6H = 22H.<br>        With mutual inductance: Determine aiding or opposing by magnetic flux direction, then calculate using the formula.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>不考慮互感的串聯電感計算</b>：<br>        總電感為各電感直接相加，類似電阻串聯計算。<br>        $$L_{total} = L_1 + L_2 + L_3$$      </li>      <li><b>考慮互感的串聯電感計算</b>：<br>        三個電感 \(L_1, L_2, L_3\) 串聯，考慮互感 \(M_{12}, M_{23}, M_{31}\)。<br>        互助（磁力線方向相同）取加號，互消（磁力線方向相反）取減號。<br>        總電感公式：<br>        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$      </li>      <li><b>範例計算</b>：<br>        不考慮互感：12H + 4H + 6H = 22H。<br>        考慮互感：根據磁力線方向判斷互助或互消，代入公式計算。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=zRMD1nQZN1w">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
     
     
       
@@ -127,7 +175,7 @@
     <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
   &lt;div class=&quot;lang lang-en&quot;&gt;
     &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article summarizes the calculation of tot</summary>
+    &lt;p&gt;This article explains how to calculate the tot</summary>
         
       
     
@@ -203,54 +251,6 @@
     <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
     <category term="Parallel" scheme="https://bill55tt.github.io/tags/Parallel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductance Part G Example: Series Inductance Calculation Without and With Mutual Inductance - 高中基本電學：電感與電磁_電感量_PART G 範例：不考慮互感的串聯總電感運算、考慮互感的串聯總電感運算_陳政旭</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T15:02:15.367Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article explains how to calculate the total inductance of inductors in series, both without and with mutual inductance. It also covers the effect of mutual aiding and opposing (magnetic flux direction) on the total inductance.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文說明如何計算串聯電感的總電感量，包含不考慮互感與考慮互感的情況，並介紹互助與互消（磁力線方向）對總電感的影響。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Series Inductance without Mutual Inductance</b>:<br>        Total inductance is the sum of each inductance, similar to resistors in series.<br>        $$L_{total} = L_1 + L_2 + L_3$$      </li>      <li><b>Series Inductance with Mutual Inductance</b>:<br>        For three inductors \(L_1, L_2, L_3\) in series with mutual inductances \(M_{12}, M_{23}, M_{31}\):<br>        Mutual aiding (same magnetic flux direction) uses addition; mutual opposing uses subtraction.<br>        Total inductance formula:<br>        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$      </li>      <li><b>Example Calculations</b>:<br>        Without mutual inductance: 12H + 4H + 6H = 22H.<br>        With mutual inductance: Determine aiding or opposing by magnetic flux direction, then calculate using the formula.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>不考慮互感的串聯電感計算</b>：<br>        總電感為各電感直接相加，類似電阻串聯計算。<br>        $$L_{total} = L_1 + L_2 + L_3$$      </li>      <li><b>考慮互感的串聯電感計算</b>：<br>        三個電感 \(L_1, L_2, L_3\) 串聯，考慮互感 \(M_{12}, M_{23}, M_{31}\)。<br>        互助（磁力線方向相同）取加號，互消（磁力線方向相反）取減號。<br>        總電感公式：<br>        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$      </li>      <li><b>範例計算</b>：<br>        不考慮互感：12H + 4H + 6H = 22H。<br>        考慮互感：根據磁力線方向判斷互助或互消，代入公式計算。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=zRMD1nQZN1w">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article explains how to calculate the tot</summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Inductance" scheme="https://bill55tt.github.io/tags/Inductance/"/>
-    
-    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
-    
-    <category term="Series" scheme="https://bill55tt.github.io/tags/Series/"/>
     
   </entry>
   
