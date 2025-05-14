@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-05-05T14:59:55.301Z</updated>
+  <updated>2025-05-14T13:01:29.237Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -17,881 +17,772 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>High School Basic Electricity: Conductance and Conductance Coefficient - 高中基本電學：電導與電導係數</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:59:55.301Z</updated>
+    <title>Charged Particle Motion in Magnetic Fields: Force and Trajectory Analysis - 電荷在磁場中運動的受力與運動軌跡解析</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-charged-particle-magnetic-field/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-charged-particle-magnetic-field/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:01:29.237Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article introduces the fundamental concepts of conductance and conductance coefficient, including their definitions, mathematical relationships, and the factors that affect conductance in materials.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文介紹電導與電導係數的基本概念，包括其定義、數學關係以及影響材料電導的因素。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Definition of Conductance</b>:<br>        Conductance describes the ability of a material to allow charged particles to flow, which is the opposite of resistance.      </li>      <li><b>Relationship Between Conductance and Resistance</b>:<br>        Conductance \( G \) and resistance \( R \) are reciprocals:<br>        $$ G = \frac{1}{R} $$<br>        Conductance formula:<br>        $$ G = \gamma \cdot \frac{A}{L} $$<br>        Where \( \gamma \) is the conductance coefficient, \( A \) is the cross-sectional area, and \( L \) is the length of the object.      </li>      <li><b>Factors Affecting Conductance</b>:<br>        <b>Conductance Coefficient</b> (\( \gamma \)): The conductivity of the material.<br>        <b>Length of the Object</b> (\( L \)): Longer lengths result in lower conductance.<br>        <b>Cross-sectional Area</b> (\( A \)): Larger areas result in higher conductance.      </li>      <li><b>Percentage Conductance Coefficient</b>:<br>        Used to compare the conductivity of materials against standard copper.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>電導的定義</b>：<br>        電導是描述物體允許帶電粒子流動的能力，與電阻相反。      </li>      <li><b>電導與電阻的關係</b>：<br>        電導 \( G \) 與電阻 \( R \) 互為倒數：<br>        $$ G = \frac{1}{R} $$<br>        電導公式：<br>        $$ G = \gamma \cdot \frac{A}{L} $$<br>        其中，\( \gamma \) 是電導係數，\( A \) 是截面積，\( L \) 是物體長度。      </li>      <li><b>影響電導的因素</b>：<br>        <b>電導係數</b>（\( \gamma \)）：材質的導電能力。<br>        <b>物體長度</b>（\( L \)）：長度越長，電導越小。<br>        <b>截面積</b>（\( A \)）：截面積越大，電導越大。      </li>      <li><b>百分率電導係數</b>：<br>        用於比較材料的導電能力，以標準韌銅為基準。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=sq14FPh5WIk">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental principles of charged particle motion in magnetic fields, including the Lorentz force, trajectory analysis, and practical applications.</p><p>本文探討電荷在磁場中運動的基本原理，包括洛倫茲力、運動軌跡分析以及實際應用。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Lorentz-Force-and-Direction-洛倫茲力與方向"><a href="#1-Lorentz-Force-and-Direction-洛倫茲力與方向" class="headerlink" title="1. Lorentz Force and Direction 洛倫茲力與方向"></a>1. Lorentz Force and Direction 洛倫茲力與方向</h3><ul><li><p>A charged particle moving in a magnetic field experiences the Lorentz force, whose direction is determined by Fleming’s left-hand rule.</p></li><li><p>The direction of positive charge movement is the current direction; with the magnetic field directed into the plane, the force is perpendicular to both velocity and magnetic field.</p></li><li><p>電荷在磁場中運動時會受到洛倫茲力作用，力的方向可用佛萊明左手定則判斷。</p></li><li><p>正電荷運動方向為電流方向，磁場方向垂直紙面射入，受力方向垂直於速度與磁場方向。</p></li></ul><h3 id="2-Circular-Motion-圓周運動"><a href="#2-Circular-Motion-圓周運動" class="headerlink" title="2. Circular Motion 圓周運動"></a>2. Circular Motion 圓周運動</h3><ul><li><p>Positive charges undergo counterclockwise circular motion in the magnetic field, while negative charges move clockwise.</p></li><li><p>The force magnitude is given by ( F &#x3D; B Q v ), where ( B ) is magnetic flux density, ( Q ) is charge, and ( v ) is velocity.</p></li><li><p>電荷在磁場中會做逆時針圓周運動（正電荷），負電荷則為順時針圓周運動。</p></li><li><p>受力大小公式為 ( F &#x3D; B Q v )，其中 ( B ) 是磁通密度，( Q ) 是電荷量，( v ) 是速度。</p></li></ul><h3 id="3-Practical-Applications-實際應用"><a href="#3-Practical-Applications-實際應用" class="headerlink" title="3. Practical Applications 實際應用"></a>3. Practical Applications 實際應用</h3><ul><li><p>This principle is applied in CRT displays to control electron beam deflection.</p></li><li><p>The understanding of charged particle motion in magnetic fields is crucial for various technologies including particle accelerators and mass spectrometers.</p></li><li><p>此原理應用於CRT顯示器中控制電子束的偏轉。</p></li><li><p>理解電荷在磁場中的運動對於粒子加速器和質譜儀等各種技術至關重要。</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=1BEH9lPoCho&t=1s">Charged Particle Motion in Magnetic Fields</a> </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article introduces the fundamental concep</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article explo</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Conductance" scheme="https://bill55tt.github.io/tags/Conductance/"/>
+    <category term="Lorentz Force" scheme="https://bill55tt.github.io/tags/Lorentz-Force/"/>
     
-    <category term="Conductivity" scheme="https://bill55tt.github.io/tags/Conductivity/"/>
+    <category term="Magnetic Fields" scheme="https://bill55tt.github.io/tags/Magnetic-Fields/"/>
+    
+    <category term="Charged Particles" scheme="https://bill55tt.github.io/tags/Charged-Particles/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Parallel Combination of Inductors (Without Mutual Inductance, With Mutual Inductance) - 高中基本電學：電感器並聯組合(無互感、互感)</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-parallel-combination/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-parallel-combination/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T15:02:21.884Z</updated>
+    <title>Analysis of Coupling Coefficient, Self-Inductance, and Mutual Inductance Relationships - 耦合係數、自感與互感關係式解析</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-coupling-coefficient-analysis/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-coupling-coefficient-analysis/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.731Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article introduces the calculation methods for parallel combinations of inductors, including both cases without mutual inductance and with mutual inductance. It also explains how the direction of mutual inductance (assisting or opposing) affects the total inductance.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文介紹電感器並聯組合的計算方法，包含無互感與有互感兩種情況，並說明互感方向（互助或互消）對總電感量的影響。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Parallel Inductors Without Mutual Inductance</b>:<br>        The formula is similar to parallel resistors:<br>        $$L_T = \frac{L_1 \times L_2}{L_1 + L_2}$$      </li>      <li><b>Parallel Inductors With Mutual Inductance</b>:<br>        Determine if the mutual effect is assisting (same magnetic field direction) or opposing (opposite magnetic field direction).<br>        The formula is:<br>        $$L_T = \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}$$<br>        Use minus sign (−2M) for assisting mutual inductance (larger total inductance).<br>        Use plus sign (+2M) for opposing mutual inductance (smaller total inductance).      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>無互感並聯電感</b>：<br>        計算公式與電阻並聯相似：<br>        $$L_T = \frac{L_1 \times L_2}{L_1 + L_2}$$      </li>      <li><b>有互感並聯電感</b>：<br>        需判斷互感是互助（磁場方向相同）或互消（磁場方向相反）。<br>        公式：<br>        $$L_T = \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}$$<br>        互助取負號（−2M），電感量較大。<br>        互消取正號（+2M），電感量較小。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=JhOxJFNb5Tc">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article analyzes the relationships between coupling coefficient, self-inductance, and mutual inductance in electromagnetic systems. It explains the fundamental concepts and mathematical relationships that govern these interactions.</p><p>本文分析電磁系統中耦合係數、自感和互感之間的關係。內容解釋這些相互作用的基本概念和數學關係。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Coupling-Coefficient-耦合係數"><a href="#1-Coupling-Coefficient-耦合係數" class="headerlink" title="1. Coupling Coefficient 耦合係數"></a>1. Coupling Coefficient 耦合係數</h3><ul><li><p><strong>Coupling coefficient K:</strong></p><ul><li>Represents the magnetic coupling efficiency between two coils</li><li>Ranges from 0 to 1</li><li>Closer to 1 indicates better coupling</li></ul></li><li><p><strong>耦合係數K：</strong></p><ul><li>表示兩線圈間磁通的導磁效率</li><li>範圍為0到1</li><li>越接近1表示耦合越好</li></ul></li></ul><h3 id="2-Coupling-Efficiencies-耦合效率"><a href="#2-Coupling-Efficiencies-耦合效率" class="headerlink" title="2. Coupling Efficiencies 耦合效率"></a>2. Coupling Efficiencies 耦合效率</h3><ul><li><p><strong>K1 and K2:</strong></p><ul><li>K1: Magnetic coupling efficiency from coil 1 to coil 2</li><li>K2: Magnetic coupling efficiency from coil 2 to coil 1</li><li>K1 &#x3D; K2 in practice</li></ul></li><li><p><strong>K1與K2：</strong></p><ul><li>K1：線圈1對線圈2磁通的導磁效率</li><li>K2：線圈2對線圈1的導磁效率</li><li>實際應用中K1 &#x3D; K2</li></ul></li></ul><h3 id="3-Magnetic-Flux-磁通量"><a href="#3-Magnetic-Flux-磁通量" class="headerlink" title="3. Magnetic Flux 磁通量"></a>3. Magnetic Flux 磁通量</h3><ul><li><p><strong>Magnetic flux relationships:</strong></p><ul><li>Φ12: Magnetic flux from coil 1 affecting coil 2</li><li>Φ21: Magnetic flux from coil 2 affecting coil 1</li></ul></li><li><p><strong>磁通關係：</strong></p><ul><li>Φ12：線圈1產生影響線圈2的磁通</li><li>Φ21：線圈2影響線圈1的磁通</li></ul></li></ul><h3 id="4-Self-Inductance-自感量"><a href="#4-Self-Inductance-自感量" class="headerlink" title="4. Self-Inductance 自感量"></a>4. Self-Inductance 自感量</h3><ul><li><p><strong>Self-inductance values:</strong></p><ul><li>L1: Inductance of coil 1</li><li>L2: Inductance of coil 2</li></ul></li><li><p><strong>自感量：</strong></p><ul><li>L1：線圈1的電感量</li><li>L2：線圈2的電感量</li></ul></li></ul><h3 id="5-Mutual-Inductance-互感量"><a href="#5-Mutual-Inductance-互感量" class="headerlink" title="5. Mutual Inductance 互感量"></a>5. Mutual Inductance 互感量</h3><ul><li><p><strong>Mutual inductance formula:</strong><br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p></li><li><p><strong>Equality of mutual inductances:</strong><br>[<br>M_{12} &#x3D; M_{21} &#x3D; M<br>]</p></li><li><p><strong>互感量公式：</strong><br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p></li><li><p><strong>互感量相等關係：</strong><br>[<br>M_{12} &#x3D; M_{21} &#x3D; M<br>]</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=L4-S0KjHWMc">Coupling Coefficient Analysis</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article introduces the calculation method</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article analy</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Coupling Coefficient" scheme="https://bill55tt.github.io/tags/Coupling-Coefficient/"/>
+    
+    <category term="Self-Inductance" scheme="https://bill55tt.github.io/tags/Self-Inductance/"/>
+    
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Direction of Force on Current-Carrying Conductor in Magnetic Field and Fleming&#39;s Left-Hand Rule - 載流導體在磁場中所受力的方向與佛萊明左手定則</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-current-carrying-conductor-force-direction/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-current-carrying-conductor-force-direction/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T12:59:43.022Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the principles of force direction on current-carrying conductors in magnetic fields and the application of Fleming’s left-hand rule, including magnetic field interactions and practical applications.</p><p>本文解釋載流導體在磁場中受力方向的原理和佛萊明左手定則的應用，包括磁場相互作用和實際應用。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Current-Carrying-Conductor-and-Magnetic-Field-載流導體與磁場"><a href="#1-Current-Carrying-Conductor-and-Magnetic-Field-載流導體與磁場" class="headerlink" title="1. Current-Carrying Conductor and Magnetic Field 載流導體與磁場"></a>1. Current-Carrying Conductor and Magnetic Field 載流導體與磁場</h3><ul><li><p><strong>Current-Carrying Conductor:</strong> A conductor with electric current generates a magnetic field.</p></li><li><p><strong>Main Magnetic Field Direction:</strong> Magnetic lines run from the North (N) pole to the South (S) pole.</p></li><li><p><strong>載流導體</strong>：導體中通有電流，會產生磁場。</p></li><li><p><strong>主極磁場方向</strong>：磁力線由N極指向S極。</p></li></ul><h3 id="2-Magnetic-Field-Interactions-磁場相互作用"><a href="#2-Magnetic-Field-Interactions-磁場相互作用" class="headerlink" title="2. Magnetic Field Interactions 磁場相互作用"></a>2. Magnetic Field Interactions 磁場相互作用</h3><ul><li><p><strong>Interaction of Magnetic Lines:</strong></p><ul><li>Above the conductor, magnetic lines oppose and weaken each other.</li><li>Below the conductor, magnetic lines align and strengthen.</li></ul></li><li><p><strong>Force Direction:</strong> The conductor is pushed from regions of higher magnetic line density to lower density, resulting in an upward force.</p></li><li><p><strong>磁力線互動</strong>：</p><ul><li>導體上方磁力線方向相反，磁力線抵銷，磁場減弱。</li><li>導體下方磁力線方向相同，磁力線增強。</li></ul></li><li><p><strong>受力方向</strong>：導體受力由磁力線密度高處推向低處，導體向上受力。</p></li></ul><h3 id="3-Fleming’s-Left-Hand-Rule-佛萊明左手定則"><a href="#3-Fleming’s-Left-Hand-Rule-佛萊明左手定則" class="headerlink" title="3. Fleming’s Left-Hand Rule 佛萊明左手定則"></a>3. Fleming’s Left-Hand Rule 佛萊明左手定則</h3><ul><li><p><strong>Fleming’s Left-Hand Rule:</strong></p><ul><li>Thumb: Force direction (F)</li><li>Index finger: Magnetic field direction (B)</li><li>Middle finger: Current direction (I)</li><li>All three are perpendicular; use the left hand to determine the force direction on the conductor.</li></ul></li><li><p><strong>Application:</strong> Fleming’s left-hand rule simplifies determining the force direction on a current-carrying conductor in a magnetic field.</p></li><li><p><strong>佛萊明左手定則</strong>：</p><ul><li>拇指：受力方向（F）</li><li>食指：磁場方向（B）</li><li>中指：電流方向（I）</li><li>三者互相垂直，用左手判斷載流導體受力方向。</li></ul></li><li><p><strong>應用</strong>：佛萊明左手定則簡化判斷載流導體在磁場中受力方向的過程。</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">YouTube 自動翻譯功能</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article expla</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Current" scheme="https://bill55tt.github.io/tags/Current/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Magnetic Force" scheme="https://bill55tt.github.io/tags/Magnetic-Force/"/>
+    
+    <category term="Conductor" scheme="https://bill55tt.github.io/tags/Conductor/"/>
+    
+    <category term="Fleming&#39;s Rule" scheme="https://bill55tt.github.io/tags/Fleming-s-Rule/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Magnitude of Force on a Current-Carrying Conductor in a Magnetic Field - 載流導體在磁場中所受力的大小</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-current-carrying-conductor-magnetic-field/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-current-carrying-conductor-magnetic-field/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T12:58:36.624Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article examines the calculation of force magnitude on a current-carrying conductor in a magnetic field, including both perpendicular and angled cases, along with practical examples.</p><p>本文探討載流導體在磁場中受力大小的計算方法，包括垂直和斜角兩種情況，並提供實際範例。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Force-Calculation-Methods-受力計算方法"><a href="#1-Force-Calculation-Methods-受力計算方法" class="headerlink" title="1. Force Calculation Methods 受力計算方法"></a>1. Force Calculation Methods 受力計算方法</h3><ul><li><p>The force magnitude on a current-carrying conductor in a magnetic field is calculated in two cases:  </p><ol><li><strong>Conductor perpendicular to magnetic field:</strong><br>Formula: ( F &#x3D; B l I )<br>where ( F ) is force (Newtons), ( B ) is magnetic flux density (Tesla), ( l ) is effective length of conductor in the field (meters), and ( I ) is current (Amperes).  </li><li><strong>Conductor at an angle (\theta) to magnetic field:</strong><br>Formula: ( F &#x3D; B l I \sin \theta ), where (\sin \theta) adjusts the effective length cut by the magnetic field.</li></ol></li><li><p>載流導體在磁場中受力的大小計算分兩種情況：</p><ol><li><strong>導體與磁場垂直</strong>：<br>公式為 ( F &#x3D; B l I )<br>其中，  <ul><li>( F ) 是受力大小（牛頓，N）  </li><li>( B ) 是磁通密度（特斯拉，T）  </li><li>( l ) 是導體在磁場中的有效長度（公尺，m）  </li><li>( I ) 是電流大小（安培，A）</li></ul></li><li><strong>導體與磁場不垂直</strong>（與磁場成角度 (\theta)）：<br>公式修正為 ( F &#x3D; B l I \sin \theta )，其中 (\sin \theta) 是導體在磁場中切割的有效長度比例。</li></ol></li></ul><h3 id="2-Force-Direction-力的方向"><a href="#2-Force-Direction-力的方向" class="headerlink" title="2. Force Direction 力的方向"></a>2. Force Direction 力的方向</h3><ul><li><p>The force direction is determined by Fleming’s left-hand rule:<br>Thumb points to force, index finger to magnetic field, middle finger to current.</p></li><li><p>力的方向可用佛萊明左手定則判斷：<br>拇指指向力的方向，食指指向磁場方向，中指指向電流方向。</p></li></ul><h3 id="3-Example-Calculations-範例計算"><a href="#3-Example-Calculations-範例計算" class="headerlink" title="3. Example Calculations 範例計算"></a>3. Example Calculations 範例計算</h3><ul><li><p>Example calculations:  </p><ul><li>Perpendicular case: ( B&#x3D;2,T, l&#x3D;1,m, I&#x3D;10,A \Rightarrow F&#x3D;20,N )  </li><li>Angled case: ( B&#x3D;0.5,T, l&#x3D;0.2,m, I&#x3D;10,A, \theta&#x3D;30^\circ \Rightarrow F&#x3D;0.5,N )</li></ul></li><li><p>範例計算：  </p><ul><li>垂直情況：( B&#x3D;2,T, l&#x3D;1,m, I&#x3D;10,A \Rightarrow F&#x3D;20,N )  </li><li>斜角情況：( B&#x3D;0.5,T, l&#x3D;0.2,m, I&#x3D;10,A, \theta&#x3D;30^\circ \Rightarrow F&#x3D;0.5,N )</li></ul></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=3z9c1rQx5oI">點此觀看影片並啟用YouTube自動翻譯</a><br>（請在影片設定中開啟字幕及自動翻譯功能） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article exami</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Current" scheme="https://bill55tt.github.io/tags/Current/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Magnetic Force" scheme="https://bill55tt.github.io/tags/Magnetic-Force/"/>
+    
+    <category term="Conductor" scheme="https://bill55tt.github.io/tags/Conductor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Electromagnetic Effect Part A - 高中基本電學：電磁效應 PART A</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-effect-part-a/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-effect-part-a/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.391Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental concepts of electromagnetic effects, including the relationship between electricity and magnetism, practical applications, and key principles.</p><p>本文探討電磁效應的基本概念，包括電與磁的關係、實際應用和重要原理。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Electromagnetic-Effect-電磁效應"><a href="#1-Electromagnetic-Effect-電磁效應" class="headerlink" title="1. Electromagnetic Effect 電磁效應"></a>1. Electromagnetic Effect 電磁效應</h3><ul><li><p>Electromagnetic effect refers to the phenomenon where an electric current produces a magnetic field (electricity generates magnetism).</p></li><li><p>This fundamental principle is the basis for many electrical devices and applications.</p></li><li><p>電磁效應是電流產生磁場的現象（電生磁）。</p></li><li><p>這個基本原理是許多電氣設備和應用的基礎。</p></li></ul><h3 id="2-Hall-Effect-and-Applications-霍爾效應與應用"><a href="#2-Hall-Effect-and-Applications-霍爾效應與應用" class="headerlink" title="2. Hall Effect and Applications 霍爾效應與應用"></a>2. Hall Effect and Applications 霍爾效應與應用</h3><ul><li><p>The Hall effect sensor converts magnetic energy into electrical energy.</p></li><li><p>Applications include:</p><ul><li>Smartphone smart covers</li><li>RFID technology in transportation cards (e.g., EasyCard)</li><li>Various proximity sensors</li></ul></li><li><p>霍爾效應感測器利用磁場轉換成電能。</p></li><li><p>應用包括：</p><ul><li>手機智能皮套</li><li>悠遊卡的RFID技術</li><li>各種接近感測器</li></ul></li></ul><h3 id="3-Magnetic-Field-Direction-and-Right-Hand-Rule-磁場方向與安培右手定則"><a href="#3-Magnetic-Field-Direction-and-Right-Hand-Rule-磁場方向與安培右手定則" class="headerlink" title="3. Magnetic Field Direction and Right-Hand Rule 磁場方向與安培右手定則"></a>3. Magnetic Field Direction and Right-Hand Rule 磁場方向與安培右手定則</h3><ul><li><p>The magnetic field direction around a current-carrying conductor can be determined by the right-hand rule:</p><ul><li>Current into the paper produces a clockwise magnetic field</li><li>Current out of the paper produces a counterclockwise magnetic field</li></ul></li><li><p>載流導體周圍磁場方向可用安培右手定則判定：</p><ul><li>電流流入紙面磁場為順時針</li><li>電流流出紙面為逆時針</li></ul></li></ul><h3 id="4-Electromagnetic-Induction-電磁感應"><a href="#4-Electromagnetic-Induction-電磁感應" class="headerlink" title="4. Electromagnetic Induction 電磁感應"></a>4. Electromagnetic Induction 電磁感應</h3><ul><li><p>Electromagnetic induction is the effect where a magnetic field induces an electric current.</p></li><li><p>When a coil moves in a magnetic field, current is induced.</p></li><li><p>This principle is the foundation of generator operation.</p></li><li><p>電磁感應是磁生電的效應。</p></li><li><p>線圈在磁場中運動會感應出電流。</p></li><li><p>這是發電機運作的理論基礎。</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=tEt041v68xQ">Electromagnetic Effect Part A</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article explo</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Electromagnetic Effect" scheme="https://bill55tt.github.io/tags/Electromagnetic-Effect/"/>
+    
+    <category term="Hall Effect" scheme="https://bill55tt.github.io/tags/Hall-Effect/"/>
+    
+    <category term="Right-Hand Rule" scheme="https://bill55tt.github.io/tags/Right-Hand-Rule/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Electromagnetic Induction Examples - 高中基本電學：電磁感應範例解析</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-induction-examples/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-induction-examples/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.391Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article presents various examples of Faraday’s electromagnetic induction law, including basic problems, self-inductance calculations, and magnetic flux density applications.</p><p>本文介紹法拉第電磁感應定律的各種範例，包括基本題型、自感計算和磁通密度應用。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Faraday’s-Law-Problem-法拉第電磁感應基本題型"><a href="#1-Basic-Faraday’s-Law-Problem-法拉第電磁感應基本題型" class="headerlink" title="1. Basic Faraday’s Law Problem 法拉第電磁感應基本題型"></a>1. Basic Faraday’s Law Problem 法拉第電磁感應基本題型</h3><ul><li><p>Key parameters: number of coil turns (N), change in magnetic flux (\Delta \Phi), and time interval (\Delta t).  </p></li><li><p>Induced EMF formula:<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$</p></li><li><p>Example: 5000 turns, flux changes from 0.01Wb to 0.03Wb in 0.5s, EMF &#x3D; 200V.</p></li><li><p>線圈匝數 (N)、磁通變化量 (\Delta \Phi)、時間間隔 (\Delta t) 是計算感應電勢的關鍵參數。  </p></li><li><p>感應電勢公式：<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$</p></li><li><p>範例：5000匝線圈，磁通0.01Wb增加到0.03Wb，0.5秒內，感應電勢為200V。</p></li></ul><h3 id="2-Advanced-Problem-Self-Inductance-and-Current-Change-進階題型：自感電感與電流變化"><a href="#2-Advanced-Problem-Self-Inductance-and-Current-Change-進階題型：自感電感與電流變化" class="headerlink" title="2. Advanced Problem: Self-Inductance and Current Change 進階題型：自感電感與電流變化"></a>2. Advanced Problem: Self-Inductance and Current Change 進階題型：自感電感與電流變化</h3><ul><li><p>Parameters: inductance (L), current change (\Delta i), time interval (\Delta t).  </p></li><li><p>Formula:<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$</p></li><li><p>Example: 4H inductance, current increases from 2A to 7A in 2s, EMF &#x3D; 10V.</p></li><li><p>自感電感 (L)、電流變化量 (\Delta i)、時間間隔 (\Delta t) 用於計算感應電勢。  </p></li><li><p>公式：<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$</p></li><li><p>範例：4H電感，電流2秒由2A增至7A，感應電勢為10V。</p></li></ul><h3 id="3-Calculating-Flux-Change-from-Magnetic-Flux-Density-and-Area-利用磁通密度與面積計算磁通變化"><a href="#3-Calculating-Flux-Change-from-Magnetic-Flux-Density-and-Area-利用磁通密度與面積計算磁通變化" class="headerlink" title="3. Calculating Flux Change from Magnetic Flux Density and Area 利用磁通密度與面積計算磁通變化"></a>3. Calculating Flux Change from Magnetic Flux Density and Area 利用磁通密度與面積計算磁通變化</h3><ul><li><p>Magnetic flux change:<br>$$<br>\Delta \Phi &#x3D; B \times A<br>$$</p></li><li><p>Example: 10 turns, magnetic flux density 2T, area 0.25㎡, time 0.1s, EMF &#x3D; 50V.</p></li><li><p>磁通密度 (B) 與磁極面積 (A) 乘積得磁通變化量：<br>$$<br>\Delta \Phi &#x3D; B \times A<br>$$</p></li><li><p>例：10匝線圈，磁通密度2T，面積0.25㎡，0.1秒內感應電勢為50V。</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=ADEjijXllro">Electromagnetic Induction Examples</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article prese</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Electromagnetic Induction" scheme="https://bill55tt.github.io/tags/Electromagnetic-Induction/"/>
+    
+    <category term="Faraday&#39;s Law" scheme="https://bill55tt.github.io/tags/Faraday-s-Law/"/>
+    
+    <category term="Examples" scheme="https://bill55tt.github.io/tags/Examples/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Electromagnetic Induction Part A - Faraday&#39;s Experiment and Law - 高中基本電學：電磁感應 PART A 法拉第電磁感應實驗與定律</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-induction-part-a/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-induction-part-a/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.391Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores Faraday’s electromagnetic induction experiment and law, explaining how changing magnetic fields can induce current in conductors and the mathematical relationships involved.</p><p>本文探討法拉第電磁感應實驗與定律，解釋磁場變化如何在導體中產生感應電流，以及相關的數學關係。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Introduction-to-Electromagnetic-Induction-電磁感應介紹"><a href="#1-Introduction-to-Electromagnetic-Induction-電磁感應介紹" class="headerlink" title="1. Introduction to Electromagnetic Induction 電磁感應介紹"></a>1. Introduction to Electromagnetic Induction 電磁感應介紹</h3><ul><li><p><strong>Introduction to Electromagnetic Induction</strong>: Explains Faraday’s experiment and law, showing how changing magnetic fields induce current in a conductor.</p></li><li><p><strong>電磁感應介紹</strong>：介紹法拉第電磁感應實驗與定律，說明磁場變化如何在導線中產生感應電流。</p></li></ul><h3 id="2-Experimental-Phenomenon-實驗現象"><a href="#2-Experimental-Phenomenon-實驗現象" class="headerlink" title="2. Experimental Phenomenon 實驗現象"></a>2. Experimental Phenomenon 實驗現象</h3><ul><li><p><strong>Experimental Phenomenon</strong>: When a magnet is quickly inserted or removed from a coil, the galvanometer deflects, indicating induced current; no current when stationary.</p></li><li><p><strong>Induced Current Magnitude</strong>: Proportional to the speed of magnet movement; faster movement means larger induced current.</p></li><li><p><strong>實驗現象</strong>：磁鐵快速插入或抽出線圈時，檢流計會偏轉，顯示有感應電流產生；靜止時無感應電流。</p></li><li><p><strong>感應電流大小</strong>：與磁鐵插入或抽出速度成正比，速度越快感應電流越大。</p></li></ul><h3 id="3-Mathematical-Relationships-數學關係"><a href="#3-Mathematical-Relationships-數學關係" class="headerlink" title="3. Mathematical Relationships 數學關係"></a>3. Mathematical Relationships 數學關係</h3><ul><li><p><strong>Induced EMF Formula</strong>:<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$<br>where (e) is induced EMF, (N) is coil turns, and (\frac{\Delta \Phi}{\Delta t}) is the rate of change of magnetic flux.</p></li><li><p><strong>感應電動勢公式</strong>：<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$<br>其中 (e) 是感應電動勢，(N) 是線圈匝數，(\frac{\Delta \Phi}{\Delta t}) 是磁通量變化率。</p></li></ul><h3 id="4-Inductance-and-Induced-EMF-電感與感應電動勢"><a href="#4-Inductance-and-Induced-EMF-電感與感應電動勢" class="headerlink" title="4. Inductance and Induced EMF 電感與感應電動勢"></a>4. Inductance and Induced EMF 電感與感應電動勢</h3><ul><li><p><strong>Inductance and Induced EMF</strong>:<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$<br>where (L) is inductance and (\frac{\Delta i}{\Delta t}) is the rate of current change; both formulas are equivalent.</p></li><li><p><strong>電感與感應電動勢</strong>：<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$<br>(L) 是電感量，(\frac{\Delta i}{\Delta t}) 是電流變化率，兩公式等價。</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=ztX3rukBnEY">Electromagnetic Induction - Faraday’s Experiment</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article explo</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Electromagnetic Induction" scheme="https://bill55tt.github.io/tags/Electromagnetic-Induction/"/>
+    
+    <category term="Faraday&#39;s Law" scheme="https://bill55tt.github.io/tags/Faraday-s-Law/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Example of Force Between Two Long Straight Conductors Carrying Current - 兩長直導體通電流所受之力範例解析</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-force-between-current-carrying-conductors/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-force-between-current-carrying-conductors/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:03:14.364Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article examines the magnetic force between two long straight conductors carrying current, including the calculation formula and practical examples with different scenarios.</p><p>本文探討兩長直導體通電流時彼此間的磁力作用，包括計算公式和不同情況下的實際範例。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Principles-基本原理"><a href="#1-Basic-Principles-基本原理" class="headerlink" title="1. Basic Principles 基本原理"></a>1. Basic Principles 基本原理</h3><ul><li><p>Two long straight conductors carrying current exert magnetic forces on each other.</p></li><li><p>Force magnitude formula:<br>$$<br>F &#x3D; \frac{\mu l I_1 I_2}{2 \pi d}<br>$$<br>where $\mu$ is permeability, $l$ is length, $I_1, I_2$ are currents, and $d$ is distance between conductors.</p></li><li><p>兩長直導體通電流時，彼此會產生磁力作用。</p></li><li><p>受力大小公式為：<br>$$<br>F &#x3D; \frac{\mu l I_1 I_2}{2 \pi d}<br>$$<br>其中，$\mu$為磁導率，$l$為導體長度，$I_1, I_2$為電流，$d$為兩導體間距。</p></li></ul><h3 id="2-Force-Direction-力的方向"><a href="#2-Force-Direction-力的方向" class="headerlink" title="2. Force Direction 力的方向"></a>2. Force Direction 力的方向</h3><ul><li><p>Same current direction causes attraction; opposite direction causes repulsion.</p></li><li><p>The direction of force can be determined using the right-hand rule for magnetic fields.</p></li><li><p>電流方向相同時，導體間力為相吸；方向相反時，力為相斥。</p></li><li><p>力的方向可用磁場的右手定則判斷。</p></li></ul><h3 id="3-Example-Calculations-範例計算"><a href="#3-Example-Calculations-範例計算" class="headerlink" title="3. Example Calculations 範例計算"></a>3. Example Calculations 範例計算</h3><ul><li><p>Example 1: $I_1&#x3D;10A$, $I_2&#x3D;20A$, $l&#x3D;10m$, $d&#x3D;1m$, force is $4 \times 10^{-4} N$, attractive.</p></li><li><p>Example 2: Two wires 0.5m apart, current 20A, length 50m, force is 0.008N, repulsive.</p></li><li><p>範例1：$I_1&#x3D;10A$, $I_2&#x3D;20A$, $l&#x3D;10m$, $d&#x3D;1m$，計算出力為 $4 \times 10^{-4} N$，方向相吸。</p></li><li><p>範例2：電路中兩條線距離0.5m，電流20A，長度50m，計算力為0.008N，方向相斥。</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">Force Between Current-Carrying Conductors</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article exami</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Current" scheme="https://bill55tt.github.io/tags/Current/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Magnetic Force" scheme="https://bill55tt.github.io/tags/Magnetic-Force/"/>
+    
+    <category term="Conductors" scheme="https://bill55tt.github.io/tags/Conductors/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Inductance Calculations Part B - 高中基本電學：電感量計算 PART B</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-b/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-b/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.731Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article presents Part B of the inductance calculations series, focusing on basic inductance calculations with practical examples. It demonstrates how to calculate inductance using different formulas and parameters.</p><p>本文介紹電感量計算系列的B部分，重點在於基本電感計算的實際範例。內容展示如何使用不同的公式和參數來計算電感量。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Example-1-Basic-Inductance-Calculation-範例一：基本電感量計算"><a href="#1-Example-1-Basic-Inductance-Calculation-範例一：基本電感量計算" class="headerlink" title="1. Example 1: Basic Inductance Calculation 範例一：基本電感量計算"></a>1. Example 1: Basic Inductance Calculation 範例一：基本電感量計算</h3><ul><li><p><strong>Given parameters:</strong></p><ul><li>Number of turns (N) &#x3D; 100</li><li>Current (I) &#x3D; 10 A</li><li>Magnetic flux (Φ) &#x3D; 0.2 Weber</li></ul></li><li><p><strong>Formula:</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p></li><li><p><strong>Calculation:</strong><br>[<br>L &#x3D; \frac{100 \times 0.2}{10} &#x3D; 2 \text{ Henry}<br>]</p></li><li><p><strong>給定參數：</strong></p><ul><li>匝數(N) &#x3D; 100</li><li>電流(I) &#x3D; 10安培</li><li>磁通量(Φ) &#x3D; 0.2韋伯</li></ul></li><li><p><strong>公式：</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p></li><li><p><strong>計算：</strong><br>[<br>L &#x3D; \frac{100 \times 0.2}{10} &#x3D; 2 \text{ 亨利}<br>]</p></li></ul><h3 id="2-Example-2-Inductance-with-Core-範例二：含鐵心電感量計算"><a href="#2-Example-2-Inductance-with-Core-範例二：含鐵心電感量計算" class="headerlink" title="2. Example 2: Inductance with Core 範例二：含鐵心電感量計算"></a>2. Example 2: Inductance with Core 範例二：含鐵心電感量計算</h3><ul><li><p><strong>Given parameters:</strong></p><ul><li>Cross-sectional area (A) &#x3D; (10^{-2} m^2)</li><li>Length (l) &#x3D; (10^{-1} m)</li><li>Permeability (μ) &#x3D; (10^{-4} H&#x2F;m)</li><li>Number of turns (N) &#x3D; 1000</li></ul></li><li><p><strong>Formula:</strong><br>[<br>L &#x3D; \frac{\mu A N^2}{l}<br>]</p></li><li><p><strong>Calculation:</strong><br>[<br>L &#x3D; \frac{10^{-4} \times 10^{-2} \times 1000^2}{10^{-1}} &#x3D; 10 \text{ Henry}<br>]</p></li><li><p><strong>Effect of halving turns:</strong></p><ul><li>New inductance &#x3D; 2.5 Henry (1&#x2F;4 of original)</li></ul></li><li><p><strong>給定參數：</strong></p><ul><li>截面積(A) &#x3D; (10^{-2} m^2)</li><li>長度(l) &#x3D; (10^{-1} m)</li><li>導磁係數(μ) &#x3D; (10^{-4} H&#x2F;m)</li><li>匝數(N) &#x3D; 1000</li></ul></li><li><p><strong>公式：</strong><br>[<br>L &#x3D; \frac{\mu A N^2}{l}<br>]</p></li><li><p><strong>計算：</strong><br>[<br>L &#x3D; \frac{10^{-4} \times 10^{-2} \times 1000^2}{10^{-1}} &#x3D; 10 \text{ 亨利}<br>]</p></li><li><p><strong>匝數減半的影響：</strong></p><ul><li>新電感量 &#x3D; 2.5亨利（原來的1&#x2F;4）</li></ul></li></ul><h3 id="3-Key-Observations-重要觀察"><a href="#3-Key-Observations-重要觀察" class="headerlink" title="3. Key Observations 重要觀察"></a>3. Key Observations 重要觀察</h3><ul><li><p>Inductance is proportional to the square of the number of turns</p></li><li><p>Changes in the number of turns have a significant impact on inductance</p></li><li><p>Core material properties (permeability) affect inductance</p></li><li><p>電感量與匝數的平方成正比</p></li><li><p>匝數的變化對電感量有顯著影響</p></li><li><p>鐵心材料特性（導磁係數）影響電感量</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=o0oyu3D0cPE">Inductance Calculations Part B</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article prese</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
     <category term="Inductance" scheme="https://bill55tt.github.io/tags/Inductance/"/>
     
     <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Parallel" scheme="https://bill55tt.github.io/tags/Parallel/"/>
+    <category term="Calculations" scheme="https://bill55tt.github.io/tags/Calculations/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductors in Series (Without and With Mutual Inductance) - 高中基本電學：電感與電磁_電感量_PART F 電感器串聯組合(無互感、有互感)_陳政旭</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T15:04:35.882Z</updated>
+    <title>High School Basic Electricity: Inductance Calculations Part E - 高中基本電學：電感量計算 PART E</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-e/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-e/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.731Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article summarizes the calculation of total inductance for inductors in series, both without and with mutual inductance. It explains the difference between series aiding and series opposing, and how to use the dot convention to determine the polarity of coils.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文整理電感器串聯組合的總電感量計算，包含無互感與有互感的情況，說明串聯互助與互消的差異，以及如何利用打點法則判斷線圈極性。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Inductors in Series without Mutual Inductance</b>:<br>        The total inductance is the sum of the individual inductances:<br>        $$L_{total} = L_1 + L_2$$      </li>      <li><b>Inductors in Series with Mutual Inductance</b>:<br>        It is necessary to determine whether the mutual inductance is aiding or opposing.<br>        <b>Series Aiding (Mutual Inductance Aiding)</b>:<br>        The magnetic fields have the same direction, so the mutual inductance is positive.<br>        $$L_{total} = L_1 + L_2 + 2M$$<br>        <b>Series Opposing (Mutual Inductance Opposing)</b>:<br>        The magnetic fields have opposite directions, so the mutual inductance is negative.<br>        $$L_{total} = L_1 + L_2 - 2M$$      </li>      <li><b>Marking Polarity (N-dot Convention)</b>:<br>        Use dots to indicate the polarity (N-pole direction) of the coils to determine whether the mutual inductance is aiding or opposing.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>無互感串聯電感</b>：<br>        總電感量為各電感相加：<br>        $$L_{total} = L_1 + L_2$$      </li>      <li><b>有互感串聯電感</b>：<br>        需判斷互助（助磁）或互消（消磁）。<br>        <b>串聯互助</b>：<br>        磁場方向相同，互感為正。<br>        $$L_{total} = L_1 + L_2 + 2M$$<br>        <b>串聯互消</b>：<br>        磁場方向相反，互感為負。<br>        $$L_{total} = L_1 + L_2 - 2M$$      </li>      <li><b>標示N極方向（打點法則）</b>：<br>        用點標示線圈N極方向，判斷互助或互消。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=HJCpPPi4Q7E">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article presents Part E of the inductance calculations series, focusing on basic calculations of self-inductance (L) and mutual inductance (M), as well as comprehensive calculations involving inductance (L), coupling coefficient (K), and mutual inductance (M).</p><p>本文介紹電感量計算系列的第五部分，重點在於自感量(L)和互感量(M)的基本計算，以及包含電感量(L)、耦合係數(K)和互感量(M)的綜合計算。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Parameters-基本參數"><a href="#1-Basic-Parameters-基本參數" class="headerlink" title="1. Basic Parameters 基本參數"></a>1. Basic Parameters 基本參數</h3><ul><li><p>Relationship between coil turns (N_1, N_2), currents (I_1, I_2), and magnetic flux (\Phi)</p></li><li><p>These parameters form the foundation of inductance calculations</p></li><li><p>線圈匝數 (N_1, N_2)、電流 (I_1, I_2) 與磁通量 (\Phi) 的關係</p></li><li><p>這些參數構成電感計算的基礎</p></li></ul><h3 id="2-Self-Inductance-Formula-自感量公式"><a href="#2-Self-Inductance-Formula-自感量公式" class="headerlink" title="2. Self-Inductance Formula 自感量公式"></a>2. Self-Inductance Formula 自感量公式</h3><ul><li><p>Self-inductance calculation:<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p></li><li><p>This formula shows the relationship between turns, flux, and current</p></li><li><p>自感量計算公式：<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p></li><li><p>此公式顯示匝數、磁通量和電流之間的關係</p></li></ul><h3 id="3-Mutual-Inductance-Formulas-互感量公式"><a href="#3-Mutual-Inductance-Formulas-互感量公式" class="headerlink" title="3. Mutual Inductance Formulas 互感量公式"></a>3. Mutual Inductance Formulas 互感量公式</h3><ul><li><p>Mutual inductance calculations:<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p></li><li><p>These formulas describe the mutual inductance between two coils</p></li><li><p>互感量計算公式：<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p></li><li><p>這些公式描述兩個線圈之間的互感</p></li></ul><h3 id="4-Coupling-Coefficient-耦合係數"><a href="#4-Coupling-Coefficient-耦合係數" class="headerlink" title="4. Coupling Coefficient 耦合係數"></a>4. Coupling Coefficient 耦合係數</h3><ul><li><p>Coupling coefficient formula:<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p></li><li><p>This coefficient measures the strength of magnetic coupling</p></li><li><p>耦合係數計算：<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p></li><li><p>此係數衡量磁耦合的強度</p></li></ul><h3 id="5-Self-Inductance-Ratio-自感量比值"><a href="#5-Self-Inductance-Ratio-自感量比值" class="headerlink" title="5. Self-Inductance Ratio 自感量比值"></a>5. Self-Inductance Ratio 自感量比值</h3><ul><li><p>Ratio of self-inductances:<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p></li><li><p>This relationship is useful for comparing inductances</p></li><li><p>自感量比值：<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p></li><li><p>此關係可用於比較電感量</p></li></ul><h3 id="6-Comprehensive-Calculations-綜合運算"><a href="#6-Comprehensive-Calculations-綜合運算" class="headerlink" title="6. Comprehensive Calculations 綜合運算"></a>6. Comprehensive Calculations 綜合運算</h3><ul><li><p>Examples of comprehensive calculations including:</p><ul><li>Self-inductance (L)</li><li>Mutual inductance (M)</li><li>Coupling coefficient (K)</li></ul></li><li><p>These calculations demonstrate the practical application of all concepts</p></li><li><p>綜合運算範例，包含：</p><ul><li>自感量(L)</li><li>互感量(M)</li><li>耦合係數(K)</li></ul></li><li><p>這些計算展示所有概念的實際應用</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=v6yhcUcM7-8">Inductance Calculations Part E</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article summarizes the calculation of tot</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article prese</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
     
     <category term="Inductance" scheme="https://bill55tt.github.io/tags/Inductance/"/>
     
     <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Series" scheme="https://bill55tt.github.io/tags/Series/"/>
+    <category term="Coupling Coefficient" scheme="https://bill55tt.github.io/tags/Coupling-Coefficient/"/>
+    
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductance Part G Example: Series Inductance Calculation Without and With Mutual Inductance - 高中基本電學：電感與電磁_電感量_PART G 範例：不考慮互感的串聯總電感運算、考慮互感的串聯總電感運算_陳政旭</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T15:02:15.367Z</updated>
+    <title>High School Basic Electricity: Inductance Calculations - 高中基本電學：電感量計算範例</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:10:19.981Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article explains how to calculate the total inductance of inductors in series, both without and with mutual inductance. It also covers the effect of mutual aiding and opposing (magnetic flux direction) on the total inductance.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文說明如何計算串聯電感的總電感量，包含不考慮互感與考慮互感的情況，並介紹互助與互消（磁力線方向）對總電感的影響。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Series Inductance without Mutual Inductance</b>:<br>        Total inductance is the sum of each inductance, similar to resistors in series.<br>        $$L_{total} = L_1 + L_2 + L_3$$      </li>      <li><b>Series Inductance with Mutual Inductance</b>:<br>        For three inductors \(L_1, L_2, L_3\) in series with mutual inductances \(M_{12}, M_{23}, M_{31}\):<br>        Mutual aiding (same magnetic flux direction) uses addition; mutual opposing uses subtraction.<br>        Total inductance formula:<br>        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$      </li>      <li><b>Example Calculations</b>:<br>        Without mutual inductance: 12H + 4H + 6H = 22H.<br>        With mutual inductance: Determine aiding or opposing by magnetic flux direction, then calculate using the formula.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>不考慮互感的串聯電感計算</b>：<br>        總電感為各電感直接相加，類似電阻串聯計算。<br>        $$L_{total} = L_1 + L_2 + L_3$$      </li>      <li><b>考慮互感的串聯電感計算</b>：<br>        三個電感 \(L_1, L_2, L_3\) 串聯，考慮互感 \(M_{12}, M_{23}, M_{31}\)。<br>        互助（磁力線方向相同）取加號，互消（磁力線方向相反）取減號。<br>        總電感公式：<br>        $$L_{total} = L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}$$      </li>      <li><b>範例計算</b>：<br>        不考慮互感：12H + 4H + 6H = 22H。<br>        考慮互感：根據磁力線方向判斷互助或互消，代入公式計算。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=zRMD1nQZN1w">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental calculations of inductance, including self-inductance, mutual inductance, and coupling coefficient. It provides formulas and examples for various inductance calculations.</p><p>本文解釋電感的基本計算，包括自感量、互感量和耦合係數。內容提供各種電感計算的公式和範例。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Relationships-基本關係"><a href="#1-Basic-Relationships-基本關係" class="headerlink" title="1. Basic Relationships 基本關係"></a>1. Basic Relationships 基本關係</h3><ul><li><p>Relationship between coil turns (N_1, N_2), currents (I_1, I_2), and magnetic flux (\Phi)</p></li><li><p>These parameters are fundamental to inductance calculations</p></li><li><p>線圈匝數 (N_1, N_2)、電流 (I_1, I_2) 與磁通量 (\Phi) 的關係</p></li><li><p>這些參數是電感計算的基礎</p></li></ul><h3 id="2-Self-Inductance-Calculation-自感量計算"><a href="#2-Self-Inductance-Calculation-自感量計算" class="headerlink" title="2. Self-Inductance Calculation 自感量計算"></a>2. Self-Inductance Calculation 自感量計算</h3><ul><li><p>Self-inductance formula:<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p></li><li><p>This formula relates the number of turns, magnetic flux, and current</p></li><li><p>自感量計算公式：<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p></li><li><p>此公式關聯了匝數、磁通量和電流</p></li></ul><h3 id="3-Mutual-Inductance-Calculation-互感量計算"><a href="#3-Mutual-Inductance-Calculation-互感量計算" class="headerlink" title="3. Mutual Inductance Calculation 互感量計算"></a>3. Mutual Inductance Calculation 互感量計算</h3><ul><li><p>Mutual inductance formulas:<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p></li><li><p>These formulas calculate the mutual inductance between two coils</p></li><li><p>互感量計算公式：<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p></li><li><p>這些公式計算兩個線圈之間的互感</p></li></ul><h3 id="4-Coupling-Coefficient-耦合係數"><a href="#4-Coupling-Coefficient-耦合係數" class="headerlink" title="4. Coupling Coefficient 耦合係數"></a>4. Coupling Coefficient 耦合係數</h3><ul><li><p>Coupling coefficient calculation:<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p></li><li><p>This coefficient indicates the strength of magnetic coupling</p></li><li><p>耦合係數計算：<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p></li><li><p>此係數表示磁耦合的強度</p></li></ul><h3 id="5-Self-Inductance-Ratio-自感量比值"><a href="#5-Self-Inductance-Ratio-自感量比值" class="headerlink" title="5. Self-Inductance Ratio 自感量比值"></a>5. Self-Inductance Ratio 自感量比值</h3><ul><li><p>Using the square ratio of turns to find the ratio of self-inductances:<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p></li><li><p>This relationship is useful for comparing inductances</p></li><li><p>利用匝數平方比求自感量比值：<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p></li><li><p>此關係可用於比較電感量</p></li></ul><h3 id="6-Comprehensive-Calculations-綜合運算"><a href="#6-Comprehensive-Calculations-綜合運算" class="headerlink" title="6. Comprehensive Calculations 綜合運算"></a>6. Comprehensive Calculations 綜合運算</h3><ul><li><p>Demonstration of comprehensive calculations including:</p><ul><li>Self-inductance</li><li>Mutual inductance</li><li>Coupling coefficient</li></ul></li><li><p>These calculations combine multiple concepts</p></li><li><p>綜合運算示範，包含：</p><ul><li>自感量</li><li>互感量</li><li>耦合係數</li></ul></li><li><p>這些計算結合了多個概念</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=v6yhcUcM7-8">Inductance Calculations</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article explains how to calculate the tot</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article expla</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
     
     <category term="Inductance" scheme="https://bill55tt.github.io/tags/Inductance/"/>
     
     <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Series" scheme="https://bill55tt.github.io/tags/Series/"/>
+    <category term="Coupling Coefficient" scheme="https://bill55tt.github.io/tags/Coupling-Coefficient/"/>
+    
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Inductance and Electromagnetism - Inductance Part I Example: Parallel Inductance Calculation - 高中基本電學：電感與電磁_電感量_PART I 範例：並聯總電感的運算</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part1-parallel/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part1-parallel/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:59:48.433Z</updated>
+    <title>Energy Storage in Inductors: With and Without Mutual Inductance - 電感器的儲能（無互感與有互感情況）</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage-comprehensive/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage-comprehensive/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:07:26.999Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article explains how to calculate the total inductance of parallel inductors, both with and without considering mutual inductance. It also discusses the effect of the dot convention on mutual inductance in parallel circuits.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文說明如何計算並聯電感的總電感量，包含不考慮與考慮互感的情況，並介紹互感方向（打點法則）對並聯電感計算的影響。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Parallel Inductance Calculation (Ignoring Mutual Inductance)</b>:<br>        $$L_{total} = \frac{L_1 \times L_2}{L_1 + L_2}$$<br>        <i>Example:</i> For L1=20mH and L2=30mH, total inductance is 12mH.      </li>      <li><b>Parallel Inductance Calculation (Considering Mutual Inductance)</b>:<br>        $$L_{total} = \frac{L_1 \times L_2 - M^2}{L_1 + L_2 - 2M}$$<br>        <i>Example:</i> For L1=8H, L2=2H, and M=2H, total inductance is 2H.      </li>      <li><b>Mutual Inductance Direction (Dot Convention)</b>:<br>        The direction of mutual inductance (dot convention) affects the calculation. Head-to-head and tail-to-tail with dots in the same direction is mutual assistance in parallel.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>並聯電感計算（不考慮互感）</b>：<br>        $$L_{total} = \frac{L_1 \times L_2}{L_1 + L_2}$$<br>        <i>例：</i>L1=20mH，L2=30mH，總電感為12mH。      </li>      <li><b>並聯電感計算（考慮互感）</b>：<br>        $$L_{total} = \frac{L_1 \times L_2 - M^2}{L_1 + L_2 - 2M}$$<br>        <i>例：</i>L1=8H，L2=2H，M=2H，總電感為2H。      </li>      <li><b>互感方向（打點法則）</b>：<br>        互感方向（打點法則）會影響計算，頭接頭尾接尾且打點同向屬於互助並聯。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Ddyu2v9MmGM">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article provides a comprehensive explanation of energy storage in inductors, covering both cases with and without mutual inductance. It includes detailed formulas and practical applications.</p><p>本文全面解釋電感器的儲能原理，包括有互感與無互感的情況。內容包含詳細公式和實際應用。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Energy-Storage-基本儲能原理"><a href="#1-Basic-Energy-Storage-基本儲能原理" class="headerlink" title="1. Basic Energy Storage 基本儲能原理"></a>1. Basic Energy Storage 基本儲能原理</h3><ul><li><p>When current flows through an inductor, it creates a magnetic field that stores magnetic energy</p></li><li><p>Magnetic flux linkage (λ) is proportional to current (I), with inductance L as the proportionality constant</p></li><li><p>Stored energy is the area under the λ-I curve</p></li><li><p>電感器通電後產生磁場並儲存磁能</p></li><li><p>磁通鏈（λ）與電流（I）成正比，比例常數為電感量L</p></li><li><p>儲存能量為磁通鏈與電流的面積</p></li></ul><h3 id="2-Energy-Storage-Formula-儲能計算公式"><a href="#2-Energy-Storage-Formula-儲能計算公式" class="headerlink" title="2. Energy Storage Formula 儲能計算公式"></a>2. Energy Storage Formula 儲能計算公式</h3><ul><li><p>Basic formula for single inductor:<br>$$<br>W &#x3D; \frac{1}{2} L I^2<br>$$</p></li><li><p>This formula represents the energy stored in the magnetic field</p></li><li><p>單一電感器基本公式：<br>$$<br>W &#x3D; \frac{1}{2} L I^2<br>$$</p></li><li><p>此公式代表儲存在磁場中的能量</p></li></ul><h3 id="3-Mutual-Inductance-Energy-Storage-互感儲能計算"><a href="#3-Mutual-Inductance-Energy-Storage-互感儲能計算" class="headerlink" title="3. Mutual Inductance Energy Storage 互感儲能計算"></a>3. Mutual Inductance Energy Storage 互感儲能計算</h3><ul><li><p>With mutual inductance, total stored energy includes self and mutual inductance terms:<br>$$<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>$$</p></li><li><p>The plus sign indicates aiding mutual inductance, the minus sign indicates opposing</p></li><li><p>有互感時，總儲能包含自感與互感能量：<br>$$<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>$$</p></li><li><p>其中正號代表互助，負號代表互消</p></li></ul><h3 id="4-Series-and-Parallel-Configurations-串聯與並聯配置"><a href="#4-Series-and-Parallel-Configurations-串聯與並聯配置" class="headerlink" title="4. Series and Parallel Configurations 串聯與並聯配置"></a>4. Series and Parallel Configurations 串聯與並聯配置</h3><ul><li><p>In series aiding or opposing cases:</p><ul><li>Currents are equal</li><li>Formula can be simplified</li><li>Total inductance includes mutual inductance term</li></ul></li><li><p>In parallel aiding or opposing cases:</p><ul><li>Currents differ</li><li>Must be calculated separately</li><li>Consider both self and mutual inductance effects</li></ul></li><li><p>串聯互助與互消情況：</p><ul><li>電流相等</li><li>公式可簡化</li><li>總電感包含互感項</li></ul></li><li><p>並聯互助與互消情況：</p><ul><li>電流不等</li><li>需分別計算</li><li>考慮自感與互感效應</li></ul></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=Hy8mNM68M2s">Inductor Energy Storage Comprehensive</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article explains how to calculate the tot</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article provi</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
+    
+    <category term="Inductors" scheme="https://bill55tt.github.io/tags/Inductors/"/>
+    
+    <category term="Energy Storage" scheme="https://bill55tt.github.io/tags/Energy-Storage/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Energy Storage Calculation for Inductors: With and Without Mutual Inductance - 不考慮互感的電感器儲能計算與考慮互感的電感器儲能計算範例</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.703Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating energy storage in inductors, both with and without considering mutual inductance effects. It includes practical examples and formulas for different scenarios.</p><p>本文解釋電感器儲能計算的方法，包括考慮和不考慮互感效應的情況。內容包含實際範例和不同情況下的計算公式。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Energy-Storage-Without-Mutual-Inductance-不考慮互感的儲能計算"><a href="#1-Energy-Storage-Without-Mutual-Inductance-不考慮互感的儲能計算" class="headerlink" title="1. Energy Storage Without Mutual Inductance 不考慮互感的儲能計算"></a>1. Energy Storage Without Mutual Inductance 不考慮互感的儲能計算</h3><ul><li><p>Use the formula ( W &#x3D; \frac{1}{2} L I^2 )</p></li><li><p>Example: A 10mH inductor with 6A current stores 0.18J energy</p></li><li><p>This is the basic formula for single inductor energy storage</p></li><li><p>使用公式 ( W &#x3D; \frac{1}{2} L I^2 )</p></li><li><p>範例：10mH電感器通過6A電流，計算儲能為0.18J</p></li><li><p>這是單一電感器儲能的基本公式</p></li></ul><h3 id="2-Energy-Storage-With-Mutual-Inductance-考慮互感的儲能計算"><a href="#2-Energy-Storage-With-Mutual-Inductance-考慮互感的儲能計算" class="headerlink" title="2. Energy Storage With Mutual Inductance 考慮互感的儲能計算"></a>2. Energy Storage With Mutual Inductance 考慮互感的儲能計算</h3><ul><li><p>For two coils, total energy is:<br>[<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>]</p></li><li><p>The sign depends on whether the mutual inductance is aiding (+) or opposing (−)</p></li><li><p>兩線圈儲能為：<br>[<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>]</p></li><li><p>其中符號由互感是互助（正號）或互消（負號）決定</p></li></ul><h3 id="3-Mutual-Inductance-Calculation-互感計算"><a href="#3-Mutual-Inductance-Calculation-互感計算" class="headerlink" title="3. Mutual Inductance Calculation 互感計算"></a>3. Mutual Inductance Calculation 互感計算</h3><ul><li><p>Mutual inductance can be calculated using:<br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p></li><li><p>where (K) is the coupling coefficient</p></li><li><p>互感計算公式：<br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p></li><li><p>其中 (K) 是耦合係數</p></li></ul><h3 id="4-Series-Aiding-Inductors-串聯互助電感"><a href="#4-Series-Aiding-Inductors-串聯互助電感" class="headerlink" title="4. Series Aiding Inductors 串聯互助電感"></a>4. Series Aiding Inductors 串聯互助電感</h3><ul><li><p>For series aiding inductors:</p><ol><li>Calculate total inductance:<br>[<br>L_{\text{total}} &#x3D; L_1 + L_2 + 2M<br>]</li><li>Then calculate energy:<br>[<br>W &#x3D; \frac{1}{2} L_{\text{total}} I^2<br>]</li></ol></li><li><p>串聯互助電感總儲能：</p><ol><li>先計算總電感：<br>[<br>L_{\text{total}} &#x3D; L_1 + L_2 + 2M<br>]</li><li>再用公式計算儲能：<br>[<br>W &#x3D; \frac{1}{2} L_{\text{total}} I^2<br>]</li></ol></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=zQGT2Cwgpv8">Inductor Energy Storage Calculations</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article expla</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
+    
+    <category term="Inductors" scheme="https://bill55tt.github.io/tags/Inductors/"/>
+    
+    <category term="Energy Storage" scheme="https://bill55tt.github.io/tags/Energy-Storage/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introduction to the Structure and Function of Inductors - 電感器的結構與功能介紹</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-structure-function/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-structure-function/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:19:20.196Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article provides a comprehensive overview of inductors, their structure, types, and working principles. It explains how inductors store energy and their role in electrical circuits.</p><p>本文全面介紹電感器的結構、種類和工作原理。解釋電感器如何儲存能量及其在電路中的作用。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Definition-基本定義"><a href="#1-Basic-Definition-基本定義" class="headerlink" title="1. Basic Definition 基本定義"></a>1. Basic Definition 基本定義</h3><ul><li><p><strong>Symbol and Unit:</strong></p><ul><li>Symbol: L</li><li>Unit: Henry (H)</li><li>Named after Joseph Henry, who discovered inductance</li></ul></li><li><p><strong>符號與單位：</strong></p><ul><li>符號：L</li><li>單位：亨利（H）</li><li>紀念發現電感特性的科學家約瑟夫·亨利</li></ul></li></ul><h3 id="2-Structure-結構"><a href="#2-Structure-結構" class="headerlink" title="2. Structure 結構"></a>2. Structure 結構</h3><ul><li><p><strong>Core Components:</strong></p><ul><li>Conductor wire wound around a core</li><li>Core materials: air, iron, or magnetic material</li><li>Core material affects inductance value</li></ul></li><li><p><strong>核心組件：</strong></p><ul><li>導線繞在心材上</li><li>心材可為空氣、鐵心或磁心</li><li>心材影響電感量大小</li></ul></li></ul><h3 id="3-Function-功能"><a href="#3-Function-功能" class="headerlink" title="3. Function 功能"></a>3. Function 功能</h3><ul><li><p><strong>Main Functions:</strong></p><ul><li>Converts electrical energy to magnetic energy</li><li>Stores energy in magnetic field</li><li>Stabilizes current flow</li><li>Prevents sudden current changes</li><li>Reduces magnetic interference</li></ul></li><li><p><strong>主要功能：</strong></p><ul><li>將電能轉換成磁能</li><li>在磁場中儲存能量</li><li>穩定電流</li><li>防止電流瞬間變化</li><li>減少磁干擾</li></ul></li></ul><h3 id="4-Types-種類"><a href="#4-Types-種類" class="headerlink" title="4. Types 種類"></a>4. Types 種類</h3><ul><li><p><strong>Classification by Core Material:</strong></p><ul><li>Air-core inductors</li><li>Iron-core inductors</li><li>Magnetic-core inductors</li><li>Printed circuit inductors</li></ul></li><li><p><strong>依心材分類：</strong></p><ul><li>空氣心電感器</li><li>鐵心電感器</li><li>磁心電感器</li><li>印刷電路電感器</li></ul></li></ul><h3 id="5-Working-Principle-工作原理"><a href="#5-Working-Principle-工作原理" class="headerlink" title="5. Working Principle 工作原理"></a>5. Working Principle 工作原理</h3><ul><li><p><strong>Charging Process:</strong></p><ul><li>Current gradually increases</li><li>Magnetic energy stored in inductor</li><li>Magnetic field builds up</li></ul></li><li><p><strong>充電過程：</strong></p><ul><li>電流逐漸增加</li><li>磁能儲存在電感器中</li><li>磁場逐漸建立</li></ul></li></ul><h3 id="6-Discharging-Process-放電過程"><a href="#6-Discharging-Process-放電過程" class="headerlink" title="6. Discharging Process 放電過程"></a>6. Discharging Process 放電過程</h3><ul><li><p><strong>Characteristics:</strong></p><ul><li>Magnetic energy converts to electrical energy</li><li>Current gradually decreases</li><li>Connected lamp brightness changes accordingly</li></ul></li><li><p><strong>特性：</strong></p><ul><li>磁能轉換成電能</li><li>電流逐漸減小</li><li>連接的燈泡亮度隨之變化</li></ul></li></ul><h3 id="7-Important-Considerations-重要注意事項"><a href="#7-Important-Considerations-重要注意事項" class="headerlink" title="7. Important Considerations 重要注意事項"></a>7. Important Considerations 重要注意事項</h3><ul><li><p><strong>Switch Operation:</strong></p><ul><li>Switches must be toggled simultaneously</li><li>Prevents circuit open-circuiting</li><li>Avoids magnetic energy loss</li></ul></li><li><p><strong>開關操作：</strong></p><ul><li>開關必須同時切換</li><li>防止電路瞬間開路</li><li>避免磁能損失</li></ul></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=65cfVxuNC70">Introduction to Inductors</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article provi</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Inductors" scheme="https://bill55tt.github.io/tags/Inductors/"/>
+    
+    <category term="Structure" scheme="https://bill55tt.github.io/tags/Structure/"/>
+    
+    <category term="Function" scheme="https://bill55tt.github.io/tags/Function/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Basic Introduction to Magnetic Hysteresis Loop and Hysteresis Effect - 磁滯迴線與磁滯效應基礎介紹</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-hysteresis-basics/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-hysteresis-basics/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.731Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental concepts of magnetic hysteresis, its effects, and practical applications. Understanding hysteresis is crucial for various technologies, from data storage to electrical control systems.</p><p>本文探討磁滯的基本概念、效應及實際應用。理解磁滯現象對於從數據儲存到電氣控制系統等各種技術都至關重要。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Security-Concerns-安全考量"><a href="#1-Security-Concerns-安全考量" class="headerlink" title="1. Security Concerns 安全考量"></a>1. Security Concerns 安全考量</h3><ul><li><p><strong>Credit Card Security:</strong></p><ul><li>Magnetic stripes contain sensitive information</li><li>Vulnerable to copying through hysteresis effect</li><li>Potential risk of unauthorized duplication</li></ul></li><li><p><strong>信用卡安全：</strong></p><ul><li>磁條含有敏感資訊</li><li>可能被磁滯效應複製</li><li>存在未經授權複製的風險</li></ul></li></ul><h3 id="2-Hysteresis-Effect-磁滯效應"><a href="#2-Hysteresis-Effect-磁滯效應" class="headerlink" title="2. Hysteresis Effect 磁滯效應"></a>2. Hysteresis Effect 磁滯效應</h3><ul><li><p><strong>Basic Principle:</strong></p><ul><li>Ferromagnetic materials retain magnetization</li><li>Remanence persists after field removal</li><li>Key characteristic of magnetic materials</li></ul></li><li><p><strong>基本原理：</strong></p><ul><li>鐵磁性物質保留磁化狀態</li><li>移除磁場後仍保有剩磁</li><li>磁性物質的重要特性</li></ul></li></ul><h3 id="3-Hysteresis-Loop-磁滯迴線"><a href="#3-Hysteresis-Loop-磁滯迴線" class="headerlink" title="3. Hysteresis Loop 磁滯迴線"></a>3. Hysteresis Loop 磁滯迴線</h3><ul><li><p><strong>Characteristics:</strong></p><ul><li>Illustrates magnetization cycle</li><li>Shows relationship between B and H</li><li>Demonstrates material’s magnetic behavior</li></ul></li><li><p><strong>特性：</strong></p><ul><li>描述磁化循環過程</li><li>顯示B與H的關係</li><li>展示材料的磁性行為</li></ul></li></ul><h3 id="4-Key-Properties-關鍵特性"><a href="#4-Key-Properties-關鍵特性" class="headerlink" title="4. Key Properties 關鍵特性"></a>4. Key Properties 關鍵特性</h3><ul><li><p><strong>Remanence and Coercivity:</strong></p><ul><li>Remanence: residual magnetism (B≠0 when H&#x3D;0)</li><li>Coercivity: reverse field needed to demagnetize</li><li>Important for material selection</li></ul></li><li><p><strong>剩磁與矯頑磁力：</strong></p><ul><li>剩磁：殘留磁性（H&#x3D;0時B≠0）</li><li>矯頑磁力：退磁所需的反向磁場</li><li>對材料選擇很重要</li></ul></li></ul><h3 id="5-Energy-Loss-能量損失"><a href="#5-Energy-Loss-能量損失" class="headerlink" title="5. Energy Loss 能量損失"></a>5. Energy Loss 能量損失</h3><ul><li><p><strong>Hysteresis Loss:</strong></p><ul><li>Energy dissipated during magnetization cycles</li><li>Converts to heat</li><li>Affects efficiency of magnetic devices</li></ul></li><li><p><strong>磁滯損失：</strong></p><ul><li>磁化循環中的能量損耗</li><li>轉換為熱能</li><li>影響磁性設備的效率</li></ul></li></ul><h3 id="6-Practical-Applications-實際應用"><a href="#6-Practical-Applications-實際應用" class="headerlink" title="6. Practical Applications 實際應用"></a>6. Practical Applications 實際應用</h3><ul><li><p><strong>Data Storage:</strong></p><ul><li>Audio tapes</li><li>Magnetic disks</li><li>Digital storage media</li></ul></li><li><p><strong>Control Systems:</strong></p><ul><li>Air conditioner control</li><li>Street light switching</li><li>Prevents frequent switching</li></ul></li><li><p><strong>數據儲存：</strong></p><ul><li>錄音帶</li><li>磁碟片</li><li>數位儲存媒體</li></ul></li><li><p><strong>控制系統：</strong></p><ul><li>冷氣機控制</li><li>路燈開關</li><li>避免頻繁切換</li></ul></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=9AJ60_Wc96A">Understanding Magnetic Hysteresis</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article explo</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
+    
+    <category term="Magnetic Hysteresis" scheme="https://bill55tt.github.io/tags/Magnetic-Hysteresis/"/>
+    
+    <category term="Hysteresis Loop" scheme="https://bill55tt.github.io/tags/Hysteresis-Loop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity: Parallel Inductance Calculation Examples - 高中基本電學：並聯總電感的運算範例</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-parallel-inductance-calculation/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-parallel-inductance-calculation/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.703Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating total inductance in parallel circuits, both with and without considering mutual inductance effects. It includes practical examples and formulas for different scenarios.</p><p>本文解釋並聯電路中總電感的計算方法，包括考慮和不考慮互感效應的情況。內容包含實際範例和不同情況下的計算公式。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Parallel-Inductance-Without-Mutual-Inductance-不考慮互感的並聯電感計算"><a href="#1-Parallel-Inductance-Without-Mutual-Inductance-不考慮互感的並聯電感計算" class="headerlink" title="1. Parallel Inductance Without Mutual Inductance 不考慮互感的並聯電感計算"></a>1. Parallel Inductance Without Mutual Inductance 不考慮互感的並聯電感計算</h3><ul><li><p>The total inductance formula is:<br>$$ L_{total} &#x3D; \frac{L_1 \times L_2}{L_1 + L_2} $$</p></li><li><p>Example: L1&#x3D;20mH, L2&#x3D;30mH, total inductance is 12mH</p></li><li><p>This is the basic formula for parallel inductors without mutual inductance</p></li><li><p>總電感公式為：<br>$$ L_{total} &#x3D; \frac{L_1 \times L_2}{L_1 + L_2} $$</p></li><li><p>例：L1&#x3D;20mH，L2&#x3D;30mH，計算結果為12mH</p></li><li><p>這是不考慮互感時並聯電感的基本公式</p></li></ul><h3 id="2-Parallel-Inductance-With-Mutual-Inductance-考慮互感的並聯電感計算"><a href="#2-Parallel-Inductance-With-Mutual-Inductance-考慮互感的並聯電感計算" class="headerlink" title="2. Parallel Inductance With Mutual Inductance 考慮互感的並聯電感計算"></a>2. Parallel Inductance With Mutual Inductance 考慮互感的並聯電感計算</h3><ul><li><p>The total inductance formula becomes:<br>$$ L_{total} &#x3D; \frac{L_1 + L_2 - 2M}{L_1 \times L_2 - M^2} $$</p></li><li><p>Example: L1&#x3D;8H, L2&#x3D;2H, mutual inductance M&#x3D;2H, total inductance is 2H</p></li><li><p>This formula accounts for the mutual inductance effect</p></li><li><p>總電感公式變為：<br>$$ L_{total} &#x3D; \frac{L_1 + L_2 - 2M}{L_1 \times L_2 - M^2} $$</p></li><li><p>例：L1&#x3D;8H，L2&#x3D;2H，互感M&#x3D;2H，計算結果為2H</p></li><li><p>此公式考慮了互感效應</p></li></ul><h3 id="3-Mutual-Inductance-Direction-Effects-互感方向影響"><a href="#3-Mutual-Inductance-Direction-Effects-互感方向影響" class="headerlink" title="3. Mutual Inductance Direction Effects 互感方向影響"></a>3. Mutual Inductance Direction Effects 互感方向影響</h3><ul><li><p>Same dot direction (head-to-head and tail-to-tail) indicates mutual assistance</p></li><li><p>This configuration affects the total inductance calculation</p></li><li><p>The mutual inductance term (M) can be positive or negative depending on the configuration</p></li><li><p>打點方向相同（頭接頭尾接尾）屬於互助並聯</p></li><li><p>這種配置會影響總電感的計算</p></li><li><p>互感項（M）可為正值或負值，取決於配置方式</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=Ddyu2v9MmGM">Parallel Inductance Calculation Examples</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article expla</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
     <category term="Inductance" scheme="https://bill55tt.github.io/tags/Inductance/"/>
     
     <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
-    
-    <category term="Parallel" scheme="https://bill55tt.github.io/tags/Parallel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Parallel Circuits - 高中基本電學：並聯電路</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-parallel-circuits/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-parallel-circuits/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:50:27.166Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article explores the fundamental concepts of parallel circuits, including their definition, characteristics, and mathematical relationships. Understanding parallel circuits is essential for analyzing complex electrical systems and designing efficient circuits.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文探討並聯電路的基本概念，包括其定義、特性以及數學關係。理解並聯電路對於分析複雜電氣系統和設計高效電路至關重要。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <h3>Parallel Circuit Definition and Characteristics</h3>    <ol>      <li><b>Definition</b>:<br>        A parallel circuit consists of two or more components, where one end of each component is connected together and the other end is also connected together.      </li>      <li><b>Characteristics</b>:<br>        <b>Equal Voltage</b>: The voltage across all components is the same.<br>        <b>Independence</b>: If one component fails, it does not affect the operation of other components.<br>        <b>Total Resistance</b>: The formula for total resistance \( R_T \) is:<br>        $$\frac{1}{R_T} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}$$<br>        <b>Conductance</b>: The total conductance \( G_T \) is the sum of the conductances of each branch.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <h3>並聯電路定義及特性</h3>    <ol>      <li><b>定義</b>：<br>        並聯電路由兩個或以上元件組成，所有元件的一端相連，另一端也相連。      </li>      <li><b>特性</b>：<br>        <b>電壓相等</b>：所有元件的電壓相同。<br>        <b>獨立性</b>：某一元件斷路不影響其他元件的運作。<br>        <b>總電阻</b>：總電阻 \( R_T \) 計算公式為：<br>        $$\frac{1}{R_T} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}$$<br>        <b>電導</b>：總電導 \( G_T \) 為各支路電導之和。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=tkWvzL-CugU">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article explores the fundamental concepts</summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Conductance" scheme="https://bill55tt.github.io/tags/Conductance/"/>
     
     <category term="Parallel Circuits" scheme="https://bill55tt.github.io/tags/Parallel-Circuits/"/>
     
-    <category term="Resistance" scheme="https://bill55tt.github.io/tags/Resistance/"/>
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Fundamental Theories of Electricity - Power Part A - 高中基本電學：電學基礎理論 - 電功率 PART A</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-a/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-a/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:41:33.540Z</updated>
+    <title>Parallel Combination of Inductors: With and Without Mutual Inductance - 電感器並聯組合(無互感)、(有互感)</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-parallel-inductors-combination/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-parallel-inductors-combination/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:09:26.967Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Title & Introduction Outline</h2>    <p><b>Title:</b> High School Basic Electricity: Basic Theory of Electricity - Power Part A: Power, Horsepower, Electric Power, Examples</p>    <ul>      <li>Power</li>      <li>Horsepower</li>      <li>Electric Power</li>      <li>Examples</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>標題與前言大綱</h2>    <p><b>標題：</b>高中基本電學_電學基礎理論_電功率_PART A 功率、馬力、電功率、範例</p>    <ul>      <li>功率</li>      <li>馬力</li>      <li>電功率</li>      <li>範例</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Power</b><br>        Definition: The work done or energy used per unit time.<br>        Formula: $P = \frac{W}{t}$<br>        Unit: Watt (W)      </li>      <li><b>Horsepower</b><br>        Definition: The power required to lift a 76 kg weight by 1 meter in 1 second.<br>        Unit: Horsepower (hp)<br>        Conversion: 1 hp = 746 W      </li>      <li><b>Electric Power</b><br>        Definition: The product of voltage and current in a circuit.<br>        Formula: $P = VI$<br>        Unit: Watt (W)      </li>      <li><b>Examples</b>        <ul>          <li>Example 1: A lamp has a potential difference of 12 V and a current of 5 A. What is the power consumed?<br>          $P = VI = 12 \times 5 = 60\,W$</li>          <li>Example 2: A prime mover lifts a 1000 N weight by 20 m in 4 seconds. What is the output power and its horsepower?<br>          Work $W = FS = 1000 \times 20 = 20,000\,J$<br>          Power $P = \frac{W}{t} = \frac{20,000}{4} = 5,000\,W = 5\,kW$<br>          Horsepower $= \frac{5,000}{746} \approx 6.7\,hp$</li>        </ul>      </li>    </ol>    <h3>Vocabulary</h3>    <ul>      <li>Power</li>      <li>Horsepower</li>      <li>Electric Power</li>      <li>Watt</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>詳細重點統整</h2>    <ol>      <li><b>功率</b><br>        定義：單位時間內所做的功或能量。<br>        公式：$P = \frac{W}{t}$<br>        單位：瓦特 (Watt, W)      </li>      <li><b>馬力</b><br>        定義：一匹馬在1秒鐘內將76公斤的重物提高1公尺。<br>        單位：馬力 (Horsepower, hp)<br>        換算：1 hp = 746 W      </li>      <li><b>電功率</b><br>        定義：電路中電壓和電流的乘積。<br>        公式：$P = VI$<br>        單位：瓦特 (Watt, W)      </li>      <li><b>範例</b>        <ul>          <li>範例一：電燈兩端的電位差12伏特，流過電燈的電流5安培，消耗功率多少瓦特？<br>          $P = VI = 12 \times 5 = 60\,W$</li>          <li>範例二：有一個原動機在4秒鐘將1000牛頓的重物提高20公尺，輸出功率多少瓦還有它的馬力是多少？<br>          做功 $W = FS = 1000 \times 20 = 20,000\,J$<br>          功率 $P = \frac{W}{t} = \frac{20,000}{4} = 5,000\,W = 5\,kW$<br>          馬力 $= \frac{5,000}{746} \approx 6.7\,hp$</li>        </ul>      </li>    </ol>    <h3>英文翻譯</h3>    <ul>      <li>功率: Power</li>      <li>馬力: Horsepower</li>      <li>電功率: Electric Power</li>      <li>瓦特: Watt</li>    </ul>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=AsYKEFYRNYk&embeds_referring_euri=https://app.youlearn.ai/&embeds_referring_origin=https://app.youlearn.ai">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating total inductance in parallel inductor combinations, covering both cases with and without mutual inductance. It includes formulas and practical considerations for different scenarios.</p><p>本文解釋電感器並聯組合的計算方法，包括有互感與無互感的情況。內容包含不同情況下的計算公式和實際考量。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Types-of-Parallel-Combinations-並聯組合類型"><a href="#1-Types-of-Parallel-Combinations-並聯組合類型" class="headerlink" title="1. Types of Parallel Combinations 並聯組合類型"></a>1. Types of Parallel Combinations 並聯組合類型</h3><ul><li><p>Parallel inductors can be combined in two cases:</p><ul><li>Without mutual inductance</li><li>With mutual inductance</li></ul></li><li><p>Each case requires different calculation methods</p></li><li><p>電感器並聯組合分為兩種情況：</p><ul><li>無互感</li><li>有互感</li></ul></li><li><p>每種情況需要不同的計算方法</p></li></ul><h3 id="2-Parallel-Inductors-Without-Mutual-Inductance-無互感並聯電感"><a href="#2-Parallel-Inductors-Without-Mutual-Inductance-無互感並聯電感" class="headerlink" title="2. Parallel Inductors Without Mutual Inductance 無互感並聯電感"></a>2. Parallel Inductors Without Mutual Inductance 無互感並聯電感</h3><ul><li><p>The formula is similar to parallel resistors:<br>$$<br>L_T &#x3D; \frac{L_1 \times L_2}{L_1 + L_2}<br>$$</p></li><li><p>This is the basic formula for parallel inductors without mutual effects</p></li><li><p>計算公式與電阻並聯相似：<br>$$<br>L_T &#x3D; \frac{L_1 \times L_2}{L_1 + L_2}<br>$$</p></li><li><p>這是不考慮互感時並聯電感的基本公式</p></li></ul><h3 id="3-Parallel-Inductors-With-Mutual-Inductance-有互感並聯電感"><a href="#3-Parallel-Inductors-With-Mutual-Inductance-有互感並聯電感" class="headerlink" title="3. Parallel Inductors With Mutual Inductance 有互感並聯電感"></a>3. Parallel Inductors With Mutual Inductance 有互感並聯電感</h3><ul><li><p>Need to determine if mutual effect is:</p><ul><li>Assisting (same magnetic field direction)</li><li>Opposing (opposite magnetic field direction)</li></ul></li><li><p>The formula becomes:<br>$$<br>L_T &#x3D; \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}<br>$$</p></li><li><p>Sign convention:</p><ul><li>Minus sign (-2M) for assisting mutual inductance</li><li>Plus sign (+2M) for opposing mutual inductance</li></ul></li><li><p>需判斷互感是：</p><ul><li>互助（磁場方向相同）</li><li>互消（磁場方向相反）</li></ul></li><li><p>計算公式變為：<br>$$<br>L_T &#x3D; \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}<br>$$</p></li><li><p>符號規則：</p><ul><li>互助取負號（-2M），電感量較大</li><li>互消取正號（+2M），電感量較小</li></ul></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=JhOxJFNb5Tc">Parallel Inductor Combinations</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Title &amp; Introduction Outline&lt;/h2&gt;
-    &lt;p&gt;&lt;b&gt;Title:&lt;/b&gt; High School Basi</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article expla</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Power" scheme="https://bill55tt.github.io/tags/Power/"/>
+    <category term="Parallel Circuits" scheme="https://bill55tt.github.io/tags/Parallel-Circuits/"/>
     
-    <category term="Horsepower" scheme="https://bill55tt.github.io/tags/Horsepower/"/>
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
     
-    <category term="Watt" scheme="https://bill55tt.github.io/tags/Watt/"/>
+    <category term="Inductors" scheme="https://bill55tt.github.io/tags/Inductors/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Fundamental Theories of Electricity - Power Part B - 高中基本電學：電學基礎理論 - 電功率 PART B</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-b/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-b/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:47:51.419Z</updated>
+    <title>Permeability and Magnetization Curve - 導磁係數與磁化曲線</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-permeability-magnetization-curve/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-permeability-magnetization-curve/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:26:13.731Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This lesson, taught by Mr. Chen Zhengxu, introduces the concepts of electric energy and kilowatt-hour (kWh), including practical calculation examples.</p>  </div>  <div class="lang lang-zh">    <h2>課程簡介</h2>    <p>高中基本電學_電學基礎理論_電功率_PART B 電能與電度，由陳政旭老師主講，主要介紹電能與電度的概念。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ul>      <li><b>Meaning of Electric Energy:</b> Electric energy is the energy consumed by an electrical appliance with power P (watts) over t seconds.<br>Formula: $W = P \cdot t$, unit: joule (J).</li>      <li><b>Kilowatt-Hour (kWh):</b> kWh is the unit used by power companies to measure electric energy. 1 kWh = the energy consumed by a 1000-watt appliance used for 1 hour.</li>      <li><b>Conversion between Electric Energy and kWh:</b> 1 kWh = $3.6 \times 10^6$ joules.</li>    </ul>    <h3>Examples</h3>    <ul>      <li><b>Example 1:</b> How much energy (in joules) does a 4000-watt motor consume in 30 minutes?<br>$W = 4000 \cdot (30 \cdot 60) = 7.2 \times 10^6$ J</li>      <li><b>Example 2:</b> Calculating a household's daily electricity cost.<br>Total usage: 6 kWh.<br>Total cost: $6 \cdot 3 = 18$ NTD/day.<br>30-day total: $18 \cdot 30 = 540$ NTD.</li>    </ul>    <h3>Vocabulary</h3>    <ul>      <li>Electric Energy</li>      <li>Electricity Degree or Kilowatt-Hour (kWh)</li>      <li>Electric Power</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>影片重點統整</h2>    <ul>      <li><b>電能的涵義：</b>電能是功率為P瓦特的電器用品，使用t秒鐘所消耗的能量。<br>公式：$W = P \cdot t$，單位為焦耳。</li>      <li><b>電度：</b>電度是電力公司對電能的計算方式。1度電 = 1000瓦的功率的電器用品，使用1個小時所消耗的電能。</li>      <li><b>電能與電度的換算：</b>1度電 = $3.6 \times 10^6$焦耳。</li>    </ul>    <h3>範例</h3>    <ul>      <li><b>範例一：</b>4000瓦的電動機運轉30分鐘，共消耗電能多少焦耳？<br>$W = 4000 \cdot (30 \cdot 60) = 7.2 \times 10^6$焦耳。</li>      <li><b>範例二：</b>某家庭每日用電量計算，總共要付多少電費？<br>總用電量：6度電。<br>總電費：$6 \cdot 3 = 18$元/天。<br>30天總電費：$18 \cdot 30 = 540$元。</li>    </ul>    <h3>英文翻譯</h3>    <ul>      <li>電能：Electric Energy</li>      <li>電度：Electricity Degree or Kilowatt-Hour (kWh)</li>      <li>電功率：Electric Power</li>    </ul>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=GOAqeMwiiYo&t=1s">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental concepts of magnetic permeability and magnetization curves, including their mathematical relationships and practical applications in different materials.</p><p>本文解釋磁導率與磁化曲線的基本概念，包括其數學關係及在不同材料中的實際應用。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Magnetic-Permeability-導磁係數"><a href="#1-Magnetic-Permeability-導磁係數" class="headerlink" title="1. Magnetic Permeability 導磁係數"></a>1. Magnetic Permeability 導磁係數</h3><ul><li><p><strong>Definition:</strong></p><ul><li>Symbol: μ (mu)</li><li>Formula: ( \mu &#x3D; \mu_0 \times \mu_r )</li><li>Represents material’s ability to conduct magnetic flux</li></ul></li><li><p><strong>定義：</strong></p><ul><li>符號：μ</li><li>公式：( \mu &#x3D; \mu_0 \times \mu_r )</li><li>表示物質導磁能力</li></ul></li></ul><h3 id="2-Permeability-Constants-導磁常數"><a href="#2-Permeability-Constants-導磁常數" class="headerlink" title="2. Permeability Constants 導磁常數"></a>2. Permeability Constants 導磁常數</h3><ul><li><p><strong>Vacuum Permeability (μ₀):</strong></p><ul><li>Value: (4\pi \times 10^{-7})</li><li>Base reference for magnetic permeability</li><li>Universal constant</li></ul></li><li><p><strong>Relative Permeability (μr):</strong></p><ul><li>Ratio of material’s permeability to vacuum</li><li>Determines material’s magnetic properties</li><li>Dimensionless quantity</li></ul></li><li><p><strong>真空導磁係數 (μ₀)：</strong></p><ul><li>數值：(4\pi \times 10^{-7})</li><li>磁導率的基準參考值</li><li>通用常數</li></ul></li><li><p><strong>相對導磁係數 (μr)：</strong></p><ul><li>材料導磁率與真空的比值</li><li>決定材料的磁性特性</li><li>無因次量</li></ul></li></ul><h3 id="3-Material-Classification-材料分類"><a href="#3-Material-Classification-材料分類" class="headerlink" title="3. Material Classification 材料分類"></a>3. Material Classification 材料分類</h3><ul><li><p><strong>Ferromagnetic Materials:</strong></p><ul><li>μr ≫ 1</li><li>Examples: iron, silicon steel, steel, cobalt, nickel</li><li>Strong magnetic properties</li></ul></li><li><p><strong>Non-magnetic Materials:</strong></p><ul><li>μr &#x3D; 1</li><li>Examples: vacuum</li><li>Linear B-H curve, no saturation</li></ul></li><li><p><strong>Paramagnetic Materials:</strong></p><ul><li>μr &gt; 1</li><li>Examples: aluminum, platinum, tungsten</li><li>Magnetic flux aligns with field</li></ul></li><li><p><strong>Diamagnetic Materials:</strong></p><ul><li>μr &lt; 1</li><li>Examples: gold, silver, copper</li><li>Magnetic flux opposes field</li></ul></li><li><p><strong>強磁性材料：</strong></p><ul><li>μr ≫ 1</li><li>例如：鐵、矽鋼、鋼、鈷、鎳</li><li>強磁性特性</li></ul></li><li><p><strong>非磁性材料：</strong></p><ul><li>μr &#x3D; 1</li><li>例如：真空</li><li>B-H曲線為直線，無飽和</li></ul></li><li><p><strong>順磁性材料：</strong></p><ul><li>μr &gt; 1</li><li>例如：鋁、鉑、鎢</li><li>磁通與磁場同向</li></ul></li><li><p><strong>反磁性材料：</strong></p><ul><li>μr &lt; 1</li><li>例如：金、銀、銅</li><li>磁通與磁場反向</li></ul></li></ul><h3 id="4-Magnetization-Process-磁化過程"><a href="#4-Magnetization-Process-磁化過程" class="headerlink" title="4. Magnetization Process 磁化過程"></a>4. Magnetization Process 磁化過程</h3><ul><li><p><strong>Core Magnetization:</strong></p><ul><li>Current application magnetizes iron core</li><li>Magnetization strength increases with current</li><li>Magnetic domains align</li></ul></li><li><p><strong>鐵心磁化：</strong></p><ul><li>通電使鐵心磁化</li><li>磁化強度隨電流增加</li><li>磁域排列</li></ul></li></ul><h3 id="5-B-H-Curve-Characteristics-B-H曲線特性"><a href="#5-B-H-Curve-Characteristics-B-H曲線特性" class="headerlink" title="5. B-H Curve Characteristics B-H曲線特性"></a>5. B-H Curve Characteristics B-H曲線特性</h3><ul><li><p><strong>Non-magnetic Materials:</strong></p><ul><li>Linear relationship</li><li>No saturation point</li><li>Direct proportionality</li></ul></li><li><p><strong>Magnetic Materials:</strong></p><ul><li>Non-linear relationship</li><li>Shows saturation point</li><li>Magnetic domain alignment affects flux</li></ul></li><li><p><strong>非磁性材料：</strong></p><ul><li>線性關係</li><li>無飽和點</li><li>直接比例關係</li></ul></li><li><p><strong>磁性材料：</strong></p><ul><li>非線性關係</li><li>顯示飽和點</li><li>磁域排列影響磁通</li></ul></li></ul><h3 id="6-Magnetic-Saturation-磁飽和"><a href="#6-Magnetic-Saturation-磁飽和" class="headerlink" title="6. Magnetic Saturation 磁飽和"></a>6. Magnetic Saturation 磁飽和</h3><ul><li><p><strong>Definition:</strong></p><ul><li>Complete alignment of magnetic domains</li><li>Further H increase doesn’t significantly increase B</li><li>Maximum magnetization state</li></ul></li><li><p><strong>定義：</strong></p><ul><li>磁域完全排列</li><li>增加H不會顯著增加B</li><li>最大磁化狀態</li></ul></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=0p_HYgb_y3o">Understanding Permeability and Magnetization</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This lesson, taught by Mr. Chen Zhengxu, intro</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article expla</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Power" scheme="https://bill55tt.github.io/tags/Power/"/>
+    <category term="Permeability" scheme="https://bill55tt.github.io/tags/Permeability/"/>
     
-    <category term="Electric Energy" scheme="https://bill55tt.github.io/tags/Electric-Energy/"/>
-    
-    <category term="kWh" scheme="https://bill55tt.github.io/tags/kWh/"/>
+    <category term="Magnetization" scheme="https://bill55tt.github.io/tags/Magnetization/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Fundamental Theories of Electricity - Power Part C - 高中基本電學：電學基礎理論 - 電功率 PART C</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-c/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-c/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:39:54.739Z</updated>
+    <title>Detailed Explanation of Self-Inductance Definition - 自感量定義詳解</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-self-inductance-definition/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-self-inductance-definition/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:17:02.707Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This lesson covers the concept of efficiency in electrical power, including its definition, formula, and practical examples. Understanding efficiency is crucial for analyzing energy conversion systems and optimizing performance.</p>  </div>  <div class="lang lang-zh">    <h2>前言</h2>    <p>本課程介紹電功率中的效率概念，包括定義、公式與實際範例。理解效率對於分析能量轉換系統與提升效能至關重要。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ul>      <li><b>Efficiency Definition:</b> Efficiency is defined as the ratio of output energy to input energy, expressed as a percentage.</li>      <li><b>Efficiency Formula:</b> Efficiency = (Output Energy / Input Energy) × 100%</li>      <li><b>Energy Conversion System:</b> An energy conversion system can consist of multiple subsystems connected in series, with the overall efficiency being the product of the efficiencies of the individual subsystems.</li>    </ul>    <h3>Example Analysis</h3>    <ul>      <li><b>Example 1:</b> A water pump motor with an input power of 880 watts and an efficiency of 0.85, find output power and loss power.</li>      <li><b>Example 2:</b> A power system consisting of two subsystems with efficiencies of 0.8 and 0.9, find the overall efficiency and output energy.</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>詳細重點統整</h2>    <ul>      <li><b>效率的定義：</b>效率是指輸出能量與輸入能量的比值，以百分率表示。</li>      <li><b>效率公式：</b>效率 = (輸出能量 / 輸入能量) × 100%</li>      <li><b>能量轉換系統：</b>能量轉換系統可以由多個子系統串接而成，總效率為各子系統效率的乘積。</li>    </ul>    <h3>範例解析</h3>    <ul>      <li><b>範例一：</b>抽水馬達輸入功率 880 瓦，效率 0.85，求輸出功率和損失功率。</li>      <li><b>範例二：</b>電力系統由兩個子系統組成，效率分別為 0.8 和 0.9，求總效率和輸出能量。</li>    </ul>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article provides a detailed explanation of self-inductance, its definition, formula, and practical significance in electromagnetic systems. It helps readers understand the fundamental concept of how coils generate magnetic flux in response to current changes.</p><p>本文詳細解釋自感量的定義、公式及其在電磁系統中的實際意義。幫助讀者理解線圈如何對電流變化產生磁通量的基本概念。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Definition-of-Self-Inductance-自感量定義"><a href="#1-Definition-of-Self-Inductance-自感量定義" class="headerlink" title="1. Definition of Self-Inductance 自感量定義"></a>1. Definition of Self-Inductance 自感量定義</h3><ul><li><p><strong>Self-inductance (L)</strong> is the ratio of the magnetic flux linkage to the current in a single coil</p></li><li><p>It represents the coil’s ability to generate magnetic flux in response to current</p></li><li><p>**自感量（L）**是指單一線圈中，當電流通過時，該線圈自身產生的磁通鏈與電流的比值</p></li><li><p>表示線圈對電流產生磁通量的能力</p></li></ul><h3 id="2-Mathematical-Formula-數學公式"><a href="#2-Mathematical-Formula-數學公式" class="headerlink" title="2. Mathematical Formula 數學公式"></a>2. Mathematical Formula 數學公式</h3><ul><li><p><strong>Formula:</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]<br>where:</p><ul><li>N: Number of turns in the coil</li><li>Φ: Magnetic flux (in Weber, Wb)</li><li>I: Current through the coil (in Ampere, A)</li></ul></li><li><p><strong>公式：</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]<br>其中：</p><ul><li>N：線圈的匝數</li><li>Φ：磁通量（單位韋柏 Wb）</li><li>I：通過線圈的電流（單位安培 A）</li></ul></li></ul><h3 id="3-Physical-Meaning-物理意義"><a href="#3-Physical-Meaning-物理意義" class="headerlink" title="3. Physical Meaning 物理意義"></a>3. Physical Meaning 物理意義</h3><ul><li><p>When current I flows through the coil, it generates magnetic flux Φ</p></li><li><p>The product of flux and number of turns (NΦ) gives the flux linkage</p></li><li><p>The ratio of flux linkage to current is the self-inductance</p></li><li><p>當電流 I 流過線圈時，會在該線圈中產生磁通量 Φ</p></li><li><p>磁通量與匝數的乘積（NΦ）得到磁通鏈</p></li><li><p>磁通鏈與電流的比值就是自感量</p></li></ul><h3 id="4-Significance-重要性"><a href="#4-Significance-重要性" class="headerlink" title="4. Significance 重要性"></a>4. Significance 重要性</h3><ul><li><p>Higher self-inductance means:</p><ul><li>Stronger response to current changes</li><li>Small current changes can produce large flux linkage</li><li>Greater ability to generate magnetic flux</li></ul></li><li><p>自感量越大表示：</p><ul><li>對電流變化的反應越強</li><li>少量電流變化就能產生較大的磁通鏈</li><li>產生磁通的能力越強</li></ul></li></ul><h3 id="5-Practical-Understanding-實際理解"><a href="#5-Practical-Understanding-實際理解" class="headerlink" title="5. Practical Understanding 實際理解"></a>5. Practical Understanding 實際理解</h3><ul><li><p>Self-inductance is a measure of a coil’s ability to generate magnetic flux</p></li><li><p>It is a fundamental parameter in electromagnetic systems</p></li><li><p>It affects how the coil responds to changing currents</p></li><li><p>自感量是衡量線圈「自我產生磁通能力」的參數</p></li><li><p>是電磁系統中的基本參數</p></li><li><p>影響線圈對變化電流的響應方式</p></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=rT380N3rxkQ">Self-Inductance Definition</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This lesson covers the concept of efficiency i</summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article provi</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Power" scheme="https://bill55tt.github.io/tags/Power/"/>
+    <category term="Self-Inductance" scheme="https://bill55tt.github.io/tags/Self-Inductance/"/>
     
-    <category term="Efficiency" scheme="https://bill55tt.github.io/tags/Efficiency/"/>
+    <category term="Definition" scheme="https://bill55tt.github.io/tags/Definition/"/>
     
   </entry>
   
   <entry>
-    <title>High School Basic Electricity: Resistance and Resistivity Example - 高中基本電學：電阻與電阻係數範例</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-and-resistivity-example/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-and-resistivity-example/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:47:47.743Z</updated>
+    <title>Self-Inductance and Mutual Inductance - 自感與互感</title>
+    <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-self-mutual-inductance/"/>
+    <id>https://bill55tt.github.io/2025/05/14/2025-05-14-self-mutual-inductance/</id>
+    <published>2025-05-13T16:00:00.000Z</published>
+    <updated>2025-05-14T13:15:54.782Z</updated>
     
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article demonstrates a practical example of calculating the resistance of a copper wire, showing the step-by-step process of applying the resistance formula and unit conversions.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文展示了一個計算銅線電阻的實際範例，說明如何應用電阻公式和進行單位轉換的步驟。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Problem Background</b>:<br>        Example: Calculate the resistance of a copper wire that is 2 kilometers long and has a cross-sectional area of 14 square millimeters.      </li>      <li><b>Parameter Identification</b>:<br>        Length \( L = 2000 \, \text{m} \) (converted from kilometers)<br>        Cross-sectional area \( A = 14 \times 10^{-6} \, \text{m}^2 \) (converted from square millimeters)<br>        Resistivity of copper \( \rho = 1.724 \times 10^{-8} \, \Omega \cdot \text{m} \)      </li>      <li><b>Resistance Formula</b>:<br>        Using the formula \( R = \frac{\rho L}{A} \)<br>        Calculated resistance \( R = 2.463 \, \Omega \)      </li>      <li><b>Unit Conversion</b>:<br>        Ensure all parameters are in MKS units (meters, kilograms, seconds).      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>題目背景</b>：<br>        例題：計算一條長2公里、截面積14平方公釐的銅線電阻。      </li>      <li><b>參數標示</b>：<br>        長度 \( L = 2000 \, \text{m} \)（轉換自公里）<br>        截面積 \( A = 14 \times 10^{-6} \, \text{m}^2 \)（轉換自平方公釐）<br>        銅的電阻係數 \( \rho = 1.724 \times 10^{-8} \, \Omega \cdot \text{m} \)      </li>      <li><b>電阻公式</b>：<br>        使用公式 \( R = \frac{\rho L}{A} \)<br>        計算得出電阻 \( R = 2.463 \, \Omega \)      </li>      <li><b>單位轉換</b>：<br>        確保所有參數使用MKS制（米、公斤、秒）。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=8St34L-1Lgo">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental concepts of self-inductance and mutual inductance in electromagnetic systems. It covers the basic principles, mathematical relationships, and practical applications of these important electromagnetic phenomena.</p><p>本文解釋電磁系統中自感和互感的基本概念。內容涵蓋這些重要電磁現象的基本原理、數學關係和實際應用。</p><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Self-Inductance-自感"><a href="#1-Self-Inductance-自感" class="headerlink" title="1. Self-Inductance 自感"></a>1. Self-Inductance 自感</h3><ul><li><p><strong>Definition:</strong></p><ul><li>The magnetic flux generated by current flowing through a single coil</li><li>Related to the coil’s own current</li><li>A fundamental property of any coil</li></ul></li><li><p><strong>定義：</strong></p><ul><li>單一線圈通電時產生的磁通量</li><li>與該線圈自身的電流相關</li><li>任何線圈的基本特性</li></ul></li></ul><h3 id="2-Mutual-Inductance-互感"><a href="#2-Mutual-Inductance-互感" class="headerlink" title="2. Mutual Inductance 互感"></a>2. Mutual Inductance 互感</h3><ul><li><p><strong>Definition:</strong></p><ul><li>Occurs when two coils are in proximity</li><li>Current in one coil produces magnetic flux that links to the other coil</li><li>Denoted by capital M</li></ul></li><li><p><strong>定義：</strong></p><ul><li>當兩個相鄰線圈存在時發生</li><li>一個線圈的電流會產生磁通量，並交鏈到另一個線圈</li><li>表示為大寫M</li></ul></li></ul><h3 id="3-Magnetic-Flux-Components-磁通量分解"><a href="#3-Magnetic-Flux-Components-磁通量分解" class="headerlink" title="3. Magnetic Flux Components 磁通量分解"></a>3. Magnetic Flux Components 磁通量分解</h3><ul><li><p><strong>Flux in coil 1:</strong></p><ul><li>Total flux Φ1 splits into:<ul><li>Φ11: Leakage flux (not linking the other coil)</li><li>Φ12: Mutual flux (linking the other coil)</li></ul></li></ul></li><li><p><strong>線圈1的磁通：</strong></p><ul><li>總磁通Φ1分為：<ul><li>Φ11：漏磁通（未交鏈到另一線圈）</li><li>Φ12：交鏈磁通（穿過另一線圈）</li></ul></li></ul></li></ul><h3 id="4-Self-Inductance-Formula-自感量公式"><a href="#4-Self-Inductance-Formula-自感量公式" class="headerlink" title="4. Self-Inductance Formula 自感量公式"></a>4. Self-Inductance Formula 自感量公式</h3><ul><li><p><strong>Formula for coil 1:</strong><br>[<br>L_1 &#x3D; \frac{N_1 \Phi_1}{I_1}<br>]<br>where:</p><ul><li>N1: Number of turns</li><li>I1: Current</li></ul></li><li><p><strong>線圈1的公式：</strong><br>[<br>L_1 &#x3D; \frac{N_1 \Phi_1}{I_1}<br>]<br>其中：</p><ul><li>N1：線圈匝數</li><li>I1：電流</li></ul></li></ul><h3 id="5-Mutual-Inductance-Formula-互感量公式"><a href="#5-Mutual-Inductance-Formula-互感量公式" class="headerlink" title="5. Mutual Inductance Formula 互感量公式"></a>5. Mutual Inductance Formula 互感量公式</h3><ul><li><p><strong>Formula for mutual inductance:</strong><br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}<br>]<br>This represents the mutual inductance from coil 1 to coil 2</p></li><li><p><strong>互感量公式：</strong><br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}<br>]<br>表示線圈1對線圈2的互感</p></li></ul><h3 id="6-Coil-2-Relationships-線圈2的關係"><a href="#6-Coil-2-Relationships-線圈2的關係" class="headerlink" title="6. Coil 2 Relationships 線圈2的關係"></a>6. Coil 2 Relationships 線圈2的關係</h3><ul><li><p>Similar definitions apply to coil 2:</p><ul><li>Self-inductance L2</li><li>Mutual inductance M21</li></ul></li><li><p>線圈2也有類似的定義：</p><ul><li>自感量L2</li><li>互感量M21</li></ul></li></ul><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=VQfbWaQJFBw">Self-Inductance and Mutual Inductance</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article demonstrates a practical example </summary>
+    <summary type="html">&lt;h2 id=&quot;Introduction-引言&quot;&gt;&lt;a href=&quot;#Introduction-引言&quot; class=&quot;headerlink&quot; title=&quot;Introduction 引言&quot;&gt;&lt;/a&gt;Introduction 引言&lt;/h2&gt;&lt;p&gt;This article expla</summary>
         
       
     
     
     
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
     
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/categories/Physics/Electromagnetism/"/>
     
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
     
     <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
     
     <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
     
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    <category term="Electromagnetism" scheme="https://bill55tt.github.io/tags/Electromagnetism/"/>
     
-    <category term="Calculation" scheme="https://bill55tt.github.io/tags/Calculation/"/>
+    <category term="Self-Inductance" scheme="https://bill55tt.github.io/tags/Self-Inductance/"/>
     
-    <category term="Resistance" scheme="https://bill55tt.github.io/tags/Resistance/"/>
-    
-    <category term="Resistivity" scheme="https://bill55tt.github.io/tags/Resistivity/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Resistance and Resistivity - 高中基本電學：電阻與電阻係數</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-and-resistivity/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-and-resistivity/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:55:45.688Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article explores the fundamental concepts of electrical resistance and resistivity, including their definitions, mathematical relationships, and practical applications in electrical engineering.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文探討電阻與電阻係數的基本概念，包括其定義、數學關係以及在電氣工程中的實際應用。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Definition of Resistance</b>:<br>        Resistance is the opposition encountered by electric current flowing through a material, measured in <b>Ohms</b> (Ω).      </li>      <li><b>Factors Affecting Resistance</b>:<br>        <b>Resistivity</b> (ρ): The resistance capability of different materials.<br>        <b>Length</b> (L): Longer lengths result in higher resistance.<br>        <b>Cross-sectional Area</b> (A): Larger areas lead to lower resistance.      </li>      <li><b>Mathematical Formula</b>:<br>        The formula for calculating resistance is:<br>        $$R = \frac{\rho \cdot L}{A}$$<br>        Where R is resistance, ρ is resistivity, L is length, and A is cross-sectional area.      </li>      <li><b>Relationship Between Resistance and Conductance</b>:<br>        Conductance is the reciprocal of resistance, indicating the ability to conduct electricity.      </li>      <li><b>Practical Applications</b>:<br>        Engineers use resistors to control current in circuits, ensuring stable operation.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>電阻的定義</b>：<br>        電阻是電流在物體中流動時所遇到的阻力，單位為<b>歐姆</b>（Ω）。      </li>      <li><b>電阻的影響因素</b>：<br>        <b>電阻係數</b>（ρ）：不同材質的電阻能力。<br>        <b>物體長度</b>（L）：長度越長，電阻越大。<br>        <b>截面積</b>（A）：截面積越大，電阻越小。      </li>      <li><b>數學公式</b>：<br>        電阻的計算公式為：<br>        $$R = \frac{\rho \cdot L}{A}$$<br>        其中，R為電阻，ρ為電阻係數，L為長度，A為截面積。      </li>      <li><b>電阻與電導的關係</b>：<br>        電導是電阻的倒數，表示導電能力。      </li>      <li><b>實際應用</b>：<br>        工程師利用電阻來控制電路中的電流，確保穩定操作。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=8St34L-1Lgo">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article explores the fundamental concepts</summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Resistance" scheme="https://bill55tt.github.io/tags/Resistance/"/>
-    
-    <category term="Resistivity" scheme="https://bill55tt.github.io/tags/Resistivity/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Resistance Basics - 高中基本電學：電阻基礎</title>
-    <link href="https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-basics/"/>
-    <id>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-basics/</id>
-    <published>2025-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:52:02.180Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>This article explores the fundamental concepts of electrical resistance, including its definition, factors affecting resistance, mathematical formulas, and practical applications in electrical engineering.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>本文探討電阻的基本概念，包括其定義、影響因素、數學公式以及在電氣工程中的實際應用。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Points</h2>    <ol>      <li><b>Definition of Resistance</b>:<br>        Resistance is the opposition encountered by electric current flowing through a material, measured in <b>Ohms</b> (Ω).      </li>      <li><b>Factors Affecting Resistance</b>:<br>        <b>Resistivity</b> (ρ): The resistance capability of different materials.<br>        <b>Length</b> (L): Longer lengths result in higher resistance.<br>        <b>Cross-sectional Area</b> (A): Larger areas lead to lower resistance.      </li>      <li><b>Mathematical Formula</b>:<br>        The formula for calculating resistance is:<br>        $$R = \frac{\rho \cdot L}{A}$$<br>        Where R is resistance, ρ is resistivity, L is length, and A is cross-sectional area.      </li>      <li><b>Relationship Between Resistance and Conductance</b>:<br>        Conductance is the reciprocal of resistance, indicating the ability to conduct electricity.      </li>      <li><b>Practical Applications</b>:<br>        Engineers use resistors to control current in circuits, ensuring stable operation.      </li>    </ol>  </div>  <div class="lang lang-zh">    <h2>重點歸納</h2>    <ol>      <li><b>電阻的定義</b>：<br>        電阻是電流在物體中流動時所遇到的阻力，單位為<b>歐姆</b>（Ω）。      </li>      <li><b>電阻的影響因素</b>：<br>        <b>電阻係數</b>（ρ）：不同材質的電阻能力。<br>        <b>物體長度</b>（L）：長度越長，電阻越大。<br>        <b>截面積</b>（A）：截面積越大，電阻越小。      </li>      <li><b>數學公式</b>：<br>        電阻的計算公式為：<br>        $$R = \frac{\rho \cdot L}{A}$$<br>        其中，R為電阻，ρ為電阻係數，L為長度，A為截面積。      </li>      <li><b>電阻與電導的關係</b>：<br>        電導是電阻的倒數，表示導電能力。      </li>      <li><b>實際應用</b>：<br>        工程師利用電阻來控制電路中的電流，確保穩定操作。      </li>    </ol>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=8St34L-1Lgo">here</a>.</p><p><em>Date: 2025-05-05</em> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;This article explores the fundamental concepts</summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Calculation" scheme="https://bill55tt.github.io/tags/Calculation/"/>
-    
-    <category term="Conductance" scheme="https://bill55tt.github.io/tags/Conductance/"/>
-    
-    <category term="Resistance" scheme="https://bill55tt.github.io/tags/Resistance/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Fundamental Theories of Electricity - Current Part B - 高中基本電學：電學基礎理論 - 電流 PART B</title>
-    <link href="https://bill55tt.github.io/2024/05/05/2024-05-05-electricity-fundamental-theories-current-part-b/"/>
-    <id>https://bill55tt.github.io/2024/05/05/2024-05-05-electricity-fundamental-theories-current-part-b/</id>
-    <published>2024-05-05T05:00:00.000Z</published>
-    <updated>2025-05-05T14:31:08.180Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Current is a fundamental concept in electricity that describes the flow of electric charge. This article explores an alternative method for calculating current based on the physical properties of conductors and electron movement.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>電流是電學中的基本概念，描述電荷的流動。本文探討基於導體物理特性和電子運動的電流計算替代方法。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Current Definition and Basic Formula</h2>    <p>Current (I) is defined as the amount of charge (Q) passing through a conductor's cross-section per unit time (t):</p>    <p>I = Q/t</p>  </div>  <div class="lang lang-zh">    <h2>電流定義與基本公式</h2>    <p>電流(I)定義為單位時間(t)內通過導體截面的電荷量(Q)：</p>    <p>I = Q/t</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Alternative Current Calculation Method</h2>    <p>Current can also be calculated using the following formula:</p>    <p>I = N × A × v × e</p>    <p>Where:</p>    <ul>      <li>N: Number of free electrons per cubic meter</li>      <li>A: Cross-sectional area of the conductor (m²)</li>      <li>v: Velocity of electron flow (m/s)</li>      <li>e: Charge of an electron (approximately 1.6 × 10^-19 coulombs)</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>電流計算的替代方法</h2>    <p>電流也可以使用以下公式計算：</p>    <p>I = N × A × v × e</p>    <p>其中：</p>    <ul>      <li>N：每立方公尺的自由電子數量</li>      <li>A：導體的截面積（m²）</li>      <li>v：電子的移動速率（m/s）</li>      <li>e：電子的電荷量（約1.6 × 10^-19庫侖）</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Calculation Examples</h2>    <h3>Example 1: Current Calculation in Copper Wire</h3>    <p>Given:</p>    <ul>      <li>Free electron density (N) = 8.5 × 10^28 electrons/m³</li>      <li>Cross-sectional area (A) = 1 × 10^-6 m²</li>      <li>Electron velocity (v) = 0.1 mm/s</li>    </ul>    <p>Calculate the current:</p>    <p>I = N × A × v × e</p>    <p>I = (8.5 × 10^28) × (1 × 10^-6) × (0.1 × 10^-3) × (1.6 × 10^-19)</p>    <p>I = 1.36 A</p>    <h3>Example 2: Electron Velocity Calculation</h3>    <p>Given:</p>    <ul>      <li>Current (I) = 2 A</li>      <li>Free electron density (N) = 8.5 × 10^28 electrons/m³</li>      <li>Cross-sectional area (A) = 2 × 10^-6 m²</li>    </ul>    <p>Calculate the electron velocity:</p>    <p>v = I / (N × A × e)</p>    <p>v = 2 / [(8.5 × 10^28) × (2 × 10^-6) × (1.6 × 10^-19)]</p>    <p>v ≈ 0.074 mm/s</p>  </div>  <div class="lang lang-zh">    <h2>計算範例</h2>    <h3>範例1：銅線中的電流計算</h3>    <p>已知：</p>    <ul>      <li>自由電子密度(N) = 8.5 × 10^28 電子/m³</li>      <li>截面積(A) = 1 × 10^-6 m²</li>      <li>電子速度(v) = 0.1 mm/s</li>    </ul>    <p>計算電流：</p>    <p>I = N × A × v × e</p>    <p>I = (8.5 × 10^28) × (1 × 10^-6) × (0.1 × 10^-3) × (1.6 × 10^-19)</p>    <p>I = 1.36 A</p>    <h3>範例2：電子速度計算</h3>    <p>已知：</p>    <ul>      <li>電流(I) = 2 A</li>      <li>自由電子密度(N) = 8.5 × 10^28 電子/m³</li>      <li>截面積(A) = 2 × 10^-6 m²</li>    </ul>    <p>計算電子速度：</p>    <p>v = I / (N × A × e)</p>    <p>v = 2 / [(8.5 × 10^28) × (2 × 10^-6) × (1.6 × 10^-19)]</p>    <p>v ≈ 0.074 mm/s</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Understanding current calculation methods is essential for electrical engineering</p>    <p>Both basic and alternative formulas provide valuable insights</p>    <p>Proper unit conversion is crucial for accurate calculations</p>    <p>Physical properties of conductors affect current flow</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>理解電流計算方法對電機工程至關重要</p>    <p>基本公式和替代公式都提供了寶貴的見解</p>    <p>正確的單位轉換對準確計算至關重要</p>    <p>導體的物理特性影響電流流動</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=yX5MYFl2Vlw">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Electric Current"> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;Current is a fundamental concept in electricit</summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Current" scheme="https://bill55tt.github.io/tags/Current/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Calculation" scheme="https://bill55tt.github.io/tags/Calculation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Fundamental Theories of Electricity - Charge Part A - 高中基本電學：電學基礎理論 - 電荷 PART A</title>
-    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-electricity-fundamental-theories-charge-part-a/"/>
-    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-electricity-fundamental-theories-charge-part-a/</id>
-    <published>2024-03-25T05:00:00.000Z</published>
-    <updated>2025-05-05T14:22:24.084Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>The study of electricity begins with understanding the fundamental concept of electric charge. This article explores the historical development of charge theory and introduces key scientific contributions that shaped our understanding of electricity.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>電學的研究始於理解電荷的基本概念。本文探討電荷理論的歷史發展，並介紹塑造我們對電學理解的關鍵科學貢獻。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Historical Background</h2>    <p>The understanding of electric charge has evolved through the contributions of several important scientists:</p>    <p>Sir Isaac Newton (1643-1727): His work on universal gravitation influenced later theories of electrical forces</p>    <p>Charles-Augustin de Coulomb (1736-1806): Formulated Coulomb's law describing electrical forces</p>    <p>John Dalton (1766-1844): Proposed atomic theory, though later modified</p>    <p>Robert Millikan (1868-1953): Measured the charge of a single electron</p>    <p>Ernest Rutherford (1871-1937): Contributed to understanding atomic structure</p>  </div>  <div class="lang lang-zh">    <h2>歷史背景</h2>    <p>對電荷的理解通過幾位重要科學家的貢獻而發展：</p>    <p>艾薩克・牛頓爵士(1643-1727)：他對萬有引力的研究影響了後來的電力理論</p>    <p>查爾斯・奧古斯丁・庫侖(1736-1806)：提出描述電力作用的庫侖定律</p>    <p>約翰・道耳吞(1766-1844)：提出原子理論，後被修正</p>    <p>羅伯特・密利根(1868-1953)：測量單一電子的電荷</p>    <p>歐內斯特・拉塞福(1871-1937)：對理解原子結構做出貢獻</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Basic Charge and Electric Quantity</h2>    <p>The fundamental unit of electric charge is the coulomb (C)</p>    <p>One electron carries a charge of -1.6 × 10^-19 coulombs</p>    <p>One proton carries a charge of +1.6 × 10^-19 coulombs</p>    <p>The charge of an electron is equal in magnitude but opposite in sign to that of a proton</p>  </div>  <div class="lang lang-zh">    <h2>基本電荷與電量</h2>    <p>電量的基本單位是庫侖(C)</p>    <p>一個電子帶有-1.6 × 10^-19庫侖的電量</p>    <p>一個質子帶有+1.6 × 10^-19庫侖的電量</p>    <p>電子的電量與質子大小相等但符號相反</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Scientific Contributions</h2>    <h3>Newton's Law of Universal Gravitation</h3>    <p>Influenced the development of Coulomb's law</p>    <p>Demonstrated the concept of action at a distance</p>    <p>Established mathematical relationships for forces</p>    <h3>Coulomb's Law</h3>    <p>Describes the force between two point charges</p>    <p>Like charges repel, unlike charges attract</p>    <p>Force is proportional to the product of charges</p>    <p>Force is inversely proportional to the square of distance</p>    <h3>Dalton's Atomic Theory</h3>    <p>Atoms are indivisible (later revised)</p>    <p>All atoms of an element are identical</p>    <p>Atoms combine in simple whole number ratios</p>    <h3>Millikan's Oil Drop Experiment</h3>    <p>Measured the charge of a single electron</p>    <p>Determined the basic charge unit</p>    <p>Confirmed the quantization of electric charge</p>  </div>  <div class="lang lang-zh">    <h2>關鍵科學貢獻</h2>    <h3>牛頓的萬有引力定律</h3>    <p>影響了庫侖定律的發展</p>    <p>展示了超距作用的概念</p>    <p>建立了力的數學關係</p>    <h3>庫侖定律</h3>    <p>描述兩個點電荷之間的力</p>    <p>同性相斥，異性相吸</p>    <p>力與電荷乘積成正比</p>    <p>力與距離平方成反比</p>    <h3>道耳吞的原子理論</h3>    <p>原子是不可分割的（後被修正）</p>    <p>同一元素的所有原子都相同</p>    <p>原子以簡單整數比結合</p>    <h3>密利根的油滴實驗</h3>    <p>測量單一電子的電荷</p>    <p>確定了基本電荷單位</p>    <p>證實了電荷的量子化</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Charge Calculations</h2>    <h3>Example 1: Total Charge Calculation</h3>    <p>Calculate the total charge of 5 × 10^19 electrons:</p>    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>    <p>Q = -8 coulombs</p>    <p>The negative sign indicates excess electrons</p>    <h3>Example 2: Number of Electrons</h3>    <p>Calculate the number of electrons in 1 coulomb:</p>    <p>Number of electrons = 1 / (1.6 × 10^-19)</p>    <p>Number of electrons = 6.25 × 10^18</p>  </div>  <div class="lang lang-zh">    <h2>電荷計算</h2>    <h3>範例1：總電量計算</h3>    <p>計算5 × 10^19個電子的總電量：</p>    <p>Q = 5 × 10^19 × (-1.6 × 10^-19)</p>    <p>Q = -8庫侖</p>    <p>負號表示過量的電子</p>    <h3>範例2：電子數量</h3>    <p>計算1庫侖中的電子數量：</p>    <p>電子數量 = 1 / (1.6 × 10^-19)</p>    <p>電子數量 = 6.25 × 10^18</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Electric charge is a fundamental property of matter</p>    <p>The basic unit of charge is the coulomb</p>    <p>Charges interact through Coulomb's law</p>    <p>Understanding charge is essential for electricity</p>    <p>Historical experiments shaped our understanding</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>電荷是物質的基本屬性</p>    <p>電量的基本單位是庫侖</p>    <p>電荷通過庫侖定律相互作用</p>    <p>理解電荷對電學至關重要</p>    <p>歷史實驗塑造了我們的理解</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Q9t-cVgXueM">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Electric Charge"> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;The study of electricity begins with understan</summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Charge" scheme="https://bill55tt.github.io/tags/Charge/"/>
-    
-    <category term="History" scheme="https://bill55tt.github.io/tags/History/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Characteristics of Static Charge and Example Exercises - 高中基本電學：靜電荷的特性與範例練習</title>
-    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-static-charge-characteristics/"/>
-    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-static-charge-characteristics/</id>
-    <published>2024-03-25T04:00:00.000Z</published>
-    <updated>2025-05-05T14:20:55.178Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Static charge is a fundamental concept in electricity that helps us understand the behavior of electric charges at rest. This article explores the basic characteristics of static charge, including the concepts of electrons and coulombs, and provides practical examples to enhance understanding.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>靜電荷是電學中的基本概念，幫助我們理解靜止狀態下電荷的行為。本文將探討靜電荷的基本特性，包括電子和庫侖的概念，並提供實際範例以加深理解。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Basic Unit of Electric Charge</h2>    <p>The fundamental unit of electric charge is the coulomb (C)</p>    <p>One electron carries a charge of -1.6 × 10^-19 coulombs</p>    <p>One proton carries a charge of +1.6 × 10^-19 coulombs</p>    <p>The charge of an electron is equal in magnitude but opposite in sign to that of a proton</p>  </div>  <div class="lang lang-zh">    <h2>電量的基本單位</h2>    <p>電量的基本單位是庫侖(C)</p>    <p>一個電子帶有-1.6 × 10^-19庫侖的電量</p>    <p>一個質子帶有+1.6 × 10^-19庫侖的電量</p>    <p>電子的電量與質子大小相等但符號相反</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Definition of Static Charge</h2>    <p>Static charge refers to electric charge that is at rest</p>    <p>It is the accumulation of electric charge on the surface of an object</p>    <p>Static charge can be generated through friction, contact, or induction</p>    <p>The charge remains stationary until it is discharged or neutralized</p>  </div>  <div class="lang lang-zh">    <h2>靜電荷的定義</h2>    <p>靜電荷指的是靜止不動的電荷</p>    <p>它是物體表面電荷的累積</p>    <p>靜電荷可以通過摩擦、接觸或感應產生</p>    <p>電荷保持靜止直到被放電或中和</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Characteristics of Static Charge</h2>    <h3>Like Charges Repel</h3>    <p>Charges of the same type repel each other</p>    <p>Positive charges repel other positive charges</p>    <p>Negative charges repel other negative charges</p>    <p>This is a fundamental property of electric charges</p>    <h3>Opposite Charges Attract</h3>    <p>Charges of different types attract each other</p>    <p>Positive and negative charges are attracted to each other</p>    <p>This attraction is the basis of many electrical phenomena</p>    <p>The force of attraction increases with decreasing distance</p>    <h3>Electrostatic Induction</h3>    <p>Neutral objects can be affected by nearby charged objects</p>    <p>Charges in the neutral object redistribute themselves</p>    <p>This creates temporary charge separation</p>    <p>The effect is stronger at closer distances</p>  </div>  <div class="lang lang-zh">    <h2>靜電荷的特性</h2>    <h3>同性相斥</h3>    <p>相同類型的電荷互相排斥</p>    <p>正電荷排斥其他正電荷</p>    <p>負電荷排斥其他負電荷</p>    <p>這是電荷的基本特性</p>    <h3>異性相吸</h3>    <p>不同類型的電荷互相吸引</p>    <p>正電荷和負電荷互相吸引</p>    <p>這種吸引力是許多電學現象的基礎</p>    <p>吸引力隨距離減少而增加</p>    <h3>靜電感應</h3>    <p>中性物體會受到附近帶電物體的影響</p>    <p>中性物體中的電荷會重新分布</p>    <p>這會產生暫時的電荷分離</p>    <p>距離越近，效果越強</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Franklin's Experiment</h2>    <p>Benjamin Franklin conducted experiments with static electricity</p>    <p>He rubbed a glass rod with silk to generate static charge</p>    <p>The glass rod became positively charged</p>    <p>The silk became negatively charged</p>    <p>This experiment demonstrated the transfer of electrons</p>  </div>  <div class="lang lang-zh">    <h2>富蘭克林的實驗</h2>    <p>班傑明・富蘭克林進行了靜電實驗</p>    <p>他通過摩擦玻璃棒和絲綢產生靜電</p>    <p>玻璃棒帶正電</p>    <p>絲綢帶負電</p>    <p>這個實驗展示了電子的轉移</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Example Exercises</h2>    <h3>Example 1: Calculating Atomic Charge</h3>    <p>Calculate the electric charge of an atom with 6 electrons and 3 protons:</p>    <p>Q = -6 × 1.6 × 10^-19 + 3 × 1.6 × 10^-19</p>    <p>Q = -4.8 × 10^-19 C</p>    <p>The atom has a net negative charge</p>    <h3>Example 2: Charge Removal</h3>    <p>Calculate the final charge after removing -1.5 microcoulombs:</p>    <p>Initial charge = -1.5 × 10^-6 C</p>    <p>Removed charge = -1.5 × 10^-6 C</p>    <p>Final charge = 0 C (neutral)</p>  </div>  <div class="lang lang-zh">    <h2>範例練習</h2>    <h3>範例1：計算原子電量</h3>    <p>計算帶有6個電子和3個質子的原子電量：</p>    <p>Q = -6 × 1.6 × 10^-19 + 3 × 1.6 × 10^-19</p>    <p>Q = -4.8 × 10^-19 C</p>    <p>該原子帶有淨負電荷</p>    <h3>範例2：電荷移除</h3>    <p>計算移去-1.5微庫侖電荷後的帶電量：</p>    <p>初始電量 = -1.5 × 10^-6 C</p>    <p>移除電量 = -1.5 × 10^-6 C</p>    <p>最終電量 = 0 C（中性）</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Static charge is electric charge at rest</p>    <p>Like charges repel, opposite charges attract</p>    <p>Electrostatic induction affects neutral objects</p>    <p>Charge can be calculated using the number of electrons and protons</p>    <p>Understanding static charge is fundamental to electricity</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>靜電荷是靜止的電荷</p>    <p>同性相斥，異性相吸</p>    <p>靜電感應影響中性物體</p>    <p>電量可以通過電子和質子數量計算</p>    <p>理解靜電荷是電學的基礎</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=4CrKgU8xJlM">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Static Charge"> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;Static charge is a fundamental concept in elec</summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Static Charge" scheme="https://bill55tt.github.io/tags/Static-Charge/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Current Direction and Magnitude - 高中基本電學：電流的方向與大小</title>
-    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-current-direction-magnitude/"/>
-    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-current-direction-magnitude/</id>
-    <published>2024-03-25T03:00:00.000Z</published>
-    <updated>2025-05-05T14:19:28.012Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Understanding current direction and magnitude is fundamental to electrical engineering. This article explores the basic concepts of current flow, its direction, and how to calculate its magnitude in practical applications. We will cover both theoretical concepts and practical examples to help you better understand current in electrical circuits.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>理解電流的方向和大小是電機工程的基本要素。本文將探討電流流動的基本概念、方向以及如何在實際應用中計算其大小。我們將涵蓋理論概念和實際範例，幫助您更好地理解電路中的電流。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Definition of Current</h2>    <p>Current is defined as the rate of flow of electric charge. It represents the amount of charge passing through a conductor's cross-section per unit time. This fundamental concept is essential for understanding how electricity works in circuits.</p>    <p>Current is measured in amperes (A)</p>    <p>One ampere equals one coulomb per second</p>    <p>Current can be either direct (DC) or alternating (AC)</p>  </div>  <div class="lang lang-zh">    <h2>電流的定義</h2>    <p>電流被定義為電荷流動的速率。它代表單位時間內通過導體截面的電荷量。這個基本概念對於理解電路中電的工作原理至關重要。</p>    <p>電流以安培(A)為單位</p>    <p>一安培等於每秒一庫侖</p>    <p>電流可以是直流(DC)或交流(AC)</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Direction of Current</h2>    <h3>Conventional Current</h3>    <p>Conventional current flows from positive to negative terminal</p>    <p>This concept originated from Benjamin Franklin's hypothesis in the 18th century</p>    <p>The conventional current direction is still used in circuit analysis and schematics</p>    <p>This direction is opposite to the actual electron flow</p>    <h3>Electron Flow</h3>    <p>In reality, electrons flow from negative to positive terminal</p>    <p>Electron flow represents the actual movement of charge carriers</p>    <p>Understanding both concepts is crucial for circuit analysis</p>    <p>Electron flow is important for understanding semiconductor behavior</p>  </div>  <div class="lang lang-zh">    <h2>電流的方向</h2>    <h3>傳統電流</h3>    <p>傳統電流從正極流向負極</p>    <p>這個概念源自18世紀班傑明・富蘭克林的假設</p>    <p>傳統電流方向仍用於電路分析和電路圖</p>    <p>這個方向與實際的電子流動方向相反</p>    <h3>電子流動</h3>    <p>實際上，電子從負極流向正極</p>    <p>電子流動代表電荷載子的實際運動</p>    <p>理解這兩個概念對電路分析至關重要</p>    <p>電子流動對於理解半導體行為很重要</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Magnitude of Current</h2>    <h3>Basic Formula</h3>    <p>The magnitude of current is calculated using the formula:</p>    <p>I = Q/t</p>    <p>Where:</p>    <p>I = Current in amperes (A)</p>    <p>Q = Charge in coulombs (C)</p>    <p>t = Time in seconds (s)</p>    <h3>Important Relationships</h3>    <p>Current is directly proportional to charge (I ∝ Q)</p>    <p>Current is inversely proportional to time (I ∝ 1/t)</p>    <p>Current can be measured using an ammeter</p>    <p>Current is a fundamental quantity in electrical circuits</p>  </div>  <div class="lang lang-zh">    <h2>電流的大小</h2>    <h3>基本公式</h3>    <p>電流的大小使用以下公式計算：</p>    <p>I = Q/t</p>    <p>其中：</p>    <p>I = 電流，單位為安培(A)</p>    <p>Q = 電荷量，單位為庫侖(C)</p>    <p>t = 時間，單位為秒(s)</p>    <h3>重要關係</h3>    <p>電流與電荷量成正比 (I ∝ Q)</p>    <p>電流與時間成反比 (I ∝ 1/t)</p>    <p>電流可以用電流表測量</p>    <p>電流是電路中的基本量</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Practical Examples</h2>    <h3>Example 1: Calculating Average Current</h3>    <p>If 3000 coulombs of charge flow through a conductor in 5 minutes:</p>    <p>Time = 5 minutes = 300 seconds</p>    <p>Charge = 3000 coulombs</p>    <p>Current = 3000/300 = 10 amperes</p>    <p>This represents a relatively high current flow</p>    <h3>Example 2: Battery Charging Time</h3>    <p>For a 1750mAh battery charged at 1 ampere:</p>    <p>Battery capacity = 1750mAh = 1.75Ah</p>    <p>Charging current = 1A</p>    <p>Charging time = 1.75 hours</p>    <p>This is a typical charging scenario for mobile devices</p>    <h3>Example 3: Household Circuit</h3>    <p>In a typical household circuit:</p>    <p>Standard voltage = 110V or 220V (depending on region)</p>    <p>Typical current = 15-20 amperes</p>    <p>Power = Voltage × Current</p>    <p>This current rating is for safety and practical usage</p>  </div>  <div class="lang lang-zh">    <h2>實際範例</h2>    <h3>範例1：計算平均電流</h3>    <p>如果在5分鐘內有3000庫侖的電量流過導體：</p>    <p>時間 = 5分鐘 = 300秒</p>    <p>電荷量 = 3000庫侖</p>    <p>電流 = 3000/300 = 10安培</p>    <p>這代表一個相對較高的電流</p>    <h3>範例2：電池充電時間</h3>    <p>對於1750mAh的電池以1安培充電：</p>    <p>電池容量 = 1750mAh = 1.75Ah</p>    <p>充電電流 = 1A</p>    <p>充電時間 = 1.75小時</p>    <p>這是移動設備的典型充電情況</p>    <h3>範例3：家用電路</h3>    <p>在典型的家用電路中：</p>    <p>標準電壓 = 110V或220V（依地區而定）</p>    <p>典型電流 = 15-20安培</p>    <p>功率 = 電壓 × 電流</p>    <p>這個電流額定值是基於安全和實際使用考慮</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Summary</h2>    <p>Current is the flow of electric charge through a conductor</p>    <p>Conventional current flows from positive to negative</p>    <p>Electron flow is in the opposite direction</p>    <p>Current magnitude is calculated using I = Q/t</p>    <p>Understanding current is essential for circuit analysis</p>  </div>  <div class="lang lang-zh">    <h2>總結</h2>    <p>電流是電荷在導體中的流動</p>    <p>傳統電流從正極流向負極</p>    <p>電子流動方向與之相反</p>    <p>電流大小使用I = Q/t計算</p>    <p>理解電流對電路分析至關重要</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Xhd_YWy0TKo">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Current Direction"> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;Understanding current direction and magnitude </summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Electronics/Physics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Current" scheme="https://bill55tt.github.io/tags/Current/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>High School Basic Electricity: Voltage - 高中基本電學：電壓</title>
-    <link href="https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/"/>
-    <id>https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/</id>
-    <published>2024-03-25T02:00:00.000Z</published>
-    <updated>2025-05-05T14:12:17.864Z</updated>
-    
-    <content type="html"><![CDATA[<div class="bilingual-section">  <div class="lang lang-en">    <h2>Introduction</h2>    <p>Voltage is one of the fundamental concepts in electricity, playing a crucial role in understanding how electrical circuits work. This article will explain voltage through everyday examples and analogies, making it easier to grasp this important concept.</p>  </div>  <div class="lang lang-zh">    <h2>引言</h2>    <p>電壓是電學中的基本概念之一，對於理解電路運作起著至關重要的作用。本文將通過日常生活中的例子和類比來解釋電壓，使這個重要概念更容易理解。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>What is Voltage?</h2>    <p>Voltage can be understood through a simple water analogy:</p>    <ul>      <li>Just as water flows from high to low levels, electricity flows from high to low voltage</li>      <li>Water pressure pushes water through pipes, voltage pushes electrons through wires</li>      <li>The greater the height difference, the stronger the water flow; similarly, the greater the voltage difference, the stronger the current</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>什麼是電壓？</h2>    <p>電壓可以通過簡單的水流類比來理解：</p>    <ul>      <li>就像水從高處流向低處，電流從高電壓流向低電壓</li>      <li>水壓推動水通過管道，電壓推動電子通過導線</li>      <li>高度差越大，水流越強；同樣，電壓差越大，電流越強</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Definition of Voltage</h2>    <p>Voltage is defined as the energy required to move electric charges in a circuit. It is measured in volts (V) and represents the potential energy difference between two points in an electrical circuit.</p>  </div>  <div class="lang lang-zh">    <h2>電壓的定義</h2>    <p>電壓被定義為在電路中移動電荷所需的能量。它以伏特(V)為單位，代表電路中兩點之間的電位能差。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Types of Voltage</h2>    <ul>      <li><strong>Electric Potential</strong>: The potential energy at a specific point in an electric field</li>      <li><strong>Potential Difference</strong>: The difference in electric potential between two points</li>      <li><strong>Electromotive Force (EMF)</strong>: The energy provided by a power source to move charges</li>      <li><strong>Voltage Drop</strong>: The decrease in voltage across a component in a circuit</li>    </ul>  </div>  <div class="lang lang-zh">    <h2>電壓的類型</h2>    <ul>      <li><strong>電位</strong>：電場中特定點的電位能</li>      <li><strong>電位差</strong>：兩點之間的電位差異</li>      <li><strong>電動勢</strong>：電源提供的移動電荷的能量</li>      <li><strong>電壓降</strong>：電路中元件兩端的電壓降低</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Key Concepts</h2>    <h3>Voltage and Current Flow</h3>    <p>Voltage is the driving force behind current flow, similar to how water pressure drives water flow. The relationship can be expressed as:</p>    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>    <p>For example, if point A has a potential of 100V and point B has 60V:</p>    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>  </div>  <div class="lang lang-zh">    <h2>重要概念</h2>    <h3>電壓與電流流動</h3>    <p>電壓是推動電流流動的力量，類似於水壓推動水流動。其關係可以表示為：</p>    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>    <p>例如，如果A點電位為100V，B點電位為60V：</p>    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h2>Unit of Voltage</h2>    <p>The volt (V) is the SI unit of voltage, named after Alessandro Volta, who invented the first chemical battery. One volt is defined as the potential difference that will drive one ampere of current through one ohm of resistance.</p>  </div>  <div class="lang lang-zh">    <h2>電壓的單位</h2>    <p>伏特(V)是電壓的國際單位，以發明第一個化學電池的亞歷山大·伏特命名。一伏特被定義為能夠驅動一安培電流通過一歐姆電阻的電位差。</p>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Xhd_YWy0TKo">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Voltage Basics"> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;bilingual-section&quot;&gt;
-  &lt;div class=&quot;lang lang-en&quot;&gt;
-    &lt;h2&gt;Introduction&lt;/h2&gt;
-    &lt;p&gt;Voltage is one of the fundamental concepts in </summary>
-        
-      
-    
-    
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Electricity" scheme="https://bill55tt.github.io/tags/Electricity/"/>
-    
-    <category term="Voltage" scheme="https://bill55tt.github.io/tags/Voltage/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bilingual Test - 雙語測試</title>
-    <link href="https://bill55tt.github.io/2024/03/24/bilingual-test/"/>
-    <id>https://bill55tt.github.io/2024/03/24/bilingual-test/</id>
-    <published>2024-03-24T07:00:00.000Z</published>
-    <updated>2025-04-06T12:54:12.016Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="雙語文章示例-Bilingual-Article-Example"><a href="#雙語文章示例-Bilingual-Article-Example" class="headerlink" title="雙語文章示例 - Bilingual Article Example"></a>雙語文章示例 - Bilingual Article Example</h1><p>這篇文章展示如何使用新的雙語切換功能。This article demonstrates how to use the new bilingual toggle feature.</p><h2 id="基本使用方法-Basic-Usage"><a href="#基本使用方法-Basic-Usage" class="headerlink" title="基本使用方法 - Basic Usage"></a>基本使用方法 - Basic Usage</h2><p>在文章頂部，您會看到語言切換按鈕，可以選擇只顯示中文、英文或同時顯示兩種語言。</p><p>At the top of the article, you’ll see language toggle buttons that allow you to choose to display Chinese only, English only, or both languages simultaneously.</p><h2 id="雙語內容範例-Bilingual-Content-Examples"><a href="#雙語內容範例-Bilingual-Content-Examples" class="headerlink" title="雙語內容範例 - Bilingual Content Examples"></a>雙語內容範例 - Bilingual Content Examples</h2><div class="bilingual-section">  <div class="lang lang-en">    <h3>Atomic Structure</h3>    <p>An atom consists of a nucleus containing protons and neutrons, surrounded by electrons in specific orbital layers. The number of protons determines the element.</p>    <ul>      <li>Protons: Positive charge (+)</li>      <li>Neutrons: No charge (neutral)</li>      <li>Electrons: Negative charge (-)</li>    </ul>  </div>  <div class="lang lang-zh">    <h3>原子結構</h3>    <p>原子由含有質子和中子的原子核組成，周圍是特定軌道層中的電子。質子的數量決定了元素。</p>    <ul>      <li>質子：正電荷 (+)</li>      <li>中子：無電荷（中性）</li>      <li>電子：負電荷 (-)</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h3>Work and Energy</h3>    <p>Work is defined as the energy transferred when a force moves an object through a distance. The formula for work is:</p>    <p><strong>W = F × d × cos(θ)</strong></p>    <p>Where:</p>    <ul>      <li>W = Work (joules, J)</li>      <li>F = Force (newtons, N)</li>      <li>d = Distance (meters, m)</li>      <li>θ = Angle between the force and displacement vectors</li>    </ul>  </div>  <div class="lang lang-zh">    <h3>功和能量</h3>    <p>功被定義為當力使物體移動一段距離時所傳遞的能量。功的公式為：</p>    <p><strong>W = F × d × cos(θ)</strong></p>    <p>其中：</p>    <ul>      <li>W = 功（焦耳，J）</li>      <li>F = 力（牛頓，N）</li>      <li>d = 距離（米，m）</li>      <li>θ = 力和位移向量之間的角度</li>    </ul>  </div></div><h2 id="如何實現雙語內容-How-to-Implement-Bilingual-Content"><a href="#如何實現雙語內容-How-to-Implement-Bilingual-Content" class="headerlink" title="如何實現雙語內容 - How to Implement Bilingual Content"></a>如何實現雙語內容 - How to Implement Bilingual Content</h2><p>要創建雙語內容區塊，請使用以下HTML結構：</p><p>To create bilingual content blocks, use the following HTML structure:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;bilingual-section&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;lang lang-en&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- English content here --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;lang lang-zh&quot;</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- Chinese content here --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="優點-Advantages"><a href="#優點-Advantages" class="headerlink" title="優點 - Advantages"></a>優點 - Advantages</h2><div class="bilingual-section">  <div class="lang lang-en">    <h3>Benefits of Bilingual Content</h3>    <ul>      <li>Reaches a wider audience</li>      <li>Improves accessibility</li>      <li>Enhances learning experience</li>      <li>User can choose their preferred language</li>    </ul>  </div>  <div class="lang lang-zh">    <h3>雙語內容的好處</h3>    <ul>      <li>觸及更廣泛的受眾</li>      <li>提高可訪問性</li>      <li>增強學習體驗</li>      <li>用戶可以選擇他們偏好的語言</li>    </ul>  </div></div> ]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;雙語文章示例-Bilingual-Article-Example&quot;&gt;&lt;a href=&quot;#雙語文章示例-Bilingual-Article-Example&quot; class=&quot;headerlink&quot; title=&quot;雙語文章示例 - Bilingual Article E</summary>
-        
-      
-    
-    
-    
-    <category term="Demo" scheme="https://bill55tt.github.io/categories/Demo/"/>
-    
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Electrical Units and International System</title>
-    <link href="https://bill55tt.github.io/2024/03/24/electrical-units-and-international-system/"/>
-    <id>https://bill55tt.github.io/2024/03/24/electrical-units-and-international-system/</id>
-    <published>2024-03-24T02:00:00.000Z</published>
-    <updated>2025-04-06T12:52:42.580Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Importance-of-Numbers-and-Units"><a href="#Importance-of-Numbers-and-Units" class="headerlink" title="Importance of Numbers and Units"></a>Importance of Numbers and Units</h2><p><strong>English:</strong></p><ul><li>A number combined with a unit is the universal language in science, providing objective meaning.</li><li>For example, height and weight need units for expression.</li><li>Without units, numbers lose their context and significance.</li></ul><p><strong>繁體中文:</strong></p><ul><li>數字加上單位是科學界的共通語言，能提供客觀的意義。</li><li>例如：身高、體重等都需要單位來表達。</li><li>沒有單位，數字就失去了上下文和意義。</li></ul><h2 id="International-System-of-Units-SI"><a href="#International-System-of-Units-SI" class="headerlink" title="International System of Units (SI)"></a>International System of Units (SI)</h2><p><strong>English:</strong></p><h3 id="Base-Units"><a href="#Base-Units" class="headerlink" title="Base Units:"></a>Base Units:</h3><ul><li>Length: Meter (m)</li><li>Mass: Kilogram (kg)</li><li>Time: Second (s)</li><li>Electric current: Ampere (A)</li><li>Thermodynamic temperature: Kelvin (K)</li><li>Amount of substance: Mole (mol)</li><li>Luminous intensity: Candela (cd)</li></ul><h3 id="Derived-Units"><a href="#Derived-Units" class="headerlink" title="Derived Units:"></a>Derived Units:</h3><ul><li>Speed: Meters per second (m&#x2F;s)</li><li>Density: Kilograms per cubic meter (kg&#x2F;m³)</li><li>Force: Newton (N) &#x3D; kg·m&#x2F;s²</li><li>Energy: Joule (J) &#x3D; N·m &#x3D; kg·m²&#x2F;s²</li></ul><p><strong>繁體中文:</strong></p><h3 id="基本單位："><a href="#基本單位：" class="headerlink" title="基本單位："></a>基本單位：</h3><ul><li>長度：公尺 (m)</li><li>質量：公斤 (kg)</li><li>時間：秒 (s)</li><li>電流：安培 (A)</li><li>熱力學溫度：克耳文 (K)</li><li>物質的量：莫耳 (mol)</li><li>發光強度：燭光 (cd)</li></ul><h3 id="導出單位："><a href="#導出單位：" class="headerlink" title="導出單位："></a>導出單位：</h3><ul><li>速度：米每秒 (m&#x2F;s)</li><li>密度：公斤每立方公尺 (kg&#x2F;m³)</li><li>力：牛頓 (N) &#x3D; kg·m&#x2F;s²</li><li>能量：焦耳 (J) &#x3D; N·m &#x3D; kg·m²&#x2F;s²</li></ul><h2 id="Common-Electrical-Units"><a href="#Common-Electrical-Units" class="headerlink" title="Common Electrical Units"></a>Common Electrical Units</h2><p><strong>English:</strong></p><table><thead><tr><th>Quantity</th><th>Symbol</th><th>Unit</th><th>Symbol</th><th>Definition</th></tr></thead><tbody><tr><td>Charge</td><td>Q</td><td>Coulomb</td><td>C</td><td>A·s</td></tr><tr><td>Current</td><td>I</td><td>Ampere</td><td>A</td><td>C&#x2F;s</td></tr><tr><td>Voltage</td><td>V</td><td>Volt</td><td>V</td><td>J&#x2F;C &#x3D; W&#x2F;A</td></tr><tr><td>Resistance</td><td>R</td><td>Ohm</td><td>Ω</td><td>V&#x2F;A</td></tr><tr><td>Power</td><td>P</td><td>Watt</td><td>W</td><td>J&#x2F;s &#x3D; V·A</td></tr><tr><td>Energy</td><td>E</td><td>Joule</td><td>J</td><td>W·s &#x3D; N·m</td></tr><tr><td>Capacitance</td><td>C</td><td>Farad</td><td>F</td><td>C&#x2F;V</td></tr><tr><td>Inductance</td><td>L</td><td>Henry</td><td>H</td><td>V·s&#x2F;A</td></tr></tbody></table><p><strong>繁體中文:</strong></p><table><thead><tr><th>物理量</th><th>符號</th><th>單位</th><th>符號</th><th>定義</th></tr></thead><tbody><tr><td>電荷</td><td>Q</td><td>庫倫</td><td>C</td><td>A·s</td></tr><tr><td>電流</td><td>I</td><td>安培</td><td>A</td><td>C&#x2F;s</td></tr><tr><td>電壓</td><td>V</td><td>伏特</td><td>V</td><td>J&#x2F;C &#x3D; W&#x2F;A</td></tr><tr><td>電阻</td><td>R</td><td>歐姆</td><td>Ω</td><td>V&#x2F;A</td></tr><tr><td>電功率</td><td>P</td><td>瓦特</td><td>W</td><td>J&#x2F;s &#x3D; V·A</td></tr><tr><td>電能</td><td>E</td><td>焦耳</td><td>J</td><td>W·s &#x3D; N·m</td></tr><tr><td>電容</td><td>C</td><td>法拉</td><td>F</td><td>C&#x2F;V</td></tr><tr><td>電感</td><td>L</td><td>亨利</td><td>H</td><td>V·s&#x2F;A</td></tr></tbody></table><h2 id="Writing-Conventions"><a href="#Writing-Conventions" class="headerlink" title="Writing Conventions"></a>Writing Conventions</h2><p><strong>English:</strong></p><ul><li>Use italics for symbols and upright font for units.</li><li>Example: “The current <em>I</em> &#x3D; 5 A flows through a resistor of resistance <em>R</em> &#x3D; 10 Ω.”</li><li>Leave a space between the number and the unit.</li><li>Units derived from proper names are capitalized (e.g., Ampere → A), but written in lowercase when spelled out (e.g., ampere).</li></ul><p><strong>繁體中文:</strong></p><ul><li>符號使用斜體，單位使用正體。</li><li>例如：「電流 <em>I</em> &#x3D; 5 A 流過電阻為 <em>R</em> &#x3D; 10 Ω 的電阻器。」</li><li>數字和單位之間要留有空格。</li><li>由人名衍生的單位符號要大寫（例如：安培 → A），但拼寫出來時用小寫（例如：ampere）。</li></ul><h2 id="Importance-in-Electrical-Engineering"><a href="#Importance-in-Electrical-Engineering" class="headerlink" title="Importance in Electrical Engineering"></a>Importance in Electrical Engineering</h2><p><strong>English:</strong></p><ul><li>Standardized units allow engineers worldwide to communicate effectively.</li><li>Prevents costly errors in design and implementation.</li><li>Enables accurate measurements and comparisons in experiments.</li><li>Forms the foundation for all electrical calculations and formulas.</li></ul><p><strong>繁體中文:</strong></p><ul><li>標準化的單位使全球工程師能有效溝通。</li><li>防止設計和實施過程中的昂貴錯誤。</li><li>使實驗中的測量和比較更加準確。</li><li>為所有電學計算和公式奠定基礎。</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Oqnh182xfDg">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Electrical Units"> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Importance-of-Numbers-and-Units&quot;&gt;&lt;a href=&quot;#Importance-of-Numbers-and-Units&quot; class=&quot;headerlink&quot; title=&quot;Importance of Numbers and Unit</summary>
-        
-      
-    
-    
-    
-    <category term="Science" scheme="https://bill55tt.github.io/categories/Science/"/>
-    
-    
-    <category term="Units" scheme="https://bill55tt.github.io/tags/Units/"/>
-    
-    <category term="Measurement" scheme="https://bill55tt.github.io/tags/Measurement/"/>
-    
-    <category term="Electrical" scheme="https://bill55tt.github.io/tags/Electrical/"/>
-    
-    <category term="SI" scheme="https://bill55tt.github.io/tags/SI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Understanding Prefixes for Powers of Ten</title>
-    <link href="https://bill55tt.github.io/2024/03/23/20250408-2/"/>
-    <id>https://bill55tt.github.io/2024/03/23/20250408-2/</id>
-    <published>2024-03-23T14:10:00.000Z</published>
-    <updated>2025-04-06T12:54:47.816Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Understanding-Prefixes-for-Powers-of-Ten"><a href="#Understanding-Prefixes-for-Powers-of-Ten" class="headerlink" title="Understanding Prefixes for Powers of Ten"></a>Understanding Prefixes for Powers of Ten</h2><div class="bilingual-section">  <div class="lang lang-en">    <h3>Definition</h3>    <p>Power of Ten: Represented as \(10^n\), used to simplify numerical representation.</p>  </div>  <div class="lang lang-zh">    <h3>定義</h3>    <p>十的冪次方：表示為 \(10^n\)，用於簡化數字表示。</p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h3>Prefixes and Their Meanings</h3>    <table>      <tr>        <th>Prefix</th>        <th>Symbol</th>        <th>Power</th>        <th>Example</th>      </tr>      <tr>        <td>Tera</td>        <td>T</td>        <td>\(10^{12}\)</td>        <td>1 TΩ = \(1 \times 10^{12}\) Ω</td>      </tr>      <tr>        <td>Giga</td>        <td>G</td>        <td>\(10^{9}\)</td>        <td>1 GΩ = \(1 \times 10^{9}\) Ω</td>      </tr>      <tr>        <td>Mega</td>        <td>M</td>        <td>\(10^{6}\)</td>        <td>1 MΩ = \(1 \times 10^{6}\) Ω</td>      </tr>      <tr>        <td>Kilo</td>        <td>k</td>        <td>\(10^{3}\)</td>        <td>1 kΩ = \(1 \times 10^{3}\) Ω</td>      </tr>      <tr>        <td>Milli</td>        <td>m</td>        <td>\(10^{-3}\)</td>        <td>1 mA = \(1 \times 10^{-3}\) A</td>      </tr>      <tr>        <td>Micro</td>        <td>μ</td>        <td>\(10^{-6}\)</td>        <td>1 μF = \(1 \times 10^{-6}\) F</td>      </tr>      <tr>        <td>Nano</td>        <td>n</td>        <td>\(10^{-9}\)</td>        <td>1 nF = \(1 \times 10^{-9}\) F</td>      </tr>      <tr>        <td>Pico</td>        <td>p</td>        <td>\(10^{-12}\)</td>        <td>1 pF = \(1 \times 10^{-12}\) F</td>      </tr>    </table>  </div>  <div class="lang lang-zh">    <h3>字首及其含義</h3>    <table>      <tr>        <th>字首</th>        <th>符號</th>        <th>冪次方</th>        <th>例子</th>      </tr>      <tr>        <td>兆</td>        <td>T</td>        <td>\(10^{12}\)</td>        <td>1 TΩ = \(1 \times 10^{12}\) Ω</td>      </tr>      <tr>        <td>十億</td>        <td>G</td>        <td>\(10^{9}\)</td>        <td>1 GΩ = \(1 \times 10^{9}\) Ω</td>      </tr>      <tr>        <td>百萬</td>        <td>M</td>        <td>\(10^{6}\)</td>        <td>1 MΩ = \(1 \times 10^{6}\) Ω</td>      </tr>      <tr>        <td>千</td>        <td>k</td>        <td>\(10^{3}\)</td>        <td>1 kΩ = \(1 \times 10^{3}\) Ω</td>      </tr>      <tr>        <td>毫</td>        <td>m</td>        <td>\(10^{-3}\)</td>        <td>1 mA = \(1 \times 10^{-3}\) A</td>      </tr>      <tr>        <td>微</td>        <td>μ</td>        <td>\(10^{-6}\)</td>        <td>1 μF = \(1 \times 10^{-6}\) F</td>      </tr>      <tr>        <td>奈</td>        <td>n</td>        <td>\(10^{-9}\)</td>        <td>1 nF = \(1 \times 10^{-9}\) F</td>      </tr>      <tr>        <td>皮</td>        <td>p</td>        <td>\(10^{-12}\)</td>        <td>1 pF = \(1 \times 10^{-12}\) F</td>      </tr>    </table>    <p><small>*注意: 台灣對 p ($10^{-12}$) 的翻譯通常為「皮」，而非「漠」</small></p>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h3>Application</h3>    <ul>      <li>Simplifies numerical writing, avoiding errors.</li>      <li>Commonly used by engineers and scientists for calculations and communication.</li>    </ul>  </div>  <div class="lang lang-zh">    <h3>應用</h3>    <ul>      <li>簡化數字書寫，避免錯誤。</li>      <li>工程師和科學家常用於計算和溝通。</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h3>Computer Terminology</h3>    <p>In computing, the definitions of prefixes differ (based on powers of 2):</p>    <ul>      <li>K (Kilo) = \(2^{10}\) = 1024</li>      <li>M (Mega) = \(2^{20}\) = 1,048,576</li>      <li>G (Giga) = \(2^{30}\) = 1,073,741,824</li>    </ul>  </div>  <div class="lang lang-zh">    <h3>電腦術語</h3>    <p>在電腦中，字首的定義不同 (基於2的冪次方)：</p>    <ul>      <li>K（千） = \(2^{10}\) = 1024</li>      <li>M（百萬） = \(2^{20}\) = 1,048,576</li>      <li>G（十億） = \(2^{30}\) = 1,073,741,824</li>    </ul>  </div></div><div class="bilingual-section">  <div class="lang lang-en">    <h3>Examples</h3>    <ul>      <li>Resistor: 47 kΩ = \(47 \times 10^{3}\) Ω</li>      <li>Current: 0.005 A = 5 mA = \(5 \times 10^{-3}\) A</li>    </ul>  </div>  <div class="lang lang-zh">    <h3>例子</h3>    <ul>      <li>電阻：47 kΩ = \(47 \times 10^{3}\) Ω</li>      <li>電流：0.005 A = 5 mA = \(5 \times 10^{-3}\) A</li>    </ul>  </div></div><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=OXtpXczD5AA">here</a>.</p><p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Powers of Ten"></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Understanding-Prefixes-for-Powers-of-Ten&quot;&gt;&lt;a href=&quot;#Understanding-Prefixes-for-Powers-of-Ten&quot; class=&quot;headerlink&quot; title=&quot;Understandin</summary>
-        
-      
-    
-    
-    
-    <category term="Science" scheme="https://bill55tt.github.io/categories/Science/"/>
-    
-    
-    <category term="Units" scheme="https://bill55tt.github.io/tags/Units/"/>
-    
-    <category term="Prefixes" scheme="https://bill55tt.github.io/tags/Prefixes/"/>
-    
-    <category term="Powers of Ten" scheme="https://bill55tt.github.io/tags/Powers-of-Ten/"/>
-    
-    <category term="Measurement" scheme="https://bill55tt.github.io/tags/Measurement/"/>
+    <category term="Mutual Inductance" scheme="https://bill55tt.github.io/tags/Mutual-Inductance/"/>
     
   </entry>
   

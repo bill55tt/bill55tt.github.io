@@ -2352,6 +2352,2020 @@
       </tags>
   </entry>
   <entry>
+    <title>Charged Particle Motion in Magnetic Fields: Force and Trajectory Analysis - 電荷在磁場中運動的受力與運動軌跡解析</title>
+    <url>/2025/05/14/2025-05-14-charged-particle-magnetic-field/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental principles of charged particle motion in magnetic fields, including the Lorentz force, trajectory analysis, and practical applications.</p>
+<p>本文探討電荷在磁場中運動的基本原理，包括洛倫茲力、運動軌跡分析以及實際應用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Lorentz-Force-and-Direction-洛倫茲力與方向"><a href="#1-Lorentz-Force-and-Direction-洛倫茲力與方向" class="headerlink" title="1. Lorentz Force and Direction 洛倫茲力與方向"></a>1. Lorentz Force and Direction 洛倫茲力與方向</h3><ul>
+<li><p>A charged particle moving in a magnetic field experiences the Lorentz force, whose direction is determined by Fleming’s left-hand rule.</p>
+</li>
+<li><p>The direction of positive charge movement is the current direction; with the magnetic field directed into the plane, the force is perpendicular to both velocity and magnetic field.</p>
+</li>
+<li><p>電荷在磁場中運動時會受到洛倫茲力作用，力的方向可用佛萊明左手定則判斷。</p>
+</li>
+<li><p>正電荷運動方向為電流方向，磁場方向垂直紙面射入，受力方向垂直於速度與磁場方向。</p>
+</li>
+</ul>
+<h3 id="2-Circular-Motion-圓周運動"><a href="#2-Circular-Motion-圓周運動" class="headerlink" title="2. Circular Motion 圓周運動"></a>2. Circular Motion 圓周運動</h3><ul>
+<li><p>Positive charges undergo counterclockwise circular motion in the magnetic field, while negative charges move clockwise.</p>
+</li>
+<li><p>The force magnitude is given by ( F &#x3D; B Q v ), where ( B ) is magnetic flux density, ( Q ) is charge, and ( v ) is velocity.</p>
+</li>
+<li><p>電荷在磁場中會做逆時針圓周運動（正電荷），負電荷則為順時針圓周運動。</p>
+</li>
+<li><p>受力大小公式為 ( F &#x3D; B Q v )，其中 ( B ) 是磁通密度，( Q ) 是電荷量，( v ) 是速度。</p>
+</li>
+</ul>
+<h3 id="3-Practical-Applications-實際應用"><a href="#3-Practical-Applications-實際應用" class="headerlink" title="3. Practical Applications 實際應用"></a>3. Practical Applications 實際應用</h3><ul>
+<li><p>This principle is applied in CRT displays to control electron beam deflection.</p>
+</li>
+<li><p>The understanding of charged particle motion in magnetic fields is crucial for various technologies including particle accelerators and mass spectrometers.</p>
+</li>
+<li><p>此原理應用於CRT顯示器中控制電子束的偏轉。</p>
+</li>
+<li><p>理解電荷在磁場中的運動對於粒子加速器和質譜儀等各種技術至關重要。</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=1BEH9lPoCho&t=1s">Charged Particle Motion in Magnetic Fields</a> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Lorentz Force</tag>
+        <tag>Magnetic Fields</tag>
+        <tag>Charged Particles</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Analysis of Coupling Coefficient, Self-Inductance, and Mutual Inductance Relationships - 耦合係數、自感與互感關係式解析</title>
+    <url>/2025/05/14/2025-05-14-coupling-coefficient-analysis/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article analyzes the relationships between coupling coefficient, self-inductance, and mutual inductance in electromagnetic systems. It explains the fundamental concepts and mathematical relationships that govern these interactions.</p>
+<p>本文分析電磁系統中耦合係數、自感和互感之間的關係。內容解釋這些相互作用的基本概念和數學關係。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Coupling-Coefficient-耦合係數"><a href="#1-Coupling-Coefficient-耦合係數" class="headerlink" title="1. Coupling Coefficient 耦合係數"></a>1. Coupling Coefficient 耦合係數</h3><ul>
+<li><p><strong>Coupling coefficient K:</strong></p>
+<ul>
+<li>Represents the magnetic coupling efficiency between two coils</li>
+<li>Ranges from 0 to 1</li>
+<li>Closer to 1 indicates better coupling</li>
+</ul>
+</li>
+<li><p><strong>耦合係數K：</strong></p>
+<ul>
+<li>表示兩線圈間磁通的導磁效率</li>
+<li>範圍為0到1</li>
+<li>越接近1表示耦合越好</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-Coupling-Efficiencies-耦合效率"><a href="#2-Coupling-Efficiencies-耦合效率" class="headerlink" title="2. Coupling Efficiencies 耦合效率"></a>2. Coupling Efficiencies 耦合效率</h3><ul>
+<li><p><strong>K1 and K2:</strong></p>
+<ul>
+<li>K1: Magnetic coupling efficiency from coil 1 to coil 2</li>
+<li>K2: Magnetic coupling efficiency from coil 2 to coil 1</li>
+<li>K1 &#x3D; K2 in practice</li>
+</ul>
+</li>
+<li><p><strong>K1與K2：</strong></p>
+<ul>
+<li>K1：線圈1對線圈2磁通的導磁效率</li>
+<li>K2：線圈2對線圈1的導磁效率</li>
+<li>實際應用中K1 &#x3D; K2</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Magnetic-Flux-磁通量"><a href="#3-Magnetic-Flux-磁通量" class="headerlink" title="3. Magnetic Flux 磁通量"></a>3. Magnetic Flux 磁通量</h3><ul>
+<li><p><strong>Magnetic flux relationships:</strong></p>
+<ul>
+<li>Φ12: Magnetic flux from coil 1 affecting coil 2</li>
+<li>Φ21: Magnetic flux from coil 2 affecting coil 1</li>
+</ul>
+</li>
+<li><p><strong>磁通關係：</strong></p>
+<ul>
+<li>Φ12：線圈1產生影響線圈2的磁通</li>
+<li>Φ21：線圈2影響線圈1的磁通</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Self-Inductance-自感量"><a href="#4-Self-Inductance-自感量" class="headerlink" title="4. Self-Inductance 自感量"></a>4. Self-Inductance 自感量</h3><ul>
+<li><p><strong>Self-inductance values:</strong></p>
+<ul>
+<li>L1: Inductance of coil 1</li>
+<li>L2: Inductance of coil 2</li>
+</ul>
+</li>
+<li><p><strong>自感量：</strong></p>
+<ul>
+<li>L1：線圈1的電感量</li>
+<li>L2：線圈2的電感量</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-Mutual-Inductance-互感量"><a href="#5-Mutual-Inductance-互感量" class="headerlink" title="5. Mutual Inductance 互感量"></a>5. Mutual Inductance 互感量</h3><ul>
+<li><p><strong>Mutual inductance formula:</strong><br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p>
+</li>
+<li><p><strong>Equality of mutual inductances:</strong><br>[<br>M_{12} &#x3D; M_{21} &#x3D; M<br>]</p>
+</li>
+<li><p><strong>互感量公式：</strong><br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p>
+</li>
+<li><p><strong>互感量相等關係：</strong><br>[<br>M_{12} &#x3D; M_{21} &#x3D; M<br>]</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=L4-S0KjHWMc">Coupling Coefficient Analysis</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Coupling Coefficient</tag>
+        <tag>Self-Inductance</tag>
+        <tag>Mutual Inductance</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Direction of Force on Current-Carrying Conductor in Magnetic Field and Fleming&#39;s Left-Hand Rule - 載流導體在磁場中所受力的方向與佛萊明左手定則</title>
+    <url>/2025/05/14/2025-05-14-current-carrying-conductor-force-direction/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the principles of force direction on current-carrying conductors in magnetic fields and the application of Fleming’s left-hand rule, including magnetic field interactions and practical applications.</p>
+<p>本文解釋載流導體在磁場中受力方向的原理和佛萊明左手定則的應用，包括磁場相互作用和實際應用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Current-Carrying-Conductor-and-Magnetic-Field-載流導體與磁場"><a href="#1-Current-Carrying-Conductor-and-Magnetic-Field-載流導體與磁場" class="headerlink" title="1. Current-Carrying Conductor and Magnetic Field 載流導體與磁場"></a>1. Current-Carrying Conductor and Magnetic Field 載流導體與磁場</h3><ul>
+<li><p><strong>Current-Carrying Conductor:</strong> A conductor with electric current generates a magnetic field.</p>
+</li>
+<li><p><strong>Main Magnetic Field Direction:</strong> Magnetic lines run from the North (N) pole to the South (S) pole.</p>
+</li>
+<li><p><strong>載流導體</strong>：導體中通有電流，會產生磁場。</p>
+</li>
+<li><p><strong>主極磁場方向</strong>：磁力線由N極指向S極。</p>
+</li>
+</ul>
+<h3 id="2-Magnetic-Field-Interactions-磁場相互作用"><a href="#2-Magnetic-Field-Interactions-磁場相互作用" class="headerlink" title="2. Magnetic Field Interactions 磁場相互作用"></a>2. Magnetic Field Interactions 磁場相互作用</h3><ul>
+<li><p><strong>Interaction of Magnetic Lines:</strong></p>
+<ul>
+<li>Above the conductor, magnetic lines oppose and weaken each other.</li>
+<li>Below the conductor, magnetic lines align and strengthen.</li>
+</ul>
+</li>
+<li><p><strong>Force Direction:</strong> The conductor is pushed from regions of higher magnetic line density to lower density, resulting in an upward force.</p>
+</li>
+<li><p><strong>磁力線互動</strong>：</p>
+<ul>
+<li>導體上方磁力線方向相反，磁力線抵銷，磁場減弱。</li>
+<li>導體下方磁力線方向相同，磁力線增強。</li>
+</ul>
+</li>
+<li><p><strong>受力方向</strong>：導體受力由磁力線密度高處推向低處，導體向上受力。</p>
+</li>
+</ul>
+<h3 id="3-Fleming’s-Left-Hand-Rule-佛萊明左手定則"><a href="#3-Fleming’s-Left-Hand-Rule-佛萊明左手定則" class="headerlink" title="3. Fleming’s Left-Hand Rule 佛萊明左手定則"></a>3. Fleming’s Left-Hand Rule 佛萊明左手定則</h3><ul>
+<li><p><strong>Fleming’s Left-Hand Rule:</strong></p>
+<ul>
+<li>Thumb: Force direction (F)</li>
+<li>Index finger: Magnetic field direction (B)</li>
+<li>Middle finger: Current direction (I)</li>
+<li>All three are perpendicular; use the left hand to determine the force direction on the conductor.</li>
+</ul>
+</li>
+<li><p><strong>Application:</strong> Fleming’s left-hand rule simplifies determining the force direction on a current-carrying conductor in a magnetic field.</p>
+</li>
+<li><p><strong>佛萊明左手定則</strong>：</p>
+<ul>
+<li>拇指：受力方向（F）</li>
+<li>食指：磁場方向（B）</li>
+<li>中指：電流方向（I）</li>
+<li>三者互相垂直，用左手判斷載流導體受力方向。</li>
+</ul>
+</li>
+<li><p><strong>應用</strong>：佛萊明左手定則簡化判斷載流導體在磁場中受力方向的過程。</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">YouTube 自動翻譯功能</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Current</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Magnetic Force</tag>
+        <tag>Conductor</tag>
+        <tag>Fleming&#39;s Rule</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Magnitude of Force on a Current-Carrying Conductor in a Magnetic Field - 載流導體在磁場中所受力的大小</title>
+    <url>/2025/05/14/2025-05-14-current-carrying-conductor-magnetic-field/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article examines the calculation of force magnitude on a current-carrying conductor in a magnetic field, including both perpendicular and angled cases, along with practical examples.</p>
+<p>本文探討載流導體在磁場中受力大小的計算方法，包括垂直和斜角兩種情況，並提供實際範例。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Force-Calculation-Methods-受力計算方法"><a href="#1-Force-Calculation-Methods-受力計算方法" class="headerlink" title="1. Force Calculation Methods 受力計算方法"></a>1. Force Calculation Methods 受力計算方法</h3><ul>
+<li><p>The force magnitude on a current-carrying conductor in a magnetic field is calculated in two cases:  </p>
+<ol>
+<li><strong>Conductor perpendicular to magnetic field:</strong><br>Formula: ( F &#x3D; B l I )<br>where ( F ) is force (Newtons), ( B ) is magnetic flux density (Tesla), ( l ) is effective length of conductor in the field (meters), and ( I ) is current (Amperes).  </li>
+<li><strong>Conductor at an angle (\theta) to magnetic field:</strong><br>Formula: ( F &#x3D; B l I \sin \theta ), where (\sin \theta) adjusts the effective length cut by the magnetic field.</li>
+</ol>
+</li>
+<li><p>載流導體在磁場中受力的大小計算分兩種情況：</p>
+<ol>
+<li><strong>導體與磁場垂直</strong>：<br>公式為 ( F &#x3D; B l I )<br>其中，  <ul>
+<li>( F ) 是受力大小（牛頓，N）  </li>
+<li>( B ) 是磁通密度（特斯拉，T）  </li>
+<li>( l ) 是導體在磁場中的有效長度（公尺，m）  </li>
+<li>( I ) 是電流大小（安培，A）</li>
+</ul>
+</li>
+<li><strong>導體與磁場不垂直</strong>（與磁場成角度 (\theta)）：<br>公式修正為 ( F &#x3D; B l I \sin \theta )，其中 (\sin \theta) 是導體在磁場中切割的有效長度比例。</li>
+</ol>
+</li>
+</ul>
+<h3 id="2-Force-Direction-力的方向"><a href="#2-Force-Direction-力的方向" class="headerlink" title="2. Force Direction 力的方向"></a>2. Force Direction 力的方向</h3><ul>
+<li><p>The force direction is determined by Fleming’s left-hand rule:<br>Thumb points to force, index finger to magnetic field, middle finger to current.</p>
+</li>
+<li><p>力的方向可用佛萊明左手定則判斷：<br>拇指指向力的方向，食指指向磁場方向，中指指向電流方向。</p>
+</li>
+</ul>
+<h3 id="3-Example-Calculations-範例計算"><a href="#3-Example-Calculations-範例計算" class="headerlink" title="3. Example Calculations 範例計算"></a>3. Example Calculations 範例計算</h3><ul>
+<li><p>Example calculations:  </p>
+<ul>
+<li>Perpendicular case: ( B&#x3D;2,T, l&#x3D;1,m, I&#x3D;10,A \Rightarrow F&#x3D;20,N )  </li>
+<li>Angled case: ( B&#x3D;0.5,T, l&#x3D;0.2,m, I&#x3D;10,A, \theta&#x3D;30^\circ \Rightarrow F&#x3D;0.5,N )</li>
+</ul>
+</li>
+<li><p>範例計算：  </p>
+<ul>
+<li>垂直情況：( B&#x3D;2,T, l&#x3D;1,m, I&#x3D;10,A \Rightarrow F&#x3D;20,N )  </li>
+<li>斜角情況：( B&#x3D;0.5,T, l&#x3D;0.2,m, I&#x3D;10,A, \theta&#x3D;30^\circ \Rightarrow F&#x3D;0.5,N )</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=3z9c1rQx5oI">點此觀看影片並啟用YouTube自動翻譯</a><br>（請在影片設定中開啟字幕及自動翻譯功能） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Current</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Magnetic Force</tag>
+        <tag>Conductor</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Electromagnetic Effect Part A - 高中基本電學：電磁效應 PART A</title>
+    <url>/2025/05/14/2025-05-14-electromagnetic-effect-part-a/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental concepts of electromagnetic effects, including the relationship between electricity and magnetism, practical applications, and key principles.</p>
+<p>本文探討電磁效應的基本概念，包括電與磁的關係、實際應用和重要原理。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Electromagnetic-Effect-電磁效應"><a href="#1-Electromagnetic-Effect-電磁效應" class="headerlink" title="1. Electromagnetic Effect 電磁效應"></a>1. Electromagnetic Effect 電磁效應</h3><ul>
+<li><p>Electromagnetic effect refers to the phenomenon where an electric current produces a magnetic field (electricity generates magnetism).</p>
+</li>
+<li><p>This fundamental principle is the basis for many electrical devices and applications.</p>
+</li>
+<li><p>電磁效應是電流產生磁場的現象（電生磁）。</p>
+</li>
+<li><p>這個基本原理是許多電氣設備和應用的基礎。</p>
+</li>
+</ul>
+<h3 id="2-Hall-Effect-and-Applications-霍爾效應與應用"><a href="#2-Hall-Effect-and-Applications-霍爾效應與應用" class="headerlink" title="2. Hall Effect and Applications 霍爾效應與應用"></a>2. Hall Effect and Applications 霍爾效應與應用</h3><ul>
+<li><p>The Hall effect sensor converts magnetic energy into electrical energy.</p>
+</li>
+<li><p>Applications include:</p>
+<ul>
+<li>Smartphone smart covers</li>
+<li>RFID technology in transportation cards (e.g., EasyCard)</li>
+<li>Various proximity sensors</li>
+</ul>
+</li>
+<li><p>霍爾效應感測器利用磁場轉換成電能。</p>
+</li>
+<li><p>應用包括：</p>
+<ul>
+<li>手機智能皮套</li>
+<li>悠遊卡的RFID技術</li>
+<li>各種接近感測器</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Magnetic-Field-Direction-and-Right-Hand-Rule-磁場方向與安培右手定則"><a href="#3-Magnetic-Field-Direction-and-Right-Hand-Rule-磁場方向與安培右手定則" class="headerlink" title="3. Magnetic Field Direction and Right-Hand Rule 磁場方向與安培右手定則"></a>3. Magnetic Field Direction and Right-Hand Rule 磁場方向與安培右手定則</h3><ul>
+<li><p>The magnetic field direction around a current-carrying conductor can be determined by the right-hand rule:</p>
+<ul>
+<li>Current into the paper produces a clockwise magnetic field</li>
+<li>Current out of the paper produces a counterclockwise magnetic field</li>
+</ul>
+</li>
+<li><p>載流導體周圍磁場方向可用安培右手定則判定：</p>
+<ul>
+<li>電流流入紙面磁場為順時針</li>
+<li>電流流出紙面為逆時針</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Electromagnetic-Induction-電磁感應"><a href="#4-Electromagnetic-Induction-電磁感應" class="headerlink" title="4. Electromagnetic Induction 電磁感應"></a>4. Electromagnetic Induction 電磁感應</h3><ul>
+<li><p>Electromagnetic induction is the effect where a magnetic field induces an electric current.</p>
+</li>
+<li><p>When a coil moves in a magnetic field, current is induced.</p>
+</li>
+<li><p>This principle is the foundation of generator operation.</p>
+</li>
+<li><p>電磁感應是磁生電的效應。</p>
+</li>
+<li><p>線圈在磁場中運動會感應出電流。</p>
+</li>
+<li><p>這是發電機運作的理論基礎。</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=tEt041v68xQ">Electromagnetic Effect Part A</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Electromagnetic Effect</tag>
+        <tag>Hall Effect</tag>
+        <tag>Right-Hand Rule</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Electromagnetic Induction Examples - 高中基本電學：電磁感應範例解析</title>
+    <url>/2025/05/14/2025-05-14-electromagnetic-induction-examples/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article presents various examples of Faraday’s electromagnetic induction law, including basic problems, self-inductance calculations, and magnetic flux density applications.</p>
+<p>本文介紹法拉第電磁感應定律的各種範例，包括基本題型、自感計算和磁通密度應用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Faraday’s-Law-Problem-法拉第電磁感應基本題型"><a href="#1-Basic-Faraday’s-Law-Problem-法拉第電磁感應基本題型" class="headerlink" title="1. Basic Faraday’s Law Problem 法拉第電磁感應基本題型"></a>1. Basic Faraday’s Law Problem 法拉第電磁感應基本題型</h3><ul>
+<li><p>Key parameters: number of coil turns (N), change in magnetic flux (\Delta \Phi), and time interval (\Delta t).  </p>
+</li>
+<li><p>Induced EMF formula:<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$</p>
+</li>
+<li><p>Example: 5000 turns, flux changes from 0.01Wb to 0.03Wb in 0.5s, EMF &#x3D; 200V.</p>
+</li>
+<li><p>線圈匝數 (N)、磁通變化量 (\Delta \Phi)、時間間隔 (\Delta t) 是計算感應電勢的關鍵參數。  </p>
+</li>
+<li><p>感應電勢公式：<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$</p>
+</li>
+<li><p>範例：5000匝線圈，磁通0.01Wb增加到0.03Wb，0.5秒內，感應電勢為200V。</p>
+</li>
+</ul>
+<h3 id="2-Advanced-Problem-Self-Inductance-and-Current-Change-進階題型：自感電感與電流變化"><a href="#2-Advanced-Problem-Self-Inductance-and-Current-Change-進階題型：自感電感與電流變化" class="headerlink" title="2. Advanced Problem: Self-Inductance and Current Change 進階題型：自感電感與電流變化"></a>2. Advanced Problem: Self-Inductance and Current Change 進階題型：自感電感與電流變化</h3><ul>
+<li><p>Parameters: inductance (L), current change (\Delta i), time interval (\Delta t).  </p>
+</li>
+<li><p>Formula:<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$</p>
+</li>
+<li><p>Example: 4H inductance, current increases from 2A to 7A in 2s, EMF &#x3D; 10V.</p>
+</li>
+<li><p>自感電感 (L)、電流變化量 (\Delta i)、時間間隔 (\Delta t) 用於計算感應電勢。  </p>
+</li>
+<li><p>公式：<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$</p>
+</li>
+<li><p>範例：4H電感，電流2秒由2A增至7A，感應電勢為10V。</p>
+</li>
+</ul>
+<h3 id="3-Calculating-Flux-Change-from-Magnetic-Flux-Density-and-Area-利用磁通密度與面積計算磁通變化"><a href="#3-Calculating-Flux-Change-from-Magnetic-Flux-Density-and-Area-利用磁通密度與面積計算磁通變化" class="headerlink" title="3. Calculating Flux Change from Magnetic Flux Density and Area 利用磁通密度與面積計算磁通變化"></a>3. Calculating Flux Change from Magnetic Flux Density and Area 利用磁通密度與面積計算磁通變化</h3><ul>
+<li><p>Magnetic flux change:<br>$$<br>\Delta \Phi &#x3D; B \times A<br>$$</p>
+</li>
+<li><p>Example: 10 turns, magnetic flux density 2T, area 0.25㎡, time 0.1s, EMF &#x3D; 50V.</p>
+</li>
+<li><p>磁通密度 (B) 與磁極面積 (A) 乘積得磁通變化量：<br>$$<br>\Delta \Phi &#x3D; B \times A<br>$$</p>
+</li>
+<li><p>例：10匝線圈，磁通密度2T，面積0.25㎡，0.1秒內感應電勢為50V。</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=ADEjijXllro">Electromagnetic Induction Examples</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Electromagnetic Induction</tag>
+        <tag>Faraday&#39;s Law</tag>
+        <tag>Examples</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Electromagnetic Induction Part A - Faraday&#39;s Experiment and Law - 高中基本電學：電磁感應 PART A 法拉第電磁感應實驗與定律</title>
+    <url>/2025/05/14/2025-05-14-electromagnetic-induction-part-a/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores Faraday’s electromagnetic induction experiment and law, explaining how changing magnetic fields can induce current in conductors and the mathematical relationships involved.</p>
+<p>本文探討法拉第電磁感應實驗與定律，解釋磁場變化如何在導體中產生感應電流，以及相關的數學關係。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Introduction-to-Electromagnetic-Induction-電磁感應介紹"><a href="#1-Introduction-to-Electromagnetic-Induction-電磁感應介紹" class="headerlink" title="1. Introduction to Electromagnetic Induction 電磁感應介紹"></a>1. Introduction to Electromagnetic Induction 電磁感應介紹</h3><ul>
+<li><p><strong>Introduction to Electromagnetic Induction</strong>: Explains Faraday’s experiment and law, showing how changing magnetic fields induce current in a conductor.</p>
+</li>
+<li><p><strong>電磁感應介紹</strong>：介紹法拉第電磁感應實驗與定律，說明磁場變化如何在導線中產生感應電流。</p>
+</li>
+</ul>
+<h3 id="2-Experimental-Phenomenon-實驗現象"><a href="#2-Experimental-Phenomenon-實驗現象" class="headerlink" title="2. Experimental Phenomenon 實驗現象"></a>2. Experimental Phenomenon 實驗現象</h3><ul>
+<li><p><strong>Experimental Phenomenon</strong>: When a magnet is quickly inserted or removed from a coil, the galvanometer deflects, indicating induced current; no current when stationary.</p>
+</li>
+<li><p><strong>Induced Current Magnitude</strong>: Proportional to the speed of magnet movement; faster movement means larger induced current.</p>
+</li>
+<li><p><strong>實驗現象</strong>：磁鐵快速插入或抽出線圈時，檢流計會偏轉，顯示有感應電流產生；靜止時無感應電流。</p>
+</li>
+<li><p><strong>感應電流大小</strong>：與磁鐵插入或抽出速度成正比，速度越快感應電流越大。</p>
+</li>
+</ul>
+<h3 id="3-Mathematical-Relationships-數學關係"><a href="#3-Mathematical-Relationships-數學關係" class="headerlink" title="3. Mathematical Relationships 數學關係"></a>3. Mathematical Relationships 數學關係</h3><ul>
+<li><p><strong>Induced EMF Formula</strong>:<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$<br>where (e) is induced EMF, (N) is coil turns, and (\frac{\Delta \Phi}{\Delta t}) is the rate of change of magnetic flux.</p>
+</li>
+<li><p><strong>感應電動勢公式</strong>：<br>$$<br>e &#x3D; N \frac{\Delta \Phi}{\Delta t}<br>$$<br>其中 (e) 是感應電動勢，(N) 是線圈匝數，(\frac{\Delta \Phi}{\Delta t}) 是磁通量變化率。</p>
+</li>
+</ul>
+<h3 id="4-Inductance-and-Induced-EMF-電感與感應電動勢"><a href="#4-Inductance-and-Induced-EMF-電感與感應電動勢" class="headerlink" title="4. Inductance and Induced EMF 電感與感應電動勢"></a>4. Inductance and Induced EMF 電感與感應電動勢</h3><ul>
+<li><p><strong>Inductance and Induced EMF</strong>:<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$<br>where (L) is inductance and (\frac{\Delta i}{\Delta t}) is the rate of current change; both formulas are equivalent.</p>
+</li>
+<li><p><strong>電感與感應電動勢</strong>：<br>$$<br>e &#x3D; L \frac{\Delta i}{\Delta t}<br>$$<br>(L) 是電感量，(\frac{\Delta i}{\Delta t}) 是電流變化率，兩公式等價。</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=ztX3rukBnEY">Electromagnetic Induction - Faraday’s Experiment</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Electromagnetic Induction</tag>
+        <tag>Faraday&#39;s Law</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example of Force Between Two Long Straight Conductors Carrying Current - 兩長直導體通電流所受之力範例解析</title>
+    <url>/2025/05/14/2025-05-14-force-between-current-carrying-conductors/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article examines the magnetic force between two long straight conductors carrying current, including the calculation formula and practical examples with different scenarios.</p>
+<p>本文探討兩長直導體通電流時彼此間的磁力作用，包括計算公式和不同情況下的實際範例。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Principles-基本原理"><a href="#1-Basic-Principles-基本原理" class="headerlink" title="1. Basic Principles 基本原理"></a>1. Basic Principles 基本原理</h3><ul>
+<li><p>Two long straight conductors carrying current exert magnetic forces on each other.</p>
+</li>
+<li><p>Force magnitude formula:<br>$$<br>F &#x3D; \frac{\mu l I_1 I_2}{2 \pi d}<br>$$<br>where $\mu$ is permeability, $l$ is length, $I_1, I_2$ are currents, and $d$ is distance between conductors.</p>
+</li>
+<li><p>兩長直導體通電流時，彼此會產生磁力作用。</p>
+</li>
+<li><p>受力大小公式為：<br>$$<br>F &#x3D; \frac{\mu l I_1 I_2}{2 \pi d}<br>$$<br>其中，$\mu$為磁導率，$l$為導體長度，$I_1, I_2$為電流，$d$為兩導體間距。</p>
+</li>
+</ul>
+<h3 id="2-Force-Direction-力的方向"><a href="#2-Force-Direction-力的方向" class="headerlink" title="2. Force Direction 力的方向"></a>2. Force Direction 力的方向</h3><ul>
+<li><p>Same current direction causes attraction; opposite direction causes repulsion.</p>
+</li>
+<li><p>The direction of force can be determined using the right-hand rule for magnetic fields.</p>
+</li>
+<li><p>電流方向相同時，導體間力為相吸；方向相反時，力為相斥。</p>
+</li>
+<li><p>力的方向可用磁場的右手定則判斷。</p>
+</li>
+</ul>
+<h3 id="3-Example-Calculations-範例計算"><a href="#3-Example-Calculations-範例計算" class="headerlink" title="3. Example Calculations 範例計算"></a>3. Example Calculations 範例計算</h3><ul>
+<li><p>Example 1: $I_1&#x3D;10A$, $I_2&#x3D;20A$, $l&#x3D;10m$, $d&#x3D;1m$, force is $4 \times 10^{-4} N$, attractive.</p>
+</li>
+<li><p>Example 2: Two wires 0.5m apart, current 20A, length 50m, force is 0.008N, repulsive.</p>
+</li>
+<li><p>範例1：$I_1&#x3D;10A$, $I_2&#x3D;20A$, $l&#x3D;10m$, $d&#x3D;1m$，計算出力為 $4 \times 10^{-4} N$，方向相吸。</p>
+</li>
+<li><p>範例2：電路中兩條線距離0.5m，電流20A，長度50m，計算力為0.008N，方向相斥。</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">Force Between Current-Carrying Conductors</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Current</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Magnetic Force</tag>
+        <tag>Conductors</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Inductance Calculations Part B - 高中基本電學：電感量計算 PART B</title>
+    <url>/2025/05/14/2025-05-14-inductance-calculations-part-b/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article presents Part B of the inductance calculations series, focusing on basic inductance calculations with practical examples. It demonstrates how to calculate inductance using different formulas and parameters.</p>
+<p>本文介紹電感量計算系列的B部分，重點在於基本電感計算的實際範例。內容展示如何使用不同的公式和參數來計算電感量。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Example-1-Basic-Inductance-Calculation-範例一：基本電感量計算"><a href="#1-Example-1-Basic-Inductance-Calculation-範例一：基本電感量計算" class="headerlink" title="1. Example 1: Basic Inductance Calculation 範例一：基本電感量計算"></a>1. Example 1: Basic Inductance Calculation 範例一：基本電感量計算</h3><ul>
+<li><p><strong>Given parameters:</strong></p>
+<ul>
+<li>Number of turns (N) &#x3D; 100</li>
+<li>Current (I) &#x3D; 10 A</li>
+<li>Magnetic flux (Φ) &#x3D; 0.2 Weber</li>
+</ul>
+</li>
+<li><p><strong>Formula:</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p>
+</li>
+<li><p><strong>Calculation:</strong><br>[<br>L &#x3D; \frac{100 \times 0.2}{10} &#x3D; 2 \text{ Henry}<br>]</p>
+</li>
+<li><p><strong>給定參數：</strong></p>
+<ul>
+<li>匝數(N) &#x3D; 100</li>
+<li>電流(I) &#x3D; 10安培</li>
+<li>磁通量(Φ) &#x3D; 0.2韋伯</li>
+</ul>
+</li>
+<li><p><strong>公式：</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p>
+</li>
+<li><p><strong>計算：</strong><br>[<br>L &#x3D; \frac{100 \times 0.2}{10} &#x3D; 2 \text{ 亨利}<br>]</p>
+</li>
+</ul>
+<h3 id="2-Example-2-Inductance-with-Core-範例二：含鐵心電感量計算"><a href="#2-Example-2-Inductance-with-Core-範例二：含鐵心電感量計算" class="headerlink" title="2. Example 2: Inductance with Core 範例二：含鐵心電感量計算"></a>2. Example 2: Inductance with Core 範例二：含鐵心電感量計算</h3><ul>
+<li><p><strong>Given parameters:</strong></p>
+<ul>
+<li>Cross-sectional area (A) &#x3D; (10^{-2} m^2)</li>
+<li>Length (l) &#x3D; (10^{-1} m)</li>
+<li>Permeability (μ) &#x3D; (10^{-4} H&#x2F;m)</li>
+<li>Number of turns (N) &#x3D; 1000</li>
+</ul>
+</li>
+<li><p><strong>Formula:</strong><br>[<br>L &#x3D; \frac{\mu A N^2}{l}<br>]</p>
+</li>
+<li><p><strong>Calculation:</strong><br>[<br>L &#x3D; \frac{10^{-4} \times 10^{-2} \times 1000^2}{10^{-1}} &#x3D; 10 \text{ Henry}<br>]</p>
+</li>
+<li><p><strong>Effect of halving turns:</strong></p>
+<ul>
+<li>New inductance &#x3D; 2.5 Henry (1&#x2F;4 of original)</li>
+</ul>
+</li>
+<li><p><strong>給定參數：</strong></p>
+<ul>
+<li>截面積(A) &#x3D; (10^{-2} m^2)</li>
+<li>長度(l) &#x3D; (10^{-1} m)</li>
+<li>導磁係數(μ) &#x3D; (10^{-4} H&#x2F;m)</li>
+<li>匝數(N) &#x3D; 1000</li>
+</ul>
+</li>
+<li><p><strong>公式：</strong><br>[<br>L &#x3D; \frac{\mu A N^2}{l}<br>]</p>
+</li>
+<li><p><strong>計算：</strong><br>[<br>L &#x3D; \frac{10^{-4} \times 10^{-2} \times 1000^2}{10^{-1}} &#x3D; 10 \text{ 亨利}<br>]</p>
+</li>
+<li><p><strong>匝數減半的影響：</strong></p>
+<ul>
+<li>新電感量 &#x3D; 2.5亨利（原來的1&#x2F;4）</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Key-Observations-重要觀察"><a href="#3-Key-Observations-重要觀察" class="headerlink" title="3. Key Observations 重要觀察"></a>3. Key Observations 重要觀察</h3><ul>
+<li><p>Inductance is proportional to the square of the number of turns</p>
+</li>
+<li><p>Changes in the number of turns have a significant impact on inductance</p>
+</li>
+<li><p>Core material properties (permeability) affect inductance</p>
+</li>
+<li><p>電感量與匝數的平方成正比</p>
+</li>
+<li><p>匝數的變化對電感量有顯著影響</p>
+</li>
+<li><p>鐵心材料特性（導磁係數）影響電感量</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=o0oyu3D0cPE">Inductance Calculations Part B</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Calculations</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Inductance Calculations Part E - 高中基本電學：電感量計算 PART E</title>
+    <url>/2025/05/14/2025-05-14-inductance-calculations-part-e/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article presents Part E of the inductance calculations series, focusing on basic calculations of self-inductance (L) and mutual inductance (M), as well as comprehensive calculations involving inductance (L), coupling coefficient (K), and mutual inductance (M).</p>
+<p>本文介紹電感量計算系列的第五部分，重點在於自感量(L)和互感量(M)的基本計算，以及包含電感量(L)、耦合係數(K)和互感量(M)的綜合計算。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Parameters-基本參數"><a href="#1-Basic-Parameters-基本參數" class="headerlink" title="1. Basic Parameters 基本參數"></a>1. Basic Parameters 基本參數</h3><ul>
+<li><p>Relationship between coil turns (N_1, N_2), currents (I_1, I_2), and magnetic flux (\Phi)</p>
+</li>
+<li><p>These parameters form the foundation of inductance calculations</p>
+</li>
+<li><p>線圈匝數 (N_1, N_2)、電流 (I_1, I_2) 與磁通量 (\Phi) 的關係</p>
+</li>
+<li><p>這些參數構成電感計算的基礎</p>
+</li>
+</ul>
+<h3 id="2-Self-Inductance-Formula-自感量公式"><a href="#2-Self-Inductance-Formula-自感量公式" class="headerlink" title="2. Self-Inductance Formula 自感量公式"></a>2. Self-Inductance Formula 自感量公式</h3><ul>
+<li><p>Self-inductance calculation:<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p>
+</li>
+<li><p>This formula shows the relationship between turns, flux, and current</p>
+</li>
+<li><p>自感量計算公式：<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p>
+</li>
+<li><p>此公式顯示匝數、磁通量和電流之間的關係</p>
+</li>
+</ul>
+<h3 id="3-Mutual-Inductance-Formulas-互感量公式"><a href="#3-Mutual-Inductance-Formulas-互感量公式" class="headerlink" title="3. Mutual Inductance Formulas 互感量公式"></a>3. Mutual Inductance Formulas 互感量公式</h3><ul>
+<li><p>Mutual inductance calculations:<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p>
+</li>
+<li><p>These formulas describe the mutual inductance between two coils</p>
+</li>
+<li><p>互感量計算公式：<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p>
+</li>
+<li><p>這些公式描述兩個線圈之間的互感</p>
+</li>
+</ul>
+<h3 id="4-Coupling-Coefficient-耦合係數"><a href="#4-Coupling-Coefficient-耦合係數" class="headerlink" title="4. Coupling Coefficient 耦合係數"></a>4. Coupling Coefficient 耦合係數</h3><ul>
+<li><p>Coupling coefficient formula:<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p>
+</li>
+<li><p>This coefficient measures the strength of magnetic coupling</p>
+</li>
+<li><p>耦合係數計算：<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p>
+</li>
+<li><p>此係數衡量磁耦合的強度</p>
+</li>
+</ul>
+<h3 id="5-Self-Inductance-Ratio-自感量比值"><a href="#5-Self-Inductance-Ratio-自感量比值" class="headerlink" title="5. Self-Inductance Ratio 自感量比值"></a>5. Self-Inductance Ratio 自感量比值</h3><ul>
+<li><p>Ratio of self-inductances:<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p>
+</li>
+<li><p>This relationship is useful for comparing inductances</p>
+</li>
+<li><p>自感量比值：<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p>
+</li>
+<li><p>此關係可用於比較電感量</p>
+</li>
+</ul>
+<h3 id="6-Comprehensive-Calculations-綜合運算"><a href="#6-Comprehensive-Calculations-綜合運算" class="headerlink" title="6. Comprehensive Calculations 綜合運算"></a>6. Comprehensive Calculations 綜合運算</h3><ul>
+<li><p>Examples of comprehensive calculations including:</p>
+<ul>
+<li>Self-inductance (L)</li>
+<li>Mutual inductance (M)</li>
+<li>Coupling coefficient (K)</li>
+</ul>
+</li>
+<li><p>These calculations demonstrate the practical application of all concepts</p>
+</li>
+<li><p>綜合運算範例，包含：</p>
+<ul>
+<li>自感量(L)</li>
+<li>互感量(M)</li>
+<li>耦合係數(K)</li>
+</ul>
+</li>
+<li><p>這些計算展示所有概念的實際應用</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=v6yhcUcM7-8">Inductance Calculations Part E</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Coupling Coefficient</tag>
+        <tag>Mutual Inductance</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Inductance Calculations - 高中基本電學：電感量計算範例</title>
+    <url>/2025/05/14/2025-05-14-inductance-calculations/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental calculations of inductance, including self-inductance, mutual inductance, and coupling coefficient. It provides formulas and examples for various inductance calculations.</p>
+<p>本文解釋電感的基本計算，包括自感量、互感量和耦合係數。內容提供各種電感計算的公式和範例。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Relationships-基本關係"><a href="#1-Basic-Relationships-基本關係" class="headerlink" title="1. Basic Relationships 基本關係"></a>1. Basic Relationships 基本關係</h3><ul>
+<li><p>Relationship between coil turns (N_1, N_2), currents (I_1, I_2), and magnetic flux (\Phi)</p>
+</li>
+<li><p>These parameters are fundamental to inductance calculations</p>
+</li>
+<li><p>線圈匝數 (N_1, N_2)、電流 (I_1, I_2) 與磁通量 (\Phi) 的關係</p>
+</li>
+<li><p>這些參數是電感計算的基礎</p>
+</li>
+</ul>
+<h3 id="2-Self-Inductance-Calculation-自感量計算"><a href="#2-Self-Inductance-Calculation-自感量計算" class="headerlink" title="2. Self-Inductance Calculation 自感量計算"></a>2. Self-Inductance Calculation 自感量計算</h3><ul>
+<li><p>Self-inductance formula:<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p>
+</li>
+<li><p>This formula relates the number of turns, magnetic flux, and current</p>
+</li>
+<li><p>自感量計算公式：<br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]</p>
+</li>
+<li><p>此公式關聯了匝數、磁通量和電流</p>
+</li>
+</ul>
+<h3 id="3-Mutual-Inductance-Calculation-互感量計算"><a href="#3-Mutual-Inductance-Calculation-互感量計算" class="headerlink" title="3. Mutual Inductance Calculation 互感量計算"></a>3. Mutual Inductance Calculation 互感量計算</h3><ul>
+<li><p>Mutual inductance formulas:<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p>
+</li>
+<li><p>These formulas calculate the mutual inductance between two coils</p>
+</li>
+<li><p>互感量計算公式：<br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}, \quad M_{21} &#x3D; \frac{N_1 \Phi_{21}}{I_2}<br>]</p>
+</li>
+<li><p>這些公式計算兩個線圈之間的互感</p>
+</li>
+</ul>
+<h3 id="4-Coupling-Coefficient-耦合係數"><a href="#4-Coupling-Coefficient-耦合係數" class="headerlink" title="4. Coupling Coefficient 耦合係數"></a>4. Coupling Coefficient 耦合係數</h3><ul>
+<li><p>Coupling coefficient calculation:<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p>
+</li>
+<li><p>This coefficient indicates the strength of magnetic coupling</p>
+</li>
+<li><p>耦合係數計算：<br>[<br>K &#x3D; \frac{\Phi_{12}}{\Phi_1} &#x3D; \frac{\Phi_{21}}{\Phi_2}<br>]</p>
+</li>
+<li><p>此係數表示磁耦合的強度</p>
+</li>
+</ul>
+<h3 id="5-Self-Inductance-Ratio-自感量比值"><a href="#5-Self-Inductance-Ratio-自感量比值" class="headerlink" title="5. Self-Inductance Ratio 自感量比值"></a>5. Self-Inductance Ratio 自感量比值</h3><ul>
+<li><p>Using the square ratio of turns to find the ratio of self-inductances:<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p>
+</li>
+<li><p>This relationship is useful for comparing inductances</p>
+</li>
+<li><p>利用匝數平方比求自感量比值：<br>[<br>\frac{L_1}{L_2} &#x3D; \left(\frac{N_1}{N_2}\right)^2<br>]</p>
+</li>
+<li><p>此關係可用於比較電感量</p>
+</li>
+</ul>
+<h3 id="6-Comprehensive-Calculations-綜合運算"><a href="#6-Comprehensive-Calculations-綜合運算" class="headerlink" title="6. Comprehensive Calculations 綜合運算"></a>6. Comprehensive Calculations 綜合運算</h3><ul>
+<li><p>Demonstration of comprehensive calculations including:</p>
+<ul>
+<li>Self-inductance</li>
+<li>Mutual inductance</li>
+<li>Coupling coefficient</li>
+</ul>
+</li>
+<li><p>These calculations combine multiple concepts</p>
+</li>
+<li><p>綜合運算示範，包含：</p>
+<ul>
+<li>自感量</li>
+<li>互感量</li>
+<li>耦合係數</li>
+</ul>
+</li>
+<li><p>這些計算結合了多個概念</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=v6yhcUcM7-8">Inductance Calculations</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Coupling Coefficient</tag>
+        <tag>Mutual Inductance</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Energy Storage in Inductors: With and Without Mutual Inductance - 電感器的儲能（無互感與有互感情況）</title>
+    <url>/2025/05/14/2025-05-14-inductor-energy-storage-comprehensive/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article provides a comprehensive explanation of energy storage in inductors, covering both cases with and without mutual inductance. It includes detailed formulas and practical applications.</p>
+<p>本文全面解釋電感器的儲能原理，包括有互感與無互感的情況。內容包含詳細公式和實際應用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Energy-Storage-基本儲能原理"><a href="#1-Basic-Energy-Storage-基本儲能原理" class="headerlink" title="1. Basic Energy Storage 基本儲能原理"></a>1. Basic Energy Storage 基本儲能原理</h3><ul>
+<li><p>When current flows through an inductor, it creates a magnetic field that stores magnetic energy</p>
+</li>
+<li><p>Magnetic flux linkage (λ) is proportional to current (I), with inductance L as the proportionality constant</p>
+</li>
+<li><p>Stored energy is the area under the λ-I curve</p>
+</li>
+<li><p>電感器通電後產生磁場並儲存磁能</p>
+</li>
+<li><p>磁通鏈（λ）與電流（I）成正比，比例常數為電感量L</p>
+</li>
+<li><p>儲存能量為磁通鏈與電流的面積</p>
+</li>
+</ul>
+<h3 id="2-Energy-Storage-Formula-儲能計算公式"><a href="#2-Energy-Storage-Formula-儲能計算公式" class="headerlink" title="2. Energy Storage Formula 儲能計算公式"></a>2. Energy Storage Formula 儲能計算公式</h3><ul>
+<li><p>Basic formula for single inductor:<br>$$<br>W &#x3D; \frac{1}{2} L I^2<br>$$</p>
+</li>
+<li><p>This formula represents the energy stored in the magnetic field</p>
+</li>
+<li><p>單一電感器基本公式：<br>$$<br>W &#x3D; \frac{1}{2} L I^2<br>$$</p>
+</li>
+<li><p>此公式代表儲存在磁場中的能量</p>
+</li>
+</ul>
+<h3 id="3-Mutual-Inductance-Energy-Storage-互感儲能計算"><a href="#3-Mutual-Inductance-Energy-Storage-互感儲能計算" class="headerlink" title="3. Mutual Inductance Energy Storage 互感儲能計算"></a>3. Mutual Inductance Energy Storage 互感儲能計算</h3><ul>
+<li><p>With mutual inductance, total stored energy includes self and mutual inductance terms:<br>$$<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>$$</p>
+</li>
+<li><p>The plus sign indicates aiding mutual inductance, the minus sign indicates opposing</p>
+</li>
+<li><p>有互感時，總儲能包含自感與互感能量：<br>$$<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>$$</p>
+</li>
+<li><p>其中正號代表互助，負號代表互消</p>
+</li>
+</ul>
+<h3 id="4-Series-and-Parallel-Configurations-串聯與並聯配置"><a href="#4-Series-and-Parallel-Configurations-串聯與並聯配置" class="headerlink" title="4. Series and Parallel Configurations 串聯與並聯配置"></a>4. Series and Parallel Configurations 串聯與並聯配置</h3><ul>
+<li><p>In series aiding or opposing cases:</p>
+<ul>
+<li>Currents are equal</li>
+<li>Formula can be simplified</li>
+<li>Total inductance includes mutual inductance term</li>
+</ul>
+</li>
+<li><p>In parallel aiding or opposing cases:</p>
+<ul>
+<li>Currents differ</li>
+<li>Must be calculated separately</li>
+<li>Consider both self and mutual inductance effects</li>
+</ul>
+</li>
+<li><p>串聯互助與互消情況：</p>
+<ul>
+<li>電流相等</li>
+<li>公式可簡化</li>
+<li>總電感包含互感項</li>
+</ul>
+</li>
+<li><p>並聯互助與互消情況：</p>
+<ul>
+<li>電流不等</li>
+<li>需分別計算</li>
+<li>考慮自感與互感效應</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=Hy8mNM68M2s">Inductor Energy Storage Comprehensive</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Mutual Inductance</tag>
+        <tag>Inductors</tag>
+        <tag>Energy Storage</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Energy Storage Calculation for Inductors: With and Without Mutual Inductance - 不考慮互感的電感器儲能計算與考慮互感的電感器儲能計算範例</title>
+    <url>/2025/05/14/2025-05-14-inductor-energy-storage/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating energy storage in inductors, both with and without considering mutual inductance effects. It includes practical examples and formulas for different scenarios.</p>
+<p>本文解釋電感器儲能計算的方法，包括考慮和不考慮互感效應的情況。內容包含實際範例和不同情況下的計算公式。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Energy-Storage-Without-Mutual-Inductance-不考慮互感的儲能計算"><a href="#1-Energy-Storage-Without-Mutual-Inductance-不考慮互感的儲能計算" class="headerlink" title="1. Energy Storage Without Mutual Inductance 不考慮互感的儲能計算"></a>1. Energy Storage Without Mutual Inductance 不考慮互感的儲能計算</h3><ul>
+<li><p>Use the formula ( W &#x3D; \frac{1}{2} L I^2 )</p>
+</li>
+<li><p>Example: A 10mH inductor with 6A current stores 0.18J energy</p>
+</li>
+<li><p>This is the basic formula for single inductor energy storage</p>
+</li>
+<li><p>使用公式 ( W &#x3D; \frac{1}{2} L I^2 )</p>
+</li>
+<li><p>範例：10mH電感器通過6A電流，計算儲能為0.18J</p>
+</li>
+<li><p>這是單一電感器儲能的基本公式</p>
+</li>
+</ul>
+<h3 id="2-Energy-Storage-With-Mutual-Inductance-考慮互感的儲能計算"><a href="#2-Energy-Storage-With-Mutual-Inductance-考慮互感的儲能計算" class="headerlink" title="2. Energy Storage With Mutual Inductance 考慮互感的儲能計算"></a>2. Energy Storage With Mutual Inductance 考慮互感的儲能計算</h3><ul>
+<li><p>For two coils, total energy is:<br>[<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>]</p>
+</li>
+<li><p>The sign depends on whether the mutual inductance is aiding (+) or opposing (−)</p>
+</li>
+<li><p>兩線圈儲能為：<br>[<br>W &#x3D; \frac{1}{2} L_1 I_1^2 + \frac{1}{2} L_2 I_2^2 \pm M I_1 I_2<br>]</p>
+</li>
+<li><p>其中符號由互感是互助（正號）或互消（負號）決定</p>
+</li>
+</ul>
+<h3 id="3-Mutual-Inductance-Calculation-互感計算"><a href="#3-Mutual-Inductance-Calculation-互感計算" class="headerlink" title="3. Mutual Inductance Calculation 互感計算"></a>3. Mutual Inductance Calculation 互感計算</h3><ul>
+<li><p>Mutual inductance can be calculated using:<br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p>
+</li>
+<li><p>where (K) is the coupling coefficient</p>
+</li>
+<li><p>互感計算公式：<br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p>
+</li>
+<li><p>其中 (K) 是耦合係數</p>
+</li>
+</ul>
+<h3 id="4-Series-Aiding-Inductors-串聯互助電感"><a href="#4-Series-Aiding-Inductors-串聯互助電感" class="headerlink" title="4. Series Aiding Inductors 串聯互助電感"></a>4. Series Aiding Inductors 串聯互助電感</h3><ul>
+<li><p>For series aiding inductors:</p>
+<ol>
+<li>Calculate total inductance:<br>[<br>L_{\text{total}} &#x3D; L_1 + L_2 + 2M<br>]</li>
+<li>Then calculate energy:<br>[<br>W &#x3D; \frac{1}{2} L_{\text{total}} I^2<br>]</li>
+</ol>
+</li>
+<li><p>串聯互助電感總儲能：</p>
+<ol>
+<li>先計算總電感：<br>[<br>L_{\text{total}} &#x3D; L_1 + L_2 + 2M<br>]</li>
+<li>再用公式計算儲能：<br>[<br>W &#x3D; \frac{1}{2} L_{\text{total}} I^2<br>]</li>
+</ol>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=zQGT2Cwgpv8">Inductor Energy Storage Calculations</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Mutual Inductance</tag>
+        <tag>Inductors</tag>
+        <tag>Energy Storage</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction to the Structure and Function of Inductors - 電感器的結構與功能介紹</title>
+    <url>/2025/05/14/2025-05-14-inductor-structure-function/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article provides a comprehensive overview of inductors, their structure, types, and working principles. It explains how inductors store energy and their role in electrical circuits.</p>
+<p>本文全面介紹電感器的結構、種類和工作原理。解釋電感器如何儲存能量及其在電路中的作用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Basic-Definition-基本定義"><a href="#1-Basic-Definition-基本定義" class="headerlink" title="1. Basic Definition 基本定義"></a>1. Basic Definition 基本定義</h3><ul>
+<li><p><strong>Symbol and Unit:</strong></p>
+<ul>
+<li>Symbol: L</li>
+<li>Unit: Henry (H)</li>
+<li>Named after Joseph Henry, who discovered inductance</li>
+</ul>
+</li>
+<li><p><strong>符號與單位：</strong></p>
+<ul>
+<li>符號：L</li>
+<li>單位：亨利（H）</li>
+<li>紀念發現電感特性的科學家約瑟夫·亨利</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-Structure-結構"><a href="#2-Structure-結構" class="headerlink" title="2. Structure 結構"></a>2. Structure 結構</h3><ul>
+<li><p><strong>Core Components:</strong></p>
+<ul>
+<li>Conductor wire wound around a core</li>
+<li>Core materials: air, iron, or magnetic material</li>
+<li>Core material affects inductance value</li>
+</ul>
+</li>
+<li><p><strong>核心組件：</strong></p>
+<ul>
+<li>導線繞在心材上</li>
+<li>心材可為空氣、鐵心或磁心</li>
+<li>心材影響電感量大小</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Function-功能"><a href="#3-Function-功能" class="headerlink" title="3. Function 功能"></a>3. Function 功能</h3><ul>
+<li><p><strong>Main Functions:</strong></p>
+<ul>
+<li>Converts electrical energy to magnetic energy</li>
+<li>Stores energy in magnetic field</li>
+<li>Stabilizes current flow</li>
+<li>Prevents sudden current changes</li>
+<li>Reduces magnetic interference</li>
+</ul>
+</li>
+<li><p><strong>主要功能：</strong></p>
+<ul>
+<li>將電能轉換成磁能</li>
+<li>在磁場中儲存能量</li>
+<li>穩定電流</li>
+<li>防止電流瞬間變化</li>
+<li>減少磁干擾</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Types-種類"><a href="#4-Types-種類" class="headerlink" title="4. Types 種類"></a>4. Types 種類</h3><ul>
+<li><p><strong>Classification by Core Material:</strong></p>
+<ul>
+<li>Air-core inductors</li>
+<li>Iron-core inductors</li>
+<li>Magnetic-core inductors</li>
+<li>Printed circuit inductors</li>
+</ul>
+</li>
+<li><p><strong>依心材分類：</strong></p>
+<ul>
+<li>空氣心電感器</li>
+<li>鐵心電感器</li>
+<li>磁心電感器</li>
+<li>印刷電路電感器</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-Working-Principle-工作原理"><a href="#5-Working-Principle-工作原理" class="headerlink" title="5. Working Principle 工作原理"></a>5. Working Principle 工作原理</h3><ul>
+<li><p><strong>Charging Process:</strong></p>
+<ul>
+<li>Current gradually increases</li>
+<li>Magnetic energy stored in inductor</li>
+<li>Magnetic field builds up</li>
+</ul>
+</li>
+<li><p><strong>充電過程：</strong></p>
+<ul>
+<li>電流逐漸增加</li>
+<li>磁能儲存在電感器中</li>
+<li>磁場逐漸建立</li>
+</ul>
+</li>
+</ul>
+<h3 id="6-Discharging-Process-放電過程"><a href="#6-Discharging-Process-放電過程" class="headerlink" title="6. Discharging Process 放電過程"></a>6. Discharging Process 放電過程</h3><ul>
+<li><p><strong>Characteristics:</strong></p>
+<ul>
+<li>Magnetic energy converts to electrical energy</li>
+<li>Current gradually decreases</li>
+<li>Connected lamp brightness changes accordingly</li>
+</ul>
+</li>
+<li><p><strong>特性：</strong></p>
+<ul>
+<li>磁能轉換成電能</li>
+<li>電流逐漸減小</li>
+<li>連接的燈泡亮度隨之變化</li>
+</ul>
+</li>
+</ul>
+<h3 id="7-Important-Considerations-重要注意事項"><a href="#7-Important-Considerations-重要注意事項" class="headerlink" title="7. Important Considerations 重要注意事項"></a>7. Important Considerations 重要注意事項</h3><ul>
+<li><p><strong>Switch Operation:</strong></p>
+<ul>
+<li>Switches must be toggled simultaneously</li>
+<li>Prevents circuit open-circuiting</li>
+<li>Avoids magnetic energy loss</li>
+</ul>
+</li>
+<li><p><strong>開關操作：</strong></p>
+<ul>
+<li>開關必須同時切換</li>
+<li>防止電路瞬間開路</li>
+<li>避免磁能損失</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=65cfVxuNC70">Introduction to Inductors</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Inductors</tag>
+        <tag>Structure</tag>
+        <tag>Function</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Introduction to Magnetic Hysteresis Loop and Hysteresis Effect - 磁滯迴線與磁滯效應基礎介紹</title>
+    <url>/2025/05/14/2025-05-14-magnetic-hysteresis-basics/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental concepts of magnetic hysteresis, its effects, and practical applications. Understanding hysteresis is crucial for various technologies, from data storage to electrical control systems.</p>
+<p>本文探討磁滯的基本概念、效應及實際應用。理解磁滯現象對於從數據儲存到電氣控制系統等各種技術都至關重要。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Security-Concerns-安全考量"><a href="#1-Security-Concerns-安全考量" class="headerlink" title="1. Security Concerns 安全考量"></a>1. Security Concerns 安全考量</h3><ul>
+<li><p><strong>Credit Card Security:</strong></p>
+<ul>
+<li>Magnetic stripes contain sensitive information</li>
+<li>Vulnerable to copying through hysteresis effect</li>
+<li>Potential risk of unauthorized duplication</li>
+</ul>
+</li>
+<li><p><strong>信用卡安全：</strong></p>
+<ul>
+<li>磁條含有敏感資訊</li>
+<li>可能被磁滯效應複製</li>
+<li>存在未經授權複製的風險</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-Hysteresis-Effect-磁滯效應"><a href="#2-Hysteresis-Effect-磁滯效應" class="headerlink" title="2. Hysteresis Effect 磁滯效應"></a>2. Hysteresis Effect 磁滯效應</h3><ul>
+<li><p><strong>Basic Principle:</strong></p>
+<ul>
+<li>Ferromagnetic materials retain magnetization</li>
+<li>Remanence persists after field removal</li>
+<li>Key characteristic of magnetic materials</li>
+</ul>
+</li>
+<li><p><strong>基本原理：</strong></p>
+<ul>
+<li>鐵磁性物質保留磁化狀態</li>
+<li>移除磁場後仍保有剩磁</li>
+<li>磁性物質的重要特性</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Hysteresis-Loop-磁滯迴線"><a href="#3-Hysteresis-Loop-磁滯迴線" class="headerlink" title="3. Hysteresis Loop 磁滯迴線"></a>3. Hysteresis Loop 磁滯迴線</h3><ul>
+<li><p><strong>Characteristics:</strong></p>
+<ul>
+<li>Illustrates magnetization cycle</li>
+<li>Shows relationship between B and H</li>
+<li>Demonstrates material’s magnetic behavior</li>
+</ul>
+</li>
+<li><p><strong>特性：</strong></p>
+<ul>
+<li>描述磁化循環過程</li>
+<li>顯示B與H的關係</li>
+<li>展示材料的磁性行為</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Key-Properties-關鍵特性"><a href="#4-Key-Properties-關鍵特性" class="headerlink" title="4. Key Properties 關鍵特性"></a>4. Key Properties 關鍵特性</h3><ul>
+<li><p><strong>Remanence and Coercivity:</strong></p>
+<ul>
+<li>Remanence: residual magnetism (B≠0 when H&#x3D;0)</li>
+<li>Coercivity: reverse field needed to demagnetize</li>
+<li>Important for material selection</li>
+</ul>
+</li>
+<li><p><strong>剩磁與矯頑磁力：</strong></p>
+<ul>
+<li>剩磁：殘留磁性（H&#x3D;0時B≠0）</li>
+<li>矯頑磁力：退磁所需的反向磁場</li>
+<li>對材料選擇很重要</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-Energy-Loss-能量損失"><a href="#5-Energy-Loss-能量損失" class="headerlink" title="5. Energy Loss 能量損失"></a>5. Energy Loss 能量損失</h3><ul>
+<li><p><strong>Hysteresis Loss:</strong></p>
+<ul>
+<li>Energy dissipated during magnetization cycles</li>
+<li>Converts to heat</li>
+<li>Affects efficiency of magnetic devices</li>
+</ul>
+</li>
+<li><p><strong>磁滯損失：</strong></p>
+<ul>
+<li>磁化循環中的能量損耗</li>
+<li>轉換為熱能</li>
+<li>影響磁性設備的效率</li>
+</ul>
+</li>
+</ul>
+<h3 id="6-Practical-Applications-實際應用"><a href="#6-Practical-Applications-實際應用" class="headerlink" title="6. Practical Applications 實際應用"></a>6. Practical Applications 實際應用</h3><ul>
+<li><p><strong>Data Storage:</strong></p>
+<ul>
+<li>Audio tapes</li>
+<li>Magnetic disks</li>
+<li>Digital storage media</li>
+</ul>
+</li>
+<li><p><strong>Control Systems:</strong></p>
+<ul>
+<li>Air conditioner control</li>
+<li>Street light switching</li>
+<li>Prevents frequent switching</li>
+</ul>
+</li>
+<li><p><strong>數據儲存：</strong></p>
+<ul>
+<li>錄音帶</li>
+<li>磁碟片</li>
+<li>數位儲存媒體</li>
+</ul>
+</li>
+<li><p><strong>控制系統：</strong></p>
+<ul>
+<li>冷氣機控制</li>
+<li>路燈開關</li>
+<li>避免頻繁切換</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=9AJ60_Wc96A">Understanding Magnetic Hysteresis</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Magnetic Hysteresis</tag>
+        <tag>Hysteresis Loop</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Parallel Inductance Calculation Examples - 高中基本電學：並聯總電感的運算範例</title>
+    <url>/2025/05/14/2025-05-14-parallel-inductance-calculation/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating total inductance in parallel circuits, both with and without considering mutual inductance effects. It includes practical examples and formulas for different scenarios.</p>
+<p>本文解釋並聯電路中總電感的計算方法，包括考慮和不考慮互感效應的情況。內容包含實際範例和不同情況下的計算公式。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Parallel-Inductance-Without-Mutual-Inductance-不考慮互感的並聯電感計算"><a href="#1-Parallel-Inductance-Without-Mutual-Inductance-不考慮互感的並聯電感計算" class="headerlink" title="1. Parallel Inductance Without Mutual Inductance 不考慮互感的並聯電感計算"></a>1. Parallel Inductance Without Mutual Inductance 不考慮互感的並聯電感計算</h3><ul>
+<li><p>The total inductance formula is:<br>$$ L_{total} &#x3D; \frac{L_1 \times L_2}{L_1 + L_2} $$</p>
+</li>
+<li><p>Example: L1&#x3D;20mH, L2&#x3D;30mH, total inductance is 12mH</p>
+</li>
+<li><p>This is the basic formula for parallel inductors without mutual inductance</p>
+</li>
+<li><p>總電感公式為：<br>$$ L_{total} &#x3D; \frac{L_1 \times L_2}{L_1 + L_2} $$</p>
+</li>
+<li><p>例：L1&#x3D;20mH，L2&#x3D;30mH，計算結果為12mH</p>
+</li>
+<li><p>這是不考慮互感時並聯電感的基本公式</p>
+</li>
+</ul>
+<h3 id="2-Parallel-Inductance-With-Mutual-Inductance-考慮互感的並聯電感計算"><a href="#2-Parallel-Inductance-With-Mutual-Inductance-考慮互感的並聯電感計算" class="headerlink" title="2. Parallel Inductance With Mutual Inductance 考慮互感的並聯電感計算"></a>2. Parallel Inductance With Mutual Inductance 考慮互感的並聯電感計算</h3><ul>
+<li><p>The total inductance formula becomes:<br>$$ L_{total} &#x3D; \frac{L_1 + L_2 - 2M}{L_1 \times L_2 - M^2} $$</p>
+</li>
+<li><p>Example: L1&#x3D;8H, L2&#x3D;2H, mutual inductance M&#x3D;2H, total inductance is 2H</p>
+</li>
+<li><p>This formula accounts for the mutual inductance effect</p>
+</li>
+<li><p>總電感公式變為：<br>$$ L_{total} &#x3D; \frac{L_1 + L_2 - 2M}{L_1 \times L_2 - M^2} $$</p>
+</li>
+<li><p>例：L1&#x3D;8H，L2&#x3D;2H，互感M&#x3D;2H，計算結果為2H</p>
+</li>
+<li><p>此公式考慮了互感效應</p>
+</li>
+</ul>
+<h3 id="3-Mutual-Inductance-Direction-Effects-互感方向影響"><a href="#3-Mutual-Inductance-Direction-Effects-互感方向影響" class="headerlink" title="3. Mutual Inductance Direction Effects 互感方向影響"></a>3. Mutual Inductance Direction Effects 互感方向影響</h3><ul>
+<li><p>Same dot direction (head-to-head and tail-to-tail) indicates mutual assistance</p>
+</li>
+<li><p>This configuration affects the total inductance calculation</p>
+</li>
+<li><p>The mutual inductance term (M) can be positive or negative depending on the configuration</p>
+</li>
+<li><p>打點方向相同（頭接頭尾接尾）屬於互助並聯</p>
+</li>
+<li><p>這種配置會影響總電感的計算</p>
+</li>
+<li><p>互感項（M）可為正值或負值，取決於配置方式</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=Ddyu2v9MmGM">Parallel Inductance Calculation Examples</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Parallel Circuits</tag>
+        <tag>Mutual Inductance</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Parallel Combination of Inductors: With and Without Mutual Inductance - 電感器並聯組合(無互感)、(有互感)</title>
+    <url>/2025/05/14/2025-05-14-parallel-inductors-combination/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating total inductance in parallel inductor combinations, covering both cases with and without mutual inductance. It includes formulas and practical considerations for different scenarios.</p>
+<p>本文解釋電感器並聯組合的計算方法，包括有互感與無互感的情況。內容包含不同情況下的計算公式和實際考量。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Types-of-Parallel-Combinations-並聯組合類型"><a href="#1-Types-of-Parallel-Combinations-並聯組合類型" class="headerlink" title="1. Types of Parallel Combinations 並聯組合類型"></a>1. Types of Parallel Combinations 並聯組合類型</h3><ul>
+<li><p>Parallel inductors can be combined in two cases:</p>
+<ul>
+<li>Without mutual inductance</li>
+<li>With mutual inductance</li>
+</ul>
+</li>
+<li><p>Each case requires different calculation methods</p>
+</li>
+<li><p>電感器並聯組合分為兩種情況：</p>
+<ul>
+<li>無互感</li>
+<li>有互感</li>
+</ul>
+</li>
+<li><p>每種情況需要不同的計算方法</p>
+</li>
+</ul>
+<h3 id="2-Parallel-Inductors-Without-Mutual-Inductance-無互感並聯電感"><a href="#2-Parallel-Inductors-Without-Mutual-Inductance-無互感並聯電感" class="headerlink" title="2. Parallel Inductors Without Mutual Inductance 無互感並聯電感"></a>2. Parallel Inductors Without Mutual Inductance 無互感並聯電感</h3><ul>
+<li><p>The formula is similar to parallel resistors:<br>$$<br>L_T &#x3D; \frac{L_1 \times L_2}{L_1 + L_2}<br>$$</p>
+</li>
+<li><p>This is the basic formula for parallel inductors without mutual effects</p>
+</li>
+<li><p>計算公式與電阻並聯相似：<br>$$<br>L_T &#x3D; \frac{L_1 \times L_2}{L_1 + L_2}<br>$$</p>
+</li>
+<li><p>這是不考慮互感時並聯電感的基本公式</p>
+</li>
+</ul>
+<h3 id="3-Parallel-Inductors-With-Mutual-Inductance-有互感並聯電感"><a href="#3-Parallel-Inductors-With-Mutual-Inductance-有互感並聯電感" class="headerlink" title="3. Parallel Inductors With Mutual Inductance 有互感並聯電感"></a>3. Parallel Inductors With Mutual Inductance 有互感並聯電感</h3><ul>
+<li><p>Need to determine if mutual effect is:</p>
+<ul>
+<li>Assisting (same magnetic field direction)</li>
+<li>Opposing (opposite magnetic field direction)</li>
+</ul>
+</li>
+<li><p>The formula becomes:<br>$$<br>L_T &#x3D; \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}<br>$$</p>
+</li>
+<li><p>Sign convention:</p>
+<ul>
+<li>Minus sign (-2M) for assisting mutual inductance</li>
+<li>Plus sign (+2M) for opposing mutual inductance</li>
+</ul>
+</li>
+<li><p>需判斷互感是：</p>
+<ul>
+<li>互助（磁場方向相同）</li>
+<li>互消（磁場方向相反）</li>
+</ul>
+</li>
+<li><p>計算公式變為：<br>$$<br>L_T &#x3D; \frac{L_1 L_2 - M^2}{L_1 + L_2 \mp 2M}<br>$$</p>
+</li>
+<li><p>符號規則：</p>
+<ul>
+<li>互助取負號（-2M），電感量較大</li>
+<li>互消取正號（+2M），電感量較小</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=JhOxJFNb5Tc">Parallel Inductor Combinations</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Parallel Circuits</tag>
+        <tag>Mutual Inductance</tag>
+        <tag>Inductors</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Permeability and Magnetization Curve - 導磁係數與磁化曲線</title>
+    <url>/2025/05/14/2025-05-14-permeability-magnetization-curve/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental concepts of magnetic permeability and magnetization curves, including their mathematical relationships and practical applications in different materials.</p>
+<p>本文解釋磁導率與磁化曲線的基本概念，包括其數學關係及在不同材料中的實際應用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Magnetic-Permeability-導磁係數"><a href="#1-Magnetic-Permeability-導磁係數" class="headerlink" title="1. Magnetic Permeability 導磁係數"></a>1. Magnetic Permeability 導磁係數</h3><ul>
+<li><p><strong>Definition:</strong></p>
+<ul>
+<li>Symbol: μ (mu)</li>
+<li>Formula: ( \mu &#x3D; \mu_0 \times \mu_r )</li>
+<li>Represents material’s ability to conduct magnetic flux</li>
+</ul>
+</li>
+<li><p><strong>定義：</strong></p>
+<ul>
+<li>符號：μ</li>
+<li>公式：( \mu &#x3D; \mu_0 \times \mu_r )</li>
+<li>表示物質導磁能力</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-Permeability-Constants-導磁常數"><a href="#2-Permeability-Constants-導磁常數" class="headerlink" title="2. Permeability Constants 導磁常數"></a>2. Permeability Constants 導磁常數</h3><ul>
+<li><p><strong>Vacuum Permeability (μ₀):</strong></p>
+<ul>
+<li>Value: (4\pi \times 10^{-7})</li>
+<li>Base reference for magnetic permeability</li>
+<li>Universal constant</li>
+</ul>
+</li>
+<li><p><strong>Relative Permeability (μr):</strong></p>
+<ul>
+<li>Ratio of material’s permeability to vacuum</li>
+<li>Determines material’s magnetic properties</li>
+<li>Dimensionless quantity</li>
+</ul>
+</li>
+<li><p><strong>真空導磁係數 (μ₀)：</strong></p>
+<ul>
+<li>數值：(4\pi \times 10^{-7})</li>
+<li>磁導率的基準參考值</li>
+<li>通用常數</li>
+</ul>
+</li>
+<li><p><strong>相對導磁係數 (μr)：</strong></p>
+<ul>
+<li>材料導磁率與真空的比值</li>
+<li>決定材料的磁性特性</li>
+<li>無因次量</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Material-Classification-材料分類"><a href="#3-Material-Classification-材料分類" class="headerlink" title="3. Material Classification 材料分類"></a>3. Material Classification 材料分類</h3><ul>
+<li><p><strong>Ferromagnetic Materials:</strong></p>
+<ul>
+<li>μr ≫ 1</li>
+<li>Examples: iron, silicon steel, steel, cobalt, nickel</li>
+<li>Strong magnetic properties</li>
+</ul>
+</li>
+<li><p><strong>Non-magnetic Materials:</strong></p>
+<ul>
+<li>μr &#x3D; 1</li>
+<li>Examples: vacuum</li>
+<li>Linear B-H curve, no saturation</li>
+</ul>
+</li>
+<li><p><strong>Paramagnetic Materials:</strong></p>
+<ul>
+<li>μr &gt; 1</li>
+<li>Examples: aluminum, platinum, tungsten</li>
+<li>Magnetic flux aligns with field</li>
+</ul>
+</li>
+<li><p><strong>Diamagnetic Materials:</strong></p>
+<ul>
+<li>μr &lt; 1</li>
+<li>Examples: gold, silver, copper</li>
+<li>Magnetic flux opposes field</li>
+</ul>
+</li>
+<li><p><strong>強磁性材料：</strong></p>
+<ul>
+<li>μr ≫ 1</li>
+<li>例如：鐵、矽鋼、鋼、鈷、鎳</li>
+<li>強磁性特性</li>
+</ul>
+</li>
+<li><p><strong>非磁性材料：</strong></p>
+<ul>
+<li>μr &#x3D; 1</li>
+<li>例如：真空</li>
+<li>B-H曲線為直線，無飽和</li>
+</ul>
+</li>
+<li><p><strong>順磁性材料：</strong></p>
+<ul>
+<li>μr &gt; 1</li>
+<li>例如：鋁、鉑、鎢</li>
+<li>磁通與磁場同向</li>
+</ul>
+</li>
+<li><p><strong>反磁性材料：</strong></p>
+<ul>
+<li>μr &lt; 1</li>
+<li>例如：金、銀、銅</li>
+<li>磁通與磁場反向</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Magnetization-Process-磁化過程"><a href="#4-Magnetization-Process-磁化過程" class="headerlink" title="4. Magnetization Process 磁化過程"></a>4. Magnetization Process 磁化過程</h3><ul>
+<li><p><strong>Core Magnetization:</strong></p>
+<ul>
+<li>Current application magnetizes iron core</li>
+<li>Magnetization strength increases with current</li>
+<li>Magnetic domains align</li>
+</ul>
+</li>
+<li><p><strong>鐵心磁化：</strong></p>
+<ul>
+<li>通電使鐵心磁化</li>
+<li>磁化強度隨電流增加</li>
+<li>磁域排列</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-B-H-Curve-Characteristics-B-H曲線特性"><a href="#5-B-H-Curve-Characteristics-B-H曲線特性" class="headerlink" title="5. B-H Curve Characteristics B-H曲線特性"></a>5. B-H Curve Characteristics B-H曲線特性</h3><ul>
+<li><p><strong>Non-magnetic Materials:</strong></p>
+<ul>
+<li>Linear relationship</li>
+<li>No saturation point</li>
+<li>Direct proportionality</li>
+</ul>
+</li>
+<li><p><strong>Magnetic Materials:</strong></p>
+<ul>
+<li>Non-linear relationship</li>
+<li>Shows saturation point</li>
+<li>Magnetic domain alignment affects flux</li>
+</ul>
+</li>
+<li><p><strong>非磁性材料：</strong></p>
+<ul>
+<li>線性關係</li>
+<li>無飽和點</li>
+<li>直接比例關係</li>
+</ul>
+</li>
+<li><p><strong>磁性材料：</strong></p>
+<ul>
+<li>非線性關係</li>
+<li>顯示飽和點</li>
+<li>磁域排列影響磁通</li>
+</ul>
+</li>
+</ul>
+<h3 id="6-Magnetic-Saturation-磁飽和"><a href="#6-Magnetic-Saturation-磁飽和" class="headerlink" title="6. Magnetic Saturation 磁飽和"></a>6. Magnetic Saturation 磁飽和</h3><ul>
+<li><p><strong>Definition:</strong></p>
+<ul>
+<li>Complete alignment of magnetic domains</li>
+<li>Further H increase doesn’t significantly increase B</li>
+<li>Maximum magnetization state</li>
+</ul>
+</li>
+<li><p><strong>定義：</strong></p>
+<ul>
+<li>磁域完全排列</li>
+<li>增加H不會顯著增加B</li>
+<li>最大磁化狀態</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=0p_HYgb_y3o">Understanding Permeability and Magnetization</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Permeability</tag>
+        <tag>Magnetization</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Detailed Explanation of Self-Inductance Definition - 自感量定義詳解</title>
+    <url>/2025/05/14/2025-05-14-self-inductance-definition/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article provides a detailed explanation of self-inductance, its definition, formula, and practical significance in electromagnetic systems. It helps readers understand the fundamental concept of how coils generate magnetic flux in response to current changes.</p>
+<p>本文詳細解釋自感量的定義、公式及其在電磁系統中的實際意義。幫助讀者理解線圈如何對電流變化產生磁通量的基本概念。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Definition-of-Self-Inductance-自感量定義"><a href="#1-Definition-of-Self-Inductance-自感量定義" class="headerlink" title="1. Definition of Self-Inductance 自感量定義"></a>1. Definition of Self-Inductance 自感量定義</h3><ul>
+<li><p><strong>Self-inductance (L)</strong> is the ratio of the magnetic flux linkage to the current in a single coil</p>
+</li>
+<li><p>It represents the coil’s ability to generate magnetic flux in response to current</p>
+</li>
+<li><p>**自感量（L）**是指單一線圈中，當電流通過時，該線圈自身產生的磁通鏈與電流的比值</p>
+</li>
+<li><p>表示線圈對電流產生磁通量的能力</p>
+</li>
+</ul>
+<h3 id="2-Mathematical-Formula-數學公式"><a href="#2-Mathematical-Formula-數學公式" class="headerlink" title="2. Mathematical Formula 數學公式"></a>2. Mathematical Formula 數學公式</h3><ul>
+<li><p><strong>Formula:</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]<br>where:</p>
+<ul>
+<li>N: Number of turns in the coil</li>
+<li>Φ: Magnetic flux (in Weber, Wb)</li>
+<li>I: Current through the coil (in Ampere, A)</li>
+</ul>
+</li>
+<li><p><strong>公式：</strong><br>[<br>L &#x3D; \frac{N \Phi}{I}<br>]<br>其中：</p>
+<ul>
+<li>N：線圈的匝數</li>
+<li>Φ：磁通量（單位韋柏 Wb）</li>
+<li>I：通過線圈的電流（單位安培 A）</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Physical-Meaning-物理意義"><a href="#3-Physical-Meaning-物理意義" class="headerlink" title="3. Physical Meaning 物理意義"></a>3. Physical Meaning 物理意義</h3><ul>
+<li><p>When current I flows through the coil, it generates magnetic flux Φ</p>
+</li>
+<li><p>The product of flux and number of turns (NΦ) gives the flux linkage</p>
+</li>
+<li><p>The ratio of flux linkage to current is the self-inductance</p>
+</li>
+<li><p>當電流 I 流過線圈時，會在該線圈中產生磁通量 Φ</p>
+</li>
+<li><p>磁通量與匝數的乘積（NΦ）得到磁通鏈</p>
+</li>
+<li><p>磁通鏈與電流的比值就是自感量</p>
+</li>
+</ul>
+<h3 id="4-Significance-重要性"><a href="#4-Significance-重要性" class="headerlink" title="4. Significance 重要性"></a>4. Significance 重要性</h3><ul>
+<li><p>Higher self-inductance means:</p>
+<ul>
+<li>Stronger response to current changes</li>
+<li>Small current changes can produce large flux linkage</li>
+<li>Greater ability to generate magnetic flux</li>
+</ul>
+</li>
+<li><p>自感量越大表示：</p>
+<ul>
+<li>對電流變化的反應越強</li>
+<li>少量電流變化就能產生較大的磁通鏈</li>
+<li>產生磁通的能力越強</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-Practical-Understanding-實際理解"><a href="#5-Practical-Understanding-實際理解" class="headerlink" title="5. Practical Understanding 實際理解"></a>5. Practical Understanding 實際理解</h3><ul>
+<li><p>Self-inductance is a measure of a coil’s ability to generate magnetic flux</p>
+</li>
+<li><p>It is a fundamental parameter in electromagnetic systems</p>
+</li>
+<li><p>It affects how the coil responds to changing currents</p>
+</li>
+<li><p>自感量是衡量線圈「自我產生磁通能力」的參數</p>
+</li>
+<li><p>是電磁系統中的基本參數</p>
+</li>
+<li><p>影響線圈對變化電流的響應方式</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=rT380N3rxkQ">Self-Inductance Definition</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Self-Inductance</tag>
+        <tag>Definition</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Self-Inductance and Mutual Inductance - 自感與互感</title>
+    <url>/2025/05/14/2025-05-14-self-mutual-inductance/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental concepts of self-inductance and mutual inductance in electromagnetic systems. It covers the basic principles, mathematical relationships, and practical applications of these important electromagnetic phenomena.</p>
+<p>本文解釋電磁系統中自感和互感的基本概念。內容涵蓋這些重要電磁現象的基本原理、數學關係和實際應用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Self-Inductance-自感"><a href="#1-Self-Inductance-自感" class="headerlink" title="1. Self-Inductance 自感"></a>1. Self-Inductance 自感</h3><ul>
+<li><p><strong>Definition:</strong></p>
+<ul>
+<li>The magnetic flux generated by current flowing through a single coil</li>
+<li>Related to the coil’s own current</li>
+<li>A fundamental property of any coil</li>
+</ul>
+</li>
+<li><p><strong>定義：</strong></p>
+<ul>
+<li>單一線圈通電時產生的磁通量</li>
+<li>與該線圈自身的電流相關</li>
+<li>任何線圈的基本特性</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-Mutual-Inductance-互感"><a href="#2-Mutual-Inductance-互感" class="headerlink" title="2. Mutual Inductance 互感"></a>2. Mutual Inductance 互感</h3><ul>
+<li><p><strong>Definition:</strong></p>
+<ul>
+<li>Occurs when two coils are in proximity</li>
+<li>Current in one coil produces magnetic flux that links to the other coil</li>
+<li>Denoted by capital M</li>
+</ul>
+</li>
+<li><p><strong>定義：</strong></p>
+<ul>
+<li>當兩個相鄰線圈存在時發生</li>
+<li>一個線圈的電流會產生磁通量，並交鏈到另一個線圈</li>
+<li>表示為大寫M</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Magnetic-Flux-Components-磁通量分解"><a href="#3-Magnetic-Flux-Components-磁通量分解" class="headerlink" title="3. Magnetic Flux Components 磁通量分解"></a>3. Magnetic Flux Components 磁通量分解</h3><ul>
+<li><p><strong>Flux in coil 1:</strong></p>
+<ul>
+<li>Total flux Φ1 splits into:<ul>
+<li>Φ11: Leakage flux (not linking the other coil)</li>
+<li>Φ12: Mutual flux (linking the other coil)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>線圈1的磁通：</strong></p>
+<ul>
+<li>總磁通Φ1分為：<ul>
+<li>Φ11：漏磁通（未交鏈到另一線圈）</li>
+<li>Φ12：交鏈磁通（穿過另一線圈）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Self-Inductance-Formula-自感量公式"><a href="#4-Self-Inductance-Formula-自感量公式" class="headerlink" title="4. Self-Inductance Formula 自感量公式"></a>4. Self-Inductance Formula 自感量公式</h3><ul>
+<li><p><strong>Formula for coil 1:</strong><br>[<br>L_1 &#x3D; \frac{N_1 \Phi_1}{I_1}<br>]<br>where:</p>
+<ul>
+<li>N1: Number of turns</li>
+<li>I1: Current</li>
+</ul>
+</li>
+<li><p><strong>線圈1的公式：</strong><br>[<br>L_1 &#x3D; \frac{N_1 \Phi_1}{I_1}<br>]<br>其中：</p>
+<ul>
+<li>N1：線圈匝數</li>
+<li>I1：電流</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-Mutual-Inductance-Formula-互感量公式"><a href="#5-Mutual-Inductance-Formula-互感量公式" class="headerlink" title="5. Mutual Inductance Formula 互感量公式"></a>5. Mutual Inductance Formula 互感量公式</h3><ul>
+<li><p><strong>Formula for mutual inductance:</strong><br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}<br>]<br>This represents the mutual inductance from coil 1 to coil 2</p>
+</li>
+<li><p><strong>互感量公式：</strong><br>[<br>M_{12} &#x3D; \frac{N_2 \Phi_{12}}{I_1}<br>]<br>表示線圈1對線圈2的互感</p>
+</li>
+</ul>
+<h3 id="6-Coil-2-Relationships-線圈2的關係"><a href="#6-Coil-2-Relationships-線圈2的關係" class="headerlink" title="6. Coil 2 Relationships 線圈2的關係"></a>6. Coil 2 Relationships 線圈2的關係</h3><ul>
+<li><p>Similar definitions apply to coil 2:</p>
+<ul>
+<li>Self-inductance L2</li>
+<li>Mutual inductance M21</li>
+</ul>
+</li>
+<li><p>線圈2也有類似的定義：</p>
+<ul>
+<li>自感量L2</li>
+<li>互感量M21</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=VQfbWaQJFBw">Self-Inductance and Mutual Inductance</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Self-Inductance</tag>
+        <tag>Mutual Inductance</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: Series Inductance Calculation Examples - 高中基本電學：串聯總電感運算範例</title>
+    <url>/2025/05/14/2025-05-14-series-inductance-calculation/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating total inductance in series circuits, both with and without considering mutual inductance effects. It includes practical examples and formulas for different scenarios.</p>
+<p>本文解釋串聯電路中總電感的計算方法，包括考慮和不考慮互感效應的情況。內容包含實際範例和不同情況下的計算公式。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Series-Inductance-Without-Mutual-Inductance-不考慮互感的串聯電感計算"><a href="#1-Series-Inductance-Without-Mutual-Inductance-不考慮互感的串聯電感計算" class="headerlink" title="1. Series Inductance Without Mutual Inductance 不考慮互感的串聯電感計算"></a>1. Series Inductance Without Mutual Inductance 不考慮互感的串聯電感計算</h3><ul>
+<li><p>Total inductance is the sum of each inductance</p>
+</li>
+<li><p>Similar to resistors in series</p>
+</li>
+<li><p>Example: 12H + 4H + 6H &#x3D; 22H</p>
+</li>
+<li><p>總電感為各電感直接相加</p>
+</li>
+<li><p>類似電阻串聯計算</p>
+</li>
+<li><p>範例：12H + 4H + 6H &#x3D; 22H</p>
+</li>
+</ul>
+<h3 id="2-Series-Inductance-With-Mutual-Inductance-考慮互感的串聯電感計算"><a href="#2-Series-Inductance-With-Mutual-Inductance-考慮互感的串聯電感計算" class="headerlink" title="2. Series Inductance With Mutual Inductance 考慮互感的串聯電感計算"></a>2. Series Inductance With Mutual Inductance 考慮互感的串聯電感計算</h3><ul>
+<li><p>For three inductors (L_1, L_2, L_3) in series</p>
+</li>
+<li><p>Consider mutual inductances (M_{12}, M_{23}, M_{31})</p>
+</li>
+<li><p>Total inductance formula:<br>$$<br>L_{total} &#x3D; L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}<br>$$</p>
+</li>
+<li><p>Sign convention:</p>
+<ul>
+<li>Plus sign for mutual aiding (same magnetic flux direction)</li>
+<li>Minus sign for mutual opposing (opposite magnetic flux direction)</li>
+</ul>
+</li>
+<li><p>三個電感 (L_1, L_2, L_3) 串聯</p>
+</li>
+<li><p>考慮互感 (M_{12}, M_{23}, M_{31})</p>
+</li>
+<li><p>總電感公式：<br>$$<br>L_{total} &#x3D; L_1 + L_2 + L_3 \pm 2M_{12} \pm 2M_{23} \pm 2M_{31}<br>$$</p>
+</li>
+<li><p>符號規則：</p>
+<ul>
+<li>互助（磁力線方向相同）取加號</li>
+<li>互消（磁力線方向相反）取減號</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Example-Calculations-範例計算"><a href="#3-Example-Calculations-範例計算" class="headerlink" title="3. Example Calculations 範例計算"></a>3. Example Calculations 範例計算</h3><ul>
+<li><p>Without mutual inductance:</p>
+<ul>
+<li>Simple addition of individual inductances</li>
+<li>Example: 12H + 4H + 6H &#x3D; 22H</li>
+</ul>
+</li>
+<li><p>With mutual inductance:</p>
+<ul>
+<li>Determine aiding or opposing by magnetic flux direction</li>
+<li>Apply appropriate signs in the formula</li>
+<li>Calculate total inductance</li>
+</ul>
+</li>
+<li><p>不考慮互感：</p>
+<ul>
+<li>直接相加各電感值</li>
+<li>範例：12H + 4H + 6H &#x3D; 22H</li>
+</ul>
+</li>
+<li><p>考慮互感：</p>
+<ul>
+<li>根據磁力線方向判斷互助或互消</li>
+<li>代入公式計算</li>
+<li>得出總電感值</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=zRMD1nQZN1w">Series Inductance Calculation Examples</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Mutual Inductance</tag>
+        <tag>Series Circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Series Combination of Inductors: With and Without Mutual Inductance - 電感器串聯組合：有互感與無互感</title>
+    <url>/2025/05/14/2025-05-14-series-inductors-combination/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the methods for calculating total inductance in series inductor combinations, covering both cases with and without mutual inductance. It includes formulas and practical considerations for different scenarios.</p>
+<p>本文解釋電感器串聯組合的計算方法，包括有互感與無互感的情況。內容包含不同情況下的計算公式和實際考量。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Inductors-in-Series-Without-Mutual-Inductance-不考慮互感的串聯電感"><a href="#1-Inductors-in-Series-Without-Mutual-Inductance-不考慮互感的串聯電感" class="headerlink" title="1. Inductors in Series Without Mutual Inductance 不考慮互感的串聯電感"></a>1. Inductors in Series Without Mutual Inductance 不考慮互感的串聯電感</h3><ul>
+<li><p>The total inductance is the sum of the individual inductances:<br>$$L_{total} &#x3D; L_1 + L_2$$</p>
+</li>
+<li><p>This is the basic formula for series inductors without mutual effects</p>
+</li>
+<li><p>總電感為各電感直接相加：<br>$$L_{total} &#x3D; L_1 + L_2$$</p>
+</li>
+<li><p>這是不考慮互感時串聯電感的基本公式</p>
+</li>
+</ul>
+<h3 id="2-Inductors-in-Series-With-Mutual-Inductance-考慮互感的串聯電感"><a href="#2-Inductors-in-Series-With-Mutual-Inductance-考慮互感的串聯電感" class="headerlink" title="2. Inductors in Series With Mutual Inductance 考慮互感的串聯電感"></a>2. Inductors in Series With Mutual Inductance 考慮互感的串聯電感</h3><ul>
+<li><p>Need to determine if mutual effect is:</p>
+<ul>
+<li>Aiding (same magnetic field direction)</li>
+<li>Opposing (opposite magnetic field direction)</li>
+</ul>
+</li>
+<li><p>The mutual inductance term affects the total inductance calculation</p>
+</li>
+<li><p>需判斷互感是：</p>
+<ul>
+<li>互助（磁場方向相同）</li>
+<li>互消（磁場方向相反）</li>
+</ul>
+</li>
+<li><p>互感項會影響總電感的計算</p>
+</li>
+</ul>
+<h3 id="3-Series-Aiding-Configuration-串聯互助配置"><a href="#3-Series-Aiding-Configuration-串聯互助配置" class="headerlink" title="3. Series Aiding Configuration 串聯互助配置"></a>3. Series Aiding Configuration 串聯互助配置</h3><ul>
+<li><p>The magnetic fields have the same direction</p>
+</li>
+<li><p>Mutual inductance is positive</p>
+</li>
+<li><p>Total inductance formula:<br>$$L_{total} &#x3D; L_1 + L_2 + 2M$$</p>
+</li>
+<li><p>磁場方向相同</p>
+</li>
+<li><p>互感為正值</p>
+</li>
+<li><p>總電感公式：<br>$$L_{total} &#x3D; L_1 + L_2 + 2M$$</p>
+</li>
+</ul>
+<h3 id="4-Series-Opposing-Configuration-串聯互消配置"><a href="#4-Series-Opposing-Configuration-串聯互消配置" class="headerlink" title="4. Series Opposing Configuration 串聯互消配置"></a>4. Series Opposing Configuration 串聯互消配置</h3><ul>
+<li><p>The magnetic fields have opposite directions</p>
+</li>
+<li><p>Mutual inductance is negative</p>
+</li>
+<li><p>Total inductance formula:<br>$$L_{total} &#x3D; L_1 + L_2 - 2M$$</p>
+</li>
+<li><p>磁場方向相反</p>
+</li>
+<li><p>互感為負值</p>
+</li>
+<li><p>總電感公式：<br>$$L_{total} &#x3D; L_1 + L_2 - 2M$$</p>
+</li>
+</ul>
+<h3 id="5-Polarity-Marking-N-dot-Convention-極性標記（N點標示法）"><a href="#5-Polarity-Marking-N-dot-Convention-極性標記（N點標示法）" class="headerlink" title="5. Polarity Marking (N-dot Convention) 極性標記（N點標示法）"></a>5. Polarity Marking (N-dot Convention) 極性標記（N點標示法）</h3><ul>
+<li><p>Use dots to indicate the polarity (N-pole direction) of the coils</p>
+</li>
+<li><p>Helps determine whether mutual inductance is aiding or opposing</p>
+</li>
+<li><p>Important for correct calculation of total inductance</p>
+</li>
+<li><p>使用點來標示線圈的極性（N極方向）</p>
+</li>
+<li><p>有助於判斷互感是互助或互消</p>
+</li>
+<li><p>對正確計算總電感很重要</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=HJCpPPi4Q7E">Series Inductor Combinations</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Mutual Inductance</tag>
+        <tag>Inductors</tag>
+        <tag>Series Circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Magnetic Field Intensity of a Solenoid - 螺線管的磁場強度</title>
+    <url>/2025/05/14/2025-05-14-solenoid-magnetic-field/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental concepts of magnetic field intensity in solenoids, including the calculation of magnetomotive force and the principles of magnetic field superposition.</p>
+<p>本文解釋螺線管中磁場強度的基本概念，包括磁動勢的計算和磁場疊加原理。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Magnetomotive-Force-MMF-磁動勢"><a href="#1-Magnetomotive-Force-MMF-磁動勢" class="headerlink" title="1. Magnetomotive Force (MMF) 磁動勢"></a>1. Magnetomotive Force (MMF) 磁動勢</h3><ul>
+<li><p><strong>Definition:</strong></p>
+<ul>
+<li>Energy of magnetic flux generated by current</li>
+<li>Formula: MMF &#x3D; ( NI )</li>
+<li>Where N is number of turns, I is current</li>
+</ul>
+</li>
+<li><p><strong>定義：</strong></p>
+<ul>
+<li>電流產生的磁力線能量</li>
+<li>公式：磁動勢 &#x3D; ( NI )</li>
+<li>N為匝數，I為電流</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-Magnetic-Field-Intensity-磁場強度"><a href="#2-Magnetic-Field-Intensity-磁場強度" class="headerlink" title="2. Magnetic Field Intensity 磁場強度"></a>2. Magnetic Field Intensity 磁場強度</h3><ul>
+<li><p><strong>Calculation Formula:</strong><br>$$<br>H &#x3D; \frac{NI}{L}<br>$$</p>
+<ul>
+<li>H: magnetic field intensity</li>
+<li>N: number of turns</li>
+<li>I: current</li>
+<li>L: magnetic path length</li>
+</ul>
+</li>
+<li><p><strong>計算公式：</strong><br>$$<br>H &#x3D; \frac{NI}{L}<br>$$</p>
+<ul>
+<li>H：磁場強度</li>
+<li>N：匝數</li>
+<li>I：電流</li>
+<li>L：磁路長度</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Units-單位"><a href="#3-Units-單位" class="headerlink" title="3. Units 單位"></a>3. Units 單位</h3><ul>
+<li><p><strong>Standard Unit:</strong></p>
+<ul>
+<li>Ampere-turns per meter (A·t&#x2F;m)</li>
+<li>Represents magnetic field strength</li>
+<li>International standard unit</li>
+</ul>
+</li>
+<li><p><strong>標準單位：</strong></p>
+<ul>
+<li>安匝&#x2F;公尺（A·t&#x2F;m）</li>
+<li>表示磁場強度</li>
+<li>國際標準單位</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Field-Superposition-磁場疊加"><a href="#4-Field-Superposition-磁場疊加" class="headerlink" title="4. Field Superposition 磁場疊加"></a>4. Field Superposition 磁場疊加</h3><ul>
+<li><p><strong>Principle:</strong></p>
+<ul>
+<li>Multiple coils’ fields can be added</li>
+<li>Vector addition for same direction</li>
+<li>Vector subtraction for opposite directions</li>
+</ul>
+</li>
+<li><p><strong>原理：</strong></p>
+<ul>
+<li>多個線圈的磁場可以相加</li>
+<li>同向時做向量加法</li>
+<li>反向時做向量減法</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-Practical-Applications-實際應用"><a href="#5-Practical-Applications-實際應用" class="headerlink" title="5. Practical Applications 實際應用"></a>5. Practical Applications 實際應用</h3><ul>
+<li><p><strong>Electromagnetic Devices:</strong></p>
+<ul>
+<li>Solenoids</li>
+<li>Electromagnets</li>
+<li>Transformers</li>
+<li>Magnetic sensors</li>
+</ul>
+</li>
+<li><p><strong>電磁裝置：</strong></p>
+<ul>
+<li>螺線管</li>
+<li>電磁鐵</li>
+<li>變壓器</li>
+<li>磁感測器</li>
+</ul>
+</li>
+</ul>
+<h3 id="6-Important-Considerations-重要考量"><a href="#6-Important-Considerations-重要考量" class="headerlink" title="6. Important Considerations 重要考量"></a>6. Important Considerations 重要考量</h3><ul>
+<li><p><strong>Factors Affecting Field Strength:</strong></p>
+<ul>
+<li>Number of turns</li>
+<li>Current magnitude</li>
+<li>Core material</li>
+<li>Path length</li>
+</ul>
+</li>
+<li><p><strong>影響磁場強度的因素：</strong></p>
+<ul>
+<li>匝數</li>
+<li>電流大小</li>
+<li>心材材料</li>
+<li>路徑長度</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=mQITPGq3CiQ">Understanding Solenoid Magnetic Fields</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Solenoid</tag>
+        <tag>Magnetic Field</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Understanding Prefixes for Powers of Ten</title>
     <url>/2024/03/23/20250408-2/</url>
     <content><![CDATA[<h2 id="Understanding-Prefixes-for-Powers-of-Ten"><a href="#Understanding-Prefixes-for-Powers-of-Ten" class="headerlink" title="Understanding Prefixes for Powers of Ten"></a>Understanding Prefixes for Powers of Ten</h2><div class="bilingual-section">
