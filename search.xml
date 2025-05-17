@@ -1,6 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>High School Basic Electricity: Voltage - 高中基本電學：電壓</title>
+    <url>/2024/03/25/2024-03-25-voltage-basics/</url>
+    <content><![CDATA[<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Introduction</h2>
+    <p>Voltage is one of the fundamental concepts in electricity, playing a crucial role in understanding how electrical circuits work. This article will explain voltage through everyday examples and analogies, making it easier to grasp this important concept.</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>引言</h2>
+    <p>電壓是電學中的基本概念之一，對於理解電路運作起著至關重要的作用。本文將通過日常生活中的例子和類比來解釋電壓，使這個重要概念更容易理解。</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>What is Voltage?</h2>
+    <p>Voltage can be understood through a simple water analogy:</p>
+    <ul>
+      <li>Just as water flows from high to low levels, electricity flows from high to low voltage</li>
+      <li>Water pressure pushes water through pipes, voltage pushes electrons through wires</li>
+      <li>The greater the height difference, the stronger the water flow; similarly, the greater the voltage difference, the stronger the current</li>
+    </ul>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>什麼是電壓？</h2>
+    <p>電壓可以通過簡單的水流類比來理解：</p>
+    <ul>
+      <li>就像水從高處流向低處，電流從高電壓流向低電壓</li>
+      <li>水壓推動水通過管道，電壓推動電子通過導線</li>
+      <li>高度差越大，水流越強；同樣，電壓差越大，電流越強</li>
+    </ul>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Definition of Voltage</h2>
+    <p>Voltage is defined as the energy required to move electric charges in a circuit. It is measured in volts (V) and represents the potential energy difference between two points in an electrical circuit.</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>電壓的定義</h2>
+    <p>電壓被定義為在電路中移動電荷所需的能量。它以伏特(V)為單位，代表電路中兩點之間的電位能差。</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Types of Voltage</h2>
+    <ul>
+      <li><strong>Electric Potential</strong>: The potential energy at a specific point in an electric field</li>
+      <li><strong>Potential Difference</strong>: The difference in electric potential between two points</li>
+      <li><strong>Electromotive Force (EMF)</strong>: The energy provided by a power source to move charges</li>
+      <li><strong>Voltage Drop</strong>: The decrease in voltage across a component in a circuit</li>
+    </ul>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>電壓的類型</h2>
+    <ul>
+      <li><strong>電位</strong>：電場中特定點的電位能</li>
+      <li><strong>電位差</strong>：兩點之間的電位差異</li>
+      <li><strong>電動勢</strong>：電源提供的移動電荷的能量</li>
+      <li><strong>電壓降</strong>：電路中元件兩端的電壓降低</li>
+    </ul>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Key Concepts</h2>
+    <h3>Voltage and Current Flow</h3>
+    <p>Voltage is the driving force behind current flow, similar to how water pressure drives water flow. The relationship can be expressed as:</p>
+    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>
+    <p>For example, if point A has a potential of 100V and point B has 60V:</p>
+    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>重要概念</h2>
+    <h3>電壓與電流流動</h3>
+    <p>電壓是推動電流流動的力量，類似於水壓推動水流動。其關係可以表示為：</p>
+    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>
+    <p>例如，如果A點電位為100V，B點電位為60V：</p>
+    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>
+  </div>
+</div>
+
+<div class="bilingual-section">
+  <div class="lang lang-en">
+    <h2>Unit of Voltage</h2>
+    <p>The volt (V) is the SI unit of voltage, named after Alessandro Volta, who invented the first chemical battery. One volt is defined as the potential difference that will drive one ampere of current through one ohm of resistance.</p>
+  </div>
+
+  <div class="lang lang-zh">
+    <h2>電壓的單位</h2>
+    <p>伏特(V)是電壓的國際單位，以發明第一個化學電池的亞歷山大·伏特命名。一伏特被定義為能夠驅動一安培電流通過一歐姆電阻的電位差。</p>
+  </div>
+</div>
+
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Xhd_YWy0TKo">here</a>.</p>
+<p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Voltage Basics"> </p>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Basic Electronics</tag>
+        <tag>Voltage</tag>
+        <tag>Electricity</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Basic Electricity Chapter 1:PARTA Atomic Structure and Properties</title>
     <url>/2024/03/21/2024-03-21-atomic-structure/</url>
     <content><![CDATA[<p><img src="https://i.imgur.com/mSc28kb.jpeg" alt="Atomic Structure"></p>
@@ -576,8 +691,8 @@
       </categories>
       <tags>
         <tag>Basic Electronics</tag>
-        <tag>Current</tag>
         <tag>Electricity</tag>
+        <tag>Current</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Tutorial</tag>
@@ -927,121 +1042,6 @@
       </tags>
   </entry>
   <entry>
-    <title>High School Basic Electricity: Voltage - 高中基本電學：電壓</title>
-    <url>/2024/03/25/2024-03-25-voltage-basics/</url>
-    <content><![CDATA[<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Introduction</h2>
-    <p>Voltage is one of the fundamental concepts in electricity, playing a crucial role in understanding how electrical circuits work. This article will explain voltage through everyday examples and analogies, making it easier to grasp this important concept.</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>引言</h2>
-    <p>電壓是電學中的基本概念之一，對於理解電路運作起著至關重要的作用。本文將通過日常生活中的例子和類比來解釋電壓，使這個重要概念更容易理解。</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>What is Voltage?</h2>
-    <p>Voltage can be understood through a simple water analogy:</p>
-    <ul>
-      <li>Just as water flows from high to low levels, electricity flows from high to low voltage</li>
-      <li>Water pressure pushes water through pipes, voltage pushes electrons through wires</li>
-      <li>The greater the height difference, the stronger the water flow; similarly, the greater the voltage difference, the stronger the current</li>
-    </ul>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>什麼是電壓？</h2>
-    <p>電壓可以通過簡單的水流類比來理解：</p>
-    <ul>
-      <li>就像水從高處流向低處，電流從高電壓流向低電壓</li>
-      <li>水壓推動水通過管道，電壓推動電子通過導線</li>
-      <li>高度差越大，水流越強；同樣，電壓差越大，電流越強</li>
-    </ul>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Definition of Voltage</h2>
-    <p>Voltage is defined as the energy required to move electric charges in a circuit. It is measured in volts (V) and represents the potential energy difference between two points in an electrical circuit.</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>電壓的定義</h2>
-    <p>電壓被定義為在電路中移動電荷所需的能量。它以伏特(V)為單位，代表電路中兩點之間的電位能差。</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Types of Voltage</h2>
-    <ul>
-      <li><strong>Electric Potential</strong>: The potential energy at a specific point in an electric field</li>
-      <li><strong>Potential Difference</strong>: The difference in electric potential between two points</li>
-      <li><strong>Electromotive Force (EMF)</strong>: The energy provided by a power source to move charges</li>
-      <li><strong>Voltage Drop</strong>: The decrease in voltage across a component in a circuit</li>
-    </ul>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>電壓的類型</h2>
-    <ul>
-      <li><strong>電位</strong>：電場中特定點的電位能</li>
-      <li><strong>電位差</strong>：兩點之間的電位差異</li>
-      <li><strong>電動勢</strong>：電源提供的移動電荷的能量</li>
-      <li><strong>電壓降</strong>：電路中元件兩端的電壓降低</li>
-    </ul>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Key Concepts</h2>
-    <h3>Voltage and Current Flow</h3>
-    <p>Voltage is the driving force behind current flow, similar to how water pressure drives water flow. The relationship can be expressed as:</p>
-    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>
-    <p>For example, if point A has a potential of 100V and point B has 60V:</p>
-    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>重要概念</h2>
-    <h3>電壓與電流流動</h3>
-    <p>電壓是推動電流流動的力量，類似於水壓推動水流動。其關係可以表示為：</p>
-    <p>V<sub>AB</sub> = V<sub>A</sub> - V<sub>B</sub></p>
-    <p>例如，如果A點電位為100V，B點電位為60V：</p>
-    <p>V<sub>AB</sub> = 100V - 60V = 40V</p>
-  </div>
-</div>
-
-<div class="bilingual-section">
-  <div class="lang lang-en">
-    <h2>Unit of Voltage</h2>
-    <p>The volt (V) is the SI unit of voltage, named after Alessandro Volta, who invented the first chemical battery. One volt is defined as the potential difference that will drive one ampere of current through one ohm of resistance.</p>
-  </div>
-
-  <div class="lang lang-zh">
-    <h2>電壓的單位</h2>
-    <p>伏特(V)是電壓的國際單位，以發明第一個化學電池的亞歷山大·伏特命名。一伏特被定義為能夠驅動一安培電流通過一歐姆電阻的電位差。</p>
-  </div>
-</div>
-
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>For more details, watch the video <a href="https://www.youtube.com/watch?v=Xhd_YWy0TKo">here</a>.</p>
-<p><img src="https://i.imgur.com/NqXRLaL.jpg" alt="Voltage Basics"> </p>
-]]></content>
-      <categories>
-        <category>Electronics</category>
-      </categories>
-      <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
-        <tag>Voltage</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Atomic Theory Summary</title>
     <url>/2024/03/23/2024-04-06/</url>
     <content><![CDATA[<h2 id="Atomic-Theory-Summary"><a href="#Atomic-Theory-Summary" class="headerlink" title="Atomic Theory Summary"></a>Atomic Theory Summary</h2><h3 id="1-Structure-of-Atoms"><a href="#1-Structure-of-Atoms" class="headerlink" title="1. Structure of Atoms"></a>1. Structure of Atoms</h3><p><strong>English:</strong></p>
@@ -1305,8 +1305,8 @@
       </categories>
       <tags>
         <tag>Basic Electronics</tag>
-        <tag>Current</tag>
         <tag>Electricity</tag>
+        <tag>Current</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Tutorial</tag>
@@ -2352,6 +2352,108 @@
       </tags>
   </entry>
   <entry>
+    <title>Basic Electricity in High School: Inductance and Electromagnetism - Basic Concepts of Magnetism PART A - 高中基本電學：電感與電磁 - 磁的基本觀念 PART A</title>
+    <url>/2025/05/14/2025-05-14-basic-magnetism-concepts/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article introduces the fundamental concepts of magnetism, including magnet types, magnetic poles, and the characteristics of magnetic fields and field lines.</p>
+<p>本文介紹磁學的基本概念，包括磁鐵類型、磁極以及磁場和磁力線的特性。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Introduction to Magnets</strong></p>
+<ul>
+<li>Magnets attract iron objects</li>
+<li>Two types: natural and artificial</li>
+<li>Essential in electromagnetism</li>
+</ul>
+</li>
+<li><p><strong>Magnet Poles</strong></p>
+<ul>
+<li>North (N) pole: usually red</li>
+<li>South (S) pole: black or dark blue</li>
+<li>Clear visual identification</li>
+</ul>
+</li>
+<li><p><strong>Magnet Characteristics</strong></p>
+<ul>
+<li>Strongest magnetic force at poles</li>
+<li>N pole points to Earth’s magnetic north</li>
+<li>S pole points to Earth’s magnetic south</li>
+<li>Poles always exist in pairs</li>
+<li>Like poles repel, opposite poles attract</li>
+</ul>
+</li>
+<li><p><strong>Magnetic Field and Field Lines</strong></p>
+<ul>
+<li>Field: space where magnetic forces act</li>
+<li>Lines run from N to S pole</li>
+<li>Form closed loops</li>
+<li>Perpendicular to magnet surface</li>
+<li>Never cross each other</li>
+<li>Density indicates field strength</li>
+<li>Tangent shows field direction</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>磁鐵介紹</strong></p>
+<ul>
+<li>能吸引鐵器</li>
+<li>分為天然和人造兩種</li>
+<li>電磁學基礎元件</li>
+</ul>
+</li>
+<li><p><strong>磁極標示</strong></p>
+<ul>
+<li>北極（N）：通常為紅色</li>
+<li>南極（S）：黑色或深藍色</li>
+<li>便於視覺識別</li>
+</ul>
+</li>
+<li><p><strong>磁鐵特性</strong></p>
+<ul>
+<li>兩端磁性最強</li>
+<li>N極指向地磁北極</li>
+<li>S極指向地磁南極</li>
+<li>磁極總是成對出現</li>
+<li>同性相斥，異性相吸</li>
+</ul>
+</li>
+<li><p><strong>磁場與磁力線</strong></p>
+<ul>
+<li>磁場：磁力作用的空間</li>
+<li>磁力線由N極到S極</li>
+<li>形成閉合迴路</li>
+<li>與磁極表面垂直</li>
+<li>永不交叉</li>
+<li>密集度表示磁場強度</li>
+<li>切線方向為磁場方向</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=b6pIfQnERaQ">Understanding Basic Magnetism</a><br><a href="https://www.youtube.com/watch?v=b6pIfQnERaQ&cc_lang_pref=en&cc_load_policy=1">磁學基本概念教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Magnetism</tag>
+        <tag>Magnetic Field</tag>
+        <tag>Field Lines</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Charged Particle Motion in Magnetic Fields: Force and Trajectory Analysis - 電荷在磁場中運動的受力與運動軌跡解析</title>
     <url>/2025/05/14/2025-05-14-charged-particle-magnetic-field/</url>
     <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental principles of charged particle motion in magnetic fields, including the Lorentz force, trajectory analysis, and practical applications.</p>
@@ -2399,6 +2501,95 @@
         <tag>Lorentz Force</tag>
         <tag>Magnetic Fields</tag>
         <tag>Charged Particles</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction to Coulomb&#39;s Magnetic Force Law and Magnetic Field Intensity - 庫侖磁力定律與磁場強度介紹</title>
+    <url>/2025/05/14/2025-05-14-coulomb-magnetic-law/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains Coulomb’s magnetic force law and its relationship with magnetic field intensity, including the mathematical formulas and practical applications in electromagnetism.</p>
+<p>本文解釋庫侖磁力定律及其與磁場強度的關係，包括數學公式和電磁學中的實際應用。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p>Coulomb’s magnetic force law is analogous to Newton’s law of universal gravitation</p>
+</li>
+<li><p>Magnetic force magnitude is proportional to the product of magnetic pole strengths</p>
+</li>
+<li><p>Force is inversely proportional to the square of the distance</p>
+</li>
+<li><p>Magnetic force formula:<br>$$<br>F &#x3D; K \frac{M_1 M_2}{d^2}<br>$$<br>where:</p>
+<ul>
+<li>F: magnetic force</li>
+<li>M₁, M₂: magnetic pole strengths</li>
+<li>d: distance between poles</li>
+<li>K: magnetic force constant</li>
+</ul>
+</li>
+<li><p>Magnetic pole strength unit is Weber (Wb)</p>
+</li>
+<li><p>Magnetic force constant in air&#x2F;vacuum: K &#x3D; 6.33 × 10⁴ (includes Henry)</p>
+</li>
+<li><p>Magnetic field intensity (H) is force per unit magnetic pole:<br>$$<br>H &#x3D; \frac{F}{m}<br>$$<br>where:</p>
+<ul>
+<li>F: force</li>
+<li>m: magnetic pole strength</li>
+</ul>
+</li>
+<li><p>Magnetic field intensity is a vector quantity</p>
+</li>
+<li><p>Direction follows magnetic field line tangent</p>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p>庫侖磁力定律類似牛頓萬有引力定律</p>
+</li>
+<li><p>磁力大小與磁極強度成正比</p>
+</li>
+<li><p>磁力與距離平方成反比</p>
+</li>
+<li><p>磁力公式：<br>$$<br>F &#x3D; K \frac{M_1 M_2}{d^2}<br>$$<br>其中：</p>
+<ul>
+<li>F：磁力</li>
+<li>M₁, M₂：磁極強度</li>
+<li>d：磁極間距離</li>
+<li>K：磁力常數</li>
+</ul>
+</li>
+<li><p>磁極強度單位為韋伯（Wb）</p>
+</li>
+<li><p>空氣或真空中磁力常數：K &#x3D; 6.33 × 10⁴（含亨利）</p>
+</li>
+<li><p>磁場強度（H）定義為單位磁極受力：<br>$$<br>H &#x3D; \frac{F}{m}<br>$$<br>其中：</p>
+<ul>
+<li>F：受力</li>
+<li>m：磁極強度</li>
+</ul>
+</li>
+<li><p>磁場強度為向量</p>
+</li>
+<li><p>方向為磁力線切線方向</p>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a><br><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os&cc_lang_pref=en&cc_load_policy=1">庫侖磁力定律教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Magnetic Field</tag>
+        <tag>Coulomb&#39;s Law</tag>
       </tags>
   </entry>
   <entry>
@@ -2620,6 +2811,110 @@
         <tag>Electromagnetism</tag>
         <tag>Magnetic Force</tag>
         <tag>Conductor</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Current Magnetic Effect and Oersted&#39;s Discovery - 電流磁效應與厄斯特發現</title>
+    <url>/2025/05/14/2025-05-14-current-magnetic-effect/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains Oersted’s discovery of the magnetic effect of electric current and its significance in understanding the relationship between electricity and magnetism.</p>
+<p>本文解釋厄斯特發現電流磁效應的過程，以及這個發現對理解電與磁關係的重要性。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p>Oersted’s groundbreaking discovery:</p>
+<ul>
+<li>Electric current produces a magnetic field</li>
+<li>Magnetic field affects compass needle orientation</li>
+<li>First demonstration of electricity-magnetism relationship</li>
+</ul>
+</li>
+<li><p>Current direction effects:</p>
+<ul>
+<li>Changing current direction reverses compass deflection</li>
+<li>Demonstrates vector nature of magnetic field</li>
+<li>Shows field-current relationship</li>
+</ul>
+</li>
+<li><p>Magnetic field characteristics:</p>
+<ul>
+<li>Field strength proportional to current magnitude</li>
+<li>Field strength inversely proportional to distance</li>
+<li>Field direction perpendicular to current flow</li>
+</ul>
+</li>
+<li><p>Ampere’s right-hand rule:</p>
+<ul>
+<li>Thumb points in current direction</li>
+<li>Fingers curl in magnetic field direction</li>
+<li>Practical tool for field direction determination</li>
+</ul>
+</li>
+<li><p>Historical significance:</p>
+<ul>
+<li>Oersted’s discovery (1820)</li>
+<li>Foundation for electromagnetism</li>
+<li>Ampere’s theoretical development</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p>厄斯特的重大發現：</p>
+<ul>
+<li>電流會產生磁場</li>
+<li>磁場會影響磁針方向</li>
+<li>首次證明電與磁的關係</li>
+</ul>
+</li>
+<li><p>電流方向效應：</p>
+<ul>
+<li>改變電流方向會反轉磁針偏轉</li>
+<li>顯示磁場的向量特性</li>
+<li>展示場與電流的關係</li>
+</ul>
+</li>
+<li><p>磁場特性：</p>
+<ul>
+<li>磁場強度與電流大小成正比</li>
+<li>磁場強度與距離成反比</li>
+<li>磁場方向與電流方向垂直</li>
+</ul>
+</li>
+<li><p>安培右手定則：</p>
+<ul>
+<li>拇指指向電流方向</li>
+<li>手指彎曲方向為磁場方向</li>
+<li>實用的磁場方向判斷工具</li>
+</ul>
+</li>
+<li><p>歷史意義：</p>
+<ul>
+<li>厄斯特的發現（1820年）</li>
+<li>電磁學的基礎</li>
+<li>安培的理論發展</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=0wAXs2jNuHk">Understanding Current Magnetic Effect</a><br><a href="https://www.youtube.com/watch?v=0wAXs2jNuHk&cc_lang_pref=en&cc_load_policy=1">電流磁效應教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Current</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Oersted</tag>
+        <tag>Magnetic Effect</tag>
       </tags>
   </entry>
   <entry>
@@ -3419,6 +3714,282 @@
       </tags>
   </entry>
   <entry>
+    <title>Magnetic Field Intensity of a Long Straight Conductor - 長直導線的磁場強度</title>
+    <url>/2025/05/14/2025-05-14-long-straight-conductor-magnetic-field/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article introduces the concept and calculation of the magnetic field intensity around a long straight conductor, drawing analogies from the electric field of a parallel plate capacitor. It covers the formula, unit, direction, and practical examples.</p>
+<p>本文介紹長直導線周圍磁場強度的概念與計算，並以平行板電容器的電場強度作類比推導，涵蓋公式、單位、方向與實例。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li>The concept of electric field intensity in a parallel plate capacitor is used to analogously derive the magnetic field intensity of a long straight conductor.</li>
+<li>In a parallel plate capacitor, electric field intensity equals voltage divided by the distance between plates.</li>
+<li>The magnetic field intensity around a long straight conductor depends on the current (magnetomotive force) and the length of the magnetic field line (magnetic path length).</li>
+<li>Magnetic field intensity formula:<br>$$<br>H &#x3D; \frac{I}{2 \pi R}<br>$$<br>where (I) is the current in amperes and (R) is the radius (distance from the wire) in meters.</li>
+<li>The unit of magnetic field intensity is ampere-turn per meter (AT&#x2F;m).</li>
+<li>The direction of the magnetic field follows the right-hand rule, with magnetic field lines forming circles around the conductor.</li>
+<li>Example: For a 10-ampere current at 10 cm from the conductor, the magnetic field intensity is (\frac{50}{\pi} , \text{AT&#x2F;m}), directed into the plane.</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li>利用平行板電容器的電場強度概念，類比推導長直導線的磁場強度。</li>
+<li>平行板電容器中，電場強度為電壓除以兩極板距離。</li>
+<li>長直導線產生的磁場強度與電流（磁動勢）及磁力線長度（磁路長）有關。</li>
+<li>磁場強度公式：<br>$$<br>H &#x3D; \frac{I}{2 \pi R}<br>$$<br>其中 (I) 是電流（安培），(R) 是距離導線的半徑（公尺）。</li>
+<li>磁場強度單位為安匝每公尺（AT&#x2F;m）。</li>
+<li>磁場方向依安培右手定則判斷，磁力線繞導線形成圓周。</li>
+<li>範例：通入10安培電流，距離導線10公分處磁場強度為 (\frac{50}{\pi} , \text{AT&#x2F;m})，方向射入紙面。</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=fb0GaQtsgZA">長直導線的磁場強度 - YouTube教學影片</a><br><a href="https://www.youtube.com/watch?v=fb0GaQtsgZA&cc_lang_pref=en&cc_load_policy=1">長直導線的磁場強度 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Magnetic Field</tag>
+        <tag>Long Straight Conductor</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Application of Loop Current Method in Circuits with Two and Three Voltage Sources - 迴路電流法應用於兩電壓源與三電壓源電路範例解析</title>
+    <url>/2025/05/14/2025-05-14-loop-current-method-examples/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Loop Current Method in analyzing circuits with multiple voltage sources, including detailed examples with two and three voltage sources.</p>
+<p>本文展示迴路電流法在分析多電壓源電路中的應用，包含兩電壓源和三電壓源的詳細範例。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Step 1: Loop Current Direction</strong></p>
+<ul>
+<li>Assume clockwise direction</li>
+<li>Label loop currents (IA, IB)</li>
+<li>Mark current directions</li>
+<li>Identify shared branches</li>
+</ul>
+</li>
+<li><p><strong>Step 2: KVL Equations</strong></p>
+<ul>
+<li>Apply Kirchhoff’s Voltage Law</li>
+<li>Consider voltage sources</li>
+<li>Account for shared resistors</li>
+<li>Note sign conventions</li>
+</ul>
+</li>
+<li><p><strong>Step 3: Solve Equations</strong></p>
+<ul>
+<li>Set up simultaneous equations</li>
+<li>Solve for loop currents</li>
+<li>Calculate branch currents</li>
+<li>Verify results</li>
+</ul>
+</li>
+<li><p><strong>Example 1: Two Voltage Sources</strong></p>
+<ul>
+<li>Loop currents: IA&#x3D;2A, IB&#x3D;1A</li>
+<li>Branch currents: I1&#x3D;2A, I2&#x3D;1A, I3&#x3D;1A</li>
+<li>Verification using KVL</li>
+<li>Power calculations</li>
+</ul>
+</li>
+<li><p><strong>Example 2: Three Voltage Sources</strong></p>
+<ul>
+<li>Loop currents: IA&#x3D;12&#x2F;7 A, IB&#x3D;10&#x2F;7 A</li>
+<li>Branch currents: I1&#x3D;12&#x2F;7 A, I2&#x3D;10&#x2F;7 A, I3&#x3D;2&#x2F;7 A</li>
+<li>Complex circuit analysis</li>
+<li>Result verification</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>步驟1：迴路電流方向</strong></p>
+<ul>
+<li>假設順時針方向</li>
+<li>標示迴路電流（IA、IB）</li>
+<li>標記電流方向</li>
+<li>識別共用支路</li>
+</ul>
+</li>
+<li><p><strong>步驟2：KVL方程式</strong></p>
+<ul>
+<li>應用克希荷夫電壓定律</li>
+<li>考慮電壓源</li>
+<li>處理共用電阻</li>
+<li>注意正負號</li>
+</ul>
+</li>
+<li><p><strong>步驟3：解方程式</strong></p>
+<ul>
+<li>建立聯立方程式</li>
+<li>求解迴路電流</li>
+<li>計算支路電流</li>
+<li>驗證結果</li>
+</ul>
+</li>
+<li><p><strong>範例1：兩電壓源</strong></p>
+<ul>
+<li>迴路電流：IA&#x3D;2A，IB&#x3D;1A</li>
+<li>支路電流：I1&#x3D;2A，I2&#x3D;1A，I3&#x3D;1A</li>
+<li>使用KVL驗證</li>
+<li>功率計算</li>
+</ul>
+</li>
+<li><p><strong>範例2：三電壓源</strong></p>
+<ul>
+<li>迴路電流：IA&#x3D;12&#x2F;7 A，IB&#x3D;10&#x2F;7 A</li>
+<li>支路電流：I1&#x3D;12&#x2F;7 A，I2&#x3D;10&#x2F;7 A，I3&#x3D;2&#x2F;7 A</li>
+<li>複雜電路分析</li>
+<li>結果驗證</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=LfMD_MELg4U">Loop Current Method Examples</a><br><a href="https://www.youtube.com/watch?v=LfMD_MELg4U&cc_lang_pref=en&cc_load_policy=1">迴路電流法範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Magnetic Flux Units and Calculations - 磁力線單位與計算</title>
+    <url>/2025/05/14/2025-05-14-magnetic-flux-units/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental units of magnetic flux, their relationships, and practical calculations in both SI and CGS systems.</p>
+<p>本文解釋磁通量的基本單位、單位間的關係，以及在SI制和CGS制中的實際計算應用。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Magnetic Flux Unit: Maxwell</strong></p>
+<ul>
+<li>Unit of magnetic lines of force</li>
+<li>CGS unit of magnetic flux</li>
+<li>Fundamental unit in electromagnetic calculations</li>
+</ul>
+</li>
+<li><p><strong>Magnetic Flux (Φ, Phi)</strong></p>
+<ul>
+<li>Total number of magnetic lines of force</li>
+<li>Measured in Weber (SI unit)</li>
+<li>Conversion: 1 Weber &#x3D; 10^8 Maxwell</li>
+</ul>
+</li>
+<li><p><strong>Magnetic Flux Density (B)</strong></p>
+<ul>
+<li>Magnetic flux per unit area</li>
+<li>Formula:<br>$$<br>B &#x3D; \frac{\Phi}{A}<br>$$</li>
+<li>Units:<ul>
+<li>Tesla (SI)</li>
+<li>Gauss (CGS)</li>
+<li>Conversion: 1 Tesla &#x3D; 10^4 Gauss</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Unit Conversions</strong></p>
+<ul>
+<li>1 Weber &#x3D; 10^8 Maxwell</li>
+<li>1 Tesla &#x3D; 10^4 Gauss</li>
+<li>Essential for system conversion</li>
+</ul>
+</li>
+<li><p><strong>Example Calculation</strong></p>
+<ul>
+<li>Area: 10 cm²</li>
+<li>Flux: 10^6 Maxwell</li>
+<li>Flux density: 10^5 Gauss</li>
+<li>Converted to Tesla: 10 Tesla</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>磁力線單位：馬克士威</strong></p>
+<ul>
+<li>磁力線的計量單位</li>
+<li>CGS制的磁通量單位</li>
+<li>電磁計算的基本單位</li>
+</ul>
+</li>
+<li><p><strong>磁通量 (Φ, Phi)</strong></p>
+<ul>
+<li>所有磁力線數量的總和</li>
+<li>單位為韋伯（SI制）</li>
+<li>換算：1韋伯 &#x3D; 10^8 馬克士威</li>
+</ul>
+</li>
+<li><p><strong>磁通密度 (B)</strong></p>
+<ul>
+<li>單位面積的磁通量</li>
+<li>公式：<br>$$<br>B &#x3D; \frac{\Phi}{A}<br>$$</li>
+<li>單位：<ul>
+<li>忒斯拉（SI制）</li>
+<li>高斯（CGS制）</li>
+<li>換算：1忒斯拉 &#x3D; 10^4 高斯</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>單位換算</strong></p>
+<ul>
+<li>1韋伯 &#x3D; 10^8 馬克士威</li>
+<li>1忒斯拉 &#x3D; 10^4 高斯</li>
+<li>系統轉換必備知識</li>
+</ul>
+</li>
+<li><p><strong>範例計算</strong></p>
+<ul>
+<li>面積：10平方公分</li>
+<li>磁通量：10^6 馬克士威</li>
+<li>磁通密度：10^5 高斯</li>
+<li>換算成忒斯拉：10忒斯拉</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=6NXQrO776AA">Understanding Magnetic Flux Units</a><br><a href="https://www.youtube.com/watch?v=6NXQrO776AA&cc_lang_pref=en&cc_load_policy=1">磁通量單位教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Calculations</tag>
+        <tag>Magnetic Flux</tag>
+        <tag>Units</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Basic Introduction to Magnetic Hysteresis Loop and Hysteresis Effect - 磁滯迴線與磁滯效應基礎介紹</title>
     <url>/2025/05/14/2025-05-14-magnetic-hysteresis-basics/</url>
     <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental concepts of magnetic hysteresis, its effects, and practical applications. Understanding hysteresis is crucial for various technologies, from data storage to electrical control systems.</p>
@@ -3545,6 +4116,606 @@
         <tag>Electromagnetism</tag>
         <tag>Magnetic Hysteresis</tag>
         <tag>Hysteresis Loop</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity: DC Network Analysis - Maximum Power Transfer Theorem PART B Examples - 高中基本電學：直流網路分析 - 最大功率轉移定理 PART B 範例</title>
+    <url>/2025/05/14/2025-05-14-maximum-power-transfer-examples/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates practical examples of the Maximum Power Transfer Theorem, including basic calculations and complex network analysis.</p>
+<p>本文展示最大功率轉移定理的實際範例，包括基本計算和複雜網路分析。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Basic Power Transfer</strong></p>
+<ul>
+<li>Condition: ( R_L &#x3D; r )</li>
+<li>Maximum power formula:<ul>
+<li>( P_{L(max)} &#x3D; I^2 R_L )</li>
+<li>( I &#x3D; \frac{V}{R_L + r} )</li>
+</ul>
+</li>
+<li>Efficiency &#x3D; 50%</li>
+</ul>
+</li>
+<li><p><strong>Complex Network Analysis</strong></p>
+<ul>
+<li>Use Thevenin’s theorem</li>
+<li>Simplify to:<ul>
+<li>Single voltage source</li>
+<li>Equivalent resistance</li>
+</ul>
+</li>
+<li>Apply maximum power condition</li>
+</ul>
+</li>
+<li><p><strong>Power Calculations</strong></p>
+<ul>
+<li>Current determination</li>
+<li>Power computation</li>
+<li>Efficiency analysis</li>
+<li>Performance evaluation</li>
+</ul>
+</li>
+<li><p><strong>Practical Applications</strong></p>
+<ul>
+<li>Circuit optimization</li>
+<li>Power distribution</li>
+<li>System efficiency</li>
+<li>Design considerations</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>基本功率轉移</strong></p>
+<ul>
+<li>條件：( R_L &#x3D; r )</li>
+<li>最大功率公式：<ul>
+<li>( P_{L(max)} &#x3D; I^2 R_L )</li>
+<li>( I &#x3D; \frac{V}{R_L + r} )</li>
+</ul>
+</li>
+<li>效率 &#x3D; 50%</li>
+</ul>
+</li>
+<li><p><strong>複雜網路分析</strong></p>
+<ul>
+<li>使用戴維寧定理</li>
+<li>簡化為：<ul>
+<li>單一電壓源</li>
+<li>等效電阻</li>
+</ul>
+</li>
+<li>應用最大功率條件</li>
+</ul>
+</li>
+<li><p><strong>功率計算</strong></p>
+<ul>
+<li>電流確定</li>
+<li>功率計算</li>
+<li>效率分析</li>
+<li>性能評估</li>
+</ul>
+</li>
+<li><p><strong>實際應用</strong></p>
+<ul>
+<li>電路優化</li>
+<li>功率分配</li>
+<li>系統效率</li>
+<li>設計考慮</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=aif4ruuo46M">Maximum Power Transfer Examples</a><br><a href="https://www.youtube.com/watch?v=aif4ruuo46M&cc_lang_pref=en&cc_load_policy=1">最大功率轉移範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Maximum Power Transfer</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Maximum Power Transfer Theorem PART A: Meaning and Condition of Maximum Power Transfer - 最大功率轉移定理 PART A：最大功率轉移的意義與條件</title>
+    <url>/2025/05/14/2025-05-14-maximum-power-transfer/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the Maximum Power Transfer Theorem, focusing on the conditions and significance of achieving maximum power transfer in electrical circuits.</p>
+<p>本文解釋最大功率轉移定理，重點說明在電路中實現最大功率轉移的條件和意義。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Circuit Components</strong></p>
+<ul>
+<li>Real voltage source ( E )</li>
+<li>Internal resistance ( r )</li>
+<li>Load resistance ( R_L )</li>
+<li>Power relationships:<ul>
+<li>( P_T &#x3D; P_r + P_L )</li>
+<li>( P_r ): Loss power</li>
+<li>( P_L ): Absorbed power</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Maximum Power Condition</strong></p>
+<ul>
+<li>Occurs when ( R_L &#x3D; r )</li>
+<li>Load absorbs maximum power</li>
+<li>Transmission efficiency &lt; 100%</li>
+<li>Balance between:<ul>
+<li>Current flow</li>
+<li>Voltage drop</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Power Transfer Analysis</strong></p>
+<ul>
+<li>Internal resistance effects</li>
+<li>Load resistance impact</li>
+<li>Power distribution</li>
+<li>Efficiency considerations</li>
+</ul>
+</li>
+<li><p><strong>Practical Applications</strong></p>
+<ul>
+<li>Power optimization</li>
+<li>Circuit design</li>
+<li>Energy efficiency</li>
+<li>System performance</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>電路元件</strong></p>
+<ul>
+<li>實際電壓源 ( E )</li>
+<li>內阻 ( r )</li>
+<li>負載電阻 ( R_L )</li>
+<li>功率關係：<ul>
+<li>( P_T &#x3D; P_r + P_L )</li>
+<li>( P_r ): 損失功率</li>
+<li>( P_L ): 吸收功率</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>最大功率條件</strong></p>
+<ul>
+<li>發生在 ( R_L &#x3D; r ) 時</li>
+<li>負載吸收最大功率</li>
+<li>傳輸效率 &lt; 100%</li>
+<li>平衡：<ul>
+<li>電流流動</li>
+<li>電壓降</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>功率轉移分析</strong></p>
+<ul>
+<li>內阻影響</li>
+<li>負載電阻影響</li>
+<li>功率分配</li>
+<li>效率考慮</li>
+</ul>
+</li>
+<li><p><strong>實際應用</strong></p>
+<ul>
+<li>功率優化</li>
+<li>電路設計</li>
+<li>能源效率</li>
+<li>系統性能</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=SiU8ERqM_Fk">Maximum Power Transfer Theorem</a><br><a href="https://www.youtube.com/watch?v=SiU8ERqM_Fk&cc_lang_pref=en&cc_load_policy=1">最大功率轉移定理 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Maximum Power Transfer</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Calculations of Norton Equivalent Circuit and Application of Superposition Theorem - 諾頓等效電路基本運算與重疊定理應用範例</title>
+    <url>/2025/05/14/2025-05-14-norton-circuit-basics/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the basic calculations of Norton equivalent circuits and demonstrates the application of the superposition theorem in circuit analysis.</p>
+<p>本文解釋諾頓等效電路的基本計算方法，並展示重疊定理在電路分析中的應用。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Finding Norton Current ( I_N )</strong></p>
+<ul>
+<li>Short terminals ( a )-( b )</li>
+<li>Calculate short-circuit current ( I_{ab} )</li>
+<li>Use current division rule</li>
+<li>Consider all sources</li>
+</ul>
+</li>
+<li><p><strong>Calculating Total Values</strong></p>
+<ul>
+<li>Find total resistance ( R_T )</li>
+<li>Calculate total current ( I_T )</li>
+<li>Apply current division</li>
+<li>Determine ( I_{ab} )</li>
+</ul>
+</li>
+<li><p><strong>Finding Norton Resistance ( R_N )</strong></p>
+<ul>
+<li>Short voltage sources</li>
+<li>Open current sources</li>
+<li>Calculate equivalent resistance</li>
+<li>Measure between ( a )-( b )</li>
+</ul>
+</li>
+<li><p><strong>Building Norton Equivalent</strong></p>
+<ul>
+<li>Use ( I_N ) and ( R_N )</li>
+<li>Connect components</li>
+<li>Verify circuit behavior</li>
+<li>Check calculations</li>
+</ul>
+</li>
+<li><p><strong>Load Analysis</strong></p>
+<ul>
+<li>Connect load to circuit</li>
+<li>Use current division</li>
+<li>Calculate load current</li>
+<li>Verify results</li>
+</ul>
+</li>
+<li><p><strong>Superposition Application</strong></p>
+<ul>
+<li>Consider each source separately</li>
+<li>Calculate individual effects</li>
+<li>Sum all contributions</li>
+<li>Verify final result</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>求諾頓電流 ( I_N )</strong></p>
+<ul>
+<li>將 ( a )-( b ) 端短路</li>
+<li>計算短路電流 ( I_{ab} )</li>
+<li>使用分流定則</li>
+<li>考慮所有電源</li>
+</ul>
+</li>
+<li><p><strong>計算總值</strong></p>
+<ul>
+<li>求總電阻 ( R_T )</li>
+<li>計算總電流 ( I_T )</li>
+<li>應用分流定則</li>
+<li>確定 ( I_{ab} )</li>
+</ul>
+</li>
+<li><p><strong>求諾頓電阻 ( R_N )</strong></p>
+<ul>
+<li>將電壓源短路</li>
+<li>將電流源開路</li>
+<li>計算等效電阻</li>
+<li>測量 ( a )-( b ) 間</li>
+</ul>
+</li>
+<li><p><strong>建立諾頓等效</strong></p>
+<ul>
+<li>使用 ( I_N ) 和 ( R_N )</li>
+<li>連接元件</li>
+<li>驗證電路行為</li>
+<li>檢查計算</li>
+</ul>
+</li>
+<li><p><strong>負載分析</strong></p>
+<ul>
+<li>將負載接入電路</li>
+<li>使用分流定則</li>
+<li>計算負載電流</li>
+<li>驗證結果</li>
+</ul>
+</li>
+<li><p><strong>重疊定理應用</strong></p>
+<ul>
+<li>分別考慮各電源</li>
+<li>計算個別效應</li>
+<li>加總所有貢獻</li>
+<li>驗證最終結果</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=PpTAS2GXpsI">Understanding Norton Circuit Basics</a><br><a href="https://www.youtube.com/watch?v=PpTAS2GXpsI&cc_lang_pref=en&cc_load_policy=1">諾頓電路基礎教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Norton&#39;s Theorem</tag>
+        <tag>Superposition Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example of Calculating Single Component Characteristics Using Norton&#39;s Theorem - 諾頓定理計算單一元件特性範例解析</title>
+    <url>/2025/05/14/2025-05-14-norton-theorem-example/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates how to use Norton’s theorem to analyze a single component in a circuit, including step-by-step calculations and practical applications.</p>
+<p>本文展示如何使用諾頓定理分析電路中的單一元件，包括逐步計算過程和實際應用。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Initial Setup</strong></p>
+<ul>
+<li>Identify load resistance ( R_L )</li>
+<li>Remove ( R_L ) from circuit</li>
+<li>Prepare for Norton equivalent</li>
+</ul>
+</li>
+<li><p><strong>Finding Norton Current ( I_N )</strong></p>
+<ul>
+<li>Short terminals ( a ) and ( b )</li>
+<li>Calculate short-circuit current ( I_{ab} )</li>
+<li>Use superposition theorem:<ul>
+<li>Calculate for each voltage source</li>
+<li>Sum individual contributions</li>
+</ul>
+</li>
+<li>Result is ( I_N )</li>
+</ul>
+</li>
+<li><p><strong>Finding Norton Resistance ( R_N )</strong></p>
+<ul>
+<li>Short all voltage sources</li>
+<li>Remove current sources</li>
+<li>Calculate equivalent resistance</li>
+<li>Measure between ( a ) and ( b )</li>
+</ul>
+</li>
+<li><p><strong>Final Circuit Analysis</strong></p>
+<ul>
+<li>Connect ( R_L ) to Norton equivalent</li>
+<li>Use current division rule</li>
+<li>Calculate ( R_L ) value</li>
+<li>Verify results</li>
+</ul>
+</li>
+<li><p><strong>Important Notes</strong></p>
+<ul>
+<li>Maintain proper polarity</li>
+<li>Consider all voltage sources</li>
+<li>Check calculations</li>
+<li>Verify circuit behavior</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>初始設置</strong></p>
+<ul>
+<li>識別負載電阻 ( R_L )</li>
+<li>從電路中移除 ( R_L )</li>
+<li>準備諾頓等效</li>
+</ul>
+</li>
+<li><p><strong>求諾頓電流 ( I_N )</strong></p>
+<ul>
+<li>將 ( a ) 與 ( b ) 端短路</li>
+<li>計算短路電流 ( I_{ab} )</li>
+<li>使用重疊定理：<ul>
+<li>分別計算各電壓源</li>
+<li>加總個別貢獻</li>
+</ul>
+</li>
+<li>結果即為 ( I_N )</li>
+</ul>
+</li>
+<li><p><strong>求諾頓電阻 ( R_N )</strong></p>
+<ul>
+<li>將電壓源短路</li>
+<li>移除電流源</li>
+<li>計算等效電阻</li>
+<li>測量 ( a ) 與 ( b ) 間</li>
+</ul>
+</li>
+<li><p><strong>最終電路分析</strong></p>
+<ul>
+<li>將 ( R_L ) 接回諾頓等效</li>
+<li>使用分流定則</li>
+<li>計算 ( R_L ) 值</li>
+<li>驗證結果</li>
+</ul>
+</li>
+<li><p><strong>重要注意事項</strong></p>
+<ul>
+<li>保持正確極性</li>
+<li>考慮所有電壓源</li>
+<li>檢查計算過程</li>
+<li>驗證電路行為</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=Lclsk6LiYtE">Understanding Norton’s Theorem Example</a><br><a href="https://www.youtube.com/watch?v=Lclsk6LiYtE&cc_lang_pref=en&cc_load_policy=1">諾頓定理範例教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Norton&#39;s Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>4-6 Norton&#39;s Theorem PART A: Introduction and Calculations - 4-6 諾頓定理 PART A：介紹與計算</title>
+    <url>/2025/05/14/2025-05-14-norton-theorem-introduction/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article introduces Norton’s Theorem and explains how to calculate Norton equivalent current and resistance for circuit analysis.</p>
+<p>本文介紹諾頓定理，並解釋如何計算諾頓等效電流和電阻以進行電路分析。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Norton’s Theorem Overview</strong></p>
+<ul>
+<li>Simplifies complex linear circuits</li>
+<li>Creates equivalent circuit with:<ul>
+<li>Current source</li>
+<li>Parallel resistor</li>
+</ul>
+</li>
+<li>Useful for circuit analysis</li>
+</ul>
+</li>
+<li><p><strong>Purpose and Application</strong></p>
+<ul>
+<li>Analyze component behavior</li>
+<li>Calculate:<ul>
+<li>Terminal voltage</li>
+<li>Current flow</li>
+<li>Power dissipation</li>
+</ul>
+</li>
+<li>Simplify complex networks</li>
+</ul>
+</li>
+<li><p><strong>Calculating Norton Current ( I_N )</strong></p>
+<ul>
+<li>Remove target component</li>
+<li>Short circuit terminals</li>
+<li>Measure short-circuit current</li>
+<li>This is ( I_N )</li>
+</ul>
+</li>
+<li><p><strong>Calculating Norton Resistance ( R_N )</strong></p>
+<ul>
+<li>Short voltage sources</li>
+<li>Open current sources</li>
+<li>Find equivalent resistance</li>
+<li>Measure at terminals</li>
+</ul>
+</li>
+<li><p><strong>Relationship with Thevenin</strong></p>
+<ul>
+<li>Both are equivalent methods</li>
+<li>Can convert between them</li>
+<li>Choose based on convenience</li>
+<li>Same final results</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>諾頓定理概述</strong></p>
+<ul>
+<li>簡化複雜線性電路</li>
+<li>建立等效電路：<ul>
+<li>電流源</li>
+<li>並聯電阻</li>
+</ul>
+</li>
+<li>用於電路分析</li>
+</ul>
+</li>
+<li><p><strong>目的與應用</strong></p>
+<ul>
+<li>分析元件行為</li>
+<li>計算：<ul>
+<li>端點電壓</li>
+<li>電流流向</li>
+<li>功率消耗</li>
+</ul>
+</li>
+<li>簡化複雜網路</li>
+</ul>
+</li>
+<li><p><strong>計算諾頓電流 ( I_N )</strong></p>
+<ul>
+<li>移除目標元件</li>
+<li>將端點短路</li>
+<li>測量短路電流</li>
+<li>即為 ( I_N )</li>
+</ul>
+</li>
+<li><p><strong>計算諾頓電阻 ( R_N )</strong></p>
+<ul>
+<li>將電壓源短路</li>
+<li>將電流源開路</li>
+<li>求等效電阻</li>
+<li>在端點測量</li>
+</ul>
+</li>
+<li><p><strong>與戴維寧的關係</strong></p>
+<ul>
+<li>兩者為等效方法</li>
+<li>可以互相轉換</li>
+<li>依便利性選擇</li>
+<li>結果相同</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=s8Ww6_Jqra4">Understanding Norton’s Theorem</a><br><a href="https://www.youtube.com/watch?v=s8Ww6_Jqra4&cc_lang_pref=en&cc_load_policy=1">諾頓定理教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Norton&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -4361,8 +5532,802 @@
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electromagnetism</tag>
-        <tag>Solenoid</tag>
         <tag>Magnetic Field</tag>
+        <tag>Solenoid</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example of Using Superposition Theorem in Dual Voltage Source Circuits - 重疊定理用於雙電壓源電路範例解析</title>
+    <url>/2025/05/14/2025-05-14-superposition-dual-voltage/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Superposition Theorem in analyzing circuits with two voltage sources, including current calculations and power dissipation analysis.</p>
+<p>本文展示重疊定理在分析雙電壓源電路中的應用，包括電流計算和功率消耗分析。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Circuit Analysis Method</strong></p>
+<ul>
+<li>Consider one source at a time</li>
+<li>Short circuit other sources</li>
+<li>Calculate branch currents:<ul>
+<li>(I_1)</li>
+<li>(I_2)</li>
+<li>(I_3)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>12V Source Analysis</strong></p>
+<ul>
+<li>Short circuit 6V source</li>
+<li>Calculate currents</li>
+<li>Note current directions</li>
+<li>Record results</li>
+</ul>
+</li>
+<li><p><strong>6V Source Analysis</strong></p>
+<ul>
+<li>Short circuit 12V source</li>
+<li>Calculate currents</li>
+<li>Consider direction changes</li>
+<li>Record results</li>
+</ul>
+</li>
+<li><p><strong>Final Calculations</strong></p>
+<ul>
+<li>Sum individual results</li>
+<li>Calculate power:<ul>
+<li>(P &#x3D; I^2 R)</li>
+</ul>
+</li>
+<li>Verify calculations</li>
+<li>Check power balance</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>電路分析方法</strong></p>
+<ul>
+<li>一次考慮一個電源</li>
+<li>其他電源短路</li>
+<li>計算支路電流：<ul>
+<li>(I_1)</li>
+<li>(I_2)</li>
+<li>(I_3)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>12V電源分析</strong></p>
+<ul>
+<li>6V電源短路</li>
+<li>計算電流</li>
+<li>注意電流方向</li>
+<li>記錄結果</li>
+</ul>
+</li>
+<li><p><strong>6V電源分析</strong></p>
+<ul>
+<li>12V電源短路</li>
+<li>計算電流</li>
+<li>考慮方向變化</li>
+<li>記錄結果</li>
+</ul>
+</li>
+<li><p><strong>最終計算</strong></p>
+<ul>
+<li>加總個別結果</li>
+<li>計算功率：<ul>
+<li>(P &#x3D; I^2 R)</li>
+</ul>
+</li>
+<li>驗證計算</li>
+<li>檢查功率平衡</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=KXRZ-QJU6-k">Superposition Theorem with Dual Voltage Sources</a><br><a href="https://www.youtube.com/watch?v=KXRZ-QJU6-k&cc_lang_pref=en&cc_load_policy=1">重疊定理雙電壓源範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Superposition Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Application of Superposition Theorem in Three Current Source Circuits and Problem Solving - 重疊定理用於三電流源電路與應用題解析</title>
+    <url>/2025/05/14/2025-05-14-superposition-theorem-examples/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Superposition Theorem in analyzing circuits with multiple current sources and practical problem-solving examples.</p>
+<p>本文展示重疊定理在分析多電流源電路和實際問題解決中的應用。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Superposition Theorem Basics</strong></p>
+<ul>
+<li>Consider one source at a time</li>
+<li>Open circuit current sources</li>
+<li>Short circuit voltage sources</li>
+<li>Sum individual results</li>
+</ul>
+</li>
+<li><p><strong>Three Current Source Analysis</strong></p>
+<ul>
+<li>Current division rule</li>
+<li>Kirchhoff’s Current Law</li>
+<li>Ohm’s Law for voltages</li>
+<li>Calculate:<ul>
+<li>(I_X)</li>
+<li>(I_Y)</li>
+<li>(V_Y)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Calculation Process</strong></p>
+<ul>
+<li>Individual source effects</li>
+<li>Branch current analysis</li>
+<li>Voltage calculations</li>
+<li>Result summation</li>
+</ul>
+</li>
+<li><p><strong>Practical Applications</strong></p>
+<ul>
+<li>Complex circuit analysis</li>
+<li>Multiple source handling</li>
+<li>Simplified calculations</li>
+<li>Problem-solving approach</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>重疊定理基礎</strong></p>
+<ul>
+<li>一次考慮一個電源</li>
+<li>電流源開路</li>
+<li>電壓源短路</li>
+<li>加總個別結果</li>
+</ul>
+</li>
+<li><p><strong>三電流源分析</strong></p>
+<ul>
+<li>分流定則</li>
+<li>克希荷夫電流定律</li>
+<li>歐姆定律計算電壓</li>
+<li>計算：<ul>
+<li>(I_X)</li>
+<li>(I_Y)</li>
+<li>(V_Y)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>計算過程</strong></p>
+<ul>
+<li>個別電源影響</li>
+<li>支路電流分析</li>
+<li>電壓計算</li>
+<li>結果加總</li>
+</ul>
+</li>
+<li><p><strong>實際應用</strong></p>
+<ul>
+<li>複雜電路分析</li>
+<li>多電源處理</li>
+<li>簡化計算</li>
+<li>問題解決方法</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=aGXLhaFQSFY">Superposition Theorem Examples</a><br><a href="https://www.youtube.com/watch?v=aGXLhaFQSFY&cc_lang_pref=en&cc_load_policy=1">重疊定理範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Superposition Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Superposition Theorem: Principles and Applications - 重疊定理：原理與應用</title>
+    <url>/2025/05/14/2025-05-14-superposition-theorem-introduction/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article introduces the Superposition Theorem, explaining its principles, applications, and limitations in circuit analysis.</p>
+<p>本文介紹重疊定理，說明其在電路分析中的原理、應用和限制。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Purpose and Application</strong></p>
+<ul>
+<li>Solve multi-source circuits</li>
+<li>Avoid complex equations</li>
+<li>Simplify calculations</li>
+<li>Analyze circuit behavior</li>
+</ul>
+</li>
+<li><p><strong>Basic Principles</strong></p>
+<ul>
+<li>Consider sources separately</li>
+<li>Voltage sources: short circuit</li>
+<li>Current sources: open circuit</li>
+<li>Sum individual results</li>
+</ul>
+</li>
+<li><p><strong>Solution Process</strong></p>
+<ol>
+<li>Activate one source</li>
+<li>Remove other sources</li>
+<li>Calculate values</li>
+<li>Repeat for each source</li>
+<li>Sum all results</li>
+</ol>
+</li>
+<li><p><strong>Important Limitations</strong></p>
+<ul>
+<li>Voltage&#x2F;current only</li>
+<li>No power calculations</li>
+<li>Linear circuits only</li>
+<li>Independent sources</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>用途與應用</strong></p>
+<ul>
+<li>求解多電源電路</li>
+<li>避免複雜方程式</li>
+<li>簡化計算過程</li>
+<li>分析電路行為</li>
+</ul>
+</li>
+<li><p><strong>基本原理</strong></p>
+<ul>
+<li>分別考慮電源</li>
+<li>電壓源：短路</li>
+<li>電流源：斷路</li>
+<li>加總個別結果</li>
+</ul>
+</li>
+<li><p><strong>解題步驟</strong></p>
+<ol>
+<li>啟動一個電源</li>
+<li>移除其他電源</li>
+<li>計算數值</li>
+<li>重複每個電源</li>
+<li>加總所有結果</li>
+</ol>
+</li>
+<li><p><strong>重要限制</strong></p>
+<ul>
+<li>僅適用電壓&#x2F;電流</li>
+<li>不適用功率計算</li>
+<li>僅適用線性電路</li>
+<li>獨立電源</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=0qdghn82T40">Introduction to Superposition Theorem</a><br><a href="https://www.youtube.com/watch?v=0qdghn82T40&cc_lang_pref=en&cc_load_policy=1">重疊定理介紹 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Superposition Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Conversion Between Thevenin and Norton Equivalent Circuits - 戴維寧等效電路與諾頓等效電路的互換</title>
+    <url>/2025/05/14/2025-05-14-thevenin-norton-conversion/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the conversion between Thevenin and Norton equivalent circuits, including the mathematical formulas and practical applications in circuit analysis.</p>
+<p>本文解釋戴維寧與諾頓等效電路之間的轉換，包括數學公式和電路分析中的實際應用。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Basic Concepts</strong></p>
+<ul>
+<li>Complex linear circuits can be simplified</li>
+<li>Two equivalent circuit forms:<ul>
+<li>Thevenin equivalent</li>
+<li>Norton equivalent</li>
+</ul>
+</li>
+<li>Both represent same circuit behavior</li>
+</ul>
+</li>
+<li><p><strong>Thevenin to Norton Conversion</strong></p>
+<ul>
+<li>Norton current formula:<br>$$<br>I_N &#x3D; \frac{E_{th}}{R_{th}}<br>$$</li>
+<li>Norton resistance:<br>$$<br>R_N &#x3D; R_{th}<br>$$</li>
+<li>Maintains circuit equivalence</li>
+</ul>
+</li>
+<li><p><strong>Norton to Thevenin Conversion</strong></p>
+<ul>
+<li>Thevenin voltage formula:<br>$$<br>E_{th} &#x3D; I_N \times R_N<br>$$</li>
+<li>Thevenin resistance:<br>$$<br>R_{th} &#x3D; R_N<br>$$</li>
+<li>Preserves circuit characteristics</li>
+</ul>
+</li>
+<li><p><strong>Important Considerations</strong></p>
+<ul>
+<li>Voltage polarity must match current direction</li>
+<li>Current flows from positive voltage terminal</li>
+<li>Equivalent resistance remains unchanged</li>
+<li>Power calculations give same results</li>
+</ul>
+</li>
+<li><p><strong>Analysis Steps</strong></p>
+<ul>
+<li>For equivalent voltage:<ul>
+<li>Calculate open-circuit voltage</li>
+<li>Remove load for measurement</li>
+</ul>
+</li>
+<li>For equivalent resistance:<ul>
+<li>Short voltage sources</li>
+<li>Remove current sources</li>
+<li>Calculate total resistance</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>基本概念</strong></p>
+<ul>
+<li>複雜線性電路可以簡化</li>
+<li>兩種等效電路形式：<ul>
+<li>戴維寧等效</li>
+<li>諾頓等效</li>
+</ul>
+</li>
+<li>兩者表示相同電路行為</li>
+</ul>
+</li>
+<li><p><strong>戴維寧轉諾頓</strong></p>
+<ul>
+<li>諾頓電流公式：<br>$$<br>I_N &#x3D; \frac{E_{th}}{R_{th}}<br>$$</li>
+<li>諾頓電阻：<br>$$<br>R_N &#x3D; R_{th}<br>$$</li>
+<li>保持電路等效性</li>
+</ul>
+</li>
+<li><p><strong>諾頓轉戴維寧</strong></p>
+<ul>
+<li>戴維寧電壓公式：<br>$$<br>E_{th} &#x3D; I_N \times R_N<br>$$</li>
+<li>戴維寧電阻：<br>$$<br>R_{th} &#x3D; R_N<br>$$</li>
+<li>保持電路特性</li>
+</ul>
+</li>
+<li><p><strong>重要注意事項</strong></p>
+<ul>
+<li>電壓極性需對應電流方向</li>
+<li>電流從電壓正端流出</li>
+<li>等效電阻保持不變</li>
+<li>功率計算結果相同</li>
+</ul>
+</li>
+<li><p><strong>分析步驟</strong></p>
+<ul>
+<li>求等效電壓：<ul>
+<li>計算開路電壓</li>
+<li>移除負載測量</li>
+</ul>
+</li>
+<li>求等效電阻：<ul>
+<li>將電壓源短路</li>
+<li>移除電流源</li>
+<li>計算總電阻</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=_MuOuS5Pi5I">Understanding Thevenin-Norton Conversion</a><br><a href="https://www.youtube.com/watch?v=_MuOuS5Pi5I&cc_lang_pref=en&cc_load_policy=1">戴維寧諾頓轉換教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Thevenin</tag>
+        <tag>Norton</tag>
+        <tag>Equivalent Circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of Thevenin&#39;s Theorem Application: Analysis of Diamond and Superposition Circuits - 戴維寧定理應用範例：菱形電路與疊接電路分析</title>
+    <url>/2025/05/14/2025-05-14-thevenin-theorem-examples/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates practical applications of Thevenin’s Theorem through two examples: a diamond circuit and a superposition circuit analysis.</p>
+<p>本文通過兩個範例來展示戴維寧定理的實際應用：菱形電路分析和疊接電路分析。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Thevenin’s Theorem Overview</strong></p>
+<ul>
+<li>Simplifies complex circuits</li>
+<li>Represents load terminals as:<ul>
+<li>Equivalent voltage source</li>
+<li>Series resistance</li>
+</ul>
+</li>
+<li>Useful for circuit analysis</li>
+</ul>
+</li>
+<li><p><strong>Diamond Circuit Analysis</strong></p>
+<ul>
+<li>Remove 9Ω load</li>
+<li>Calculate (V_{ab}) as (E_{th})</li>
+<li>Use voltage division:<ul>
+<li>Find (V_a) and (V_b)</li>
+<li>(E_{th} &#x3D; V_a - V_b &#x3D; 3V)</li>
+</ul>
+</li>
+<li>Find (R_{th} &#x3D; 3 \Omega)</li>
+<li>Calculate load current</li>
+</ul>
+</li>
+<li><p><strong>Superposition Circuit Analysis</strong></p>
+<ul>
+<li>Consider sources separately:<ul>
+<li>Current source effect</li>
+<li>Voltage source effect</li>
+</ul>
+</li>
+<li>Calculate total (E_{th} &#x3D; 40V)</li>
+<li>Find (R_{th} &#x3D; 8 \Omega)</li>
+<li>Apply superposition principle</li>
+</ul>
+</li>
+<li><p><strong>Practical Advantages</strong></p>
+<ul>
+<li>Focus on specific components</li>
+<li>Simplify load changes</li>
+<li>Reduce calculation complexity</li>
+<li>Improve analysis efficiency</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>戴維寧定理概述</strong></p>
+<ul>
+<li>簡化複雜電路</li>
+<li>將負載端點表示為：<ul>
+<li>等效電壓源</li>
+<li>串聯電阻</li>
+</ul>
+</li>
+<li>用於電路分析</li>
+</ul>
+</li>
+<li><p><strong>菱形電路分析</strong></p>
+<ul>
+<li>移除9Ω負載</li>
+<li>計算 (V_{ab}) 作為 (E_{th})</li>
+<li>使用分壓定理：<ul>
+<li>求 (V_a) 和 (V_b)</li>
+<li>(E_{th} &#x3D; V_a - V_b &#x3D; 3V)</li>
+</ul>
+</li>
+<li>求 (R_{th} &#x3D; 3 \Omega)</li>
+<li>計算負載電流</li>
+</ul>
+</li>
+<li><p><strong>疊接電路分析</strong></p>
+<ul>
+<li>分別考慮電源：<ul>
+<li>電流源影響</li>
+<li>電壓源影響</li>
+</ul>
+</li>
+<li>計算總 (E_{th} &#x3D; 40V)</li>
+<li>求 (R_{th} &#x3D; 8 \Omega)</li>
+<li>應用重疊原理</li>
+</ul>
+</li>
+<li><p><strong>實際優勢</strong></p>
+<ul>
+<li>專注於特定元件</li>
+<li>簡化負載變化</li>
+<li>減少計算複雜度</li>
+<li>提高分析效率</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=vUvpvYAcbDs">Thevenin’s Theorem Examples</a><br><a href="https://www.youtube.com/watch?v=vUvpvYAcbDs&cc_lang_pref=en&cc_load_policy=1">戴維寧定理範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Advanced Analysis of Three-Loop Circuit Using Loop Current Method - 迴路電流法進階分析三迴路電路</title>
+    <url>/2025/05/14/2025-05-14-three-loop-circuit-analysis-2/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article provides an in-depth analysis of a complex three-loop circuit using the Loop Current Method, focusing on detailed mathematical modeling and practical applications.</p>
+<p>本文深入分析使用迴路電流法處理複雜三迴路電路，著重於詳細的數學建模和實際應用。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Circuit Configuration</strong></p>
+<ul>
+<li>Three independent loops</li>
+<li>Multiple voltage sources</li>
+<li>Interconnected resistors</li>
+<li>Complex network topology</li>
+</ul>
+</li>
+<li><p><strong>Loop Current Analysis</strong></p>
+<ul>
+<li>Primary loop (IA):<ul>
+<li>Self-impedance: 10Ω</li>
+<li>Mutual coupling: 2Ω, -3Ω</li>
+<li>Source voltage: 10V</li>
+</ul>
+</li>
+<li>Secondary loop (IB):<ul>
+<li>Self-impedance: 13Ω</li>
+<li>Mutual coupling: 2Ω, 5Ω</li>
+<li>Source voltage: 0V</li>
+</ul>
+</li>
+<li>Tertiary loop (IC):<ul>
+<li>Self-impedance: 15Ω</li>
+<li>Mutual coupling: -3Ω, 5Ω</li>
+<li>Source voltage: 20V</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Mathematical Model</strong><br>$$<br>\begin{cases}<br>10IA + 2IB - 3IC &#x3D; 10 \<br>2IA + 13IB + 5IC &#x3D; 0 \<br>-3IA + 5IB + 15IC &#x3D; 20<br>\end{cases}<br>$$</p>
+</li>
+<li><p><strong>Parameter Analysis</strong></p>
+<ul>
+<li>Primary coefficient (A1): 10</li>
+<li>Secondary coefficient (B1): 2</li>
+<li>Tertiary coefficient (C1): -3</li>
+<li>Total coefficient sum: 9</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>電路配置</strong></p>
+<ul>
+<li>三個獨立迴路</li>
+<li>多個電壓源</li>
+<li>互連電阻</li>
+<li>複雜網路拓撲</li>
+</ul>
+</li>
+<li><p><strong>迴路電流分析</strong></p>
+<ul>
+<li>主迴路（IA）：<ul>
+<li>自身阻抗：10Ω</li>
+<li>互耦阻抗：2Ω、-3Ω</li>
+<li>電源電壓：10V</li>
+</ul>
+</li>
+<li>次迴路（IB）：<ul>
+<li>自身阻抗：13Ω</li>
+<li>互耦阻抗：2Ω、5Ω</li>
+<li>電源電壓：0V</li>
+</ul>
+</li>
+<li>第三迴路（IC）：<ul>
+<li>自身阻抗：15Ω</li>
+<li>互耦阻抗：-3Ω、5Ω</li>
+<li>電源電壓：20V</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>數學模型</strong><br>$$<br>\begin{cases}<br>10IA + 2IB - 3IC &#x3D; 10 \<br>2IA + 13IB + 5IC &#x3D; 0 \<br>-3IA + 5IB + 15IC &#x3D; 20<br>\end{cases}<br>$$</p>
+</li>
+<li><p><strong>參數分析</strong></p>
+<ul>
+<li>主係數（A1）：10</li>
+<li>次係數（B1）：2</li>
+<li>第三係數（C1）：-3</li>
+<li>係數總和：9</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=OHU0nyxQfa4">Advanced Three-Loop Circuit Analysis</a><br><a href="https://www.youtube.com/watch?v=OHU0nyxQfa4&cc_lang_pref=en&cc_load_policy=1">進階三迴路電路分析 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example of Loop Current Method Applied to a Three-Loop Circuit - 迴路電流法應用於三個迴路電路範例解析</title>
+    <url>/2025/05/14/2025-05-14-three-loop-circuit-analysis/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Loop Current Method in analyzing a complex circuit with three loops, including detailed mathematical equations and coefficient calculations.</p>
+<p>本文展示迴路電流法在分析三迴路複雜電路中的應用，包含詳細的數學方程式和係數計算。</p>
+<hr>
+<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
+<li><strong>[Show English Only]</strong></li>
+<li><strong>[只顯示中文]</strong></li>
+<li><strong>[Show Both Languages 同時顯示]</strong></li>
+</ul>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Circuit Setup</strong></p>
+<ul>
+<li>Three loop currents: IA, IB, IC</li>
+<li>Multiple voltage sources</li>
+<li>Shared resistors</li>
+<li>Complex network</li>
+</ul>
+</li>
+<li><p><strong>KVL Equations</strong></p>
+<ul>
+<li>First loop equation:<ul>
+<li>Self-resistance: 10Ω</li>
+<li>Adjacent loops: 2Ω, -3Ω</li>
+<li>Voltage source: 10V</li>
+</ul>
+</li>
+<li>Second loop equation:<ul>
+<li>Self-resistance: 13Ω</li>
+<li>Adjacent loops: 2Ω, 5Ω</li>
+<li>Voltage source: 0V</li>
+</ul>
+</li>
+<li>Third loop equation:<ul>
+<li>Self-resistance: 15Ω</li>
+<li>Adjacent loops: -3Ω, 5Ω</li>
+<li>Voltage source: 20V</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Mathematical System</strong><br>$$<br>\begin{cases}<br>10IA + 2IB - 3IC &#x3D; 10 \<br>2IA + 13IB + 5IC &#x3D; 0 \<br>-3IA + 5IB + 15IC &#x3D; 20<br>\end{cases}<br>$$</p>
+</li>
+<li><p><strong>Coefficient Analysis</strong></p>
+<ul>
+<li>A1 &#x3D; 10 (IA coefficient)</li>
+<li>B1 &#x3D; 2 (IB coefficient)</li>
+<li>C1 &#x3D; -3 (IC coefficient)</li>
+<li>Sum: A1 + B1 + C1 &#x3D; 9</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>電路設置</strong></p>
+<ul>
+<li>三個迴路電流：IA、IB、IC</li>
+<li>多個電壓源</li>
+<li>共用電阻</li>
+<li>複雜網路</li>
+</ul>
+</li>
+<li><p><strong>KVL方程式</strong></p>
+<ul>
+<li>第一迴路方程式：<ul>
+<li>自身電阻：10Ω</li>
+<li>相鄰迴路：2Ω、-3Ω</li>
+<li>電壓源：10V</li>
+</ul>
+</li>
+<li>第二迴路方程式：<ul>
+<li>自身電阻：13Ω</li>
+<li>相鄰迴路：2Ω、5Ω</li>
+<li>電壓源：0V</li>
+</ul>
+</li>
+<li>第三迴路方程式：<ul>
+<li>自身電阻：15Ω</li>
+<li>相鄰迴路：-3Ω、5Ω</li>
+<li>電壓源：20V</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>數學方程組</strong><br>$$<br>\begin{cases}<br>10IA + 2IB - 3IC &#x3D; 10 \<br>2IA + 13IB + 5IC &#x3D; 0 \<br>-3IA + 5IB + 15IC &#x3D; 20<br>\end{cases}<br>$$</p>
+</li>
+<li><p><strong>係數分析</strong></p>
+<ul>
+<li>A1 &#x3D; 10（IA係數）</li>
+<li>B1 &#x3D; 2（IB係數）</li>
+<li>C1 &#x3D; -3（IC係數）</li>
+<li>總和：A1 + B1 + C1 &#x3D; 9</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=27o78ZWk0So">Three-Loop Circuit Analysis</a><br><a href="https://www.youtube.com/watch?v=27o78ZWk0So&cc_lang_pref=en&cc_load_policy=1">三迴路電路分析 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
       </tags>
   </entry>
   <entry>

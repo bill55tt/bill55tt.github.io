@@ -2,36 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-coupling-coefficient-analysis/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-three-loop-circuit-analysis-2/</loc>
     
-    <lastmod>2025-05-14T13:26:13.731Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-b/</loc>
-    
-    <lastmod>2025-05-14T13:26:13.731Z</lastmod>
+    <lastmod>2025-05-17T12:30:59.928Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-e/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-three-loop-circuit-analysis/</loc>
     
-    <lastmod>2025-05-14T13:26:13.731Z</lastmod>
+    <lastmod>2025-05-17T12:29:59.170Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-hysteresis-basics/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-loop-current-method-examples/</loc>
     
-    <lastmod>2025-05-14T13:26:13.731Z</lastmod>
+    <lastmod>2025-05-17T12:28:46.312Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-theorem-introduction/</loc>
+    
+    <lastmod>2025-05-17T12:27:25.321Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-dual-voltage/</loc>
+    
+    <lastmod>2025-05-17T12:25:53.274Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-self-mutual-inductance/</loc>
+    
+    <lastmod>2025-05-17T12:13:55.897Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-theorem-examples/</loc>
+    
+    <lastmod>2025-05-17T12:12:35.352Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-maximum-power-transfer-examples/</loc>
+    
+    <lastmod>2025-05-17T12:12:34.156Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-examples/</loc>
+    
+    <lastmod>2025-05-17T12:12:32.924Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-maximum-power-transfer/</loc>
+    
+    <lastmod>2025-05-17T12:12:32.212Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-theorem-introduction/</loc>
+    
+    <lastmod>2025-05-17T12:12:30.828Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-circuit-basics/</loc>
+    
+    <lastmod>2025-05-17T12:12:30.812Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-theorem-example/</loc>
+    
+    <lastmod>2025-05-17T12:12:29.344Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-norton-conversion/</loc>
+    
+    <lastmod>2025-05-17T12:12:28.724Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-current-magnetic-effect/</loc>
+    
+    <lastmod>2025-05-16T12:38:52.693Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-basic-magnetism-concepts/</loc>
+    
+    <lastmod>2025-05-16T12:38:44.913Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-flux-units/</loc>
+    
+    <lastmod>2025-05-16T12:35:51.646Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-coulomb-magnetic-law/</loc>
+    
+    <lastmod>2025-05-16T12:30:38.062Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-long-straight-conductor-magnetic-field/</loc>
+    
+    <lastmod>2025-05-16T12:26:27.433Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,16 +175,43 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-permeability-magnetization-curve/</loc>
     
-    <lastmod>2025-05-14T13:26:13.731Z</lastmod>
+    <lastmod>2025-05-16T12:24:23.459Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-series-inductance-calculation/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-hysteresis-basics/</loc>
     
-    <lastmod>2025-05-14T13:26:13.731Z</lastmod>
+    <lastmod>2025-05-16T12:24:23.415Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-b/</loc>
+    
+    <lastmod>2025-05-16T12:24:23.387Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-coupling-coefficient-analysis/</loc>
+    
+    <lastmod>2025-05-16T12:24:23.359Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-e/</loc>
+    
+    <lastmod>2025-05-16T12:24:23.335Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,16 +220,16 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-series-inductors-combination/</loc>
     
-    <lastmod>2025-05-14T13:26:13.731Z</lastmod>
+    <lastmod>2025-05-16T12:24:23.259Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-series-inductance-calculation/</loc>
     
-    <lastmod>2025-05-14T13:26:13.703Z</lastmod>
+    <lastmod>2025-05-16T12:24:23.227Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +238,7 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-parallel-inductance-calculation/</loc>
     
-    <lastmod>2025-05-14T13:26:13.703Z</lastmod>
+    <lastmod>2025-05-16T12:24:23.187Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +247,7 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-effect-part-a/</loc>
     
-    <lastmod>2025-05-14T13:26:13.391Z</lastmod>
+    <lastmod>2025-05-16T12:24:22.151Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +256,7 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-induction-examples/</loc>
     
-    <lastmod>2025-05-14T13:26:13.391Z</lastmod>
+    <lastmod>2025-05-16T12:24:22.127Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +265,16 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-electromagnetic-induction-part-a/</loc>
     
-    <lastmod>2025-05-14T13:26:13.391Z</lastmod>
+    <lastmod>2025-05-16T12:24:22.099Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage/</loc>
+    
+    <lastmod>2025-05-16T12:24:22.099Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -131,15 +302,6 @@
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-self-inductance-definition/</loc>
     
     <lastmod>2025-05-14T13:17:02.707Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-self-mutual-inductance/</loc>
-    
-    <lastmod>2025-05-14T13:15:54.782Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
