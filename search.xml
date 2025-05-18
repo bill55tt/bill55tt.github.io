@@ -1987,11 +1987,6 @@
     <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article introduces the fundamental concepts of magnetism, including magnet types, magnetic poles, and the characteristics of magnetic fields and field lines.</p>
 <p>本文介紹磁學的基本概念，包括磁鐵類型、磁極以及磁場和磁力線的特性。</p>
 <hr>
-<h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul>
-<li><strong>[Show English Only]</strong></li>
-<li><strong>[只顯示中文]</strong></li>
-<li><strong>[Show Both Languages 同時顯示]</strong></li>
-</ul>
 <hr>
 <h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
 <li><p><strong>Introduction to Magnets</strong></p>
@@ -2138,13 +2133,15 @@
     <url>/2025/05/14/2025-05-14-coulomb-magnetic-law/</url>
     <content><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article explains Coulomb’s magnetic force law and its relationship with magnetic field intensity, including the mathematical formulas and practical applications in electromagnetism.</p>
 <h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><p><strong>Basic Concepts</strong></p>
+<ul>
 <li><p>Coulomb’s magnetic force law is analogous to Newton’s law of universal gravitation</p>
 </li>
 <li><p>Magnetic force magnitude is proportional to the product of magnetic pole strengths</p>
 </li>
 <li><p>Force is inversely proportional to the square of the distance</p>
 </li>
-<li><p>Magnetic force formula:<br>$$<br>F &#x3D; K \frac{M_1 M_2}{d^2}<br>$$<br>where:</p>
+<li><p>Magnetic force formula:<br>$$ F &#x3D; K \frac{M_1 M_2}{d^2} $$<br>where:</p>
 <ul>
 <li>F: magnetic force</li>
 <li>M₁, M₂: magnetic pole strengths</li>
@@ -2156,7 +2153,11 @@
 </li>
 <li><p>Magnetic force constant in air&#x2F;vacuum: K &#x3D; 6.33 × 10⁴ (includes Henry)</p>
 </li>
-<li><p>Magnetic field intensity (H) is force per unit magnetic pole:<br>$$<br>H &#x3D; \frac{F}{m}<br>$$<br>where:</p>
+</ul>
+</li>
+<li><p><strong>Magnetic Field Intensity (H)</strong></p>
+<ul>
+<li><p>Magnetic field intensity is force per unit magnetic pole:<br>$$ H &#x3D; \frac{F}{m} $$<br>where:</p>
 <ul>
 <li>F: force</li>
 <li>m: magnetic pole strength</li>
@@ -2167,16 +2168,20 @@
 <li><p>Direction follows magnetic field line tangent</p>
 </li>
 </ul>
+</li>
+</ul>
 <h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（Please select subtitle settings on the video page and choose auto-translate to your preferred language）</p>
 <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>本文解釋庫侖磁力定律及其與磁場強度的關係，包括數學公式和電磁學中的實際應用。</p>
 <h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><p><strong>基本概念</strong></p>
+<ul>
 <li><p>庫侖磁力定律類似牛頓萬有引力定律</p>
 </li>
 <li><p>磁力大小與磁極強度成正比</p>
 </li>
 <li><p>磁力與距離平方成反比</p>
 </li>
-<li><p>磁力公式：<br>$$<br>F &#x3D; K \frac{M_1 M_2}{d^2}<br>$$<br>其中：</p>
+<li><p>磁力公式：<br>$$ F &#x3D; K \frac{M_1 M_2}{d^2} $$<br>其中：</p>
 <ul>
 <li>F：磁力</li>
 <li>M₁, M₂：磁極強度</li>
@@ -2188,7 +2193,11 @@
 </li>
 <li><p>空氣或真空中磁力常數：K &#x3D; 6.33 × 10⁴（含亨利）</p>
 </li>
-<li><p>磁場強度（H）定義為單位磁極受力：<br>$$<br>H &#x3D; \frac{F}{m}<br>$$<br>其中：</p>
+</ul>
+</li>
+<li><p><strong>磁場強度（H）</strong></p>
+<ul>
+<li><p>磁場強度定義為單位磁極受力：<br>$$ H &#x3D; \frac{F}{m} $$<br>其中：</p>
 <ul>
 <li>F：受力</li>
 <li>m：磁極強度</li>
@@ -2197,6 +2206,8 @@
 <li><p>磁場強度為向量</p>
 </li>
 <li><p>方向為磁力線切線方向</p>
+</li>
+</ul>
 </li>
 </ul>
 <h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
@@ -3496,114 +3507,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Application of Loop Current Method in Circuits with Two and Three Voltage Sources - 迴路電流法應用於兩電壓源與三電壓源電路範例解析</title>
-    <url>/2025/05/14/2025-05-14-loop-current-method-examples/</url>
-    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Loop Current Method in analyzing circuits with multiple voltage sources, including detailed examples with two and three voltage sources.</p>
-<p>本文展示迴路電流法在分析多電壓源電路中的應用，包含兩電壓源和三電壓源的詳細範例。</p>
-<hr>
-<hr>
-<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
-<li><p><strong>Step 1: Loop Current Direction</strong></p>
-<ul>
-<li>Assume clockwise direction</li>
-<li>Label loop currents (IA, IB)</li>
-<li>Mark current directions</li>
-<li>Identify shared branches</li>
-</ul>
-</li>
-<li><p><strong>Step 2: KVL Equations</strong></p>
-<ul>
-<li>Apply Kirchhoff’s Voltage Law</li>
-<li>Consider voltage sources</li>
-<li>Account for shared resistors</li>
-<li>Note sign conventions</li>
-</ul>
-</li>
-<li><p><strong>Step 3: Solve Equations</strong></p>
-<ul>
-<li>Set up simultaneous equations</li>
-<li>Solve for loop currents</li>
-<li>Calculate branch currents</li>
-<li>Verify results</li>
-</ul>
-</li>
-<li><p><strong>Example 1: Two Voltage Sources</strong></p>
-<ul>
-<li>Loop currents: IA&#x3D;2A, IB&#x3D;1A</li>
-<li>Branch currents: I1&#x3D;2A, I2&#x3D;1A, I3&#x3D;1A</li>
-<li>Verification using KVL</li>
-<li>Power calculations</li>
-</ul>
-</li>
-<li><p><strong>Example 2: Three Voltage Sources</strong></p>
-<ul>
-<li>Loop currents: IA&#x3D;12&#x2F;7 A, IB&#x3D;10&#x2F;7 A</li>
-<li>Branch currents: I1&#x3D;12&#x2F;7 A, I2&#x3D;10&#x2F;7 A, I3&#x3D;2&#x2F;7 A</li>
-<li>Complex circuit analysis</li>
-<li>Result verification</li>
-</ul>
-</li>
-</ul>
-<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
-<li><p><strong>步驟1：迴路電流方向</strong></p>
-<ul>
-<li>假設順時針方向</li>
-<li>標示迴路電流（IA、IB）</li>
-<li>標記電流方向</li>
-<li>識別共用支路</li>
-</ul>
-</li>
-<li><p><strong>步驟2：KVL方程式</strong></p>
-<ul>
-<li>應用克希荷夫電壓定律</li>
-<li>考慮電壓源</li>
-<li>處理共用電阻</li>
-<li>注意正負號</li>
-</ul>
-</li>
-<li><p><strong>步驟3：解方程式</strong></p>
-<ul>
-<li>建立聯立方程式</li>
-<li>求解迴路電流</li>
-<li>計算支路電流</li>
-<li>驗證結果</li>
-</ul>
-</li>
-<li><p><strong>範例1：兩電壓源</strong></p>
-<ul>
-<li>迴路電流：IA&#x3D;2A，IB&#x3D;1A</li>
-<li>支路電流：I1&#x3D;2A，I2&#x3D;1A，I3&#x3D;1A</li>
-<li>使用KVL驗證</li>
-<li>功率計算</li>
-</ul>
-</li>
-<li><p><strong>範例2：三電壓源</strong></p>
-<ul>
-<li>迴路電流：IA&#x3D;12&#x2F;7 A，IB&#x3D;10&#x2F;7 A</li>
-<li>支路電流：I1&#x3D;12&#x2F;7 A，I2&#x3D;10&#x2F;7 A，I3&#x3D;2&#x2F;7 A</li>
-<li>複雜電路分析</li>
-<li>結果驗證</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=LfMD_MELg4U">Loop Current Method Examples</a><br><a href="https://www.youtube.com/watch?v=LfMD_MELg4U&cc_lang_pref=en&cc_load_policy=1">迴路電流法範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
-<hr>
-<p><em>文章日期：2025-05-14</em> </p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electronics</category>
-      </categories>
-      <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Electronics</tag>
-        <tag>Loop Current Method</tag>
-        <tag>Circuit Analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Magnetic Flux Units and Calculations - 磁力線單位與計算</title>
     <url>/2025/05/14/2025-05-14-magnetic-flux-units/</url>
     <content><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article explains the fundamental units of magnetic flux, their relationships, and practical calculations in both SI and CGS systems.</p>
@@ -3709,6 +3612,114 @@
         <tag>Calculations</tag>
         <tag>Magnetic Flux</tag>
         <tag>Units</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Application of Loop Current Method in Circuits with Two and Three Voltage Sources - 迴路電流法應用於兩電壓源與三電壓源電路範例解析</title>
+    <url>/2025/05/14/2025-05-14-loop-current-method-examples/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Loop Current Method in analyzing circuits with multiple voltage sources, including detailed examples with two and three voltage sources.</p>
+<p>本文展示迴路電流法在分析多電壓源電路中的應用，包含兩電壓源和三電壓源的詳細範例。</p>
+<hr>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Step 1: Loop Current Direction</strong></p>
+<ul>
+<li>Assume clockwise direction</li>
+<li>Label loop currents (IA, IB)</li>
+<li>Mark current directions</li>
+<li>Identify shared branches</li>
+</ul>
+</li>
+<li><p><strong>Step 2: KVL Equations</strong></p>
+<ul>
+<li>Apply Kirchhoff’s Voltage Law</li>
+<li>Consider voltage sources</li>
+<li>Account for shared resistors</li>
+<li>Note sign conventions</li>
+</ul>
+</li>
+<li><p><strong>Step 3: Solve Equations</strong></p>
+<ul>
+<li>Set up simultaneous equations</li>
+<li>Solve for loop currents</li>
+<li>Calculate branch currents</li>
+<li>Verify results</li>
+</ul>
+</li>
+<li><p><strong>Example 1: Two Voltage Sources</strong></p>
+<ul>
+<li>Loop currents: IA&#x3D;2A, IB&#x3D;1A</li>
+<li>Branch currents: I1&#x3D;2A, I2&#x3D;1A, I3&#x3D;1A</li>
+<li>Verification using KVL</li>
+<li>Power calculations</li>
+</ul>
+</li>
+<li><p><strong>Example 2: Three Voltage Sources</strong></p>
+<ul>
+<li>Loop currents: IA&#x3D;12&#x2F;7 A, IB&#x3D;10&#x2F;7 A</li>
+<li>Branch currents: I1&#x3D;12&#x2F;7 A, I2&#x3D;10&#x2F;7 A, I3&#x3D;2&#x2F;7 A</li>
+<li>Complex circuit analysis</li>
+<li>Result verification</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>步驟1：迴路電流方向</strong></p>
+<ul>
+<li>假設順時針方向</li>
+<li>標示迴路電流（IA、IB）</li>
+<li>標記電流方向</li>
+<li>識別共用支路</li>
+</ul>
+</li>
+<li><p><strong>步驟2：KVL方程式</strong></p>
+<ul>
+<li>應用克希荷夫電壓定律</li>
+<li>考慮電壓源</li>
+<li>處理共用電阻</li>
+<li>注意正負號</li>
+</ul>
+</li>
+<li><p><strong>步驟3：解方程式</strong></p>
+<ul>
+<li>建立聯立方程式</li>
+<li>求解迴路電流</li>
+<li>計算支路電流</li>
+<li>驗證結果</li>
+</ul>
+</li>
+<li><p><strong>範例1：兩電壓源</strong></p>
+<ul>
+<li>迴路電流：IA&#x3D;2A，IB&#x3D;1A</li>
+<li>支路電流：I1&#x3D;2A，I2&#x3D;1A，I3&#x3D;1A</li>
+<li>使用KVL驗證</li>
+<li>功率計算</li>
+</ul>
+</li>
+<li><p><strong>範例2：三電壓源</strong></p>
+<ul>
+<li>迴路電流：IA&#x3D;12&#x2F;7 A，IB&#x3D;10&#x2F;7 A</li>
+<li>支路電流：I1&#x3D;12&#x2F;7 A，I2&#x3D;10&#x2F;7 A，I3&#x3D;2&#x2F;7 A</li>
+<li>複雜電路分析</li>
+<li>結果驗證</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=LfMD_MELg4U">Loop Current Method Examples</a><br><a href="https://www.youtube.com/watch?v=LfMD_MELg4U&cc_lang_pref=en&cc_load_policy=1">迴路電流法範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -7763,45 +7774,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Analysis and Application of Delta (Δ) to Y-Shape Circuit Conversion - 三角形(Δ)轉換為Y形電路解析與應用</title>
-    <url>/2025/05/18/2025-05-18-delta-y-transformation-method/</url>
-    <content><![CDATA[<h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p>Analysis and Application of Delta (Δ) to Y-Shape Circuit Conversion</p>
-<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points:"></a>Key Points:</h3><ul>
-<li>The formula for converting delta resistors to Y resistors is:<br>$$<br>R_a &#x3D; \frac{R_{12} \times R_{13}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_b &#x3D; \frac{R_{12} \times R_{23}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_c &#x3D; \frac{R_{23} \times R_{13}}{R_{12} + R_{23} + R_{13}}<br>$$</li>
-<li>Overlaying circuit diagrams helps in calculation and understanding.</li>
-<li>Conversion simplifies complex circuits for easier total resistance and current calculation.</li>
-<li>When the Wheatstone bridge is unbalanced, delta-Y conversion is necessary.</li>
-<li>Example results: Ra&#x3D;1Ω, Rb&#x3D;2Ω, Rc&#x3D;2Ω, with total resistance and current calculated.</li>
-<li>Advanced problems use delta-to-Y conversion and comparison to solve unknown resistors.</li>
-</ul>
-<h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p>三角形(Δ)轉換為Y形電路解析與應用</p>
-<h3 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h3><ul>
-<li>三角形電阻轉換為Y形電阻，計算公式為：<br>$$<br>R_a &#x3D; \frac{R_{12} \times R_{13}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_b &#x3D; \frac{R_{12} \times R_{23}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_c &#x3D; \frac{R_{23} \times R_{13}}{R_{12} + R_{23} + R_{13}}<br>$$</li>
-<li>透過重疊電路圖，方便計算與理解轉換關係。</li>
-<li>轉換後可簡化複雜電路，方便計算總電阻與總電流。</li>
-<li>惠斯登電橋不平衡時，必須使用三角形與Y形互換法。</li>
-<li>實例中計算出Ra&#x3D;1Ω，Rb&#x3D;2Ω，Rc&#x3D;2Ω，並求出總電阻與總電流。</li>
-<li>進階題型中，利用三角形轉Y形後，透過比對求解未知電阻。</li>
-</ul>
-<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><p><a href="https://www.youtube.com/watch?v=F7Wvfpgv2o8">相關影片連結</a></p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electronics</category>
-        <category>Basic Electronics</category>
-        <category>Circuit Analysis</category>
-      </categories>
-      <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
-        <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
-        <tag>Delta-Y Transformation</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DC Network Analysis: Basics and Problem-Solving Steps of Node Voltage Method (Part A) - 直流網路分析：節點電壓法基礎與解題步驟（Part A）</title>
     <url>/2025/05/18/2025-05-18-dc-network-analysis-node-voltage-part-a/</url>
     <content><![CDATA[<h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p>DC Network Analysis: Basics and Problem-Solving Steps of Node Voltage Method (Part A)</p>
@@ -7859,6 +7831,45 @@
         <tag>Electronics</tag>
         <tag>DC Circuit</tag>
         <tag>Node Voltage Method</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Analysis and Application of Delta (Δ) to Y-Shape Circuit Conversion - 三角形(Δ)轉換為Y形電路解析與應用</title>
+    <url>/2025/05/18/2025-05-18-delta-y-transformation-method/</url>
+    <content><![CDATA[<h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p>Analysis and Application of Delta (Δ) to Y-Shape Circuit Conversion</p>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points:"></a>Key Points:</h3><ul>
+<li>The formula for converting delta resistors to Y resistors is:<br>$$<br>R_a &#x3D; \frac{R_{12} \times R_{13}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_b &#x3D; \frac{R_{12} \times R_{23}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_c &#x3D; \frac{R_{23} \times R_{13}}{R_{12} + R_{23} + R_{13}}<br>$$</li>
+<li>Overlaying circuit diagrams helps in calculation and understanding.</li>
+<li>Conversion simplifies complex circuits for easier total resistance and current calculation.</li>
+<li>When the Wheatstone bridge is unbalanced, delta-Y conversion is necessary.</li>
+<li>Example results: Ra&#x3D;1Ω, Rb&#x3D;2Ω, Rc&#x3D;2Ω, with total resistance and current calculated.</li>
+<li>Advanced problems use delta-to-Y conversion and comparison to solve unknown resistors.</li>
+</ul>
+<h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p>三角形(Δ)轉換為Y形電路解析與應用</p>
+<h3 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h3><ul>
+<li>三角形電阻轉換為Y形電阻，計算公式為：<br>$$<br>R_a &#x3D; \frac{R_{12} \times R_{13}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_b &#x3D; \frac{R_{12} \times R_{23}}{R_{12} + R_{23} + R_{13}}, \quad<br>R_c &#x3D; \frac{R_{23} \times R_{13}}{R_{12} + R_{23} + R_{13}}<br>$$</li>
+<li>透過重疊電路圖，方便計算與理解轉換關係。</li>
+<li>轉換後可簡化複雜電路，方便計算總電阻與總電流。</li>
+<li>惠斯登電橋不平衡時，必須使用三角形與Y形互換法。</li>
+<li>實例中計算出Ra&#x3D;1Ω，Rb&#x3D;2Ω，Rc&#x3D;2Ω，並求出總電阻與總電流。</li>
+<li>進階題型中，利用三角形轉Y形後，透過比對求解未知電阻。</li>
+</ul>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><p><a href="https://www.youtube.com/watch?v=F7Wvfpgv2o8">相關影片連結</a></p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+        <category>Basic Electronics</category>
+        <category>Circuit Analysis</category>
+      </categories>
+      <tags>
+        <tag>Basic Electronics</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Tutorial</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Delta-Y Transformation</tag>
       </tags>
   </entry>
   <entry>

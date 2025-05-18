@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-05-18T08:24:01.736Z</updated>
+  <updated>2025-05-18T08:09:44.874Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DC Network Analysis: Basics and Problem-Solving Steps of Node Voltage Method (Part A) - 直流網路分析：節點電壓法基礎與解題步驟（Part A）</title>
+    <link href="https://bill55tt.github.io/2025/05/18/2025-05-18-dc-network-analysis-node-voltage-part-a/"/>
+    <id>https://bill55tt.github.io/2025/05/18/2025-05-18-dc-network-analysis-node-voltage-part-a/</id>
+    <published>2025-05-17T16:00:00.000Z</published>
+    <updated>2025-05-18T08:09:44.874Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p>DC Network Analysis: Basics and Problem-Solving Steps of Node Voltage Method (Part A)</p><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary:"></a>Key Points Summary:</h3><ul><li><strong>Node Definition:</strong> A point where two or more components connect.</li><li><strong>Reference Node:</strong> Set as zero potential (ground).</li><li><strong>Kirchhoff’s Current Law (KCL):</strong> The sum of currents entering a node equals the sum leaving it.</li><li><strong>Ohm’s Law:</strong> Voltage across a resistor equals current times resistance.</li><li><strong>Node Voltage Method Steps:</strong><ol><li>Set reference node (0V).</li><li>Label unknown node voltages.</li><li>Assume current directions and label them.</li><li>Write KCL equations.</li><li>Use Ohm’s law to express currents.</li><li>Substitute into KCL equations.</li><li>Solve for unknown node voltages.</li><li>Substitute back to find branch currents.</li></ol></li><li><strong>Negative Current:</strong> Indicates opposite direction to assumed.</li><li><strong>Verification:</strong> Check current conservation.</li></ul><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p>直流網路分析：節點電壓法基礎與解題步驟（Part A）</p><h3 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h3><ul><li><strong>節點定義</strong>：兩個或以上元件連接的點。</li><li><strong>參考節點</strong>：設為零電位（接地點）。</li><li><strong>克希荷夫電流定律 (KCL)</strong>：任一節點流入電流總和等於流出電流總和。</li><li><strong>歐姆定律</strong>：電阻兩端電壓差等於電流乘以電阻。</li><li><strong>節點電壓法步驟</strong>：<ol><li>設定參考節點（0V）。</li><li>標示未知節點電壓。</li><li>假設電流方向並標示。</li><li>寫出KCL方程式。</li><li>利用歐姆定律寫出電流算式。</li><li>代入KCL方程式。</li><li>解方程式求未知節點電壓。</li><li>代回求各支路電流。</li></ol></li><li><strong>電流負號意義</strong>：方向與假設相反。</li><li><strong>驗算</strong>：確認電流守恆。</li></ul><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><p><a href="https://www.youtube.com/watch?v=QpYlQZr2q3Y">高中基本電學_直流網路分析_節點電壓法_part A 相關知識、解題步驟、範例_胡凱詠</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Title&quot;&gt;&lt;a href=&quot;#Title&quot; class=&quot;headerlink&quot; title=&quot;Title&quot;&gt;&lt;/a&gt;Title&lt;/h3&gt;&lt;p&gt;DC Network Analysis: Basics and Problem-Solving Steps of N</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Physics/Electronics/"/>
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Physics/Electronics/Basic-Electronics/"/>
+    
+    
+    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
+    
+    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
+    
+    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
+    
+    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
+    
+    <category term="Electronics" scheme="https://bill55tt.github.io/tags/Electronics/"/>
+    
+    <category term="DC Circuit" scheme="https://bill55tt.github.io/tags/DC-Circuit/"/>
+    
+    <category term="Node Voltage Method" scheme="https://bill55tt.github.io/tags/Node-Voltage-Method/"/>
+    
+  </entry>
   
   <entry>
     <title>Analysis and Application of Delta (Δ) to Y-Shape Circuit Conversion - 三角形(Δ)轉換為Y形電路解析與應用</title>
@@ -58,49 +101,6 @@
     <category term="Circuit Analysis" scheme="https://bill55tt.github.io/tags/Circuit-Analysis/"/>
     
     <category term="Delta-Y Transformation" scheme="https://bill55tt.github.io/tags/Delta-Y-Transformation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DC Network Analysis: Basics and Problem-Solving Steps of Node Voltage Method (Part A) - 直流網路分析：節點電壓法基礎與解題步驟（Part A）</title>
-    <link href="https://bill55tt.github.io/2025/05/18/2025-05-18-dc-network-analysis-node-voltage-part-a/"/>
-    <id>https://bill55tt.github.io/2025/05/18/2025-05-18-dc-network-analysis-node-voltage-part-a/</id>
-    <published>2025-05-17T16:00:00.000Z</published>
-    <updated>2025-05-18T08:09:44.874Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p>DC Network Analysis: Basics and Problem-Solving Steps of Node Voltage Method (Part A)</p><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary:"></a>Key Points Summary:</h3><ul><li><strong>Node Definition:</strong> A point where two or more components connect.</li><li><strong>Reference Node:</strong> Set as zero potential (ground).</li><li><strong>Kirchhoff’s Current Law (KCL):</strong> The sum of currents entering a node equals the sum leaving it.</li><li><strong>Ohm’s Law:</strong> Voltage across a resistor equals current times resistance.</li><li><strong>Node Voltage Method Steps:</strong><ol><li>Set reference node (0V).</li><li>Label unknown node voltages.</li><li>Assume current directions and label them.</li><li>Write KCL equations.</li><li>Use Ohm’s law to express currents.</li><li>Substitute into KCL equations.</li><li>Solve for unknown node voltages.</li><li>Substitute back to find branch currents.</li></ol></li><li><strong>Negative Current:</strong> Indicates opposite direction to assumed.</li><li><strong>Verification:</strong> Check current conservation.</li></ul><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p>直流網路分析：節點電壓法基礎與解題步驟（Part A）</p><h3 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h3><ul><li><strong>節點定義</strong>：兩個或以上元件連接的點。</li><li><strong>參考節點</strong>：設為零電位（接地點）。</li><li><strong>克希荷夫電流定律 (KCL)</strong>：任一節點流入電流總和等於流出電流總和。</li><li><strong>歐姆定律</strong>：電阻兩端電壓差等於電流乘以電阻。</li><li><strong>節點電壓法步驟</strong>：<ol><li>設定參考節點（0V）。</li><li>標示未知節點電壓。</li><li>假設電流方向並標示。</li><li>寫出KCL方程式。</li><li>利用歐姆定律寫出電流算式。</li><li>代入KCL方程式。</li><li>解方程式求未知節點電壓。</li><li>代回求各支路電流。</li></ol></li><li><strong>電流負號意義</strong>：方向與假設相反。</li><li><strong>驗算</strong>：確認電流守恆。</li></ul><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><p><a href="https://www.youtube.com/watch?v=QpYlQZr2q3Y">高中基本電學_直流網路分析_節點電壓法_part A 相關知識、解題步驟、範例_胡凱詠</a></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Title&quot;&gt;&lt;a href=&quot;#Title&quot; class=&quot;headerlink&quot; title=&quot;Title&quot;&gt;&lt;/a&gt;Title&lt;/h3&gt;&lt;p&gt;DC Network Analysis: Basics and Problem-Solving Steps of N</summary>
-        
-      
-    
-    
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/categories/Physics/"/>
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/categories/Physics/Electronics/"/>
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/categories/Physics/Electronics/Basic-Electronics/"/>
-    
-    
-    <category term="Basic Electronics" scheme="https://bill55tt.github.io/tags/Basic-Electronics/"/>
-    
-    <category term="Physics" scheme="https://bill55tt.github.io/tags/Physics/"/>
-    
-    <category term="Bilingual" scheme="https://bill55tt.github.io/tags/Bilingual/"/>
-    
-    <category term="Tutorial" scheme="https://bill55tt.github.io/tags/Tutorial/"/>
-    
-    <category term="Electronics" scheme="https://bill55tt.github.io/tags/Electronics/"/>
-    
-    <category term="DC Circuit" scheme="https://bill55tt.github.io/tags/DC-Circuit/"/>
-    
-    <category term="Node Voltage Method" scheme="https://bill55tt.github.io/tags/Node-Voltage-Method/"/>
     
   </entry>
   
@@ -155,9 +155,9 @@
     <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-basic-magnetism-concepts/"/>
     <id>https://bill55tt.github.io/2025/05/14/2025-05-14-basic-magnetism-concepts/</id>
     <published>2025-05-13T16:00:00.000Z</published>
-    <updated>2025-05-16T12:38:44.913Z</updated>
+    <updated>2025-05-18T12:29:40.531Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article introduces the fundamental concepts of magnetism, including magnet types, magnetic poles, and the characteristics of magnetic fields and field lines.</p><p>本文介紹磁學的基本概念，包括磁鐵類型、磁極以及磁場和磁力線的特性。</p><hr><h3 id="Bilingual-Display-Controls-雙語顯示控制"><a href="#Bilingual-Display-Controls-雙語顯示控制" class="headerlink" title="Bilingual Display Controls 雙語顯示控制"></a>Bilingual Display Controls 雙語顯示控制</h3><ul><li><strong>[Show English Only]</strong></li><li><strong>[只顯示中文]</strong></li><li><strong>[Show Both Languages 同時顯示]</strong></li></ul><hr><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul><li><p><strong>Introduction to Magnets</strong></p><ul><li>Magnets attract iron objects</li><li>Two types: natural and artificial</li><li>Essential in electromagnetism</li></ul></li><li><p><strong>Magnet Poles</strong></p><ul><li>North (N) pole: usually red</li><li>South (S) pole: black or dark blue</li><li>Clear visual identification</li></ul></li><li><p><strong>Magnet Characteristics</strong></p><ul><li>Strongest magnetic force at poles</li><li>N pole points to Earth’s magnetic north</li><li>S pole points to Earth’s magnetic south</li><li>Poles always exist in pairs</li><li>Like poles repel, opposite poles attract</li></ul></li><li><p><strong>Magnetic Field and Field Lines</strong></p><ul><li>Field: space where magnetic forces act</li><li>Lines run from N to S pole</li><li>Form closed loops</li><li>Perpendicular to magnet surface</li><li>Never cross each other</li><li>Density indicates field strength</li><li>Tangent shows field direction</li></ul></li></ul><h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul><li><p><strong>磁鐵介紹</strong></p><ul><li>能吸引鐵器</li><li>分為天然和人造兩種</li><li>電磁學基礎元件</li></ul></li><li><p><strong>磁極標示</strong></p><ul><li>北極（N）：通常為紅色</li><li>南極（S）：黑色或深藍色</li><li>便於視覺識別</li></ul></li><li><p><strong>磁鐵特性</strong></p><ul><li>兩端磁性最強</li><li>N極指向地磁北極</li><li>S極指向地磁南極</li><li>磁極總是成對出現</li><li>同性相斥，異性相吸</li></ul></li><li><p><strong>磁場與磁力線</strong></p><ul><li>磁場：磁力作用的空間</li><li>磁力線由N極到S極</li><li>形成閉合迴路</li><li>與磁極表面垂直</li><li>永不交叉</li><li>密集度表示磁場強度</li><li>切線方向為磁場方向</li></ul></li></ul><hr><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=b6pIfQnERaQ">Understanding Basic Magnetism</a><br><a href="https://www.youtube.com/watch?v=b6pIfQnERaQ&cc_lang_pref=en&cc_load_policy=1">磁學基本概念教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p><hr><p><em>文章日期：2025-05-14</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article introduces the fundamental concepts of magnetism, including magnet types, magnetic poles, and the characteristics of magnetic fields and field lines.</p><p>本文介紹磁學的基本概念，包括磁鐵類型、磁極以及磁場和磁力線的特性。</p><hr><hr><h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul><li><p><strong>Introduction to Magnets</strong></p><ul><li>Magnets attract iron objects</li><li>Two types: natural and artificial</li><li>Essential in electromagnetism</li></ul></li><li><p><strong>Magnet Poles</strong></p><ul><li>North (N) pole: usually red</li><li>South (S) pole: black or dark blue</li><li>Clear visual identification</li></ul></li><li><p><strong>Magnet Characteristics</strong></p><ul><li>Strongest magnetic force at poles</li><li>N pole points to Earth’s magnetic north</li><li>S pole points to Earth’s magnetic south</li><li>Poles always exist in pairs</li><li>Like poles repel, opposite poles attract</li></ul></li><li><p><strong>Magnetic Field and Field Lines</strong></p><ul><li>Field: space where magnetic forces act</li><li>Lines run from N to S pole</li><li>Form closed loops</li><li>Perpendicular to magnet surface</li><li>Never cross each other</li><li>Density indicates field strength</li><li>Tangent shows field direction</li></ul></li></ul><h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul><li><p><strong>磁鐵介紹</strong></p><ul><li>能吸引鐵器</li><li>分為天然和人造兩種</li><li>電磁學基礎元件</li></ul></li><li><p><strong>磁極標示</strong></p><ul><li>北極（N）：通常為紅色</li><li>南極（S）：黑色或深藍色</li><li>便於視覺識別</li></ul></li><li><p><strong>磁鐵特性</strong></p><ul><li>兩端磁性最強</li><li>N極指向地磁北極</li><li>S極指向地磁南極</li><li>磁極總是成對出現</li><li>同性相斥，異性相吸</li></ul></li><li><p><strong>磁場與磁力線</strong></p><ul><li>磁場：磁力作用的空間</li><li>磁力線由N極到S極</li><li>形成閉合迴路</li><li>與磁極表面垂直</li><li>永不交叉</li><li>密集度表示磁場強度</li><li>切線方向為磁場方向</li></ul></li></ul><hr><h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=b6pIfQnERaQ">Understanding Basic Magnetism</a><br><a href="https://www.youtube.com/watch?v=b6pIfQnERaQ&cc_lang_pref=en&cc_load_policy=1">磁學基本概念教學 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p><hr><p><em>文章日期：2025-05-14</em> </p>]]></content>
     
     
       
@@ -233,9 +233,9 @@
     <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-coulomb-magnetic-law/"/>
     <id>https://bill55tt.github.io/2025/05/14/2025-05-14-coulomb-magnetic-law/</id>
     <published>2025-05-13T16:00:00.000Z</published>
-    <updated>2025-05-18T08:49:08.953Z</updated>
+    <updated>2025-05-18T12:29:33.467Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article explains Coulomb’s magnetic force law and its relationship with magnetic field intensity, including the mathematical formulas and practical applications in electromagnetism.</p><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul><li><p>Coulomb’s magnetic force law is analogous to Newton’s law of universal gravitation</p></li><li><p>Magnetic force magnitude is proportional to the product of magnetic pole strengths</p></li><li><p>Force is inversely proportional to the square of the distance</p></li><li><p>Magnetic force formula:<br>$$<br>F &#x3D; K \frac{M_1 M_2}{d^2}<br>$$<br>where:</p><ul><li>F: magnetic force</li><li>M₁, M₂: magnetic pole strengths</li><li>d: distance between poles</li><li>K: magnetic force constant</li></ul></li><li><p>Magnetic pole strength unit is Weber (Wb)</p></li><li><p>Magnetic force constant in air&#x2F;vacuum: K &#x3D; 6.33 × 10⁴ (includes Henry)</p></li><li><p>Magnetic field intensity (H) is force per unit magnetic pole:<br>$$<br>H &#x3D; \frac{F}{m}<br>$$<br>where:</p><ul><li>F: force</li><li>m: magnetic pole strength</li></ul></li><li><p>Magnetic field intensity is a vector quantity</p></li><li><p>Direction follows magnetic field line tangent</p></li></ul><h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（Please select subtitle settings on the video page and choose auto-translate to your preferred language）</p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>本文解釋庫侖磁力定律及其與磁場強度的關係，包括數學公式和電磁學中的實際應用。</p><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul><li><p>庫侖磁力定律類似牛頓萬有引力定律</p></li><li><p>磁力大小與磁極強度成正比</p></li><li><p>磁力與距離平方成反比</p></li><li><p>磁力公式：<br>$$<br>F &#x3D; K \frac{M_1 M_2}{d^2}<br>$$<br>其中：</p><ul><li>F：磁力</li><li>M₁, M₂：磁極強度</li><li>d：磁極間距離</li><li>K：磁力常數</li></ul></li><li><p>磁極強度單位為韋伯（Wb）</p></li><li><p>空氣或真空中磁力常數：K &#x3D; 6.33 × 10⁴（含亨利）</p></li><li><p>磁場強度（H）定義為單位磁極受力：<br>$$<br>H &#x3D; \frac{F}{m}<br>$$<br>其中：</p><ul><li>F：受力</li><li>m：磁極強度</li></ul></li><li><p>磁場強度為向量</p></li><li><p>方向為磁力線切線方向</p></li></ul><h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p><p><em>文章日期：2025-05-14</em> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article explains Coulomb’s magnetic force law and its relationship with magnetic field intensity, including the mathematical formulas and practical applications in electromagnetism.</p><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul><li><p><strong>Basic Concepts</strong></p><ul><li><p>Coulomb’s magnetic force law is analogous to Newton’s law of universal gravitation</p></li><li><p>Magnetic force magnitude is proportional to the product of magnetic pole strengths</p></li><li><p>Force is inversely proportional to the square of the distance</p></li><li><p>Magnetic force formula:<br>$$ F &#x3D; K \frac{M_1 M_2}{d^2} $$<br>where:</p><ul><li>F: magnetic force</li><li>M₁, M₂: magnetic pole strengths</li><li>d: distance between poles</li><li>K: magnetic force constant</li></ul></li><li><p>Magnetic pole strength unit is Weber (Wb)</p></li><li><p>Magnetic force constant in air&#x2F;vacuum: K &#x3D; 6.33 × 10⁴ (includes Henry)</p></li></ul></li><li><p><strong>Magnetic Field Intensity (H)</strong></p><ul><li><p>Magnetic field intensity is force per unit magnetic pole:<br>$$ H &#x3D; \frac{F}{m} $$<br>where:</p><ul><li>F: force</li><li>m: magnetic pole strength</li></ul></li><li><p>Magnetic field intensity is a vector quantity</p></li><li><p>Direction follows magnetic field line tangent</p></li></ul></li></ul><h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（Please select subtitle settings on the video page and choose auto-translate to your preferred language）</p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>本文解釋庫侖磁力定律及其與磁場強度的關係，包括數學公式和電磁學中的實際應用。</p><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul><li><p><strong>基本概念</strong></p><ul><li><p>庫侖磁力定律類似牛頓萬有引力定律</p></li><li><p>磁力大小與磁極強度成正比</p></li><li><p>磁力與距離平方成反比</p></li><li><p>磁力公式：<br>$$ F &#x3D; K \frac{M_1 M_2}{d^2} $$<br>其中：</p><ul><li>F：磁力</li><li>M₁, M₂：磁極強度</li><li>d：磁極間距離</li><li>K：磁力常數</li></ul></li><li><p>磁極強度單位為韋伯（Wb）</p></li><li><p>空氣或真空中磁力常數：K &#x3D; 6.33 × 10⁴（含亨利）</p></li></ul></li><li><p><strong>磁場強度（H）</strong></p><ul><li><p>磁場強度定義為單位磁極受力：<br>$$ H &#x3D; \frac{F}{m} $$<br>其中：</p><ul><li>F：受力</li><li>m：磁極強度</li></ul></li><li><p>磁場強度為向量</p></li><li><p>方向為磁力線切線方向</p></li></ul></li></ul><h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p><p><em>文章日期：2025-05-14</em> </p>]]></content>
     
     
       
@@ -541,7 +541,7 @@
     <link href="https://bill55tt.github.io/2025/05/14/2025-05-14-force-between-current-carrying-conductors/"/>
     <id>https://bill55tt.github.io/2025/05/14/2025-05-14-force-between-current-carrying-conductors/</id>
     <published>2025-05-13T16:00:00.000Z</published>
-    <updated>2025-05-18T12:23:01.192Z</updated>
+    <updated>2025-05-18T12:29:04.626Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article examines the magnetic force between two long straight conductors carrying current, including the calculation formula and practical examples with different scenarios.</p><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="1-Basic-Principles"><a href="#1-Basic-Principles" class="headerlink" title="1. Basic Principles"></a>1. Basic Principles</h3><ul><li>Two long straight conductors carrying current exert magnetic forces on each other.</li><li>Force magnitude formula:<br>$$<br>F &#x3D; \frac{\mu l I_1 I_2}{2 \pi d}<br>$$<br>where $\mu$ is permeability, $l$ is length, $I_1, I_2$ are currents, and $d$ is distance between conductors.</li></ul><h3 id="2-Force-Direction"><a href="#2-Force-Direction" class="headerlink" title="2. Force Direction"></a>2. Force Direction</h3><ul><li>Same current direction causes attraction; opposite direction causes repulsion.</li><li>The direction of force can be determined using the right-hand rule for magnetic fields.</li></ul><h3 id="3-Example-Calculations"><a href="#3-Example-Calculations" class="headerlink" title="3. Example Calculations"></a>3. Example Calculations</h3><ul><li>Example 1: $I_1&#x3D;10A$, $I_2&#x3D;20A$, $l&#x3D;10m$, $d&#x3D;1m$, force is $4 \times 10^{-4} N$, attractive.</li><li>Example 2: Two wires 0.5m apart, current 20A, length 50m, force is 0.008N, repulsive.</li></ul><h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">Force Between Current-Carrying Conductors</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>本文探討兩長直導體通電流時彼此間的磁力作用，包括計算公式和不同情況下的實際範例。</p><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="1-基本原理"><a href="#1-基本原理" class="headerlink" title="1. 基本原理"></a>1. 基本原理</h3><ul><li>兩長直導體通電流時，彼此會產生磁力作用。</li><li>受力大小公式為：<br>$$<br>F &#x3D; \frac{\mu l I_1 I_2}{2 \pi d}<br>$$<br>其中，$\mu$為磁導率，$l$為導體長度，$I_1, I_2$為電流，$d$為兩導體間距。</li></ul><h3 id="2-力的方向"><a href="#2-力的方向" class="headerlink" title="2. 力的方向"></a>2. 力的方向</h3><ul><li>電流方向相同時，導體間力為相吸；方向相反時，力為相斥。</li><li>力的方向可用磁場的右手定則判斷。</li></ul><h3 id="3-範例計算"><a href="#3-範例計算" class="headerlink" title="3. 範例計算"></a>3. 範例計算</h3><ul><li>範例1：$I_1&#x3D;10A$, $I_2&#x3D;20A$, $l&#x3D;10m$, $d&#x3D;1m$，計算出力為 $4 \times 10^{-4} N$，方向相吸。</li><li>範例2：電路中兩條線距離0.5m，電流20A，長度50m，計算力為0.008N，方向相斥。</li></ul><h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">Force Between Current-Carrying Conductors</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>]]></content>
     

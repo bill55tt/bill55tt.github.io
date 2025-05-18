@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-norton-conversion/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-basic-magnetism-concepts/</loc>
     
-    <lastmod>2025-05-18T12:23:49.161Z</lastmod>
+    <lastmod>2025-05-18T12:29:40.531Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-coulomb-magnetic-law/</loc>
+    
+    <lastmod>2025-05-18T12:29:33.467Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,16 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-force-between-current-carrying-conductors/</loc>
     
-    <lastmod>2025-05-18T12:23:01.192Z</lastmod>
+    <lastmod>2025-05-18T12:29:04.626Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-norton-conversion/</loc>
+    
+    <lastmod>2025-05-18T12:23:49.161Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -140,15 +158,6 @@
     <loc>https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/</loc>
     
     <lastmod>2025-05-18T08:50:55.675Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-coulomb-magnetic-law/</loc>
-    
-    <lastmod>2025-05-18T08:49:08.953Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -509,15 +518,6 @@
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-theorem-introduction/</loc>
     
     <lastmod>2025-05-18T03:03:59.746Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-basic-magnetism-concepts/</loc>
-    
-    <lastmod>2025-05-16T12:38:44.913Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
