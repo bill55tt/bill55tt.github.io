@@ -2,81 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-three-loop-circuit-analysis-2/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-norton-conversion/</loc>
     
-    <lastmod>2025-05-17T12:30:59.928Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-three-loop-circuit-analysis/</loc>
-    
-    <lastmod>2025-05-17T12:29:59.170Z</lastmod>
+    <lastmod>2025-05-18T12:23:49.161Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-loop-current-method-examples/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-force-between-current-carrying-conductors/</loc>
     
-    <lastmod>2025-05-17T12:28:46.312Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-theorem-introduction/</loc>
-    
-    <lastmod>2025-05-17T12:27:25.321Z</lastmod>
+    <lastmod>2025-05-18T12:23:01.192Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-dual-voltage/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-loop-current-method-basics/</loc>
     
-    <lastmod>2025-05-17T12:25:53.274Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-self-mutual-inductance/</loc>
-    
-    <lastmod>2025-05-17T12:13:55.897Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-theorem-examples/</loc>
-    
-    <lastmod>2025-05-17T12:12:35.352Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-maximum-power-transfer-examples/</loc>
-    
-    <lastmod>2025-05-17T12:12:34.156Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-examples/</loc>
-    
-    <lastmod>2025-05-17T12:12:32.924Z</lastmod>
+    <lastmod>2025-05-18T12:11:37.180Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,16 +31,412 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-maximum-power-transfer/</loc>
     
-    <lastmod>2025-05-17T12:12:32.212Z</lastmod>
+    <lastmod>2025-05-18T12:11:37.120Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-theorem-introduction/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-flux-units/</loc>
     
-    <lastmod>2025-05-17T12:12:30.828Z</lastmod>
+    <lastmod>2025-05-18T12:11:37.024Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-theorem-introduction/</loc>
+    
+    <lastmod>2025-05-18T12:11:36.940Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-basics/</loc>
+    
+    <lastmod>2025-05-18T12:11:36.904Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-and-resistivity/</loc>
+    
+    <lastmod>2025-05-18T12:11:36.808Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/</loc>
+    
+    <lastmod>2025-05-18T12:11:36.464Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-parallel-combination/</loc>
+    
+    <lastmod>2025-05-18T12:11:36.384Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-parallel-circuits/</loc>
+    
+    <lastmod>2025-05-18T10:39:06.591Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/18/2025-05-18-y-delta-transformation-method/</loc>
+    
+    <lastmod>2025-05-18T10:38:50.410Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-dual-voltage/</loc>
+    
+    <lastmod>2025-05-18T09:21:58.808Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-theorem-examples/</loc>
+    
+    <lastmod>2025-05-18T09:21:58.808Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-three-loop-circuit-analysis-2/</loc>
+    
+    <lastmod>2025-05-18T09:21:58.808Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/</loc>
+    
+    <lastmod>2025-05-18T08:50:55.675Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-coulomb-magnetic-law/</loc>
+    
+    <lastmod>2025-05-18T08:49:08.953Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-solenoid-magnetic-field/</loc>
+    
+    <lastmod>2025-05-18T08:48:58.825Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-b/</loc>
+    
+    <lastmod>2025-05-18T08:48:41.664Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-c/</loc>
+    
+    <lastmod>2025-05-18T08:48:28.256Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/23/2024-04-06/</loc>
+    
+    <lastmod>2025-05-18T08:47:32.035Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-a/</loc>
+    
+    <lastmod>2025-05-18T08:47:18.819Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part1-parallel/</loc>
+    
+    <lastmod>2025-05-18T08:47:04.643Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/</loc>
+    
+    <lastmod>2025-05-18T08:46:48.998Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage-comprehensive/</loc>
+    
+    <lastmod>2025-05-18T08:46:04.326Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/</loc>
+    
+    <lastmod>2025-05-18T08:46:02.754Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-advanced-applications/</loc>
+    
+    <lastmod>2025-05-18T08:42:17.993Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-advanced-comparison/</loc>
+    
+    <lastmod>2025-05-18T08:42:17.993Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-advanced-limitations/</loc>
+    
+    <lastmod>2025-05-18T08:41:50.841Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-advanced-solutions/</loc>
+    
+    <lastmod>2025-05-18T08:41:50.841Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-advanced-examples/</loc>
+    
+    <lastmod>2025-05-18T08:38:44.141Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-advanced-practice/</loc>
+    
+    <lastmod>2025-05-18T08:38:34.153Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-advanced/</loc>
+    
+    <lastmod>2025-05-18T08:38:14.749Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-e/</loc>
+    
+    <lastmod>2025-05-18T08:38:09.933Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-applications/</loc>
+    
+    <lastmod>2025-05-18T08:38:04.073Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-loop-current-method-examples/</loc>
+    
+    <lastmod>2025-05-18T08:37:00.055Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-comparison/</loc>
+    
+    <lastmod>2025-05-18T08:35:09.901Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-introduction/</loc>
+    
+    <lastmod>2025-05-18T08:33:02.147Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-examples/</loc>
+    
+    <lastmod>2025-05-18T08:32:39.650Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-practice/</loc>
+    
+    <lastmod>2025-05-18T08:30:42.404Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-limitations/</loc>
+    
+    <lastmod>2025-05-18T08:29:54.815Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-power/</loc>
+    
+    <lastmod>2025-05-18T08:29:38.783Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-solutions/</loc>
+    
+    <lastmod>2025-05-18T08:29:02.494Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-summary/</loc>
+    
+    <lastmod>2025-05-18T08:26:27.015Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-three-loop-circuit-analysis/</loc>
+    
+    <lastmod>2025-05-18T08:24:22.625Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/18/2025-05-18-delta-y-transformation-method/</loc>
+    
+    <lastmod>2025-05-18T08:24:01.736Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/18/2025-05-18-dc-network-analysis-node-voltage-part-a/</loc>
+    
+    <lastmod>2025-05-18T08:09:44.874Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage/</loc>
+    
+    <lastmod>2025-05-18T06:52:34.568Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-self-mutual-inductance/</loc>
+    
+    <lastmod>2025-05-18T06:52:34.568Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +445,7 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-circuit-basics/</loc>
     
-    <lastmod>2025-05-17T12:12:30.812Z</lastmod>
+    <lastmod>2025-05-18T06:49:43.205Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,16 +454,16 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-theorem-example/</loc>
     
-    <lastmod>2025-05-17T12:12:29.344Z</lastmod>
+    <lastmod>2025-05-18T06:49:43.205Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-norton-conversion/</loc>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations/</loc>
     
-    <lastmod>2025-05-17T12:12:28.724Z</lastmod>
+    <lastmod>2025-05-18T06:49:40.929Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,7 +472,43 @@
   <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-current-magnetic-effect/</loc>
     
-    <lastmod>2025-05-16T12:38:52.693Z</lastmod>
+    <lastmod>2025-05-18T06:49:37.800Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/21/2024-03-21-atomic-structure/</loc>
+    
+    <lastmod>2025-05-18T03:40:21.617Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-series-inductors-combination/</loc>
+    
+    <lastmod>2025-05-18T03:22:24.493Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-maximum-power-transfer-examples/</loc>
+    
+    <lastmod>2025-05-18T03:10:47.221Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-norton-theorem-introduction/</loc>
+    
+    <lastmod>2025-05-18T03:03:59.746Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -140,24 +518,6 @@
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-basic-magnetism-concepts/</loc>
     
     <lastmod>2025-05-16T12:38:44.913Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-flux-units/</loc>
-    
-    <lastmod>2025-05-16T12:35:51.646Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-coulomb-magnetic-law/</loc>
-    
-    <lastmod>2025-05-16T12:30:38.062Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -209,24 +569,6 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations-part-e/</loc>
-    
-    <lastmod>2025-05-16T12:24:23.335Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-series-inductors-combination/</loc>
-    
-    <lastmod>2025-05-16T12:24:23.259Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-series-inductance-calculation/</loc>
     
     <lastmod>2025-05-16T12:24:23.227Z</lastmod>
@@ -272,24 +614,6 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage/</loc>
-    
-    <lastmod>2025-05-16T12:24:22.099Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-solenoid-magnetic-field/</loc>
-    
-    <lastmod>2025-05-14T13:22:29.034Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-structure-function/</loc>
     
     <lastmod>2025-05-14T13:19:20.196Z</lastmod>
@@ -308,36 +632,9 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductance-calculations/</loc>
-    
-    <lastmod>2025-05-14T13:10:19.981Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-parallel-inductors-combination/</loc>
     
     <lastmod>2025-05-14T13:09:26.967Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-inductor-energy-storage-comprehensive/</loc>
-    
-    <lastmod>2025-05-14T13:07:26.999Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-force-between-current-carrying-conductors/</loc>
-    
-    <lastmod>2025-05-14T13:03:14.364Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -371,117 +668,9 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-f-series/</loc>
-    
-    <lastmod>2025-05-14T12:46:29.522Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2024/03/21/2024-03-21-atomic-structure/</loc>
-    
-    <lastmod>2025-05-06T14:19:34.037Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-parallel-combination/</loc>
-    
-    <lastmod>2025-05-05T15:02:21.884Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part-g-series/</loc>
-    
-    <lastmod>2025-05-05T15:02:15.367Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-conductance/</loc>
-    
-    <lastmod>2025-05-05T14:59:55.301Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-inductance-part1-parallel/</loc>
-    
-    <lastmod>2025-05-05T14:59:48.433Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-and-resistivity/</loc>
-    
-    <lastmod>2025-05-05T14:55:45.688Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-basics/</loc>
-    
-    <lastmod>2025-05-05T14:52:02.180Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-parallel-circuits/</loc>
-    
-    <lastmod>2025-05-05T14:50:27.166Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-b/</loc>
-    
-    <lastmod>2025-05-05T14:47:51.419Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-resistance-and-resistivity-example/</loc>
     
     <lastmod>2025-05-05T14:47:47.743Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-a/</loc>
-    
-    <lastmod>2025-05-05T14:41:33.540Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/05/2025-05-05-electricity-fundamental-theories-power-part-c/</loc>
-    
-    <lastmod>2025-05-05T14:39:54.739Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -524,15 +713,6 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2024/03/25/2024-03-25-voltage-basics/</loc>
-    
-    <lastmod>2025-05-05T14:12:17.864Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://bill55tt.github.io/2024/03/23/20250408-2/</loc>
     
     <lastmod>2025-04-06T12:54:47.816Z</lastmod>
@@ -563,15 +743,6 @@
     <loc>https://bill55tt.github.io/2024/03/23/2025-04-06/</loc>
     
     <lastmod>2025-04-06T12:45:26.104Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2024/03/23/2024-04-06/</loc>
-    
-    <lastmod>2025-04-06T12:14:34.892Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

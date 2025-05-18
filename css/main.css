@@ -1461,7 +1461,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #4d91ff;
+    background: #62ffcc;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3101,7 +3101,7 @@ header.header {
  * @Author: bill503084699 bill503084699@gmail.com
  * @Date: 2025-03-21 20:44:21
  * @LastEditors: bill503084699 bill503084699@gmail.com
- * @LastEditTime: 2025-03-24 22:50:48
+ * @LastEditTime: 2025-05-18 18:41:27
  * @FilePath: /bill55tt.github.io/source/_data/styles.styl
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -3254,6 +3254,83 @@ body {
 }
 .bilingual-section {
   margin-bottom: 20px;
+}
+/* 在列表页隐藏语言切换按钮 */
+/*.page-mode-index .language-switcher {
+  display: none !important;
+}
+
+/* 在列表页隐藏中文内容 */
+/* 确保在列表页显示英文内容（如果您的JS可能隐藏了它） */
+/* 让所有分页页、首页、归档、标签、分类页都强制显示所有 [lang] 内容 */
+/* 强制显示分页 */
+.pagination {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin: 20px 0 !important;
+  text-align: center !important;
+  position: relative !important;
+  z-index: 100 !important;
+  clear: both !important;
+  width: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+.pagination .page-number,
+.pagination .extend,
+.pagination .prev,
+.pagination .next {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin: 0 5px !important;
+  padding: 5px 10px !important;
+  border-radius: 4px !important;
+  background: var(--content-bg-color) !important;
+  color: #333 !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  z-index: 101 !important;
+}
+.pagination .page-number:hover,
+.pagination .extend:hover,
+.pagination .prev:hover,
+.pagination .next:hover {
+  background: #4a90e2 !important;
+  color: #fff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
+}
+.pagination .current {
+  background: #4a90e2 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+/* 确保分页在移动设备上也能正常显示 */
+@media (max-width: 767px) {
+  .pagination {
+    margin: 15px 0 !important;
+    padding: 0 10px !important;
+  }
+  .pagination .page-number,
+  .pagination .extend,
+  .pagination .prev,
+  .pagination .next {
+    padding: 4px 8px !important;
+    font-size: 14px !important;
+    margin: 0 3px !important;
+  }
+}
+/* 确保分页容器不被其他元素覆盖 */
+.posts-expand {
+  position: relative !important;
+  z-index: 1 !important;
+}
+.posts-expand .post {
+  position: relative !important;
+  z-index: 1 !important;
 }
 @keyframes float {
   0% {
