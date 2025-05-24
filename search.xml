@@ -1,6 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Thevenin&#39;s Theorem: Practical Examples - 戴維寧定理：實際例題</title>
+    <url>/2025/05/14/2025-05-14-thevenin-theorem-examples/</url>
+    <content><![CDATA[<h3 id="Example-1-Simple-Circuit"><a href="#Example-1-Simple-Circuit" class="headerlink" title="Example 1: Simple Circuit"></a>Example 1: Simple Circuit</h3><p>Let’s analyze a simple circuit using Thevenin’s Theorem.</p>
+<h4 id="Circuit-Description"><a href="#Circuit-Description" class="headerlink" title="Circuit Description"></a>Circuit Description</h4><ul>
+<li>Voltage source: V &#x3D; 10V</li>
+<li>Resistors: R1 &#x3D; 2Ω, R2 &#x3D; 3Ω, R3 &#x3D; 4Ω</li>
+<li>Load resistor: RL &#x3D; 5Ω</li>
+</ul>
+<h4 id="Solution-Steps"><a href="#Solution-Steps" class="headerlink" title="Solution Steps"></a>Solution Steps</h4><ol>
+<li>Find Thevenin Voltage (Vth)<ul>
+<li>Remove RL</li>
+<li>Calculate open circuit voltage</li>
+<li>Vth &#x3D; 6V</li>
+</ul>
+</li>
+<li>Find Thevenin Resistance (Rth)<ul>
+<li>Turn off voltage source</li>
+<li>Calculate equivalent resistance</li>
+<li>Rth &#x3D; 2.4Ω</li>
+</ul>
+</li>
+<li>Final Equivalent Circuit<ul>
+<li>Vth &#x3D; 6V</li>
+<li>Rth &#x3D; 2.4Ω</li>
+<li>RL &#x3D; 5Ω</li>
+</ul>
+</li>
+</ol>
+<h3 id="Example-2-Complex-Circuit"><a href="#Example-2-Complex-Circuit" class="headerlink" title="Example 2: Complex Circuit"></a>Example 2: Complex Circuit</h3><p>Analyze a more complex circuit with multiple sources.</p>
+<h4 id="Circuit-Description-1"><a href="#Circuit-Description-1" class="headerlink" title="Circuit Description"></a>Circuit Description</h4><ul>
+<li>Voltage sources: V1 &#x3D; 12V, V2 &#x3D; 6V</li>
+<li>Current source: I &#x3D; 2A</li>
+<li>Resistors: R1 &#x3D; 4Ω, R2 &#x3D; 6Ω, R3 &#x3D; 8Ω</li>
+<li>Load resistor: RL &#x3D; 10Ω</li>
+</ul>
+<h4 id="Solution-Steps-1"><a href="#Solution-Steps-1" class="headerlink" title="Solution Steps"></a>Solution Steps</h4><ol>
+<li>Find Thevenin Voltage (Vth)<ul>
+<li>Use superposition theorem</li>
+<li>Calculate contributions from each source</li>
+<li>Vth &#x3D; 8V</li>
+</ul>
+</li>
+<li>Find Thevenin Resistance (Rth)<ul>
+<li>Turn off all sources</li>
+<li>Calculate equivalent resistance</li>
+<li>Rth &#x3D; 3.2Ω</li>
+</ul>
+</li>
+<li>Final Equivalent Circuit<ul>
+<li>Vth &#x3D; 8V</li>
+<li>Rth &#x3D; 3.2Ω</li>
+<li>RL &#x3D; 10Ω</li>
+</ul>
+</li>
+</ol>
+<h3 id="例題一：簡單電路"><a href="#例題一：簡單電路" class="headerlink" title="例題一：簡單電路"></a>例題一：簡單電路</h3><p>讓我們使用戴維寧定理分析一個簡單電路。</p>
+<h4 id="電路描述"><a href="#電路描述" class="headerlink" title="電路描述"></a>電路描述</h4><ul>
+<li>電壓源：V &#x3D; 10V</li>
+<li>電阻：R1 &#x3D; 2Ω，R2 &#x3D; 3Ω，R3 &#x3D; 4Ω</li>
+<li>負載電阻：RL &#x3D; 5Ω</li>
+</ul>
+<h4 id="解題步驟"><a href="#解題步驟" class="headerlink" title="解題步驟"></a>解題步驟</h4><ol>
+<li>求戴維寧電壓（Vth）<ul>
+<li>移除RL</li>
+<li>計算開路電壓</li>
+<li>Vth &#x3D; 6V</li>
+</ul>
+</li>
+<li>求戴維寧電阻（Rth）<ul>
+<li>關閉電壓源</li>
+<li>計算等效電阻</li>
+<li>Rth &#x3D; 2.4Ω</li>
+</ul>
+</li>
+<li>最終等效電路<ul>
+<li>Vth &#x3D; 6V</li>
+<li>Rth &#x3D; 2.4Ω</li>
+<li>RL &#x3D; 5Ω</li>
+</ul>
+</li>
+</ol>
+<h3 id="例題二：複雜電路"><a href="#例題二：複雜電路" class="headerlink" title="例題二：複雜電路"></a>例題二：複雜電路</h3><p>分析一個包含多個電源的複雜電路。</p>
+<h4 id="電路描述-1"><a href="#電路描述-1" class="headerlink" title="電路描述"></a>電路描述</h4><ul>
+<li>電壓源：V1 &#x3D; 12V，V2 &#x3D; 6V</li>
+<li>電流源：I &#x3D; 2A</li>
+<li>電阻：R1 &#x3D; 4Ω，R2 &#x3D; 6Ω，R3 &#x3D; 8Ω</li>
+<li>負載電阻：RL &#x3D; 10Ω</li>
+</ul>
+<h4 id="解題步驟-1"><a href="#解題步驟-1" class="headerlink" title="解題步驟"></a>解題步驟</h4><ol>
+<li>求戴維寧電壓（Vth）<ul>
+<li>使用重疊定理</li>
+<li>計算各電源的貢獻</li>
+<li>Vth &#x3D; 8V</li>
+</ul>
+</li>
+<li>求戴維寧電阻（Rth）<ul>
+<li>關閉所有電源</li>
+<li>計算等效電阻</li>
+<li>Rth &#x3D; 3.2Ω</li>
+</ul>
+</li>
+<li>最終等效電路<ul>
+<li>Vth &#x3D; 8V</li>
+<li>Rth &#x3D; 3.2Ω</li>
+<li>RL &#x3D; 10Ω</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Electronics</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Basic Electricity Chapter 1:PARTA Atomic Structure and Properties</title>
     <url>/2024/03/21/2024-03-21-atomic-structure/</url>
     <content><![CDATA[<p><img src="https://i.imgur.com/mSc28kb.jpeg" alt="Atomic Structure"></p>
@@ -575,11 +699,11 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Current</tag>
         <tag>Electricity</tag>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
       </tags>
   </entry>
@@ -739,10 +863,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Charge</tag>
         <tag>History</tag>
@@ -918,10 +1042,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Static Charge</tag>
       </tags>
@@ -1242,13 +1366,2086 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Current</tag>
         <tag>Electricity</tag>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Calculation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Voltage Division Rule (3-4) / 分壓定則（3-4）</title>
+    <url>/2024/05/18/2024-05-18-voltage-division-rule/</url>
+    <content><![CDATA[<h1 id="Voltage-Division-Rule-3-4"><a href="#Voltage-Division-Rule-3-4" class="headerlink" title="Voltage Division Rule (3-4)"></a>Voltage Division Rule (3-4)</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>A voltage source ( E ) is connected to two resistors ( R_1 ) and ( R_2 ) in series.</li>
+<li>According to Kirchhoff’s Voltage Law, total voltage ( E &#x3D; I \times R_T ), where total resistance ( R_T &#x3D; R_1 + R_2 ).</li>
+<li>Total current ( I &#x3D; \frac{E}{R_1 + R_2} ) (Ohm’s Law).</li>
+<li>Voltage division:<br>[<br>V_1 &#x3D; I \times R_1 &#x3D; E \times \frac{R_1}{R_1 + R_2}<br>]<br>[<br>V_2 &#x3D; I \times R_2 &#x3D; E \times \frac{R_2}{R_1 + R_2}<br>]</li>
+<li>Voltage division rule: Voltage across series resistors divides proportionally to their resistance; larger resistance gets higher voltage.</li>
+<li>Extension: For multiple series resistors, voltage across each resistor equals the fraction of that resistor over total resistance times total voltage.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=IKgLnlSA8vw">YouTube Video: Voltage Division Rule</a></p>
+<hr>
+<h1 id="分壓定則（3-4）"><a href="#分壓定則（3-4）" class="headerlink" title="分壓定則（3-4）"></a>分壓定則（3-4）</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>電壓源 ( E ) 透過兩個串聯電阻 ( R_1 ) 和 ( R_2 ) 形成串聯迴路。</li>
+<li>根據克希荷夫電壓定律，總電壓 ( E &#x3D; I \times R_T )，其中總電阻 ( R_T &#x3D; R_1 + R_2 )。</li>
+<li>總電流 ( I &#x3D; \frac{E}{R_1 + R_2} )（歐姆定律）。</li>
+<li>電壓分配：<br>[<br>V_1 &#x3D; I \times R_1 &#x3D; E \times \frac{R_1}{R_1 + R_2}<br>]<br>[<br>V_2 &#x3D; I \times R_2 &#x3D; E \times \frac{R_2}{R_1 + R_2}<br>]</li>
+<li>分壓定則：電壓在串聯電阻上按電阻大小比例分配，電阻越大，分得電壓越高。</li>
+<li>延伸應用：多個串聯電阻時，每個電阻的電壓降為該電阻與總電阻比值乘以總電壓。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=IKgLnlSA8vw">YouTube 影片：分壓定則</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>voltage division</tag>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Y-Δ Transformation Method PART A / Y形-Δ形互換法 PART A</title>
+    <url>/2024/05/18/2024-05-18-y-delta-transformation-part-a/</url>
+    <content><![CDATA[<h1 id="Y-Δ-Transformation-Method-PART-A-Understanding-Y-and-Delta-Configurations-and-Delta-to-Y-Conversion"><a href="#Y-Δ-Transformation-Method-PART-A-Understanding-Y-and-Delta-Configurations-and-Delta-to-Y-Conversion" class="headerlink" title="Y-Δ Transformation Method PART A: Understanding Y and Delta Configurations and Delta to Y Conversion"></a>Y-Δ Transformation Method PART A: Understanding Y and Delta Configurations and Delta to Y Conversion</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Introduces Y (star) and Delta (Δ, pi) resistor connection types.</li>
+<li>Y-connection has three resistors connected at a common point, shaped like a Y or star.</li>
+<li>Delta connection forms a triangle with resistors between nodes labeled 1, 2, and 3.</li>
+<li>Delta can be transformed into Y to simplify complex resistor networks.</li>
+<li>Transformation formulas:<br>[<br>R_a &#x3D; \frac{R_2 R_3}{R_1 + R_2 + R_3}, \quad R_b &#x3D; \frac{R_1 R_3}{R_1 + R_2 + R_3}, \quad R_c &#x3D; \frac{R_1 R_2}{R_1 + R_2 + R_3}<br>]</li>
+<li>This transformation helps analyze circuits that cannot be simplified by Wheatstone bridge methods.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=s9Q-LnVJLfk">YouTube Video: Y-Δ Transformation Method</a></p>
+<hr>
+<h1 id="Y形-Δ形互換法-PART-A：Y形與三角形的認識及Δ形化為Y形"><a href="#Y形-Δ形互換法-PART-A：Y形與三角形的認識及Δ形化為Y形" class="headerlink" title="Y形-Δ形互換法 PART A：Y形與三角形的認識及Δ形化為Y形"></a>Y形-Δ形互換法 PART A：Y形與三角形的認識及Δ形化為Y形</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>介紹Y形（星形）與三角形（Δ形、π形）電阻連接方式。</li>
+<li>Y形是三個電阻連接於同一點，呈Y字形或星形。</li>
+<li>三角形連接是三個電阻形成三角形，端點分別標為1、2、3。</li>
+<li>三角形可轉換為Y形以簡化複雜電阻網路計算。</li>
+<li>轉換公式：<br>[<br>R_a &#x3D; \frac{R_2 R_3}{R_1 + R_2 + R_3}, \quad R_b &#x3D; \frac{R_1 R_3}{R_1 + R_2 + R_3}, \quad R_c &#x3D; \frac{R_1 R_2}{R_1 + R_2 + R_3}<br>]</li>
+<li>轉換有助於解析惠斯登電橋無法簡化的電路。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=s9Q-LnVJLfk">YouTube 影片：Y-Δ互換法</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>Y-delta transformation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.3 How to Read Color Code Resistors / 2-5.3 色碼電阻器的判讀方法</title>
+    <url>/2024/05/24/2024-05-24-color-code-resistors/</url>
+    <content><![CDATA[<h1 id="2-5-3-How-to-Read-Color-Code-Resistors"><a href="#2-5-3-How-to-Read-Color-Code-Resistors" class="headerlink" title="2-5.3 How to Read Color Code Resistors"></a>2-5.3 How to Read Color Code Resistors</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Resistor-Value-Indication-Methods"><a href="#Resistor-Value-Indication-Methods" class="headerlink" title="Resistor Value Indication Methods"></a>Resistor Value Indication Methods</h3><ul>
+<li>Resistors indicate resistance values by two methods:<ul>
+<li>Color code (for small resistors)</li>
+<li>Numeric code (for larger resistors)</li>
+</ul>
+</li>
+</ul>
+<h3 id="Color-Code-Classification"><a href="#Color-Code-Classification" class="headerlink" title="Color Code Classification"></a>Color Code Classification</h3><ul>
+<li>Color code resistors are classified by tolerance:<ul>
+<li>3-band resistors (±20% tolerance)</li>
+<li>4-band resistors (±5% tolerance)</li>
+<li>5-band resistors (precision resistors)</li>
+</ul>
+</li>
+</ul>
+<h3 id="Color-Code-Meaning"><a href="#Color-Code-Meaning" class="headerlink" title="Color Code Meaning"></a>Color Code Meaning</h3><ul>
+<li>Colors represent:<ul>
+<li>Digits (first bands)</li>
+<li>Multipliers (middle bands)</li>
+<li>Tolerance (last band)</li>
+</ul>
+</li>
+<li>Example: Brown represents:<ul>
+<li>Digit: 1</li>
+<li>Multiplier: 10¹</li>
+<li>Tolerance: ±1%</li>
+</ul>
+</li>
+</ul>
+<h3 id="Reading-Color-Codes"><a href="#Reading-Color-Codes" class="headerlink" title="Reading Color Codes"></a>Reading Color Codes</h3><ul>
+<li>Reading process:<ol>
+<li>First bands: represent digits</li>
+<li>Middle bands: represent multiplier</li>
+<li>Last band: represents tolerance</li>
+</ol>
+</li>
+</ul>
+<h3 id="Numeric-Code-System"><a href="#Numeric-Code-System" class="headerlink" title="Numeric Code System"></a>Numeric Code System</h3><ul>
+<li>Used mainly for high-power resistors</li>
+<li>Indicates:<ul>
+<li>Power rating</li>
+<li>Resistance value</li>
+<li>Tolerance</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Videos"><a href="#Reference-Videos" class="headerlink" title="Reference Videos"></a>Reference Videos</h2><ol>
+<li><a href="https://www.youtube.com/watch?v=5x9z4T2V4xA">YouTube Video: Color Code Resistors Reading Method</a></li>
+<li><a href="https://www.youtube.com/watch?v=x0ouvBo7VnQ">YouTube Video: Basic Electronics - Color Code Resistors</a></li>
+</ol>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-3-色碼電阻器的判讀方法"><a href="#2-5-3-色碼電阻器的判讀方法" class="headerlink" title="2-5.3 色碼電阻器的判讀方法"></a>2-5.3 色碼電阻器的判讀方法</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="電阻值標示方法"><a href="#電阻值標示方法" class="headerlink" title="電阻值標示方法"></a>電阻值標示方法</h3><ul>
+<li>電阻元件上標示電阻值有兩種方法：<ul>
+<li>色碼標示法（小體積電阻）</li>
+<li>數字標示法（大體積電阻）</li>
+</ul>
+</li>
+</ul>
+<h3 id="色碼分類"><a href="#色碼分類" class="headerlink" title="色碼分類"></a>色碼分類</h3><ul>
+<li>色碼標示法依誤差範圍分為：<ul>
+<li>三環（誤差±20%）</li>
+<li>四環（誤差±5%）</li>
+<li>五環（精密電阻）</li>
+</ul>
+</li>
+</ul>
+<h3 id="色碼意義"><a href="#色碼意義" class="headerlink" title="色碼意義"></a>色碼意義</h3><ul>
+<li>色碼代表：<ul>
+<li>數字（前幾環）</li>
+<li>倍率（中間環）</li>
+<li>誤差（最後一環）</li>
+</ul>
+</li>
+<li>例如：棕色代表：<ul>
+<li>數字：1</li>
+<li>倍率：10¹</li>
+<li>誤差：±1%</li>
+</ul>
+</li>
+</ul>
+<h3 id="色碼判讀方法"><a href="#色碼判讀方法" class="headerlink" title="色碼判讀方法"></a>色碼判讀方法</h3><ul>
+<li>判讀步驟：<ol>
+<li>前幾環：代表數字</li>
+<li>中間環：代表倍率</li>
+<li>最後一環：代表誤差</li>
+</ol>
+</li>
+</ul>
+<h3 id="數字標示法"><a href="#數字標示法" class="headerlink" title="數字標示法"></a>數字標示法</h3><ul>
+<li>多用於大功率電阻</li>
+<li>標示內容：<ul>
+<li>功率</li>
+<li>阻值</li>
+<li>誤差</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><ol>
+<li><a href="https://www.youtube.com/watch?v=5x9z4T2V4xA">YouTube 影片：色碼電阻器的判讀方法</a></li>
+<li><a href="https://www.youtube.com/watch?v=x0ouvBo7VnQ">YouTube 影片：基本電學 - 色碼電阻器</a></li>
+</ol>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>resistors</tag>
+        <tag>color code</tag>
+        <tag>circuit components</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.2 Introduction and Characteristics of Common Resistors / 2-5.2 常用電阻器介紹與特性解析</title>
+    <url>/2024/05/24/2024-05-24-common-resistors-introduction/</url>
+    <content><![CDATA[<h1 id="2-5-2-Introduction-and-Characteristics-of-Common-Resistors"><a href="#2-5-2-Introduction-and-Characteristics-of-Common-Resistors" class="headerlink" title="2-5.2 Introduction and Characteristics of Common Resistors"></a>2-5.2 Introduction and Characteristics of Common Resistors</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Resistor-Selection-Considerations"><a href="#Resistor-Selection-Considerations" class="headerlink" title="Resistor Selection Considerations"></a>Resistor Selection Considerations</h3><ul>
+<li>When selecting resistors, consider specifications such as rated power, tolerance, operation mode, and material.</li>
+<li>Rated power: Maximum power the resistor can handle; larger size means higher power capacity.</li>
+<li>Tolerance: Possible deviation in resistance value, affecting overall circuit accuracy.</li>
+</ul>
+<h3 id="Operation-Modes"><a href="#Operation-Modes" class="headerlink" title="Operation Modes"></a>Operation Modes</h3><ul>
+<li>Operation modes include fixed resistors, variable resistors, and semi-variable resistors.</li>
+</ul>
+<h3 id="Fixed-Resistor-Types-by-Material"><a href="#Fixed-Resistor-Types-by-Material" class="headerlink" title="Fixed Resistor Types by Material"></a>Fixed Resistor Types by Material</h3><ol>
+<li><p><strong>Carbon Composition Resistors</strong></p>
+<ul>
+<li>Low cost</li>
+<li>Large tolerance</li>
+<li>Suitable for low power applications</li>
+</ul>
+</li>
+<li><p><strong>Carbon Film Resistors</strong></p>
+<ul>
+<li>Smaller tolerance</li>
+<li>Low power applications</li>
+</ul>
+</li>
+<li><p><strong>Wire-wound Resistors</strong></p>
+<ul>
+<li>High power capacity</li>
+<li>Low tolerance</li>
+<li>Higher cost</li>
+</ul>
+</li>
+<li><p><strong>Cement Resistors</strong></p>
+<ul>
+<li>Good heat resistance</li>
+<li>Suitable for high power and low tolerance applications</li>
+</ul>
+</li>
+<li><p><strong>Chip Resistors</strong></p>
+<ul>
+<li>Small size</li>
+<li>Used in 3C products</li>
+</ul>
+</li>
+<li><p><strong>Metal Film Resistors</strong></p>
+<ul>
+<li>High power capacity</li>
+<li>Low tolerance</li>
+<li>High stability</li>
+</ul>
+</li>
+</ol>
+<h3 id="Variable-Resistors"><a href="#Variable-Resistors" class="headerlink" title="Variable Resistors"></a>Variable Resistors</h3><ul>
+<li><p><strong>Variable Resistors (VR)</strong></p>
+<ul>
+<li>Manually adjustable resistance</li>
+<li>Commonly used for volume or light dimming</li>
+</ul>
+</li>
+<li><p><strong>Semi-variable Resistors (SVR)</strong></p>
+<ul>
+<li>Adjusted with tools</li>
+<li>Usually operated by professionals</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=JFrtmnQPuGI">YouTube Video: Introduction and Characteristics of Common Resistors</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-2-常用電阻器介紹與特性解析"><a href="#2-5-2-常用電阻器介紹與特性解析" class="headerlink" title="2-5.2 常用電阻器介紹與特性解析"></a>2-5.2 常用電阻器介紹與特性解析</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="電阻器選擇考量"><a href="#電阻器選擇考量" class="headerlink" title="電阻器選擇考量"></a>電阻器選擇考量</h3><ul>
+<li>電阻器選擇需考慮規格，包括額定功率、誤差值、工作方式與材質。</li>
+<li>額定功率：電阻器能承受的最大功率，體積越大功率越高。</li>
+<li>誤差值：電阻值的可能偏差，影響整體電路精度。</li>
+</ul>
+<h3 id="工作方式"><a href="#工作方式" class="headerlink" title="工作方式"></a>工作方式</h3><ul>
+<li>工作方式分為固定電阻、可變電阻與半固定可變電阻。</li>
+</ul>
+<h3 id="固定電阻材質分類"><a href="#固定電阻材質分類" class="headerlink" title="固定電阻材質分類"></a>固定電阻材質分類</h3><ol>
+<li><p><strong>碳質電阻</strong></p>
+<ul>
+<li>成本低</li>
+<li>誤差大</li>
+<li>適用小功率</li>
+</ul>
+</li>
+<li><p><strong>碳膜電阻</strong></p>
+<ul>
+<li>誤差較小</li>
+<li>小功率應用</li>
+</ul>
+</li>
+<li><p><strong>線繞電阻</strong></p>
+<ul>
+<li>高功率</li>
+<li>誤差小</li>
+<li>成本較高</li>
+</ul>
+</li>
+<li><p><strong>水泥電阻</strong></p>
+<ul>
+<li>耐熱性好</li>
+<li>適合高功率低誤差應用</li>
+</ul>
+</li>
+<li><p><strong>晶片電阻</strong></p>
+<ul>
+<li>體積小</li>
+<li>適用3C產品</li>
+</ul>
+</li>
+<li><p><strong>金屬膜電阻</strong></p>
+<ul>
+<li>高功率</li>
+<li>低誤差</li>
+<li>高穩定性</li>
+</ul>
+</li>
+</ol>
+<h3 id="可變電阻"><a href="#可變電阻" class="headerlink" title="可變電阻"></a>可變電阻</h3><ul>
+<li><p><strong>可變電阻（VR）</strong></p>
+<ul>
+<li>可手動調整電阻值</li>
+<li>常用於音量或燈光調節</li>
+</ul>
+</li>
+<li><p><strong>半固定可變電阻（SVR）</strong></p>
+<ul>
+<li>需工具調整</li>
+<li>通常由專業人員操作</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=JFrtmnQPuGI">YouTube 影片：常用電阻器介紹與特性解析</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>resistors</tag>
+        <tag>circuit components</tag>
+        <tag>physics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.4 Conductance Basics and Examples / 2-5.4 電導基礎與例題</title>
+    <url>/2024/05/24/2024-05-24-conductance-basics/</url>
+    <content><![CDATA[<h1 id="2-5-4-Conductance-Basics-and-Examples"><a href="#2-5-4-Conductance-Basics-and-Examples" class="headerlink" title="2-5.4 Conductance Basics and Examples"></a>2-5.4 Conductance Basics and Examples</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h3><ul>
+<li>Conductance is the reciprocal of resistance</li>
+<li>Unit: Siemens (S)</li>
+<li>Higher conductance means better conductivity</li>
+<li>Lower conductance indicates poorer conductivity</li>
+</ul>
+<h3 id="Example-Calculations"><a href="#Example-Calculations" class="headerlink" title="Example Calculations"></a>Example Calculations</h3><ul>
+<li>Calculating conductance values for different wires</li>
+<li>Comparing conductivity between materials</li>
+<li>Understanding the relationship between conductance and resistivity</li>
+</ul>
+<h3 id="Percentage-Conductance-Coefficient"><a href="#Percentage-Conductance-Coefficient" class="headerlink" title="Percentage Conductance Coefficient"></a>Percentage Conductance Coefficient</h3><ul>
+<li>Calculation method using material resistivity</li>
+<li>Comparison with standard copper as reference</li>
+<li>Practical applications in material selection</li>
+</ul>
+<h3 id="Wire-Elongation-Effects"><a href="#Wire-Elongation-Effects" class="headerlink" title="Wire Elongation Effects"></a>Wire Elongation Effects</h3><ul>
+<li>Changes in conductance after wire elongation</li>
+<li>Understanding constant volume principle</li>
+<li>Impact on conductivity</li>
+</ul>
+<h3 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h3><ul>
+<li>Real-world calculations of conductance</li>
+<li>Material selection based on conductivity</li>
+<li>Industrial applications and considerations</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=5G3jdorHLL0">YouTube Video: Conductance Basics and Examples</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-4-電導基礎與例題"><a href="#2-5-4-電導基礎與例題" class="headerlink" title="2-5.4 電導基礎與例題"></a>2-5.4 電導基礎與例題</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><ul>
+<li>電導是電阻的倒數</li>
+<li>單位：西門子（S）</li>
+<li>電導值越大，導電性越好</li>
+<li>電導值越小，導電性越差</li>
+</ul>
+<h3 id="例題計算"><a href="#例題計算" class="headerlink" title="例題計算"></a>例題計算</h3><ul>
+<li>計算不同導線的電導值</li>
+<li>比較不同材料的導電性</li>
+<li>理解電導與電阻係數的關係</li>
+</ul>
+<h3 id="百分率電導係數"><a href="#百分率電導係數" class="headerlink" title="百分率電導係數"></a>百分率電導係數</h3><ul>
+<li>利用材料電阻係數的計算方法</li>
+<li>與標準韌銅的比較</li>
+<li>材料選擇的實際應用</li>
+</ul>
+<h3 id="導線拉長效應"><a href="#導線拉長效應" class="headerlink" title="導線拉長效應"></a>導線拉長效應</h3><ul>
+<li>導線拉長後電導值的變化</li>
+<li>體積不變原則的理解</li>
+<li>對導電性的影響</li>
+</ul>
+<h3 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h3><ul>
+<li>電導的實際計算</li>
+<li>基於導電性的材料選擇</li>
+<li>工業應用與考量因素</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=5G3jdorHLL0">YouTube 影片：電導基礎與例題</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>conductance</tag>
+        <tag>resistivity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Electricity 1 - Section 3-8: Current Division Rule / 磨課師基本電學1 3-8 分流定則</title>
+    <url>/2024/05/24/2024-05-24-current-division-rule-2/</url>
+    <content><![CDATA[<h1 id="Basic-Electricity-1-Section-3-8-Current-Division-Rule"><a href="#Basic-Electricity-1-Section-3-8-Current-Division-Rule" class="headerlink" title="Basic Electricity 1 - Section 3-8: Current Division Rule"></a>Basic Electricity 1 - Section 3-8: Current Division Rule</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Current Division Rule</strong>: In parallel circuits, total current divides inversely proportional to resistance; smaller resistance branches carry larger current</li>
+<li><strong>Total Resistance Calculation</strong>: For two parallel resistors,<br>[ R_T &#x3D; \frac{R_1 R_2}{R_1 + R_2} ]</li>
+<li><strong>Current Division Formula</strong>:<br>[ I_1 &#x3D; \frac{R_2}{R_1 + R_2} I, \quad I_2 &#x3D; \frac{R_1}{R_1 + R_2} I ]</li>
+<li><strong>Multiple Parallel Resistors</strong>: Current through the (n)-th resistor is<br>[ I_n &#x3D; \frac{R_T}{R_n} I ]</li>
+<li><strong>Example</strong>: For 30Ω and 60Ω resistors in parallel with total current 9A, currents are 6A and 3A respectively, consistent with Kirchhoff’s Current Law</li>
+<li><strong>Voltage Calculation</strong>: Voltage across parallel resistors is the same, equal to total current times total resistance</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=hPKam2F2Jvo">YouTube Video: Current Division Rule</a></p>
+<hr>
+<h1 id="磨課師基本電學1-3-8-分流定則"><a href="#磨課師基本電學1-3-8-分流定則" class="headerlink" title="磨課師基本電學1 3-8 分流定則"></a>磨課師基本電學1 3-8 分流定則</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>分流定則（電流分配原理）</strong>：並聯電路中，總電流會依電阻大小分配，電阻越小的支路電流越大，電阻越大的支路電流越小</li>
+<li><strong>總電阻計算</strong>：兩個並聯電阻的總電阻為<br>[ R_T &#x3D; \frac{R_1 R_2}{R_1 + R_2} ]</li>
+<li><strong>電流分配公式</strong>：<br>[ I_1 &#x3D; \frac{R_2}{R_1 + R_2} I, \quad I_2 &#x3D; \frac{R_1}{R_1 + R_2} I ]</li>
+<li><strong>多個並聯電阻</strong>：第 (n) 個電阻的電流為<br>[ I_n &#x3D; \frac{R_T}{R_n} I ]</li>
+<li><strong>實例計算</strong>：30歐姆和60歐姆並聯，總電流9A，分別分得6A和3A，符合克希荷夫電流定律</li>
+<li><strong>電壓計算</strong>：並聯電阻兩端電壓相同，等於總電流乘以總電阻</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=hPKam2F2Jvo">YouTube 影片：分流定則</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>parallel circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Current Division Rule (3-8) / 分流定則（3-8）</title>
+    <url>/2024/05/24/2024-05-24-current-division-rule/</url>
+    <content><![CDATA[<h1 id="Current-Division-Rule-3-8"><a href="#Current-Division-Rule-3-8" class="headerlink" title="Current Division Rule (3-8)"></a>Current Division Rule (3-8)</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Current Division Rule:</strong> In parallel circuits, total current divides inversely proportional to resistance; smaller resistance branches carry larger current</li>
+<li><strong>Total Resistance Calculation:</strong> For two parallel resistors,<br>[ R_T &#x3D; \frac{R_1 R_2}{R_1 + R_2} ]</li>
+<li><strong>Current Division Formula:</strong><br>[ I_1 &#x3D; \frac{R_2}{R_1 + R_2} I, \quad I_2 &#x3D; \frac{R_1}{R_1 + R_2} I ]</li>
+<li><strong>Multiple Parallel Resistors:</strong> Current through the (n)-th resistor is<br>[ I_n &#x3D; \frac{R_T}{R_n} I ]</li>
+<li><strong>Example Calculation:</strong> For 30Ω and 60Ω resistors in parallel with total current 9A, currents are 6A and 3A respectively, consistent with Kirchhoff’s Current Law</li>
+<li><strong>Voltage Calculation:</strong> Voltage across parallel resistors is the same, equal to total current times total resistance</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=hPKam2F2Jvo">YouTube Video: Current Division Rule</a></p>
+<hr>
+<h1 id="分流定則（3-8）"><a href="#分流定則（3-8）" class="headerlink" title="分流定則（3-8）"></a>分流定則（3-8）</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>分流定則（電流分配原理）</strong>：並聯電路中，總電流會依電阻大小分配，電阻越小的支路電流越大，電阻越大的支路電流越小</li>
+<li><strong>總電阻計算</strong>：兩個並聯電阻的總電阻為<br>[ R_T &#x3D; \frac{R_1 R_2}{R_1 + R_2} ]</li>
+<li><strong>電流分配公式</strong>：<br>[ I_1 &#x3D; \frac{R_2}{R_1 + R_2} I, \quad I_2 &#x3D; \frac{R_1}{R_1 + R_2} I ]</li>
+<li><strong>多個並聯電阻</strong>：第 (n) 個電阻的電流為<br>[ I_n &#x3D; \frac{R_T}{R_n} I ]</li>
+<li><strong>實例計算</strong>：30歐姆和60歐姆並聯，總電流9A，分別分得6A和3A，符合克希荷夫電流定律</li>
+<li><strong>電壓計算</strong>：並聯電阻兩端電壓相同，等於總電流乘以總電阻</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=hPKam2F2Jvo">YouTube 影片：分流定則</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>parallel circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example Problem of Current Source / 電流源範例例題解析</title>
+    <url>/2024/05/24/2024-05-24-current-source-examples/</url>
+    <content><![CDATA[<h1 id="Example-Problem-of-Current-Source"><a href="#Example-Problem-of-Current-Source" class="headerlink" title="Example Problem of Current Source"></a>Example Problem of Current Source</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>An ideal current source in series with a circuit maintains a fixed current equal to the source value (e.g., 10A)</li>
+<li>The current through the 5-ohm resistor is 10A</li>
+<li>Voltage across the resistor ( V_L &#x3D; I \times R &#x3D; 10A \times 5\Omega &#x3D; 50V )</li>
+<li>Voltage across the current source ( V_{ab} ) is calculated using Kirchhoff’s Voltage Law, resulting in 40V</li>
+<li>The sum of voltage rises equals the sum of voltage drops; the current source voltage is part of the voltage drop</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=1XxL2r5Mk5w">YouTube Video: Current Source Example</a></p>
+<hr>
+<h1 id="電流源範例例題解析"><a href="#電流源範例例題解析" class="headerlink" title="電流源範例例題解析"></a>電流源範例例題解析</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>理想電流源串聯於電路中，電流固定為電流源值（例：10A）</li>
+<li>流經5歐姆電阻的電流即為10A</li>
+<li>電阻兩端電壓 ( V_L &#x3D; I \times R &#x3D; 10A \times 5\Omega &#x3D; 50V )</li>
+<li>電流源兩端電壓 ( V_{ab} ) 透過克希荷夫電壓定律計算，結果為40V</li>
+<li>電壓升等於電壓降總和，電流源端電壓是電壓降的一部分</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=1XxL2r5Mk5w">YouTube 影片：電流源範例</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>current source</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Current Source Types / 電流源類型</title>
+    <url>/2024/05/24/2024-05-24-current-source-types/</url>
+    <content><![CDATA[<h1 id="Current-Source-Types"><a href="#Current-Source-Types" class="headerlink" title="Current Source Types"></a>Current Source Types</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Current Source Classification</strong>: Two types—real current source and ideal current source</li>
+<li><strong>Real Current Source</strong>: Consists of a constant current source and a parallel internal resistance ( r ); larger ( r ) means less current through internal resistance, so load current approaches source current</li>
+<li><strong>Ideal Current Source</strong>: Internal resistance ( r \to \infty ), provides constant current regardless of load changes</li>
+<li><strong>Short Circuit Condition</strong>: When real current source terminals are shorted, output current equals source current</li>
+<li><strong>Load Current Formula</strong>:<br>[ I_L &#x3D; I \times \frac{r}{r + R_L} ]</li>
+<li><strong>Effect of Internal Resistance</strong>: Larger internal resistance makes load current closer to source current</li>
+<li><strong>Ideal Current Source Feature</strong>: Load current remains constant and equals source current; voltage varies with load</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=wr41KpCvQrM">YouTube Video: Current Source Types</a></p>
+<hr>
+<h1 id="電流源類型"><a href="#電流源類型" class="headerlink" title="電流源類型"></a>電流源類型</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>電流源分類</strong>：分為實際電流源與理想電流源兩種</li>
+<li><strong>實際電流源</strong>：由恆定電流源與並聯內部電阻 ( r ) 組成，內阻越大，流經內阻的電流越小，負載端電流越接近電流源電流</li>
+<li><strong>理想電流源</strong>：內阻 ( r \to \infty )，提供固定電流，不受負載變化影響</li>
+<li><strong>短路狀態</strong>：實際電流源短路時，外部電流等於電流源電流</li>
+<li><strong>負載電流計算</strong>：<br>[ I_L &#x3D; I \times \frac{r}{r + R_L} ]</li>
+<li><strong>內阻對負載電流影響</strong>：內阻越大，負載電流越接近電流源電流</li>
+<li><strong>理想電流源特性</strong>：負載電流恆定等於電流源電流，電壓隨負載變化</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=wr41KpCvQrM">YouTube 影片：電流源類型</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>current source</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.6 Classification of Induced EMF / 2-5.6 應電勢的分類</title>
+    <url>/2024/05/24/2024-05-24-induced-emf-classification/</url>
+    <content><![CDATA[<h1 id="2-5-6-Classification-of-Induced-EMF"><a href="#2-5-6-Classification-of-Induced-EMF" class="headerlink" title="2-5.6 Classification of Induced EMF"></a>2-5.6 Classification of Induced EMF</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Types-of-Induced-EMF"><a href="#Types-of-Induced-EMF" class="headerlink" title="Types of Induced EMF"></a>Types of Induced EMF</h3><ul>
+<li><p><strong>Self-induced EMF:</strong></p>
+<ul>
+<li>Generated by magnetic flux change in a single coil</li>
+<li>Occurs within the same coil</li>
+<li>Important for understanding inductance</li>
+</ul>
+</li>
+<li><p><strong>Mutual-induced EMF:</strong></p>
+<ul>
+<li>Induced in neighboring coils</li>
+<li>Results from magnetic flux changes in adjacent coils</li>
+<li>Basis for transformer operation</li>
+</ul>
+</li>
+</ul>
+<h3 id="Self-induced-EMF-Calculation"><a href="#Self-induced-EMF-Calculation" class="headerlink" title="Self-induced EMF Calculation"></a>Self-induced EMF Calculation</h3><ul>
+<li>Using Faraday’s law:<br>$$ e &#x3D; L \frac{\Delta i}{\Delta t} $$</li>
+<li>Alternative method:<ul>
+<li>Number of turns × Change in magnetic flux</li>
+</ul>
+</li>
+<li>Key for inductance analysis</li>
+</ul>
+<h3 id="Mutual-induced-EMF-Calculation"><a href="#Mutual-induced-EMF-Calculation" class="headerlink" title="Mutual-induced EMF Calculation"></a>Mutual-induced EMF Calculation</h3><ul>
+<li>Formula:<br>$$ e_M &#x3D; M \frac{\Delta i_1}{\Delta t} $$</li>
+<li>Polarity determination:<ul>
+<li>Using Lenz’s law</li>
+<li>Applying right-hand rule</li>
+</ul>
+</li>
+<li>Essential for transformer design</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=K5Wtf3spMFs">YouTube Video: Classification of Induced EMF</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-6-應電勢的分類"><a href="#2-5-6-應電勢的分類" class="headerlink" title="2-5.6 應電勢的分類"></a>2-5.6 應電勢的分類</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="應電勢種類"><a href="#應電勢種類" class="headerlink" title="應電勢種類"></a>應電勢種類</h3><ul>
+<li><p><strong>自感應電勢：</strong></p>
+<ul>
+<li>單一線圈內磁通變化所產生</li>
+<li>發生在同一線圈內</li>
+<li>理解電感的重要概念</li>
+</ul>
+</li>
+<li><p><strong>互感應電勢：</strong></p>
+<ul>
+<li>在鄰近線圈中感應產生</li>
+<li>由相鄰線圈磁通變化引起</li>
+<li>變壓器運作的基本原理</li>
+</ul>
+</li>
+</ul>
+<h3 id="自感應電勢計算"><a href="#自感應電勢計算" class="headerlink" title="自感應電勢計算"></a>自感應電勢計算</h3><ul>
+<li>使用法拉第定律：<br>$$ e &#x3D; L \frac{\Delta i}{\Delta t} $$</li>
+<li>替代方法：<ul>
+<li>線圈匝數 × 磁通變化量</li>
+</ul>
+</li>
+<li>電感分析的關鍵</li>
+</ul>
+<h3 id="互感應電勢計算"><a href="#互感應電勢計算" class="headerlink" title="互感應電勢計算"></a>互感應電勢計算</h3><ul>
+<li>計算公式：<br>$$ e_M &#x3D; M \frac{\Delta i_1}{\Delta t} $$</li>
+<li>極性判定：<ul>
+<li>運用楞次定律</li>
+<li>使用右手定則</li>
+</ul>
+</li>
+<li>變壓器設計的基礎</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=K5Wtf3spMFs">YouTube 影片：應電勢的分類</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>physics</tag>
+        <tag>induced-emf</tag>
+        <tag>electromagnetic-induction</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.7 Induced EMF Formula Memorization / 2-5.7 應電勢公式記憶法</title>
+    <url>/2024/05/24/2024-05-24-induced-emf-formula/</url>
+    <content><![CDATA[<h1 id="2-5-7-Induced-EMF-Formula-Memorization"><a href="#2-5-7-Induced-EMF-Formula-Memorization" class="headerlink" title="2-5.7 Induced EMF Formula Memorization"></a>2-5.7 Induced EMF Formula Memorization</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Formula-Types"><a href="#Formula-Types" class="headerlink" title="Formula Types"></a>Formula Types</h3><ul>
+<li>Two types of induced EMF formulas:<ul>
+<li>Self-induced EMF</li>
+<li>Mutual-induced EMF</li>
+</ul>
+</li>
+<li>Both formulas are challenging to memorize</li>
+</ul>
+<h3 id="LION-Formula-Method"><a href="#LION-Formula-Method" class="headerlink" title="LION Formula Method"></a>LION Formula Method</h3><ul>
+<li>Basic formula: LI &#x3D; NΦ</li>
+<li>Divide both sides by time t</li>
+<li>Results in induced EMF formula</li>
+<li>Helps in understanding relationships</li>
+</ul>
+<h3 id="Memorization-Techniques"><a href="#Memorization-Techniques" class="headerlink" title="Memorization Techniques"></a>Memorization Techniques</h3><ul>
+<li><p><strong>Self-induced EMF:</strong></p>
+<ul>
+<li>Use “1111” mnemonic</li>
+<li>L₁, i₁, N₁, Φ₁</li>
+<li>All subscripts are 1</li>
+</ul>
+</li>
+<li><p><strong>Mutual-induced EMF:</strong></p>
+<ul>
+<li>Use “1212” mnemonic</li>
+<li>Involves mutual inductance M</li>
+<li>Relates to N₂ and Φ₁₂</li>
+</ul>
+</li>
+</ul>
+<h3 id="Example-Applications"><a href="#Example-Applications" class="headerlink" title="Example Applications"></a>Example Applications</h3><ul>
+<li><p><strong>Case 1:</strong></p>
+<ul>
+<li>N₁ &#x3D; 1000 turns</li>
+<li>Magnetic flux increases 0.1 Wb&#x2F;s</li>
+<li>e_ab &#x3D; 100V</li>
+<li>Positive polarity</li>
+</ul>
+</li>
+<li><p><strong>Case 2:</strong></p>
+<ul>
+<li>N₂ &#x3D; 5000 turns</li>
+<li>Coupling coefficient K &#x3D; 1</li>
+<li>e_cd &#x3D; 500V</li>
+<li>Negative polarity</li>
+</ul>
+</li>
+</ul>
+<h3 id="Polarity-Determination"><a href="#Polarity-Determination" class="headerlink" title="Polarity Determination"></a>Polarity Determination</h3><ul>
+<li>Use Ampere’s right-hand rule</li>
+<li>Direction opposes flux change</li>
+<li>Determines current direction</li>
+<li>Sets EMF polarity</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=WN2KRhW3ekQ">YouTube Video: Induced EMF Formula Memorization</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-7-應電勢公式記憶法"><a href="#2-5-7-應電勢公式記憶法" class="headerlink" title="2-5.7 應電勢公式記憶法"></a>2-5.7 應電勢公式記憶法</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="公式種類"><a href="#公式種類" class="headerlink" title="公式種類"></a>公式種類</h3><ul>
+<li>應電勢公式分兩種：<ul>
+<li>自感應電勢</li>
+<li>互感應電勢</li>
+</ul>
+</li>
+<li>兩種公式都較難記憶</li>
+</ul>
+<h3 id="LION公式法"><a href="#LION公式法" class="headerlink" title="LION公式法"></a>LION公式法</h3><ul>
+<li>基本公式：LI &#x3D; NΦ</li>
+<li>兩邊除以時間t</li>
+<li>得到應電勢公式</li>
+<li>幫助理解關係</li>
+</ul>
+<h3 id="記憶技巧"><a href="#記憶技巧" class="headerlink" title="記憶技巧"></a>記憶技巧</h3><ul>
+<li><p><strong>自感應電勢：</strong></p>
+<ul>
+<li>使用「1111」口訣</li>
+<li>L₁、i₁、N₁、Φ₁</li>
+<li>下標都是1</li>
+</ul>
+</li>
+<li><p><strong>互感應電勢：</strong></p>
+<ul>
+<li>使用「1212」口訣</li>
+<li>涉及互感量M</li>
+<li>與N₂、Φ₁₂相關</li>
+</ul>
+</li>
+</ul>
+<h3 id="應用範例"><a href="#應用範例" class="headerlink" title="應用範例"></a>應用範例</h3><ul>
+<li><p><strong>案例1：</strong></p>
+<ul>
+<li>N₁ &#x3D; 1000匝</li>
+<li>磁通每秒增加0.1Wb</li>
+<li>e_ab &#x3D; 100V</li>
+<li>極性為正</li>
+</ul>
+</li>
+<li><p><strong>案例2：</strong></p>
+<ul>
+<li>N₂ &#x3D; 5000匝</li>
+<li>耦合係數K &#x3D; 1</li>
+<li>e_cd &#x3D; 500V</li>
+<li>極性為負</li>
+</ul>
+</li>
+</ul>
+<h3 id="極性判定"><a href="#極性判定" class="headerlink" title="極性判定"></a>極性判定</h3><ul>
+<li>使用安培右手定則</li>
+<li>方向反抗磁通變化</li>
+<li>決定電流方向</li>
+<li>設定電勢極性</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=WN2KRhW3ekQ">YouTube 影片：應電勢公式記憶法</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>physics</tag>
+        <tag>induced-emf</tag>
+        <tag>electromagnetic-induction</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-4.4 Joule&#39;s Law and Electric Current Heat Effect / 2-4.4 焦耳定律與電流熱效應重點歸納</title>
+    <url>/2024/05/24/2024-05-24-joules-law/</url>
+    <content><![CDATA[<h1 id="2-4-4-Joule’s-Law-and-Electric-Current-Heat-Effect"><a href="#2-4-4-Joule’s-Law-and-Electric-Current-Heat-Effect" class="headerlink" title="2-4.4 Joule’s Law and Electric Current Heat Effect"></a>2-4.4 Joule’s Law and Electric Current Heat Effect</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Discoverer of Joule’s Law:</strong> British physicist James Joule (1841)  </li>
+<li><strong>Electric Current Heat Effect:</strong> Heat generated by collisions of charged particles when current passes through a resistor  </li>
+<li><strong>Joule’s Law Formula:</strong><br>$$ H &#x3D; I^2 \times R \times t $$<br>where  <ul>
+<li>(H): Heat energy (Joule, J)  </li>
+<li>(I): Current (Ampere, A)  </li>
+<li>(R): Resistance (Ohm, Ω)  </li>
+<li>(t): Time (seconds, s)</li>
+</ul>
+</li>
+<li><strong>Heat Unit Conversion:</strong>  <ul>
+<li>1 calorie (cal) &#x3D; 4.185 Joules (J)  </li>
+<li>1 Joule (J) &#x3D; 0.24 calories (cal)</li>
+</ul>
+</li>
+<li><strong>Imperial Heat Unit:</strong> 1 BTU &#x3D; 252 cal &#x3D; 1055 J  </li>
+<li><strong>Application of Heat Calculation:</strong> Use Joule’s law to calculate heat produced by resistors, convertible to cal or BTU  </li>
+<li><strong>Heat and Temperature Change Relation:</strong><br>$$ H &#x3D; m \times s \times \Delta T $$<br>where  <ul>
+<li>(m): Mass (grams, g)  </li>
+<li>(s): Specific heat (cal&#x2F;g°C)  </li>
+<li>(\Delta T): Temperature change (°C)</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=TQ1TTvaexS4">YouTube Video: Joule’s Law and Electric Current Heat Effect</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-4-4-焦耳定律與電流熱效應重點歸納"><a href="#2-4-4-焦耳定律與電流熱效應重點歸納" class="headerlink" title="2-4.4 焦耳定律與電流熱效應重點歸納"></a>2-4.4 焦耳定律與電流熱效應重點歸納</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>焦耳定律發現者</strong>：英國物理學家詹姆斯·焦耳（1841年）  </li>
+<li><strong>電流熱效應</strong>：電流通過電阻器時，帶電粒子碰撞產生熱能  </li>
+<li><strong>焦耳定律公式</strong>：<br>$$ H &#x3D; I^2 \times R \times t $$<br>其中，  <ul>
+<li>(H)：熱量（焦耳，J）  </li>
+<li>(I)：電流（安培，A）  </li>
+<li>(R)：電阻（歐姆，Ω）  </li>
+<li>(t)：時間（秒，s）</li>
+</ul>
+</li>
+<li><strong>熱量單位轉換</strong>：  <ul>
+<li>1卡（cal）&#x3D; 4.185焦耳（J）  </li>
+<li>1焦耳（J）&#x3D; 0.24卡（cal）</li>
+</ul>
+</li>
+<li><strong>英制熱量單位</strong>：1 BTU &#x3D; 252卡 &#x3D; 1055焦耳  </li>
+<li><strong>熱量計算應用</strong>：利用焦耳定律計算電阻器產生的熱量，並可轉換成卡或BTU  </li>
+<li><strong>熱量與溫度變化關係</strong>：<br>$$ H &#x3D; m \times s \times \Delta T $$<br>其中，  <ul>
+<li>(m)：質量（克，g）  </li>
+<li>(s)：比熱（cal&#x2F;g°C）  </li>
+<li>(\Delta T)：溫度變化（°C）</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=TQ1TTvaexS4">YouTube 影片：焦耳定律與電流熱效應</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>physics</tag>
+        <tag>joule&#39;s law</tag>
+        <tag>heat effect</tag>
+        <tag>electric current</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Electricity 1 - Section 3-7: Kirchhoff&#39;s Current Law / 克希荷夫電流定律（3-7）</title>
+    <url>/2025/05/24/2024-05-24-kirchhoff-current-law-2/</url>
+    <content><![CDATA[<h1 id="Basic-Electricity-1-Section-3-7-Kirchhoff’s-Current-Law"><a href="#Basic-Electricity-1-Section-3-7-Kirchhoff’s-Current-Law" class="headerlink" title="Basic Electricity 1 - Section 3-7: Kirchhoff’s Current Law"></a>Basic Electricity 1 - Section 3-7: Kirchhoff’s Current Law</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Kirchhoff’s Current Law (KCL):</strong> At any node in an electrical circuit, the total current entering equals the total current leaving.</li>
+<li><strong>Formula:</strong><br>$$<br>\sum I_{\text{in}} &#x3D; \sum I_{\text{out}}<br>$$<br>or algebraic sum equals zero:<br>$$<br>\sum I &#x3D; 0<br>$$</li>
+<li>The algebraic sum of currents at a node (inflows positive, outflows negative) is zero.</li>
+<li>Use examples to calculate currents and find unknown values.</li>
+<li>In parallel circuits, node currents conserve and voltages are equal.</li>
+<li>Examples include calculating currents and resistances to verify KCL.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=11QeMziomc0">YouTube Video: Kirchhoff’s Current Law</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="磨課師基本電學1-3-7-克希荷夫電流定律"><a href="#磨課師基本電學1-3-7-克希荷夫電流定律" class="headerlink" title="磨課師基本電學1 3-7 克希荷夫電流定律"></a>磨課師基本電學1 3-7 克希荷夫電流定律</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>克希荷夫電流定律 (KCL)</strong>：在電路中任一節點，流入的總電流等於流出的總電流。</li>
+<li>公式表示：<br>$$<br>\sum I_{\text{流入}} &#x3D; \sum I_{\text{流出}}<br>$$<br>或代數和為零：<br>$$<br>\sum I &#x3D; 0<br>$$</li>
+<li>節點電流的代數和（流入為正，流出為負）等於零。</li>
+<li>透過實例計算節點電流，求出未知電流值。</li>
+<li>並聯電路中，節點電流守恆，電壓相等。</li>
+<li>實例中計算電流和電阻，驗證KCL定律。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=11QeMziomc0">YouTube 影片：克希荷夫電流定律</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。</p>
+</blockquote>
+<hr>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><p><a href="https://www.youtube.com/watch?v=11QeMziomc0">3-7 克希荷夫電流定律 - 陳培基 DeltaMOOCx</a> </p>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>Kirchhoff&#39;s laws</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Kirchhoff&#39;s Current Law (3-7) / 克希荷夫電流定律（3-7）</title>
+    <url>/2024/05/24/2024-05-24-kirchhoff-current-law/</url>
+    <content><![CDATA[<h1 id="Kirchhoff’s-Current-Law-3-7"><a href="#Kirchhoff’s-Current-Law-3-7" class="headerlink" title="Kirchhoff’s Current Law (3-7)"></a>Kirchhoff’s Current Law (3-7)</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Kirchhoff’s Current Law (KCL)</strong>: At any node in an electrical circuit, the total current entering equals the total current leaving</li>
+<li><strong>Formula Representation</strong>:<br>[ \sum I_{\text{in}} &#x3D; \sum I_{\text{out}} ]<br>or algebraic sum equals zero:<br>[ \sum I &#x3D; 0 ]</li>
+<li><strong>Node Current Conservation</strong>: The algebraic sum of currents at a node (inflows positive, outflows negative) is zero</li>
+<li><strong>Current Calculation</strong>: Use examples to calculate currents and find unknown values</li>
+<li><strong>Parallel Circuit Properties</strong>: In parallel circuits, node currents conserve and voltages are equal</li>
+<li><strong>Practical Applications</strong>: Examples include calculating currents and resistances to verify KCL</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=11QeMziomc0">YouTube Video: Kirchhoff’s Current Law</a></p>
+<hr>
+<h1 id="克希荷夫電流定律（3-7）"><a href="#克希荷夫電流定律（3-7）" class="headerlink" title="克希荷夫電流定律（3-7）"></a>克希荷夫電流定律（3-7）</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>克希荷夫電流定律 (KCL)</strong>：在電路中任一節點，流入的總電流等於流出的總電流</li>
+<li><strong>公式表示</strong>：<br>[ \sum I_{\text{流入}} &#x3D; \sum I_{\text{流出}} ]<br>或代數和為零：<br>[ \sum I &#x3D; 0 ]</li>
+<li><strong>節點電流守恆</strong>：節點電流的代數和（流入為正，流出為負）等於零</li>
+<li><strong>電流計算</strong>：透過實例計算節點電流，求出未知電流值</li>
+<li><strong>並聯電路特性</strong>：並聯電路中，節點電流守恆，電壓相等</li>
+<li><strong>實際應用</strong>：實例中計算電流和電阻，驗證KCL定律</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=11QeMziomc0">YouTube 影片：克希荷夫電流定律</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>Kirchhoff&#39;s laws</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.5 Lenz&#39;s Law and Electromagnetic Induction / 2-5.5 楞次定律與電磁感應</title>
+    <url>/2024/05/24/2024-05-24-lenz-law/</url>
+    <content><![CDATA[<h1 id="2-5-5-Lenz’s-Law-and-Electromagnetic-Induction"><a href="#2-5-5-Lenz’s-Law-and-Electromagnetic-Induction" class="headerlink" title="2-5.5 Lenz’s Law and Electromagnetic Induction"></a>2-5.5 Lenz’s Law and Electromagnetic Induction</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Lenz’s-Law-Fundamentals"><a href="#Lenz’s-Law-Fundamentals" class="headerlink" title="Lenz’s Law Fundamentals"></a>Lenz’s Law Fundamentals</h3><ul>
+<li>Induced current creates a magnetic field that opposes the change in original magnetic flux</li>
+<li>Complements Faraday’s Law by explaining EMF polarity</li>
+<li>Essential for understanding electromagnetic induction phenomena</li>
+</ul>
+<h3 id="N-Pole-Approaching-the-Coil"><a href="#N-Pole-Approaching-the-Coil" class="headerlink" title="N Pole Approaching the Coil"></a>N Pole Approaching the Coil</h3><ul>
+<li>Induced current creates magnetic field opposing N pole approach</li>
+<li>Magnetic field direction: right to left</li>
+<li>Current flows from B to A</li>
+<li>EMF polarity: A positive, B negative</li>
+</ul>
+<h3 id="N-Pole-Moving-Away-from-the-Coil"><a href="#N-Pole-Moving-Away-from-the-Coil" class="headerlink" title="N Pole Moving Away from the Coil"></a>N Pole Moving Away from the Coil</h3><ul>
+<li>Coil end forms S pole to attract N pole</li>
+<li>Magnetic field direction: to the right</li>
+<li>Current flows from A to B</li>
+<li>EMF polarity: B positive, A negative</li>
+</ul>
+<h3 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h3><ul>
+<li>Use Ampere’s Right-Hand Rule for current direction</li>
+<li>Understanding through “chasing girlfriend” analogy</li>
+<li>Important for electromagnetic device design</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=iG9TjAFNod8">YouTube Video: Lenz’s Law and Electromagnetic Induction</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-5-楞次定律與電磁感應"><a href="#2-5-5-楞次定律與電磁感應" class="headerlink" title="2-5.5 楞次定律與電磁感應"></a>2-5.5 楞次定律與電磁感應</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="楞次定律基礎"><a href="#楞次定律基礎" class="headerlink" title="楞次定律基礎"></a>楞次定律基礎</h3><ul>
+<li>感應電流產生磁場，反抗原有磁通的變化</li>
+<li>補充法拉第定律，說明電動勢極性</li>
+<li>理解電磁感應現象的關鍵</li>
+</ul>
+<h3 id="N極靠近線圈"><a href="#N極靠近線圈" class="headerlink" title="N極靠近線圈"></a>N極靠近線圈</h3><ul>
+<li>感應電流產生磁場反抗N極接近</li>
+<li>磁場方向：由右到左</li>
+<li>電流方向：由B流入A流出</li>
+<li>電動勢極性：A正B負</li>
+</ul>
+<h3 id="N極遠離線圈"><a href="#N極遠離線圈" class="headerlink" title="N極遠離線圈"></a>N極遠離線圈</h3><ul>
+<li>線圈端產生S極吸引N極</li>
+<li>磁場方向：向右</li>
+<li>電流方向：由A流入B流出</li>
+<li>電動勢極性：B正A負</li>
+</ul>
+<h3 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h3><ul>
+<li>使用安培右手定則判斷電流方向</li>
+<li>透過「追女朋友」比喻理解</li>
+<li>電磁裝置設計的重要依據</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=iG9TjAFNod8">YouTube 影片：楞次定律與電磁感應</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>physics</tag>
+        <tag>electromagnetic-induction</tag>
+        <tag>lenz-law</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-4.1 Ohm&#39;s Law Practice Examples / 2-4.1 歐姆定律範例練習</title>
+    <url>/2025/05/24/2024-05-24-ohms-law-examples/</url>
+    <content><![CDATA[<h1 id="2-4-1-Ohm’s-Law-Practice-Examples"><a href="#2-4-1-Ohm’s-Law-Practice-Examples" class="headerlink" title="2-4.1 Ohm’s Law Practice Examples"></a>2-4.1 Ohm’s Law Practice Examples</h1><h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><ul>
+<li><p><strong>Ohm’s Law formula</strong>:<br>$$ R &#x3D; \frac{V}{I} $$<br>Resistance (R) equals voltage (V) divided by current (I).</p>
+</li>
+<li><p><strong>Example explanations</strong>:  </p>
+<ul>
+<li>Select points from voltage-current graph and calculate resistance using Ohm’s law.  </li>
+<li>Voltage difference calculation: (V_{AB} &#x3D; V_A - V_B).  </li>
+<li>Current flows from higher to lower potential.  </li>
+<li>Current magnitude calculation:<br>$$ I &#x3D; \frac{V_{AB}}{R} $$</li>
+</ul>
+</li>
+<li><p><strong>Resistor and heating wire example</strong>:  </p>
+<ul>
+<li>Heating wire resistance is 20 ohms, voltage 110V, current 5.5A.  </li>
+<li>When the wire length is halved, resistance halves, current doubles to 11A.  </li>
+<li>Increased current may cause the wire to burn out.</li>
+</ul>
+</li>
+<li><p><strong>Multiple resistor current calculation</strong>:  </p>
+<ul>
+<li>Use node voltages to find voltage differences across resistors.  </li>
+<li>Apply the same current formula.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=Czyarzc0Z38">YouTube Video: Ohm’s Law Practice Examples</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-4-1-歐姆定律範例練習"><a href="#2-4-1-歐姆定律範例練習" class="headerlink" title="2-4.1 歐姆定律範例練習"></a>2-4.1 歐姆定律範例練習</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><p><strong>歐姆定律公式</strong>：<br>$$ R &#x3D; \frac{V}{I} $$<br>電阻 (R) 等於電壓 (V) 除以電流 (I)。</p>
+</li>
+<li><p><strong>例題說明</strong>：  </p>
+<ul>
+<li>從電壓與電流圖中選點，代入歐姆定律計算電阻值。  </li>
+<li>電位差計算：兩點電位差 (V_{AB} &#x3D; V_A - V_B)。  </li>
+<li>電流方向由高電位流向低電位。  </li>
+<li>電流大小計算：<br>$$ I &#x3D; \frac{V_{AB}}{R} $$</li>
+</ul>
+</li>
+<li><p><strong>電阻與電熱絲例題</strong>：  </p>
+<ul>
+<li>電熱絲電阻為20歐姆，110伏特電壓，電流為5.5安培。  </li>
+<li>電熱絲長度減半，電阻減半，電流變為11安培。  </li>
+<li>電流增大可能導致電熱絲燒毀。</li>
+</ul>
+</li>
+<li><p><strong>多電阻電流計算</strong>：  </p>
+<ul>
+<li>利用節點電位差計算各電阻電流。  </li>
+<li>電流計算公式同上。</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=Czyarzc0Z38">YouTube 影片：歐姆定律範例練習</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>ohm&#39;s law</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-4.2 Ohm&#39;s Law Summary / 2-4.2 歐姆定律重點歸納</title>
+    <url>/2024/05/24/2024-05-24-ohms-law-summary/</url>
+    <content><![CDATA[<h1 id="2-4-2-Ohm’s-Law-Summary"><a href="#2-4-2-Ohm’s-Law-Summary" class="headerlink" title="2-4.2 Ohm’s Law Summary"></a>2-4.2 Ohm’s Law Summary</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Ohm’s Law was discovered by German physicist Georg Ohm in 1862</strong>, describing the relationship between voltage (V), current (I), and resistance (R) across a resistor.</li>
+<li>Applying voltage ( V ) across a resistor causes current ( I ) to flow.</li>
+<li>When resistance ( R ) is constant, increasing voltage ( V ) increases current ( I ).</li>
+<li>When voltage ( V ) is constant, decreasing resistance ( R ) increases current ( I ).</li>
+<li>Mathematical expressions:<ul>
+<li>( I &#x3D; \frac{V}{R} ) (Current equals voltage divided by resistance)</li>
+<li>( R &#x3D; \frac{V}{I} ) (Resistance equals voltage divided by current)</li>
+<li>( V &#x3D; I \times R ) (Voltage equals current times resistance)</li>
+</ul>
+</li>
+<li>Units:<ul>
+<li>Voltage ( V ): Volt (V)</li>
+<li>Current ( I ): Ampere (A)</li>
+<li>Resistance ( R ): Ohm (Ω)</li>
+</ul>
+</li>
+<li>Voltage and current are proportional; the proportionality constant is the resistance.</li>
+<li>The voltage-current graph is a straight line with slope equal to the resistance.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=inSGFV-z-xc">YouTube Video: Ohm’s Law Summary</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-4-2-歐姆定律重點歸納"><a href="#2-4-2-歐姆定律重點歸納" class="headerlink" title="2-4.2 歐姆定律重點歸納"></a>2-4.2 歐姆定律重點歸納</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>歐姆定律由德國物理學家奧爾格·歐姆於1862年發現</strong>，描述電阻器上的電壓 (V)、電流 (I) 與電阻值 (R) 之間的關係。</li>
+<li>電阻器兩端加電壓 ( V )，會產生電流 ( I )。</li>
+<li>在電阻值 ( R ) 不變時，電壓 ( V ) 增大，電流 ( I ) 也會增大。</li>
+<li>在電壓 ( V ) 不變時，電阻 ( R ) 減小，電流 ( I ) 會增大。</li>
+<li>數學表達式：<ul>
+<li>( I &#x3D; \frac{V}{R} ) （電流等於電壓除以電阻）</li>
+<li>( R &#x3D; \frac{V}{I} ) （電阻等於電壓除以電流）</li>
+<li>( V &#x3D; I \times R ) （電壓等於電流乘以電阻）</li>
+</ul>
+</li>
+<li>單位：<ul>
+<li>電壓 ( V )：伏特 (Volt, V)</li>
+<li>電流 ( I )：安培 (Ampere, A)</li>
+<li>電阻 ( R )：歐姆 (Ohm, Ω)</li>
+</ul>
+</li>
+<li>電壓與電流成正比，比例常數即為電阻值。</li>
+<li>電壓-電流關係圖為一條斜率為電阻值的直線。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=inSGFV-z-xc">YouTube 影片：歐姆定律重點歸納</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>ohm&#39;s law</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Application Examples of Parallel Circuits (3-9) / 並聯電路應用實例（3-9）</title>
+    <url>/2024/05/24/2024-05-24-parallel-circuit-applications-2/</url>
+    <content><![CDATA[<h1 id="Application-Examples-of-Parallel-Circuits-3-9"><a href="#Application-Examples-of-Parallel-Circuits-3-9" class="headerlink" title="Application Examples of Parallel Circuits (3-9)"></a>Application Examples of Parallel Circuits (3-9)</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Ammeter Structure</strong>: Composed of a galvanometer and internal resistance RA in series; the lower the internal resistance, the better, ideally zero</li>
+<li><strong>Current Measurement</strong>: The ammeter must be connected in series with the component being measured</li>
+<li><strong>Multiplier (Shunt Resistor)</strong>: To extend the ammeter’s measuring range, a low-resistance resistor RS is connected in parallel, called a shunt resistor</li>
+<li><strong>Multiplier Formula</strong>:<br>[ n &#x3D; \frac{I_T}{I_A} &#x3D; 1 + \frac{R_A}{R_S} ]</li>
+<li><strong>Shunt Resistor Calculation</strong>:<br>[ R_S &#x3D; \frac{R_A}{n - 1} ]</li>
+<li><strong>Examples</strong>:  <ul>
+<li>Ammeter full scale 10mA, internal resistance 50Ω, to measure 1A, parallel a 0.5Ω shunt resistor</li>
+<li>If RS is 1&#x2F;9 of RA, the measuring range is extended 10 times</li>
+</ul>
+</li>
+<li><strong>Parallel Appliances Rated Voltage Judgment</strong>:  <ul>
+<li>Appliances with matching rated voltage work normally (e.g., computer, refrigerator at 110V)</li>
+<li>Appliances with rated voltage lower than supply voltage will be damaged (e.g., 24V intercom connected to 110V)</li>
+<li>Appliances with rated voltage higher than supply voltage cannot operate properly (e.g., 220V air conditioner connected to 110V)</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=f5J4Xof23_k">YouTube Video: Application Examples of Parallel Circuits</a></p>
+<hr>
+<h1 id="並聯電路應用實例（3-9）"><a href="#並聯電路應用實例（3-9）" class="headerlink" title="並聯電路應用實例（3-9）"></a>並聯電路應用實例（3-9）</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>電流表結構</strong>：由檢流計與內電阻RA串聯組成，內電阻越低越好，理想為零</li>
+<li><strong>測量電流</strong>：電流表必須與被測元件串聯</li>
+<li><strong>倍增器（分流器）</strong>：為擴大電流表測量範圍，並聯一個低阻值電阻RS，稱為分流器</li>
+<li><strong>倍增率公式</strong>：<br>[ n &#x3D; \frac{I_T}{I_A} &#x3D; 1 + \frac{R_A}{R_S} ]</li>
+<li><strong>分流器電阻計算</strong>：<br>[ R_S &#x3D; \frac{R_A}{n - 1} ]</li>
+<li><strong>實例</strong>：  <ul>
+<li>電流表滿刻度10mA，內阻50Ω，要測量1A，需並聯0.5Ω分流器</li>
+<li>若RS是RA的1&#x2F;9，測量範圍擴大為10倍</li>
+</ul>
+</li>
+<li><strong>並聯電器額定電壓判斷</strong>：  <ul>
+<li>額定電壓相符可正常工作（如電腦、冰箱110V）</li>
+<li>額定電壓低於供電電壓會燒毀（如24V對講機接110V）</li>
+<li>額定電壓高於供電電壓無法正常運作（如220V冷氣接110V）</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=f5J4Xof23_k">YouTube 影片：並聯電路應用實例</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>parallel circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Application Examples of Parallel Circuits (3-9) / 並聯電路應用實例（3-9）</title>
+    <url>/2024/05/24/2024-05-24-parallel-circuit-applications/</url>
+    <content><![CDATA[<h1 id="Application-Examples-of-Parallel-Circuits-3-9"><a href="#Application-Examples-of-Parallel-Circuits-3-9" class="headerlink" title="Application Examples of Parallel Circuits (3-9)"></a>Application Examples of Parallel Circuits (3-9)</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Ammeter Structure:</strong> Composed of a galvanometer and internal resistance RA in series; the lower the internal resistance, the better, ideally zero</li>
+<li><strong>Current Measurement:</strong> The ammeter must be connected in series with the component being measured</li>
+<li><strong>Multiplier (Shunt Resistor):</strong> To extend the ammeter’s measuring range, a low-resistance resistor RS is connected in parallel, called a shunt resistor</li>
+<li><strong>Multiplier Formula:</strong><br>[ n &#x3D; \frac{I_T}{I_A} &#x3D; 1 + \frac{R_A}{R_S} ]</li>
+<li><strong>Shunt Resistor Calculation:</strong><br>[ R_S &#x3D; \frac{R_A}{n - 1} ]</li>
+<li><strong>Examples:</strong>  <ul>
+<li>Ammeter full scale 10mA, internal resistance 50Ω, to measure 1A, parallel a 0.5Ω shunt resistor</li>
+<li>If RS is 1&#x2F;9 of RA, the measuring range is extended 10 times</li>
+</ul>
+</li>
+<li><strong>Parallel Appliances Rated Voltage Judgment:</strong>  <ul>
+<li>Appliances with matching rated voltage work normally (e.g., computer, refrigerator at 110V)</li>
+<li>Appliances with rated voltage lower than supply voltage will be damaged (e.g., 24V intercom connected to 110V)</li>
+<li>Appliances with rated voltage higher than supply voltage cannot operate properly (e.g., 220V air conditioner connected to 110V)</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=f5J4Xof23_k">YouTube Video: Parallel Circuit Applications</a></p>
+<hr>
+<h1 id="並聯電路應用實例（3-9）"><a href="#並聯電路應用實例（3-9）" class="headerlink" title="並聯電路應用實例（3-9）"></a>並聯電路應用實例（3-9）</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>電流表結構</strong>：由檢流計與內電阻RA串聯組成，內電阻越低越好，理想為零</li>
+<li><strong>測量電流</strong>：電流表必須與被測元件串聯</li>
+<li><strong>倍增器（分流器）</strong>：為擴大電流表測量範圍，並聯一個低阻值電阻RS，稱為分流器</li>
+<li><strong>倍增率公式</strong>：<br>[ n &#x3D; \frac{I_T}{I_A} &#x3D; 1 + \frac{R_A}{R_S} ]</li>
+<li><strong>分流器電阻計算</strong>：<br>[ R_S &#x3D; \frac{R_A}{n - 1} ]</li>
+<li><strong>實例</strong>：  <ul>
+<li>電流表滿刻度10mA，內阻50Ω，要測量1A，需並聯0.5Ω分流器</li>
+<li>若RS是RA的1&#x2F;9，測量範圍擴大為10倍</li>
+</ul>
+</li>
+<li><strong>並聯電器額定電壓判斷</strong>：  <ul>
+<li>額定電壓相符可正常工作（如電腦、冰箱110V）</li>
+<li>額定電壓低於供電電壓會燒毀（如24V對講機接110V）</li>
+<li>額定電壓高於供電電壓無法正常運作（如220V冷氣接110V）</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=f5J4Xof23_k">YouTube 影片：並聯電路應用實例</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>parallel circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Electricity 1 - Parallel Circuit Definition and Characteristics / 並聯電路定義及特性</title>
+    <url>/2025/05/24/2024-05-24-parallel-circuit-definition/</url>
+    <content><![CDATA[<h1 id="Basic-Electricity-1-Parallel-Circuit-Definition-and-Characteristics"><a href="#Basic-Electricity-1-Parallel-Circuit-Definition-and-Characteristics" class="headerlink" title="Basic Electricity 1 - Parallel Circuit Definition and Characteristics"></a>Basic Electricity 1 - Parallel Circuit Definition and Characteristics</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ol>
+<li><strong>Definition</strong>: A parallel circuit consists of two or more components, where one end of each component is connected together and the other end is also connected together.</li>
+<li><strong>Characteristics</strong>:<ul>
+<li><strong>Equal Voltage</strong>: The voltage across all components is the same.</li>
+<li><strong>Independence</strong>: If one component fails, it does not affect the operation of other components.</li>
+<li><strong>Total Resistance</strong>: The formula for total resistance ( R_T ) is:<br>$$<br>\frac{1}{R_T} &#x3D; \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}<br>$$</li>
+<li><strong>Conductance</strong>: The total conductance ( G_T ) is the sum of the conductances of each branch.</li>
+</ul>
+</li>
+</ol>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=tkWvzL-CugU">YouTube Video: Parallel Circuit Definition and Characteristics</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="並聯電路定義及特性"><a href="#並聯電路定義及特性" class="headerlink" title="並聯電路定義及特性"></a>並聯電路定義及特性</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ol>
+<li><strong>定義</strong>：並聯電路由兩個或以上元件組成，所有元件的一端相連，另一端也相連。</li>
+<li><strong>特性</strong>：<ul>
+<li><strong>電壓相等</strong>：所有元件的電壓相同。</li>
+<li><strong>獨立性</strong>：某一元件斷路不影響其他元件的運作。</li>
+<li><strong>總電阻</strong>：總電阻 ( R_T ) 計算公式為：<br>$$<br>\frac{1}{R_T} &#x3D; \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}<br>$$</li>
+<li><strong>電導</strong>：總電導 ( G_T ) 為各支路電導之和。</li>
+</ul>
+</li>
+</ol>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=tkWvzL-CugU">YouTube 影片：並聯電路定義及特性</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>parallel circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.8 RC Charging Circuit Transient Characteristics / 2-5.8 RC充電電路暫態特性與時間常數</title>
+    <url>/2024/05/24/2024-05-24-rc-charging-circuit/</url>
+    <content><![CDATA[<h1 id="2-5-8-RC-Charging-Circuit-Transient-Characteristics"><a href="#2-5-8-RC-Charging-Circuit-Transient-Characteristics" class="headerlink" title="2-5.8 RC Charging Circuit Transient Characteristics"></a>2-5.8 RC Charging Circuit Transient Characteristics</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="RC-Circuit-Structure"><a href="#RC-Circuit-Structure" class="headerlink" title="RC Circuit Structure"></a>RC Circuit Structure</h3><ul>
+<li>Capacitor and resistor in series</li>
+<li>Charging starts when switch closes</li>
+<li>Basic configuration for transient analysis</li>
+</ul>
+<h3 id="Initial-Conditions"><a href="#Initial-Conditions" class="headerlink" title="Initial Conditions"></a>Initial Conditions</h3><ul>
+<li>At switch closure:<ul>
+<li>Capacitor acts as short circuit</li>
+<li>Voltage across capacitor &#x3D; 0</li>
+<li>Maximum current: (I_{\max} &#x3D; \frac{E}{R})</li>
+</ul>
+</li>
+</ul>
+<h3 id="Charging-Process"><a href="#Charging-Process" class="headerlink" title="Charging Process"></a>Charging Process</h3><ul>
+<li>Capacitor voltage (V_C(t)) increases over time</li>
+<li>Resistor voltage (V_R(t)) decreases over time</li>
+<li>Current (i(t)) decreases over time</li>
+<li>Exponential relationship in all changes</li>
+</ul>
+<h3 id="Fully-Charged-State"><a href="#Fully-Charged-State" class="headerlink" title="Fully Charged State"></a>Fully Charged State</h3><ul>
+<li>Capacitor voltage equals source voltage (E)</li>
+<li>Resistor voltage becomes 0</li>
+<li>Current becomes 0</li>
+<li>Circuit behaves as open circuit</li>
+</ul>
+<h3 id="Time-Constant-tau"><a href="#Time-Constant-tau" class="headerlink" title="Time Constant (\tau)"></a>Time Constant (\tau)</h3><ul>
+<li>Defined as: ( \tau &#x3D; R \times C )</li>
+<li>Benchmark for transient duration</li>
+<li>Larger (\tau) &#x3D; longer charging time</li>
+<li>Smaller (\tau) &#x3D; shorter charging time</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=2zcYZjjBaqs">YouTube Video: RC Charging Circuit Transient Characteristics</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-8-RC充電電路暫態特性與時間常數"><a href="#2-5-8-RC充電電路暫態特性與時間常數" class="headerlink" title="2-5.8 RC充電電路暫態特性與時間常數"></a>2-5.8 RC充電電路暫態特性與時間常數</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="RC充電電路結構"><a href="#RC充電電路結構" class="headerlink" title="RC充電電路結構"></a>RC充電電路結構</h3><ul>
+<li>電容器與電阻串聯</li>
+<li>開關閉合時開始充電</li>
+<li>暫態分析的基本配置</li>
+</ul>
+<h3 id="瞬間特性"><a href="#瞬間特性" class="headerlink" title="瞬間特性"></a>瞬間特性</h3><ul>
+<li>開關剛閉合時：<ul>
+<li>電容器等效短路</li>
+<li>電容兩端電壓為0</li>
+<li>電流最大：(I_{\max} &#x3D; \frac{E}{R})</li>
+</ul>
+</li>
+</ul>
+<h3 id="充電過程"><a href="#充電過程" class="headerlink" title="充電過程"></a>充電過程</h3><ul>
+<li>電容電壓 (V_C(t)) 隨時間增加</li>
+<li>電阻電壓 (V_R(t)) 隨時間減少</li>
+<li>電流 (i(t)) 隨時間減少</li>
+<li>所有變化呈指數關係</li>
+</ul>
+<h3 id="充飽狀態"><a href="#充飽狀態" class="headerlink" title="充飽狀態"></a>充飽狀態</h3><ul>
+<li>電容電壓達到電源電壓 (E)</li>
+<li>電阻兩端電壓為0</li>
+<li>電流為0</li>
+<li>電路呈斷路狀態</li>
+</ul>
+<h3 id="時間常數-tau"><a href="#時間常數-tau" class="headerlink" title="時間常數 (\tau)"></a>時間常數 (\tau)</h3><ul>
+<li>定義為：( \tau &#x3D; R \times C )</li>
+<li>表示暫態持續時間的基準</li>
+<li>時間常數越大，充電時間越長</li>
+<li>時間常數越小，充電時間越短</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=2zcYZjjBaqs">YouTube 影片：RC充電電路暫態特性與時間常數</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>physics</tag>
+        <tag>circuit-analysis</tag>
+        <tag>transient-analysis</tag>
+        <tag>rc-circuit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.9 RC Charging Circuit Transient Current Formula / 2-5.9 RC充電電路暫態電流公式解析</title>
+    <url>/2024/05/24/2024-05-24-rc-charging-current-formula/</url>
+    <content><![CDATA[<h1 id="2-5-9-RC-Charging-Circuit-Transient-Current-Formula"><a href="#2-5-9-RC-Charging-Circuit-Transient-Current-Formula" class="headerlink" title="2-5.9 RC Charging Circuit Transient Current Formula"></a>2-5.9 RC Charging Circuit Transient Current Formula</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Initial-Conditions"><a href="#Initial-Conditions" class="headerlink" title="Initial Conditions"></a>Initial Conditions</h3><ul>
+<li>Capacitor connected to DC circuit</li>
+<li>Switch S closed</li>
+<li>Initial capacitor voltage &#x3D; 0</li>
+<li>Maximum current: ( i(0) &#x3D; \frac{E}{R} )</li>
+</ul>
+<h3 id="Circuit-Analysis"><a href="#Circuit-Analysis" class="headerlink" title="Circuit Analysis"></a>Circuit Analysis</h3><ul>
+<li>Following Kirchhoff’s voltage law:<br>[<br>E &#x3D; V_R(t) + V_C(t)<br>]</li>
+<li>Voltage relationships:<ul>
+<li>Resistor voltage: ( V_R(t) &#x3D; i(t) \times R )</li>
+<li>Capacitor voltage: ( V_C(t) &#x3D; \frac{Q(t)}{C} )</li>
+<li>Charge: ( Q(t) &#x3D; \int i(t) dt )</li>
+</ul>
+</li>
+</ul>
+<h3 id="Current-Formula"><a href="#Current-Formula" class="headerlink" title="Current Formula"></a>Current Formula</h3><ul>
+<li>Derived differential equation solution:<br>[<br>i(t) &#x3D; \frac{E}{R} e^{-\frac{t}{RC}}<br>]</li>
+<li>Formula components:<ul>
+<li>( \frac{E}{R} ): Initial current at switch closure</li>
+<li>( t ): Time</li>
+<li>( RC ): Time constant</li>
+<li>( e ): Euler’s number (~2.71828)</li>
+</ul>
+</li>
+</ul>
+<h3 id="Time-Characteristics"><a href="#Time-Characteristics" class="headerlink" title="Time Characteristics"></a>Time Characteristics</h3><ul>
+<li>Current decays exponentially</li>
+<li>Approaches zero at ( 5 \times RC )</li>
+<li>Circuit stabilizes at full charge</li>
+</ul>
+<h3 id="Common-Exponential-Values"><a href="#Common-Exponential-Values" class="headerlink" title="Common Exponential Values"></a>Common Exponential Values</h3><ul>
+<li>( e^{-1} &#x3D; 0.368 )</li>
+<li>( e^{-2} &#x3D; 0.135 )</li>
+<li>( e^{-3} &#x3D; 0.05 )</li>
+<li>( e^{-4} &#x3D; 0.018 )</li>
+<li>( e^{-5} \approx 0 )</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=J2u5Xz7qV8A">YouTube Video: RC Charging Circuit Transient Current Formula</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-9-RC充電電路暫態電流公式解析"><a href="#2-5-9-RC充電電路暫態電流公式解析" class="headerlink" title="2-5.9 RC充電電路暫態電流公式解析"></a>2-5.9 RC充電電路暫態電流公式解析</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="初始條件"><a href="#初始條件" class="headerlink" title="初始條件"></a>初始條件</h3><ul>
+<li>電容器接入直流電路</li>
+<li>開關S閉合</li>
+<li>電容器初始電壓為0</li>
+<li>電流最大值：( i(0) &#x3D; \frac{E}{R} )</li>
+</ul>
+<h3 id="電路分析"><a href="#電路分析" class="headerlink" title="電路分析"></a>電路分析</h3><ul>
+<li>根據克希荷夫電壓定理：<br>[<br>E &#x3D; V_R(t) + V_C(t)<br>]</li>
+<li>電壓關係：<ul>
+<li>電阻電壓：( V_R(t) &#x3D; i(t) \times R )</li>
+<li>電容電壓：( V_C(t) &#x3D; \frac{Q(t)}{C} )</li>
+<li>電量：( Q(t) &#x3D; \int i(t) dt )</li>
+</ul>
+</li>
+</ul>
+<h3 id="電流公式"><a href="#電流公式" class="headerlink" title="電流公式"></a>電流公式</h3><ul>
+<li>微分方程解：<br>[<br>i(t) &#x3D; \frac{E}{R} e^{-\frac{t}{RC}}<br>]</li>
+<li>公式組成：<ul>
+<li>( \frac{E}{R} )：開關閉合瞬間的初始電流</li>
+<li>( t )：時間</li>
+<li>( RC )：時間常數</li>
+<li>( e )：自然指數（約2.71828）</li>
+</ul>
+</li>
+</ul>
+<h3 id="時間特性"><a href="#時間特性" class="headerlink" title="時間特性"></a>時間特性</h3><ul>
+<li>電流呈指數衰減</li>
+<li>約在 ( 5 \times RC ) 時趨近於0</li>
+<li>電容充電完成，電路穩定</li>
+</ul>
+<h3 id="常用自然指數值"><a href="#常用自然指數值" class="headerlink" title="常用自然指數值"></a>常用自然指數值</h3><ul>
+<li>( e^{-1} &#x3D; 0.368 )</li>
+<li>( e^{-2} &#x3D; 0.135 )</li>
+<li>( e^{-3} &#x3D; 0.05 )</li>
+<li>( e^{-4} &#x3D; 0.018 )</li>
+<li>( e^{-5} \approx 0 )</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=J2u5Xz7qV8A">YouTube 影片：RC充電電路暫態電流公式解析</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>physics</tag>
+        <tag>circuit-analysis</tag>
+        <tag>transient-analysis</tag>
+        <tag>rc-circuit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.10 RC Charging Circuit Transient Formula Review / 2-5.10 RC充電電路暫態公式複習</title>
+    <url>/2024/05/24/2024-05-24-rc-charging-formula-review/</url>
+    <content><![CDATA[<h1 id="2-5-10-RC-Charging-Circuit-Transient-Formula-Review"><a href="#2-5-10-RC-Charging-Circuit-Transient-Formula-Review" class="headerlink" title="2-5.10 RC Charging Circuit Transient Formula Review"></a>2-5.10 RC Charging Circuit Transient Formula Review</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Transient-Changes"><a href="#Transient-Changes" class="headerlink" title="Transient Changes"></a>Transient Changes</h3><ul>
+<li>In RC charging circuit:<ul>
+<li>Resistor voltage changes</li>
+<li>Capacitor voltage changes</li>
+<li>Circuit current changes</li>
+</ul>
+</li>
+<li>All changes are time-dependent</li>
+</ul>
+<h3 id="Mathematical-Description"><a href="#Mathematical-Description" class="headerlink" title="Mathematical Description"></a>Mathematical Description</h3><ul>
+<li>Changes described by formulas</li>
+<li>Natural exponential function: ( e^{-\frac{t}{RC}} )</li>
+<li>Time constant: ( \tau &#x3D; RC )</li>
+</ul>
+<h3 id="Voltage-and-Current-Formulas"><a href="#Voltage-and-Current-Formulas" class="headerlink" title="Voltage and Current Formulas"></a>Voltage and Current Formulas</h3><ul>
+<li><p>Capacitor voltage ( V_C(t) ):</p>
+<ul>
+<li>Increases over time</li>
+<li>Formula: ( 1 - e^{-\frac{t}{RC}} )</li>
+</ul>
+</li>
+<li><p>Resistor voltage ( V_R(t) ):</p>
+<ul>
+<li>Decreases over time</li>
+<li>Formula: ( e^{-\frac{t}{RC}} )</li>
+</ul>
+</li>
+<li><p>Circuit current ( i(t) ):</p>
+<ul>
+<li>Decreases over time</li>
+<li>Formula: ( e^{-\frac{t}{RC}} )</li>
+</ul>
+</li>
+</ul>
+<h3 id="Time-Characteristics"><a href="#Time-Characteristics" class="headerlink" title="Time Characteristics"></a>Time Characteristics</h3><ul>
+<li>Time constant ( \tau &#x3D; RC )</li>
+<li>Transient disappears at ( 5\tau )</li>
+<li>Circuit reaches steady state</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=dNBipumP9Bc">YouTube Video: RC Charging Circuit Transient Formula Review</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-10-RC充電電路暫態公式複習"><a href="#2-5-10-RC充電電路暫態公式複習" class="headerlink" title="2-5.10 RC充電電路暫態公式複習"></a>2-5.10 RC充電電路暫態公式複習</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="暫態變化"><a href="#暫態變化" class="headerlink" title="暫態變化"></a>暫態變化</h3><ul>
+<li>RC充電電路中：<ul>
+<li>電阻兩端電壓變化</li>
+<li>電容兩端電壓變化</li>
+<li>迴路電流變化</li>
+</ul>
+</li>
+<li>所有變化都與時間相關</li>
+</ul>
+<h3 id="數學描述"><a href="#數學描述" class="headerlink" title="數學描述"></a>數學描述</h3><ul>
+<li>變化可用數學公式描述</li>
+<li>自然指數函數：( e^{-\frac{t}{RC}} )</li>
+<li>時間常數：( \tau &#x3D; RC )</li>
+</ul>
+<h3 id="電壓與電流公式"><a href="#電壓與電流公式" class="headerlink" title="電壓與電流公式"></a>電壓與電流公式</h3><ul>
+<li><p>電容電壓 ( V_C(t) )：</p>
+<ul>
+<li>隨時間增加</li>
+<li>公式：( 1 - e^{-\frac{t}{RC}} )</li>
+</ul>
+</li>
+<li><p>電阻電壓 ( V_R(t) )：</p>
+<ul>
+<li>隨時間減少</li>
+<li>公式：( e^{-\frac{t}{RC}} )</li>
+</ul>
+</li>
+<li><p>迴路電流 ( i(t) )：</p>
+<ul>
+<li>隨時間減少</li>
+<li>公式：( e^{-\frac{t}{RC}} )</li>
+</ul>
+</li>
+</ul>
+<h3 id="時間特性"><a href="#時間特性" class="headerlink" title="時間特性"></a>時間特性</h3><ul>
+<li>時間常數 ( \tau &#x3D; RC )</li>
+<li>約在 ( 5\tau ) 時暫態消失</li>
+<li>電路進入穩定狀態</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=dNBipumP9Bc">YouTube 影片：RC充電電路暫態公式複習</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>physics</tag>
+        <tag>circuit-analysis</tag>
+        <tag>transient-analysis</tag>
+        <tag>rc-circuit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-5.1 Resistance Temperature Coefficient Examples / 2-5.1 電阻溫度係數範例練習</title>
+    <url>/2024/05/24/2024-05-24-resistance-temperature-coefficient/</url>
+    <content><![CDATA[<h1 id="2-5-1-Resistance-Temperature-Coefficient-Examples"><a href="#2-5-1-Resistance-Temperature-Coefficient-Examples" class="headerlink" title="2-5.1 Resistance Temperature Coefficient Examples"></a>2-5.1 Resistance Temperature Coefficient Examples</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ol>
+<li><p><strong>Definition of Temperature Coefficient of Resistance (TCR)</strong><br>The TCR (α) represents the fractional change in resistance per degree Celsius increase in temperature, calculated by:<br>$$<br>\alpha_{t1} &#x3D; \frac{R_2 - R_1}{(t_2 - t_1) R_1}<br>$$<br>where (R_1) and (R_2) are the resistances at temperatures (t_1) and (t_2) respectively.</p>
+</li>
+<li><p><strong>Example Calculations</strong>  </p>
+<ul>
+<li>At 20°C, resistance is 2Ω; at 220°C, resistance is 4Ω; TCR at 20°C is 0.005.  </li>
+<li>Resistance at other temperatures can be found by:<br>$$<br>R_2 &#x3D; R_1 \times [1 + \alpha_{t1} (t_2 - t_1)]<br>$$<br>For example, resistance at 200°C is 3.8Ω.</li>
+</ul>
+</li>
+<li><p><strong>Positive Temperature Coefficient</strong><br>Resistance increases with temperature, known as positive temperature coefficient.</p>
+</li>
+<li><p><strong>TCR Variation at High Temperatures</strong><br>Use a modified formula to calculate TCR at high temperatures (e.g., 2500°C).</p>
+</li>
+<li><p><strong>Copper Wire Resistance Calculation</strong><br>Calculate resistance at different temperatures using copper’s absolute temperature property.</p>
+</li>
+</ol>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=gziOkoGM6UQ">YouTube Video: Resistance Temperature Coefficient Examples</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-5-1-電阻溫度係數範例練習"><a href="#2-5-1-電阻溫度係數範例練習" class="headerlink" title="2-5.1 電阻溫度係數範例練習"></a>2-5.1 電阻溫度係數範例練習</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ol>
+<li><p><strong>電阻溫度係數定義</strong><br>電阻溫度係數（α）表示溫度每升高1°C時，電阻值增加的比例，計算公式為：<br>$$<br>\alpha_{t1} &#x3D; \frac{R_2 - R_1}{(t_2 - t_1) R_1}<br>$$<br>其中，(R_1)和(R_2)分別是溫度(t_1)和(t_2)時的電阻值。</p>
+</li>
+<li><p><strong>範例計算</strong>  </p>
+<ul>
+<li>例題中，20°C時電阻為2Ω，220°C時電阻為4Ω，計算20°C時的電阻溫度係數為0.005。  </li>
+<li>利用電阻溫度係數計算其他溫度下的電阻值，公式為：<br>$$<br>R_2 &#x3D; R_1 \times [1 + \alpha_{t1} (t_2 - t_1)]<br>$$<br>例如，計算200°C時的電阻值為3.8Ω。</li>
+</ul>
+</li>
+<li><p><strong>正溫度係數特性</strong><br>電阻隨溫度升高而增加，稱為正溫度係數。</p>
+</li>
+<li><p><strong>高溫下電阻溫度係數變化</strong><br>利用變形公式計算高溫（如2500°C）時的電阻溫度係數。</p>
+</li>
+<li><p><strong>銅線電阻計算</strong><br>利用銅的絕對溫度特性計算不同溫度下的電阻值。</p>
+</li>
+</ol>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=gziOkoGM6UQ">YouTube 影片：電阻溫度係數範例練習</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>circuit analysis</tag>
+        <tag>physics</tag>
+        <tag>resistance</tag>
+        <tag>temperature coefficient</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3-5 Examples of Series Circuit Applications / 3-5 串聯電路應用實例</title>
+    <url>/2025/05/24/2024-05-24-series-circuit-applications/</url>
+    <content><![CDATA[<h1 id="3-5-Examples-of-Series-Circuit-Applications"><a href="#3-5-Examples-of-Series-Circuit-Applications" class="headerlink" title="3-5 Examples of Series Circuit Applications"></a>3-5 Examples of Series Circuit Applications</h1><h2 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h2><ul>
+<li><strong>Voltmeter and Multiplier:</strong> The voltmeter measures a fixed voltage; adding a series multiplier resistor extends the measurement range.</li>
+<li><strong>Multiplier Principle:</strong> Series resistors adjust voltage division, allowing the voltmeter to measure higher voltages.</li>
+<li><strong>Multiplier Ratio Calculation:</strong> The multiplier ratio is the ratio of total measured voltage ( V_T ) to the voltmeter’s original voltage ( V_V ).</li>
+<li><strong>Example Calculation:</strong><ul>
+<li>To measure 100V with a 10V full-scale voltmeter, a 9KΩ resistor is connected in series.</li>
+<li>Multi-range voltmeters (10V, 100V, 250V) use different series resistors (9.9KΩ, 90KΩ, 150KΩ) to achieve measurement.</li>
+</ul>
+</li>
+<li><strong>Ammeter Multiplier:</strong> Similar to the voltmeter, series resistors extend the measurement range.</li>
+<li><strong>Role of Series Resistors:</strong> Solve the problem of limited measurement range by voltage division.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=UUoGyOIP-0E">YouTube Video: Series Circuit Applications</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="3-5-串聯電路應用實例"><a href="#3-5-串聯電路應用實例" class="headerlink" title="3-5 串聯電路應用實例"></a>3-5 串聯電路應用實例</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>電壓表與倍增器</strong>：電壓表量測固定電壓，串聯倍增器（電阻）可擴大量測範圍。</li>
+<li><strong>倍增器原理</strong>：串聯電阻調整電壓分壓，讓電壓表能量測更高電壓。</li>
+<li><strong>倍增率計算</strong>：倍增率 &#x3D; 待測總電壓 VT 與電壓表原始量測電壓 VV 的比值。</li>
+<li><strong>實例計算</strong>：<ul>
+<li>量測100伏特時，10伏特滿刻度電壓表需串聯9K歐姆電阻。</li>
+<li>多範圍電壓表（10V、100V、250V）透過串聯不同電阻（9.9K、90K、150K歐姆）達成量測。</li>
+</ul>
+</li>
+<li><strong>安培表倍增器</strong>：類似電壓表，透過串聯電阻擴大量測範圍。</li>
+<li><strong>串聯電阻的作用</strong>：解決量測範圍不足的問題，透過分壓原理實現。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=UUoGyOIP-0E">YouTube 影片：串聯電路應用實例</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>series circuits</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2-4.3 Series and Parallel Circuits / 2-4.3 串並聯電路與電路組成基本型態</title>
+    <url>/2024/05/24/2024-05-24-series-parallel-circuits/</url>
+    <content><![CDATA[<h1 id="2-4-3-Series-and-Parallel-Circuits"><a href="#2-4-3-Series-and-Parallel-Circuits" class="headerlink" title="2-4.3 Series and Parallel Circuits"></a>2-4.3 Series and Parallel Circuits</h1><h2 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h2><ul>
+<li><p><strong>Basic Circuit Components:</strong>  </p>
+<ul>
+<li>Power source: supplies energy  </li>
+<li>Wires: medium to transfer energy  </li>
+<li>Load: consumes energy, mainly resistive loads (inductive and capacitive loads introduced later)</li>
+</ul>
+</li>
+<li><p><strong>Current Flow Conditions:</strong>  </p>
+<ul>
+<li>Closed circuit (conducting path): energy flows normally  </li>
+<li>Open circuit: switch open or load damaged, no current flow  </li>
+<li>Short circuit: load terminals connected by a short wire, current bypasses load</li>
+</ul>
+</li>
+<li><p><strong>Example Problems:</strong>  </p>
+<ul>
+<li>Example 1: Calculate current in closed circuit using Ohm’s law ( I &#x3D; \frac{V}{R} )  </li>
+<li>Example 2: Current is zero in open circuit  </li>
+<li>Example 3: Large current in short circuit, no current through load</li>
+</ul>
+</li>
+<li><p><strong>Overcurrent Protector:</strong>  </p>
+<ul>
+<li>Disconnects circuit when current is too high to prevent wire overheating and fire</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=bde1bGlsrrM">YouTube Video: Series and Parallel Circuits</a></p>
+<blockquote>
+<p>You can enable YouTube auto-translation by turning on “Subtitles” and selecting “Auto-translate” in the video settings.</p>
+</blockquote>
+<hr>
+<h1 id="2-4-3-串並聯電路與電路組成基本型態"><a href="#2-4-3-串並聯電路與電路組成基本型態" class="headerlink" title="2-4.3 串並聯電路與電路組成基本型態"></a>2-4.3 串並聯電路與電路組成基本型態</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><p><strong>電路基本組成</strong>：</p>
+<ul>
+<li>電源：提供能量</li>
+<li>導線：傳遞能量的媒介</li>
+<li>負載：消耗能量，主要以電阻性負載為主（後續章節介紹電感性與電容性負載）</li>
+</ul>
+</li>
+<li><p><strong>電流流通情形</strong>：</p>
+<ul>
+<li>通路：形成封閉迴路，能量正常傳遞</li>
+<li>斷路：開關開啟或負載燒毀，電流無法通過</li>
+<li>短路：負載兩端被短路線接通，電流走無阻路徑，負載無電流通過</li>
+</ul>
+</li>
+<li><p><strong>例題說明</strong>：</p>
+<ul>
+<li>例題一：通路中電流計算，使用歐姆定律 ( I &#x3D; \frac{V}{R} )</li>
+<li>例題二：斷路時電流為零</li>
+<li>例題三：短路時電流大，負載無電流</li>
+</ul>
+</li>
+<li><p><strong>過電流保護器</strong>：</p>
+<ul>
+<li>當電流過大時，保護器會斷開電路，防止導線過熱走火</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=bde1bGlsrrM">YouTube 影片：串並聯電路與電路組成基本型態</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>circuit analysis</tag>
+        <tag>series circuit</tag>
+        <tag>parallel circuit</tag>
+        <tag>basic electricity</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Conversion Between Voltage Source and Current Source / 電壓源與電流源的互換</title>
+    <url>/2024/05/24/2024-05-24-source-conversion-2/</url>
+    <content><![CDATA[<h1 id="Conversion-Between-Voltage-Source-and-Current-Source"><a href="#Conversion-Between-Voltage-Source-and-Current-Source" class="headerlink" title="Conversion Between Voltage Source and Current Source"></a>Conversion Between Voltage Source and Current Source</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Voltage source model: voltage ( E ) in series with internal resistance ( r )</li>
+<li>Current source model: current ( I ) in parallel with internal resistance ( r )</li>
+<li>Equivalence condition: internal resistance ( r ) is the same</li>
+<li>Conversion formulas:<br>[<br>I &#x3D; \frac{E}{r}, \quad E &#x3D; I \times r<br>]</li>
+<li>Ideal voltage source has zero internal resistance; ideal current source has infinite internal resistance; they cannot be converted in these ideal cases</li>
+<li>Example calculations:<ul>
+<li>Voltage source to current source: ( I &#x3D; \frac{E}{r} )</li>
+<li>Current source to voltage source: ( E &#x3D; I \times r )</li>
+</ul>
+</li>
+<li>Conversion helps simplify circuit analysis in practical applications</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=MmIn-c00jAs">YouTube Video: Source Conversion</a></p>
+<hr>
+<h1 id="電壓源與電流源的互換"><a href="#電壓源與電流源的互換" class="headerlink" title="電壓源與電流源的互換"></a>電壓源與電流源的互換</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>電壓源模型：外加電壓 ( E ) 串聯內電阻 ( r )</li>
+<li>電流源模型：電流 ( I ) 並聯內電阻 ( r )</li>
+<li>兩者等效條件：內阻 ( r ) 相等</li>
+<li>互換關係：<br>[<br>I &#x3D; \frac{E}{r}, \quad E &#x3D; I \times r<br>]</li>
+<li>理想電壓源內阻為0，理想電流源內阻趨近無限大，無法互換</li>
+<li>範例計算：<ul>
+<li>電壓源轉電流源：( I &#x3D; \frac{E}{r} )</li>
+<li>電流源轉電壓源：( E &#x3D; I \times r )</li>
+</ul>
+</li>
+<li>實際應用中可用互換簡化電路計算</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=MmIn-c00jAs">YouTube 影片：電壓源與電流源的互換</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>current source</tag>
+        <tag>voltage source</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Conversion Between Voltage Source and Current Source / 電壓源與電流源的互換</title>
+    <url>/2024/05/24/2024-05-24-source-conversion/</url>
+    <content><![CDATA[<h1 id="Conversion-Between-Voltage-Source-and-Current-Source"><a href="#Conversion-Between-Voltage-Source-and-Current-Source" class="headerlink" title="Conversion Between Voltage Source and Current Source"></a>Conversion Between Voltage Source and Current Source</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Voltage source model: voltage ( E ) in series with internal resistance ( r )</li>
+<li>Current source model: current ( I ) in parallel with internal resistance ( r )</li>
+<li>Equivalence condition: internal resistance ( r ) is the same</li>
+<li>Conversion formulas:<br>[<br>I &#x3D; \frac{E}{r}, \quad E &#x3D; I \times r<br>]</li>
+<li>Ideal voltage source has zero internal resistance; ideal current source has infinite internal resistance; they cannot be converted in these ideal cases</li>
+<li>Example calculations:<ul>
+<li>Voltage source to current source: ( I &#x3D; \frac{E}{r} )</li>
+<li>Current source to voltage source: ( E &#x3D; I \times r )</li>
+</ul>
+</li>
+<li>Conversion helps simplify circuit analysis in practical applications</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=MmIn-c00jAs">YouTube Video: Source Conversion</a></p>
+<hr>
+<h1 id="電壓源與電流源的互換"><a href="#電壓源與電流源的互換" class="headerlink" title="電壓源與電流源的互換"></a>電壓源與電流源的互換</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>電壓源模型：外加電壓 ( E ) 串聯內電阻 ( r )</li>
+<li>電流源模型：電流 ( I ) 並聯內電阻 ( r )</li>
+<li>兩者等效條件：內阻 ( r ) 相等</li>
+<li>互換關係：<br>[<br>I &#x3D; \frac{E}{r}, \quad E &#x3D; I \times r<br>]</li>
+<li>理想電壓源內阻為0，理想電流源內阻趨近無限大，無法互換</li>
+<li>範例計算：<ul>
+<li>電壓源轉電流源：( I &#x3D; \frac{E}{r} )</li>
+<li>電流源轉電壓源：( E &#x3D; I \times r )</li>
+</ul>
+</li>
+<li>實際應用中可用互換簡化電路計算</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=MmIn-c00jAs">YouTube 影片：電壓源與電流源的互換</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>current source</tag>
+        <tag>voltage source</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Introduction to Voltage and Current Sources / 電壓源及電流源基礎介紹</title>
+    <url>/2024/05/24/2024-05-24-voltage-current-source-basics/</url>
+    <content><![CDATA[<h1 id="Basic-Introduction-to-Voltage-and-Current-Sources"><a href="#Basic-Introduction-to-Voltage-and-Current-Sources" class="headerlink" title="Basic Introduction to Voltage and Current Sources"></a>Basic Introduction to Voltage and Current Sources</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Power Source Classification</strong>: Divided into voltage sources and current sources, which can be equivalently transformed</li>
+<li><strong>Real Voltage Source</strong>: Composed of a fixed electromotive force (E) in series with an internal resistance (r)</li>
+<li><strong>Ideal Voltage Source</strong>: Has zero internal resistance (r&#x3D;0), providing a constant output voltage regardless of load current</li>
+<li><strong>Load Effect</strong>: When connected to a load, terminal voltage (V_L &#x3D; E - Ir), current (I &#x3D; \frac{E}{r + R_L})</li>
+<li><strong>Internal Resistance Effect</strong>: The smaller the internal resistance, the closer the terminal voltage is to (E), stabilizing the load voltage</li>
+<li><strong>Example Calculations</strong>:<ul>
+<li>Open-circuit load: terminal voltage equals electromotive force (E)</li>
+<li>Load of 20 ohms: calculate current and terminal voltage, demonstrating voltage drop across internal resistance</li>
+</ul>
+</li>
+<li><strong>Parameter Back-Calculation</strong>: Use different load and terminal voltage data to solve for (E) and (r)</li>
+<li><strong>Conclusion</strong>: An ideal voltage source should have low internal resistance to maintain stable load voltage</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=WUxbn2Jwvkg">YouTube Video: Basic Introduction to Voltage and Current Sources</a></p>
+<hr>
+<h1 id="電壓源及電流源基礎介紹"><a href="#電壓源及電流源基礎介紹" class="headerlink" title="電壓源及電流源基礎介紹"></a>電壓源及電流源基礎介紹</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>電源分類</strong>：分為電壓源與電流源，兩者可互相等效轉換</li>
+<li><strong>實際電壓源</strong>：由固定電動勢 (E) 與內部電阻 (r) 串聯組成</li>
+<li><strong>理想電壓源</strong>：內阻 (r&#x3D;0)，輸出電壓固定不變，與負載電流無關</li>
+<li><strong>負載影響</strong>：連接負載時，端電壓 (V_L &#x3D; E - Ir)，電流 (I &#x3D; \frac{E}{r + R_L})</li>
+<li><strong>內阻影響</strong>：內阻越小，端電壓越接近電動勢 (E)，負載端電壓越穩定</li>
+<li><strong>範例計算</strong>：<ul>
+<li>負載為開路時，端電壓等於電動勢 (E)</li>
+<li>負載為20歐姆時，計算電流與端電壓，示範內阻電壓降</li>
+</ul>
+</li>
+<li><strong>反求電壓源參數</strong>：透過不同負載與端電壓數據反推 (E) 與 (r)</li>
+<li><strong>結論</strong>：理想電壓源應具備低內阻特性，確保負載端電壓穩定</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=WUxbn2Jwvkg">YouTube 影片：電壓源及電流源基礎介紹</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>current source</tag>
+        <tag>voltage source</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ideal and Practical Voltage Sources / 理想電壓源與實際電壓源</title>
+    <url>/2024/05/24/2024-05-24-voltage-source-types/</url>
+    <content><![CDATA[<h1 id="Ideal-and-Practical-Voltage-Sources"><a href="#Ideal-and-Practical-Voltage-Sources" class="headerlink" title="Ideal and Practical Voltage Sources"></a>Ideal and Practical Voltage Sources</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Ideal Voltage Source</strong>: Internal resistance ( r &#x3D; 0 ), provides a fixed voltage at the load regardless of current changes</li>
+<li><strong>Load Voltage</strong>: Load voltage ( V_L ) always equals the source voltage ( E )</li>
+<li><strong>Practical Example</strong>: A 1.5V dry cell maintains 1.5V across different loads</li>
+<li><strong>Load Resistance Effect</strong>: Changing load resistance ( R_L ) adjusts current ( I ), voltage remains constant</li>
+<li><strong>Example Calculations</strong>:<ul>
+<li>( V_{ab} &#x3D; 12V ) (ideal voltage source voltage)</li>
+<li>( I_1 &#x3D; \frac{12V}{6\Omega} &#x3D; 2A )</li>
+<li>( V_1 &#x3D; 12V - 4V &#x3D; 8V )</li>
+<li>( I_2 &#x3D; \frac{8V}{2\Omega} &#x3D; 4A )</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=3xrjVJrmqxo">YouTube Video: Ideal and Practical Voltage Sources</a></p>
+<hr>
+<h1 id="理想電壓源與實際電壓源"><a href="#理想電壓源與實際電壓源" class="headerlink" title="理想電壓源與實際電壓源"></a>理想電壓源與實際電壓源</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>理想電壓源</strong>：內阻 ( r &#x3D; 0 )，提供負載端固定電壓，不受電流變化影響</li>
+<li><strong>負載端電壓</strong>：負載端電壓 ( V_L ) 始終等於電壓源電壓 ( E )</li>
+<li><strong>實際例子</strong>：1.5V 乾電池，接不同負載，電壓仍維持1.5V</li>
+<li><strong>負載電阻影響</strong>：調整負載電阻 ( R_L ) 可改變電流 ( I )，電壓不變</li>
+<li><strong>範例計算</strong>：<ul>
+<li>( V_{ab} &#x3D; 12V )（理想電壓源電壓）</li>
+<li>( I_1 &#x3D; \frac{12V}{6\Omega} &#x3D; 2A )</li>
+<li>( V_1 &#x3D; 12V - 4V &#x3D; 8V )</li>
+<li>( I_2 &#x3D; \frac{8V}{2\Omega} &#x3D; 4A )</li>
+</ul>
+</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=3xrjVJrmqxo">YouTube 影片：理想電壓源與實際電壓源</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>voltage source</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Key Points Summary and English Translation of Wheatstone Bridge Examples / 惠斯登電橋範例重點歸納與英文翻譯</title>
+    <url>/2024/05/24/2024-05-24-wheatstone-bridge-examples-2/</url>
+    <content><![CDATA[<h1 id="Key-Points-Summary-and-English-Translation-of-Wheatstone-Bridge-Examples"><a href="#Key-Points-Summary-and-English-Translation-of-Wheatstone-Bridge-Examples" class="headerlink" title="Key Points Summary and English Translation of Wheatstone Bridge Examples"></a>Key Points Summary and English Translation of Wheatstone Bridge Examples</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Wheatstone bridge is used to measure unknown resistor ( R_s ).</li>
+<li>Bridge balance condition: galvanometer reads zero, meaning the product of opposite resistors are equal.</li>
+<li>At balance, use the formula ( R_1 \times R_x &#x3D; R_2 \times R_3 ) to find the unknown resistor.</li>
+<li>The middle resistor can be considered open circuit at balance, simplifying to series-parallel circuits.</li>
+<li>Example calculates unknown resistor ( R_s &#x3D; 3 \Omega ).</li>
+<li>Use balance condition to identify bridge structure and calculate terminal resistance ( R_{ab} ).</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=W5qNKQbFKYE">YouTube Video: Wheatstone Bridge Examples</a></p>
+<hr>
+<h1 id="惠斯登電橋範例重點歸納與英文翻譯"><a href="#惠斯登電橋範例重點歸納與英文翻譯" class="headerlink" title="惠斯登電橋範例重點歸納與英文翻譯"></a>惠斯登電橋範例重點歸納與英文翻譯</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>惠斯登電橋用來測量未知電阻Rs。</li>
+<li>電橋平衡條件：檢流計指示為0，表示對角電阻乘積相等。</li>
+<li>平衡時公式為：( R_1 \times R_x &#x3D; R_2 \times R_3 )，可求未知電阻。</li>
+<li>平衡時中間電阻可視為開路，化簡為串並聯電路。</li>
+<li>範例中求得未知電阻Rs為3歐姆。</li>
+<li>利用平衡條件判斷電橋結構，計算端點電阻Rab。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=W5qNKQbFKYE">YouTube 影片：惠斯登電橋範例</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>Wheatstone bridge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Summary of Key Points and English Translation of Wheatstone Bridge Examples / 惠斯登電橋範例重點歸納與英文翻譯</title>
+    <url>/2024/05/24/2024-05-24-wheatstone-bridge-examples/</url>
+    <content><![CDATA[<h1 id="Summary-of-Key-Points-and-English-Translation-of-Wheatstone-Bridge-Examples"><a href="#Summary-of-Key-Points-and-English-Translation-of-Wheatstone-Bridge-Examples" class="headerlink" title="Summary of Key Points and English Translation of Wheatstone Bridge Examples"></a>Summary of Key Points and English Translation of Wheatstone Bridge Examples</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Wheatstone bridge is used to measure an unknown resistor ( R_s ).</li>
+<li>Bridge balance condition: galvanometer reads zero, meaning the product of opposite resistors are equal.</li>
+<li>At balance, use the formula: ( R_1 \times R_x &#x3D; R_2 \times R_3 ) to find the unknown resistor.</li>
+<li>The middle resistor in a balanced bridge can be considered open circuit, simplifying analysis to series-parallel circuits.</li>
+<li>Example calculates unknown resistor ( R_s &#x3D; 3 \Omega ).</li>
+<li>Use balance condition to identify bridge structure and calculate the resistance ( R_{ab} ) between terminals.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=W5qNKQbFKYE">YouTube Video: Wheatstone Bridge Examples</a></p>
+<hr>
+<h1 id="惠斯登電橋範例重點歸納與英文翻譯"><a href="#惠斯登電橋範例重點歸納與英文翻譯" class="headerlink" title="惠斯登電橋範例重點歸納與英文翻譯"></a>惠斯登電橋範例重點歸納與英文翻譯</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>惠斯登電橋用於測量未知電阻Rs。</li>
+<li>電橋平衡條件：檢流計指示為0，表示兩邊對角電阻乘積相等。</li>
+<li>平衡時可用公式：( R_1 \times R_x &#x3D; R_2 \times R_3 ) 求未知電阻。</li>
+<li>平衡電橋中間電阻可視為開路，簡化為串並聯電路分析。</li>
+<li>例題中計算出未知電阻Rs為3歐姆。</li>
+<li>利用平衡條件判斷電橋結構，並計算端點電阻Rab。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=W5qNKQbFKYE">YouTube 影片：惠斯登電橋範例</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>Wheatstone bridge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Introduction and Application Highlights of the Wheatstone Bridge / 惠斯登電橋介紹與應用重點</title>
+    <url>/2024/05/24/2024-05-24-wheatstone-bridge-introduction/</url>
+    <content><![CDATA[<h1 id="Introduction-and-Application-Highlights-of-the-Wheatstone-Bridge"><a href="#Introduction-and-Application-Highlights-of-the-Wheatstone-Bridge" class="headerlink" title="Introduction and Application Highlights of the Wheatstone Bridge"></a>Introduction and Application Highlights of the Wheatstone Bridge</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Function:</strong> Used to measure an unknown resistor (RX).</li>
+<li><strong>Main Components:</strong><ul>
+<li>RX: Unknown resistor</li>
+<li>Rs: Variable resistor for adjustment</li>
+<li>G: Galvanometer (current meter)</li>
+</ul>
+</li>
+<li><strong>Bridge Balance Condition:</strong> The bridge is balanced when the galvanometer shows zero current.</li>
+<li><strong>Resistance Relationship at Balance:</strong><br>$$<br>R_X &#x3D; \frac{R_2}{R_1} \times R_s<br>$$</li>
+<li><strong>Equivalent Circuit:</strong> At balance, the galvanometer current is zero, voltages at two points are equal, and the middle bridge is effectively open.</li>
+<li><strong>Application:</strong> By adjusting Rs to balance the bridge, the unknown resistance can be precisely measured.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=fig87q9jzP4">YouTube Video: Introduction to Wheatstone Bridge</a></p>
+<hr>
+<h1 id="惠斯登電橋介紹與應用重點"><a href="#惠斯登電橋介紹與應用重點" class="headerlink" title="惠斯登電橋介紹與應用重點"></a>惠斯登電橋介紹與應用重點</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>惠斯登電橋功能</strong>：用於測量未知電阻值（RX）。</li>
+<li><strong>主要元件</strong>：<ul>
+<li>RX：待測電阻</li>
+<li>Rs：可變電阻，用於調整</li>
+<li>G：檢流計（電流表）</li>
+</ul>
+</li>
+<li><strong>電橋平衡條件</strong>：當檢流計指示電流為0時，電橋達到平衡。</li>
+<li><strong>平衡時的電阻關係式</strong>：<br>$$<br>R_X &#x3D; \frac{R_2}{R_1} \times R_s<br>$$</li>
+<li><strong>等效電路</strong>：平衡時檢流計電流為0，兩點電壓相等，電橋中間點可視為開路。</li>
+<li><strong>應用</strong>：透過調整Rs使電橋平衡，精確測量未知電阻。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=fig87q9jzP4">YouTube 影片：惠斯登電橋介紹與應用</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>Wheatstone bridge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Practice Problems and Precautions of Wheatstone Bridge / 惠斯登電橋的練習題與注意事項</title>
+    <url>/2024/05/24/2024-05-24-wheatstone-bridge-practice/</url>
+    <content><![CDATA[<h1 id="Practice-Problems-and-Precautions-of-Wheatstone-Bridge"><a href="#Practice-Problems-and-Precautions-of-Wheatstone-Bridge" class="headerlink" title="Practice Problems and Precautions of Wheatstone Bridge"></a>Practice Problems and Precautions of Wheatstone Bridge</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Figure 1 shows a correct Wheatstone bridge; cross multiplication equality allows circuit simplification.</li>
+<li>Figure 2 is not a Wheatstone bridge; the ab terminals are in the middle, so cross multiplication is invalid; use series-parallel calculations instead.</li>
+<li>When the Wheatstone bridge is balanced, the middle resistor can be considered open circuit, simplifying the circuit.</li>
+<li>Practice problems demonstrate how to identify a Wheatstone bridge and calculate Rab.</li>
+<li>Pay attention to distinguishing series and parallel circuits to avoid misapplication of formulas.</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=DEfbZtu4mWc">YouTube Video: Wheatstone Bridge Practice Problems</a></p>
+<hr>
+<h1 id="惠斯登電橋的練習題與注意事項"><a href="#惠斯登電橋的練習題與注意事項" class="headerlink" title="惠斯登電橋的練習題與注意事項"></a>惠斯登電橋的練習題與注意事項</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>圖一為正確的惠斯登電橋，交叉相乘相等，能簡化電路計算。</li>
+<li>圖二非惠斯登電橋，ab端點在中間，不能用交叉相乘法，需用串並聯計算。</li>
+<li>惠斯登電橋平衡時，中間電阻可視為開路，簡化電路。</li>
+<li>練習題示範如何判斷是否為惠斯登電橋及計算Rab。</li>
+<li>注意辨識串聯與並聯電路，避免誤用公式。</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=DEfbZtu4mWc">YouTube 影片：惠斯登電橋練習題</a></p>
+<blockquote>
+<p>注意：YouTube 自動翻譯功能可在影片下方設定中開啟「字幕」並選擇「自動翻譯」成英文或其他語言。 </p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>electronics</tag>
+        <tag>circuit analysis</tag>
+        <tag>Wheatstone bridge</tag>
       </tags>
   </entry>
   <entry>
@@ -1392,10 +3589,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Conductance</tag>
         <tag>Conductivity</tag>
@@ -1423,10 +3620,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
         <tag>Electromagnetism</tag>
@@ -1485,10 +3682,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
         <tag>Electromagnetism</tag>
@@ -1519,10 +3716,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
         <tag>Electromagnetism</tag>
@@ -1571,10 +3768,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
         <tag>Electromagnetism</tag>
@@ -1603,10 +3800,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Conductance</tag>
         <tag>Parallel Circuits</tag>
@@ -1711,10 +3908,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Power</tag>
         <tag>Horsepower</tag>
@@ -1771,10 +3968,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Power</tag>
         <tag>Electric Energy</tag>
@@ -1819,10 +4016,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Power</tag>
         <tag>Efficiency</tag>
@@ -1896,10 +4093,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Calculation</tag>
         <tag>Resistance</tag>
@@ -1934,10 +4131,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Resistance</tag>
         <tag>Resistivity</tag>
@@ -1971,10 +4168,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
-        <tag>Electricity</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Electricity</tag>
         <tag>Tutorial</tag>
         <tag>Calculation</tag>
         <tag>Conductance</tag>
@@ -2377,9 +4574,9 @@
         <category>Electromagnetism</category>
       </categories>
       <tags>
-        <tag>Current</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Current</tag>
         <tag>Electromagnetism</tag>
         <tag>Magnetic Force</tag>
         <tag>Conductor</tag>
@@ -2438,9 +4635,9 @@
         <category>Electromagnetism</category>
       </categories>
       <tags>
-        <tag>Current</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Current</tag>
         <tag>Electromagnetism</tag>
         <tag>Magnetic Force</tag>
         <tag>Conductor</tag>
@@ -2763,9 +4960,9 @@
         <category>Electromagnetism</category>
       </categories>
       <tags>
-        <tag>Current</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Current</tag>
         <tag>Electromagnetism</tag>
         <tag>Magnetic Force</tag>
         <tag>Conductors</tag>
@@ -3500,10 +5697,118 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Loop Current Method</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+        <tag>Loop Current Method</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Application of Loop Current Method in Circuits with Two and Three Voltage Sources - 迴路電流法應用於兩電壓源與三電壓源電路範例解析</title>
+    <url>/2025/05/14/2025-05-14-loop-current-method-examples/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Loop Current Method in analyzing circuits with multiple voltage sources, including detailed examples with two and three voltage sources.</p>
+<p>本文展示迴路電流法在分析多電壓源電路中的應用，包含兩電壓源和三電壓源的詳細範例。</p>
+<hr>
+<hr>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
+<li><p><strong>Step 1: Loop Current Direction</strong></p>
+<ul>
+<li>Assume clockwise direction</li>
+<li>Label loop currents (IA, IB)</li>
+<li>Mark current directions</li>
+<li>Identify shared branches</li>
+</ul>
+</li>
+<li><p><strong>Step 2: KVL Equations</strong></p>
+<ul>
+<li>Apply Kirchhoff’s Voltage Law</li>
+<li>Consider voltage sources</li>
+<li>Account for shared resistors</li>
+<li>Note sign conventions</li>
+</ul>
+</li>
+<li><p><strong>Step 3: Solve Equations</strong></p>
+<ul>
+<li>Set up simultaneous equations</li>
+<li>Solve for loop currents</li>
+<li>Calculate branch currents</li>
+<li>Verify results</li>
+</ul>
+</li>
+<li><p><strong>Example 1: Two Voltage Sources</strong></p>
+<ul>
+<li>Loop currents: IA&#x3D;2A, IB&#x3D;1A</li>
+<li>Branch currents: I1&#x3D;2A, I2&#x3D;1A, I3&#x3D;1A</li>
+<li>Verification using KVL</li>
+<li>Power calculations</li>
+</ul>
+</li>
+<li><p><strong>Example 2: Three Voltage Sources</strong></p>
+<ul>
+<li>Loop currents: IA&#x3D;12&#x2F;7 A, IB&#x3D;10&#x2F;7 A</li>
+<li>Branch currents: I1&#x3D;12&#x2F;7 A, I2&#x3D;10&#x2F;7 A, I3&#x3D;2&#x2F;7 A</li>
+<li>Complex circuit analysis</li>
+<li>Result verification</li>
+</ul>
+</li>
+</ul>
+<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
+<li><p><strong>步驟1：迴路電流方向</strong></p>
+<ul>
+<li>假設順時針方向</li>
+<li>標示迴路電流（IA、IB）</li>
+<li>標記電流方向</li>
+<li>識別共用支路</li>
+</ul>
+</li>
+<li><p><strong>步驟2：KVL方程式</strong></p>
+<ul>
+<li>應用克希荷夫電壓定律</li>
+<li>考慮電壓源</li>
+<li>處理共用電阻</li>
+<li>注意正負號</li>
+</ul>
+</li>
+<li><p><strong>步驟3：解方程式</strong></p>
+<ul>
+<li>建立聯立方程式</li>
+<li>求解迴路電流</li>
+<li>計算支路電流</li>
+<li>驗證結果</li>
+</ul>
+</li>
+<li><p><strong>範例1：兩電壓源</strong></p>
+<ul>
+<li>迴路電流：IA&#x3D;2A，IB&#x3D;1A</li>
+<li>支路電流：I1&#x3D;2A，I2&#x3D;1A，I3&#x3D;1A</li>
+<li>使用KVL驗證</li>
+<li>功率計算</li>
+</ul>
+</li>
+<li><p><strong>範例2：三電壓源</strong></p>
+<ul>
+<li>迴路電流：IA&#x3D;12&#x2F;7 A，IB&#x3D;10&#x2F;7 A</li>
+<li>支路電流：I1&#x3D;12&#x2F;7 A，I2&#x3D;10&#x2F;7 A，I3&#x3D;2&#x2F;7 A</li>
+<li>複雜電路分析</li>
+<li>結果驗證</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=LfMD_MELg4U">Loop Current Method Examples</a><br><a href="https://www.youtube.com/watch?v=LfMD_MELg4U&cc_lang_pref=en&cc_load_policy=1">迴路電流法範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+        <tag>Loop Current Method</tag>
       </tags>
   </entry>
   <entry>
@@ -3612,114 +5917,6 @@
         <tag>Calculations</tag>
         <tag>Magnetic Flux</tag>
         <tag>Units</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Application of Loop Current Method in Circuits with Two and Three Voltage Sources - 迴路電流法應用於兩電壓源與三電壓源電路範例解析</title>
-    <url>/2025/05/14/2025-05-14-loop-current-method-examples/</url>
-    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article demonstrates the application of the Loop Current Method in analyzing circuits with multiple voltage sources, including detailed examples with two and three voltage sources.</p>
-<p>本文展示迴路電流法在分析多電壓源電路中的應用，包含兩電壓源和三電壓源的詳細範例。</p>
-<hr>
-<hr>
-<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="English"><a href="#English" class="headerlink" title="English"></a>English</h3><ul>
-<li><p><strong>Step 1: Loop Current Direction</strong></p>
-<ul>
-<li>Assume clockwise direction</li>
-<li>Label loop currents (IA, IB)</li>
-<li>Mark current directions</li>
-<li>Identify shared branches</li>
-</ul>
-</li>
-<li><p><strong>Step 2: KVL Equations</strong></p>
-<ul>
-<li>Apply Kirchhoff’s Voltage Law</li>
-<li>Consider voltage sources</li>
-<li>Account for shared resistors</li>
-<li>Note sign conventions</li>
-</ul>
-</li>
-<li><p><strong>Step 3: Solve Equations</strong></p>
-<ul>
-<li>Set up simultaneous equations</li>
-<li>Solve for loop currents</li>
-<li>Calculate branch currents</li>
-<li>Verify results</li>
-</ul>
-</li>
-<li><p><strong>Example 1: Two Voltage Sources</strong></p>
-<ul>
-<li>Loop currents: IA&#x3D;2A, IB&#x3D;1A</li>
-<li>Branch currents: I1&#x3D;2A, I2&#x3D;1A, I3&#x3D;1A</li>
-<li>Verification using KVL</li>
-<li>Power calculations</li>
-</ul>
-</li>
-<li><p><strong>Example 2: Three Voltage Sources</strong></p>
-<ul>
-<li>Loop currents: IA&#x3D;12&#x2F;7 A, IB&#x3D;10&#x2F;7 A</li>
-<li>Branch currents: I1&#x3D;12&#x2F;7 A, I2&#x3D;10&#x2F;7 A, I3&#x3D;2&#x2F;7 A</li>
-<li>Complex circuit analysis</li>
-<li>Result verification</li>
-</ul>
-</li>
-</ul>
-<h3 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h3><ul>
-<li><p><strong>步驟1：迴路電流方向</strong></p>
-<ul>
-<li>假設順時針方向</li>
-<li>標示迴路電流（IA、IB）</li>
-<li>標記電流方向</li>
-<li>識別共用支路</li>
-</ul>
-</li>
-<li><p><strong>步驟2：KVL方程式</strong></p>
-<ul>
-<li>應用克希荷夫電壓定律</li>
-<li>考慮電壓源</li>
-<li>處理共用電阻</li>
-<li>注意正負號</li>
-</ul>
-</li>
-<li><p><strong>步驟3：解方程式</strong></p>
-<ul>
-<li>建立聯立方程式</li>
-<li>求解迴路電流</li>
-<li>計算支路電流</li>
-<li>驗證結果</li>
-</ul>
-</li>
-<li><p><strong>範例1：兩電壓源</strong></p>
-<ul>
-<li>迴路電流：IA&#x3D;2A，IB&#x3D;1A</li>
-<li>支路電流：I1&#x3D;2A，I2&#x3D;1A，I3&#x3D;1A</li>
-<li>使用KVL驗證</li>
-<li>功率計算</li>
-</ul>
-</li>
-<li><p><strong>範例2：三電壓源</strong></p>
-<ul>
-<li>迴路電流：IA&#x3D;12&#x2F;7 A，IB&#x3D;10&#x2F;7 A</li>
-<li>支路電流：I1&#x3D;12&#x2F;7 A，I2&#x3D;10&#x2F;7 A，I3&#x3D;2&#x2F;7 A</li>
-<li>複雜電路分析</li>
-<li>結果驗證</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=LfMD_MELg4U">Loop Current Method Examples</a><br><a href="https://www.youtube.com/watch?v=LfMD_MELg4U&cc_lang_pref=en&cc_load_policy=1">迴路電流法範例 - YT自動翻譯連結</a><br>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
-<hr>
-<p><em>文章日期：2025-05-14</em> </p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electronics</category>
-      </categories>
-      <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Electronics</tag>
-        <tag>Loop Current Method</tag>
-        <tag>Circuit Analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -3954,9 +6151,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Maximum Power Transfer</tag>
       </tags>
   </entry>
@@ -4061,9 +6258,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Maximum Power Transfer</tag>
       </tags>
   </entry>
@@ -4182,9 +6379,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Norton&#39;s Theorem</tag>
         <tag>Superposition Theorem</tag>
       </tags>
@@ -4296,9 +6493,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Norton&#39;s Theorem</tag>
       </tags>
   </entry>
@@ -4423,9 +6620,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Norton&#39;s Theorem</tag>
       </tags>
   </entry>
@@ -5342,9 +7539,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Superposition Theorem</tag>
       </tags>
   </entry>
@@ -5482,71 +7679,129 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Superposition Theorem</tag>
       </tags>
   </entry>
   <entry>
     <title>Superposition Theorem: Principles and Applications - 重疊定理：原理與應用</title>
     <url>/2025/05/14/2025-05-14-superposition-theorem-introduction/</url>
-    <content><![CDATA[<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article introduces the Superposition Theorem, explaining its principles, applications, and limitations in circuit analysis.</p>
-<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><h3 id="Purpose-and-Application"><a href="#Purpose-and-Application" class="headerlink" title="Purpose and Application"></a>Purpose and Application</h3><ul>
-<li>Solve multi-source circuits</li>
-<li>Avoid complex equations</li>
-<li>Simplify calculations</li>
-<li>Analyze circuit behavior</li>
-</ul>
-<h3 id="Basic-Principles"><a href="#Basic-Principles" class="headerlink" title="Basic Principles"></a>Basic Principles</h3><ul>
-<li>Consider sources separately</li>
-<li>Voltage sources: short circuit</li>
-<li>Current sources: open circuit</li>
-<li>Sum individual results</li>
-</ul>
-<h3 id="Solution-Process"><a href="#Solution-Process" class="headerlink" title="Solution Process"></a>Solution Process</h3><ol>
-<li>Activate one source</li>
-<li>Remove other sources</li>
-<li>Calculate values</li>
-<li>Repeat for each source</li>
-<li>Sum all results</li>
-</ol>
-<h3 id="Important-Limitations"><a href="#Important-Limitations" class="headerlink" title="Important Limitations"></a>Important Limitations</h3><ul>
-<li>Voltage&#x2F;current only</li>
-<li>No power calculations</li>
-<li>Linear circuits only</li>
-<li>Independent sources</li>
-</ul>
-<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a href="https://www.youtube.com/watch?v=0qdghn82T40">Introduction to Superposition Theorem</a><br><a href="https://www.youtube.com/watch?v=0qdghn82T40&cc_lang_pref=en&cc_load_policy=1">Auto-translation Subtitles</a></p>
-<p>(Please enable auto-translate in YouTube subtitle settings)</p>
-<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>本文介紹重疊定理，說明其在電路分析中的原理、應用和限制。</p>
-<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="用途與應用"><a href="#用途與應用" class="headerlink" title="用途與應用"></a>用途與應用</h3><ul>
-<li>求解多電源電路</li>
-<li>避免複雜方程式</li>
-<li>簡化計算過程</li>
-<li>分析電路行為</li>
-</ul>
-<h3 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h3><ul>
-<li>分別考慮電源</li>
-<li>電壓源：短路</li>
-<li>電流源：斷路</li>
-<li>加總個別結果</li>
-</ul>
-<h3 id="解題步驟"><a href="#解題步驟" class="headerlink" title="解題步驟"></a>解題步驟</h3><ol>
-<li>啟動一個電源</li>
-<li>移除其他電源</li>
-<li>計算數值</li>
-<li>重複每個電源</li>
-<li>加總所有結果</li>
-</ol>
-<h3 id="重要限制"><a href="#重要限制" class="headerlink" title="重要限制"></a>重要限制</h3><ul>
-<li>僅適用電壓&#x2F;電流</li>
-<li>不適用功率計算</li>
-<li>僅適用線性電路</li>
-<li>獨立電源</li>
-</ul>
-<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a href="https://www.youtube.com/watch?v=0qdghn82T40">重疊定理介紹</a><br><a href="https://www.youtube.com/watch?v=0qdghn82T40&cc_lang_pref=en&cc_load_policy=1">自動字幕翻譯連結</a></p>
-<p>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+    <content><![CDATA[<!-- 語言切換按鈕 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="showLang('en')">English</button>
+  <button onclick="showLang('zh')">中文</button>
+  <button onclick="showLang('both')">中英同時顯示</button>
+</div>
+<script>
+function showLang(lang) {
+  var en = document.querySelectorAll('.lang-en');
+  var zh = document.querySelectorAll('.lang-zh');
+  if (lang === 'en') {
+    en.forEach(e => e.style.display = '');
+    zh.forEach(e => e.style.display = 'none');
+  } else if (lang === 'zh') {
+    en.forEach(e => e.style.display = 'none');
+    zh.forEach(e => e.style.display = '');
+  } else {
+    en.forEach(e => e.style.display = '');
+    zh.forEach(e => e.style.display = '');
+  }
+}
+document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
+</script>
+
+<div class="lang-en">
+  <h2>Introduction</h2>
+  <p>This article introduces the Superposition Theorem, explaining its principles, applications, and limitations in circuit analysis.</p>
+
+  <h2>Key Points</h2>
+
+  <h3>Purpose and Application</h3>
+  <ul>
+    <li>Solve multi-source circuits</li>
+    <li>Avoid complex equations</li>
+    <li>Simplify calculations</li>
+    <li>Analyze circuit behavior</li>
+  </ul>
+
+  <h3>Basic Principles</h3>
+  <ul>
+    <li>Consider sources separately</li>
+    <li>Voltage sources: short circuit</li>
+    <li>Current sources: open circuit</li>
+    <li>Sum individual results</li>
+  </ul>
+
+  <h3>Solution Process</h3>
+  <ol>
+    <li>Activate one source</li>
+    <li>Remove other sources</li>
+    <li>Calculate values</li>
+    <li>Repeat for each source</li>
+    <li>Sum all results</li>
+  </ol>
+
+  <h3>Important Limitations</h3>
+  <ul>
+    <li>Voltage/current only</li>
+    <li>No power calculations</li>
+    <li>Linear circuits only</li>
+    <li>Independent sources</li>
+  </ul>
+
+  <h2>Reference Video</h2>
+  <p><a href="https://www.youtube.com/watch?v=0qdghn82T40">Introduction to Superposition Theorem</a></p>
+  <p><a href="https://www.youtube.com/watch?v=0qdghn82T40&cc_lang_pref=en&cc_load_policy=1">Auto-translation Subtitles</a></p>
+  <p>(Please enable auto-translate in YouTube subtitle settings)</p>
+</div>
+
+<div class="lang-zh">
+  <h2>引言</h2>
+  <p>本文介紹重疊定理，說明其在電路分析中的原理、應用和限制。</p>
+
+  <h2>重點歸納</h2>
+
+  <h3>用途與應用</h3>
+  <ul>
+    <li>求解多電源電路</li>
+    <li>避免複雜方程式</li>
+    <li>簡化計算過程</li>
+    <li>分析電路行為</li>
+  </ul>
+
+  <h3>基本原理</h3>
+  <ul>
+    <li>分別考慮電源</li>
+    <li>電壓源：短路</li>
+    <li>電流源：斷路</li>
+    <li>加總個別結果</li>
+  </ul>
+
+  <h3>解題步驟</h3>
+  <ol>
+    <li>啟動一個電源</li>
+    <li>移除其他電源</li>
+    <li>計算數值</li>
+    <li>重複每個電源</li>
+    <li>加總所有結果</li>
+  </ol>
+
+  <h3>重要限制</h3>
+  <ul>
+    <li>僅適用電壓/電流</li>
+    <li>不適用功率計算</li>
+    <li>僅適用線性電路</li>
+    <li>獨立電源</li>
+  </ul>
+
+  <h2>參考影片</h2>
+  <p><a href="https://www.youtube.com/watch?v=0qdghn82T40">重疊定理介紹</a></p>
+  <p><a href="https://www.youtube.com/watch?v=0qdghn82T40&cc_lang_pref=en&cc_load_policy=1">自動字幕翻譯連結</a></p>
+  <p>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+</div>
+
 <hr>
 <p><em>文章日期：2025-05-14</em> </p>
 ]]></content>
@@ -5556,9 +7811,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
         <tag>Superposition Theorem</tag>
       </tags>
   </entry>
@@ -5677,8 +7932,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
+        <tag>Bilingual</tag>
         <tag>Thevenin</tag>
         <tag>Norton</tag>
         <tag>Equivalent Circuits</tag>
@@ -5859,10 +8114,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -6064,91 +8319,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Thevenin&#39;s Theorem: Advanced Examples - 戴維寧定理：進階例題</title>
-    <url>/2025/05/14/2025-05-14-thevenin-theorem-advanced-examples/</url>
-    <content><![CDATA[<h2 id="Advanced-Examples-of-Thevenin’s-Theorem"><a href="#Advanced-Examples-of-Thevenin’s-Theorem" class="headerlink" title="Advanced Examples of Thevenin’s Theorem"></a>Advanced Examples of Thevenin’s Theorem</h2><p>This article presents advanced examples of Thevenin’s Theorem applications.</p>
-<h3 id="Example-1-Bridge-Circuit"><a href="#Example-1-Bridge-Circuit" class="headerlink" title="Example 1: Bridge Circuit"></a>Example 1: Bridge Circuit</h3><p>Given the following bridge circuit:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>Where:</p>
-<ul>
-<li>V1 &#x3D; 20V</li>
-<li>R1 &#x3D; 4Ω</li>
-<li>R2 &#x3D; 6Ω</li>
-<li>R3 &#x3D; 8Ω</li>
-<li>R4 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
-</ul>
-<h3 id="Example-2-Delta-Wye-Transformation"><a href="#Example-2-Delta-Wye-Transformation" class="headerlink" title="Example 2: Delta-Wye Transformation"></a>Example 2: Delta-Wye Transformation</h3><p>Given the following circuit with delta configuration:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>Where:</p>
-<ul>
-<li>V1 &#x3D; 25V</li>
-<li>R1 &#x3D; 5Ω</li>
-<li>R2 &#x3D; 7Ω</li>
-<li>R3 &#x3D; 9Ω</li>
-<li>R4 &#x3D; 11Ω<br>Convert to wye configuration and find the Thevenin equivalent circuit.</li>
-</ul>
-<h3 id="Example-3-Dependent-Sources"><a href="#Example-3-Dependent-Sources" class="headerlink" title="Example 3: Dependent Sources"></a>Example 3: Dependent Sources</h3><p>Given the following circuit with dependent sources:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>Where:</p>
-<ul>
-<li>V1 &#x3D; 30V</li>
-<li>I1 &#x3D; 2Vx (dependent on voltage across R1)</li>
-<li>R1 &#x3D; 6Ω</li>
-<li>R2 &#x3D; 8Ω</li>
-<li>R3 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
-</ul>
-<hr>
-<h2 id="戴維寧定理進階例題"><a href="#戴維寧定理進階例題" class="headerlink" title="戴維寧定理進階例題"></a>戴維寧定理進階例題</h2><p>本文提供戴維寧定理的進階應用例題。</p>
-<h3 id="例題1：橋式電路"><a href="#例題1：橋式電路" class="headerlink" title="例題1：橋式電路"></a>例題1：橋式電路</h3><p>給定以下橋式電路：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>其中：</p>
-<ul>
-<li>V1 &#x3D; 20V</li>
-<li>R1 &#x3D; 4Ω</li>
-<li>R2 &#x3D; 6Ω</li>
-<li>R3 &#x3D; 8Ω</li>
-<li>R4 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
-</ul>
-<h3 id="例題2：三角-星形轉換"><a href="#例題2：三角-星形轉換" class="headerlink" title="例題2：三角-星形轉換"></a>例題2：三角-星形轉換</h3><p>給定以下三角配置電路：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>其中：</p>
-<ul>
-<li>V1 &#x3D; 25V</li>
-<li>R1 &#x3D; 5Ω</li>
-<li>R2 &#x3D; 7Ω</li>
-<li>R3 &#x3D; 9Ω</li>
-<li>R4 &#x3D; 11Ω<br>轉換為星形配置並求戴維寧等效電路。</li>
-</ul>
-<h3 id="例題3：相依電源"><a href="#例題3：相依電源" class="headerlink" title="例題3：相依電源"></a>例題3：相依電源</h3><p>給定以下含相依電源的電路：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>其中：</p>
-<ul>
-<li>V1 &#x3D; 30V</li>
-<li>I1 &#x3D; 2Vx（相依於R1兩端電壓）</li>
-<li>R1 &#x3D; 6Ω</li>
-<li>R2 &#x3D; 8Ω</li>
-<li>R3 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
-</ul>
-<hr>
-<p><em>文章日期：2025-05-14</em> </p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electronics</category>
-      </categories>
-      <tags>
-        <tag>Physics</tag>
+        <tag>Circuit Analysis</tag>
         <tag>Bilingual</tag>
-        <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -6326,10 +8500,91 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Thevenin&#39;s Theorem: Advanced Examples - 戴維寧定理：進階例題</title>
+    <url>/2025/05/14/2025-05-14-thevenin-theorem-advanced-examples/</url>
+    <content><![CDATA[<h2 id="Advanced-Examples-of-Thevenin’s-Theorem"><a href="#Advanced-Examples-of-Thevenin’s-Theorem" class="headerlink" title="Advanced Examples of Thevenin’s Theorem"></a>Advanced Examples of Thevenin’s Theorem</h2><p>This article presents advanced examples of Thevenin’s Theorem applications.</p>
+<h3 id="Example-1-Bridge-Circuit"><a href="#Example-1-Bridge-Circuit" class="headerlink" title="Example 1: Bridge Circuit"></a>Example 1: Bridge Circuit</h3><p>Given the following bridge circuit:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>Where:</p>
+<ul>
+<li>V1 &#x3D; 20V</li>
+<li>R1 &#x3D; 4Ω</li>
+<li>R2 &#x3D; 6Ω</li>
+<li>R3 &#x3D; 8Ω</li>
+<li>R4 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
+</ul>
+<h3 id="Example-2-Delta-Wye-Transformation"><a href="#Example-2-Delta-Wye-Transformation" class="headerlink" title="Example 2: Delta-Wye Transformation"></a>Example 2: Delta-Wye Transformation</h3><p>Given the following circuit with delta configuration:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>Where:</p>
+<ul>
+<li>V1 &#x3D; 25V</li>
+<li>R1 &#x3D; 5Ω</li>
+<li>R2 &#x3D; 7Ω</li>
+<li>R3 &#x3D; 9Ω</li>
+<li>R4 &#x3D; 11Ω<br>Convert to wye configuration and find the Thevenin equivalent circuit.</li>
+</ul>
+<h3 id="Example-3-Dependent-Sources"><a href="#Example-3-Dependent-Sources" class="headerlink" title="Example 3: Dependent Sources"></a>Example 3: Dependent Sources</h3><p>Given the following circuit with dependent sources:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>Where:</p>
+<ul>
+<li>V1 &#x3D; 30V</li>
+<li>I1 &#x3D; 2Vx (dependent on voltage across R1)</li>
+<li>R1 &#x3D; 6Ω</li>
+<li>R2 &#x3D; 8Ω</li>
+<li>R3 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
+</ul>
+<hr>
+<h2 id="戴維寧定理進階例題"><a href="#戴維寧定理進階例題" class="headerlink" title="戴維寧定理進階例題"></a>戴維寧定理進階例題</h2><p>本文提供戴維寧定理的進階應用例題。</p>
+<h3 id="例題1：橋式電路"><a href="#例題1：橋式電路" class="headerlink" title="例題1：橋式電路"></a>例題1：橋式電路</h3><p>給定以下橋式電路：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li>V1 &#x3D; 20V</li>
+<li>R1 &#x3D; 4Ω</li>
+<li>R2 &#x3D; 6Ω</li>
+<li>R3 &#x3D; 8Ω</li>
+<li>R4 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
+</ul>
+<h3 id="例題2：三角-星形轉換"><a href="#例題2：三角-星形轉換" class="headerlink" title="例題2：三角-星形轉換"></a>例題2：三角-星形轉換</h3><p>給定以下三角配置電路：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li>V1 &#x3D; 25V</li>
+<li>R1 &#x3D; 5Ω</li>
+<li>R2 &#x3D; 7Ω</li>
+<li>R3 &#x3D; 9Ω</li>
+<li>R4 &#x3D; 11Ω<br>轉換為星形配置並求戴維寧等效電路。</li>
+</ul>
+<h3 id="例題3：相依電源"><a href="#例題3：相依電源" class="headerlink" title="例題3：相依電源"></a>例題3：相依電源</h3><p>給定以下含相依電源的電路：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li>V1 &#x3D; 30V</li>
+<li>I1 &#x3D; 2Vx（相依於R1兩端電壓）</li>
+<li>R1 &#x3D; 6Ω</li>
+<li>R2 &#x3D; 8Ω</li>
+<li>R3 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
+</ul>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Electronics</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -6377,10 +8632,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -6562,99 +8817,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Thevenin&#39;s Theorem: Advanced Applications - 戴維寧定理：進階應用</title>
-    <url>/2025/05/14/2025-05-14-thevenin-theorem-advanced/</url>
-    <content><![CDATA[<h2 id="Advanced-Applications-of-Thevenin’s-Theorem"><a href="#Advanced-Applications-of-Thevenin’s-Theorem" class="headerlink" title="Advanced Applications of Thevenin’s Theorem"></a>Advanced Applications of Thevenin’s Theorem</h2><p>This article explores advanced applications of Thevenin’s Theorem in complex circuit analysis.</p>
-<h3 id="Complex-Circuit-Analysis"><a href="#Complex-Circuit-Analysis" class="headerlink" title="Complex Circuit Analysis"></a>Complex Circuit Analysis</h3><ul>
-<li>Multiple source circuits<ul>
-<li>Use superposition with Thevenin</li>
-<li>Consider each source separately</li>
-<li>Combine results</li>
-</ul>
-</li>
-<li>Dependent sources<ul>
-<li>Keep dependent sources active</li>
-<li>Apply test source method</li>
-<li>Calculate Vth and Rth</li>
-</ul>
-</li>
-</ul>
-<h3 id="Special-Cases"><a href="#Special-Cases" class="headerlink" title="Special Cases"></a>Special Cases</h3><ol>
-<li>Circuits with Capacitors<ul>
-<li>Use impedance method</li>
-<li>Consider frequency effects</li>
-<li>Calculate complex impedance</li>
-</ul>
-</li>
-<li>Circuits with Inductors<ul>
-<li>Apply phasor analysis</li>
-<li>Consider inductive reactance</li>
-<li>Calculate complex Thevenin equivalent</li>
-</ul>
-</li>
-</ol>
-<h3 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h3><ul>
-<li>Power transfer optimization</li>
-<li>Circuit design simplification</li>
-<li>Load matching analysis</li>
-<li>System stability analysis</li>
-</ul>
-<hr>
-<h2 id="戴維寧定理的進階應用"><a href="#戴維寧定理的進階應用" class="headerlink" title="戴維寧定理的進階應用"></a>戴維寧定理的進階應用</h2><p>本文探討戴維寧定理在複雜電路分析中的進階應用。</p>
-<h3 id="複雜電路分析"><a href="#複雜電路分析" class="headerlink" title="複雜電路分析"></a>複雜電路分析</h3><ul>
-<li>多電源電路<ul>
-<li>結合重疊定理使用</li>
-<li>分別考慮每個電源</li>
-<li>合併結果</li>
-</ul>
-</li>
-<li>相依電源<ul>
-<li>保持相依電源作用</li>
-<li>應用測試電源法</li>
-<li>計算Vth和Rth</li>
-</ul>
-</li>
-</ul>
-<h3 id="特殊情況"><a href="#特殊情況" class="headerlink" title="特殊情況"></a>特殊情況</h3><ol>
-<li>含電容電路<ul>
-<li>使用阻抗法</li>
-<li>考慮頻率效應</li>
-<li>計算複數阻抗</li>
-</ul>
-</li>
-<li>含電感電路<ul>
-<li>應用相量分析</li>
-<li>考慮感抗</li>
-<li>計算複數戴維寧等效</li>
-</ul>
-</li>
-</ol>
-<h3 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h3><ul>
-<li>功率傳輸優化</li>
-<li>電路設計簡化</li>
-<li>負載匹配分析</li>
-<li>系統穩定性分析</li>
-</ul>
-<hr>
-<p><em>文章日期：2025-05-14</em> </p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electronics</category>
-      </categories>
-      <tags>
-        <tag>Physics</tag>
+        <tag>Circuit Analysis</tag>
         <tag>Bilingual</tag>
-        <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -6752,10 +8918,99 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Thevenin&#39;s Theorem: Advanced Applications - 戴維寧定理：進階應用</title>
+    <url>/2025/05/14/2025-05-14-thevenin-theorem-advanced/</url>
+    <content><![CDATA[<h2 id="Advanced-Applications-of-Thevenin’s-Theorem"><a href="#Advanced-Applications-of-Thevenin’s-Theorem" class="headerlink" title="Advanced Applications of Thevenin’s Theorem"></a>Advanced Applications of Thevenin’s Theorem</h2><p>This article explores advanced applications of Thevenin’s Theorem in complex circuit analysis.</p>
+<h3 id="Complex-Circuit-Analysis"><a href="#Complex-Circuit-Analysis" class="headerlink" title="Complex Circuit Analysis"></a>Complex Circuit Analysis</h3><ul>
+<li>Multiple source circuits<ul>
+<li>Use superposition with Thevenin</li>
+<li>Consider each source separately</li>
+<li>Combine results</li>
+</ul>
+</li>
+<li>Dependent sources<ul>
+<li>Keep dependent sources active</li>
+<li>Apply test source method</li>
+<li>Calculate Vth and Rth</li>
+</ul>
+</li>
+</ul>
+<h3 id="Special-Cases"><a href="#Special-Cases" class="headerlink" title="Special Cases"></a>Special Cases</h3><ol>
+<li>Circuits with Capacitors<ul>
+<li>Use impedance method</li>
+<li>Consider frequency effects</li>
+<li>Calculate complex impedance</li>
+</ul>
+</li>
+<li>Circuits with Inductors<ul>
+<li>Apply phasor analysis</li>
+<li>Consider inductive reactance</li>
+<li>Calculate complex Thevenin equivalent</li>
+</ul>
+</li>
+</ol>
+<h3 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h3><ul>
+<li>Power transfer optimization</li>
+<li>Circuit design simplification</li>
+<li>Load matching analysis</li>
+<li>System stability analysis</li>
+</ul>
+<hr>
+<h2 id="戴維寧定理的進階應用"><a href="#戴維寧定理的進階應用" class="headerlink" title="戴維寧定理的進階應用"></a>戴維寧定理的進階應用</h2><p>本文探討戴維寧定理在複雜電路分析中的進階應用。</p>
+<h3 id="複雜電路分析"><a href="#複雜電路分析" class="headerlink" title="複雜電路分析"></a>複雜電路分析</h3><ul>
+<li>多電源電路<ul>
+<li>結合重疊定理使用</li>
+<li>分別考慮每個電源</li>
+<li>合併結果</li>
+</ul>
+</li>
+<li>相依電源<ul>
+<li>保持相依電源作用</li>
+<li>應用測試電源法</li>
+<li>計算Vth和Rth</li>
+</ul>
+</li>
+</ul>
+<h3 id="特殊情況"><a href="#特殊情況" class="headerlink" title="特殊情況"></a>特殊情況</h3><ol>
+<li>含電容電路<ul>
+<li>使用阻抗法</li>
+<li>考慮頻率效應</li>
+<li>計算複數阻抗</li>
+</ul>
+</li>
+<li>含電感電路<ul>
+<li>應用相量分析</li>
+<li>考慮感抗</li>
+<li>計算複數戴維寧等效</li>
+</ul>
+</li>
+</ol>
+<h3 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h3><ul>
+<li>功率傳輸優化</li>
+<li>電路設計簡化</li>
+<li>負載匹配分析</li>
+<li>系統穩定性分析</li>
+</ul>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Electronics</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -6854,134 +9109,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Thevenin&#39;s Theorem: Practical Examples - 戴維寧定理：實際例題</title>
-    <url>/2025/05/14/2025-05-14-thevenin-theorem-examples/</url>
-    <content><![CDATA[<h3 id="Example-1-Simple-Circuit"><a href="#Example-1-Simple-Circuit" class="headerlink" title="Example 1: Simple Circuit"></a>Example 1: Simple Circuit</h3><p>Let’s analyze a simple circuit using Thevenin’s Theorem.</p>
-<h4 id="Circuit-Description"><a href="#Circuit-Description" class="headerlink" title="Circuit Description"></a>Circuit Description</h4><ul>
-<li>Voltage source: V &#x3D; 10V</li>
-<li>Resistors: R1 &#x3D; 2Ω, R2 &#x3D; 3Ω, R3 &#x3D; 4Ω</li>
-<li>Load resistor: RL &#x3D; 5Ω</li>
-</ul>
-<h4 id="Solution-Steps"><a href="#Solution-Steps" class="headerlink" title="Solution Steps"></a>Solution Steps</h4><ol>
-<li>Find Thevenin Voltage (Vth)<ul>
-<li>Remove RL</li>
-<li>Calculate open circuit voltage</li>
-<li>Vth &#x3D; 6V</li>
-</ul>
-</li>
-<li>Find Thevenin Resistance (Rth)<ul>
-<li>Turn off voltage source</li>
-<li>Calculate equivalent resistance</li>
-<li>Rth &#x3D; 2.4Ω</li>
-</ul>
-</li>
-<li>Final Equivalent Circuit<ul>
-<li>Vth &#x3D; 6V</li>
-<li>Rth &#x3D; 2.4Ω</li>
-<li>RL &#x3D; 5Ω</li>
-</ul>
-</li>
-</ol>
-<h3 id="Example-2-Complex-Circuit"><a href="#Example-2-Complex-Circuit" class="headerlink" title="Example 2: Complex Circuit"></a>Example 2: Complex Circuit</h3><p>Analyze a more complex circuit with multiple sources.</p>
-<h4 id="Circuit-Description-1"><a href="#Circuit-Description-1" class="headerlink" title="Circuit Description"></a>Circuit Description</h4><ul>
-<li>Voltage sources: V1 &#x3D; 12V, V2 &#x3D; 6V</li>
-<li>Current source: I &#x3D; 2A</li>
-<li>Resistors: R1 &#x3D; 4Ω, R2 &#x3D; 6Ω, R3 &#x3D; 8Ω</li>
-<li>Load resistor: RL &#x3D; 10Ω</li>
-</ul>
-<h4 id="Solution-Steps-1"><a href="#Solution-Steps-1" class="headerlink" title="Solution Steps"></a>Solution Steps</h4><ol>
-<li>Find Thevenin Voltage (Vth)<ul>
-<li>Use superposition theorem</li>
-<li>Calculate contributions from each source</li>
-<li>Vth &#x3D; 8V</li>
-</ul>
-</li>
-<li>Find Thevenin Resistance (Rth)<ul>
-<li>Turn off all sources</li>
-<li>Calculate equivalent resistance</li>
-<li>Rth &#x3D; 3.2Ω</li>
-</ul>
-</li>
-<li>Final Equivalent Circuit<ul>
-<li>Vth &#x3D; 8V</li>
-<li>Rth &#x3D; 3.2Ω</li>
-<li>RL &#x3D; 10Ω</li>
-</ul>
-</li>
-</ol>
-<h3 id="例題一：簡單電路"><a href="#例題一：簡單電路" class="headerlink" title="例題一：簡單電路"></a>例題一：簡單電路</h3><p>讓我們使用戴維寧定理分析一個簡單電路。</p>
-<h4 id="電路描述"><a href="#電路描述" class="headerlink" title="電路描述"></a>電路描述</h4><ul>
-<li>電壓源：V &#x3D; 10V</li>
-<li>電阻：R1 &#x3D; 2Ω，R2 &#x3D; 3Ω，R3 &#x3D; 4Ω</li>
-<li>負載電阻：RL &#x3D; 5Ω</li>
-</ul>
-<h4 id="解題步驟"><a href="#解題步驟" class="headerlink" title="解題步驟"></a>解題步驟</h4><ol>
-<li>求戴維寧電壓（Vth）<ul>
-<li>移除RL</li>
-<li>計算開路電壓</li>
-<li>Vth &#x3D; 6V</li>
-</ul>
-</li>
-<li>求戴維寧電阻（Rth）<ul>
-<li>關閉電壓源</li>
-<li>計算等效電阻</li>
-<li>Rth &#x3D; 2.4Ω</li>
-</ul>
-</li>
-<li>最終等效電路<ul>
-<li>Vth &#x3D; 6V</li>
-<li>Rth &#x3D; 2.4Ω</li>
-<li>RL &#x3D; 5Ω</li>
-</ul>
-</li>
-</ol>
-<h3 id="例題二：複雜電路"><a href="#例題二：複雜電路" class="headerlink" title="例題二：複雜電路"></a>例題二：複雜電路</h3><p>分析一個包含多個電源的複雜電路。</p>
-<h4 id="電路描述-1"><a href="#電路描述-1" class="headerlink" title="電路描述"></a>電路描述</h4><ul>
-<li>電壓源：V1 &#x3D; 12V，V2 &#x3D; 6V</li>
-<li>電流源：I &#x3D; 2A</li>
-<li>電阻：R1 &#x3D; 4Ω，R2 &#x3D; 6Ω，R3 &#x3D; 8Ω</li>
-<li>負載電阻：RL &#x3D; 10Ω</li>
-</ul>
-<h4 id="解題步驟-1"><a href="#解題步驟-1" class="headerlink" title="解題步驟"></a>解題步驟</h4><ol>
-<li>求戴維寧電壓（Vth）<ul>
-<li>使用重疊定理</li>
-<li>計算各電源的貢獻</li>
-<li>Vth &#x3D; 8V</li>
-</ul>
-</li>
-<li>求戴維寧電阻（Rth）<ul>
-<li>關閉所有電源</li>
-<li>計算等效電阻</li>
-<li>Rth &#x3D; 3.2Ω</li>
-</ul>
-</li>
-<li>最終等效電路<ul>
-<li>Vth &#x3D; 8V</li>
-<li>Rth &#x3D; 3.2Ω</li>
-<li>RL &#x3D; 10Ω</li>
-</ul>
-</li>
-</ol>
-<hr>
-<p><em>文章日期：2025-05-14</em> </p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electronics</category>
-      </categories>
-      <tags>
-        <tag>Physics</tag>
+        <tag>Circuit Analysis</tag>
         <tag>Bilingual</tag>
-        <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -7056,10 +9187,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -7156,10 +9287,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -7256,10 +9387,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -7342,10 +9473,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -7464,10 +9595,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -7552,10 +9683,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Thevenin&#39;s Theorem</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
       </tags>
   </entry>
   <entry>
@@ -7660,10 +9791,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Loop Current Method</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+        <tag>Loop Current Method</tag>
       </tags>
   </entry>
   <entry>
@@ -7767,10 +9898,10 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Loop Current Method</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+        <tag>Loop Current Method</tag>
       </tags>
   </entry>
   <entry>
@@ -7824,11 +9955,11 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
         <tag>Electronics</tag>
+        <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Tutorial</tag>
         <tag>DC Circuit</tag>
         <tag>Node Voltage Method</tag>
       </tags>
@@ -7863,12 +9994,12 @@
         <category>Circuit Analysis</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Tutorial</tag>
         <tag>Delta-Y Transformation</tag>
       </tags>
   </entry>
@@ -7904,12 +10035,12 @@
         <category>Circuit Analysis</category>
       </categories>
       <tags>
-        <tag>Basic Electronics</tag>
         <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Tutorial</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Bilingual</tag>
+        <tag>Basic Electronics</tag>
+        <tag>Tutorial</tag>
         <tag>Y-Delta Transformation</tag>
       </tags>
   </entry>
