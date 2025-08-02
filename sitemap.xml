@@ -2,9 +2,207 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://bill55tt.github.io/2025/08/02/ac-power-instantaneous-power-equation-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:51:51.803Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/ac-power-instantaneous-power-waveform-analysis-part-b/</loc>
+    
+    <lastmod>2025-08-02T14:39:11.345Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/basic-electricity-ch5-5-2-capacitance/</loc>
+    
+    <lastmod>2025-08-02T14:33:38.204Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-discharge-circuit-advanced-example-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:31:30.841Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-discharge-circuit-transient-current-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:31:30.837Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/fleming-right-hand-rule-examples-part-h/</loc>
+    
+    <lastmod>2025-08-02T14:16:38.069Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/generator-induced-emf-fleming-right-hand-rule/</loc>
+    
+    <lastmod>2025-08-02T14:16:38.069Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-capacitor-voltage-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:16:38.069Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-transient-current-curve-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:16:38.069Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-transients/</loc>
+    
+    <lastmod>2025-08-02T14:16:38.069Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-discharge-circuit-resistor-inductor-voltage-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:07:11.435Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-charging-circuit-advanced-example-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:01:23.525Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-charging-transient-basic-formulas-example-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:58:50.046Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-charging-circuit-inductor-voltage-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:55:55.919Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-charging-circuit-resistor-voltage-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:52:11.855Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/capacitor-dc-characteristics-transient-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:48:10.267Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-basic-example-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:48:10.267Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-charging-circuit-transient-current-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:48:10.267Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-discharge-circuit-capacitor-resistor-voltage-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:37:57.657Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-discharge-circuit-transient-current-formula-analysis/</loc>
+    
+    <lastmod>2025-08-02T13:35:20.806Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-circuit-dc-transient-example-analysis/</loc>
+    
+    <lastmod>2025-08-02T08:52:24.310Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-flux-units/</loc>
+    
+    <lastmod>2025-08-02T08:32:01.809Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://bill55tt.github.io/2024/05/24/2024-05-24-rc-charging-formula-review/</loc>
     
-    <lastmod>2025-05-24T07:32:44.168Z</lastmod>
+    <lastmod>2025-08-02T08:32:01.777Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +211,7 @@
   <url>
     <loc>https://bill55tt.github.io/2024/05/24/2024-05-24-rc-charging-current-formula/</loc>
     
-    <lastmod>2025-05-24T07:32:25.400Z</lastmod>
+    <lastmod>2025-08-02T08:32:01.761Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +220,25 @@
   <url>
     <loc>https://bill55tt.github.io/2024/05/24/2024-05-24-rc-charging-circuit/</loc>
     
-    <lastmod>2025-05-24T07:31:24.359Z</lastmod>
+    <lastmod>2025-08-02T08:32:01.753Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-loop-current-method-basics/</loc>
+    
+    <lastmod>2025-08-02T08:32:01.741Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-maximum-power-transfer/</loc>
+    
+    <lastmod>2025-08-02T08:32:01.697Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -317,36 +533,9 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-loop-current-method-basics/</loc>
-    
-    <lastmod>2025-05-24T07:03:32.602Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-superposition-theorem-introduction/</loc>
     
     <lastmod>2025-05-24T07:03:32.570Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-maximum-power-transfer/</loc>
-    
-    <lastmod>2025-05-24T07:03:32.006Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-magnetic-flux-units/</loc>
-    
-    <lastmod>2025-05-24T07:03:31.994Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
