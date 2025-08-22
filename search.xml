@@ -1,272 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Permeability and Magnetization Curve - 導磁係數與磁化曲線</title>
-    <url>/2025/05/14/2025-05-14-permeability-magnetization-curve/</url>
-    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental concepts of magnetic permeability and magnetization curves, including their mathematical relationships and practical applications in different materials.</p>
-<p>本文解釋磁導率與磁化曲線的基本概念，包括其數學關係及在不同材料中的實際應用。</p>
-<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Magnetic-Permeability-導磁係數"><a href="#1-Magnetic-Permeability-導磁係數" class="headerlink" title="1. Magnetic Permeability 導磁係數"></a>1. Magnetic Permeability 導磁係數</h3><ul>
-<li><p><strong>Definition:</strong></p>
-<ul>
-<li>Symbol: μ (mu)</li>
-<li>Formula: ( \mu &#x3D; \mu_0 \times \mu_r )</li>
-<li>Represents material’s ability to conduct magnetic flux</li>
-</ul>
-</li>
-<li><p><strong>定義：</strong></p>
-<ul>
-<li>符號：μ</li>
-<li>公式：( \mu &#x3D; \mu_0 \times \mu_r )</li>
-<li>表示物質導磁能力</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-Permeability-Constants-導磁常數"><a href="#2-Permeability-Constants-導磁常數" class="headerlink" title="2. Permeability Constants 導磁常數"></a>2. Permeability Constants 導磁常數</h3><ul>
-<li><p><strong>Vacuum Permeability (μ₀):</strong></p>
-<ul>
-<li>Value: (4\pi \times 10^{-7})</li>
-<li>Base reference for magnetic permeability</li>
-<li>Universal constant</li>
-</ul>
-</li>
-<li><p><strong>Relative Permeability (μr):</strong></p>
-<ul>
-<li>Ratio of material’s permeability to vacuum</li>
-<li>Determines material’s magnetic properties</li>
-<li>Dimensionless quantity</li>
-</ul>
-</li>
-<li><p><strong>真空導磁係數 (μ₀)：</strong></p>
-<ul>
-<li>數值：(4\pi \times 10^{-7})</li>
-<li>磁導率的基準參考值</li>
-<li>通用常數</li>
-</ul>
-</li>
-<li><p><strong>相對導磁係數 (μr)：</strong></p>
-<ul>
-<li>材料導磁率與真空的比值</li>
-<li>決定材料的磁性特性</li>
-<li>無因次量</li>
-</ul>
-</li>
-</ul>
-<h3 id="3-Material-Classification-材料分類"><a href="#3-Material-Classification-材料分類" class="headerlink" title="3. Material Classification 材料分類"></a>3. Material Classification 材料分類</h3><ul>
-<li><p><strong>Ferromagnetic Materials:</strong></p>
-<ul>
-<li>μr ≫ 1</li>
-<li>Examples: iron, silicon steel, steel, cobalt, nickel</li>
-<li>Strong magnetic properties</li>
-</ul>
-</li>
-<li><p><strong>Non-magnetic Materials:</strong></p>
-<ul>
-<li>μr &#x3D; 1</li>
-<li>Examples: vacuum</li>
-<li>Linear B-H curve, no saturation</li>
-</ul>
-</li>
-<li><p><strong>Paramagnetic Materials:</strong></p>
-<ul>
-<li>μr &gt; 1</li>
-<li>Examples: aluminum, platinum, tungsten</li>
-<li>Magnetic flux aligns with field</li>
-</ul>
-</li>
-<li><p><strong>Diamagnetic Materials:</strong></p>
-<ul>
-<li>μr &lt; 1</li>
-<li>Examples: gold, silver, copper</li>
-<li>Magnetic flux opposes field</li>
-</ul>
-</li>
-<li><p><strong>強磁性材料：</strong></p>
-<ul>
-<li>μr ≫ 1</li>
-<li>例如：鐵、矽鋼、鋼、鈷、鎳</li>
-<li>強磁性特性</li>
-</ul>
-</li>
-<li><p><strong>非磁性材料：</strong></p>
-<ul>
-<li>μr &#x3D; 1</li>
-<li>例如：真空</li>
-<li>B-H曲線為直線，無飽和</li>
-</ul>
-</li>
-<li><p><strong>順磁性材料：</strong></p>
-<ul>
-<li>μr &gt; 1</li>
-<li>例如：鋁、鉑、鎢</li>
-<li>磁通與磁場同向</li>
-</ul>
-</li>
-<li><p><strong>反磁性材料：</strong></p>
-<ul>
-<li>μr &lt; 1</li>
-<li>例如：金、銀、銅</li>
-<li>磁通與磁場反向</li>
-</ul>
-</li>
-</ul>
-<h3 id="4-Magnetization-Process-磁化過程"><a href="#4-Magnetization-Process-磁化過程" class="headerlink" title="4. Magnetization Process 磁化過程"></a>4. Magnetization Process 磁化過程</h3><ul>
-<li><p><strong>Core Magnetization:</strong></p>
-<ul>
-<li>Current application magnetizes iron core</li>
-<li>Magnetization strength increases with current</li>
-<li>Magnetic domains align</li>
-</ul>
-</li>
-<li><p><strong>鐵心磁化：</strong></p>
-<ul>
-<li>通電使鐵心磁化</li>
-<li>磁化強度隨電流增加</li>
-<li>磁域排列</li>
-</ul>
-</li>
-</ul>
-<h3 id="5-B-H-Curve-Characteristics-B-H曲線特性"><a href="#5-B-H-Curve-Characteristics-B-H曲線特性" class="headerlink" title="5. B-H Curve Characteristics B-H曲線特性"></a>5. B-H Curve Characteristics B-H曲線特性</h3><ul>
-<li><p><strong>Non-magnetic Materials:</strong></p>
-<ul>
-<li>Linear relationship</li>
-<li>No saturation point</li>
-<li>Direct proportionality</li>
-</ul>
-</li>
-<li><p><strong>Magnetic Materials:</strong></p>
-<ul>
-<li>Non-linear relationship</li>
-<li>Shows saturation point</li>
-<li>Magnetic domain alignment affects flux</li>
-</ul>
-</li>
-<li><p><strong>非磁性材料：</strong></p>
-<ul>
-<li>線性關係</li>
-<li>無飽和點</li>
-<li>直接比例關係</li>
-</ul>
-</li>
-<li><p><strong>磁性材料：</strong></p>
-<ul>
-<li>非線性關係</li>
-<li>顯示飽和點</li>
-<li>磁域排列影響磁通</li>
-</ul>
-</li>
-</ul>
-<h3 id="6-Magnetic-Saturation-磁飽和"><a href="#6-Magnetic-Saturation-磁飽和" class="headerlink" title="6. Magnetic Saturation 磁飽和"></a>6. Magnetic Saturation 磁飽和</h3><ul>
-<li><p><strong>Definition:</strong></p>
-<ul>
-<li>Complete alignment of magnetic domains</li>
-<li>Further H increase doesn’t significantly increase B</li>
-<li>Maximum magnetization state</li>
-</ul>
-</li>
-<li><p><strong>定義：</strong></p>
-<ul>
-<li>磁域完全排列</li>
-<li>增加H不會顯著增加B</li>
-<li>最大磁化狀態</li>
-</ul>
-</li>
-</ul>
-<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=0p_HYgb_y3o">Understanding Permeability and Magnetization</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electromagnetism</category>
-      </categories>
-      <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Permeability</tag>
-        <tag>Magnetization</tag>
-        <tag>Bilingual</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Thevenin&#39;s Theorem: Advanced Examples - 戴維寧定理：進階例題</title>
-    <url>/2025/05/14/2025-05-14-thevenin-theorem-advanced-examples/</url>
-    <content><![CDATA[<h2 id="Advanced-Examples-of-Thevenin’s-Theorem"><a href="#Advanced-Examples-of-Thevenin’s-Theorem" class="headerlink" title="Advanced Examples of Thevenin’s Theorem"></a>Advanced Examples of Thevenin’s Theorem</h2><p>This article presents advanced examples of Thevenin’s Theorem applications.</p>
-<h3 id="Example-1-Bridge-Circuit"><a href="#Example-1-Bridge-Circuit" class="headerlink" title="Example 1: Bridge Circuit"></a>Example 1: Bridge Circuit</h3><p>Given the following bridge circuit:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>Where:</p>
-<ul>
-<li>V1 &#x3D; 20V</li>
-<li>R1 &#x3D; 4Ω</li>
-<li>R2 &#x3D; 6Ω</li>
-<li>R3 &#x3D; 8Ω</li>
-<li>R4 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
-</ul>
-<h3 id="Example-2-Delta-Wye-Transformation"><a href="#Example-2-Delta-Wye-Transformation" class="headerlink" title="Example 2: Delta-Wye Transformation"></a>Example 2: Delta-Wye Transformation</h3><p>Given the following circuit with delta configuration:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>Where:</p>
-<ul>
-<li>V1 &#x3D; 25V</li>
-<li>R1 &#x3D; 5Ω</li>
-<li>R2 &#x3D; 7Ω</li>
-<li>R3 &#x3D; 9Ω</li>
-<li>R4 &#x3D; 11Ω<br>Convert to wye configuration and find the Thevenin equivalent circuit.</li>
-</ul>
-<h3 id="Example-3-Dependent-Sources"><a href="#Example-3-Dependent-Sources" class="headerlink" title="Example 3: Dependent Sources"></a>Example 3: Dependent Sources</h3><p>Given the following circuit with dependent sources:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>Where:</p>
-<ul>
-<li>V1 &#x3D; 30V</li>
-<li>I1 &#x3D; 2Vx (dependent on voltage across R1)</li>
-<li>R1 &#x3D; 6Ω</li>
-<li>R2 &#x3D; 8Ω</li>
-<li>R3 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
-</ul>
-<hr>
-<h2 id="戴維寧定理進階例題"><a href="#戴維寧定理進階例題" class="headerlink" title="戴維寧定理進階例題"></a>戴維寧定理進階例題</h2><p>本文提供戴維寧定理的進階應用例題。</p>
-<h3 id="例題1：橋式電路"><a href="#例題1：橋式電路" class="headerlink" title="例題1：橋式電路"></a>例題1：橋式電路</h3><p>給定以下橋式電路：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>其中：</p>
-<ul>
-<li>V1 &#x3D; 20V</li>
-<li>R1 &#x3D; 4Ω</li>
-<li>R2 &#x3D; 6Ω</li>
-<li>R3 &#x3D; 8Ω</li>
-<li>R4 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
-</ul>
-<h3 id="例題2：三角-星形轉換"><a href="#例題2：三角-星形轉換" class="headerlink" title="例題2：三角-星形轉換"></a>例題2：三角-星形轉換</h3><p>給定以下三角配置電路：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>其中：</p>
-<ul>
-<li>V1 &#x3D; 25V</li>
-<li>R1 &#x3D; 5Ω</li>
-<li>R2 &#x3D; 7Ω</li>
-<li>R3 &#x3D; 9Ω</li>
-<li>R4 &#x3D; 11Ω<br>轉換為星形配置並求戴維寧等效電路。</li>
-</ul>
-<h3 id="例題3：相依電源"><a href="#例題3：相依電源" class="headerlink" title="例題3：相依電源"></a>例題3：相依電源</h3><p>給定以下含相依電源的電路：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
-<p>其中：</p>
-<ul>
-<li>V1 &#x3D; 30V</li>
-<li>I1 &#x3D; 2Vx（相依於R1兩端電壓）</li>
-<li>R1 &#x3D; 6Ω</li>
-<li>R2 &#x3D; 8Ω</li>
-<li>R3 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
-</ul>
-<hr>
-<p><em>文章日期：2025-05-14</em> </p>
-]]></content>
-      <categories>
-        <category>Physics</category>
-        <category>Electronics</category>
-      </categories>
-      <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
-        <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
-        <tag>Circuit Analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Basic Electricity Chapter 1:PARTA Atomic Structure and Properties</title>
     <url>/2024/03/21/2024-03-21-atomic-structure/</url>
     <content><![CDATA[<p><img src="https://i.imgur.com/mSc28kb.jpeg" alt="Atomic Structure"></p>
@@ -841,11 +575,11 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Current</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
       </tags>
   </entry>
@@ -1005,10 +739,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Charge</tag>
         <tag>History</tag>
@@ -1184,10 +918,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Static Charge</tag>
       </tags>
@@ -1508,11 +1242,11 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Current</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Calculation</tag>
       </tags>
@@ -3731,10 +3465,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Conductance</tag>
         <tag>Conductivity</tag>
@@ -3762,13 +3496,13 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Parallel</tag>
       </tags>
   </entry>
@@ -3824,13 +3558,13 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Series</tag>
       </tags>
   </entry>
@@ -3858,13 +3592,13 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Series</tag>
       </tags>
   </entry>
@@ -3910,13 +3644,13 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Parallel</tag>
       </tags>
   </entry>
@@ -3942,10 +3676,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Conductance</tag>
         <tag>Parallel Circuits</tag>
@@ -4050,10 +3784,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Power</tag>
         <tag>Horsepower</tag>
@@ -4110,10 +3844,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Power</tag>
         <tag>Electric Energy</tag>
@@ -4158,10 +3892,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Power</tag>
         <tag>Efficiency</tag>
@@ -4235,10 +3969,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Calculation</tag>
         <tag>Resistance</tag>
@@ -4273,10 +4007,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Resistance</tag>
         <tag>Resistivity</tag>
@@ -4310,10 +4044,10 @@
         <category>Basic Electronics</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Bilingual</tag>
         <tag>Basic Electronics</tag>
         <tag>Electricity</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
         <tag>Tutorial</tag>
         <tag>Calculation</tag>
         <tag>Conductance</tag>
@@ -4410,8 +4144,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetism</tag>
         <tag>Magnetic Field</tag>
         <tag>Field Lines</tag>
@@ -4460,8 +4194,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Lorentz Force</tag>
         <tag>Magnetic Fields</tag>
         <tag>Charged Particles</tag>
@@ -4558,8 +4292,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetic Field</tag>
         <tag>Coulomb&#39;s Law</tag>
       </tags>
@@ -4647,8 +4381,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Coupling Coefficient</tag>
         <tag>Self-Inductance</tag>
         <tag>Mutual Inductance</tag>
@@ -4716,10 +4450,10 @@
         <category>Electromagnetism</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Bilingual</tag>
         <tag>Current</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetic Force</tag>
         <tag>Conductor</tag>
         <tag>Fleming&#39;s Rule</tag>
@@ -4777,10 +4511,10 @@
         <category>Electromagnetism</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Bilingual</tag>
         <tag>Current</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetic Force</tag>
         <tag>Conductor</tag>
       </tags>
@@ -4876,8 +4610,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Oersted</tag>
         <tag>Magnetic Effect</tag>
       </tags>
@@ -4953,8 +4687,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Electromagnetic Effect</tag>
         <tag>Hall Effect</tag>
         <tag>Right-Hand Rule</tag>
@@ -5011,8 +4745,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Electromagnetic Induction</tag>
         <tag>Faraday&#39;s Law</tag>
         <tag>Examples</tag>
@@ -5059,8 +4793,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Electromagnetic Induction</tag>
         <tag>Faraday&#39;s Law</tag>
       </tags>
@@ -5102,10 +4836,10 @@
         <category>Electromagnetism</category>
       </categories>
       <tags>
-        <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
-        <tag>Bilingual</tag>
         <tag>Current</tag>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetic Force</tag>
         <tag>Conductors</tag>
       </tags>
@@ -5197,9 +4931,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Calculations</tag>
       </tags>
   </entry>
@@ -5286,9 +5020,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Coupling Coefficient</tag>
         <tag>Mutual Inductance</tag>
       </tags>
@@ -5376,9 +5110,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Mutual Inductance</tag>
       </tags>
   </entry>
@@ -5454,8 +5188,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Mutual Inductance</tag>
         <tag>Inductors</tag>
         <tag>Energy Storage</tag>
@@ -5522,8 +5256,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Energy Storage</tag>
         <tag>Inductor</tag>
       </tags>
@@ -5659,8 +5393,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Inductors</tag>
         <tag>Structure</tag>
         <tag>Function</tag>
@@ -5707,8 +5441,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetic Field</tag>
         <tag>Long Straight Conductor</tag>
       </tags>
@@ -5841,8 +5575,8 @@
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -5949,8 +5683,8 @@
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -6054,8 +5788,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Calculations</tag>
         <tag>Magnetic Flux</tag>
         <tag>Units</tag>
@@ -6184,8 +5918,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetic Hysteresis</tag>
         <tag>Hysteresis Loop</tag>
       </tags>
@@ -6823,9 +6557,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Parallel Circuits</tag>
         <tag>Mutual Inductance</tag>
       </tags>
@@ -6901,11 +6635,196 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Parallel Circuits</tag>
         <tag>Mutual Inductance</tag>
         <tag>Inductors</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Permeability and Magnetization Curve - 導磁係數與磁化曲線</title>
+    <url>/2025/05/14/2025-05-14-permeability-magnetization-curve/</url>
+    <content><![CDATA[<h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the fundamental concepts of magnetic permeability and magnetization curves, including their mathematical relationships and practical applications in different materials.</p>
+<p>本文解釋磁導率與磁化曲線的基本概念，包括其數學關係及在不同材料中的實際應用。</p>
+<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Magnetic-Permeability-導磁係數"><a href="#1-Magnetic-Permeability-導磁係數" class="headerlink" title="1. Magnetic Permeability 導磁係數"></a>1. Magnetic Permeability 導磁係數</h3><ul>
+<li><p><strong>Definition:</strong></p>
+<ul>
+<li>Symbol: μ (mu)</li>
+<li>Formula: ( \mu &#x3D; \mu_0 \times \mu_r )</li>
+<li>Represents material’s ability to conduct magnetic flux</li>
+</ul>
+</li>
+<li><p><strong>定義：</strong></p>
+<ul>
+<li>符號：μ</li>
+<li>公式：( \mu &#x3D; \mu_0 \times \mu_r )</li>
+<li>表示物質導磁能力</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-Permeability-Constants-導磁常數"><a href="#2-Permeability-Constants-導磁常數" class="headerlink" title="2. Permeability Constants 導磁常數"></a>2. Permeability Constants 導磁常數</h3><ul>
+<li><p><strong>Vacuum Permeability (μ₀):</strong></p>
+<ul>
+<li>Value: (4\pi \times 10^{-7})</li>
+<li>Base reference for magnetic permeability</li>
+<li>Universal constant</li>
+</ul>
+</li>
+<li><p><strong>Relative Permeability (μr):</strong></p>
+<ul>
+<li>Ratio of material’s permeability to vacuum</li>
+<li>Determines material’s magnetic properties</li>
+<li>Dimensionless quantity</li>
+</ul>
+</li>
+<li><p><strong>真空導磁係數 (μ₀)：</strong></p>
+<ul>
+<li>數值：(4\pi \times 10^{-7})</li>
+<li>磁導率的基準參考值</li>
+<li>通用常數</li>
+</ul>
+</li>
+<li><p><strong>相對導磁係數 (μr)：</strong></p>
+<ul>
+<li>材料導磁率與真空的比值</li>
+<li>決定材料的磁性特性</li>
+<li>無因次量</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-Material-Classification-材料分類"><a href="#3-Material-Classification-材料分類" class="headerlink" title="3. Material Classification 材料分類"></a>3. Material Classification 材料分類</h3><ul>
+<li><p><strong>Ferromagnetic Materials:</strong></p>
+<ul>
+<li>μr ≫ 1</li>
+<li>Examples: iron, silicon steel, steel, cobalt, nickel</li>
+<li>Strong magnetic properties</li>
+</ul>
+</li>
+<li><p><strong>Non-magnetic Materials:</strong></p>
+<ul>
+<li>μr &#x3D; 1</li>
+<li>Examples: vacuum</li>
+<li>Linear B-H curve, no saturation</li>
+</ul>
+</li>
+<li><p><strong>Paramagnetic Materials:</strong></p>
+<ul>
+<li>μr &gt; 1</li>
+<li>Examples: aluminum, platinum, tungsten</li>
+<li>Magnetic flux aligns with field</li>
+</ul>
+</li>
+<li><p><strong>Diamagnetic Materials:</strong></p>
+<ul>
+<li>μr &lt; 1</li>
+<li>Examples: gold, silver, copper</li>
+<li>Magnetic flux opposes field</li>
+</ul>
+</li>
+<li><p><strong>強磁性材料：</strong></p>
+<ul>
+<li>μr ≫ 1</li>
+<li>例如：鐵、矽鋼、鋼、鈷、鎳</li>
+<li>強磁性特性</li>
+</ul>
+</li>
+<li><p><strong>非磁性材料：</strong></p>
+<ul>
+<li>μr &#x3D; 1</li>
+<li>例如：真空</li>
+<li>B-H曲線為直線，無飽和</li>
+</ul>
+</li>
+<li><p><strong>順磁性材料：</strong></p>
+<ul>
+<li>μr &gt; 1</li>
+<li>例如：鋁、鉑、鎢</li>
+<li>磁通與磁場同向</li>
+</ul>
+</li>
+<li><p><strong>反磁性材料：</strong></p>
+<ul>
+<li>μr &lt; 1</li>
+<li>例如：金、銀、銅</li>
+<li>磁通與磁場反向</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-Magnetization-Process-磁化過程"><a href="#4-Magnetization-Process-磁化過程" class="headerlink" title="4. Magnetization Process 磁化過程"></a>4. Magnetization Process 磁化過程</h3><ul>
+<li><p><strong>Core Magnetization:</strong></p>
+<ul>
+<li>Current application magnetizes iron core</li>
+<li>Magnetization strength increases with current</li>
+<li>Magnetic domains align</li>
+</ul>
+</li>
+<li><p><strong>鐵心磁化：</strong></p>
+<ul>
+<li>通電使鐵心磁化</li>
+<li>磁化強度隨電流增加</li>
+<li>磁域排列</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-B-H-Curve-Characteristics-B-H曲線特性"><a href="#5-B-H-Curve-Characteristics-B-H曲線特性" class="headerlink" title="5. B-H Curve Characteristics B-H曲線特性"></a>5. B-H Curve Characteristics B-H曲線特性</h3><ul>
+<li><p><strong>Non-magnetic Materials:</strong></p>
+<ul>
+<li>Linear relationship</li>
+<li>No saturation point</li>
+<li>Direct proportionality</li>
+</ul>
+</li>
+<li><p><strong>Magnetic Materials:</strong></p>
+<ul>
+<li>Non-linear relationship</li>
+<li>Shows saturation point</li>
+<li>Magnetic domain alignment affects flux</li>
+</ul>
+</li>
+<li><p><strong>非磁性材料：</strong></p>
+<ul>
+<li>線性關係</li>
+<li>無飽和點</li>
+<li>直接比例關係</li>
+</ul>
+</li>
+<li><p><strong>磁性材料：</strong></p>
+<ul>
+<li>非線性關係</li>
+<li>顯示飽和點</li>
+<li>磁域排列影響磁通</li>
+</ul>
+</li>
+</ul>
+<h3 id="6-Magnetic-Saturation-磁飽和"><a href="#6-Magnetic-Saturation-磁飽和" class="headerlink" title="6. Magnetic Saturation 磁飽和"></a>6. Magnetic Saturation 磁飽和</h3><ul>
+<li><p><strong>Definition:</strong></p>
+<ul>
+<li>Complete alignment of magnetic domains</li>
+<li>Further H increase doesn’t significantly increase B</li>
+<li>Maximum magnetization state</li>
+</ul>
+</li>
+<li><p><strong>定義：</strong></p>
+<ul>
+<li>磁域完全排列</li>
+<li>增加H不會顯著增加B</li>
+<li>最大磁化狀態</li>
+</ul>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a href="https://www.youtube.com/watch?v=0p_HYgb_y3o">Understanding Permeability and Magnetization</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
+        <tag>Permeability</tag>
+        <tag>Magnetization</tag>
       </tags>
   </entry>
   <entry>
@@ -6991,8 +6910,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Self-Inductance</tag>
         <tag>Definition</tag>
       </tags>
@@ -7096,9 +7015,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Mutual Inductance</tag>
       </tags>
   </entry>
@@ -7183,9 +7102,9 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
         <tag>Inductance</tag>
+        <tag>Electromagnetism</tag>
         <tag>Mutual Inductance</tag>
         <tag>Series Circuits</tag>
       </tags>
@@ -7273,8 +7192,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Mutual Inductance</tag>
         <tag>Inductors</tag>
         <tag>Series Circuits</tag>
@@ -7395,8 +7314,8 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-        <tag>Electromagnetism</tag>
         <tag>Bilingual</tag>
+        <tag>Electromagnetism</tag>
         <tag>Magnetic Field</tag>
         <tag>Solenoid</tag>
       </tags>
@@ -8073,8 +7992,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -8278,8 +8197,89 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Thevenin&#39;s Theorem: Advanced Examples - 戴維寧定理：進階例題</title>
+    <url>/2025/05/14/2025-05-14-thevenin-theorem-advanced-examples/</url>
+    <content><![CDATA[<h2 id="Advanced-Examples-of-Thevenin’s-Theorem"><a href="#Advanced-Examples-of-Thevenin’s-Theorem" class="headerlink" title="Advanced Examples of Thevenin’s Theorem"></a>Advanced Examples of Thevenin’s Theorem</h2><p>This article presents advanced examples of Thevenin’s Theorem applications.</p>
+<h3 id="Example-1-Bridge-Circuit"><a href="#Example-1-Bridge-Circuit" class="headerlink" title="Example 1: Bridge Circuit"></a>Example 1: Bridge Circuit</h3><p>Given the following bridge circuit:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>Where:</p>
+<ul>
+<li>V1 &#x3D; 20V</li>
+<li>R1 &#x3D; 4Ω</li>
+<li>R2 &#x3D; 6Ω</li>
+<li>R3 &#x3D; 8Ω</li>
+<li>R4 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
+</ul>
+<h3 id="Example-2-Delta-Wye-Transformation"><a href="#Example-2-Delta-Wye-Transformation" class="headerlink" title="Example 2: Delta-Wye Transformation"></a>Example 2: Delta-Wye Transformation</h3><p>Given the following circuit with delta configuration:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>Where:</p>
+<ul>
+<li>V1 &#x3D; 25V</li>
+<li>R1 &#x3D; 5Ω</li>
+<li>R2 &#x3D; 7Ω</li>
+<li>R3 &#x3D; 9Ω</li>
+<li>R4 &#x3D; 11Ω<br>Convert to wye configuration and find the Thevenin equivalent circuit.</li>
+</ul>
+<h3 id="Example-3-Dependent-Sources"><a href="#Example-3-Dependent-Sources" class="headerlink" title="Example 3: Dependent Sources"></a>Example 3: Dependent Sources</h3><p>Given the following circuit with dependent sources:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>Where:</p>
+<ul>
+<li>V1 &#x3D; 30V</li>
+<li>I1 &#x3D; 2Vx (dependent on voltage across R1)</li>
+<li>R1 &#x3D; 6Ω</li>
+<li>R2 &#x3D; 8Ω</li>
+<li>R3 &#x3D; 10Ω<br>Find the Thevenin equivalent circuit between points A and B.</li>
+</ul>
+<hr>
+<h2 id="戴維寧定理進階例題"><a href="#戴維寧定理進階例題" class="headerlink" title="戴維寧定理進階例題"></a>戴維寧定理進階例題</h2><p>本文提供戴維寧定理的進階應用例題。</p>
+<h3 id="例題1：橋式電路"><a href="#例題1：橋式電路" class="headerlink" title="例題1：橋式電路"></a>例題1：橋式電路</h3><p>給定以下橋式電路：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li>V1 &#x3D; 20V</li>
+<li>R1 &#x3D; 4Ω</li>
+<li>R2 &#x3D; 6Ω</li>
+<li>R3 &#x3D; 8Ω</li>
+<li>R4 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
+</ul>
+<h3 id="例題2：三角-星形轉換"><a href="#例題2：三角-星形轉換" class="headerlink" title="例題2：三角-星形轉換"></a>例題2：三角-星形轉換</h3><p>給定以下三角配置電路：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       R4</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li>V1 &#x3D; 25V</li>
+<li>R1 &#x3D; 5Ω</li>
+<li>R2 &#x3D; 7Ω</li>
+<li>R3 &#x3D; 9Ω</li>
+<li>R4 &#x3D; 11Ω<br>轉換為星形配置並求戴維寧等效電路。</li>
+</ul>
+<h3 id="例題3：相依電源"><a href="#例題3：相依電源" class="headerlink" title="例題3：相依電源"></a>例題3：相依電源</h3><p>給定以下含相依電源的電路：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+---R1---+---R2---+</span><br><span class="line">|        |        |</span><br><span class="line">V1       R3       I1</span><br><span class="line">|        |        |</span><br><span class="line">+--------+--------+</span><br></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li>V1 &#x3D; 30V</li>
+<li>I1 &#x3D; 2Vx（相依於R1兩端電壓）</li>
+<li>R1 &#x3D; 6Ω</li>
+<li>R2 &#x3D; 8Ω</li>
+<li>R3 &#x3D; 10Ω<br>求A點和B點之間的戴維寧等效電路。</li>
+</ul>
+<hr>
+<p><em>文章日期：2025-05-14</em> </p>
+]]></content>
+      <categories>
+        <category>Physics</category>
+        <category>Electronics</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+        <tag>Bilingual</tag>
+        <tag>Electronics</tag>
+        <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -8459,8 +8459,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -8510,8 +8510,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -8695,8 +8695,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -8784,8 +8784,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -8885,8 +8885,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -8987,8 +8987,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9111,8 +9111,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9189,8 +9189,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9289,8 +9289,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9389,8 +9389,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9475,8 +9475,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9597,8 +9597,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9685,8 +9685,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Thevenin&#39;s Theorem</tag>
         <tag>Circuit Analysis</tag>
+        <tag>Thevenin&#39;s Theorem</tag>
       </tags>
   </entry>
   <entry>
@@ -9793,8 +9793,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -9900,8 +9900,8 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>Physics</tag>
         <tag>Bilingual</tag>
         <tag>Electronics</tag>
-        <tag>Circuit Analysis</tag>
         <tag>Loop Current Method</tag>
+        <tag>Circuit Analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -9955,11 +9955,11 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <category>Basic Electronics</category>
       </categories>
       <tags>
+        <tag>Basic Electronics</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
-        <tag>Electronics</tag>
-        <tag>Basic Electronics</tag>
         <tag>Tutorial</tag>
+        <tag>Electronics</tag>
         <tag>DC Circuit</tag>
         <tag>Node Voltage Method</tag>
       </tags>
@@ -9994,12 +9994,12 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <category>Circuit Analysis</category>
       </categories>
       <tags>
+        <tag>Basic Electronics</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Tutorial</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
-        <tag>Basic Electronics</tag>
-        <tag>Tutorial</tag>
         <tag>Delta-Y Transformation</tag>
       </tags>
   </entry>
@@ -10035,12 +10035,12 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <category>Circuit Analysis</category>
       </categories>
       <tags>
+        <tag>Basic Electronics</tag>
         <tag>Physics</tag>
         <tag>Bilingual</tag>
+        <tag>Tutorial</tag>
         <tag>Electronics</tag>
         <tag>Circuit Analysis</tag>
-        <tag>Basic Electronics</tag>
-        <tag>Tutorial</tag>
         <tag>Y-Delta Transformation</tag>
       </tags>
   </entry>
@@ -12209,6 +12209,67 @@ ok
         <tag>Manufacturing</tag>
         <tag>CNC</tag>
         <tag>Drilling</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>串聯電路功率因數 (PF) 與並聯電路功率因數的關係</title>
+    <url>/2025/08/21/pf-series-parallel-relationship/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Relationship Between Power Factor (PF) of Series and Parallel Circuits</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Derive and compare power factor definitions for series RL and parallel RL circuits with the same R and XL.</li>
+<li><strong>Why it matters</strong>: Understanding PF relationships helps convert results between topologies and quickly estimate PF without re-deriving.</li>
+<li><strong>What you’ll learn</strong>: Closed-form PF formulas, the identity (PFS^2 + PFP^2 &#x3D; 1), and a numerical example.</li>
+</ul>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul>
+<li><strong>Power Factor of Series Circuit (PFS)</strong>:<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li><strong>Power Factor of Parallel Circuit (PFP)</strong>:<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li>If (R) and (X_L) are the same in both circuits:<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li>
+<li>Example:<ul>
+<li>(R &#x3D; 4,\Omega, ; X_L &#x3D; 3,\Omega)</li>
+<li>Series PF (PFS &#x3D; 0.8)</li>
+<li>Parallel PF (PFP &#x3D; 0.6)</li>
+</ul>
+</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">High school basic electricity – AC power – Power Factor PART G: Relationship of Series PF and Parallel PF</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>串聯電路功率因數 (PF) 與並聯電路功率因數的關係</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：推導並比較在相同 (R) 與 (X_L) 下，串聯 RL 與並聯 RL 電路的功率因數。</li>
+<li><strong>為何重要</strong>：理解兩種拓撲之 PF 關係，可在兩者之間快速換算並估算 PF，無需每次重推。</li>
+<li><strong>你將學到</strong>：PF 的閉式公式、恆等式 (PFS^2 + PFP^2 &#x3D; 1) 與數值範例。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li><strong>串聯電路功率因數 (PFS)</strong>：<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li><strong>並聯電路功率因數 (PFP)</strong>：<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li>若兩電路的 (R) 與 (X_L) 相同，則：<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li>
+<li>範例：<ul>
+<li>(R &#x3D; 4,\Omega, ; X_L &#x3D; 3,\Omega)</li>
+<li>串聯功率因數 (PFS &#x3D; 0.8)</li>
+<li>並聯功率因數 (PFP &#x3D; 0.6)</li>
+</ul>
+</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">@高中基本電學_交流電功率_功率因數_PART G 串聯電路PF與並聯電路PF關係_陳政旭</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月21日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">https://www.youtube.com/watch?v=XrqnOBHWDOo</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>功率因數</tag>
+        <tag>串聯電路</tag>
+        <tag>並聯電路</tag>
       </tags>
   </entry>
   <entry>
@@ -19047,6 +19108,95 @@ ok
       </tags>
   </entry>
   <entry>
+    <title>Hexo NexT 主题侧边栏配置：文章概要和目录</title>
+    <url>/2024/03/21/sidebar-toc/</url>
+    <content><![CDATA[<p><img src="https://i.imgur.com/FMkFcWl.png"></p>
+<h2 id="配置文章概要和目录"><a href="#配置文章概要和目录" class="headerlink" title="配置文章概要和目录"></a>配置文章概要和目录</h2><p>在 NexT 主题中，侧边栏可以显示文章概要和目录，这对于阅读长文章特别有帮助。以下是具体的配置方法：</p>
+<h3 id="1-配置文章概要（Post-Outline）"><a href="#1-配置文章概要（Post-Outline）" class="headerlink" title="1. 配置文章概要（Post Outline）"></a>1. 配置文章概要（Post Outline）</h3><p>在 <code>_config.next.yml</code> 中找到并修改以下配置：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Table of Contents in the Sidebar</span></span><br><span class="line"><span class="comment"># Front-matter variable (nonsupport wrap expand_all).</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 自动添加列表序号</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 如果标题宽度超过侧边栏宽度，是否换行</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 是否展开所有目录</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 目录最大深度</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-配置侧边栏位置和宽度"><a href="#2-配置侧边栏位置和宽度" class="headerlink" title="2. 配置侧边栏位置和宽度"></a>2. 配置侧边栏位置和宽度</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="comment"># 侧边栏位置：left（左侧）| right（右侧）</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏宽度（适用于 Muse | Mist 主题）</span></span><br><span class="line">  <span class="attr">width:</span> <span class="number">300</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏显示条件</span></span><br><span class="line">  <span class="comment"># post    - 默认，在文章页面自动展开</span></span><br><span class="line">  <span class="comment"># always  - 在所有页面自动展开</span></span><br><span class="line">  <span class="comment"># hide    - 点击侧边栏按钮时展开</span></span><br><span class="line">  <span class="comment"># remove  - 完全移除侧边栏</span></span><br><span class="line">  <span class="attr">display:</span> <span class="string">post</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏内边距（像素）</span></span><br><span class="line">  <span class="attr">padding:</span> <span class="number">18</span></span><br><span class="line">  <span class="comment"># 侧边栏与顶部菜单栏的偏移（仅适用于 Pisces | Gemini 主题）</span></span><br><span class="line">  <span class="attr">offset:</span> <span class="number">12</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-在文章中启用目录"><a href="#3-在文章中启用目录" class="headerlink" title="3. 在文章中启用目录"></a>3. 在文章中启用目录</h3><p>在文章的 Front-matter 中添加：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">你的文章标题</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2024-03-21 11:00:00</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-配置目录样式"><a href="#4-配置目录样式" class="headerlink" title="4. 配置目录样式"></a>4. 配置目录样式</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 目录样式设置</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 自动添加列表序号</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 如果标题宽度超过侧边栏宽度，是否换行</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 是否展开所有目录</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 目录最大深度</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-配置文章信息显示"><a href="#5-配置文章信息显示" class="headerlink" title="5. 配置文章信息显示"></a>5. 配置文章信息显示</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post meta display settings</span></span><br><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="使用效果"><a href="#使用效果" class="headerlink" title="使用效果"></a>使用效果</h2><p>配置完成后，你的文章页面将会：</p>
+<ol>
+<li>在侧边栏显示文章目录</li>
+<li>目录会自动根据文章标题生成</li>
+<li>可以点击目录直接跳转到对应位置</li>
+<li>当前阅读位置的目录项会高亮显示</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li>确保你的文章使用了正确的 Markdown 标题格式（# ## ###）</li>
+<li>目录只会显示在文章页面</li>
+<li>如果文章没有标题，则不会显示目录</li>
+<li>建议保持标题层级的连续性，不要跳级使用</li>
+</ol>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h3 id="目录不显示？"><a href="#目录不显示？" class="headerlink" title="目录不显示？"></a>目录不显示？</h3><p>检查以下几点：</p>
+<ol>
+<li>确认 <code>_config.next.yml</code> 中的 <code>toc.enable</code> 设置为 <code>true</code></li>
+<li>确认文章 Front-matter 中设置了 <code>toc: true</code></li>
+<li>确认文章中使用了正确的标题格式</li>
+</ol>
+<h3 id="目录显示不全？"><a href="#目录显示不全？" class="headerlink" title="目录显示不全？"></a>目录显示不全？</h3><ol>
+<li>检查 <code>max_depth</code> 设置是否合适</li>
+<li>确认标题层级使用正确</li>
+<li>检查标题格式是否规范</li>
+</ol>
+<h3 id="目录不能点击跳转？"><a href="#目录不能点击跳转？" class="headerlink" title="目录不能点击跳转？"></a>目录不能点击跳转？</h3><ol>
+<li>确认主题版本是否最新</li>
+<li>检查是否有 JavaScript 错误</li>
+<li>尝试清除浏览器缓存</li>
+</ol>
+<h2 id="进阶配置"><a href="#进阶配置" class="headerlink" title="进阶配置"></a>进阶配置</h2><h3 id="自定义目录样式"><a href="#自定义目录样式" class="headerlink" title="自定义目录样式"></a>自定义目录样式</h3><p>你可以在 <code>source/_data/styles.styl</code> 中添加自定义样式：</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 自定义目录样式</span></span><br><span class="line"><span class="selector-class">.post-toc</span> &#123;</span><br><span class="line">  <span class="selector-class">.nav-item</span> &#123;</span><br><span class="line">    <span class="comment">// 目录项样式</span></span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">1.8</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">14px</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 当前阅读位置的目录项</span></span><br><span class="line">    &amp;<span class="selector-class">.active</span> &gt; <span class="selector-class">.nav-link</span> &#123;</span><br><span class="line">      <span class="attribute">color</span>: <span class="number">#fc6423</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="优化目录显示"><a href="#优化目录显示" class="headerlink" title="优化目录显示"></a>优化目录显示</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 滚动时固定侧边栏</span></span><br><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">sticky:</span> <span class="literal">true</span></span><br><span class="line">  </span><br><span class="line"><span class="comment"># 显示目录滚动条</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>合理配置文章概要和目录可以大大提升博客的阅读体验。建议根据自己的需求和偏好调整这些设置，找到最适合的配置方案。</p>
+<hr>
+<blockquote>
+<p>如果你在配置过程中遇到任何问题，欢迎在评论区留言交流。 </p>
+</blockquote>
+<h1 id="功率三角形與複數功率-Part-A：功率三角形"><a href="#功率三角形與複數功率-Part-A：功率三角形" class="headerlink" title="功率三角形與複數功率 Part A：功率三角形"></a>功率三角形與複數功率 Part A：功率三角形</h1><hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>本單元介紹功率三角形與複數功率的基本概念。</li>
+<li>以 R-L 串聯電路為例，說明電流 I 作為基準相量，電阻電壓 VR 與電流同相，電感電壓 VL 超前電流 90 度。</li>
+<li>電源電壓 V 為 VR 與 VL 的相量和，電流 I 滯後電壓 V 一個角度 θ（0°至90°間）。</li>
+<li>將電壓相量乘以電流 I，得到功率三角形，包含平均功率 P（I²R）、虛功率 QL（I²XL）與視在功率 S（VI）。</li>
+<li>RL 串聯電路的功率三角形與 RC 串聯電路功率三角形的差異在於虛功率方向（正 j 與負 j）。</li>
+<li>功率三角形用於表示平均功率、虛功率與視在功率的相位與相量關係。</li>
+</ul>
+<hr>
+<h2 id="English-Translation"><a href="#English-Translation" class="headerlink" title="English Translation"></a>English Translation</h2><p><strong>Title:</strong> Power Triangle and Complex Power Part A: Power Triangle</p>
+<p><strong>Key Points Summary:</strong></p>
+<ul>
+<li>This unit introduces the basic concepts of the power triangle and complex power.</li>
+<li>Using an R-L series circuit as an example, the current I is taken as the reference phasor; the resistor voltage VR is in phase with I, and the inductor voltage VL leads I by 90 degrees.</li>
+<li>The supply voltage V is the phasor sum of VR and VL; the current I lags voltage V by an angle θ (between 0° and 90°).</li>
+<li>Multiplying the voltage phasors by current I forms the power triangle, including average power P (I²R), reactive power QL (I²XL), and apparent power S (VI).</li>
+<li>The power triangle of an RL series circuit differs from that of an RC series circuit in the direction of reactive power (positive j vs. negative j).</li>
+<li>The power triangle represents the phase and phasor relationships among average power, reactive power, and apparent power.</li>
+</ul>
+<hr>
+<h3 id="YouTube-自動翻譯連結"><a href="#YouTube-自動翻譯連結" class="headerlink" title="YouTube 自動翻譯連結"></a>YouTube 自動翻譯連結</h3><p><a href="https://www.youtube.com/watch?v=VXHMJNaB0qg">點此觀看影片及自動翻譯</a></p>
+<hr>
+<p><strong>日期：2025年8月3日</strong> </p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Next Theme</tag>
+        <tag>Configuration</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Analysis of Transient Current Formula in RL Discharge Circuit</title>
     <url>/2025/08/02/rl-discharge-circuit-transient-current-formula-analysis/</url>
     <content><![CDATA[<h1 id="Analysis-of-Transient-Current-Formula-in-RL-Discharge-Circuit"><a href="#Analysis-of-Transient-Current-Formula-in-RL-Discharge-Circuit" class="headerlink" title="Analysis of Transient Current Formula in RL Discharge Circuit"></a>Analysis of Transient Current Formula in RL Discharge Circuit</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This comprehensive article provides a detailed analysis of the transient current formula in RL discharge circuits. We examine the fundamental principles of inductor discharge, the mathematical relationships governing current decay, and the physical interpretation of the time constant in RL circuits.</p>
@@ -19535,95 +19685,6 @@ ok
         <tag>電流公式</tag>
         <tag>放電過程</tag>
         <tag>RL放電電路</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo NexT 主题侧边栏配置：文章概要和目录</title>
-    <url>/2024/03/21/sidebar-toc/</url>
-    <content><![CDATA[<p><img src="https://i.imgur.com/FMkFcWl.png"></p>
-<h2 id="配置文章概要和目录"><a href="#配置文章概要和目录" class="headerlink" title="配置文章概要和目录"></a>配置文章概要和目录</h2><p>在 NexT 主题中，侧边栏可以显示文章概要和目录，这对于阅读长文章特别有帮助。以下是具体的配置方法：</p>
-<h3 id="1-配置文章概要（Post-Outline）"><a href="#1-配置文章概要（Post-Outline）" class="headerlink" title="1. 配置文章概要（Post Outline）"></a>1. 配置文章概要（Post Outline）</h3><p>在 <code>_config.next.yml</code> 中找到并修改以下配置：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Table of Contents in the Sidebar</span></span><br><span class="line"><span class="comment"># Front-matter variable (nonsupport wrap expand_all).</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 自动添加列表序号</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 如果标题宽度超过侧边栏宽度，是否换行</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 是否展开所有目录</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 目录最大深度</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="2-配置侧边栏位置和宽度"><a href="#2-配置侧边栏位置和宽度" class="headerlink" title="2. 配置侧边栏位置和宽度"></a>2. 配置侧边栏位置和宽度</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="comment"># 侧边栏位置：left（左侧）| right（右侧）</span></span><br><span class="line">  <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏宽度（适用于 Muse | Mist 主题）</span></span><br><span class="line">  <span class="attr">width:</span> <span class="number">300</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏显示条件</span></span><br><span class="line">  <span class="comment"># post    - 默认，在文章页面自动展开</span></span><br><span class="line">  <span class="comment"># always  - 在所有页面自动展开</span></span><br><span class="line">  <span class="comment"># hide    - 点击侧边栏按钮时展开</span></span><br><span class="line">  <span class="comment"># remove  - 完全移除侧边栏</span></span><br><span class="line">  <span class="attr">display:</span> <span class="string">post</span></span><br><span class="line">  </span><br><span class="line">  <span class="comment"># 侧边栏内边距（像素）</span></span><br><span class="line">  <span class="attr">padding:</span> <span class="number">18</span></span><br><span class="line">  <span class="comment"># 侧边栏与顶部菜单栏的偏移（仅适用于 Pisces | Gemini 主题）</span></span><br><span class="line">  <span class="attr">offset:</span> <span class="number">12</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="3-在文章中启用目录"><a href="#3-在文章中启用目录" class="headerlink" title="3. 在文章中启用目录"></a>3. 在文章中启用目录</h3><p>在文章的 Front-matter 中添加：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">你的文章标题</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2024-03-21 11:00:00</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="4-配置目录样式"><a href="#4-配置目录样式" class="headerlink" title="4. 配置目录样式"></a>4. 配置目录样式</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 目录样式设置</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 自动添加列表序号</span></span><br><span class="line">  <span class="attr">number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 如果标题宽度超过侧边栏宽度，是否换行</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 是否展开所有目录</span></span><br><span class="line">  <span class="attr">expand_all:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># 目录最大深度</span></span><br><span class="line">  <span class="attr">max_depth:</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="5-配置文章信息显示"><a href="#5-配置文章信息显示" class="headerlink" title="5. 配置文章信息显示"></a>5. 配置文章信息显示</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post meta display settings</span></span><br><span class="line"><span class="attr">post_meta:</span></span><br><span class="line">  <span class="attr">item_text:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">created_at:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">updated_at:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">another_day:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">categories:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tags:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="使用效果"><a href="#使用效果" class="headerlink" title="使用效果"></a>使用效果</h2><p>配置完成后，你的文章页面将会：</p>
-<ol>
-<li>在侧边栏显示文章目录</li>
-<li>目录会自动根据文章标题生成</li>
-<li>可以点击目录直接跳转到对应位置</li>
-<li>当前阅读位置的目录项会高亮显示</li>
-</ol>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
-<li>确保你的文章使用了正确的 Markdown 标题格式（# ## ###）</li>
-<li>目录只会显示在文章页面</li>
-<li>如果文章没有标题，则不会显示目录</li>
-<li>建议保持标题层级的连续性，不要跳级使用</li>
-</ol>
-<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h3 id="目录不显示？"><a href="#目录不显示？" class="headerlink" title="目录不显示？"></a>目录不显示？</h3><p>检查以下几点：</p>
-<ol>
-<li>确认 <code>_config.next.yml</code> 中的 <code>toc.enable</code> 设置为 <code>true</code></li>
-<li>确认文章 Front-matter 中设置了 <code>toc: true</code></li>
-<li>确认文章中使用了正确的标题格式</li>
-</ol>
-<h3 id="目录显示不全？"><a href="#目录显示不全？" class="headerlink" title="目录显示不全？"></a>目录显示不全？</h3><ol>
-<li>检查 <code>max_depth</code> 设置是否合适</li>
-<li>确认标题层级使用正确</li>
-<li>检查标题格式是否规范</li>
-</ol>
-<h3 id="目录不能点击跳转？"><a href="#目录不能点击跳转？" class="headerlink" title="目录不能点击跳转？"></a>目录不能点击跳转？</h3><ol>
-<li>确认主题版本是否最新</li>
-<li>检查是否有 JavaScript 错误</li>
-<li>尝试清除浏览器缓存</li>
-</ol>
-<h2 id="进阶配置"><a href="#进阶配置" class="headerlink" title="进阶配置"></a>进阶配置</h2><h3 id="自定义目录样式"><a href="#自定义目录样式" class="headerlink" title="自定义目录样式"></a>自定义目录样式</h3><p>你可以在 <code>source/_data/styles.styl</code> 中添加自定义样式：</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 自定义目录样式</span></span><br><span class="line"><span class="selector-class">.post-toc</span> &#123;</span><br><span class="line">  <span class="selector-class">.nav-item</span> &#123;</span><br><span class="line">    <span class="comment">// 目录项样式</span></span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">1.8</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">14px</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 当前阅读位置的目录项</span></span><br><span class="line">    &amp;<span class="selector-class">.active</span> &gt; <span class="selector-class">.nav-link</span> &#123;</span><br><span class="line">      <span class="attribute">color</span>: <span class="number">#fc6423</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="优化目录显示"><a href="#优化目录显示" class="headerlink" title="优化目录显示"></a>优化目录显示</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 滚动时固定侧边栏</span></span><br><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">  <span class="attr">sticky:</span> <span class="literal">true</span></span><br><span class="line">  </span><br><span class="line"><span class="comment"># 显示目录滚动条</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>合理配置文章概要和目录可以大大提升博客的阅读体验。建议根据自己的需求和偏好调整这些设置，找到最适合的配置方案。</p>
-<hr>
-<blockquote>
-<p>如果你在配置过程中遇到任何问题，欢迎在评论区留言交流。 </p>
-</blockquote>
-<h1 id="功率三角形與複數功率-Part-A：功率三角形"><a href="#功率三角形與複數功率-Part-A：功率三角形" class="headerlink" title="功率三角形與複數功率 Part A：功率三角形"></a>功率三角形與複數功率 Part A：功率三角形</h1><hr>
-<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
-<li>本單元介紹功率三角形與複數功率的基本概念。</li>
-<li>以 R-L 串聯電路為例，說明電流 I 作為基準相量，電阻電壓 VR 與電流同相，電感電壓 VL 超前電流 90 度。</li>
-<li>電源電壓 V 為 VR 與 VL 的相量和，電流 I 滯後電壓 V 一個角度 θ（0°至90°間）。</li>
-<li>將電壓相量乘以電流 I，得到功率三角形，包含平均功率 P（I²R）、虛功率 QL（I²XL）與視在功率 S（VI）。</li>
-<li>RL 串聯電路的功率三角形與 RC 串聯電路功率三角形的差異在於虛功率方向（正 j 與負 j）。</li>
-<li>功率三角形用於表示平均功率、虛功率與視在功率的相位與相量關係。</li>
-</ul>
-<hr>
-<h2 id="English-Translation"><a href="#English-Translation" class="headerlink" title="English Translation"></a>English Translation</h2><p><strong>Title:</strong> Power Triangle and Complex Power Part A: Power Triangle</p>
-<p><strong>Key Points Summary:</strong></p>
-<ul>
-<li>This unit introduces the basic concepts of the power triangle and complex power.</li>
-<li>Using an R-L series circuit as an example, the current I is taken as the reference phasor; the resistor voltage VR is in phase with I, and the inductor voltage VL leads I by 90 degrees.</li>
-<li>The supply voltage V is the phasor sum of VR and VL; the current I lags voltage V by an angle θ (between 0° and 90°).</li>
-<li>Multiplying the voltage phasors by current I forms the power triangle, including average power P (I²R), reactive power QL (I²XL), and apparent power S (VI).</li>
-<li>The power triangle of an RL series circuit differs from that of an RC series circuit in the direction of reactive power (positive j vs. negative j).</li>
-<li>The power triangle represents the phase and phasor relationships among average power, reactive power, and apparent power.</li>
-</ul>
-<hr>
-<h3 id="YouTube-自動翻譯連結"><a href="#YouTube-自動翻譯連結" class="headerlink" title="YouTube 自動翻譯連結"></a>YouTube 自動翻譯連結</h3><p><a href="https://www.youtube.com/watch?v=VXHMJNaB0qg">點此觀看影片及自動翻譯</a></p>
-<hr>
-<p><strong>日期：2025年8月3日</strong> </p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Next Theme</tag>
-        <tag>Configuration</tag>
       </tags>
   </entry>
 </search>
