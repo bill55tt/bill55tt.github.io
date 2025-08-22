@@ -2,9 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://bill55tt.github.io/2025/08/02/ac-power-instantaneous-power-equation-analysis/</loc>
+    <loc>https://bill55tt.github.io/2025/08/22/apparent-power-part-b/</loc>
     
-    <lastmod>2025-08-02T14:51:51.803Z</lastmod>
+    <lastmod>2025-08-22T13:21:04.722Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2024/03/21/sidebar-toc/</loc>
+    
+    <lastmod>2025-08-22T13:19:45.613Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-apparent-power-part-a/</loc>
+    
+    <lastmod>2025-08-22T12:46:19.582Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/</loc>
+    
+    <lastmod>2025-08-22T12:46:19.446Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/pure-capacitive-ac-circuit-reactive-power/</loc>
+    
+    <lastmod>2025-08-22T12:46:19.306Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/pure-inductive-circuit-power-calculation-part-c/</loc>
+    
+    <lastmod>2025-08-03T04:23:14.396Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/pure-inductive-ac-circuit-power-characteristics/</loc>
+    
+    <lastmod>2025-08-03T03:56:27.422Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/pure-inductive-ac-circuit-reactive-power-part-a/</loc>
+    
+    <lastmod>2025-08-03T03:55:36.194Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/pure-resistive-circuit-ac-power-example/</loc>
+    
+    <lastmod>2025-08-03T03:54:57.914Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/pure-resistive-ac-circuit-average-power/</loc>
+    
+    <lastmod>2025-08-03T03:54:01.705Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-average-power-definition-example-part-a/</loc>
+    
+    <lastmod>2025-08-03T03:53:04.349Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +103,16 @@
   <url>
     <loc>https://bill55tt.github.io/2025/08/02/ac-power-instantaneous-power-waveform-analysis-part-b/</loc>
     
-    <lastmod>2025-08-02T14:39:11.345Z</lastmod>
+    <lastmod>2025-08-03T03:45:56.667Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/ac-power-instantaneous-power-equation-analysis/</loc>
+    
+    <lastmod>2025-08-02T14:51:51.803Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1310,15 +1409,6 @@
     <loc>https://bill55tt.github.io/schedule/index.html</loc>
     
     <lastmod>2025-03-23T07:00:48.736Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2024/03/21/sidebar-toc/</loc>
-    
-    <lastmod>2025-03-22T14:59:05.440Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

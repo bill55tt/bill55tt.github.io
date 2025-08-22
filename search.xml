@@ -10254,6 +10254,244 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
       </tags>
   </entry>
   <entry>
+    <title>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</title>
+    <url>/2025/08/03/ac-power-apparent-power-part-a/</url>
+    <content><![CDATA[<h1 id="High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu"><a href="#High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu" class="headerlink" title="High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</h1><p>This article explains the concepts of apparent power, average power, and reactive power in AC circuits, including their formulas, physical meanings, and real-life analogies.</p>
+<hr>
+<h2 id="Key-Points-English"><a href="#Key-Points-English" class="headerlink" title="Key Points (English)"></a>Key Points (English)</h2><ul>
+<li><strong>Apparent Power (S)</strong>: The product of voltage (V) and current (I), representing the total power in the circuit. Unit: volt-ampere (VA).</li>
+<li><strong>Average Power (P)</strong>: The real power consumed by a pure resistive load, analogous to rent—actual energy spent.</li>
+<li><strong>Reactive Power (Q)</strong>: The power stored and released by inductive and capacitive loads, analogous to a deposit—eventually returned.</li>
+<li><strong>Meaning of Apparent Power</strong>:<ul>
+<li>At the source: Total power delivered to the load.</li>
+<li>At the load: Rated capacity and rated current of electrical equipment.</li>
+</ul>
+</li>
+<li><strong>Apparent Power Formula</strong>:<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>Unit: volt-ampere (VA).</li>
+<li><strong>English Terms</strong>:<ul>
+<li>Apparent Power: 視在功率</li>
+<li>Average Power (or Real Power): 平均功率</li>
+<li>Reactive Power: 虛功率</li>
+</ul>
+</li>
+<li><strong>Real-life Analogy</strong>:<ul>
+<li>Rent (Average Power): Actual expense.</li>
+<li>Deposit (Reactive Power): Temporarily paid, eventually returned.</li>
+<li>Apparent Power: The sum of rent and deposit, representing the total amount you need to prepare.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭"><a href="#高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭" class="headerlink" title="高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭"></a>高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</h1><p>本文說明交流電路中視在功率、平均功率與虛功率的定義、公式、物理意義與生活化比喻。</p>
+<hr>
+<h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul>
+<li><strong>視在功率 (Apparent Power)</strong>：電壓 (V) 與電流 (I) 的乘積，表示電路中電壓與電流的總功率，單位為伏安 (VA)。</li>
+<li><strong>平均功率 (Average Power)</strong>：純電阻負載消耗的實際功率，類比為租房的租金，是實際花費的能量。</li>
+<li><strong>虛功率 (Reactive Power)</strong>：電感與電容負載儲存並釋放能量的功率，類比為押金，最後會退還。</li>
+<li><strong>視在功率的意義</strong>：<ul>
+<li>電源端：表示電源輸送給負載的總功率。</li>
+<li>負載端：表示電力設備的額定容量與額定電流。</li>
+</ul>
+</li>
+<li><strong>視在功率的計算公式</strong>：<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>單位為伏安 (VA)。</li>
+<li><strong>英文翻譯</strong>：<ul>
+<li>視在功率：Apparent Power</li>
+<li>平均功率：Average Power (或 Real Power)</li>
+<li>虛功率：Reactive Power</li>
+</ul>
+</li>
+<li><strong>生活化比喻</strong>：<ul>
+<li>租金（平均功率）是實際花費。</li>
+<li>押金（虛功率）是暫時繳納，最後會退還。</li>
+<li>視在功率是租金加押金的總和，代表你必須準備的總金額。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=OzSVqQCy3tk">高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</a></p>
+<hr>
+<h2 id="本文發布日期：2025-08-03title-High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsudate-2025-08-03-12-00-00tags-交流電-視在功率-平均功率-虛功率-基本電學-categories-基本電學"><a href="#本文發布日期：2025-08-03title-High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsudate-2025-08-03-12-00-00tags-交流電-視在功率-平均功率-虛功率-基本電學-categories-基本電學" class="headerlink" title="本文發布日期：2025-08-03title: High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsudate: 2025-08-03 12:00:00tags: [交流電, 視在功率, 平均功率, 虛功率, 基本電學]categories: [基本電學]"></a><em>本文發布日期：2025-08-03</em><br>title: High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu<br>date: 2025-08-03 12:00:00<br>tags: [交流電, 視在功率, 平均功率, 虛功率, 基本電學]<br>categories: [基本電學]</h2><h1 id="High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu-1"><a href="#High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu-1" class="headerlink" title="High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</h1><p>This article explains the concepts of apparent power, average power, and reactive power in AC circuits, including their formulas, physical meanings, and real-life analogies.</p>
+<hr>
+<h2 id="Key-Points-English-1"><a href="#Key-Points-English-1" class="headerlink" title="Key Points (English)"></a>Key Points (English)</h2><ul>
+<li><strong>Apparent Power (S)</strong>: The product of voltage (V) and current (I), representing the total power in the circuit. Unit: volt-ampere (VA).</li>
+<li><strong>Average Power (P)</strong>: The real power consumed by a pure resistive load, analogous to rent—actual energy spent.</li>
+<li><strong>Reactive Power (Q)</strong>: The power stored and released by inductive and capacitive loads, analogous to a deposit—eventually returned.</li>
+<li><strong>Meaning of Apparent Power</strong>:<ul>
+<li>At the source: Total power delivered to the load.</li>
+<li>At the load: Rated capacity and rated current of electrical equipment.</li>
+</ul>
+</li>
+<li><strong>Apparent Power Formula</strong>:<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>Unit: volt-ampere (VA).</li>
+<li><strong>English Terms</strong>:<ul>
+<li>Apparent Power: 視在功率</li>
+<li>Average Power (or Real Power): 平均功率</li>
+<li>Reactive Power: 虛功率</li>
+</ul>
+</li>
+<li><strong>Real-life Analogy</strong>:<ul>
+<li>Rent (Average Power): Actual expense.</li>
+<li>Deposit (Reactive Power): Temporarily paid, eventually returned.</li>
+<li>Apparent Power: The sum of rent and deposit, representing the total amount you need to prepare.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭-1"><a href="#高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭-1" class="headerlink" title="高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭"></a>高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</h1><p>本文說明交流電路中視在功率、平均功率與虛功率的定義、公式、物理意義與生活化比喻。</p>
+<hr>
+<h2 id="重點歸納（中文）-1"><a href="#重點歸納（中文）-1" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul>
+<li><strong>視在功率 (Apparent Power)</strong>：電壓 (V) 與電流 (I) 的乘積，表示電路中電壓與電流的總功率，單位為伏安 (VA)。</li>
+<li><strong>平均功率 (Average Power)</strong>：純電阻負載消耗的實際功率，類比為租房的租金，是實際花費的能量。</li>
+<li><strong>虛功率 (Reactive Power)</strong>：電感與電容負載儲存並釋放能量的功率，類比為押金，最後會退還。</li>
+<li><strong>視在功率的意義</strong>：<ul>
+<li>電源端：表示電源輸送給負載的總功率。</li>
+<li>負載端：表示電力設備的額定容量與額定電流。</li>
+</ul>
+</li>
+<li><strong>視在功率的計算公式</strong>：<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>單位為伏安 (VA)。</li>
+<li><strong>英文翻譯</strong>：<ul>
+<li>視在功率：Apparent Power</li>
+<li>平均功率：Average Power (或 Real Power)</li>
+<li>虛功率：Reactive Power</li>
+</ul>
+</li>
+<li><strong>生活化比喻</strong>：<ul>
+<li>租金（平均功率）是實際花費。</li>
+<li>押金（虛功率）是暫時繳納，最後會退還。</li>
+<li>視在功率是租金加押金的總和，代表你必須準備的總金額。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結-1"><a href="#YouTube-影片連結-1" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=OzSVqQCy3tk">高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-03</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>虛功率</tag>
+        <tag>基本電學</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu</title>
+    <url>/2025/08/03/ac-power-average-power-definition-example-part-a/</url>
+    <content><![CDATA[<h1 id="High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu"><a href="#High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu" class="headerlink" title="High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu</h1><p>This article explains the definition of average power in AC circuits, the calculation formula, the effect of phase difference, and provides a detailed example.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Definition of Average Power</strong>: The average power is the mean value of the instantaneous power ( p(t) ) over a complete cycle.</li>
+<li><strong>Voltage and Current Waveforms</strong>:<ul>
+<li>Voltage ( v(t) &#x3D; V_m \sin(\omega t) ) with phase angle set to 0° for simplicity.</li>
+<li>Current ( i(t) &#x3D; I_m \sin(\omega t - \theta) ).</li>
+</ul>
+</li>
+<li><strong>Instantaneous Power Formula</strong>:<br>$$<br>p(t) &#x3D; v(t) \times i(t) &#x3D; VI \cos \theta - VI \cos(2\omega t - \theta)<br>$$</li>
+<li><strong>Average Power Calculation</strong>:<ul>
+<li>( VI \cos \theta ) is a constant, product of RMS values and cosine of phase angle.</li>
+<li>( VI \cos(2\omega t - \theta) ) is a symmetric sinusoid with zero average.</li>
+<li>Therefore, average power ( P &#x3D; VI \cos \theta ).</li>
+</ul>
+</li>
+<li><strong>Effect of Phase Difference</strong>: If voltage and current have phase angles ( \theta_v ) and ( \theta_i ), then<br>$$<br>P &#x3D; VI \cos(\theta_v - \theta_i)<br>$$</li>
+<li><strong>Example Calculation</strong>:<ul>
+<li>Voltage: ( v(t) &#x3D; 50\sqrt{2} \sin(377t + 30^\circ) ), RMS ( V &#x3D; 50 ), phase angle ( \theta_v &#x3D; 30^\circ ).</li>
+<li>Current: ( i(t) &#x3D; 5\sqrt{2} \sin(377t - 30^\circ) ), RMS ( I &#x3D; 5 ), phase angle ( \theta_i &#x3D; -30^\circ ).</li>
+<li>Average power:<br>$$<br>P &#x3D; 50 \times 5 \times \cos(30^\circ - (-30^\circ)) &#x3D; 250 \times \cos 60^\circ &#x3D; 125 \text{W}<br>$$</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="高中基本電學-交流電功率-平均功率-PART-A-平均功率定義、範例：平均功率計算-陳政旭"><a href="#高中基本電學-交流電功率-平均功率-PART-A-平均功率定義、範例：平均功率計算-陳政旭" class="headerlink" title="高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭"></a>高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</h1><p>本文說明交流電平均功率的定義、計算公式、相位差影響，並提供詳細範例。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>平均功率定義</strong>：平均功率是完整週期內瞬間功率 ( p(t) ) 的平均值。</li>
+<li><strong>電壓與電流波形</strong>：<ul>
+<li>電壓 ( v(t) &#x3D; V_m \sin(\omega t) )，相位角設為0度方便說明。</li>
+<li>電流 ( i(t) &#x3D; I_m \sin(\omega t - \theta) )。</li>
+</ul>
+</li>
+<li><strong>瞬間功率公式</strong>：<br>$$<br>p(t) &#x3D; v(t) \times i(t) &#x3D; VI \cos \theta - VI \cos(2\omega t - \theta)<br>$$</li>
+<li><strong>平均功率計算</strong>：<ul>
+<li>( VI \cos \theta ) 是常數，為有效值乘上相位角的餘弦。</li>
+<li>( VI \cos(2\omega t - \theta) ) 是正負對稱的正弦波，平均值為0。</li>
+<li>因此平均功率 ( P &#x3D; VI \cos \theta )。</li>
+</ul>
+</li>
+<li><strong>相位差影響</strong>：若電壓與電流相位角分別為 ( \theta_v ) 與 ( \theta_i )，則<br>$$<br>P &#x3D; VI \cos(\theta_v - \theta_i)<br>$$</li>
+<li><strong>範例計算</strong>：<ul>
+<li>電壓：( v(t) &#x3D; 50\sqrt{2} \sin(377t + 30^\circ) )，有效值 ( V &#x3D; 50 )，相位角 ( \theta_v &#x3D; 30^\circ )。</li>
+<li>電流：( i(t) &#x3D; 5\sqrt{2} \sin(377t - 30^\circ) )，有效值 ( I &#x3D; 5 )，相位角 ( \theta_i &#x3D; -30^\circ )。</li>
+<li>平均功率：<br>$$<br>P &#x3D; 50 \times 5 \times \cos(30^\circ - (-30^\circ)) &#x3D; 250 \times \cos 60^\circ &#x3D; 125 \text{瓦}<br>$$</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=MK1EiNOZd68">高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-03</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>平均功率</tag>
+        <tag>基本電學</tag>
+        <tag>有效值</tag>
+        <tag>相位角</tag>
+        <tag>教學範例</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AC Power:Instantaneous Power Equation Analysis</title>
+    <url>/2025/08/02/ac-power-instantaneous-power-equation-analysis/</url>
+    <content><![CDATA[<h1 id="AC-Power-Instantaneous-Power-Equation-Analysis"><a href="#AC-Power-Instantaneous-Power-Equation-Analysis" class="headerlink" title="AC Power: Instantaneous Power Equation Analysis"></a>AC Power: Instantaneous Power Equation Analysis</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Introduction to basic concepts and analysis techniques of AC power</li>
+<li>Definition and formula of instantaneous power: ( p(t) &#x3D; v(t) \times i(t) )</li>
+<li>Sinusoidal expressions for voltage and current:<ul>
+<li>Voltage: ( v(t) &#x3D; V_m \sin(\omega t + \theta_v) )</li>
+<li>Current: ( i(t) &#x3D; I_m \sin(\omega t + \theta_i) )</li>
+</ul>
+</li>
+<li>Mathematical method for calculating instantaneous power using cosine difference and sum formulas</li>
+<li>Definition of RMS value: peak value divided by (\sqrt{2})</li>
+<li>Mnemonic for instantaneous power formula:<br>( p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(2\omega t + \theta_v + \theta_i) )</li>
+</ul>
+<hr>
+<h1 id="交流電功率：瞬間功率方程式解析"><a href="#交流電功率：瞬間功率方程式解析" class="headerlink" title="交流電功率：瞬間功率方程式解析"></a>交流電功率：瞬間功率方程式解析</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>介紹交流電功率的基本概念與分析技巧</li>
+<li>瞬間功率定義與計算公式：( p(t) &#x3D; v(t) \times i(t) )</li>
+<li>電壓與電流的正弦波表示式：<ul>
+<li>電壓：( v(t) &#x3D; V_m \sin(\omega t + \theta_v) )</li>
+<li>電流：( i(t) &#x3D; I_m \sin(\omega t + \theta_i) )</li>
+</ul>
+</li>
+<li>瞬間功率計算的數學技巧：利用餘弦差角與和角公式</li>
+<li>有效值定義：最大值除以 (\sqrt{2})</li>
+<li>瞬間功率公式簡化口訣：<br>( p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(2\omega t + \theta_v + \theta_i) )</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=BWNkPlEXVRU">高中基本電學_交流電功率_瞬間功率_PART A 瞬間功率方程式_陳政旭</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>基本電學</tag>
+        <tag>有效值</tag>
+        <tag>功率</tag>
+        <tag>瞬間功率</tag>
+        <tag>正弦波</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Instantaneous Power and Waveform Analysis of AC Power (Part B)</title>
     <url>/2025/08/02/ac-power-instantaneous-power-waveform-analysis-part-b/</url>
     <content><![CDATA[<h1 id="Instantaneous-Power-and-Waveform-Analysis-of-AC-Power-Part-B"><a href="#Instantaneous-Power-and-Waveform-Analysis-of-AC-Power-Part-B" class="headerlink" title="Instantaneous Power and Waveform Analysis of AC Power (Part B)"></a>Instantaneous Power and Waveform Analysis of AC Power (Part B)</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
@@ -10283,11 +10521,99 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
       </categories>
       <tags>
         <tag>交流電</tag>
-        <tag>瞬間功率</tag>
-        <tag>波形</tag>
-        <tag>正弦波</tag>
-        <tag>相位</tag>
         <tag>基本電學</tag>
+        <tag>瞬間功率</tag>
+        <tag>正弦波</tag>
+        <tag>波形</tag>
+        <tag>相位</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>視在功率範例解析（Part B）</title>
+    <url>/2025/08/22/apparent-power-part-b/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Apparent Power Examples (Part B)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Walk through three typical scenarios of apparent power S in AC circuits: phasor product, complex impedance, and transformer ratings.</li>
+<li><strong>Why it matters</strong>: Apparent power bridges voltage and current magnitudes regardless of phase, underpinning sizing of equipment and conductors.</li>
+<li><strong>What you’ll learn</strong>: How to compute S, separate it into P and Q when impedance is known, and apply kVA ratings to estimate allowable currents.</li>
+</ul>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ol>
+<li><p><strong>Example 1: Apparent Power in Single-Phase AC Circuit</strong></p>
+<ul>
+<li>Voltage ( V &#x3D; 10 \angle 60^\circ ) V</li>
+<li>Current ( I &#x3D; 10 \angle 15^\circ ) A</li>
+<li>Apparent power ( S &#x3D; V \times I &#x3D; 100 ) VA</li>
+</ul>
+</li>
+<li><p><strong>Example 2: Power Calculation with Complex Impedance</strong></p>
+<ul>
+<li>Impedance ( Z &#x3D; 8 + j6 ) Ω (8 Ω resistor in series with inductive reactance 6 Ω)</li>
+<li>Current ( I &#x3D; 10 ) A</li>
+<li>Real power ( P &#x3D; I^2 R &#x3D; 800 ) W</li>
+<li>Reactive power ( Q &#x3D; I^2 X_L &#x3D; 600 ) VAR</li>
+<li>Apparent power ( S &#x3D; I^2 |Z| &#x3D; 1000 ) VA</li>
+</ul>
+</li>
+<li><p><strong>Example 3: Transformer Maximum Input and Output Current</strong></p>
+<ul>
+<li>Rated apparent power ( S &#x3D; 10,\text{kVA} )</li>
+<li>Input voltage ( V_{in} &#x3D; 2000,\text{V} ), output voltage ( V_{out} &#x3D; 200,\text{V} )</li>
+<li>Maximum input current ( I_{in} &#x3D; \dfrac{S}{V_{in}} &#x3D; 5,\text{A} )</li>
+<li>Maximum output current ( I_{out} &#x3D; \dfrac{S}{V_{out}} &#x3D; 50,\text{A} )</li>
+</ul>
+</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">High school basic electricity – AC power – Apparent Power PART B (Examples)</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>視在功率範例解析（Part B）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：透過三個常見情境認識視在功率 S 的計算：相量相乘、複數阻抗分解、變壓器容量應用。</li>
+<li><strong>為何重要</strong>：視在功率連結電壓與電流的大小（不論相位），是設備與線路容量選用的依據。</li>
+<li><strong>你將學到</strong>：如何計算 S、在已知阻抗時拆解為 P 與 Q，以及運用 kVA 額定值估算允許電流。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
+<li><p><strong>範例一：單相交流電路視在功率</strong></p>
+<ul>
+<li>電壓 ( V &#x3D; 10 \angle 60^\circ ) 伏特</li>
+<li>電流 ( I &#x3D; 10 \angle 15^\circ ) 安培</li>
+<li>視在功率 ( S &#x3D; V \times I &#x3D; 100 ) 伏安</li>
+</ul>
+</li>
+<li><p><strong>範例二：複數阻抗的功率計算</strong></p>
+<ul>
+<li>阻抗 ( Z &#x3D; 8 + j6 ) 歐姆（8 歐姆電阻串聯 6 歐姆感抗）</li>
+<li>電流 ( I &#x3D; 10 ) 安培</li>
+<li>平均功率 ( P &#x3D; I^2 R &#x3D; 800 ) 瓦特</li>
+<li>無功功率 ( Q &#x3D; I^2 X_L &#x3D; 600 ) 乏爾（VAR）</li>
+<li>視在功率 ( S &#x3D; I^2 |Z| &#x3D; 1000 ) 伏安</li>
+</ul>
+</li>
+<li><p><strong>範例三：變壓器最大輸入／輸出電流</strong></p>
+<ul>
+<li>額定視在功率 ( S &#x3D; 10,\text{kVA} )</li>
+<li>輸入電壓 ( V_{in} &#x3D; 2000,\text{V} )，輸出電壓 ( V_{out} &#x3D; 200,\text{V} )</li>
+<li>最大輸入電流 ( I_{in} &#x3D; \dfrac{S}{V_{in}} &#x3D; 5,\text{A} )</li>
+<li>最大輸出電流 ( I_{out} &#x3D; \dfrac{S}{V_{out}} &#x3D; 50,\text{A} )</li>
+</ul>
+</li>
+</ol>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">@高中基本電學_交流電功率_視在功率_PART B 範例：視在功率</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月22日</strong> </p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>視在功率</tag>
+        <tag>複數功率</tag>
+        <tag>功率三角形</tag>
       </tags>
   </entry>
   <entry>
@@ -11883,6 +12209,446 @@ ok
         <tag>Manufacturing</tag>
         <tag>CNC</tag>
         <tag>Drilling</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Power Characteristics of Pure Capacitive AC Circuit</title>
+    <url>/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/</url>
+    <content><![CDATA[<h1 id="Power-Characteristics-of-Pure-Capacitive-AC-Circuit"><a href="#Power-Characteristics-of-Pure-Capacitive-AC-Circuit" class="headerlink" title="Power Characteristics of Pure Capacitive AC Circuit"></a>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p>
+<hr>
+<h2 id="Key-Points-Summary-English"><a href="#Key-Points-Summary-English" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ol>
+<li><strong>Voltage and current in a pure capacitive AC circuit have a phase difference of -90 degrees</strong>, with current leading voltage by 90 degrees.</li>
+<li><strong>Average power is zero</strong> because positive and negative power waves cancel out; pure capacitors do not consume average power.</li>
+<li><strong>Reactive power (Q_c) formulas</strong>:<ul>
+<li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li>
+</ul>
+</li>
+<li><strong>Instantaneous maximum power (P_{max} &#x3D; VI)</strong> and minimum power (P_{min} &#x3D; -VI)**.</li>
+<li><strong>Power frequency is twice the source frequency</strong>.</li>
+<li><strong>Power waveforms of pure inductors and capacitors differ by 180 degrees, being opposite in phase</strong>.</li>
+<li><strong>When inductors and capacitors coexist in a circuit, their reactive powers subtract</strong>.</li>
+</ol>
+<hr>
+<h1 id="純電容交流電路之功率特性"><a href="#純電容交流電路之功率特性" class="headerlink" title="純電容交流電路之功率特性"></a>純電容交流電路之功率特性</h1><p>本文整理純電容交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p>
+<hr>
+<h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ol>
+<li><strong>純電容交流電路的電壓與電流相位差為 -90度</strong>，電流超前電壓90度。</li>
+<li><strong>平均功率為零</strong>，因為正負功率波形相互抵銷，純電容不消耗平均功率。</li>
+<li><strong>虛功率 (Q_c) 計算公式</strong>：<ul>
+<li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li>
+</ul>
+</li>
+<li><strong>瞬間最大功率 (P_{max} &#x3D; VI)</strong>，瞬間最小功率 (P_{min} &#x3D; -VI)。</li>
+<li><strong>功率頻率為電源頻率的兩倍</strong>。</li>
+<li><strong>純電感與純電容功率波形相差180度，互為反向</strong>。</li>
+<li><strong>電路中同時有電感與電容時，虛功率做相減運算</strong>。</li>
+</ol>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=wkXEhpDtL-Y">點此觀看影片及自動翻譯</a></p>
+<hr>
+<h2 id="本文發布日期：2025-08-03title-Power-Characteristics-of-Pure-Capacitive-AC-Circuitdate-2025-08-03-12-00-00tags-交流電-純電容-功率特性-虛功率-基本電學-categories-基本電學"><a href="#本文發布日期：2025-08-03title-Power-Characteristics-of-Pure-Capacitive-AC-Circuitdate-2025-08-03-12-00-00tags-交流電-純電容-功率特性-虛功率-基本電學-categories-基本電學" class="headerlink" title="本文發布日期：2025-08-03title: Power Characteristics of Pure Capacitive AC Circuitdate: 2025-08-03 12:00:00tags: [交流電, 純電容, 功率特性, 虛功率, 基本電學]categories: [基本電學]"></a><em>本文發布日期：2025-08-03</em><br>title: Power Characteristics of Pure Capacitive AC Circuit<br>date: 2025-08-03 12:00:00<br>tags: [交流電, 純電容, 功率特性, 虛功率, 基本電學]<br>categories: [基本電學]</h2><h1 id="Power-Characteristics-of-Pure-Capacitive-AC-Circuit-1"><a href="#Power-Characteristics-of-Pure-Capacitive-AC-Circuit-1" class="headerlink" title="Power Characteristics of Pure Capacitive AC Circuit"></a>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p>
+<hr>
+<h2 id="Key-Points-Summary-English-1"><a href="#Key-Points-Summary-English-1" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ol>
+<li><strong>Voltage and current in a pure capacitive AC circuit have a phase difference of -90 degrees</strong>, with current leading voltage by 90 degrees.</li>
+<li><strong>Average power is zero</strong> because positive and negative power waves cancel out; pure capacitors do not consume average power.</li>
+<li><strong>Reactive power (Q_c) formulas</strong>:<ul>
+<li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li>
+</ul>
+</li>
+<li><strong>Instantaneous maximum power (P_{max} &#x3D; VI)</strong> and minimum power (P_{min} &#x3D; -VI)**.</li>
+<li><strong>Power frequency is twice the source frequency</strong>.</li>
+<li><strong>Power waveforms of pure inductors and capacitors differ by 180 degrees, being opposite in phase</strong>.</li>
+<li><strong>When inductors and capacitors coexist in a circuit, their reactive powers subtract</strong>.</li>
+</ol>
+<hr>
+<h1 id="純電容交流電路之功率特性-1"><a href="#純電容交流電路之功率特性-1" class="headerlink" title="純電容交流電路之功率特性"></a>純電容交流電路之功率特性</h1><p>本文整理純電容交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p>
+<hr>
+<h2 id="重點歸納（中文）-1"><a href="#重點歸納（中文）-1" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ol>
+<li><strong>純電容交流電路的電壓與電流相位差為 -90度</strong>，電流超前電壓90度。</li>
+<li><strong>平均功率為零</strong>，因為正負功率波形相互抵銷，純電容不消耗平均功率。</li>
+<li><strong>虛功率 (Q_c) 計算公式</strong>：<ul>
+<li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li>
+</ul>
+</li>
+<li><strong>瞬間最大功率 (P_{max} &#x3D; VI)</strong>，瞬間最小功率 (P_{min} &#x3D; -VI)。</li>
+<li><strong>功率頻率為電源頻率的兩倍</strong>。</li>
+<li><strong>純電感與純電容功率波形相差180度，互為反向</strong>。</li>
+<li><strong>電路中同時有電感與電容時，虛功率做相減運算</strong>。</li>
+</ol>
+<hr>
+<h2 id="YouTube-影片連結-1"><a href="#YouTube-影片連結-1" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=wkXEhpDtL-Y">點此觀看影片及自動翻譯</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-03</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>虛功率</tag>
+        <tag>基本電學</tag>
+        <tag>純電容</tag>
+        <tag>功率特性</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pure Capacitive AC Circuit and Reactive Power</title>
+    <url>/2025/08/02/pure-capacitive-ac-circuit-reactive-power/</url>
+    <content><![CDATA[<h1 id="Pure-Capacitive-AC-Circuit-and-Reactive-Power"><a href="#Pure-Capacitive-AC-Circuit-and-Reactive-Power" class="headerlink" title="Pure Capacitive AC Circuit and Reactive Power"></a>Pure Capacitive AC Circuit and Reactive Power</h1><p>This article explains the characteristics of pure capacitive AC circuits, the concept of reactive power, and the meaning of the power waveform.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>In a pure capacitive AC circuit, voltage is ( v(t) &#x3D; V_m \sin(\omega t) ), and current is ( i(t) &#x3D; I_m \sin(\omega t + 90^\circ) ), with current leading voltage by 90 degrees.</li>
+<li>Instantaneous power ( p(t) ) is expressed as:<br>$$<br>p(t) &#x3D; V I \sin(2 \omega t + 0^\circ)<br>$$</li>
+<li>The power waveform is a symmetrical sine wave, indicating the capacitor charges during the positive half-cycle and releases energy back to the source during the negative half-cycle, resulting in no net power consumption.</li>
+<li>The average power ( P ) in a pure capacitive circuit is zero; only reactive power ( Q_c ) exists, also called reactive power, measured in vars.</li>
+<li>Reactive power formulas:<br>$$<br>Q_c &#x3D; V_{\text{rms}} \times I_{\text{rms}} &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c}<br>$$</li>
+</ul>
+<hr>
+<h1 id="純電容交流電路與虛功率"><a href="#純電容交流電路與虛功率" class="headerlink" title="純電容交流電路與虛功率"></a>純電容交流電路與虛功率</h1><p>本文說明純電容交流電路的特性、虛功率的概念，以及功率波形的意義。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>純電容交流電路中，電壓為 ( v(t) &#x3D; V_m \sin(\omega t) )，電流為 ( i(t) &#x3D; I_m \sin(\omega t + 90^\circ) )，電流相位超前電壓90度。</li>
+<li>功率瞬時值 ( p(t) ) 可表示為：<br>$$<br>p(t) &#x3D; V I \sin(2 \omega t + 0^\circ)<br>$$</li>
+<li>功率波形為正負對稱的正弦波，表示電容在正半週充電，負半週釋放能量回電源，無實際功率消耗。</li>
+<li>純電容電路的平均功率 ( P ) 為零，只有虛功率 ( Q_c )，也稱為無效功率，單位為乏爾（var）。</li>
+<li>虛功率計算公式：<br>$$<br>Q_c &#x3D; V_{\text{rms}} \times I_{\text{rms}} &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c}<br>$$</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=q-cQH2997ec">純電容交流電路與虛功率 - YouTube</a></p>
+<hr>
+<h2 id="本文發布日期：2025-08-02title-Pure-Capacitive-AC-Circuit-and-Reactive-Powerdate-2025-08-02-12-00-00tags-交流電-純電容-虛功率-無效功率-基本電學-categories-基本電學"><a href="#本文發布日期：2025-08-02title-Pure-Capacitive-AC-Circuit-and-Reactive-Powerdate-2025-08-02-12-00-00tags-交流電-純電容-虛功率-無效功率-基本電學-categories-基本電學" class="headerlink" title="本文發布日期：2025-08-02title: Pure Capacitive AC Circuit and Reactive Powerdate: 2025-08-02 12:00:00tags: [交流電, 純電容, 虛功率, 無效功率, 基本電學]categories: [基本電學]"></a><em>本文發布日期：2025-08-02</em><br>title: Pure Capacitive AC Circuit and Reactive Power<br>date: 2025-08-02 12:00:00<br>tags: [交流電, 純電容, 虛功率, 無效功率, 基本電學]<br>categories: [基本電學]</h2><h1 id="Pure-Capacitive-AC-Circuit-and-Reactive-Power-1"><a href="#Pure-Capacitive-AC-Circuit-and-Reactive-Power-1" class="headerlink" title="Pure Capacitive AC Circuit and Reactive Power"></a>Pure Capacitive AC Circuit and Reactive Power</h1><p>This article explains the characteristics of pure capacitive AC circuits, the concept of reactive power, and the meaning of the power waveform.</p>
+<hr>
+<h2 id="Key-Points-1"><a href="#Key-Points-1" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>In a pure capacitive AC circuit, voltage is ( v(t) &#x3D; V_m \sin(\omega t) ), and current is ( i(t) &#x3D; I_m \sin(\omega t + 90^\circ) ), with current leading voltage by 90 degrees.</li>
+<li>Instantaneous power ( p(t) ) is expressed as:<br>$$<br>p(t) &#x3D; V I \sin(2 \omega t + 0^\circ)<br>$$</li>
+<li>The power waveform is a symmetrical sine wave, indicating the capacitor charges during the positive half-cycle and releases energy back to the source during the negative half-cycle, resulting in no net power consumption.</li>
+<li>The average power ( P ) in a pure capacitive circuit is zero; only reactive power ( Q_c ) exists, also called reactive power, measured in vars.</li>
+<li>Reactive power formulas:<br>$$<br>Q_c &#x3D; V_{\text{rms}} \times I_{\text{rms}} &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c}<br>$$</li>
+</ul>
+<hr>
+<h1 id="純電容交流電路與虛功率-1"><a href="#純電容交流電路與虛功率-1" class="headerlink" title="純電容交流電路與虛功率"></a>純電容交流電路與虛功率</h1><p>本文說明純電容交流電路的特性、虛功率的概念，以及功率波形的意義。</p>
+<hr>
+<h2 id="重點歸納-1"><a href="#重點歸納-1" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>純電容交流電路中，電壓為 ( v(t) &#x3D; V_m \sin(\omega t) )，電流為 ( i(t) &#x3D; I_m \sin(\omega t + 90^\circ) )，電流相位超前電壓90度。</li>
+<li>功率瞬時值 ( p(t) ) 可表示為：<br>$$<br>p(t) &#x3D; V I \sin(2 \omega t + 0^\circ)<br>$$</li>
+<li>功率波形為正負對稱的正弦波，表示電容在正半週充電，負半週釋放能量回電源，無實際功率消耗。</li>
+<li>純電容電路的平均功率 ( P ) 為零，只有虛功率 ( Q_c )，也稱為無效功率，單位為乏爾（var）。</li>
+<li>虛功率計算公式：<br>$$<br>Q_c &#x3D; V_{\text{rms}} \times I_{\text{rms}} &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c}<br>$$</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結-1"><a href="#YouTube-影片連結-1" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=q-cQH2997ec">純電容交流電路與虛功率 - YouTube</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>虛功率</tag>
+        <tag>基本電學</tag>
+        <tag>純電容</tag>
+        <tag>無效功率</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Power Characteristics of Pure Inductive AC Circuit</title>
+    <url>/2025/08/02/pure-inductive-ac-circuit-power-characteristics/</url>
+    <content><![CDATA[<h1 id="Power-Characteristics-of-Pure-Inductive-AC-Circuit"><a href="#Power-Characteristics-of-Pure-Inductive-AC-Circuit" class="headerlink" title="Power Characteristics of Pure Inductive AC Circuit"></a>Power Characteristics of Pure Inductive AC Circuit</h1><p>This article summarizes the power characteristics of pure inductive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ol>
+<li><p><strong>Voltage and current phase difference is 90 degrees</strong><br>Current lags voltage by 90 degrees.</p>
+</li>
+<li><p><strong>Average power P is zero</strong><br>Because ( \cos 90^\circ &#x3D; 0 ), there is no average power in a pure inductive circuit.</p>
+</li>
+<li><p><strong>Reactive power ( Q_L ) formulas</strong><br>$$ Q_L &#x3D; VI &#x3D; I^2 X_L &#x3D; \frac{V^2}{X_L} $$</p>
+</li>
+<li><p><strong>Maximum instantaneous power ( P_{max} )</strong><br>$$ P_{max} &#x3D; VI $$</p>
+</li>
+<li><p><strong>Minimum instantaneous power ( P_{min} )</strong><br>$$ P_{min} &#x3D; -VI $$</p>
+</li>
+<li><p><strong>Power frequency is twice the source frequency</strong></p>
+</li>
+</ol>
+<hr>
+<h1 id="純電感交流電路之功率特性"><a href="#純電感交流電路之功率特性" class="headerlink" title="純電感交流電路之功率特性"></a>純電感交流電路之功率特性</h1><p>本文整理純電感交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ol>
+<li><p><strong>電壓與電流相位差為90度</strong><br>電流落後電壓90度。</p>
+</li>
+<li><p><strong>平均功率P為0</strong><br>因為功率公式中cos90°&#x3D;0，純電感電路沒有平均功率。</p>
+</li>
+<li><p><strong>虛功率QL計算公式</strong><br>$$ Q_L &#x3D; VI &#x3D; I^2 X_L &#x3D; \frac{V^2}{X_L} $$</p>
+</li>
+<li><p><strong>最大瞬間功率Pmax</strong><br>$$ P_{max} &#x3D; VI $$</p>
+</li>
+<li><p><strong>最小瞬間功率Pmin</strong><br>$$ P_{min} &#x3D; -VI $$</p>
+</li>
+<li><p><strong>功率頻率是電源頻率的兩倍</strong></p>
+</li>
+</ol>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=FvRmnC2eKRA">純電感交流電路之功率特性 - 陳政旭老師 DeltaMOOCx</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>虛功率</tag>
+        <tag>基本電學</tag>
+        <tag>功率特性</tag>
+        <tag>純電感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pure Inductive AC Circuit and Reactive Power (Part A)</title>
+    <url>/2025/08/02/pure-inductive-ac-circuit-reactive-power-part-a/</url>
+    <content><![CDATA[<h1 id="Pure-Inductive-AC-Circuit-and-Reactive-Power-Part-A"><a href="#Pure-Inductive-AC-Circuit-and-Reactive-Power-Part-A" class="headerlink" title="Pure Inductive AC Circuit and Reactive Power (Part A)"></a>Pure Inductive AC Circuit and Reactive Power (Part A)</h1><p>This article explains the characteristics of pure inductive AC circuits, the concept of reactive power, and the meaning of the power waveform.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li><strong>Pure Inductive AC Circuit:</strong> Current lags voltage by 90 degrees.</li>
+<li><strong>Instantaneous Power ( p(t) ):</strong> Calculated as ( p(t) &#x3D; VI \sin(2\omega t + 180^\circ) ), a sinusoidal wave symmetric about zero.</li>
+<li><strong>Power Waveform Meaning:</strong><ul>
+<li>Positive waveform: Inductor stores energy.</li>
+<li>Negative waveform: Inductor releases energy back to the source.</li>
+</ul>
+</li>
+<li><strong>Average Power:</strong> No average power consumption in pure inductive circuit; power does not contribute to load.</li>
+<li><strong>Reactive Power (Q):</strong> Represents the inductor’s non-working power, unit is var.</li>
+<li><strong>Reactive Power Calculation:</strong><ul>
+<li>( Q_L &#x3D; VI ) (RMS voltage times RMS current)</li>
+<li>Or ( Q_L &#x3D; I^2 X_L )</li>
+<li>Or ( Q_L &#x3D; \frac{V^2}{X_L} )</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="純電感交流電路與虛功率（Part-A）"><a href="#純電感交流電路與虛功率（Part-A）" class="headerlink" title="純電感交流電路與虛功率（Part A）"></a>純電感交流電路與虛功率（Part A）</h1><p>本文說明純電感交流電路的特性、虛功率的概念，以及功率波形的意義。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>純電感交流電路</strong>：電流滯後電壓90度。</li>
+<li><strong>瞬間功率 p(t)</strong>：計算後為 ( p(t) &#x3D; VI \sin(2\omega t + 180^\circ) )，為正負對稱的正弦波。</li>
+<li><strong>功率波形意義</strong>：<ul>
+<li>正波形：電感儲存能量。</li>
+<li>負波形：電感釋放能量回電源。</li>
+</ul>
+</li>
+<li><strong>平均功率</strong>：純電感電路無平均功率消耗，功率對負載無貢獻。</li>
+<li><strong>虛功率（Q）</strong>：代表電感的無效功率，單位為乏爾（var）。</li>
+<li><strong>虛功率計算</strong>：<ul>
+<li>( Q_L &#x3D; VI )（有效值電壓乘以有效值電流）</li>
+<li>或 ( Q_L &#x3D; I^2 X_L )</li>
+<li>或 ( Q_L &#x3D; \frac{V^2}{X_L} )</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=tClIib5QybU">YouTube 影片連結</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>虛功率</tag>
+        <tag>基本電學</tag>
+        <tag>無效功率</tag>
+        <tag>純電感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Power Calculation of Pure Inductive Circuit (Part C Example)</title>
+    <url>/2025/08/02/pure-inductive-circuit-power-calculation-part-c/</url>
+    <content><![CDATA[<h1 id="Power-Calculation-of-Pure-Inductive-Circuit-Part-C-Example"><a href="#Power-Calculation-of-Pure-Inductive-Circuit-Part-C-Example" class="headerlink" title="Power Calculation of Pure Inductive Circuit (Part C Example)"></a>Power Calculation of Pure Inductive Circuit (Part C Example)</h1><p>This article provides a detailed example of power calculation in a pure inductive circuit, including waveform, inductance, phasor conversion, and all key power formulas.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Voltage waveform: ( v(t) &#x3D; 100\sqrt{2} \sin(500t + 30^\circ) ) volts</li>
+<li>Inductance: 20 mH</li>
+<li>Calculations:<ol>
+<li>Phase angle (\theta)</li>
+<li>Average power (P)</li>
+<li>Inductive reactive power (Q_L)</li>
+<li>Maximum instantaneous power (P_{max})</li>
+<li>Minimum instantaneous power (P_{min})</li>
+<li>Instantaneous power frequency (f_p)</li>
+</ol>
+</li>
+<li>Phasor conversion:<ul>
+<li>Inductive reactance (X_L &#x3D; \omega L &#x3D; 500 \times 0.02 &#x3D; 10 \Omega), phase angle 90°</li>
+<li>Voltage phasor (V &#x3D; 100 \angle 30^\circ)</li>
+<li>Current phasor (I &#x3D; \frac{V}{X_L} &#x3D; 10 \angle -60^\circ)</li>
+</ul>
+</li>
+<li>Phase difference (\theta &#x3D; 30^\circ - (-60^\circ) &#x3D; 90^\circ)</li>
+<li>Average power (P &#x3D; VI \cos \theta &#x3D; 100 \times 10 \times \cos 90^\circ &#x3D; 0) watts</li>
+<li>Reactive power (Q_L &#x3D; I^2 X_L &#x3D; 10^2 \times 10 &#x3D; 1000) vars</li>
+<li>Maximum instantaneous power (P_{max} &#x3D; VI &#x3D; 1000) watts</li>
+<li>Minimum instantaneous power (P_{min} &#x3D; -VI &#x3D; -1000) watts</li>
+<li>Supply frequency (f &#x3D; \frac{500}{2\pi} \approx 80) Hz</li>
+<li>Power frequency (f_p &#x3D; 2 \times 80 &#x3D; 160) Hz</li>
+</ul>
+<hr>
+<h1 id="純電感電路之功率計算（Part-C-範例）"><a href="#純電感電路之功率計算（Part-C-範例）" class="headerlink" title="純電感電路之功率計算（Part C 範例）"></a>純電感電路之功率計算（Part C 範例）</h1><p>本文提供純電感電路功率計算的詳細範例，包含波形、電感、相量轉換與各種功率公式。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>電壓波形：( v(t) &#x3D; 100\sqrt{2} \sin(500t + 30^\circ) ) 伏特</li>
+<li>電感值：20 mH</li>
+<li>計算項目：<ol>
+<li>相位差 (\theta)</li>
+<li>平均功率 (P)</li>
+<li>電感虛功率 (Q_L)</li>
+<li>最大瞬時功率 (P_{max})</li>
+<li>最小瞬時功率 (P_{min})</li>
+<li>瞬時功率頻率 (f_p)</li>
+</ol>
+</li>
+<li>相量轉換：<ul>
+<li>電感抗 (X_L &#x3D; \omega L &#x3D; 500 \times 0.02 &#x3D; 10 \Omega)，相位角90度</li>
+<li>電壓相量 (V &#x3D; 100 \angle 30^\circ)</li>
+<li>電流相量 (I &#x3D; \frac{V}{X_L} &#x3D; 10 \angle -60^\circ)</li>
+</ul>
+</li>
+<li>相位差 (\theta &#x3D; 30^\circ - (-60^\circ) &#x3D; 90^\circ)</li>
+<li>平均功率 (P &#x3D; VI \cos \theta &#x3D; 100 \times 10 \times \cos 90^\circ &#x3D; 0) 瓦特</li>
+<li>虛功率 (Q_L &#x3D; I^2 X_L &#x3D; 10^2 \times 10 &#x3D; 1000) 乏爾 (var)</li>
+<li>最大瞬時功率 (P_{max} &#x3D; VI &#x3D; 1000) 瓦特</li>
+<li>最小瞬時功率 (P_{min} &#x3D; -VI &#x3D; -1000) 瓦特</li>
+<li>電源頻率 (f &#x3D; \frac{500}{2\pi} \approx 80) Hz</li>
+<li>功率頻率 (f_p &#x3D; 2 \times 80 &#x3D; 160) Hz</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=pZ9q8WZpBIY">純電感電路之功率計算 - 陳政旭老師</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>虛功率</tag>
+        <tag>基本電學</tag>
+        <tag>純電感</tag>
+        <tag>功率計算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pure Resistive AC Circuit and Average Power</title>
+    <url>/2025/08/02/pure-resistive-ac-circuit-average-power/</url>
+    <content><![CDATA[<h1 id="Pure-Resistive-AC-Circuit-and-Average-Power"><a href="#Pure-Resistive-AC-Circuit-and-Average-Power" class="headerlink" title="Pure Resistive AC Circuit and Average Power"></a>Pure Resistive AC Circuit and Average Power</h1><p>This article explains the characteristics of pure resistive AC circuits, the relationship between voltage and current, the calculation of instantaneous and average power, and the waveform properties.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>In a pure resistive AC circuit, voltage and current are in phase, expressed as ( v(t) &#x3D; V_m \sin(\omega t) ) and ( i(t) &#x3D; I_m \sin(\omega t) ).</li>
+<li>The phase difference between voltage and current is 0 degrees.</li>
+<li>Instantaneous power formula:<br>[<br>p(t) &#x3D; VI - VI \cos(2\omega t)<br>]</li>
+<li>Average power is:<br>[<br>P &#x3D; VI<br>]<br>which is the product of RMS voltage and RMS current.</li>
+<li>The power waveform is always positive, indicating the resistor only consumes power and does not return power to the source.</li>
+<li>Five characteristics of power in pure resistive AC circuit:  <ol>
+<li>Voltage and current phase difference is 0 degrees  </li>
+<li>Average power ( P &#x3D; VI \cos \theta &#x3D; VI &#x3D; I^2 R &#x3D; \frac{V^2}{R} )  </li>
+<li>Maximum instantaneous power ( P_{max} &#x3D; 2VI )  </li>
+<li>Minimum instantaneous power ( P_{min} &#x3D; 0 )  </li>
+<li>Power frequency is twice the source frequency</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h1 id="純電阻交流電路與平均功率"><a href="#純電阻交流電路與平均功率" class="headerlink" title="純電阻交流電路與平均功率"></a>純電阻交流電路與平均功率</h1><p>本文說明純電阻交流電路的特性、電壓與電流的關係、瞬時功率與平均功率的計算，以及功率波形的特性。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li><strong>純電阻交流電路</strong>中，電壓與電流為同相位，皆為 ( v(t) &#x3D; V_m \sin(\omega t) ) 和 ( i(t) &#x3D; I_m \sin(\omega t) )。</li>
+<li>電壓與電流相位差為0度。</li>
+<li>瞬時功率公式為：<br>[<br>p(t) &#x3D; VI - VI \cos(2\omega t)<br>]</li>
+<li>平均功率為：<br>[<br>P &#x3D; VI<br>]<br>即電壓有效值乘以電流有效值。</li>
+<li>功率波形始終為正，表示純電阻只消耗功率，不會回饋電源。</li>
+<li>功率特性五大點：  <ol>
+<li>電壓與電流相位差0度  </li>
+<li>平均功率 ( P &#x3D; VI \cos \theta &#x3D; VI &#x3D; I^2 R &#x3D; \frac{V^2}{R} )  </li>
+<li>最大瞬時功率 ( P_{max} &#x3D; 2VI )  </li>
+<li>最小瞬時功率 ( P_{min} &#x3D; 0 )  </li>
+<li>功率頻率為電源頻率的兩倍</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=Jm6pRblVUvY">純電阻交流電路與平均功率 - 陳政旭老師</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>平均功率</tag>
+        <tag>基本電學</tag>
+        <tag>有效值</tag>
+        <tag>純電阻</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example of AC Power Calculation in Pure Resistive Circuit</title>
+    <url>/2025/08/02/pure-resistive-circuit-ac-power-example/</url>
+    <content><![CDATA[<h1 id="Example-of-AC-Power-Calculation-in-Pure-Resistive-Circuit"><a href="#Example-of-AC-Power-Calculation-in-Pure-Resistive-Circuit" class="headerlink" title="Example of AC Power Calculation in Pure Resistive Circuit"></a>Example of AC Power Calculation in Pure Resistive Circuit</h1><p>This article provides a detailed example of AC power calculation in a pure resistive circuit, including waveform, resistance, phase angle, and power formulas.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Voltage waveform: ( v(t) &#x3D; 10\sqrt{2} \sin(377t) ) volts</li>
+<li>Resistance: 10 ohms</li>
+<li>Phase angle ( \theta ) calculation:<ul>
+<li>Voltage and current phase angles are both 0 degrees</li>
+<li>Phase difference ( \theta &#x3D; 0^\circ )</li>
+</ul>
+</li>
+<li>Average power ( P ) calculation:<ul>
+<li>( P &#x3D; VI \cos \theta &#x3D; 10 \times 1 \times \cos 0^\circ &#x3D; 10 ) watts</li>
+</ul>
+</li>
+<li>Maximum instantaneous power ( P_{\max} ):<ul>
+<li>( P_{\max} &#x3D; 2VI &#x3D; 2 \times 10 \times 1 &#x3D; 20 ) watts</li>
+</ul>
+</li>
+<li>Minimum instantaneous power ( P_{\min} &#x3D; 0 ) watts</li>
+</ul>
+<hr>
+<h1 id="純電阻電路之交流電功率計算範例"><a href="#純電阻電路之交流電功率計算範例" class="headerlink" title="純電阻電路之交流電功率計算範例"></a>純電阻電路之交流電功率計算範例</h1><p>本文提供純電阻電路交流電功率計算的詳細範例，包含波形、電阻、相位角與功率公式。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>電壓波形：( v(t) &#x3D; 10\sqrt{2} \sin(377t) ) 伏特</li>
+<li>電阻值：10 歐姆</li>
+<li>相位角 ( \theta ) 計算：<ul>
+<li>電壓與電流相位角均為 0 度</li>
+<li>相位差 ( \theta &#x3D; 0^\circ )</li>
+</ul>
+</li>
+<li>平均功率 ( P ) 計算：<ul>
+<li>( P &#x3D; VI \cos \theta &#x3D; 10 \times 1 \times \cos 0^\circ &#x3D; 10 ) 瓦特</li>
+</ul>
+</li>
+<li>最大瞬間功率 ( P_{\max} )：<ul>
+<li>( P_{\max} &#x3D; 2VI &#x3D; 2 \times 10 \times 1 &#x3D; 20 ) 瓦特</li>
+</ul>
+</li>
+<li>最小瞬間功率 ( P_{\min} &#x3D; 0 ) 瓦特</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=krdChZlT2Rw">點此觀看影片與字幕</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>基本電學</tag>
+        <tag>功率計算</tag>
+        <tag>純電阻</tag>
+        <tag>範例</tag>
       </tags>
   </entry>
   <entry>
@@ -18827,6 +19593,30 @@ ok
 <blockquote>
 <p>如果你在配置过程中遇到任何问题，欢迎在评论区留言交流。 </p>
 </blockquote>
+<h1 id="功率三角形與複數功率-Part-A：功率三角形"><a href="#功率三角形與複數功率-Part-A：功率三角形" class="headerlink" title="功率三角形與複數功率 Part A：功率三角形"></a>功率三角形與複數功率 Part A：功率三角形</h1><hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>本單元介紹功率三角形與複數功率的基本概念。</li>
+<li>以 R-L 串聯電路為例，說明電流 I 作為基準相量，電阻電壓 VR 與電流同相，電感電壓 VL 超前電流 90 度。</li>
+<li>電源電壓 V 為 VR 與 VL 的相量和，電流 I 滯後電壓 V 一個角度 θ（0°至90°間）。</li>
+<li>將電壓相量乘以電流 I，得到功率三角形，包含平均功率 P（I²R）、虛功率 QL（I²XL）與視在功率 S（VI）。</li>
+<li>RL 串聯電路的功率三角形與 RC 串聯電路功率三角形的差異在於虛功率方向（正 j 與負 j）。</li>
+<li>功率三角形用於表示平均功率、虛功率與視在功率的相位與相量關係。</li>
+</ul>
+<hr>
+<h2 id="English-Translation"><a href="#English-Translation" class="headerlink" title="English Translation"></a>English Translation</h2><p><strong>Title:</strong> Power Triangle and Complex Power Part A: Power Triangle</p>
+<p><strong>Key Points Summary:</strong></p>
+<ul>
+<li>This unit introduces the basic concepts of the power triangle and complex power.</li>
+<li>Using an R-L series circuit as an example, the current I is taken as the reference phasor; the resistor voltage VR is in phase with I, and the inductor voltage VL leads I by 90 degrees.</li>
+<li>The supply voltage V is the phasor sum of VR and VL; the current I lags voltage V by an angle θ (between 0° and 90°).</li>
+<li>Multiplying the voltage phasors by current I forms the power triangle, including average power P (I²R), reactive power QL (I²XL), and apparent power S (VI).</li>
+<li>The power triangle of an RL series circuit differs from that of an RC series circuit in the direction of reactive power (positive j vs. negative j).</li>
+<li>The power triangle represents the phase and phasor relationships among average power, reactive power, and apparent power.</li>
+</ul>
+<hr>
+<h3 id="YouTube-自動翻譯連結"><a href="#YouTube-自動翻譯連結" class="headerlink" title="YouTube 自動翻譯連結"></a>YouTube 自動翻譯連結</h3><p><a href="https://www.youtube.com/watch?v=VXHMJNaB0qg">點此觀看影片及自動翻譯</a></p>
+<hr>
+<p><strong>日期：2025年8月3日</strong> </p>
 ]]></content>
       <categories>
         <category>Hexo</category>
@@ -18834,51 +19624,6 @@ ok
       <tags>
         <tag>Next Theme</tag>
         <tag>Configuration</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AC Power:Instantaneous Power Equation Analysis</title>
-    <url>/2025/08/02/ac-power-instantaneous-power-equation-analysis/</url>
-    <content><![CDATA[<h1 id="AC-Power-Instantaneous-Power-Equation-Analysis"><a href="#AC-Power-Instantaneous-Power-Equation-Analysis" class="headerlink" title="AC Power: Instantaneous Power Equation Analysis"></a>AC Power: Instantaneous Power Equation Analysis</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
-<li>Introduction to basic concepts and analysis techniques of AC power</li>
-<li>Definition and formula of instantaneous power: ( p(t) &#x3D; v(t) \times i(t) )</li>
-<li>Sinusoidal expressions for voltage and current:<ul>
-<li>Voltage: ( v(t) &#x3D; V_m \sin(\omega t + \theta_v) )</li>
-<li>Current: ( i(t) &#x3D; I_m \sin(\omega t + \theta_i) )</li>
-</ul>
-</li>
-<li>Mathematical method for calculating instantaneous power using cosine difference and sum formulas</li>
-<li>Definition of RMS value: peak value divided by (\sqrt{2})</li>
-<li>Mnemonic for instantaneous power formula:<br>( p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(2\omega t + \theta_v + \theta_i) )</li>
-</ul>
-<hr>
-<h1 id="交流電功率：瞬間功率方程式解析"><a href="#交流電功率：瞬間功率方程式解析" class="headerlink" title="交流電功率：瞬間功率方程式解析"></a>交流電功率：瞬間功率方程式解析</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
-<li>介紹交流電功率的基本概念與分析技巧</li>
-<li>瞬間功率定義與計算公式：( p(t) &#x3D; v(t) \times i(t) )</li>
-<li>電壓與電流的正弦波表示式：<ul>
-<li>電壓：( v(t) &#x3D; V_m \sin(\omega t + \theta_v) )</li>
-<li>電流：( i(t) &#x3D; I_m \sin(\omega t + \theta_i) )</li>
-</ul>
-</li>
-<li>瞬間功率計算的數學技巧：利用餘弦差角與和角公式</li>
-<li>有效值定義：最大值除以 (\sqrt{2})</li>
-<li>瞬間功率公式簡化口訣：<br>( p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(2\omega t + \theta_v + \theta_i) )</li>
-</ul>
-<hr>
-<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=BWNkPlEXVRU">高中基本電學_交流電功率_瞬間功率_PART A 瞬間功率方程式_陳政旭</a></p>
-<hr>
-<p><em>本文發布日期：2025-08-02</em></p>
-]]></content>
-      <categories>
-        <category>基本電學</category>
-      </categories>
-      <tags>
-        <tag>交流電</tag>
-        <tag>瞬間功率</tag>
-        <tag>正弦波</tag>
-        <tag>基本電學</tag>
-        <tag>功率</tag>
-        <tag>有效值</tag>
       </tags>
   </entry>
 </search>

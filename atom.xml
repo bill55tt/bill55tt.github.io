@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-08-02T14:31:30.841Z</updated>
+  <updated>2025-08-22T13:21:04.722Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -15,6 +15,148 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>視在功率範例解析（Part B）</title>
+    <link href="https://bill55tt.github.io/2025/08/22/apparent-power-part-b/"/>
+    <id>https://bill55tt.github.io/2025/08/22/apparent-power-part-b/</id>
+    <published>2025-08-22T01:00:00.000Z</published>
+    <updated>2025-08-22T13:21:04.722Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Apparent Power Examples (Part B)</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Walk through three typical scenarios of apparent power S in AC circuits: phasor product, complex impedance, and transformer ratings.</li><li><strong>Why it matters</strong>: Apparent power bridges voltage and current magnitudes regardless of phase, underpinning sizing of equipment and conductors.</li><li><strong>What you’ll learn</strong>: How to compute S, separate it into P and Q when impedance is known, and apply kVA ratings to estimate allowable currents.</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ol><li><p><strong>Example 1: Apparent Power in Single-Phase AC Circuit</strong></p><ul><li>Voltage ( V &#x3D; 10 \angle 60^\circ ) V</li><li>Current ( I &#x3D; 10 \angle 15^\circ ) A</li><li>Apparent power ( S &#x3D; V \times I &#x3D; 100 ) VA</li></ul></li><li><p><strong>Example 2: Power Calculation with Complex Impedance</strong></p><ul><li>Impedance ( Z &#x3D; 8 + j6 ) Ω (8 Ω resistor in series with inductive reactance 6 Ω)</li><li>Current ( I &#x3D; 10 ) A</li><li>Real power ( P &#x3D; I^2 R &#x3D; 800 ) W</li><li>Reactive power ( Q &#x3D; I^2 X_L &#x3D; 600 ) VAR</li><li>Apparent power ( S &#x3D; I^2 |Z| &#x3D; 1000 ) VA</li></ul></li><li><p><strong>Example 3: Transformer Maximum Input and Output Current</strong></p><ul><li>Rated apparent power ( S &#x3D; 10,\text{kVA} )</li><li>Input voltage ( V_{in} &#x3D; 2000,\text{V} ), output voltage ( V_{out} &#x3D; 200,\text{V} )</li><li>Maximum input current ( I_{in} &#x3D; \dfrac{S}{V_{in}} &#x3D; 5,\text{A} )</li><li>Maximum output current ( I_{out} &#x3D; \dfrac{S}{V_{out}} &#x3D; 50,\text{A} )</li></ul></li></ol><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">High school basic electricity – AC power – Apparent Power PART B (Examples)</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>視在功率範例解析（Part B）</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：透過三個常見情境認識視在功率 S 的計算：相量相乘、複數阻抗分解、變壓器容量應用。</li><li><strong>為何重要</strong>：視在功率連結電壓與電流的大小（不論相位），是設備與線路容量選用的依據。</li><li><strong>你將學到</strong>：如何計算 S、在已知阻抗時拆解為 P 與 Q，以及運用 kVA 額定值估算允許電流。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol><li><p><strong>範例一：單相交流電路視在功率</strong></p><ul><li>電壓 ( V &#x3D; 10 \angle 60^\circ ) 伏特</li><li>電流 ( I &#x3D; 10 \angle 15^\circ ) 安培</li><li>視在功率 ( S &#x3D; V \times I &#x3D; 100 ) 伏安</li></ul></li><li><p><strong>範例二：複數阻抗的功率計算</strong></p><ul><li>阻抗 ( Z &#x3D; 8 + j6 ) 歐姆（8 歐姆電阻串聯 6 歐姆感抗）</li><li>電流 ( I &#x3D; 10 ) 安培</li><li>平均功率 ( P &#x3D; I^2 R &#x3D; 800 ) 瓦特</li><li>無功功率 ( Q &#x3D; I^2 X_L &#x3D; 600 ) 乏爾（VAR）</li><li>視在功率 ( S &#x3D; I^2 |Z| &#x3D; 1000 ) 伏安</li></ul></li><li><p><strong>範例三：變壓器最大輸入／輸出電流</strong></p><ul><li>額定視在功率 ( S &#x3D; 10,\text{kVA} )</li><li>輸入電壓 ( V_{in} &#x3D; 2000,\text{V} )，輸出電壓 ( V_{out} &#x3D; 200,\text{V} )</li><li>最大輸入電流 ( I_{in} &#x3D; \dfrac{S}{V_{in}} &#x3D; 5,\text{A} )</li><li>最大輸出電流 ( I_{out} &#x3D; \dfrac{S}{V_{out}} &#x3D; 50,\text{A} )</li></ul></li></ol><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">@高中基本電學_交流電功率_視在功率_PART B 範例：視在功率</a></li></ul><hr><p><strong>日期：2025年08月22日</strong> </p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+        
+      
+    
+    
+    
+    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    
+    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    
+    
+    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
+    
+    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
+    
+    <category term="複數功率" scheme="https://bill55tt.github.io/tags/%E8%A4%87%E6%95%B8%E5%8A%9F%E7%8E%87/"/>
+    
+    <category term="功率三角形" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</title>
+    <link href="https://bill55tt.github.io/2025/08/03/ac-power-apparent-power-part-a/"/>
+    <id>https://bill55tt.github.io/2025/08/03/ac-power-apparent-power-part-a/</id>
+    <published>2025-08-03T04:00:00.000Z</published>
+    <updated>2025-08-22T12:46:19.582Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu"><a href="#High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu" class="headerlink" title="High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</h1><p>This article explains the concepts of apparent power, average power, and reactive power in AC circuits, including their formulas, physical meanings, and real-life analogies.</p><hr><h2 id="Key-Points-English"><a href="#Key-Points-English" class="headerlink" title="Key Points (English)"></a>Key Points (English)</h2><ul><li><strong>Apparent Power (S)</strong>: The product of voltage (V) and current (I), representing the total power in the circuit. Unit: volt-ampere (VA).</li><li><strong>Average Power (P)</strong>: The real power consumed by a pure resistive load, analogous to rent—actual energy spent.</li><li><strong>Reactive Power (Q)</strong>: The power stored and released by inductive and capacitive loads, analogous to a deposit—eventually returned.</li><li><strong>Meaning of Apparent Power</strong>:<ul><li>At the source: Total power delivered to the load.</li><li>At the load: Rated capacity and rated current of electrical equipment.</li></ul></li><li><strong>Apparent Power Formula</strong>:<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>Unit: volt-ampere (VA).</li><li><strong>English Terms</strong>:<ul><li>Apparent Power: 視在功率</li><li>Average Power (or Real Power): 平均功率</li><li>Reactive Power: 虛功率</li></ul></li><li><strong>Real-life Analogy</strong>:<ul><li>Rent (Average Power): Actual expense.</li><li>Deposit (Reactive Power): Temporarily paid, eventually returned.</li><li>Apparent Power: The sum of rent and deposit, representing the total amount you need to prepare.</li></ul></li></ul><hr><h1 id="高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭"><a href="#高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭" class="headerlink" title="高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭"></a>高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</h1><p>本文說明交流電路中視在功率、平均功率與虛功率的定義、公式、物理意義與生活化比喻。</p><hr><h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul><li><strong>視在功率 (Apparent Power)</strong>：電壓 (V) 與電流 (I) 的乘積，表示電路中電壓與電流的總功率，單位為伏安 (VA)。</li><li><strong>平均功率 (Average Power)</strong>：純電阻負載消耗的實際功率，類比為租房的租金，是實際花費的能量。</li><li><strong>虛功率 (Reactive Power)</strong>：電感與電容負載儲存並釋放能量的功率，類比為押金，最後會退還。</li><li><strong>視在功率的意義</strong>：<ul><li>電源端：表示電源輸送給負載的總功率。</li><li>負載端：表示電力設備的額定容量與額定電流。</li></ul></li><li><strong>視在功率的計算公式</strong>：<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>單位為伏安 (VA)。</li><li><strong>英文翻譯</strong>：<ul><li>視在功率：Apparent Power</li><li>平均功率：Average Power (或 Real Power)</li><li>虛功率：Reactive Power</li></ul></li><li><strong>生活化比喻</strong>：<ul><li>租金（平均功率）是實際花費。</li><li>押金（虛功率）是暫時繳納，最後會退還。</li><li>視在功率是租金加押金的總和，代表你必須準備的總金額。</li></ul></li></ul><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=OzSVqQCy3tk">高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</a></p><hr><h2 id="本文發布日期：2025-08-03title-High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsudate-2025-08-03-12-00-00tags-交流電-視在功率-平均功率-虛功率-基本電學-categories-基本電學"><a href="#本文發布日期：2025-08-03title-High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsudate-2025-08-03-12-00-00tags-交流電-視在功率-平均功率-虛功率-基本電學-categories-基本電學" class="headerlink" title="本文發布日期：2025-08-03title: High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsudate: 2025-08-03 12:00:00tags: [交流電, 視在功率, 平均功率, 虛功率, 基本電學]categories: [基本電學]"></a><em>本文發布日期：2025-08-03</em><br>title: High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu<br>date: 2025-08-03 12:00:00<br>tags: [交流電, 視在功率, 平均功率, 虛功率, 基本電學]<br>categories: [基本電學]</h2><h1 id="High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu-1"><a href="#High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu-1" class="headerlink" title="High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</h1><p>This article explains the concepts of apparent power, average power, and reactive power in AC circuits, including their formulas, physical meanings, and real-life analogies.</p><hr><h2 id="Key-Points-English-1"><a href="#Key-Points-English-1" class="headerlink" title="Key Points (English)"></a>Key Points (English)</h2><ul><li><strong>Apparent Power (S)</strong>: The product of voltage (V) and current (I), representing the total power in the circuit. Unit: volt-ampere (VA).</li><li><strong>Average Power (P)</strong>: The real power consumed by a pure resistive load, analogous to rent—actual energy spent.</li><li><strong>Reactive Power (Q)</strong>: The power stored and released by inductive and capacitive loads, analogous to a deposit—eventually returned.</li><li><strong>Meaning of Apparent Power</strong>:<ul><li>At the source: Total power delivered to the load.</li><li>At the load: Rated capacity and rated current of electrical equipment.</li></ul></li><li><strong>Apparent Power Formula</strong>:<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>Unit: volt-ampere (VA).</li><li><strong>English Terms</strong>:<ul><li>Apparent Power: 視在功率</li><li>Average Power (or Real Power): 平均功率</li><li>Reactive Power: 虛功率</li></ul></li><li><strong>Real-life Analogy</strong>:<ul><li>Rent (Average Power): Actual expense.</li><li>Deposit (Reactive Power): Temporarily paid, eventually returned.</li><li>Apparent Power: The sum of rent and deposit, representing the total amount you need to prepare.</li></ul></li></ul><hr><h1 id="高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭-1"><a href="#高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭-1" class="headerlink" title="高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭"></a>高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</h1><p>本文說明交流電路中視在功率、平均功率與虛功率的定義、公式、物理意義與生活化比喻。</p><hr><h2 id="重點歸納（中文）-1"><a href="#重點歸納（中文）-1" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul><li><strong>視在功率 (Apparent Power)</strong>：電壓 (V) 與電流 (I) 的乘積，表示電路中電壓與電流的總功率，單位為伏安 (VA)。</li><li><strong>平均功率 (Average Power)</strong>：純電阻負載消耗的實際功率，類比為租房的租金，是實際花費的能量。</li><li><strong>虛功率 (Reactive Power)</strong>：電感與電容負載儲存並釋放能量的功率，類比為押金，最後會退還。</li><li><strong>視在功率的意義</strong>：<ul><li>電源端：表示電源輸送給負載的總功率。</li><li>負載端：表示電力設備的額定容量與額定電流。</li></ul></li><li><strong>視在功率的計算公式</strong>：<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>單位為伏安 (VA)。</li><li><strong>英文翻譯</strong>：<ul><li>視在功率：Apparent Power</li><li>平均功率：Average Power (或 Real Power)</li><li>虛功率：Reactive Power</li></ul></li><li><strong>生活化比喻</strong>：<ul><li>租金（平均功率）是實際花費。</li><li>押金（虛功率）是暫時繳納，最後會退還。</li><li>視在功率是租金加押金的總和，代表你必須準備的總金額。</li></ul></li></ul><hr><h2 id="YouTube-影片連結-1"><a href="#YouTube-影片連結-1" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=OzSVqQCy3tk">高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu&quot;&gt;&lt;a href=&quot;#High-School-Basic-Electri</summary>
+        
+      
+    
+    
+    
+    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    
+    
+    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
+    
+    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
+    
+    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
+    
+    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
+    
+    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu</title>
+    <link href="https://bill55tt.github.io/2025/08/03/ac-power-average-power-definition-example-part-a/"/>
+    <id>https://bill55tt.github.io/2025/08/03/ac-power-average-power-definition-example-part-a/</id>
+    <published>2025-08-03T04:00:00.000Z</published>
+    <updated>2025-08-03T03:53:04.349Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu"><a href="#High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu" class="headerlink" title="High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu</h1><p>This article explains the definition of average power in AC circuits, the calculation formula, the effect of phase difference, and provides a detailed example.</p><hr><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul><li><strong>Definition of Average Power</strong>: The average power is the mean value of the instantaneous power ( p(t) ) over a complete cycle.</li><li><strong>Voltage and Current Waveforms</strong>:<ul><li>Voltage ( v(t) &#x3D; V_m \sin(\omega t) ) with phase angle set to 0° for simplicity.</li><li>Current ( i(t) &#x3D; I_m \sin(\omega t - \theta) ).</li></ul></li><li><strong>Instantaneous Power Formula</strong>:<br>$$<br>p(t) &#x3D; v(t) \times i(t) &#x3D; VI \cos \theta - VI \cos(2\omega t - \theta)<br>$$</li><li><strong>Average Power Calculation</strong>:<ul><li>( VI \cos \theta ) is a constant, product of RMS values and cosine of phase angle.</li><li>( VI \cos(2\omega t - \theta) ) is a symmetric sinusoid with zero average.</li><li>Therefore, average power ( P &#x3D; VI \cos \theta ).</li></ul></li><li><strong>Effect of Phase Difference</strong>: If voltage and current have phase angles ( \theta_v ) and ( \theta_i ), then<br>$$<br>P &#x3D; VI \cos(\theta_v - \theta_i)<br>$$</li><li><strong>Example Calculation</strong>:<ul><li>Voltage: ( v(t) &#x3D; 50\sqrt{2} \sin(377t + 30^\circ) ), RMS ( V &#x3D; 50 ), phase angle ( \theta_v &#x3D; 30^\circ ).</li><li>Current: ( i(t) &#x3D; 5\sqrt{2} \sin(377t - 30^\circ) ), RMS ( I &#x3D; 5 ), phase angle ( \theta_i &#x3D; -30^\circ ).</li><li>Average power:<br>$$<br>P &#x3D; 50 \times 5 \times \cos(30^\circ - (-30^\circ)) &#x3D; 250 \times \cos 60^\circ &#x3D; 125 \text{W}<br>$$</li></ul></li></ul><hr><h1 id="高中基本電學-交流電功率-平均功率-PART-A-平均功率定義、範例：平均功率計算-陳政旭"><a href="#高中基本電學-交流電功率-平均功率-PART-A-平均功率定義、範例：平均功率計算-陳政旭" class="headerlink" title="高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭"></a>高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</h1><p>本文說明交流電平均功率的定義、計算公式、相位差影響，並提供詳細範例。</p><hr><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul><li><strong>平均功率定義</strong>：平均功率是完整週期內瞬間功率 ( p(t) ) 的平均值。</li><li><strong>電壓與電流波形</strong>：<ul><li>電壓 ( v(t) &#x3D; V_m \sin(\omega t) )，相位角設為0度方便說明。</li><li>電流 ( i(t) &#x3D; I_m \sin(\omega t - \theta) )。</li></ul></li><li><strong>瞬間功率公式</strong>：<br>$$<br>p(t) &#x3D; v(t) \times i(t) &#x3D; VI \cos \theta - VI \cos(2\omega t - \theta)<br>$$</li><li><strong>平均功率計算</strong>：<ul><li>( VI \cos \theta ) 是常數，為有效值乘上相位角的餘弦。</li><li>( VI \cos(2\omega t - \theta) ) 是正負對稱的正弦波，平均值為0。</li><li>因此平均功率 ( P &#x3D; VI \cos \theta )。</li></ul></li><li><strong>相位差影響</strong>：若電壓與電流相位角分別為 ( \theta_v ) 與 ( \theta_i )，則<br>$$<br>P &#x3D; VI \cos(\theta_v - \theta_i)<br>$$</li><li><strong>範例計算</strong>：<ul><li>電壓：( v(t) &#x3D; 50\sqrt{2} \sin(377t + 30^\circ) )，有效值 ( V &#x3D; 50 )，相位角 ( \theta_v &#x3D; 30^\circ )。</li><li>電流：( i(t) &#x3D; 5\sqrt{2} \sin(377t - 30^\circ) )，有效值 ( I &#x3D; 5 )，相位角 ( \theta_i &#x3D; -30^\circ )。</li><li>平均功率：<br>$$<br>P &#x3D; 50 \times 5 \times \cos(30^\circ - (-30^\circ)) &#x3D; 250 \times \cos 60^\circ &#x3D; 125 \text{瓦}<br>$$</li></ul></li></ul><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=MK1EiNOZd68">高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    
+    
+    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
+    
+    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
+    
+    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    
+    <category term="有效值" scheme="https://bill55tt.github.io/tags/%E6%9C%89%E6%95%88%E5%80%BC/"/>
+    
+    <category term="相位角" scheme="https://bill55tt.github.io/tags/%E7%9B%B8%E4%BD%8D%E8%A7%92/"/>
+    
+    <category term="教學範例" scheme="https://bill55tt.github.io/tags/%E6%95%99%E5%AD%B8%E7%AF%84%E4%BE%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Power Characteristics of Pure Capacitive AC Circuit</title>
+    <link href="https://bill55tt.github.io/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/"/>
+    <id>https://bill55tt.github.io/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/</id>
+    <published>2025-08-03T04:00:00.000Z</published>
+    <updated>2025-08-22T12:46:19.446Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Power-Characteristics-of-Pure-Capacitive-AC-Circuit"><a href="#Power-Characteristics-of-Pure-Capacitive-AC-Circuit" class="headerlink" title="Power Characteristics of Pure Capacitive AC Circuit"></a>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p><hr><h2 id="Key-Points-Summary-English"><a href="#Key-Points-Summary-English" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ol><li><strong>Voltage and current in a pure capacitive AC circuit have a phase difference of -90 degrees</strong>, with current leading voltage by 90 degrees.</li><li><strong>Average power is zero</strong> because positive and negative power waves cancel out; pure capacitors do not consume average power.</li><li><strong>Reactive power (Q_c) formulas</strong>:<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>Instantaneous maximum power (P_{max} &#x3D; VI)</strong> and minimum power (P_{min} &#x3D; -VI)**.</li><li><strong>Power frequency is twice the source frequency</strong>.</li><li><strong>Power waveforms of pure inductors and capacitors differ by 180 degrees, being opposite in phase</strong>.</li><li><strong>When inductors and capacitors coexist in a circuit, their reactive powers subtract</strong>.</li></ol><hr><h1 id="純電容交流電路之功率特性"><a href="#純電容交流電路之功率特性" class="headerlink" title="純電容交流電路之功率特性"></a>純電容交流電路之功率特性</h1><p>本文整理純電容交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p><hr><h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ol><li><strong>純電容交流電路的電壓與電流相位差為 -90度</strong>，電流超前電壓90度。</li><li><strong>平均功率為零</strong>，因為正負功率波形相互抵銷，純電容不消耗平均功率。</li><li><strong>虛功率 (Q_c) 計算公式</strong>：<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>瞬間最大功率 (P_{max} &#x3D; VI)</strong>，瞬間最小功率 (P_{min} &#x3D; -VI)。</li><li><strong>功率頻率為電源頻率的兩倍</strong>。</li><li><strong>純電感與純電容功率波形相差180度，互為反向</strong>。</li><li><strong>電路中同時有電感與電容時，虛功率做相減運算</strong>。</li></ol><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=wkXEhpDtL-Y">點此觀看影片及自動翻譯</a></p><hr><h2 id="本文發布日期：2025-08-03title-Power-Characteristics-of-Pure-Capacitive-AC-Circuitdate-2025-08-03-12-00-00tags-交流電-純電容-功率特性-虛功率-基本電學-categories-基本電學"><a href="#本文發布日期：2025-08-03title-Power-Characteristics-of-Pure-Capacitive-AC-Circuitdate-2025-08-03-12-00-00tags-交流電-純電容-功率特性-虛功率-基本電學-categories-基本電學" class="headerlink" title="本文發布日期：2025-08-03title: Power Characteristics of Pure Capacitive AC Circuitdate: 2025-08-03 12:00:00tags: [交流電, 純電容, 功率特性, 虛功率, 基本電學]categories: [基本電學]"></a><em>本文發布日期：2025-08-03</em><br>title: Power Characteristics of Pure Capacitive AC Circuit<br>date: 2025-08-03 12:00:00<br>tags: [交流電, 純電容, 功率特性, 虛功率, 基本電學]<br>categories: [基本電學]</h2><h1 id="Power-Characteristics-of-Pure-Capacitive-AC-Circuit-1"><a href="#Power-Characteristics-of-Pure-Capacitive-AC-Circuit-1" class="headerlink" title="Power Characteristics of Pure Capacitive AC Circuit"></a>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p><hr><h2 id="Key-Points-Summary-English-1"><a href="#Key-Points-Summary-English-1" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ol><li><strong>Voltage and current in a pure capacitive AC circuit have a phase difference of -90 degrees</strong>, with current leading voltage by 90 degrees.</li><li><strong>Average power is zero</strong> because positive and negative power waves cancel out; pure capacitors do not consume average power.</li><li><strong>Reactive power (Q_c) formulas</strong>:<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>Instantaneous maximum power (P_{max} &#x3D; VI)</strong> and minimum power (P_{min} &#x3D; -VI)**.</li><li><strong>Power frequency is twice the source frequency</strong>.</li><li><strong>Power waveforms of pure inductors and capacitors differ by 180 degrees, being opposite in phase</strong>.</li><li><strong>When inductors and capacitors coexist in a circuit, their reactive powers subtract</strong>.</li></ol><hr><h1 id="純電容交流電路之功率特性-1"><a href="#純電容交流電路之功率特性-1" class="headerlink" title="純電容交流電路之功率特性"></a>純電容交流電路之功率特性</h1><p>本文整理純電容交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p><hr><h2 id="重點歸納（中文）-1"><a href="#重點歸納（中文）-1" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ol><li><strong>純電容交流電路的電壓與電流相位差為 -90度</strong>，電流超前電壓90度。</li><li><strong>平均功率為零</strong>，因為正負功率波形相互抵銷，純電容不消耗平均功率。</li><li><strong>虛功率 (Q_c) 計算公式</strong>：<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>瞬間最大功率 (P_{max} &#x3D; VI)</strong>，瞬間最小功率 (P_{min} &#x3D; -VI)。</li><li><strong>功率頻率為電源頻率的兩倍</strong>。</li><li><strong>純電感與純電容功率波形相差180度，互為反向</strong>。</li><li><strong>電路中同時有電感與電容時，虛功率做相減運算</strong>。</li></ol><hr><h2 id="YouTube-影片連結-1"><a href="#YouTube-影片連結-1" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=wkXEhpDtL-Y">點此觀看影片及自動翻譯</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Power-Characteristics-of-Pure-Capacitive-AC-Circuit&quot;&gt;&lt;a href=&quot;#Power-Characteristics-of-Pure-Capacitive-AC-Circuit&quot; class=&quot;headerlin</summary>
+        
+      
+    
+    
+    
+    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    
+    
+    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
+    
+    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
+    
+    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    
+    <category term="純電容" scheme="https://bill55tt.github.io/tags/%E7%B4%94%E9%9B%BB%E5%AE%B9/"/>
+    
+    <category term="功率特性" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E7%89%B9%E6%80%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>Advanced Example Analysis of RL Discharge Transient Circuit</title>
@@ -595,148 +737,6 @@
     <category term="範例練習" scheme="https://bill55tt.github.io/tags/%E7%AF%84%E4%BE%8B%E7%B7%B4%E7%BF%92/"/>
     
     <category term="發電機原理" scheme="https://bill55tt.github.io/tags/%E7%99%BC%E9%9B%BB%E6%A9%9F%E5%8E%9F%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Principle of Induced Electromotive Force in Generators and Fleming&#39;s Right-Hand Rule</title>
-    <link href="https://bill55tt.github.io/2025/08/02/generator-induced-emf-fleming-right-hand-rule/"/>
-    <id>https://bill55tt.github.io/2025/08/02/generator-induced-emf-fleming-right-hand-rule/</id>
-    <published>2025-08-02T06:00:00.000Z</published>
-    <updated>2025-08-02T14:16:38.069Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Principle-of-Induced-Electromotive-Force-in-Generators-and-Fleming’s-Right-Hand-Rule"><a href="#Principle-of-Induced-Electromotive-Force-in-Generators-and-Fleming’s-Right-Hand-Rule" class="headerlink" title="Principle of Induced Electromotive Force in Generators and Fleming’s Right-Hand Rule"></a>Principle of Induced Electromotive Force in Generators and Fleming’s Right-Hand Rule</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This article explores the fundamental principles of how generators produce induced electromotive force (emf) and the application of Fleming’s right-hand rule in determining the direction of induced current.</p><h2 id="Key-Concepts"><a href="#Key-Concepts" class="headerlink" title="Key Concepts"></a>Key Concepts</h2><h3 id="1-Faraday’s-Law-of-Electromagnetic-Induction"><a href="#1-Faraday’s-Law-of-Electromagnetic-Induction" class="headerlink" title="1. Faraday’s Law of Electromagnetic Induction"></a>1. Faraday’s Law of Electromagnetic Induction</h3><p>Faraday’s law states that a changing magnetic field induces an electromotive force (emf) in a coil. This is the fundamental principle behind electrical generators.</p><h3 id="2-Induced-EMF-by-Moving-Conductor"><a href="#2-Induced-EMF-by-Moving-Conductor" class="headerlink" title="2. Induced EMF by Moving Conductor"></a>2. Induced EMF by Moving Conductor</h3><p>When a conductor moves through a fixed magnetic field, it induces an electromotive force given by:</p><p>$$ e &#x3D; B \times l \times v \times \sin \theta $$</p><p>Where:</p><ul><li><strong>(B)</strong>: Magnetic flux density (Tesla)</li><li><strong>(l)</strong>: Effective length of the conductor (meters)</li><li><strong>(v)</strong>: Velocity of the conductor (m&#x2F;s)</li><li><strong>(\theta)</strong>: Angle between conductor and magnetic field direction</li></ul><h3 id="3-Fleming’s-Right-Hand-Rule"><a href="#3-Fleming’s-Right-Hand-Rule" class="headerlink" title="3. Fleming’s Right-Hand Rule"></a>3. Fleming’s Right-Hand Rule</h3><p>Fleming’s right-hand rule is used to determine the direction of induced current in generators:</p><ul><li><strong>Thumb</strong>: Direction of conductor motion</li><li><strong>Index Finger</strong>: Direction of magnetic field (North to South)</li><li><strong>Middle Finger</strong>: Direction of induced current</li></ul><h3 id="4-Generator-vs-Motor-Rules"><a href="#4-Generator-vs-Motor-Rules" class="headerlink" title="4. Generator vs Motor Rules"></a>4. Generator vs Motor Rules</h3><p>It’s crucial to distinguish between the two Fleming’s rules:</p><ul><li><strong>Right-Hand Rule</strong>: Used for generators (mechanical energy → electrical energy)</li><li><strong>Left-Hand Rule</strong>: Used for motors (electrical energy → mechanical energy)</li></ul><h3 id="5-Memory-Technique"><a href="#5-Memory-Technique" class="headerlink" title="5. Memory Technique"></a>5. Memory Technique</h3><p>A helpful mnemonic: “Right-Generator” - the Euphrates River sounds like “Right-Generator” to remember that the right-hand rule applies to generators.</p><h2 id="Mathematical-Analysis"><a href="#Mathematical-Analysis" class="headerlink" title="Mathematical Analysis"></a>Mathematical Analysis</h2><h3 id="Induced-EMF-Formula-Derivation"><a href="#Induced-EMF-Formula-Derivation" class="headerlink" title="Induced EMF Formula Derivation"></a>Induced EMF Formula Derivation</h3><p>The induced emf can be derived from the rate of change of magnetic flux:</p><p>$$ e &#x3D; -\frac{d\Phi}{dt} $$</p><p>For a moving conductor:<br>$$ \Phi &#x3D; B \times A &#x3D; B \times l \times x $$<br>$$ e &#x3D; -\frac{d(B \times l \times x)}{dt} &#x3D; -B \times l \times \frac{dx}{dt} &#x3D; -B \times l \times v $$</p><h3 id="Maximum-EMF-Condition"><a href="#Maximum-EMF-Condition" class="headerlink" title="Maximum EMF Condition"></a>Maximum EMF Condition</h3><p>The maximum induced emf occurs when the conductor moves perpendicular to the magnetic field ((\theta &#x3D; 90°)):<br>$$ e_{max} &#x3D; B \times l \times v $$</p><h2 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h2><h3 id="1-AC-Generators"><a href="#1-AC-Generators" class="headerlink" title="1. AC Generators"></a>1. AC Generators</h3><ul><li>Rotating coil in magnetic field</li><li>Sinusoidal voltage output</li><li>Frequency depends on rotation speed</li></ul><h3 id="2-DC-Generators"><a href="#2-DC-Generators" class="headerlink" title="2. DC Generators"></a>2. DC Generators</h3><ul><li>Commutator converts AC to DC</li><li>Used in automotive alternators</li><li>Industrial power generation</li></ul><h3 id="3-Linear-Generators"><a href="#3-Linear-Generators" class="headerlink" title="3. Linear Generators"></a>3. Linear Generators</h3><ul><li>Linear motion generates electricity</li><li>Used in some renewable energy systems</li><li>Electromagnetic braking systems</li></ul><h2 id="Problem-Solving-Steps"><a href="#Problem-Solving-Steps" class="headerlink" title="Problem-Solving Steps"></a>Problem-Solving Steps</h2><ol><li><p><strong>Identify the System</strong></p><ul><li>Determine if it’s a generator or motor</li><li>Choose appropriate hand rule</li></ul></li><li><p><strong>Apply Fleming’s Right-Hand Rule</strong></p><ul><li>Point thumb in direction of motion</li><li>Point index finger in magnetic field direction</li><li>Middle finger shows current direction</li></ul></li><li><p><strong>Calculate Induced EMF</strong></p><ul><li>Use the formula (e &#x3D; B \times l \times v \times \sin \theta)</li><li>Consider the angle between motion and field</li></ul></li><li><p><strong>Analyze the Circuit</strong></p><ul><li>Determine load resistance</li><li>Calculate current flow</li><li>Consider power output</li></ul></li></ol><h2 id="Common-Mistakes-to-Avoid"><a href="#Common-Mistakes-to-Avoid" class="headerlink" title="Common Mistakes to Avoid"></a>Common Mistakes to Avoid</h2><ol><li><p><strong>Confusing Hand Rules</strong></p><ul><li>Remember: Right for generators, Left for motors</li><li>Use the mnemonic “Right-Generator”</li></ul></li><li><p><strong>Incorrect Angle Calculation</strong></p><ul><li>Ensure (\theta) is the angle between conductor and magnetic field</li><li>Maximum emf occurs at (\theta &#x3D; 90°)</li></ul></li><li><p><strong>Direction Confusion</strong></p><ul><li>Always use the specified hand rule consistently</li><li>Double-check finger orientations</li></ul></li></ol><h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><strong>Title:</strong> 發電機產生應電勢原理、佛萊明右手定則 - 陳政旭老師<br><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=example">https://www.youtube.com/watch?v=example</a></p><hr><h1 id="發電機產生應電勢原理與佛萊明右手定則"><a href="#發電機產生應電勢原理與佛萊明右手定則" class="headerlink" title="發電機產生應電勢原理與佛萊明右手定則"></a>發電機產生應電勢原理與佛萊明右手定則</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文探討發電機如何產生感應電動勢的基本原理，以及佛萊明右手定則在判斷感應電流方向中的應用。</p><h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><h3 id="1-法拉第電磁感應定律"><a href="#1-法拉第電磁感應定律" class="headerlink" title="1. 法拉第電磁感應定律"></a>1. 法拉第電磁感應定律</h3><p>法拉第定律指出，變化的磁場會在線圈中產生感應電動勢（emf）。這是電氣發電機的基本原理。</p><h3 id="2-導體運動產生感應電動勢"><a href="#2-導體運動產生感應電動勢" class="headerlink" title="2. 導體運動產生感應電動勢"></a>2. 導體運動產生感應電動勢</h3><p>當導體在固定磁場中運動時，會產生感應電動勢，公式為：</p><p>$$ e &#x3D; B \times l \times v \times \sin \theta $$</p><p>其中：</p><ul><li><strong>(B)</strong>：磁通密度（特斯拉）</li><li><strong>(l)</strong>：導體有效長度（公尺）</li><li><strong>(v)</strong>：導體速度（公尺&#x2F;秒）</li><li><strong>(\theta)</strong>：導體與磁場方向的夾角</li></ul><h3 id="3-佛萊明右手定則"><a href="#3-佛萊明右手定則" class="headerlink" title="3. 佛萊明右手定則"></a>3. 佛萊明右手定則</h3><p>佛萊明右手定則用於判斷發電機中感應電流的方向：</p><ul><li><strong>拇指</strong>：導體運動方向</li><li><strong>食指</strong>：磁場方向（北極到南極）</li><li><strong>中指</strong>：感應電流方向</li></ul><h3 id="4-發電機與電動機定則區分"><a href="#4-發電機與電動機定則區分" class="headerlink" title="4. 發電機與電動機定則區分"></a>4. 發電機與電動機定則區分</h3><p>區分兩種佛萊明定則非常重要：</p><ul><li><strong>右手定則</strong>：用於發電機（機械能 → 電能）</li><li><strong>左手定則</strong>：用於電動機（電能 → 機械能）</li></ul><h3 id="5-記憶技巧"><a href="#5-記憶技巧" class="headerlink" title="5. 記憶技巧"></a>5. 記憶技巧</h3><p>有用的記憶法：「右發」- 幼發拉底河諧音「右發」代表右手定則是發電機定則。</p><h2 id="數學分析"><a href="#數學分析" class="headerlink" title="數學分析"></a>數學分析</h2><h3 id="感應電動勢公式推導"><a href="#感應電動勢公式推導" class="headerlink" title="感應電動勢公式推導"></a>感應電動勢公式推導</h3><p>感應電動勢可以從磁通變化率推導：</p><p>$$ e &#x3D; -\frac{d\Phi}{dt} $$</p><p>對於運動導體：<br>$$ \Phi &#x3D; B \times A &#x3D; B \times l \times x $$<br>$$ e &#x3D; -\frac{d(B \times l \times x)}{dt} &#x3D; -B \times l \times \frac{dx}{dt} &#x3D; -B \times l \times v $$</p><h3 id="最大電動勢條件"><a href="#最大電動勢條件" class="headerlink" title="最大電動勢條件"></a>最大電動勢條件</h3><p>當導體垂直於磁場運動時（(\theta &#x3D; 90°)），產生最大感應電動勢：<br>$$ e_{max} &#x3D; B \times l \times v $$</p><h2 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h2><h3 id="1-交流發電機"><a href="#1-交流發電機" class="headerlink" title="1. 交流發電機"></a>1. 交流發電機</h3><ul><li>磁場中旋轉的線圈</li><li>正弦波電壓輸出</li><li>頻率取決於轉速</li></ul><h3 id="2-直流發電機"><a href="#2-直流發電機" class="headerlink" title="2. 直流發電機"></a>2. 直流發電機</h3><ul><li>換向器將交流轉換為直流</li><li>用於汽車發電機</li><li>工業發電</li></ul><h3 id="3-線性發電機"><a href="#3-線性發電機" class="headerlink" title="3. 線性發電機"></a>3. 線性發電機</h3><ul><li>線性運動產生電力</li><li>用於某些可再生能源系統</li><li>電磁制動系統</li></ul><h2 id="解題步驟"><a href="#解題步驟" class="headerlink" title="解題步驟"></a>解題步驟</h2><ol><li><p><strong>識別系統</strong></p><ul><li>判斷是發電機還是電動機</li><li>選擇適當的手定則</li></ul></li><li><p><strong>應用佛萊明右手定則</strong></p><ul><li>拇指指向運動方向</li><li>食指指向磁場方向</li><li>中指顯示電流方向</li></ul></li><li><p><strong>計算感應電動勢</strong></p><ul><li>使用公式 (e &#x3D; B \times l \times v \times \sin \theta)</li><li>考慮運動與磁場的夾角</li></ul></li><li><p><strong>分析電路</strong></p><ul><li>確定負載電阻</li><li>計算電流流動</li><li>考慮功率輸出</li></ul></li></ol><h2 id="常見錯誤避免"><a href="#常見錯誤避免" class="headerlink" title="常見錯誤避免"></a>常見錯誤避免</h2><ol><li><p><strong>混淆手定則</strong></p><ul><li>記住：右手用於發電機，左手用於電動機</li><li>使用記憶法「右發」</li></ul></li><li><p><strong>角度計算錯誤</strong></p><ul><li>確保 (\theta) 是導體與磁場的夾角</li><li>最大電動勢出現在 (\theta &#x3D; 90°)</li></ul></li><li><p><strong>方向混淆</strong></p><ul><li>始終一致地使用指定的手定則</li><li>仔細檢查手指方向</li></ul></li></ol><h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><strong>標題：</strong> 發電機產生應電勢原理、佛萊明右手定則 - 陳政旭老師<br><strong>連結：</strong> <a href="https://www.youtube.com/watch?v=example">https://www.youtube.com/watch?v=example</a></p><hr><p><em>本文發布日期：2025-08-02</em> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Principle-of-Induced-Electromotive-Force-in-Generators-and-Fleming’s-Right-Hand-Rule&quot;&gt;&lt;a href=&quot;#Principle-of-Induced-Electromotive-F</summary>
-        
-      
-    
-    
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    
-    <category term="佛萊明右手定則" scheme="https://bill55tt.github.io/tags/%E4%BD%9B%E8%90%8A%E6%98%8E%E5%8F%B3%E6%89%8B%E5%AE%9A%E5%89%87/"/>
-    
-    <category term="電磁感應" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E7%A3%81%E6%84%9F%E6%87%89/"/>
-    
-    <category term="發電機" scheme="https://bill55tt.github.io/tags/%E7%99%BC%E9%9B%BB%E6%A9%9F/"/>
-    
-    <category term="應電勢" scheme="https://bill55tt.github.io/tags/%E6%87%89%E9%9B%BB%E5%8B%A2/"/>
-    
-    <category term="法拉第定律" scheme="https://bill55tt.github.io/tags/%E6%B3%95%E6%8B%89%E7%AC%AC%E5%AE%9A%E5%BE%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Instantaneous Power and Waveform Analysis of AC Power (Part B)</title>
-    <link href="https://bill55tt.github.io/2025/08/02/ac-power-instantaneous-power-waveform-analysis-part-b/"/>
-    <id>https://bill55tt.github.io/2025/08/02/ac-power-instantaneous-power-waveform-analysis-part-b/</id>
-    <published>2025-08-02T04:00:00.000Z</published>
-    <updated>2025-08-02T14:39:11.345Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Instantaneous-Power-and-Waveform-Analysis-of-AC-Power-Part-B"><a href="#Instantaneous-Power-and-Waveform-Analysis-of-AC-Power-Part-B" class="headerlink" title="Instantaneous Power and Waveform Analysis of AC Power (Part B)"></a>Instantaneous Power and Waveform Analysis of AC Power (Part B)</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul><li>AC voltage waveform can be represented as a combination of a DC value and a sinusoidal wave, e.g., ( v(t) &#x3D; 5 + 12 \sin \omega t )</li><li>The DC part is a constant voltage (5V), unchanged over time</li><li>The AC part is a sinusoidal wave with amplitude 12V, oscillating around the DC level</li><li>Instantaneous power formula is ( p(t) &#x3D; VI \cos \theta - VI \cos (2 \omega t - \theta) )</li><li>Instantaneous power waveform consists of a constant DC component and an AC sinusoidal component</li><li>Current waveform lags voltage by a phase angle (\theta)</li></ul><hr><h1 id="交流電功率的瞬間功率與波形解析（Part-B）"><a href="#交流電功率的瞬間功率與波形解析（Part-B）" class="headerlink" title="交流電功率的瞬間功率與波形解析（Part B）"></a>交流電功率的瞬間功率與波形解析（Part B）</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul><li>交流電壓波形可由直流值與正弦波組合而成，例：( v(t) &#x3D; 5 + 12 \sin \omega t )</li><li>直流部分為常數電壓（5V），不隨時間變化</li><li>交流部分為正弦波，振幅為12V，上下震盪於直流準位上下</li><li>瞬間功率公式為 ( p(t) &#x3D; VI \cos \theta - VI \cos (2 \omega t - \theta) )</li><li>瞬間功率波形由一個常數直流值與一個交流正弦波組成</li><li>電流波形滯後電壓一個相位角 (\theta)</li></ul><hr><h2 id="YouTube-字幕翻譯連結"><a href="#YouTube-字幕翻譯連結" class="headerlink" title="YouTube 字幕翻譯連結"></a>YouTube 字幕翻譯連結</h2><p><a href="https://www.youtube.com/watch?v=XQbVZ2-tx3w">點此觀看影片及字幕</a></p><hr><p><em>本文發布日期：2025-08-02</em></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Instantaneous-Power-and-Waveform-Analysis-of-AC-Power-Part-B&quot;&gt;&lt;a href=&quot;#Instantaneous-Power-and-Waveform-Analysis-of-AC-Power-Part-B</summary>
-        
-      
-    
-    
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="瞬間功率" scheme="https://bill55tt.github.io/tags/%E7%9E%AC%E9%96%93%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="波形" scheme="https://bill55tt.github.io/tags/%E6%B3%A2%E5%BD%A2/"/>
-    
-    <category term="正弦波" scheme="https://bill55tt.github.io/tags/%E6%AD%A3%E5%BC%A6%E6%B3%A2/"/>
-    
-    <category term="相位" scheme="https://bill55tt.github.io/tags/%E7%9B%B8%E4%BD%8D/"/>
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Basic Electricity Volume 1 Chapter 5 Section 5-2 Capacitance</title>
-    <link href="https://bill55tt.github.io/2025/08/02/basic-electricity-ch5-5-2-capacitance/"/>
-    <id>https://bill55tt.github.io/2025/08/02/basic-electricity-ch5-5-2-capacitance/</id>
-    <published>2025-08-02T04:00:00.000Z</published>
-    <updated>2025-08-02T14:33:38.204Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Basic-Electricity-Volume-1-Chapter-5-Section-5-2-Capacitance"><a href="#Basic-Electricity-Volume-1-Chapter-5-Section-5-2-Capacitance" class="headerlink" title="Basic Electricity Volume 1 Chapter 5 Section 5-2 Capacitance"></a>Basic Electricity Volume 1 Chapter 5 Section 5-2 Capacitance</h1><h2 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h2><ul><li>The capacitance of a capacitor depends on the dielectric constant, plate area, and plate distance.</li><li>Capacitance formula:<br>$$<br>C &#x3D; \frac{\varepsilon A}{d}<br>$$<br>where  <ul><li>( \varepsilon &#x3D; \varepsilon_r \times \varepsilon_0 ) (dielectric constant)  </li><li>( A ) is the plate area (in square meters)  </li><li>( d ) is the distance between plates (in meters)</li></ul></li><li>Capacitance is directly proportional to plate area and dielectric constant, and inversely proportional to plate distance.</li><li>Vacuum permittivity ( \varepsilon_0 \approx 8.85 \times 10^{-12} , F&#x2F;m ).</li><li>Relative permittivity ( \varepsilon_r ) varies by material (vacuum&#x3D;1, air ~1.0006, ceramic ~5, etc.).</li><li>Example problems demonstrate how to calculate capacitance by substituting values.</li><li>Capacitor series and parallel capacitance calculations will be introduced later.</li><li>Basic concept of energy storage in capacitors will also be covered later.</li></ul><hr><h1 id="基本電學第一冊-第五章-5-2-電容量"><a href="#基本電學第一冊-第五章-5-2-電容量" class="headerlink" title="基本電學第一冊 第五章 5-2 電容量"></a>基本電學第一冊 第五章 5-2 電容量</h1><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul><li>電容器的電容量與介電係數、極板面積及極板距離有關。</li><li>電容量公式：<br>$$<br>C &#x3D; \frac{\varepsilon A}{d}<br>$$<br>其中，  <ul><li>( \varepsilon &#x3D; \varepsilon_r \times \varepsilon_0 )（介電係數）  </li><li>( A ) 是極板面積（單位：平方米）  </li><li>( d ) 是極板間距離（單位：公尺）</li></ul></li><li>電容量與極板面積及介電係數成正比，與極板距離成反比。</li><li>真空介電係數 ( \varepsilon_0 \approx 8.85 \times 10^{-12} , F&#x2F;m )。</li><li>相對介電係數 ( \varepsilon_r ) 依材料不同而異（真空&#x3D;1，空氣約1.0006，陶瓷約5等）。</li><li>例題演示如何代入數值計算電容量。</li><li>電容器串聯與並聯的電容量計算（後續章節介紹）。</li><li>電容器儲能的基本概念（後續章節介紹）。</li></ul><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=mwM28WTJYbQ">基本電學第一冊 第五章 5-2 電容量 - 張書誠老師</a></p><hr><p><em>本文發布日期：2025-08-02</em></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Basic-Electricity-Volume-1-Chapter-5-Section-5-2-Capacitance&quot;&gt;&lt;a href=&quot;#Basic-Electricity-Volume-1-Chapter-5-Section-5-2-Capacitance</summary>
-        
-      
-    
-    
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="電容量" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E5%AE%B9%E9%87%8F/"/>
-    
-    <category term="電容器" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E5%AE%B9%E5%99%A8/"/>
-    
-    <category term="介電係數" scheme="https://bill55tt.github.io/tags/%E4%BB%8B%E9%9B%BB%E4%BF%82%E6%95%B8/"/>
-    
-    <category term="串聯並聯" scheme="https://bill55tt.github.io/tags/%E4%B8%B2%E8%81%AF%E4%B8%A6%E8%81%AF/"/>
-    
-    <category term="儲能" scheme="https://bill55tt.github.io/tags/%E5%84%B2%E8%83%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Advanced Practice on RC Charging Circuit Transients</title>
-    <link href="https://bill55tt.github.io/2025/08/02/rc-charging-circuit-transients/"/>
-    <id>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-transients/</id>
-    <published>2025-08-02T04:00:00.000Z</published>
-    <updated>2025-08-02T14:16:38.069Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Advanced-Practice-on-RC-Charging-Circuit-Transients"><a href="#Advanced-Practice-on-RC-Charging-Circuit-Transients" class="headerlink" title="Advanced Practice on RC Charging Circuit Transients"></a>Advanced Practice on RC Charging Circuit Transients</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This article provides an in-depth analysis of RC charging circuit transients through advanced practice problems. We will explore the application of Thevenin’s theorem in simplifying complex circuits and solving transient responses.</p><h2 id="Key-Concepts"><a href="#Key-Concepts" class="headerlink" title="Key Concepts"></a>Key Concepts</h2><h3 id="1-Thevenin’s-Theorem-Application"><a href="#1-Thevenin’s-Theorem-Application" class="headerlink" title="1. Thevenin’s Theorem Application"></a>1. Thevenin’s Theorem Application</h3><p>Use Thevenin’s theorem to convert complex circuits into equivalent circuits for easier analysis.</p><h3 id="2-Equivalent-Parameter-Calculation"><a href="#2-Equivalent-Parameter-Calculation" class="headerlink" title="2. Equivalent Parameter Calculation"></a>2. Equivalent Parameter Calculation</h3><p>Calculate Thevenin equivalent voltage (E_{th}) and resistance (R_{th}):</p><ul><li>(E_{th}): Open-circuit voltage across the terminals</li><li>(R_{th}): Equivalent resistance seen from the terminals</li></ul><h3 id="3-Time-Constant"><a href="#3-Time-Constant" class="headerlink" title="3. Time Constant"></a>3. Time Constant</h3><p>The time constant (\tau) determines the charging rate:<br>[\tau &#x3D; R_{th} \times C]</p><h3 id="4-Transient-Response-Formulas"><a href="#4-Transient-Response-Formulas" class="headerlink" title="4. Transient Response Formulas"></a>4. Transient Response Formulas</h3><ul><li>Capacitor voltage: (v_C(t) &#x3D; E_{th}(1 - e^{-t&#x2F;\tau}))</li><li>Charging current: (i(t) &#x3D; \frac{E_{th}}{R_{th}}e^{-t&#x2F;\tau})</li></ul><h2 id="Problem-Solving-Steps"><a href="#Problem-Solving-Steps" class="headerlink" title="Problem-Solving Steps"></a>Problem-Solving Steps</h2><ol><li><p><strong>Circuit Simplification</strong></p><ul><li>Identify the circuit components</li><li>Apply Thevenin’s theorem</li><li>Draw the equivalent circuit</li></ul></li><li><p><strong>Parameter Calculation</strong></p><ul><li>Calculate (E_{th}) by removing the capacitor and finding open-circuit voltage</li><li>Calculate (R_{th}) by short-circuiting voltage sources and opening current sources</li></ul></li><li><p><strong>Time Constant Determination</strong></p><ul><li>Use the formula (\tau &#x3D; R_{th} \times C)</li></ul></li><li><p><strong>Transient Analysis</strong></p><ul><li>Apply the appropriate formulas for voltage and current</li><li>Consider initial conditions if necessary</li></ul></li></ol><h2 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h2><p>RC charging circuits are fundamental in:</p><ul><li>Power supply design</li><li>Signal processing</li><li>Timing circuits</li><li>Filter design</li></ul><h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><strong>Title:</strong> 高中 張偉勤 基本電學 Unit7 1 9 RC充電電路暫態進階例題演練<br><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=9Uz69Gj1BF4">https://www.youtube.com/watch?v=9Uz69Gj1BF4</a></p><hr><h1 id="RC-充電電路暫態進階例題演練"><a href="#RC-充電電路暫態進階例題演練" class="headerlink" title="RC 充電電路暫態進階例題演練"></a>RC 充電電路暫態進階例題演練</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文透過進階例題深入分析 RC 充電電路的暫態響應。我們將探討戴維寧定理在簡化複雜電路和求解暫態響應中的應用。</p><h2 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a>核心概念</h2><h3 id="1-戴維寧定理應用"><a href="#1-戴維寧定理應用" class="headerlink" title="1. 戴維寧定理應用"></a>1. 戴維寧定理應用</h3><p>利用戴維寧定理將複雜電路轉換為等效電路，便於分析。</p><h3 id="2-等效參數計算"><a href="#2-等效參數計算" class="headerlink" title="2. 等效參數計算"></a>2. 等效參數計算</h3><p>計算戴維寧等效電壓 (E_{th}) 與等效電阻 (R_{th})：</p><ul><li>(E_{th})：端點開路電壓</li><li>(R_{th})：從端點看入的等效電阻</li></ul><h3 id="3-時間常數"><a href="#3-時間常數" class="headerlink" title="3. 時間常數"></a>3. 時間常數</h3><p>時間常數 (\tau) 決定充電速率：<br>[\tau &#x3D; R_{th} \times C]</p><h3 id="4-暫態響應公式"><a href="#4-暫態響應公式" class="headerlink" title="4. 暫態響應公式"></a>4. 暫態響應公式</h3><ul><li>電容電壓：(v_C(t) &#x3D; E_{th}(1 - e^{-t&#x2F;\tau}))</li><li>充電電流：(i(t) &#x3D; \frac{E_{th}}{R_{th}}e^{-t&#x2F;\tau})</li></ul><h2 id="解題步驟"><a href="#解題步驟" class="headerlink" title="解題步驟"></a>解題步驟</h2><ol><li><p><strong>電路簡化</strong></p><ul><li>識別電路元件</li><li>應用戴維寧定理</li><li>繪製等效電路</li></ul></li><li><p><strong>參數計算</strong></p><ul><li>移除電容，計算開路電壓得到 (E_{th})</li><li>短路電壓源，開路電流源，計算 (R_{th})</li></ul></li><li><p><strong>時間常數確定</strong></p><ul><li>使用公式 (\tau &#x3D; R_{th} \times C)</li></ul></li><li><p><strong>暫態分析</strong></p><ul><li>應用適當的電壓和電流公式</li><li>考慮初始條件（如需要）</li></ul></li></ol><h2 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h2><p>RC 充電電路在以下領域中具有基礎重要性：</p><ul><li>電源供應器設計</li><li>信號處理</li><li>計時電路</li><li>濾波器設計</li></ul><h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><strong>標題：</strong> 高中 張偉勤 基本電學 Unit7 1 9 RC充電電路暫態進階例題演練<br><strong>連結：</strong> <a href="https://www.youtube.com/watch?v=9Uz69Gj1BF4">https://www.youtube.com/watch?v=9Uz69Gj1BF4</a></p><hr><p><em>本文發布日期：2025-08-02</em> </p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Advanced-Practice-on-RC-Charging-Circuit-Transients&quot;&gt;&lt;a href=&quot;#Advanced-Practice-on-RC-Charging-Circuit-Transients&quot; class=&quot;headerlin</summary>
-        
-      
-    
-    
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    
-    <category term="RC電路" scheme="https://bill55tt.github.io/tags/RC%E9%9B%BB%E8%B7%AF/"/>
-    
-    <category term="電路分析" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E8%B7%AF%E5%88%86%E6%9E%90/"/>
-    
-    <category term="暫態響應" scheme="https://bill55tt.github.io/tags/%E6%9A%AB%E6%85%8B%E9%9F%BF%E6%87%89/"/>
-    
-    <category term="戴維寧定理" scheme="https://bill55tt.github.io/tags/%E6%88%B4%E7%B6%AD%E5%AF%A7%E5%AE%9A%E7%90%86/"/>
     
   </entry>
   
