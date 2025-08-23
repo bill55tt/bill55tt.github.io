@@ -10447,6 +10447,94 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
       </tags>
   </entry>
   <entry>
+    <title>交流電路功率綜合練習（Part E 範例） / Comprehensive Practice of AC Circuit Power (Part E Example)</title>
+    <url>/2025/08/03/ac-power-comprehensive-practice-part-e/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Comprehensive Practice of AC Circuit Power (Part E Example)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Use given time-domain waveforms to construct phasors and compute PF, S, P, and Q.</li>
+<li><strong>Why it matters</strong>: Connect time-domain signals to phasor-domain analysis for power calculations.</li>
+<li><strong>What you’ll learn</strong>: Convert cos to sin with a phase shift, identify load type, and compute power quantities.</li>
+</ul>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul>
+<li>Given:<ul>
+<li>( v(t) &#x3D; 200\sqrt{2} \cos(500t) )</li>
+<li>( i(t) &#x3D; 20\sqrt{2} \sin(500t) )</li>
+</ul>
+</li>
+<li>Phase relation:<ul>
+<li>( v(t) &#x3D; 200\sqrt{2} \sin(500t + 90^\circ) )</li>
+<li>Voltage phasor: ( 200 \angle 90^\circ )</li>
+<li>Current phasor: ( 20 \angle 0^\circ )</li>
+<li>( \Delta\theta &#x3D; 90^\circ ) → current lags 90° → pure inductive load.</li>
+</ul>
+</li>
+<li>Load type and value:<ul>
+<li>Pure inductive</li>
+<li>( X_L &#x3D; V&#x2F;I &#x3D; 10,\Omega )</li>
+<li>( L &#x3D; X_L&#x2F;\omega &#x3D; 10&#x2F;500 &#x3D; 20,\text{mH} )</li>
+</ul>
+</li>
+<li>PF: ( \cos 90^\circ &#x3D; 0 ) → PF &#x3D; 0 (lagging)</li>
+<li>Apparent power: ( S &#x3D; V I &#x3D; 200 \times 20 &#x3D; 4000 ) VA</li>
+<li>Active power: ( P &#x3D; VI\cos\theta &#x3D; 0 )</li>
+<li>Reactive power: ( Q &#x3D; VI\sin\theta &#x3D; 4000 ) var</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">AC Power Comprehensive Practice – Part E</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>交流電路功率綜合練習（Part E 範例）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：由時域波形建立相量，並計算 PF、S、P、Q。</li>
+<li><strong>為何重要</strong>：將時域訊號與相量分析連結，完成功率計算。</li>
+<li><strong>你將學到</strong>：將 cos 轉為 sin 並加入相位、判定負載型態、計算各功率量。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>已知：<ul>
+<li>( v(t) &#x3D; 200\sqrt{2} \cos(500t) )</li>
+<li>( i(t) &#x3D; 20\sqrt{2} \sin(500t) )</li>
+</ul>
+</li>
+<li>相位關係：<ul>
+<li>( v(t) &#x3D; 200\sqrt{2} \sin(500t + 90^\circ) )</li>
+<li>電壓相量：( 200 \angle 90^\circ )</li>
+<li>電流相量：( 20 \angle 0^\circ )</li>
+<li>相位差 (90^\circ)：電流滯後 90° → 純電感負載</li>
+</ul>
+</li>
+<li>負載種類與數值：<ul>
+<li>純電感</li>
+<li>( X_L &#x3D; V&#x2F;I &#x3D; 10,\Omega )</li>
+<li>( L &#x3D; X_L&#x2F;\omega &#x3D; 10&#x2F;500 &#x3D; 20,\text{mH} )</li>
+</ul>
+</li>
+<li>功率因數：( \cos 90^\circ &#x3D; 0 ) → PF &#x3D; 0（滯後）</li>
+<li>視在功率：( S &#x3D; V I &#x3D; 200 \times 20 &#x3D; 4000 ) VA</li>
+<li>平均功率：( P &#x3D; VI\cos\theta &#x3D; 0 )</li>
+<li>無功功率：( Q &#x3D; VI\sin\theta &#x3D; 4000 ) var</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">@交流電路功率綜合練習 Part E</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">https://www.youtube.com/watch?v=dj0F-Pw0BS4</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>無功功率</tag>
+        <tag>相量</tag>
+        <tag>純電感</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AC Power:Instantaneous Power Equation Analysis</title>
     <url>/2025/08/02/ac-power-instantaneous-power-equation-analysis/</url>
     <content><![CDATA[<h1 id="AC-Power-Instantaneous-Power-Equation-Analysis"><a href="#AC-Power-Instantaneous-Power-Equation-Analysis" class="headerlink" title="AC Power: Instantaneous Power Equation Analysis"></a>AC Power: Instantaneous Power Equation Analysis</h1><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
@@ -10526,6 +10614,461 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
         <tag>正弦波</tag>
         <tag>波形</tag>
         <tag>相位</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_PART B 範例：PT/QT/ST 與 PF（電路圖題型一）</title>
+    <url>/2025/08/03/ac-power-part-b-type1-pt-qt-st-pf/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering – AC Power – PART B Example: PT, QT, ST, and PF (Circuit Diagram Type 1)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Compute total active, reactive, and apparent power plus PF from a multi-branch circuit.</li>
+<li><strong>Why it matters</strong>: Aggregating branch P and Q correctly is essential to get the overall PF right.</li>
+<li><strong>What you’ll learn</strong>: Branch RMS currents, branch P&#x2F;Q, totals PT&#x2F;QT, and ST, PF derivation.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li>Problem type: Circuit diagram Type 1 → find PT, QT, ST, PF.</li>
+<li>Currents:<ul>
+<li>Source RMS voltage &#x3D; 200 V.</li>
+<li>Each branch impedance &#x3D; 20 Ω → ( I_1 &#x3D; I_2 &#x3D; I_3 &#x3D; 10 ) A (RMS).</li>
+</ul>
+</li>
+<li>Total Active Power (P_T):<ul>
+<li>( P_1 &#x3D; I_1^2 \times 20 &#x3D; 10^2 \times 20 &#x3D; 2000 ) W</li>
+<li>( P_2 &#x3D; I_2^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li>
+<li>( P_3 &#x3D; I_3^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li>
+<li>( P_T &#x3D; 2000 + 1600 + 1600 &#x3D; 5200 ) W</li>
+</ul>
+</li>
+<li>Total Reactive Power (Q_T):<ul>
+<li>Inductive: ( Q_L &#x3D; I_2^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li>
+<li>Capacitive: ( Q_C &#x3D; I_3^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li>
+<li>( Q_T &#x3D; |Q_L - Q_C| &#x3D; 0 ) var</li>
+</ul>
+</li>
+<li>Total Apparent Power (S_T):<ul>
+<li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} &#x3D; \sqrt{5200^2 + 0} &#x3D; 5200 ) VA</li>
+</ul>
+</li>
+<li>Power Factor (PF):<ul>
+<li>( PF &#x3D; P_T &#x2F; S_T &#x3D; 5200&#x2F;5200 &#x3D; 1 )</li>
+</ul>
+</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=GSbtkmsxMag">PART B – Type 1 Example: PT&#x2F;QT&#x2F;ST&#x2F;PF</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_PART B 範例：PT&#x2F;QT&#x2F;ST 與 PF（電路圖題型一）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：由多支路電路計算總平均功率、總虛功率、總視在功率與功率因數。</li>
+<li><strong>為何重要</strong>：正確彙總各支路的 P 與 Q 才能得到正確的整體 PF。</li>
+<li><strong>你將學到</strong>：求支路電流、支路 P&#x2F;Q，加總得到 PT&#x2F;QT，再求 ST 與 PF。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>題型：電路圖題型一，求 PT、QT、ST、PF。</li>
+<li>電流計算：<ul>
+<li>電源電壓有效值 200 V。</li>
+<li>各支路阻抗皆 20 Ω → ( I_1 &#x3D; I_2 &#x3D; I_3 &#x3D; 10 ) A（有效值）。</li>
+</ul>
+</li>
+<li>總平均功率 (P_T)：<ul>
+<li>( P_1 &#x3D; I_1^2 \times 20 &#x3D; 10^2 \times 20 &#x3D; 2000 ) W</li>
+<li>( P_2 &#x3D; I_2^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li>
+<li>( P_3 &#x3D; I_3^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li>
+<li>( P_T &#x3D; 2000 + 1600 + 1600 &#x3D; 5200 ) W</li>
+</ul>
+</li>
+<li>總虛功率 (Q_T)：<ul>
+<li>電感：( Q_L &#x3D; I_2^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li>
+<li>電容：( Q_C &#x3D; I_3^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li>
+<li>( Q_T &#x3D; |Q_L - Q_C| &#x3D; 0 ) var</li>
+</ul>
+</li>
+<li>總視在功率 (S_T)：<ul>
+<li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} &#x3D; \sqrt{5200^2 + 0} &#x3D; 5200 ) VA</li>
+</ul>
+</li>
+<li>功率因數 (PF)：<ul>
+<li>( PF &#x3D; P_T &#x2F; S_T &#x3D; 5200&#x2F;5200 &#x3D; 1 )</li>
+</ul>
+</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=GSbtkmsxMag">@PART B 題型一：PT&#x2F;QT&#x2F;ST&#x2F;PF</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=GSbtkmsxMag">https://www.youtube.com/watch?v=GSbtkmsxMag</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>無功功率</tag>
+        <tag>功率因數</tag>
+        <tag>題型解析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_功率因數之改善_PART A 為何要改善功率因數？</title>
+    <url>/2025/08/03/ac-power-power-factor-improvement-part-a/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Factor Improvement – PART A: Why Improve Power Factor?</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Explain the meaning of power factor (PF), the downsides of low PF, and benefits of improvement.</li>
+<li><strong>Why it matters</strong>: PF impacts losses, voltage regulation, and equipment sizing; utilities also price by PF.</li>
+<li><strong>What you’ll learn</strong>: Practical reasons and typical outcomes of PF correction in distribution systems.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li>Meaning of PF: PF &#x3D; active power &#x2F; apparent power; PF 71% → only 71% useful, 29% reactive.</li>
+<li>Effects of low PF:<ul>
+<li>Higher input current → more copper, higher line losses ((I^2R)).</li>
+<li>Larger voltage drop → degraded power quality.</li>
+<li>Bigger capacity required for transformers&#x2F;generators.</li>
+</ul>
+</li>
+<li>Benefits of improving PF:<ul>
+<li>Save electricity bills (penalized &lt; 80%, discounts &gt; 80% vary by utility).</li>
+<li>Reduce input current, increasing line&#x2F;transformer capacity.</li>
+<li>Improve power quality; stabilize voltage.</li>
+<li>Extend equipment lifespan.</li>
+</ul>
+</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">Power Factor Improvement – PART A</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率因數之改善_PART A 為何要改善功率因數？</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：說明功率因數（PF）的意義、低 PF 的不利影響，以及改善之效益。</li>
+<li><strong>為何重要</strong>：PF 影響線路損失、電壓調節與設備容量，亦與電費計價相關。</li>
+<li><strong>你將學到</strong>：配電系統進行 PF 改善的實務原因與常見成效。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>功率因數意義：PF &#x3D; 有效功率 &#x2F; 視在功率；PF 71% → 有效利用 71%，29% 為虛功。</li>
+<li>PF 低的影響：<ul>
+<li>輸入電流提高 → 導線銅量增加、線路損失（(I^2R)）變大。</li>
+<li>線路壓降上升 → 供電品質變差。</li>
+<li>變壓器、發電設備所需容量提高。</li>
+</ul>
+</li>
+<li>改善 PF 的好處：<ul>
+<li>節省電費（多數電力公司 PF &lt; 80% 加收費用；&gt; 80% 依規有折扣）。</li>
+<li>降低輸入電流，提升線路與變壓器供電能力。</li>
+<li>改善供電品質、穩定電壓。</li>
+<li>延長電力設備壽命。</li>
+</ul>
+</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">@功率因數改善_PART A</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">https://www.youtube.com/watch?v=XWqf3MwE-n0</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>功率因數</tag>
+        <tag>功率品質</tag>
+        <tag>省電</tag>
+        <tag>電力系統</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_PART D 範例：PT、QT、ST 及 PF 方塊圖題型（二範例）</title>
+    <url>/2025/08/03/ac-power-pt-qt-st-pf-part-d-block-examples/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – PART D Examples: PT, QT, ST and PF Block Diagram Problems (Two Examples)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Use block diagrams to represent load powers, then compute total PT, QT, ST, and PF.</li>
+<li><strong>Why it matters</strong>: Block diagrams help visualize contributions of different loads and avoid sign mistakes in Q.</li>
+<li><strong>What you’ll learn</strong>: Summation strategies for PT&#x2F;QT, relation to ST, and PF interpretation (leading vs. lagging).</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li><strong>Block Diagram Problem Type</strong>: Represent powers per load to streamline total calculations.</li>
+<li><strong>Total Active Power (PT)</strong>: Sum of all loads’ active powers.</li>
+<li><strong>Total Reactive Power (QT)</strong>: Absolute difference between inductive and capacitive reactive powers.</li>
+<li><strong>Total Apparent Power (ST)</strong>: ( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} ).</li>
+<li><strong>Power Factor (PF)</strong>: ( PF &#x3D; \dfrac{P_T}{S_T} ), label as leading or lagging.</li>
+<li><strong>Example 1</strong>: Compute PT, QT, ST, PF directly from given blocks.</li>
+<li><strong>Example 2</strong>: Infer missing values via PF–S relation before summing totals.</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">AC Power – PART D: Block Diagram Examples for PT&#x2F;QT&#x2F;ST&#x2F;PF</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_PART D 範例：PT、QT、ST 及 PF 方塊圖題型（二範例）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：用方塊圖呈現各負載功率，進而計算總 PT、QT、ST 與 PF。</li>
+<li><strong>為何重要</strong>：方塊圖可清楚看出各負載的貢獻，避免 Q 正負號混淆。</li>
+<li><strong>你將學到</strong>：PT&#x2F;QT 加總策略、與 ST 之關係，以及 PF（超前&#x2F;滯後）的判讀。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li><strong>方塊圖題型介紹</strong>：以方塊圖表示負載功率，方便計算總功率。</li>
+<li><strong>總平均功率 PT 計算</strong>：將各負載平均功率相加。</li>
+<li><strong>總虛功率 QT 計算</strong>：電感虛功率減去電容虛功率的絕對值。</li>
+<li><strong>總視在功率 ST 計算</strong>：( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )。</li>
+<li><strong>功率因數 PF 計算</strong>：( PF &#x3D; \dfrac{P_T}{S_T} )，並判斷超前或滯後。</li>
+<li><strong>範例一</strong>：依方塊圖數據直接計算 PT、QT、ST、PF。</li>
+<li><strong>範例二</strong>：部分數據缺失，先用 PF 與視在功率關係間接求未知功率，再計算總功率與功率因數。</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">@高中基本電學_交流電功率_PART D：PT&#x2F;QT&#x2F;ST&#x2F;PF 方塊圖範例</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">https://www.youtube.com/watch?v=pHsVx-Z3WWM</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>虛功率</tag>
+        <tag>功率因數</tag>
+        <tag>題型解析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_題型二：PT/QT/ST 與 PF 的計算步驟_PART A（延伸）</title>
+    <url>/2025/08/21/ac-power-pt-qt-st-pf-type2/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering – AC Power – Problem Type 2: Steps for PT&#x2F;QT&#x2F;ST and PF (PART A, Extended)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Solve a representative circuit (type 2) by computing branch currents, then PT, QT, ST, and PF.</li>
+<li><strong>Why it matters</strong>: A structured flow avoids mixing P and Q contributions and clarifies lagging vs. leading PF.</li>
+<li><strong>What you’ll learn</strong>: How to apply current division, sum active&#x2F;reactive power, and derive overall apparent power and PF.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol>
+<li><strong>Example Problem Introduction</strong><ul>
+<li>Circuit type 2 for PT, QT, ST, and PF</li>
+<li>Tasks: compute powers and power factor</li>
+</ul>
+</li>
+<li><strong>Calculation of Branch Currents</strong><ul>
+<li>Use current division to obtain RMS currents ( I_1, I_2, I_3 )</li>
+<li>( I_1, I_2 ) via impedance division; ( I_3 ) equals total current</li>
+</ul>
+</li>
+<li><strong>Total Active Power (P_T)</strong><ul>
+<li>Resistor power: ( P &#x3D; I^2 R )</li>
+<li>Sum power on 5 Ω and 1 Ω resistors</li>
+</ul>
+</li>
+<li><strong>Total Reactive Power (Q_T)</strong><ul>
+<li>Reactors&#x2F;capacitor: ( Q &#x3D; I^2 X )</li>
+<li>Sum inductive Q and subtract capacitive Q</li>
+</ul>
+</li>
+<li><strong>Total Apparent Power (S_T)</strong><ul>
+<li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li>
+</ul>
+</li>
+<li><strong>Power Factor (PF)</strong><ul>
+<li>( PF &#x3D; \dfrac{P_T}{S_T} ), indicate lagging (inductive) or leading (capacitive)</li>
+</ul>
+</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=xj8fkCl21SA">AC Power – Problem Type 2: PT&#x2F;QT&#x2F;ST and PF</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_題型二：PT&#x2F;QT&#x2F;ST 與 PF 的計算步驟_PART A（延伸）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：針對題型二，先由各支路電流著手，依序求 PT、QT、ST 與 PF。</li>
+<li><strong>為何重要</strong>：流程化可避免 P、Q 來源混淆，並正確判定滯後&#x2F;超前功率因數。</li>
+<li><strong>你將學到</strong>：分流定則應用、P&#x2F;Q 加總、視在功率與功率因數的整體推導。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
+<li><strong>範例題目介紹</strong><ul>
+<li>介紹 PT、QT、ST 與 PF 的電路圖題型二</li>
+<li>求各項功率與功率因數</li>
+</ul>
+</li>
+<li><strong>各支路電流計算</strong><ul>
+<li>使用分流定則計算 ( I_1, I_2, I_3 )（有效值）</li>
+<li>( I_1, I_2 ) 由阻抗分流；( I_3 ) 與總電流相同</li>
+</ul>
+</li>
+<li><strong>總平均功率 (P_T) 計算</strong><ul>
+<li>電阻功率：( P &#x3D; I^2 R )</li>
+<li>計算 5 Ω 與 1 Ω 電阻功率並相加</li>
+</ul>
+</li>
+<li><strong>總虛功率 (Q_T) 計算</strong><ul>
+<li>電感&#x2F;電容的虛功率：( Q &#x3D; I^2 X )</li>
+<li>電感虛功率相加後減去電容虛功率</li>
+</ul>
+</li>
+<li><strong>總視在功率 (S_T) 計算</strong><ul>
+<li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li>
+</ul>
+</li>
+<li><strong>功率因數 (PF) 計算</strong><ul>
+<li>( PF &#x3D; \dfrac{P_T}{S_T} )，結果標註滯後（電感性）或超前（電容性）</li>
+</ul>
+</li>
+</ol>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=xj8fkCl21SA">@高中基本電學_交流電功率_題型二：PT&#x2F;QT&#x2F;ST 與 PF</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月21日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=xj8fkCl21SA">https://www.youtube.com/watch?v=xj8fkCl21SA</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>虛功率</tag>
+        <tag>功率因數</tag>
+        <tag>題型解析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_PT/QT/ST 與 PF 求解步驟_PART A</title>
+    <url>/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a-20250803/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering – AC Power: Total Active Power (PT), Total Reactive Power (QT), Total Apparent Power (ST), and Power Factor (PF) Calculation Steps – PART A</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: A structured procedure to compute PT, QT, ST, and PF, including multi-branch circuits.</li>
+<li><strong>Why it matters</strong>: Avoids phase mistakes by summing branch powers correctly before deriving system PF.</li>
+<li><strong>What you’ll learn</strong>: From branch RMS currents → branch P&#x2F;Q → totals PT&#x2F;QT → ST and PF.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li>( S &#x3D; V I )</li>
+<li>( P &#x3D; S\cos\theta )</li>
+<li>( Q &#x3D; S\sin\theta )</li>
+<li>( PF &#x3D; \cos\theta )</li>
+<li>Complex circuits: first find each branch RMS current, then compute each branch’s (P_i, Q_i)</li>
+<li>( P_T &#x3D; \sum P_i )</li>
+<li>( Q_T &#x3D; |Q_L - Q_C| )</li>
+<li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li>
+<li>( PF &#x3D; P_T&#x2F;S_T )</li>
+<li>Inductive loads → lagging PF; capacitive loads → leading PF</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">PT&#x2F;QT&#x2F;ST &amp; PF – Steps (PART A)</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_總平均功率PT、總虛功率QT、總視在功率ST及功率因數PF求解步驟_PART A</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：以流程化方式求 PT、QT、ST 與 PF，並適用於多支路電路。</li>
+<li><strong>為何重要</strong>：先分支計算、再總結，可避免相位誤判並正確求得整體 PF。</li>
+<li><strong>你將學到</strong>：從各支路電流有效值 → 支路 (P_i&#x2F;Q_i) → 總 (P_T&#x2F;Q_T) → (S_T)、(PF)。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>視在功率：( S &#x3D; V I )</li>
+<li>平均功率：( P &#x3D; S\cos\theta )</li>
+<li>虛功率：( Q &#x3D; S\sin\theta )</li>
+<li>功率因數：( PF &#x3D; \cos\theta )</li>
+<li>複雜電路：先求各支路電流有效值，再計算各支路 (P_i)、(Q_i)</li>
+<li>總平均功率：( P_T &#x3D; \sum P_i )</li>
+<li>總虛功率：( Q_T &#x3D; |Q_L - Q_C| )</li>
+<li>總視在功率：( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li>
+<li>功率因數：( PF &#x3D; P_T&#x2F;S_T )</li>
+<li>負載性質：電感性→滯後、電容性→超前</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">@PT&#x2F;QT&#x2F;ST 與 PF 求解步驟（PART A）</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">https://www.youtube.com/watch?v=-f8dEnT8nR8</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>無功功率</tag>
+        <tag>功率因數</tag>
+        <tag>計算步驟</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_總平均功率PT、總虛功率QT、總視在功率ST及功率因數PF求解步驟_PART A</title>
+    <url>/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering - AC Power: Total Active Power (PT), Total Reactive Power (QT), Total Apparent Power (ST), and Power Factor (PF) Calculation Steps_PART A</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: A step-by-step method to compute PT, QT, ST, and PF for AC circuits, including multi-branch cases.</li>
+<li><strong>Why it matters</strong>: Summarizing P and Q across branches avoids phase mistakes and leads to a reliable overall PF.</li>
+<li><strong>What you’ll learn</strong>: How to get branch RMS currents, compute branch P and Q, aggregate to PT&#x2F;QT, then obtain ST and PF.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li>Apparent power: ( S &#x3D; V \times I )</li>
+<li>Active (average) power: ( P &#x3D; S \times \cos\theta )</li>
+<li>Reactive power: ( Q &#x3D; S \times \sin\theta )</li>
+<li>Power factor: ( PF &#x3D; \cos\theta )</li>
+<li>For complex circuits: first find RMS current of each branch, then compute each branch’s (P_i) and (Q_i)</li>
+<li>Total active power: ( P_T &#x3D; \sum P_i )</li>
+<li>Total reactive power: ( Q_T &#x3D; |Q_L - Q_C| ) (absolute difference between inductive and capacitive reactive power)</li>
+<li>Total apparent power: ( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li>
+<li>Power factor: ( PF &#x3D; \dfrac{P_T}{S_T} )</li>
+<li>Inductive loads → lagging PF; capacitive loads → leading PF</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">AC Power – PT&#x2F;QT&#x2F;ST and PF Calculation Steps (PART A)</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_總平均功率PT、總虛功率QT、總視在功率ST及功率因數PF求解步驟_PART A</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：以步驟化方式說明 AC 電路中 PT、QT、ST 與 PF 的求解流程，亦涵蓋多支路電路。</li>
+<li><strong>為何重要</strong>：先分支後總結的方式可避免相位判斷錯誤，得到可靠的整體功率因數。</li>
+<li><strong>你將學到</strong>：如何求各支路電流有效值、計算各支路 (P_i)、(Q_i)，再彙總得到 (P_T)、(Q_T)，進而求得 (S_T) 與 (PF)。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>視在功率：( S &#x3D; V \times I )</li>
+<li>平均功率：( P &#x3D; S \times \cos\theta )</li>
+<li>虛功率：( Q &#x3D; S \times \sin\theta )</li>
+<li>功率因數：( PF &#x3D; \cos\theta )</li>
+<li>複雜電路：先求各支路電流有效值，再計算各支路的 (P_i)、(Q_i)</li>
+<li>總平均功率：( P_T &#x3D; \sum P_i )</li>
+<li>總虛功率：( Q_T &#x3D; |Q_L - Q_C| )（電感與電容虛功率差的絕對值）</li>
+<li>總視在功率：( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li>
+<li>功率因數：( PF &#x3D; \dfrac{P_T}{S_T} )</li>
+<li>負載性質：電感性→滯後 PF；電容性→超前 PF</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">@高中基本電學_交流電功率_PT&#x2F;QT&#x2F;ST 與 PF 求解步驟_PART A</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">https://www.youtube.com/watch?v=-f8dEnT8nR8</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>虛功率</tag>
+        <tag>功率因數</tag>
+        <tag>計算步驟</tag>
       </tags>
   </entry>
   <entry>
@@ -11930,6 +12473,187 @@ document.addEventListener('DOMContentLoaded', function() { showLang('both'); });
       </tags>
   </entry>
   <entry>
+    <title>並聯電容器大小計算與功率因數改善 / Calculation of Parallel Capacitor Size and PF Improvement</title>
+    <url>/2025/09/25/parallel-capacitor-sizing-and-pf-improvement-20250925/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Calculation of Parallel Capacitor Size and Power Factor Improvement</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Derive required capacitor reactive power for PF correction and convert it to capacitance.</li>
+<li><strong>Why it matters</strong>: Proper capacitor sizing reduces current, losses, and penalties while improving voltage regulation.</li>
+<li><strong>What you’ll learn</strong>: Use PF angles to compute (Q_C) and convert to (C) via frequency and voltage.</li>
+</ul>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul>
+<li>PF improvement by adding a shunt capacitor across an inductive load.</li>
+<li>Reactive power:<ul>
+<li>Before: ( Q_L &#x3D; P\tan\theta_1 )</li>
+<li>After: ( Q_T &#x3D; P\tan\theta_2 )</li>
+<li>Capacitor: ( Q_C &#x3D; Q_L - Q_T &#x3D; P(\tan\theta_1 - \tan\theta_2) )</li>
+</ul>
+</li>
+<li>Capacitance sizing:<br>[<br>C &#x3D; \frac{Q_C}{2\pi f V^2}<br>]<br>where (f) is frequency, (V) is voltage (RMS), (Q_C) is capacitor reactive power.</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=F45PX-GllE8">Auto-translated video</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>並聯電容器大小計算與功率因數改善</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：由功率因數角推得所需電容虛功並換算電容量。</li>
+<li><strong>為何重要</strong>：適當的電容補償可降低電流與線損、改善電壓調節並避免低 PF 罰款。</li>
+<li><strong>你將學到</strong>：利用 PF 角計算 (Q_C)，並以頻率與電壓換算為 (C)。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>改善 PF 方法：在電感性負載兩端並聯電容器。</li>
+<li>虛功計算：<ul>
+<li>改善前 ( Q_L &#x3D; P\tan\theta_1 )</li>
+<li>改善後 ( Q_T &#x3D; P\tan\theta_2 )</li>
+<li>電容 ( Q_C &#x3D; Q_L - Q_T &#x3D; P(\tan\theta_1 - \tan\theta_2) )</li>
+</ul>
+</li>
+<li>電容量公式：<br>[<br>C &#x3D; \frac{Q_C}{2\pi f V^2}<br>]<br>其中 (f) 為頻率、(V) 為電壓（有效值）、(Q_C) 為電容虛功。</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=F45PX-GllE8">@自動翻譯影片</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年09月25日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=F45PX-GllE8">https://www.youtube.com/watch?v=F45PX-GllE8</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>虛功率</tag>
+        <tag>功率因數</tag>
+        <tag>功率三角形</tag>
+        <tag>電容補償</tag>
+        <tag>電力品質</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>交流電功率_功率因數對交流電路的影響範例 / Effect of Power Factor on AC Circuit Power</title>
+    <url>/2025/08/03/pf-effect-on-ac-circuit/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Example: Effect of Power Factor on AC Circuit Power</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Compare apparent power and current under different PF while keeping the same active power.</li>
+<li><strong>Why it matters</strong>: Lower PF increases current and losses; improving PF reduces capacity needs and cost.</li>
+<li><strong>What you’ll learn</strong>: Quick PF-to-current impact using ( S &#x3D; P&#x2F;PF ) and ( I &#x3D; S&#x2F;V ).</li>
+</ul>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul>
+<li>Source voltage ( V &#x3D; 100\angle 0^\circ ) V, active power ( P &#x3D; 1200 ) W.</li>
+<li>If ( PF &#x3D; 0.5 ):<ul>
+<li>( S &#x3D; 1200&#x2F;0.5 &#x3D; 2400 ) VA</li>
+<li>( I &#x3D; 2400&#x2F;100 &#x3D; 24 ) A</li>
+</ul>
+</li>
+<li>If ( PF &#x3D; 1 ):<ul>
+<li>( S &#x3D; 1200&#x2F;1 &#x3D; 1200 ) VA</li>
+<li>( I &#x3D; 1200&#x2F;100 &#x3D; 12 ) A</li>
+</ul>
+</li>
+<li>Low PF → higher current → more losses and capacity burden.</li>
+<li>Improving PF → lower (S) and (I) → reduced losses and cost.</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">Effect of Power Factor on AC Circuit</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>交流電功率功率因數對交流電路的影響範例</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：在相同平均功率下，比較不同 PF 對視在功率與電流的影響。</li>
+<li><strong>為何重要</strong>：PF 低會使電流與損耗增加；改善 PF 可降低容量需求與成本。</li>
+<li><strong>你將學到</strong>：運用 ( S &#x3D; P&#x2F;PF )、( I &#x3D; S&#x2F;V ) 快速評估 PF 對電流的影響。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>電源電壓 ( V &#x3D; 100\angle 0^\circ ) 伏特，平均功率 ( P &#x3D; 1200 ) 瓦。</li>
+<li>若 ( PF &#x3D; 0.5 )：<ul>
+<li>( S &#x3D; 1200&#x2F;0.5 &#x3D; 2400 ) 伏安</li>
+<li>( I &#x3D; 2400&#x2F;100 &#x3D; 24 ) 安培</li>
+</ul>
+</li>
+<li>若 ( PF &#x3D; 1 )：<ul>
+<li>( S &#x3D; 1200&#x2F;1 &#x3D; 1200 ) 伏安</li>
+<li>( I &#x3D; 1200&#x2F;100 &#x3D; 12 ) 安培</li>
+</ul>
+</li>
+<li>PF 低 → 電流增大 → 供電負擔與成本上升。</li>
+<li>提高 PF → 降低 (S)、(I) → 減少損耗與成本。</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">@功率因數對交流電路影響範例</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">https://www.youtube.com/watch?v=j4fp3GrNP0M</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>功率因數</tag>
+        <tag>電流</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>串聯電路功率因數 (PF) 與並聯電路功率因數的關係 / Relationship Between PF of Series and Parallel Circuits</title>
+    <url>/2025/08/22/pf-series-parallel-relationship-20250822/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Relationship Between Power Factor (PF) of Series and Parallel Circuits</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Show closed-form PF formulas for RL series and parallel and their relation.</li>
+<li><strong>Why it matters</strong>: Lets you translate PF between topologies instantly when (R) and (X_L) match.</li>
+<li><strong>What you’ll learn</strong>: Series PF, parallel PF, and identity (PFS^2 + PFP^2 &#x3D; 1).</li>
+</ul>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul>
+<li>Series PF (PFS):<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li>Parallel PF (PFP):<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li>If (R) and (X_L) are identical in both circuits:<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li>
+<li>Example: (R&#x3D;4,\Omega, X_L&#x3D;3,\Omega) → (PFS&#x3D;0.8), (PFP&#x3D;0.6)</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">PF – Series vs Parallel Relationship</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>串聯電路功率因數 (PF) 與並聯電路功率因數的關係</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：列出 RL 串聯與並聯電路的 PF 閉式公式，並說明相互關係。</li>
+<li><strong>為何重要</strong>：當 (R)、(X_L) 相同時，可在兩拓撲間快速換算 PF。</li>
+<li><strong>你將學到</strong>：串聯 PF、並聯 PF 與恆等式 (PFS^2 + PFP^2 &#x3D; 1)。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>串聯功率因數：<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li>並聯功率因數：<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li>
+<li>當兩電路 (R)、(X_L) 相同：<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li>
+<li>範例：(R&#x3D;4,\Omega, X_L&#x3D;3,\Omega) → (PFS&#x3D;0.8)、(PFP&#x3D;0.6)</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">@串並聯功率因數關係</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月22日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">https://www.youtube.com/watch?v=XrqnOBHWDOo</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>功率因數</tag>
+        <tag>串聯電路</tag>
+        <tag>並聯電路</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PCB Manufacturing Process Guide - Detailed Steps</title>
     <url>/2024/03/23/pcb-manufacturing-process-guide/</url>
     <content><![CDATA[<h2 id="PCB-Manufacturing-Process-Guide"><a href="#PCB-Manufacturing-Process-Guide" class="headerlink" title="PCB Manufacturing Process Guide"></a>PCB Manufacturing Process Guide</h2><h3 id="Key-Points-English"><a href="#Key-Points-English" class="headerlink" title="Key Points (English)"></a>Key Points (English)</h3><ol>
@@ -12273,6 +12997,429 @@ ok
       </tags>
   </entry>
   <entry>
+    <title>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路 / Calculating PF Using Impedance — R-L Series &amp; Parallel</title>
+    <url>/2025/08/21/pf-using-impedance-rl-series-parallel-20250821/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Calculating Power Factor (PF) Using Impedance Concept — R-L Series and Parallel Circuits</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Derive PF from impedance when phasors are not available, for RL series and parallel.</li>
+<li><strong>Why it matters</strong>: PF can be inferred from circuit parameters for quick estimation and design checks.</li>
+<li><strong>What you’ll learn</strong>: PF via (Z): series PF &#x3D; (R&#x2F;|Z|); parallel PF via (|Z|) relation.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li>Methods to compute PF:<ul>
+<li>From phase angle (\theta): ( PF &#x3D; \cos\theta )</li>
+<li>From powers: ( PF &#x3D; P&#x2F;S )</li>
+</ul>
+</li>
+<li>Using impedance when (\bar{V}), (\bar{I}) are unavailable.</li>
+<li>RL series circuit:<ul>
+<li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li>
+<li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li>
+</ul>
+</li>
+<li>RL parallel circuit:<ul>
+<li>From equivalent (|Z|): ( PF &#x3D; \dfrac{|Z|}{R} )</li>
+<li>Using the provided relation: ( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} )</li>
+</ul>
+</li>
+<li>Series vs. parallel PF differ; see Part G for details.</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">PF via Impedance – RL Series&#x2F;Parallel</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：在無法直接取得相量時，利用阻抗推導 RL 串聯與並聯電路的 PF。</li>
+<li><strong>為何重要</strong>：可由電路參數快速估算 PF，利於設計與評估。</li>
+<li><strong>你將學到</strong>：由 (Z) 出發的 PF 公式：串聯 (PF &#x3D; R&#x2F;|Z|)，並聯由 (|Z|) 推得。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>PF 計算方式：<ul>
+<li>由相位角 (\theta)：( PF &#x3D; \cos\theta )</li>
+<li>由功率比：( PF &#x3D; P&#x2F;S )</li>
+</ul>
+</li>
+<li>相量不可得時，改用阻抗求 PF。</li>
+<li>R-L 串聯電路：<ul>
+<li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li>
+<li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li>
+</ul>
+</li>
+<li>R-L 並聯電路：<ul>
+<li>先求等效 (|Z|)，再得 ( PF &#x3D; \dfrac{|Z|}{R} )</li>
+<li>依提供關係：( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} )</li>
+</ul>
+</li>
+<li>串聯與並聯之 PF 表達不同，詳見 Part G。</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">@使用阻抗觀念求 PF（RL 串&#x2F;並）</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月21日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">https://www.youtube.com/watch?v=OwJ-Cu5IQfc</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>功率因數</tag>
+        <tag>串聯電路</tag>
+        <tag>並聯電路</tag>
+        <tag>阻抗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路 / Calculating PF Using Impedance — R-L Series &amp; Parallel</title>
+    <url>/2025/08/03/pf-using-impedance-rl-series-parallel/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Calculating Power Factor (PF) Using Impedance Concept — R-L Series and Parallel Circuits</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Derive PF from impedance when phasors are not directly available, for RL series and parallel.</li>
+<li><strong>Why it matters</strong>: PF can be inferred from circuit parameters, enabling quick estimation during design.</li>
+<li><strong>What you’ll learn</strong>: PF formulas via (Z): series PF &#x3D; (R&#x2F;|Z|); parallel PF via (|Z|).</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li>Methods to compute PF:<ul>
+<li>From phase angle (\theta): ( PF &#x3D; \cos\theta )</li>
+<li>From powers: ( PF &#x3D; P&#x2F;S )</li>
+</ul>
+</li>
+<li>Using impedance when (\bar{V}), (\bar{I}) are unavailable.</li>
+<li>RL series circuit:<ul>
+<li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li>
+<li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li>
+</ul>
+</li>
+<li>RL parallel circuit:<ul>
+<li>Use equivalent (|Z|) to get ( PF &#x3D; \dfrac{|Z|}{R} )</li>
+<li>With standard derivation, ( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} ) (per provided relation)</li>
+</ul>
+</li>
+<li>Series vs. parallel PF: different expressions; further details in Part G.</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">PF via Impedance – RL Series&#x2F;Parallel</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：在無法直接取得相量時，利用阻抗推導 RL 串聯與並聯電路的 PF。</li>
+<li><strong>為何重要</strong>：可由電路參數快速估算 PF，利於設計與評估。</li>
+<li><strong>你將學到</strong>：由 (Z) 出發的 PF 公式：串聯 (PF &#x3D; R&#x2F;|Z|)，並聯由 (|Z|) 推得。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>PF 計算方式：<ul>
+<li>由相位角 (\theta)：( PF &#x3D; \cos\theta )</li>
+<li>由功率比：( PF &#x3D; P&#x2F;S )</li>
+</ul>
+</li>
+<li>相量不可得時，改用阻抗求 PF。</li>
+<li>R-L 串聯電路：<ul>
+<li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li>
+<li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li>
+</ul>
+</li>
+<li>R-L 並聯電路：<ul>
+<li>先求等效 (|Z|)，再得 ( PF &#x3D; \dfrac{|Z|}{R} )</li>
+<li>依提供關係：( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} )</li>
+</ul>
+</li>
+<li>串聯與並聯之 PF 表達不同，詳見 Part G。</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">@使用阻抗觀念求 PF（RL 串&#x2F;並）</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">https://www.youtube.com/watch?v=OwJ-Cu5IQfc</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>功率因數</tag>
+        <tag>串聯電路</tag>
+        <tag>並聯電路</tag>
+        <tag>阻抗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>功率因數改善方法及原理 / Methods and Principles for Power Factor Improvement</title>
+    <url>/2025/08/03/power-factor-improvement-methods-20250803/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Methods and Principles for Power Factor Improvement</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Explain why low PF occurs, how it impacts systems, and practical correction methods.</li>
+<li><strong>Why it matters</strong>: PF affects current, losses, voltage regulation, and equipment sizing; utilities may penalize low PF.</li>
+<li><strong>What you’ll learn</strong>: Power triangle concepts (P&#x2F;Q&#x2F;S), capacitor compensation, and modern automatic PF controllers.</li>
+</ul>
+<h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul>
+<li>Low PF mainly comes from inductive loads (e.g., motors) producing reactive power (Q_L).</li>
+<li>In the power triangle, active power (P) and reactive power (Q_L) form apparent power (S).</li>
+<li>Power factor: ( PF &#x3D; \cos\theta &#x3D; P&#x2F;S ). Larger (Q) → larger (\theta) → lower PF.</li>
+<li>Improvement method: add a shunt capacitor near the inductive load to generate (Q_C) that offsets (Q_L).</li>
+<li>After compensation: total reactive ( Q_T &#x3D; Q_L - Q_C ) decreases, (\theta) shrinks, PF rises.</li>
+<li>Modern solutions often use computerized PF controllers for automatic, stepwise capacitor switching.</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=gphs_Ijn-cY">Power Factor Improvement – Principles and Methods</a></li>
+<li>Auto captions: <a href="https://www.youtube.com/watch?v=gphs_Ijn-cY&cc_load_policy=1">Open with captions</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>功率因數改善方法及原理</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：說明 PF 偏低的原因、對系統的影響，以及常見的改善方法。</li>
+<li><strong>為何重要</strong>：PF 影響電流大小、線損、電壓調節與設備容量；多數電力公司對低 PF 有費率機制。</li>
+<li><strong>你將學到</strong>：功率三角形（P&#x2F;Q&#x2F;S）、電容補償的原理與實務、自動功率因數控制器的運作概念。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li>PF 低多由電感性負載（如馬達）產生虛功率 (Q_L) 所致。</li>
+<li>在功率三角形中，平均功率 (P) 與虛功率 (Q_L) 共同構成視在功率 (S)。</li>
+<li>功率因數 ( PF &#x3D; \cos\theta &#x3D; P&#x2F;S )；虛功越大，(\theta) 越大，PF 越低。</li>
+<li>改善方法：在電感性負載旁並聯電容器產生 (Q_C) 以抵消 (Q_L)。</li>
+<li>補償後：總虛功 ( Q_T &#x3D; Q_L - Q_C ) 降低，功率因數角 (\theta) 變小，PF 提升。</li>
+<li>現代作法多採用電腦化功率因數調整器，自動分階投入電容進行補償。</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=gphs_Ijn-cY">@功率因數改善</a></li>
+<li>自動字幕：<a href="https://www.youtube.com/watch?v=gphs_Ijn-cY&cc_load_policy=1">@開啟字幕版本</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=gphs_Ijn-cY">https://www.youtube.com/watch?v=gphs_Ijn-cY</a></li>
+<li><a href="https://www.youtube.com/watch?v=gphs_Ijn-cY&cc_load_policy=1">https://www.youtube.com/watch?v=gphs_Ijn-cY&amp;cc_load_policy=1</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>虛功率</tag>
+        <tag>功率因數</tag>
+        <tag>功率三角形</tag>
+        <tag>電容補償</tag>
+        <tag>電力品質</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_功率因數_PART B 各種負載下 θ 與 PF 情形</title>
+    <url>/2025/08/03/power-factor-part-b-phase-and-pf-by-load/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Factor – PART B: θ and PF under Different Loads</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Summarize how phase angle θ and power factor PF behave across resistive, inductive, and capacitive loads.</li>
+<li><strong>Why it matters</strong>: Clarifies leading&#x2F;lagging conventions and how PF relates to circuit topology.</li>
+<li><strong>What you’ll learn</strong>: Phase relations (V leads I or I leads V) and PF extremes in pure R&#x2F;L&#x2F;C and series RL&#x2F;RC.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol>
+<li>PF angle ((\theta)) and PF definitions.</li>
+<li>Inductive circuits: Voltage leads current (mnemonic “VL” in VLSIC).</li>
+<li>Capacitive circuits: Current leads voltage (mnemonic “IC” in VLSIC).</li>
+<li>Pure resistive load: in-phase, (\theta &#x3D; 0^\circ), PF &#x3D; 1.</li>
+<li>Pure inductive load: current lags by 90°, (\theta &#x3D; 90^\circ), PF &#x3D; 0 (reactive only).</li>
+<li>Pure capacitive load: current leads by 90°, (\theta &#x3D; 90^\circ), PF &#x3D; 0 (reactive only).</li>
+<li>Inductive load (series RL): 0° &lt; (\theta) &lt; 90°, 0 &lt; PF &lt; 1 (lagging).</li>
+<li>Capacitive load (series RC): 0° &lt; (\theta) &lt; 90°, 0 &lt; PF &lt; 1 (leading).</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=Pdt3xQlheQs">PF – PART B: θ and PF by Load</a></li>
+<li>Auto-caption tip: Use the player’s Settings → Subtitles → Auto-translate to Chinese (Traditional) or English.</li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率因數_PART B 各種負載下 θ 與 PF 情形</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：整理純 R&#x2F;L&#x2F;C 與 RL&#x2F;RC 串聯電路中相位角 (\theta) 與功率因數 PF 的行為。</li>
+<li><strong>為何重要</strong>：釐清超前&#x2F;滯後的判定與 PF 與電路拓撲的關係。</li>
+<li><strong>你將學到</strong>：電壓與電流誰超前、純量極限（PF&#x3D;1、PF&#x3D;0）、以及 RL&#x2F;RC 的範圍。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
+<li>功率因數角（(\theta)）與功率因數（PF）定義。</li>
+<li>電感性電路：電壓超前電流（VLSIC 的 VL 口訣）。</li>
+<li>電容性電路：電流超前電壓（VLSIC 的 IC 口訣）。</li>
+<li>純電阻負載：同相，(\theta &#x3D; 0^\circ)，PF &#x3D; 1。</li>
+<li>純電感負載：電流滯後 90°，(\theta &#x3D; 90^\circ)，PF &#x3D; 0（僅虛功）。</li>
+<li>純電容負載：電流超前 90°，(\theta &#x3D; 90^\circ)，PF &#x3D; 0（僅虛功）。</li>
+<li>電感性負載（R 與 (jX_L) 串聯）：(0^\circ &lt; \theta &lt; 90^\circ)，(0 &lt; PF &lt; 1)，滯後功率因數。</li>
+<li>電容性負載（R 與 (-jX_C) 串聯）：(0^\circ &lt; \theta &lt; 90^\circ)，(0 &lt; PF &lt; 1)，超前功率因數。</li>
+</ol>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=Pdt3xQlheQs">@功率因數_PART B 各種負載 θ 與 PF</a></li>
+<li>自動翻譯：播放器「設定 → 字幕 → 自動翻譯」選擇中文（繁體）或 English。</li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=Pdt3xQlheQs">https://www.youtube.com/watch?v=Pdt3xQlheQs</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>相位角</tag>
+        <tag>功率因數</tag>
+        <tag>電感性負載</tag>
+        <tag>電容性負載</tag>
+        <tag>純電阻</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_功率三角形與複數功率_PART B 複數功率（摘要：0:12–8:14）</title>
+    <url>/2025/08/03/power-triangle-and-complex-power-part-b/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Triangle and Complex Power – PART B: Complex Power (Summary: 0:12–8:14)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Summarize relationships among P, Q, and S; connect the power triangle to complex power.</li>
+<li><strong>Why it matters</strong>: Complex power clarifies sign conventions and the roles of inductive vs. capacitive loads.</li>
+<li><strong>What you’ll learn</strong>: P–Q–S identities, phase angle interpretation, and the definition ( \bar{S} &#x3D; \bar{V},\bar{I}^* ).</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol>
+<li>Meaning and Use of the Power Triangle<ul>
+<li>Understand relations between active power (P), reactive power (Q), apparent power (S).</li>
+<li>Map triangle representation to complex power notation.</li>
+</ul>
+</li>
+<li>P, Q, S Relationships<ul>
+<li>( P &#x3D; S\cos\theta )</li>
+<li>( Q &#x3D; S\sin\theta )</li>
+<li>( S &#x3D; \sqrt{P^2 + Q^2} )</li>
+</ul>
+</li>
+<li>Phase Angle (\theta)<ul>
+<li>(\theta) is the voltage–current phase difference.</li>
+<li>RL (inductive): ( \bar{S} &#x3D; P + jQ )</li>
+<li>RC (capacitive): ( \bar{S} &#x3D; P - jQ )</li>
+</ul>
+</li>
+<li>Definition of Complex Power<ul>
+<li>( \bar{S} &#x3D; \bar{V},\bar{I}^* )</li>
+<li>Conjugation yields correct phase difference (\theta &#x3D; \theta_V - \theta_I).</li>
+</ul>
+</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=fFtI69ngj1k">Power Triangle &amp; Complex Power – PART B</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率三角形與複數功率_PART B 複數功率（摘要：0:12–8:14）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：整理 P、Q、S 的關係，並將功率三角形連結至複數功率表示。</li>
+<li><strong>為何重要</strong>：複數功率有助於釐清正負號慣例與電感&#x2F;電容負載的角色。</li>
+<li><strong>你將學到</strong>：P–Q–S 恆等式、相位角詮釋，以及 ( \bar{S} &#x3D; \bar{V},\bar{I}^* ) 的定義。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
+<li>功率三角形的意義與用途<ul>
+<li>理解平均功率（P）、虛功率（Q）、視在功率（S）的關係。</li>
+<li>可將功率三角形轉為複數功率表示。</li>
+</ul>
+</li>
+<li>P、Q、S 的關係式<ul>
+<li>( P &#x3D; S\cos\theta )</li>
+<li>( Q &#x3D; S\sin\theta )</li>
+<li>( S &#x3D; \sqrt{P^2 + Q^2} )</li>
+</ul>
+</li>
+<li>與電路相位角 (\theta) 的關聯<ul>
+<li>(\theta) 為電壓與電流之相位差。</li>
+<li>RL 串聯（電感性）：( \bar{S} &#x3D; P + jQ )</li>
+<li>RC 串聯（電容性）：( \bar{S} &#x3D; P - jQ )</li>
+</ul>
+</li>
+<li>複數功率定義<ul>
+<li>( \bar{S} &#x3D; \bar{V},\bar{I}^* )</li>
+<li>乘以共軛用以得到正確相位差 (\theta &#x3D; \theta_V - \theta_I)。</li>
+</ul>
+</li>
+</ol>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=fFtI69ngj1k">@功率三角形與複數功率_PART B</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=fFtI69ngj1k">https://www.youtube.com/watch?v=fFtI69ngj1k</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>虛功率</tag>
+        <tag>複數功率</tag>
+        <tag>功率三角形</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高中基本電學_交流電功率_功率三角形與複數功率_PART C 範例：複數功率（三範例）</title>
+    <url>/2025/08/03/power-triangle-and-complex-power-part-c-examples/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Triangle and Complex Power – PART C Examples: Complex Power (Three Examples)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Demonstrate complex power calculations and forms using three examples.</li>
+<li><strong>Why it matters</strong>: Links power triangle geometry with complex notation and PF angle.</li>
+<li><strong>What you’ll learn</strong>: Rectangular&#x2F;polar forms of (\bar{S}), extracting P and Q from given quantities.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<li>Complex power intro: computation and representation in AC circuits.</li>
+<li>Example 1: Given ( \bar{S} &#x3D; 1000 \angle 60^\circ ) VA → find (P, Q) via triangle ratios.</li>
+<li>Example 2: Given ( P &#x3D; 3000 ) W, ( Q &#x3D; 4000 ) var (capacitive) → rectangular and polar forms of (\bar{S}).</li>
+<li>Example 3: Given ( V &#x3D; 20 - j10 ) V, ( I &#x3D; 10 + j5 ) A → ( \bar{S} &#x3D; V I^* ), then extract (P, Q).</li>
+<li>Power triangle: use similarity to split (S) into (P) and (Q).</li>
+<li>Representation: rectangular ( P \pm jQ ); inductive ( P + jQ ), capacitive ( P - jQ ).</li>
+<li>Polar conversion: magnitude &#x3D; hypotenuse, angle &#x3D; PF angle (sign per reactive type).</li>
+</ul>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=kZgWYgoCBjc">PART C – Complex Power (3 Examples)</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率三角形與複數功率_PART C 範例：複數功率（三範例）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：以三個範例示範複數功率的計算與表示。</li>
+<li><strong>為何重要</strong>：把功率三角形幾何關係與複數表示及 PF 角連結起來。</li>
+<li><strong>你將學到</strong>：(\bar{S}) 的直角&#x2F;極座標形式，如何由既有量求出 (P)、(Q)。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<li><strong>複數功率介紹</strong>：透過三個範例說明交流電路中複數功率的計算與表示。</li>
+<li><strong>範例一</strong>：已知 ( \bar{S} &#x3D; 1000 \angle 60^\circ ) VA，利用功率三角形比例求 (P, Q)。</li>
+<li><strong>範例二</strong>：已知 ( P &#x3D; 3000 ) W，( Q &#x3D; 4000 ) var（電容性），求 (\bar{S}) 的直角與極座標表示。</li>
+<li><strong>範例三</strong>：給定 ( V &#x3D; 20 - j10 ) V、( I &#x3D; 10 + j5 ) A，計算 ( \bar{S} &#x3D; V I^* )，再求 (P)、(Q)。</li>
+<li><strong>功率三角形</strong>：用相似三角形比例將 (S) 分解為 (P)、(Q)。</li>
+<li><strong>複數功率表示</strong>：直角形式 ( P \pm jQ )；電感性 ( P + jQ )，電容性 ( P - jQ )。</li>
+<li><strong>極座標轉換</strong>：大小為斜邊，角度為功率因數角（正負由電感&#x2F;電容性別決定）。</li>
+</ul>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=kZgWYgoCBjc">@PART C：複數功率（三範例）</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=kZgWYgoCBjc">https://www.youtube.com/watch?v=kZgWYgoCBjc</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>虛功率</tag>
+        <tag>複數功率</tag>
+        <tag>功率三角形</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Power Characteristics of Pure Capacitive AC Circuit</title>
     <url>/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/</url>
     <content><![CDATA[<h1 id="Power-Characteristics-of-Pure-Capacitive-AC-Circuit"><a href="#Power-Characteristics-of-Pure-Capacitive-AC-Circuit" class="headerlink" title="Power Characteristics of Pure Capacitive AC Circuit"></a>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p>
@@ -12460,8 +13607,8 @@ ok
         <tag>交流電</tag>
         <tag>虛功率</tag>
         <tag>基本電學</tag>
-        <tag>功率特性</tag>
         <tag>純電感</tag>
+        <tag>功率特性</tag>
       </tags>
   </entry>
   <entry>
@@ -12518,8 +13665,8 @@ ok
         <tag>交流電</tag>
         <tag>虛功率</tag>
         <tag>基本電學</tag>
-        <tag>無效功率</tag>
         <tag>純電感</tag>
+        <tag>無效功率</tag>
       </tags>
   </entry>
   <entry>
@@ -12707,8 +13854,8 @@ ok
       <tags>
         <tag>交流電</tag>
         <tag>基本電學</tag>
-        <tag>功率計算</tag>
         <tag>純電阻</tag>
+        <tag>功率計算</tag>
         <tag>範例</tag>
       </tags>
   </entry>
@@ -12926,362 +14073,6 @@ ok
         <tag>基礎例題</tag>
         <tag>電容器充電</tag>
         <tag>時間常數</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Analysis of Capacitor Voltage Formula in RC Charging Transient Circuit</title>
-    <url>/2025/08/02/rc-charging-circuit-capacitor-voltage-formula-analysis/</url>
-    <content><![CDATA[<h1 id="Analysis-of-Capacitor-Voltage-Formula-in-RC-Charging-Transient-Circuit"><a href="#Analysis-of-Capacitor-Voltage-Formula-in-RC-Charging-Transient-Circuit" class="headerlink" title="Analysis of Capacitor Voltage Formula in RC Charging Transient Circuit"></a>Analysis of Capacitor Voltage Formula in RC Charging Transient Circuit</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This article provides a comprehensive analysis of the capacitor voltage formula in RC charging circuits, explaining the mathematical relationship between voltage and time during the transient charging process.</p>
-<h2 id="RC-Charging-Circuit-Fundamentals"><a href="#RC-Charging-Circuit-Fundamentals" class="headerlink" title="RC Charging Circuit Fundamentals"></a>RC Charging Circuit Fundamentals</h2><h3 id="Circuit-Configuration"><a href="#Circuit-Configuration" class="headerlink" title="Circuit Configuration"></a>Circuit Configuration</h3><p>In a typical RC charging circuit:</p>
-<ul>
-<li><strong>Source Voltage</strong>: ( E ) (constant DC voltage)</li>
-<li><strong>Resistance</strong>: ( R ) (series resistance)</li>
-<li><strong>Capacitance</strong>: ( C ) (capacitor)</li>
-<li><strong>Switch</strong>: Closes at ( t &#x3D; 0 )</li>
-<li><strong>Time Constant</strong>: ( τ &#x3D; RC )</li>
-</ul>
-<h3 id="Initial-Conditions"><a href="#Initial-Conditions" class="headerlink" title="Initial Conditions"></a>Initial Conditions</h3><ul>
-<li><strong>At t &#x3D; 0</strong>: Capacitor voltage ( V_C(0) &#x3D; 0V )</li>
-<li><strong>At t &#x3D; 0</strong>: Capacitor acts as a short circuit</li>
-<li><strong>At t &#x3D; 0</strong>: Maximum current flows through the circuit</li>
-</ul>
-<h2 id="Capacitor-Voltage-Formula"><a href="#Capacitor-Voltage-Formula" class="headerlink" title="Capacitor Voltage Formula"></a>Capacitor Voltage Formula</h2><h3 id="Mathematical-Expression"><a href="#Mathematical-Expression" class="headerlink" title="Mathematical Expression"></a>Mathematical Expression</h3><p>The capacitor voltage in an RC charging circuit follows the exponential function:</p>
-<p>$$ V_C(t) &#x3D; E \left(1 - e^{-\frac{t}{RC}}\right) $$</p>
-<h3 id="Formula-Components"><a href="#Formula-Components" class="headerlink" title="Formula Components"></a>Formula Components</h3><p>Where:</p>
-<ul>
-<li><strong>( V_C(t) )</strong>: Capacitor voltage at time t</li>
-<li><strong>( E )</strong>: Final charging voltage (steady-state voltage)</li>
-<li><strong>( t )</strong>: Time after switch closure</li>
-<li><strong>( R )</strong>: Resistance value</li>
-<li><strong>( C )</strong>: Capacitance value</li>
-<li><strong>( RC )</strong>: Time constant (τ)</li>
-</ul>
-<h3 id="Physical-Interpretation"><a href="#Physical-Interpretation" class="headerlink" title="Physical Interpretation"></a>Physical Interpretation</h3><ul>
-<li>The formula describes exponential voltage rise</li>
-<li>Voltage approaches final value asymptotically</li>
-<li>Rate of change decreases over time</li>
-<li>Non-linear relationship between voltage and time</li>
-</ul>
-<h2 id="Time-Dependent-Behavior"><a href="#Time-Dependent-Behavior" class="headerlink" title="Time-Dependent Behavior"></a>Time-Dependent Behavior</h2><h3 id="Exponential-Growth-Characteristics"><a href="#Exponential-Growth-Characteristics" class="headerlink" title="Exponential Growth Characteristics"></a>Exponential Growth Characteristics</h3><p>The capacitor voltage exhibits exponential growth with the following properties:</p>
-<ol>
-<li><strong>Initial Rate</strong>: Maximum rate of change at t &#x3D; 0</li>
-<li><strong>Decreasing Rate</strong>: Rate of change decreases over time</li>
-<li><strong>Asymptotic Approach</strong>: Voltage approaches E as t → ∞</li>
-<li><strong>Time Constant Dependence</strong>: RC determines the charging speed</li>
-</ol>
-<h3 id="Mathematical-Analysis"><a href="#Mathematical-Analysis" class="headerlink" title="Mathematical Analysis"></a>Mathematical Analysis</h3><p><strong>Rate of Change:</strong><br>$$ \frac{dV_C}{dt} &#x3D; \frac{E}{RC} e^{-\frac{t}{RC}} $$</p>
-<p><strong>Initial Rate:</strong><br>$$ \frac{dV_C}{dt}\bigg|_{t&#x3D;0} &#x3D; \frac{E}{RC} $$</p>
-<h2 id="Key-Time-Points"><a href="#Key-Time-Points" class="headerlink" title="Key Time Points"></a>Key Time Points</h2><h3 id="1-Initial-State-t-0"><a href="#1-Initial-State-t-0" class="headerlink" title="1. Initial State (t &#x3D; 0)"></a>1. Initial State (t &#x3D; 0)</h3><ul>
-<li><strong>Voltage</strong>: ( V_C(0) &#x3D; 0V )</li>
-<li><strong>Current</strong>: ( i(0) &#x3D; \frac{E}{R} ) (maximum)</li>
-<li><strong>Behavior</strong>: Capacitor acts as short circuit</li>
-</ul>
-<h3 id="2-One-Time-Constant-t-RC"><a href="#2-One-Time-Constant-t-RC" class="headerlink" title="2. One Time Constant (t &#x3D; RC)"></a>2. One Time Constant (t &#x3D; RC)</h3><ul>
-<li><strong>Voltage</strong>: ( V_C(RC) &#x3D; E(1 - e^{-1}) &#x3D; 0.632E )</li>
-<li><strong>Percentage</strong>: 63.2% of final voltage</li>
-<li><strong>Significance</strong>: Standard reference point</li>
-</ul>
-<h3 id="3-Two-Time-Constants-t-2RC"><a href="#3-Two-Time-Constants-t-2RC" class="headerlink" title="3. Two Time Constants (t &#x3D; 2RC)"></a>3. Two Time Constants (t &#x3D; 2RC)</h3><ul>
-<li><strong>Voltage</strong>: ( V_C(2RC) &#x3D; E(1 - e^{-2}) &#x3D; 0.865E )</li>
-<li><strong>Percentage</strong>: 86.5% of final voltage</li>
-</ul>
-<h3 id="4-Three-Time-Constants-t-3RC"><a href="#4-Three-Time-Constants-t-3RC" class="headerlink" title="4. Three Time Constants (t &#x3D; 3RC)"></a>4. Three Time Constants (t &#x3D; 3RC)</h3><ul>
-<li><strong>Voltage</strong>: ( V_C(3RC) &#x3D; E(1 - e^{-3}) &#x3D; 0.950E )</li>
-<li><strong>Percentage</strong>: 95.0% of final voltage</li>
-</ul>
-<h3 id="5-Five-Time-Constants-t-5RC"><a href="#5-Five-Time-Constants-t-5RC" class="headerlink" title="5. Five Time Constants (t &#x3D; 5RC)"></a>5. Five Time Constants (t &#x3D; 5RC)</h3><ul>
-<li><strong>Voltage</strong>: ( V_C(5RC) &#x3D; E(1 - e^{-5}) &#x3D; 0.993E )</li>
-<li><strong>Percentage</strong>: 99.3% of final voltage</li>
-<li><strong>Significance</strong>: Charging essentially complete</li>
-</ul>
-<h2 id="Graphical-Analysis"><a href="#Graphical-Analysis" class="headerlink" title="Graphical Analysis"></a>Graphical Analysis</h2><h3 id="Voltage-vs-Time-Curve"><a href="#Voltage-vs-Time-Curve" class="headerlink" title="Voltage vs Time Curve"></a>Voltage vs Time Curve</h3><p>The capacitor voltage follows a characteristic exponential curve:</p>
-<ol>
-<li><strong>Steep Initial Rise</strong>: Rapid voltage increase at the beginning</li>
-<li><strong>Gradual Approach</strong>: Slower approach to final value</li>
-<li><strong>Asymptotic Behavior</strong>: Never quite reaches final value</li>
-<li><strong>Time Constant Effect</strong>: RC determines curve steepness</li>
-</ol>
-<h3 id="Plotting-Method"><a href="#Plotting-Method" class="headerlink" title="Plotting Method"></a>Plotting Method</h3><p><strong>Point-by-Point Graphing:</strong></p>
-<ol>
-<li>Calculate voltage at specific time points</li>
-<li>Plot points on voltage vs time graph</li>
-<li>Connect points to form smooth curve</li>
-<li>Use time constant as reference intervals</li>
-</ol>
-<h3 id="Sample-Calculations"><a href="#Sample-Calculations" class="headerlink" title="Sample Calculations"></a>Sample Calculations</h3><p>For ( E &#x3D; 10V ), ( R &#x3D; 2kΩ ), ( C &#x3D; 10μF ):</p>
-<table>
-<thead>
-<tr>
-<th>Time</th>
-<th>t&#x2F;RC</th>
-<th>V_C(t)</th>
-<th>Percentage</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>0ms</td>
-<td>0</td>
-<td>0V</td>
-<td>0%</td>
-</tr>
-<tr>
-<td>20ms</td>
-<td>1</td>
-<td>6.32V</td>
-<td>63.2%</td>
-</tr>
-<tr>
-<td>40ms</td>
-<td>2</td>
-<td>8.65V</td>
-<td>86.5%</td>
-</tr>
-<tr>
-<td>60ms</td>
-<td>3</td>
-<td>9.50V</td>
-<td>95.0%</td>
-</tr>
-<tr>
-<td>100ms</td>
-<td>5</td>
-<td>9.93V</td>
-<td>99.3%</td>
-</tr>
-</tbody></table>
-<h2 id="Mathematical-Properties"><a href="#Mathematical-Properties" class="headerlink" title="Mathematical Properties"></a>Mathematical Properties</h2><h3 id="Exponential-Function-Characteristics"><a href="#Exponential-Function-Characteristics" class="headerlink" title="Exponential Function Characteristics"></a>Exponential Function Characteristics</h3><ol>
-<li><strong>Monotonic Increase</strong>: Always increasing</li>
-<li><strong>Concave Down</strong>: Rate of increase decreases</li>
-<li><strong>Horizontal Asymptote</strong>: Approaches E as t → ∞</li>
-<li><strong>Inflection Point</strong>: Maximum rate of change at t &#x3D; 0</li>
-</ol>
-<h3 id="Relationship-with-Current"><a href="#Relationship-with-Current" class="headerlink" title="Relationship with Current"></a>Relationship with Current</h3><p><strong>Current Formula:</strong><br>$$ i(t) &#x3D; \frac{E}{R} e^{-\frac{t}{RC}} $$</p>
-<p><strong>Relationship:</strong><br>$$ V_C(t) &#x3D; E - V_R(t) &#x3D; E - i(t)R $$</p>
-<h2 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h2><h3 id="1-Timing-Circuits"><a href="#1-Timing-Circuits" class="headerlink" title="1. Timing Circuits"></a>1. Timing Circuits</h3><ul>
-<li>RC circuits used as delay elements</li>
-<li>Pulse generation and shaping</li>
-<li>Oscillator frequency control</li>
-</ul>
-<h3 id="2-Filter-Design"><a href="#2-Filter-Design" class="headerlink" title="2. Filter Design"></a>2. Filter Design</h3><ul>
-<li>Low-pass filter response</li>
-<li>Smoothing circuits</li>
-<li>Signal processing</li>
-</ul>
-<h3 id="3-Power-Supply-Design"><a href="#3-Power-Supply-Design" class="headerlink" title="3. Power Supply Design"></a>3. Power Supply Design</h3><ul>
-<li>Voltage regulation</li>
-<li>Energy storage systems</li>
-<li>Backup power circuits</li>
-</ul>
-<h2 id="Common-Misconceptions"><a href="#Common-Misconceptions" class="headerlink" title="Common Misconceptions"></a>Common Misconceptions</h2><h3 id="1-Linear-Voltage-Rise"><a href="#1-Linear-Voltage-Rise" class="headerlink" title="1. Linear Voltage Rise"></a>1. Linear Voltage Rise</h3><ul>
-<li><strong>Misconception</strong>: Voltage increases linearly</li>
-<li><strong>Reality</strong>: Exponential (non-linear) increase</li>
-</ul>
-<h3 id="2-Instant-Charging"><a href="#2-Instant-Charging" class="headerlink" title="2. Instant Charging"></a>2. Instant Charging</h3><ul>
-<li><strong>Misconception</strong>: Capacitor charges instantly</li>
-<li><strong>Reality</strong>: Takes time proportional to RC</li>
-</ul>
-<h3 id="3-Complete-Charging"><a href="#3-Complete-Charging" class="headerlink" title="3. Complete Charging"></a>3. Complete Charging</h3><ul>
-<li><strong>Misconception</strong>: Voltage reaches exactly E</li>
-<li><strong>Reality</strong>: Approaches E asymptotically</li>
-</ul>
-<h2 id="Problem-Solving-Strategy"><a href="#Problem-Solving-Strategy" class="headerlink" title="Problem-Solving Strategy"></a>Problem-Solving Strategy</h2><h3 id="1-Identify-Parameters"><a href="#1-Identify-Parameters" class="headerlink" title="1. Identify Parameters"></a>1. Identify Parameters</h3><ul>
-<li>Extract E, R, C values</li>
-<li>Determine time points of interest</li>
-<li>Calculate time constant τ &#x3D; RC</li>
-</ul>
-<h3 id="2-Apply-Formula"><a href="#2-Apply-Formula" class="headerlink" title="2. Apply Formula"></a>2. Apply Formula</h3><ul>
-<li>Use ( V_C(t) &#x3D; E(1 - e^{-t&#x2F;RC}) )</li>
-<li>Substitute known values</li>
-<li>Calculate result</li>
-</ul>
-<h3 id="3-Verify-Results"><a href="#3-Verify-Results" class="headerlink" title="3. Verify Results"></a>3. Verify Results</h3><ul>
-<li>Check units (should be Volts)</li>
-<li>Ensure physical reasonableness</li>
-<li>Compare with expected behavior</li>
-</ul>
-<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><strong>Title:</strong> RC充電電路暫態電容電壓公式解析 - 張偉勤老師<br><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=LvLeb6-bHZU">https://www.youtube.com/watch?v=LvLeb6-bHZU</a></p>
-<hr>
-<h1 id="RC充電電路暫態電容電壓公式解析"><a href="#RC充電電路暫態電容電壓公式解析" class="headerlink" title="RC充電電路暫態電容電壓公式解析"></a>RC充電電路暫態電容電壓公式解析</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文提供 RC 充電電路中電容電壓公式的全面分析，解釋暫態充電過程中電壓與時間之間的數學關係。</p>
-<h2 id="RC充電電路基礎"><a href="#RC充電電路基礎" class="headerlink" title="RC充電電路基礎"></a>RC充電電路基礎</h2><h3 id="電路配置"><a href="#電路配置" class="headerlink" title="電路配置"></a>電路配置</h3><p>在典型的 RC 充電電路中：</p>
-<ul>
-<li><strong>電源電壓</strong>：( E )（恆定直流電壓）</li>
-<li><strong>電阻</strong>：( R )（串聯電阻）</li>
-<li><strong>電容</strong>：( C )（電容器）</li>
-<li><strong>開關</strong>：在 ( t &#x3D; 0 ) 時閉合</li>
-<li><strong>時間常數</strong>：( τ &#x3D; RC )</li>
-</ul>
-<h3 id="初始條件"><a href="#初始條件" class="headerlink" title="初始條件"></a>初始條件</h3><ul>
-<li><strong>t &#x3D; 0 時</strong>：電容器電壓 ( V_C(0) &#x3D; 0V )</li>
-<li><strong>t &#x3D; 0 時</strong>：電容器呈短路狀態</li>
-<li><strong>t &#x3D; 0 時</strong>：最大電流流過電路</li>
-</ul>
-<h2 id="電容電壓公式"><a href="#電容電壓公式" class="headerlink" title="電容電壓公式"></a>電容電壓公式</h2><h3 id="數學表達式"><a href="#數學表達式" class="headerlink" title="數學表達式"></a>數學表達式</h3><p>RC 充電電路中的電容電壓遵循指數函數：</p>
-<p>$$ V_C(t) &#x3D; E \left(1 - e^{-\frac{t}{RC}}\right) $$</p>
-<h3 id="公式組成"><a href="#公式組成" class="headerlink" title="公式組成"></a>公式組成</h3><p>其中：</p>
-<ul>
-<li><strong>( V_C(t) )</strong>：時間 t 時的電容器電壓</li>
-<li><strong>( E )</strong>：最終充電電壓（穩態電壓）</li>
-<li><strong>( t )</strong>：開關閉合後的時間</li>
-<li><strong>( R )</strong>：電阻值</li>
-<li><strong>( C )</strong>：電容值</li>
-<li><strong>( RC )</strong>：時間常數（τ）</li>
-</ul>
-<h3 id="物理解釋"><a href="#物理解釋" class="headerlink" title="物理解釋"></a>物理解釋</h3><ul>
-<li>公式描述指數電壓上升</li>
-<li>電壓漸近地接近最終值</li>
-<li>變化率隨時間減小</li>
-<li>電壓與時間之間的非線性關係</li>
-</ul>
-<h2 id="時間相關行為"><a href="#時間相關行為" class="headerlink" title="時間相關行為"></a>時間相關行為</h2><h3 id="指數增長特性"><a href="#指數增長特性" class="headerlink" title="指數增長特性"></a>指數增長特性</h3><p>電容器電壓表現出具有以下特性的指數增長：</p>
-<ol>
-<li><strong>初始速率</strong>：t &#x3D; 0 時的最大變化率</li>
-<li><strong>遞減速率</strong>：變化率隨時間減小</li>
-<li><strong>漸近接近</strong>：當 t → ∞ 時電壓接近 E</li>
-<li><strong>時間常數依賴</strong>：RC 決定充電速度</li>
-</ol>
-<h3 id="數學分析"><a href="#數學分析" class="headerlink" title="數學分析"></a>數學分析</h3><p><strong>變化率：</strong><br>$$ \frac{dV_C}{dt} &#x3D; \frac{E}{RC} e^{-\frac{t}{RC}} $$</p>
-<p><strong>初始速率：</strong><br>$$ \frac{dV_C}{dt}\bigg|_{t&#x3D;0} &#x3D; \frac{E}{RC} $$</p>
-<h2 id="關鍵時間點"><a href="#關鍵時間點" class="headerlink" title="關鍵時間點"></a>關鍵時間點</h2><h3 id="1-初始狀態（t-0）"><a href="#1-初始狀態（t-0）" class="headerlink" title="1. 初始狀態（t &#x3D; 0）"></a>1. 初始狀態（t &#x3D; 0）</h3><ul>
-<li><strong>電壓</strong>：( V_C(0) &#x3D; 0V )</li>
-<li><strong>電流</strong>：( i(0) &#x3D; \frac{E}{R} )（最大值）</li>
-<li><strong>行為</strong>：電容器呈短路狀態</li>
-</ul>
-<h3 id="2-一個時間常數（t-RC）"><a href="#2-一個時間常數（t-RC）" class="headerlink" title="2. 一個時間常數（t &#x3D; RC）"></a>2. 一個時間常數（t &#x3D; RC）</h3><ul>
-<li><strong>電壓</strong>：( V_C(RC) &#x3D; E(1 - e^{-1}) &#x3D; 0.632E )</li>
-<li><strong>百分比</strong>：最終電壓的 63.2%</li>
-<li><strong>意義</strong>：標準參考點</li>
-</ul>
-<h3 id="3-兩個時間常數（t-2RC）"><a href="#3-兩個時間常數（t-2RC）" class="headerlink" title="3. 兩個時間常數（t &#x3D; 2RC）"></a>3. 兩個時間常數（t &#x3D; 2RC）</h3><ul>
-<li><strong>電壓</strong>：( V_C(2RC) &#x3D; E(1 - e^{-2}) &#x3D; 0.865E )</li>
-<li><strong>百分比</strong>：最終電壓的 86.5%</li>
-</ul>
-<h3 id="4-三個時間常數（t-3RC）"><a href="#4-三個時間常數（t-3RC）" class="headerlink" title="4. 三個時間常數（t &#x3D; 3RC）"></a>4. 三個時間常數（t &#x3D; 3RC）</h3><ul>
-<li><strong>電壓</strong>：( V_C(3RC) &#x3D; E(1 - e^{-3}) &#x3D; 0.950E )</li>
-<li><strong>百分比</strong>：最終電壓的 95.0%</li>
-</ul>
-<h3 id="5-五個時間常數（t-5RC）"><a href="#5-五個時間常數（t-5RC）" class="headerlink" title="5. 五個時間常數（t &#x3D; 5RC）"></a>5. 五個時間常數（t &#x3D; 5RC）</h3><ul>
-<li><strong>電壓</strong>：( V_C(5RC) &#x3D; E(1 - e^{-5}) &#x3D; 0.993E )</li>
-<li><strong>百分比</strong>：最終電壓的 99.3%</li>
-<li><strong>意義</strong>：充電基本完成</li>
-</ul>
-<h2 id="圖形分析"><a href="#圖形分析" class="headerlink" title="圖形分析"></a>圖形分析</h2><h3 id="電壓對時間曲線"><a href="#電壓對時間曲線" class="headerlink" title="電壓對時間曲線"></a>電壓對時間曲線</h3><p>電容器電壓遵循特徵指數曲線：</p>
-<ol>
-<li><strong>陡峭初始上升</strong>：開始時電壓快速增加</li>
-<li><strong>漸進接近</strong>：較慢地接近最終值</li>
-<li><strong>漸近行為</strong>：永遠不會完全達到最終值</li>
-<li><strong>時間常數效應</strong>：RC 決定曲線陡峭程度</li>
-</ol>
-<h3 id="繪圖方法"><a href="#繪圖方法" class="headerlink" title="繪圖方法"></a>繪圖方法</h3><p><strong>描點作圖法：</strong></p>
-<ol>
-<li>計算特定時間點的電壓</li>
-<li>在電壓對時間圖上繪製點</li>
-<li>連接點形成平滑曲線</li>
-<li>使用時間常數作為參考間隔</li>
-</ol>
-<h3 id="計算範例"><a href="#計算範例" class="headerlink" title="計算範例"></a>計算範例</h3><p>對於 ( E &#x3D; 10V )，( R &#x3D; 2kΩ )，( C &#x3D; 10μF )：</p>
-<table>
-<thead>
-<tr>
-<th>時間</th>
-<th>t&#x2F;RC</th>
-<th>V_C(t)</th>
-<th>百分比</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>0ms</td>
-<td>0</td>
-<td>0V</td>
-<td>0%</td>
-</tr>
-<tr>
-<td>20ms</td>
-<td>1</td>
-<td>6.32V</td>
-<td>63.2%</td>
-</tr>
-<tr>
-<td>40ms</td>
-<td>2</td>
-<td>8.65V</td>
-<td>86.5%</td>
-</tr>
-<tr>
-<td>60ms</td>
-<td>3</td>
-<td>9.50V</td>
-<td>95.0%</td>
-</tr>
-<tr>
-<td>100ms</td>
-<td>5</td>
-<td>9.93V</td>
-<td>99.3%</td>
-</tr>
-</tbody></table>
-<h2 id="數學性質"><a href="#數學性質" class="headerlink" title="數學性質"></a>數學性質</h2><h3 id="指數函數特性"><a href="#指數函數特性" class="headerlink" title="指數函數特性"></a>指數函數特性</h3><ol>
-<li><strong>單調遞增</strong>：始終增加</li>
-<li><strong>向下凹</strong>：增加率減小</li>
-<li><strong>水平漸近線</strong>：當 t → ∞ 時接近 E</li>
-<li><strong>拐點</strong>：t &#x3D; 0 時最大變化率</li>
-</ol>
-<h3 id="與電流的關係"><a href="#與電流的關係" class="headerlink" title="與電流的關係"></a>與電流的關係</h3><p><strong>電流公式：</strong><br>$$ i(t) &#x3D; \frac{E}{R} e^{-\frac{t}{RC}} $$</p>
-<p><strong>關係：</strong><br>$$ V_C(t) &#x3D; E - V_R(t) &#x3D; E - i(t)R $$</p>
-<h2 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h2><h3 id="1-計時電路"><a href="#1-計時電路" class="headerlink" title="1. 計時電路"></a>1. 計時電路</h3><ul>
-<li>RC 電路用作延遲元件</li>
-<li>脈衝產生和整形</li>
-<li>振盪器頻率控制</li>
-</ul>
-<h3 id="2-濾波器設計"><a href="#2-濾波器設計" class="headerlink" title="2. 濾波器設計"></a>2. 濾波器設計</h3><ul>
-<li>低通濾波器響應</li>
-<li>平滑電路</li>
-<li>信號處理</li>
-</ul>
-<h3 id="3-電源設計"><a href="#3-電源設計" class="headerlink" title="3. 電源設計"></a>3. 電源設計</h3><ul>
-<li>電壓調節</li>
-<li>能量儲存系統</li>
-<li>備用電源電路</li>
-</ul>
-<h2 id="常見誤解"><a href="#常見誤解" class="headerlink" title="常見誤解"></a>常見誤解</h2><h3 id="1-線性電壓上升"><a href="#1-線性電壓上升" class="headerlink" title="1. 線性電壓上升"></a>1. 線性電壓上升</h3><ul>
-<li><strong>誤解</strong>：電壓線性增加</li>
-<li><strong>事實</strong>：指數（非線性）增加</li>
-</ul>
-<h3 id="2-瞬間充電"><a href="#2-瞬間充電" class="headerlink" title="2. 瞬間充電"></a>2. 瞬間充電</h3><ul>
-<li><strong>誤解</strong>：電容器瞬間充電</li>
-<li><strong>事實</strong>：需要與 RC 成比例的時間</li>
-</ul>
-<h3 id="3-完全充電"><a href="#3-完全充電" class="headerlink" title="3. 完全充電"></a>3. 完全充電</h3><ul>
-<li><strong>誤解</strong>：電壓完全達到 E</li>
-<li><strong>事實</strong>：漸近地接近 E</li>
-</ul>
-<h2 id="解題策略"><a href="#解題策略" class="headerlink" title="解題策略"></a>解題策略</h2><h3 id="1-識別參數"><a href="#1-識別參數" class="headerlink" title="1. 識別參數"></a>1. 識別參數</h3><ul>
-<li>提取 E、R、C 值</li>
-<li>確定感興趣的時間點</li>
-<li>計算時間常數 τ &#x3D; RC</li>
-</ul>
-<h3 id="2-應用公式"><a href="#2-應用公式" class="headerlink" title="2. 應用公式"></a>2. 應用公式</h3><ul>
-<li>使用 ( V_C(t) &#x3D; E(1 - e^{-t&#x2F;RC}) )</li>
-<li>代入已知值</li>
-<li>計算結果</li>
-</ul>
-<h3 id="3-驗證結果"><a href="#3-驗證結果" class="headerlink" title="3. 驗證結果"></a>3. 驗證結果</h3><ul>
-<li>檢查單位（應為伏特）</li>
-<li>確保物理合理性</li>
-<li>與預期行為比較</li>
-</ul>
-<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><strong>標題：</strong> RC充電電路暫態電容電壓公式解析 - 張偉勤老師<br><strong>連結：</strong> <a href="https://www.youtube.com/watch?v=LvLeb6-bHZU">https://www.youtube.com/watch?v=LvLeb6-bHZU</a></p>
-<hr>
-<p><em>本文發布日期：2025-08-02</em> </p>
-]]></content>
-      <categories>
-        <category>基本電學</category>
-      </categories>
-      <tags>
-        <tag>暫態分析</tag>
-        <tag>RC充電電路</tag>
-        <tag>時間常數</tag>
-        <tag>電容電壓公式</tag>
-        <tag>指數函數</tag>
       </tags>
   </entry>
   <entry>
@@ -13648,6 +14439,362 @@ ok
         <tag>暫態電流</tag>
         <tag>指數衰減</tag>
         <tag>電流曲線</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Analysis of Capacitor Voltage Formula in RC Charging Transient Circuit</title>
+    <url>/2025/08/02/rc-charging-circuit-capacitor-voltage-formula-analysis/</url>
+    <content><![CDATA[<h1 id="Analysis-of-Capacitor-Voltage-Formula-in-RC-Charging-Transient-Circuit"><a href="#Analysis-of-Capacitor-Voltage-Formula-in-RC-Charging-Transient-Circuit" class="headerlink" title="Analysis of Capacitor Voltage Formula in RC Charging Transient Circuit"></a>Analysis of Capacitor Voltage Formula in RC Charging Transient Circuit</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This article provides a comprehensive analysis of the capacitor voltage formula in RC charging circuits, explaining the mathematical relationship between voltage and time during the transient charging process.</p>
+<h2 id="RC-Charging-Circuit-Fundamentals"><a href="#RC-Charging-Circuit-Fundamentals" class="headerlink" title="RC Charging Circuit Fundamentals"></a>RC Charging Circuit Fundamentals</h2><h3 id="Circuit-Configuration"><a href="#Circuit-Configuration" class="headerlink" title="Circuit Configuration"></a>Circuit Configuration</h3><p>In a typical RC charging circuit:</p>
+<ul>
+<li><strong>Source Voltage</strong>: ( E ) (constant DC voltage)</li>
+<li><strong>Resistance</strong>: ( R ) (series resistance)</li>
+<li><strong>Capacitance</strong>: ( C ) (capacitor)</li>
+<li><strong>Switch</strong>: Closes at ( t &#x3D; 0 )</li>
+<li><strong>Time Constant</strong>: ( τ &#x3D; RC )</li>
+</ul>
+<h3 id="Initial-Conditions"><a href="#Initial-Conditions" class="headerlink" title="Initial Conditions"></a>Initial Conditions</h3><ul>
+<li><strong>At t &#x3D; 0</strong>: Capacitor voltage ( V_C(0) &#x3D; 0V )</li>
+<li><strong>At t &#x3D; 0</strong>: Capacitor acts as a short circuit</li>
+<li><strong>At t &#x3D; 0</strong>: Maximum current flows through the circuit</li>
+</ul>
+<h2 id="Capacitor-Voltage-Formula"><a href="#Capacitor-Voltage-Formula" class="headerlink" title="Capacitor Voltage Formula"></a>Capacitor Voltage Formula</h2><h3 id="Mathematical-Expression"><a href="#Mathematical-Expression" class="headerlink" title="Mathematical Expression"></a>Mathematical Expression</h3><p>The capacitor voltage in an RC charging circuit follows the exponential function:</p>
+<p>$$ V_C(t) &#x3D; E \left(1 - e^{-\frac{t}{RC}}\right) $$</p>
+<h3 id="Formula-Components"><a href="#Formula-Components" class="headerlink" title="Formula Components"></a>Formula Components</h3><p>Where:</p>
+<ul>
+<li><strong>( V_C(t) )</strong>: Capacitor voltage at time t</li>
+<li><strong>( E )</strong>: Final charging voltage (steady-state voltage)</li>
+<li><strong>( t )</strong>: Time after switch closure</li>
+<li><strong>( R )</strong>: Resistance value</li>
+<li><strong>( C )</strong>: Capacitance value</li>
+<li><strong>( RC )</strong>: Time constant (τ)</li>
+</ul>
+<h3 id="Physical-Interpretation"><a href="#Physical-Interpretation" class="headerlink" title="Physical Interpretation"></a>Physical Interpretation</h3><ul>
+<li>The formula describes exponential voltage rise</li>
+<li>Voltage approaches final value asymptotically</li>
+<li>Rate of change decreases over time</li>
+<li>Non-linear relationship between voltage and time</li>
+</ul>
+<h2 id="Time-Dependent-Behavior"><a href="#Time-Dependent-Behavior" class="headerlink" title="Time-Dependent Behavior"></a>Time-Dependent Behavior</h2><h3 id="Exponential-Growth-Characteristics"><a href="#Exponential-Growth-Characteristics" class="headerlink" title="Exponential Growth Characteristics"></a>Exponential Growth Characteristics</h3><p>The capacitor voltage exhibits exponential growth with the following properties:</p>
+<ol>
+<li><strong>Initial Rate</strong>: Maximum rate of change at t &#x3D; 0</li>
+<li><strong>Decreasing Rate</strong>: Rate of change decreases over time</li>
+<li><strong>Asymptotic Approach</strong>: Voltage approaches E as t → ∞</li>
+<li><strong>Time Constant Dependence</strong>: RC determines the charging speed</li>
+</ol>
+<h3 id="Mathematical-Analysis"><a href="#Mathematical-Analysis" class="headerlink" title="Mathematical Analysis"></a>Mathematical Analysis</h3><p><strong>Rate of Change:</strong><br>$$ \frac{dV_C}{dt} &#x3D; \frac{E}{RC} e^{-\frac{t}{RC}} $$</p>
+<p><strong>Initial Rate:</strong><br>$$ \frac{dV_C}{dt}\bigg|_{t&#x3D;0} &#x3D; \frac{E}{RC} $$</p>
+<h2 id="Key-Time-Points"><a href="#Key-Time-Points" class="headerlink" title="Key Time Points"></a>Key Time Points</h2><h3 id="1-Initial-State-t-0"><a href="#1-Initial-State-t-0" class="headerlink" title="1. Initial State (t &#x3D; 0)"></a>1. Initial State (t &#x3D; 0)</h3><ul>
+<li><strong>Voltage</strong>: ( V_C(0) &#x3D; 0V )</li>
+<li><strong>Current</strong>: ( i(0) &#x3D; \frac{E}{R} ) (maximum)</li>
+<li><strong>Behavior</strong>: Capacitor acts as short circuit</li>
+</ul>
+<h3 id="2-One-Time-Constant-t-RC"><a href="#2-One-Time-Constant-t-RC" class="headerlink" title="2. One Time Constant (t &#x3D; RC)"></a>2. One Time Constant (t &#x3D; RC)</h3><ul>
+<li><strong>Voltage</strong>: ( V_C(RC) &#x3D; E(1 - e^{-1}) &#x3D; 0.632E )</li>
+<li><strong>Percentage</strong>: 63.2% of final voltage</li>
+<li><strong>Significance</strong>: Standard reference point</li>
+</ul>
+<h3 id="3-Two-Time-Constants-t-2RC"><a href="#3-Two-Time-Constants-t-2RC" class="headerlink" title="3. Two Time Constants (t &#x3D; 2RC)"></a>3. Two Time Constants (t &#x3D; 2RC)</h3><ul>
+<li><strong>Voltage</strong>: ( V_C(2RC) &#x3D; E(1 - e^{-2}) &#x3D; 0.865E )</li>
+<li><strong>Percentage</strong>: 86.5% of final voltage</li>
+</ul>
+<h3 id="4-Three-Time-Constants-t-3RC"><a href="#4-Three-Time-Constants-t-3RC" class="headerlink" title="4. Three Time Constants (t &#x3D; 3RC)"></a>4. Three Time Constants (t &#x3D; 3RC)</h3><ul>
+<li><strong>Voltage</strong>: ( V_C(3RC) &#x3D; E(1 - e^{-3}) &#x3D; 0.950E )</li>
+<li><strong>Percentage</strong>: 95.0% of final voltage</li>
+</ul>
+<h3 id="5-Five-Time-Constants-t-5RC"><a href="#5-Five-Time-Constants-t-5RC" class="headerlink" title="5. Five Time Constants (t &#x3D; 5RC)"></a>5. Five Time Constants (t &#x3D; 5RC)</h3><ul>
+<li><strong>Voltage</strong>: ( V_C(5RC) &#x3D; E(1 - e^{-5}) &#x3D; 0.993E )</li>
+<li><strong>Percentage</strong>: 99.3% of final voltage</li>
+<li><strong>Significance</strong>: Charging essentially complete</li>
+</ul>
+<h2 id="Graphical-Analysis"><a href="#Graphical-Analysis" class="headerlink" title="Graphical Analysis"></a>Graphical Analysis</h2><h3 id="Voltage-vs-Time-Curve"><a href="#Voltage-vs-Time-Curve" class="headerlink" title="Voltage vs Time Curve"></a>Voltage vs Time Curve</h3><p>The capacitor voltage follows a characteristic exponential curve:</p>
+<ol>
+<li><strong>Steep Initial Rise</strong>: Rapid voltage increase at the beginning</li>
+<li><strong>Gradual Approach</strong>: Slower approach to final value</li>
+<li><strong>Asymptotic Behavior</strong>: Never quite reaches final value</li>
+<li><strong>Time Constant Effect</strong>: RC determines curve steepness</li>
+</ol>
+<h3 id="Plotting-Method"><a href="#Plotting-Method" class="headerlink" title="Plotting Method"></a>Plotting Method</h3><p><strong>Point-by-Point Graphing:</strong></p>
+<ol>
+<li>Calculate voltage at specific time points</li>
+<li>Plot points on voltage vs time graph</li>
+<li>Connect points to form smooth curve</li>
+<li>Use time constant as reference intervals</li>
+</ol>
+<h3 id="Sample-Calculations"><a href="#Sample-Calculations" class="headerlink" title="Sample Calculations"></a>Sample Calculations</h3><p>For ( E &#x3D; 10V ), ( R &#x3D; 2kΩ ), ( C &#x3D; 10μF ):</p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>t&#x2F;RC</th>
+<th>V_C(t)</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0ms</td>
+<td>0</td>
+<td>0V</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>20ms</td>
+<td>1</td>
+<td>6.32V</td>
+<td>63.2%</td>
+</tr>
+<tr>
+<td>40ms</td>
+<td>2</td>
+<td>8.65V</td>
+<td>86.5%</td>
+</tr>
+<tr>
+<td>60ms</td>
+<td>3</td>
+<td>9.50V</td>
+<td>95.0%</td>
+</tr>
+<tr>
+<td>100ms</td>
+<td>5</td>
+<td>9.93V</td>
+<td>99.3%</td>
+</tr>
+</tbody></table>
+<h2 id="Mathematical-Properties"><a href="#Mathematical-Properties" class="headerlink" title="Mathematical Properties"></a>Mathematical Properties</h2><h3 id="Exponential-Function-Characteristics"><a href="#Exponential-Function-Characteristics" class="headerlink" title="Exponential Function Characteristics"></a>Exponential Function Characteristics</h3><ol>
+<li><strong>Monotonic Increase</strong>: Always increasing</li>
+<li><strong>Concave Down</strong>: Rate of increase decreases</li>
+<li><strong>Horizontal Asymptote</strong>: Approaches E as t → ∞</li>
+<li><strong>Inflection Point</strong>: Maximum rate of change at t &#x3D; 0</li>
+</ol>
+<h3 id="Relationship-with-Current"><a href="#Relationship-with-Current" class="headerlink" title="Relationship with Current"></a>Relationship with Current</h3><p><strong>Current Formula:</strong><br>$$ i(t) &#x3D; \frac{E}{R} e^{-\frac{t}{RC}} $$</p>
+<p><strong>Relationship:</strong><br>$$ V_C(t) &#x3D; E - V_R(t) &#x3D; E - i(t)R $$</p>
+<h2 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h2><h3 id="1-Timing-Circuits"><a href="#1-Timing-Circuits" class="headerlink" title="1. Timing Circuits"></a>1. Timing Circuits</h3><ul>
+<li>RC circuits used as delay elements</li>
+<li>Pulse generation and shaping</li>
+<li>Oscillator frequency control</li>
+</ul>
+<h3 id="2-Filter-Design"><a href="#2-Filter-Design" class="headerlink" title="2. Filter Design"></a>2. Filter Design</h3><ul>
+<li>Low-pass filter response</li>
+<li>Smoothing circuits</li>
+<li>Signal processing</li>
+</ul>
+<h3 id="3-Power-Supply-Design"><a href="#3-Power-Supply-Design" class="headerlink" title="3. Power Supply Design"></a>3. Power Supply Design</h3><ul>
+<li>Voltage regulation</li>
+<li>Energy storage systems</li>
+<li>Backup power circuits</li>
+</ul>
+<h2 id="Common-Misconceptions"><a href="#Common-Misconceptions" class="headerlink" title="Common Misconceptions"></a>Common Misconceptions</h2><h3 id="1-Linear-Voltage-Rise"><a href="#1-Linear-Voltage-Rise" class="headerlink" title="1. Linear Voltage Rise"></a>1. Linear Voltage Rise</h3><ul>
+<li><strong>Misconception</strong>: Voltage increases linearly</li>
+<li><strong>Reality</strong>: Exponential (non-linear) increase</li>
+</ul>
+<h3 id="2-Instant-Charging"><a href="#2-Instant-Charging" class="headerlink" title="2. Instant Charging"></a>2. Instant Charging</h3><ul>
+<li><strong>Misconception</strong>: Capacitor charges instantly</li>
+<li><strong>Reality</strong>: Takes time proportional to RC</li>
+</ul>
+<h3 id="3-Complete-Charging"><a href="#3-Complete-Charging" class="headerlink" title="3. Complete Charging"></a>3. Complete Charging</h3><ul>
+<li><strong>Misconception</strong>: Voltage reaches exactly E</li>
+<li><strong>Reality</strong>: Approaches E asymptotically</li>
+</ul>
+<h2 id="Problem-Solving-Strategy"><a href="#Problem-Solving-Strategy" class="headerlink" title="Problem-Solving Strategy"></a>Problem-Solving Strategy</h2><h3 id="1-Identify-Parameters"><a href="#1-Identify-Parameters" class="headerlink" title="1. Identify Parameters"></a>1. Identify Parameters</h3><ul>
+<li>Extract E, R, C values</li>
+<li>Determine time points of interest</li>
+<li>Calculate time constant τ &#x3D; RC</li>
+</ul>
+<h3 id="2-Apply-Formula"><a href="#2-Apply-Formula" class="headerlink" title="2. Apply Formula"></a>2. Apply Formula</h3><ul>
+<li>Use ( V_C(t) &#x3D; E(1 - e^{-t&#x2F;RC}) )</li>
+<li>Substitute known values</li>
+<li>Calculate result</li>
+</ul>
+<h3 id="3-Verify-Results"><a href="#3-Verify-Results" class="headerlink" title="3. Verify Results"></a>3. Verify Results</h3><ul>
+<li>Check units (should be Volts)</li>
+<li>Ensure physical reasonableness</li>
+<li>Compare with expected behavior</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><strong>Title:</strong> RC充電電路暫態電容電壓公式解析 - 張偉勤老師<br><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=LvLeb6-bHZU">https://www.youtube.com/watch?v=LvLeb6-bHZU</a></p>
+<hr>
+<h1 id="RC充電電路暫態電容電壓公式解析"><a href="#RC充電電路暫態電容電壓公式解析" class="headerlink" title="RC充電電路暫態電容電壓公式解析"></a>RC充電電路暫態電容電壓公式解析</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文提供 RC 充電電路中電容電壓公式的全面分析，解釋暫態充電過程中電壓與時間之間的數學關係。</p>
+<h2 id="RC充電電路基礎"><a href="#RC充電電路基礎" class="headerlink" title="RC充電電路基礎"></a>RC充電電路基礎</h2><h3 id="電路配置"><a href="#電路配置" class="headerlink" title="電路配置"></a>電路配置</h3><p>在典型的 RC 充電電路中：</p>
+<ul>
+<li><strong>電源電壓</strong>：( E )（恆定直流電壓）</li>
+<li><strong>電阻</strong>：( R )（串聯電阻）</li>
+<li><strong>電容</strong>：( C )（電容器）</li>
+<li><strong>開關</strong>：在 ( t &#x3D; 0 ) 時閉合</li>
+<li><strong>時間常數</strong>：( τ &#x3D; RC )</li>
+</ul>
+<h3 id="初始條件"><a href="#初始條件" class="headerlink" title="初始條件"></a>初始條件</h3><ul>
+<li><strong>t &#x3D; 0 時</strong>：電容器電壓 ( V_C(0) &#x3D; 0V )</li>
+<li><strong>t &#x3D; 0 時</strong>：電容器呈短路狀態</li>
+<li><strong>t &#x3D; 0 時</strong>：最大電流流過電路</li>
+</ul>
+<h2 id="電容電壓公式"><a href="#電容電壓公式" class="headerlink" title="電容電壓公式"></a>電容電壓公式</h2><h3 id="數學表達式"><a href="#數學表達式" class="headerlink" title="數學表達式"></a>數學表達式</h3><p>RC 充電電路中的電容電壓遵循指數函數：</p>
+<p>$$ V_C(t) &#x3D; E \left(1 - e^{-\frac{t}{RC}}\right) $$</p>
+<h3 id="公式組成"><a href="#公式組成" class="headerlink" title="公式組成"></a>公式組成</h3><p>其中：</p>
+<ul>
+<li><strong>( V_C(t) )</strong>：時間 t 時的電容器電壓</li>
+<li><strong>( E )</strong>：最終充電電壓（穩態電壓）</li>
+<li><strong>( t )</strong>：開關閉合後的時間</li>
+<li><strong>( R )</strong>：電阻值</li>
+<li><strong>( C )</strong>：電容值</li>
+<li><strong>( RC )</strong>：時間常數（τ）</li>
+</ul>
+<h3 id="物理解釋"><a href="#物理解釋" class="headerlink" title="物理解釋"></a>物理解釋</h3><ul>
+<li>公式描述指數電壓上升</li>
+<li>電壓漸近地接近最終值</li>
+<li>變化率隨時間減小</li>
+<li>電壓與時間之間的非線性關係</li>
+</ul>
+<h2 id="時間相關行為"><a href="#時間相關行為" class="headerlink" title="時間相關行為"></a>時間相關行為</h2><h3 id="指數增長特性"><a href="#指數增長特性" class="headerlink" title="指數增長特性"></a>指數增長特性</h3><p>電容器電壓表現出具有以下特性的指數增長：</p>
+<ol>
+<li><strong>初始速率</strong>：t &#x3D; 0 時的最大變化率</li>
+<li><strong>遞減速率</strong>：變化率隨時間減小</li>
+<li><strong>漸近接近</strong>：當 t → ∞ 時電壓接近 E</li>
+<li><strong>時間常數依賴</strong>：RC 決定充電速度</li>
+</ol>
+<h3 id="數學分析"><a href="#數學分析" class="headerlink" title="數學分析"></a>數學分析</h3><p><strong>變化率：</strong><br>$$ \frac{dV_C}{dt} &#x3D; \frac{E}{RC} e^{-\frac{t}{RC}} $$</p>
+<p><strong>初始速率：</strong><br>$$ \frac{dV_C}{dt}\bigg|_{t&#x3D;0} &#x3D; \frac{E}{RC} $$</p>
+<h2 id="關鍵時間點"><a href="#關鍵時間點" class="headerlink" title="關鍵時間點"></a>關鍵時間點</h2><h3 id="1-初始狀態（t-0）"><a href="#1-初始狀態（t-0）" class="headerlink" title="1. 初始狀態（t &#x3D; 0）"></a>1. 初始狀態（t &#x3D; 0）</h3><ul>
+<li><strong>電壓</strong>：( V_C(0) &#x3D; 0V )</li>
+<li><strong>電流</strong>：( i(0) &#x3D; \frac{E}{R} )（最大值）</li>
+<li><strong>行為</strong>：電容器呈短路狀態</li>
+</ul>
+<h3 id="2-一個時間常數（t-RC）"><a href="#2-一個時間常數（t-RC）" class="headerlink" title="2. 一個時間常數（t &#x3D; RC）"></a>2. 一個時間常數（t &#x3D; RC）</h3><ul>
+<li><strong>電壓</strong>：( V_C(RC) &#x3D; E(1 - e^{-1}) &#x3D; 0.632E )</li>
+<li><strong>百分比</strong>：最終電壓的 63.2%</li>
+<li><strong>意義</strong>：標準參考點</li>
+</ul>
+<h3 id="3-兩個時間常數（t-2RC）"><a href="#3-兩個時間常數（t-2RC）" class="headerlink" title="3. 兩個時間常數（t &#x3D; 2RC）"></a>3. 兩個時間常數（t &#x3D; 2RC）</h3><ul>
+<li><strong>電壓</strong>：( V_C(2RC) &#x3D; E(1 - e^{-2}) &#x3D; 0.865E )</li>
+<li><strong>百分比</strong>：最終電壓的 86.5%</li>
+</ul>
+<h3 id="4-三個時間常數（t-3RC）"><a href="#4-三個時間常數（t-3RC）" class="headerlink" title="4. 三個時間常數（t &#x3D; 3RC）"></a>4. 三個時間常數（t &#x3D; 3RC）</h3><ul>
+<li><strong>電壓</strong>：( V_C(3RC) &#x3D; E(1 - e^{-3}) &#x3D; 0.950E )</li>
+<li><strong>百分比</strong>：最終電壓的 95.0%</li>
+</ul>
+<h3 id="5-五個時間常數（t-5RC）"><a href="#5-五個時間常數（t-5RC）" class="headerlink" title="5. 五個時間常數（t &#x3D; 5RC）"></a>5. 五個時間常數（t &#x3D; 5RC）</h3><ul>
+<li><strong>電壓</strong>：( V_C(5RC) &#x3D; E(1 - e^{-5}) &#x3D; 0.993E )</li>
+<li><strong>百分比</strong>：最終電壓的 99.3%</li>
+<li><strong>意義</strong>：充電基本完成</li>
+</ul>
+<h2 id="圖形分析"><a href="#圖形分析" class="headerlink" title="圖形分析"></a>圖形分析</h2><h3 id="電壓對時間曲線"><a href="#電壓對時間曲線" class="headerlink" title="電壓對時間曲線"></a>電壓對時間曲線</h3><p>電容器電壓遵循特徵指數曲線：</p>
+<ol>
+<li><strong>陡峭初始上升</strong>：開始時電壓快速增加</li>
+<li><strong>漸進接近</strong>：較慢地接近最終值</li>
+<li><strong>漸近行為</strong>：永遠不會完全達到最終值</li>
+<li><strong>時間常數效應</strong>：RC 決定曲線陡峭程度</li>
+</ol>
+<h3 id="繪圖方法"><a href="#繪圖方法" class="headerlink" title="繪圖方法"></a>繪圖方法</h3><p><strong>描點作圖法：</strong></p>
+<ol>
+<li>計算特定時間點的電壓</li>
+<li>在電壓對時間圖上繪製點</li>
+<li>連接點形成平滑曲線</li>
+<li>使用時間常數作為參考間隔</li>
+</ol>
+<h3 id="計算範例"><a href="#計算範例" class="headerlink" title="計算範例"></a>計算範例</h3><p>對於 ( E &#x3D; 10V )，( R &#x3D; 2kΩ )，( C &#x3D; 10μF )：</p>
+<table>
+<thead>
+<tr>
+<th>時間</th>
+<th>t&#x2F;RC</th>
+<th>V_C(t)</th>
+<th>百分比</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0ms</td>
+<td>0</td>
+<td>0V</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>20ms</td>
+<td>1</td>
+<td>6.32V</td>
+<td>63.2%</td>
+</tr>
+<tr>
+<td>40ms</td>
+<td>2</td>
+<td>8.65V</td>
+<td>86.5%</td>
+</tr>
+<tr>
+<td>60ms</td>
+<td>3</td>
+<td>9.50V</td>
+<td>95.0%</td>
+</tr>
+<tr>
+<td>100ms</td>
+<td>5</td>
+<td>9.93V</td>
+<td>99.3%</td>
+</tr>
+</tbody></table>
+<h2 id="數學性質"><a href="#數學性質" class="headerlink" title="數學性質"></a>數學性質</h2><h3 id="指數函數特性"><a href="#指數函數特性" class="headerlink" title="指數函數特性"></a>指數函數特性</h3><ol>
+<li><strong>單調遞增</strong>：始終增加</li>
+<li><strong>向下凹</strong>：增加率減小</li>
+<li><strong>水平漸近線</strong>：當 t → ∞ 時接近 E</li>
+<li><strong>拐點</strong>：t &#x3D; 0 時最大變化率</li>
+</ol>
+<h3 id="與電流的關係"><a href="#與電流的關係" class="headerlink" title="與電流的關係"></a>與電流的關係</h3><p><strong>電流公式：</strong><br>$$ i(t) &#x3D; \frac{E}{R} e^{-\frac{t}{RC}} $$</p>
+<p><strong>關係：</strong><br>$$ V_C(t) &#x3D; E - V_R(t) &#x3D; E - i(t)R $$</p>
+<h2 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h2><h3 id="1-計時電路"><a href="#1-計時電路" class="headerlink" title="1. 計時電路"></a>1. 計時電路</h3><ul>
+<li>RC 電路用作延遲元件</li>
+<li>脈衝產生和整形</li>
+<li>振盪器頻率控制</li>
+</ul>
+<h3 id="2-濾波器設計"><a href="#2-濾波器設計" class="headerlink" title="2. 濾波器設計"></a>2. 濾波器設計</h3><ul>
+<li>低通濾波器響應</li>
+<li>平滑電路</li>
+<li>信號處理</li>
+</ul>
+<h3 id="3-電源設計"><a href="#3-電源設計" class="headerlink" title="3. 電源設計"></a>3. 電源設計</h3><ul>
+<li>電壓調節</li>
+<li>能量儲存系統</li>
+<li>備用電源電路</li>
+</ul>
+<h2 id="常見誤解"><a href="#常見誤解" class="headerlink" title="常見誤解"></a>常見誤解</h2><h3 id="1-線性電壓上升"><a href="#1-線性電壓上升" class="headerlink" title="1. 線性電壓上升"></a>1. 線性電壓上升</h3><ul>
+<li><strong>誤解</strong>：電壓線性增加</li>
+<li><strong>事實</strong>：指數（非線性）增加</li>
+</ul>
+<h3 id="2-瞬間充電"><a href="#2-瞬間充電" class="headerlink" title="2. 瞬間充電"></a>2. 瞬間充電</h3><ul>
+<li><strong>誤解</strong>：電容器瞬間充電</li>
+<li><strong>事實</strong>：需要與 RC 成比例的時間</li>
+</ul>
+<h3 id="3-完全充電"><a href="#3-完全充電" class="headerlink" title="3. 完全充電"></a>3. 完全充電</h3><ul>
+<li><strong>誤解</strong>：電壓完全達到 E</li>
+<li><strong>事實</strong>：漸近地接近 E</li>
+</ul>
+<h2 id="解題策略"><a href="#解題策略" class="headerlink" title="解題策略"></a>解題策略</h2><h3 id="1-識別參數"><a href="#1-識別參數" class="headerlink" title="1. 識別參數"></a>1. 識別參數</h3><ul>
+<li>提取 E、R、C 值</li>
+<li>確定感興趣的時間點</li>
+<li>計算時間常數 τ &#x3D; RC</li>
+</ul>
+<h3 id="2-應用公式"><a href="#2-應用公式" class="headerlink" title="2. 應用公式"></a>2. 應用公式</h3><ul>
+<li>使用 ( V_C(t) &#x3D; E(1 - e^{-t&#x2F;RC}) )</li>
+<li>代入已知值</li>
+<li>計算結果</li>
+</ul>
+<h3 id="3-驗證結果"><a href="#3-驗證結果" class="headerlink" title="3. 驗證結果"></a>3. 驗證結果</h3><ul>
+<li>檢查單位（應為伏特）</li>
+<li>確保物理合理性</li>
+<li>與預期行為比較</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><strong>標題：</strong> RC充電電路暫態電容電壓公式解析 - 張偉勤老師<br><strong>連結：</strong> <a href="https://www.youtube.com/watch?v=LvLeb6-bHZU">https://www.youtube.com/watch?v=LvLeb6-bHZU</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em> </p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>暫態分析</tag>
+        <tag>RC充電電路</tag>
+        <tag>時間常數</tag>
+        <tag>電容電壓公式</tag>
+        <tag>指數函數</tag>
       </tags>
   </entry>
   <entry>
@@ -17178,6 +18325,517 @@ ok
       </tags>
   </entry>
   <entry>
+    <title>RL Charging Transient Basic Formulas and Example Analysis</title>
+    <url>/2025/08/02/rl-charging-transient-basic-formulas-example-analysis/</url>
+    <content><![CDATA[<h1 id="RL-Charging-Transient-Basic-Formulas-and-Example-Analysis"><a href="#RL-Charging-Transient-Basic-Formulas-and-Example-Analysis" class="headerlink" title="RL Charging Transient Basic Formulas and Example Analysis"></a>RL Charging Transient Basic Formulas and Example Analysis</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This comprehensive article provides detailed analysis of the fundamental formulas governing RL charging transient behavior and their application in practical example problems. We examine the mathematical relationships between current and voltage components, time constant calculations, and step-by-step problem-solving strategies.</p>
+<h2 id="RL-Charging-Circuit-Fundamentals"><a href="#RL-Charging-Circuit-Fundamentals" class="headerlink" title="RL Charging Circuit Fundamentals"></a>RL Charging Circuit Fundamentals</h2><h3 id="Circuit-Configuration"><a href="#Circuit-Configuration" class="headerlink" title="Circuit Configuration"></a>Circuit Configuration</h3><p>In a typical RL charging circuit:</p>
+<ul>
+<li><strong>Voltage Source</strong>: ( E ) (DC power supply)</li>
+<li><strong>Resistor</strong>: ( R ) (current limiting element)</li>
+<li><strong>Inductor</strong>: ( L ) (energy storage element)</li>
+<li><strong>Switch</strong>: Controls circuit operation</li>
+<li><strong>Time Constant</strong>: ( τ &#x3D; \frac{L}{R} ) (characteristic charging time)</li>
+</ul>
+<h3 id="Charging-Process-Overview"><a href="#Charging-Process-Overview" class="headerlink" title="Charging Process Overview"></a>Charging Process Overview</h3><p>The charging process involves:</p>
+<ol>
+<li><strong>Initial State</strong>: Inductor acts as open circuit, no current flow</li>
+<li><strong>Current Build-up</strong>: Current increases exponentially over time</li>
+<li><strong>Voltage Distribution</strong>: Voltage gradually transfers from inductor to resistor</li>
+<li><strong>Steady State</strong>: Current reaches maximum value ( \frac{E}{R} )</li>
+</ol>
+<h2 id="Fundamental-Formulas"><a href="#Fundamental-Formulas" class="headerlink" title="Fundamental Formulas"></a>Fundamental Formulas</h2><h3 id="1-RL-Charging-Transient-Current-Formula"><a href="#1-RL-Charging-Transient-Current-Formula" class="headerlink" title="1. RL Charging Transient Current Formula"></a>1. RL Charging Transient Current Formula</h3><p>The current in an RL charging circuit follows the exponential growth function:</p>
+<p>$$ i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
+<p>Where:</p>
+<ul>
+<li><strong>( i(t) )</strong>：Current at time t</li>
+<li><strong>( I_{\infty} )</strong>：Steady-state current ( &#x3D; \frac{E}{R} )</li>
+<li><strong>( t )</strong>：Time after switch closure</li>
+<li><strong>( τ )</strong>：Time constant ( &#x3D; \frac{L}{R} )</li>
+</ul>
+<p><strong>Physical Interpretation:</strong></p>
+<ul>
+<li>Current rises from 0 to steady-state value over time</li>
+<li>Exponential growth pattern</li>
+<li>Rate controlled by time constant</li>
+</ul>
+<h3 id="2-Resistor-Voltage-Formula"><a href="#2-Resistor-Voltage-Formula" class="headerlink" title="2. Resistor Voltage Formula"></a>2. Resistor Voltage Formula</h3><p>The voltage across the resistor follows the same exponential growth pattern:</p>
+<p>$$ V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
+<p>Where:</p>
+<ul>
+<li><strong>( V_R(t) )</strong>：Resistor voltage at time t</li>
+<li><strong>( V_{\infty} )</strong>：Steady-state voltage ( &#x3D; E )</li>
+<li><strong>( t )</strong>：Time after switch closure</li>
+<li><strong>( τ )</strong>：Time constant ( &#x3D; \frac{L}{R} )</li>
+</ul>
+<p><strong>Physical Interpretation:</strong></p>
+<ul>
+<li>Resistor voltage rises from 0 to steady-state value</li>
+<li>Follows same exponential pattern as current</li>
+<li>Directly proportional to current (Ohm’s law)</li>
+</ul>
+<h3 id="3-Inductor-Voltage-Formula"><a href="#3-Inductor-Voltage-Formula" class="headerlink" title="3. Inductor Voltage Formula"></a>3. Inductor Voltage Formula</h3><p>The voltage across the inductor follows exponential decay:</p>
+<p>$$ V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} $$</p>
+<p>Where:</p>
+<ul>
+<li><strong>( V_L(t) )</strong>：Inductor voltage at time t</li>
+<li><strong>( V_0 )</strong>：Initial voltage ( &#x3D; E )</li>
+<li><strong>( t )</strong>：Time after switch closure</li>
+<li><strong>( τ )</strong>：Time constant ( &#x3D; \frac{L}{R} )</li>
+</ul>
+<p><strong>Physical Interpretation:</strong></p>
+<ul>
+<li>Inductor voltage decays from initial value to 0</li>
+<li>Exponential decay pattern</li>
+<li>Opposite behavior to resistor voltage</li>
+</ul>
+<h2 id="Time-Constant-Calculation"><a href="#Time-Constant-Calculation" class="headerlink" title="Time Constant Calculation"></a>Time Constant Calculation</h2><h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h3><p>The time constant for RL circuits is:</p>
+<p>$$ \tau &#x3D; \frac{L}{R} $$</p>
+<h3 id="Physical-Significance"><a href="#Physical-Significance" class="headerlink" title="Physical Significance"></a>Physical Significance</h3><ul>
+<li><strong>Units</strong>: Seconds (s)</li>
+<li><strong>Meaning</strong>: Time for current to reach 63.2% of final value</li>
+<li><strong>Growth Rate</strong>: Determines how quickly current builds up</li>
+<li><strong>Circuit Response</strong>: Characterizes the circuit’s transient behavior</li>
+</ul>
+<h3 id="Example-Calculation"><a href="#Example-Calculation" class="headerlink" title="Example Calculation"></a>Example Calculation</h3><p><strong>Given:</strong> ( L &#x3D; 60mH ), ( R &#x3D; 20Ω )</p>
+<p><strong>Time Constant:</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; \frac{0.06H}{20Ω} &#x3D; 0.003s &#x3D; 3ms $$</p>
+<h2 id="Kirchhoff’s-Voltage-Law-Verification"><a href="#Kirchhoff’s-Voltage-Law-Verification" class="headerlink" title="Kirchhoff’s Voltage Law Verification"></a>Kirchhoff’s Voltage Law Verification</h2><h3 id="Circuit-Equation"><a href="#Circuit-Equation" class="headerlink" title="Circuit Equation"></a>Circuit Equation</h3><p>At any time t:<br>$$ V_L(t) + V_R(t) &#x3D; E $$</p>
+<h3 id="Formula-Verification"><a href="#Formula-Verification" class="headerlink" title="Formula Verification"></a>Formula Verification</h3><p>Substituting the formulas:<br>$$ E \cdot e^{-\frac{t}{\tau}} + E(1 - e^{-\frac{t}{\tau}}) &#x3D; E $$</p>
+<p>Simplifying:<br>$$ E \cdot e^{-\frac{t}{\tau}} + E - E \cdot e^{-\frac{t}{\tau}} &#x3D; E $$</p>
+<p>This confirms that the formulas satisfy Kirchhoff’s voltage law.</p>
+<h2 id="Key-Time-Points-Analysis"><a href="#Key-Time-Points-Analysis" class="headerlink" title="Key Time Points Analysis"></a>Key Time Points Analysis</h2><h3 id="Time-Constant-Multiples"><a href="#Time-Constant-Multiples" class="headerlink" title="Time Constant Multiples"></a>Time Constant Multiples</h3><p>Important reference points during charging:</p>
+<h4 id="1-Initial-State-t-0"><a href="#1-Initial-State-t-0" class="headerlink" title="1. Initial State (t &#x3D; 0)"></a>1. Initial State (t &#x3D; 0)</h4><ul>
+<li><strong>Current</strong>: ( i(0) &#x3D; 0 ) A</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(0) &#x3D; 0 ) V</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(0) &#x3D; E ) V</li>
+<li><strong>Behavior</strong>: Inductor acts as open circuit</li>
+</ul>
+<h4 id="2-One-Time-Constant-t-τ"><a href="#2-One-Time-Constant-t-τ" class="headerlink" title="2. One Time Constant (t &#x3D; τ)"></a>2. One Time Constant (t &#x3D; τ)</h4><ul>
+<li><strong>Current</strong>: ( i(τ) &#x3D; 0.632I_{\infty} )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(τ) &#x3D; 0.632E )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(τ) &#x3D; 0.368E )</li>
+<li><strong>Significance</strong>: Standard reference point</li>
+</ul>
+<h4 id="3-Two-Time-Constants-t-2τ"><a href="#3-Two-Time-Constants-t-2τ" class="headerlink" title="3. Two Time Constants (t &#x3D; 2τ)"></a>3. Two Time Constants (t &#x3D; 2τ)</h4><ul>
+<li><strong>Current</strong>: ( i(2τ) &#x3D; 0.865I_{\infty} )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(2τ) &#x3D; 0.865E )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(2τ) &#x3D; 0.135E )</li>
+</ul>
+<h4 id="4-Three-Time-Constants-t-3τ"><a href="#4-Three-Time-Constants-t-3τ" class="headerlink" title="4. Three Time Constants (t &#x3D; 3τ)"></a>4. Three Time Constants (t &#x3D; 3τ)</h4><ul>
+<li><strong>Current</strong>: ( i(3τ) &#x3D; 0.950I_{\infty} )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(3τ) &#x3D; 0.950E )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(3τ) &#x3D; 0.050E )</li>
+</ul>
+<h4 id="5-Five-Time-Constants-t-5τ"><a href="#5-Five-Time-Constants-t-5τ" class="headerlink" title="5. Five Time Constants (t &#x3D; 5τ)"></a>5. Five Time Constants (t &#x3D; 5τ)</h4><ul>
+<li><strong>Current</strong>: ( i(5τ) &#x3D; 0.993I_{\infty} )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(5τ) &#x3D; 0.993E )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(5τ) &#x3D; 0.007E )</li>
+<li><strong>Significance</strong>: Charging essentially complete</li>
+</ul>
+<h2 id="Example-Problem-Analysis"><a href="#Example-Problem-Analysis" class="headerlink" title="Example Problem Analysis"></a>Example Problem Analysis</h2><h3 id="Problem-Setup"><a href="#Problem-Setup" class="headerlink" title="Problem Setup"></a>Problem Setup</h3><p><strong>Given:</strong> ( E &#x3D; 100V ), ( R &#x3D; 20Ω ), ( L &#x3D; 60mH )</p>
+<p><strong>Time Constant:</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; 3ms $$</p>
+<p><strong>Steady-State Values:</strong></p>
+<ul>
+<li><strong>Current</strong>: ( I_{\infty} &#x3D; \frac{E}{R} &#x3D; \frac{100V}{20Ω} &#x3D; 5A )</li>
+<li><strong>Resistor Voltage</strong>: ( V_{R\infty} &#x3D; E &#x3D; 100V )</li>
+<li><strong>Inductor Voltage</strong>: ( V_{L\infty} &#x3D; 0V )</li>
+</ul>
+<h3 id="Calculations-at-Different-Time-Points"><a href="#Calculations-at-Different-Time-Points" class="headerlink" title="Calculations at Different Time Points"></a>Calculations at Different Time Points</h3><h4 id="At-t-0-Switch-Closure"><a href="#At-t-0-Switch-Closure" class="headerlink" title="At t &#x3D; 0 (Switch Closure)"></a>At t &#x3D; 0 (Switch Closure)</h4><ul>
+<li><strong>Current</strong>: ( i(0) &#x3D; 5A \times (1 - e^0) &#x3D; 0A )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(0) &#x3D; 100V \times (1 - e^0) &#x3D; 0V )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(0) &#x3D; 100V \times e^0 &#x3D; 100V )</li>
+</ul>
+<h4 id="At-t-3ms-One-Time-Constant"><a href="#At-t-3ms-One-Time-Constant" class="headerlink" title="At t &#x3D; 3ms (One Time Constant)"></a>At t &#x3D; 3ms (One Time Constant)</h4><ul>
+<li><strong>Current</strong>: ( i(3ms) &#x3D; 5A \times (1 - e^{-1}) &#x3D; 3.16A )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(3ms) &#x3D; 100V \times (1 - e^{-1}) &#x3D; 63.2V )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(3ms) &#x3D; 100V \times e^{-1} &#x3D; 36.8V )</li>
+</ul>
+<h4 id="At-t-6ms-Two-Time-Constants"><a href="#At-t-6ms-Two-Time-Constants" class="headerlink" title="At t &#x3D; 6ms (Two Time Constants)"></a>At t &#x3D; 6ms (Two Time Constants)</h4><ul>
+<li><strong>Current</strong>: ( i(6ms) &#x3D; 5A \times (1 - e^{-2}) &#x3D; 4.33A )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(6ms) &#x3D; 100V \times (1 - e^{-2}) &#x3D; 86.5V )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(6ms) &#x3D; 100V \times e^{-2} &#x3D; 13.5V )</li>
+</ul>
+<h4 id="At-t-15ms-Five-Time-Constants"><a href="#At-t-15ms-Five-Time-Constants" class="headerlink" title="At t &#x3D; 15ms (Five Time Constants)"></a>At t &#x3D; 15ms (Five Time Constants)</h4><ul>
+<li><strong>Current</strong>: ( i(15ms) &#x3D; 5A \times (1 - e^{-5}) &#x3D; 4.97A )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(15ms) &#x3D; 100V \times (1 - e^{-5}) &#x3D; 99.3V )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(15ms) &#x3D; 100V \times e^{-5} &#x3D; 0.7V )</li>
+</ul>
+<h2 id="Problem-Solving-Strategy"><a href="#Problem-Solving-Strategy" class="headerlink" title="Problem-Solving Strategy"></a>Problem-Solving Strategy</h2><h3 id="1-Identify-Parameters"><a href="#1-Identify-Parameters" class="headerlink" title="1. Identify Parameters"></a>1. Identify Parameters</h3><ul>
+<li>Extract E, R, L values from problem</li>
+<li>Calculate time constant ( \tau &#x3D; \frac{L}{R} )</li>
+<li>Determine steady-state values</li>
+<li>Identify time points of interest</li>
+</ul>
+<h3 id="2-Apply-Fundamental-Formulas"><a href="#2-Apply-Fundamental-Formulas" class="headerlink" title="2. Apply Fundamental Formulas"></a>2. Apply Fundamental Formulas</h3><ul>
+<li><strong>Current</strong>: ( i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
+<li><strong>Resistor Voltage</strong>: ( V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
+<li><strong>Inductor Voltage</strong>: ( V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} )</li>
+</ul>
+<h3 id="3-Verify-Results"><a href="#3-Verify-Results" class="headerlink" title="3. Verify Results"></a>3. Verify Results</h3><ul>
+<li>Check units (current in Amperes, voltage in Volts)</li>
+<li>Ensure Kirchhoff’s voltage law is satisfied</li>
+<li>Verify physical reasonableness</li>
+<li>Cross-check calculations</li>
+</ul>
+<h3 id="4-Cross-Check-Calculations"><a href="#4-Cross-Check-Calculations" class="headerlink" title="4. Cross-Check Calculations"></a>4. Cross-Check Calculations</h3><ul>
+<li>Use Ohm’s law: ( V_R(t) &#x3D; i(t) \times R )</li>
+<li>Verify Kirchhoff’s voltage law: ( V_L(t) + V_R(t) &#x3D; E )</li>
+<li>Check time constant calculations</li>
+</ul>
+<h2 id="Comparison-with-RC-Charging"><a href="#Comparison-with-RC-Charging" class="headerlink" title="Comparison with RC Charging"></a>Comparison with RC Charging</h2><h3 id="Formula-Comparison"><a href="#Formula-Comparison" class="headerlink" title="Formula Comparison"></a>Formula Comparison</h3><table>
+<thead>
+<tr>
+<th>Component</th>
+<th>RL Charging</th>
+<th>RC Charging</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Current</td>
+<td>( i(t) &#x3D; I_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
+<td>( i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} )</td>
+</tr>
+<tr>
+<td>Resistor Voltage</td>
+<td>( V_R(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
+<td>( V_R(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
+</tr>
+<tr>
+<td>Storage Element Voltage</td>
+<td>( V_L(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
+<td>( V_C(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
+</tr>
+<tr>
+<td>Time Constant</td>
+<td>( \tau &#x3D; \frac{L}{R} )</td>
+<td>( \tau &#x3D; RC )</td>
+</tr>
+</tbody></table>
+<h3 id="Energy-Storage"><a href="#Energy-Storage" class="headerlink" title="Energy Storage"></a>Energy Storage</h3><table>
+<thead>
+<tr>
+<th>Circuit Type</th>
+<th>Energy Storage</th>
+<th>Storage Element</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>RL Circuit</td>
+<td>Magnetic energy</td>
+<td>Inductor</td>
+</tr>
+<tr>
+<td>RC Circuit</td>
+<td>Electric energy</td>
+<td>Capacitor</td>
+</tr>
+</tbody></table>
+<h2 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h2><h3 id="1-Motor-Starting"><a href="#1-Motor-Starting" class="headerlink" title="1. Motor Starting"></a>1. Motor Starting</h3><ul>
+<li><strong>Soft Start</strong>: Gradual current build-up prevents motor damage</li>
+<li><strong>Current Limiting</strong>: Controls initial current surge</li>
+<li><strong>Protection</strong>: Prevents excessive starting current</li>
+</ul>
+<h3 id="2-Power-Electronics"><a href="#2-Power-Electronics" class="headerlink" title="2. Power Electronics"></a>2. Power Electronics</h3><ul>
+<li><strong>DC-DC Converters</strong>: Inductor current control</li>
+<li><strong>Switching Regulators</strong>: Current ramping control</li>
+<li><strong>Filter Design</strong>: Current smoothing applications</li>
+</ul>
+<h3 id="3-Electromagnetic-Devices"><a href="#3-Electromagnetic-Devices" class="headerlink" title="3. Electromagnetic Devices"></a>3. Electromagnetic Devices</h3><ul>
+<li><strong>Solenoids</strong>: Controlled activation</li>
+<li><strong>Relays</strong>: Gradual current build-up</li>
+<li><strong>Transformers</strong>: Primary current control</li>
+</ul>
+<h2 id="Common-Misconceptions"><a href="#Common-Misconceptions" class="headerlink" title="Common Misconceptions"></a>Common Misconceptions</h2><h3 id="1-Linear-Growth"><a href="#1-Linear-Growth" class="headerlink" title="1. Linear Growth"></a>1. Linear Growth</h3><ul>
+<li><strong>Misconception</strong>: Current increases linearly over time</li>
+<li><strong>Reality</strong>: Current follows exponential growth pattern</li>
+</ul>
+<h3 id="2-Instant-Current-Flow"><a href="#2-Instant-Current-Flow" class="headerlink" title="2. Instant Current Flow"></a>2. Instant Current Flow</h3><ul>
+<li><strong>Misconception</strong>: Current flows immediately when switch closes</li>
+<li><strong>Reality</strong>: Current builds up gradually due to inductor opposition</li>
+</ul>
+<h3 id="3-Constant-Growth-Rate"><a href="#3-Constant-Growth-Rate" class="headerlink" title="3. Constant Growth Rate"></a>3. Constant Growth Rate</h3><ul>
+<li><strong>Misconception</strong>: Current growth rate remains constant</li>
+<li><strong>Reality</strong>: Growth rate decreases exponentially over time</li>
+</ul>
+<h3 id="4-Energy-Loss"><a href="#4-Energy-Loss" class="headerlink" title="4. Energy Loss"></a>4. Energy Loss</h3><ul>
+<li><strong>Misconception</strong>: All energy is lost in resistor</li>
+<li><strong>Reality</strong>: Energy is stored in inductor’s magnetic field</li>
+</ul>
+<h2 id="Advanced-Topics"><a href="#Advanced-Topics" class="headerlink" title="Advanced Topics"></a>Advanced Topics</h2><h3 id="Multiple-Time-Constants"><a href="#Multiple-Time-Constants" class="headerlink" title="Multiple Time Constants"></a>Multiple Time Constants</h3><p>Complex RL scenarios:</p>
+<ul>
+<li><strong>Series RL</strong>: Multiple inductors charging</li>
+<li><strong>Parallel RL</strong>: Multiple charging paths</li>
+<li><strong>Mixed Configurations</strong>: Thevenin equivalent method</li>
+</ul>
+<h3 id="Non-Ideal-Components"><a href="#Non-Ideal-Components" class="headerlink" title="Non-Ideal Components"></a>Non-Ideal Components</h3><p>Real-world considerations:</p>
+<ul>
+<li><strong>Inductor Resistance</strong>: Internal resistance effects</li>
+<li><strong>Core Losses</strong>: Magnetic core losses</li>
+<li><strong>Temperature Effects</strong>: Component parameter variations</li>
+</ul>
+<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><strong>Title:</strong> RL充電暫態基本公式與例題解析 - 張偉勤老師<br><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=SIqOJ0BBwlE">https://www.youtube.com/watch?v=SIqOJ0BBwlE</a></p>
+<hr>
+<h1 id="RL充電暫態基本公式與例題解析"><a href="#RL充電暫態基本公式與例題解析" class="headerlink" title="RL充電暫態基本公式與例題解析"></a>RL充電暫態基本公式與例題解析</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文提供 RL 充電暫態行為基本公式的詳細分析及其在實際例題中的應用。我們檢視電流與電壓元件之間的數學關係、時間常數計算，以及逐步解題策略。</p>
+<h2 id="RL充電電路基礎"><a href="#RL充電電路基礎" class="headerlink" title="RL充電電路基礎"></a>RL充電電路基礎</h2><h3 id="電路配置"><a href="#電路配置" class="headerlink" title="電路配置"></a>電路配置</h3><p>典型的 RL 充電電路包含：</p>
+<ul>
+<li><strong>電壓源</strong>：( E )（直流電源）</li>
+<li><strong>電阻</strong>：( R )（限流元件）</li>
+<li><strong>電感</strong>：( L )（儲能元件）</li>
+<li><strong>開關</strong>：控制電路操作</li>
+<li><strong>時間常數</strong>：( τ &#x3D; \frac{L}{R} )（特徵充電時間）</li>
+</ul>
+<h3 id="充電過程概述"><a href="#充電過程概述" class="headerlink" title="充電過程概述"></a>充電過程概述</h3><p>充電過程包含：</p>
+<ol>
+<li><strong>初始狀態</strong>：電感器呈斷路，無電流流動</li>
+<li><strong>電流建立</strong>：電流隨時間指數增長</li>
+<li><strong>電壓分佈</strong>：電壓逐漸從電感器轉移到電阻</li>
+<li><strong>穩態</strong>：電流達到最大值 ( \frac{E}{R} )</li>
+</ol>
+<h2 id="基本公式"><a href="#基本公式" class="headerlink" title="基本公式"></a>基本公式</h2><h3 id="1-RL充電暫態電流公式"><a href="#1-RL充電暫態電流公式" class="headerlink" title="1. RL充電暫態電流公式"></a>1. RL充電暫態電流公式</h3><p>RL 充電電路中的電流遵循指數增長函數：</p>
+<p>$$ i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
+<p>其中：</p>
+<ul>
+<li><strong>( i(t) )</strong>：時間 t 時的電流</li>
+<li><strong>( I_{\infty} )</strong>：穩態電流 ( &#x3D; \frac{E}{R} )</li>
+<li><strong>( t )</strong>：開關閉合後的時間</li>
+<li><strong>( τ )</strong>：時間常數 ( &#x3D; \frac{L}{R} )</li>
+</ul>
+<p><strong>物理解釋：</strong></p>
+<ul>
+<li>電流隨時間從 0 增加到穩態值</li>
+<li>指數增長模式</li>
+<li>速率由時間常數控制</li>
+</ul>
+<h3 id="2-電阻電壓公式"><a href="#2-電阻電壓公式" class="headerlink" title="2. 電阻電壓公式"></a>2. 電阻電壓公式</h3><p>電阻兩端電壓遵循相同的指數增長模式：</p>
+<p>$$ V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
+<p>其中：</p>
+<ul>
+<li><strong>( V_R(t) )</strong>：時間 t 時的電阻電壓</li>
+<li><strong>( V_{\infty} )</strong>：穩態電壓 ( &#x3D; E )</li>
+<li><strong>( t )</strong>：開關閉合後的時間</li>
+<li><strong>( τ )</strong>：時間常數 ( &#x3D; \frac{L}{R} )</li>
+</ul>
+<p><strong>物理解釋：</strong></p>
+<ul>
+<li>電阻電壓從 0 增加到穩態值</li>
+<li>與電流遵循相同的指數模式</li>
+<li>與電流成正比（歐姆定律）</li>
+</ul>
+<h3 id="3-電感電壓公式"><a href="#3-電感電壓公式" class="headerlink" title="3. 電感電壓公式"></a>3. 電感電壓公式</h3><p>電感兩端電壓遵循指數衰減：</p>
+<p>$$ V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} $$</p>
+<p>其中：</p>
+<ul>
+<li><strong>( V_L(t) )</strong>：時間 t 時的電感電壓</li>
+<li><strong>( V_0 )</strong>：初始電壓 ( &#x3D; E )</li>
+<li><strong>( t )</strong>：開關閉合後的時間</li>
+<li><strong>( τ )</strong>：時間常數 ( &#x3D; \frac{L}{R} )</li>
+</ul>
+<p><strong>物理解釋：</strong></p>
+<ul>
+<li>電感電壓從初始值衰減到 0</li>
+<li>指數衰減模式</li>
+<li>與電阻電壓相反的行為</li>
+</ul>
+<h2 id="時間常數計算"><a href="#時間常數計算" class="headerlink" title="時間常數計算"></a>時間常數計算</h2><h3 id="定義"><a href="#定義" class="headerlink" title="定義"></a>定義</h3><p>RL 電路的時間常數為：</p>
+<p>$$ \tau &#x3D; \frac{L}{R} $$</p>
+<h3 id="物理意義"><a href="#物理意義" class="headerlink" title="物理意義"></a>物理意義</h3><ul>
+<li><strong>單位</strong>：秒（s）</li>
+<li><strong>意義</strong>：電流達到最終值 63.2% 的時間</li>
+<li><strong>增長率</strong>：決定電流建立的速度</li>
+<li><strong>電路響應</strong>：表徵電路的暫態行為</li>
+</ul>
+<h3 id="計算範例"><a href="#計算範例" class="headerlink" title="計算範例"></a>計算範例</h3><p><strong>已知：</strong> ( L &#x3D; 60mH )，( R &#x3D; 20Ω )</p>
+<p><strong>時間常數：</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; \frac{0.06H}{20Ω} &#x3D; 0.003s &#x3D; 3ms $$</p>
+<h2 id="基爾霍夫電壓定律驗證"><a href="#基爾霍夫電壓定律驗證" class="headerlink" title="基爾霍夫電壓定律驗證"></a>基爾霍夫電壓定律驗證</h2><h3 id="電路方程式"><a href="#電路方程式" class="headerlink" title="電路方程式"></a>電路方程式</h3><p>在任何時間 t：<br>$$ V_L(t) + V_R(t) &#x3D; E $$</p>
+<h3 id="公式驗證"><a href="#公式驗證" class="headerlink" title="公式驗證"></a>公式驗證</h3><p>代入公式：<br>$$ E \cdot e^{-\frac{t}{\tau}} + E(1 - e^{-\frac{t}{\tau}}) &#x3D; E $$</p>
+<p>簡化：<br>$$ E \cdot e^{-\frac{t}{\tau}} + E - E \cdot e^{-\frac{t}{\tau}} &#x3D; E $$</p>
+<p>這確認了公式滿足基爾霍夫電壓定律。</p>
+<h2 id="關鍵時間點分析"><a href="#關鍵時間點分析" class="headerlink" title="關鍵時間點分析"></a>關鍵時間點分析</h2><h3 id="時間常數倍數"><a href="#時間常數倍數" class="headerlink" title="時間常數倍數"></a>時間常數倍數</h3><p>充電期間的重要參考點：</p>
+<h4 id="1-初始狀態（t-0）"><a href="#1-初始狀態（t-0）" class="headerlink" title="1. 初始狀態（t &#x3D; 0）"></a>1. 初始狀態（t &#x3D; 0）</h4><ul>
+<li><strong>電流</strong>：( i(0) &#x3D; 0 ) A</li>
+<li><strong>電阻電壓</strong>：( V_R(0) &#x3D; 0 ) V</li>
+<li><strong>電感電壓</strong>：( V_L(0) &#x3D; E ) V</li>
+<li><strong>行為</strong>：電感器呈斷路</li>
+</ul>
+<h4 id="2-一個時間常數（t-τ）"><a href="#2-一個時間常數（t-τ）" class="headerlink" title="2. 一個時間常數（t &#x3D; τ）"></a>2. 一個時間常數（t &#x3D; τ）</h4><ul>
+<li><strong>電流</strong>：( i(τ) &#x3D; 0.632I_{\infty} )</li>
+<li><strong>電阻電壓</strong>：( V_R(τ) &#x3D; 0.632E )</li>
+<li><strong>電感電壓</strong>：( V_L(τ) &#x3D; 0.368E )</li>
+<li><strong>意義</strong>：標準參考點</li>
+</ul>
+<h4 id="3-兩個時間常數（t-2τ）"><a href="#3-兩個時間常數（t-2τ）" class="headerlink" title="3. 兩個時間常數（t &#x3D; 2τ）"></a>3. 兩個時間常數（t &#x3D; 2τ）</h4><ul>
+<li><strong>電流</strong>：( i(2τ) &#x3D; 0.865I_{\infty} )</li>
+<li><strong>電阻電壓</strong>：( V_R(2τ) &#x3D; 0.865E )</li>
+<li><strong>電感電壓</strong>：( V_L(2τ) &#x3D; 0.135E )</li>
+</ul>
+<h4 id="4-三個時間常數（t-3τ）"><a href="#4-三個時間常數（t-3τ）" class="headerlink" title="4. 三個時間常數（t &#x3D; 3τ）"></a>4. 三個時間常數（t &#x3D; 3τ）</h4><ul>
+<li><strong>電流</strong>：( i(3τ) &#x3D; 0.950I_{\infty} )</li>
+<li><strong>電阻電壓</strong>：( V_R(3τ) &#x3D; 0.950E )</li>
+<li><strong>電感電壓</strong>：( V_L(3τ) &#x3D; 0.050E )</li>
+</ul>
+<h4 id="5-五個時間常數（t-5τ）"><a href="#5-五個時間常數（t-5τ）" class="headerlink" title="5. 五個時間常數（t &#x3D; 5τ）"></a>5. 五個時間常數（t &#x3D; 5τ）</h4><ul>
+<li><strong>電流</strong>：( i(5τ) &#x3D; 0.993I_{\infty} )</li>
+<li><strong>電阻電壓</strong>：( V_R(5τ) &#x3D; 0.993E )</li>
+<li><strong>電感電壓</strong>：( V_L(5τ) &#x3D; 0.007E )</li>
+<li><strong>意義</strong>：充電基本完成</li>
+</ul>
+<h2 id="例題解析"><a href="#例題解析" class="headerlink" title="例題解析"></a>例題解析</h2><h3 id="問題設定"><a href="#問題設定" class="headerlink" title="問題設定"></a>問題設定</h3><p><strong>已知：</strong> ( E &#x3D; 100V )，( R &#x3D; 20Ω )，( L &#x3D; 60mH )</p>
+<p><strong>時間常數：</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; 3ms $$</p>
+<p><strong>穩態值：</strong></p>
+<ul>
+<li><strong>電流</strong>：( I_{\infty} &#x3D; \frac{E}{R} &#x3D; \frac{100V}{20Ω} &#x3D; 5A )</li>
+<li><strong>電阻電壓</strong>：( V_{R\infty} &#x3D; E &#x3D; 100V )</li>
+<li><strong>電感電壓</strong>：( V_{L\infty} &#x3D; 0V )</li>
+</ul>
+<h3 id="不同時間點的計算"><a href="#不同時間點的計算" class="headerlink" title="不同時間點的計算"></a>不同時間點的計算</h3><h4 id="t-0-時（開關閉合）"><a href="#t-0-時（開關閉合）" class="headerlink" title="t &#x3D; 0 時（開關閉合）"></a>t &#x3D; 0 時（開關閉合）</h4><ul>
+<li><strong>電流</strong>：( i(0) &#x3D; 5A \times (1 - e^0) &#x3D; 0A )</li>
+<li><strong>電阻電壓</strong>：( V_R(0) &#x3D; 100V \times (1 - e^0) &#x3D; 0V )</li>
+<li><strong>電感電壓</strong>：( V_L(0) &#x3D; 100V \times e^0 &#x3D; 100V )</li>
+</ul>
+<h4 id="t-3ms-時（一個時間常數）"><a href="#t-3ms-時（一個時間常數）" class="headerlink" title="t &#x3D; 3ms 時（一個時間常數）"></a>t &#x3D; 3ms 時（一個時間常數）</h4><ul>
+<li><strong>電流</strong>：( i(3ms) &#x3D; 5A \times (1 - e^{-1}) &#x3D; 3.16A )</li>
+<li><strong>電阻電壓</strong>：( V_R(3ms) &#x3D; 100V \times (1 - e^{-1}) &#x3D; 63.2V )</li>
+<li><strong>電感電壓</strong>：( V_L(3ms) &#x3D; 100V \times e^{-1} &#x3D; 36.8V )</li>
+</ul>
+<h4 id="t-6ms-時（兩個時間常數）"><a href="#t-6ms-時（兩個時間常數）" class="headerlink" title="t &#x3D; 6ms 時（兩個時間常數）"></a>t &#x3D; 6ms 時（兩個時間常數）</h4><ul>
+<li><strong>電流</strong>：( i(6ms) &#x3D; 5A \times (1 - e^{-2}) &#x3D; 4.33A )</li>
+<li><strong>電阻電壓</strong>：( V_R(6ms) &#x3D; 100V \times (1 - e^{-2}) &#x3D; 86.5V )</li>
+<li><strong>電感電壓</strong>：( V_L(6ms) &#x3D; 100V \times e^{-2} &#x3D; 13.5V )</li>
+</ul>
+<h4 id="t-15ms-時（五個時間常數）"><a href="#t-15ms-時（五個時間常數）" class="headerlink" title="t &#x3D; 15ms 時（五個時間常數）"></a>t &#x3D; 15ms 時（五個時間常數）</h4><ul>
+<li><strong>電流</strong>：( i(15ms) &#x3D; 5A \times (1 - e^{-5}) &#x3D; 4.97A )</li>
+<li><strong>電阻電壓</strong>：( V_R(15ms) &#x3D; 100V \times (1 - e^{-5}) &#x3D; 99.3V )</li>
+<li><strong>電感電壓</strong>：( V_L(15ms) &#x3D; 100V \times e^{-5} &#x3D; 0.7V )</li>
+</ul>
+<h2 id="解題策略"><a href="#解題策略" class="headerlink" title="解題策略"></a>解題策略</h2><h3 id="1-識別參數"><a href="#1-識別參數" class="headerlink" title="1. 識別參數"></a>1. 識別參數</h3><ul>
+<li>從問題中提取 E、R、L 值</li>
+<li>計算時間常數 ( \tau &#x3D; \frac{L}{R} )</li>
+<li>確定穩態值</li>
+<li>識別感興趣的時間點</li>
+</ul>
+<h3 id="2-應用基本公式"><a href="#2-應用基本公式" class="headerlink" title="2. 應用基本公式"></a>2. 應用基本公式</h3><ul>
+<li><strong>電流</strong>：( i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
+<li><strong>電阻電壓</strong>：( V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
+<li><strong>電感電壓</strong>：( V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} )</li>
+</ul>
+<h3 id="3-驗證結果"><a href="#3-驗證結果" class="headerlink" title="3. 驗證結果"></a>3. 驗證結果</h3><ul>
+<li>檢查單位（電流為安培，電壓為伏特）</li>
+<li>確保基爾霍夫電壓定律得到滿足</li>
+<li>驗證物理合理性</li>
+<li>交叉檢查計算</li>
+</ul>
+<h3 id="4-交叉檢查計算"><a href="#4-交叉檢查計算" class="headerlink" title="4. 交叉檢查計算"></a>4. 交叉檢查計算</h3><ul>
+<li>使用歐姆定律：( V_R(t) &#x3D; i(t) \times R )</li>
+<li>驗證基爾霍夫電壓定律：( V_L(t) + V_R(t) &#x3D; E )</li>
+<li>檢查時間常數計算</li>
+</ul>
+<h2 id="與RC充電比較"><a href="#與RC充電比較" class="headerlink" title="與RC充電比較"></a>與RC充電比較</h2><h3 id="公式比較"><a href="#公式比較" class="headerlink" title="公式比較"></a>公式比較</h3><table>
+<thead>
+<tr>
+<th>元件</th>
+<th>RL充電</th>
+<th>RC充電</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>電流</td>
+<td>( i(t) &#x3D; I_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
+<td>( i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} )</td>
+</tr>
+<tr>
+<td>電阻電壓</td>
+<td>( V_R(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
+<td>( V_R(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
+</tr>
+<tr>
+<td>儲能元件電壓</td>
+<td>( V_L(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
+<td>( V_C(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
+</tr>
+<tr>
+<td>時間常數</td>
+<td>( \tau &#x3D; \frac{L}{R} )</td>
+<td>( \tau &#x3D; RC )</td>
+</tr>
+</tbody></table>
+<h3 id="能量儲存"><a href="#能量儲存" class="headerlink" title="能量儲存"></a>能量儲存</h3><table>
+<thead>
+<tr>
+<th>電路類型</th>
+<th>能量儲存</th>
+<th>儲存元件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>RL電路</td>
+<td>磁能</td>
+<td>電感器</td>
+</tr>
+<tr>
+<td>RC電路</td>
+<td>電能</td>
+<td>電容器</td>
+</tr>
+</tbody></table>
+<h2 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h2><h3 id="1-電機啟動"><a href="#1-電機啟動" class="headerlink" title="1. 電機啟動"></a>1. 電機啟動</h3><ul>
+<li><strong>軟啟動</strong>：漸進電流建立防止電機損壞</li>
+<li><strong>電流限制</strong>：控制初始電流湧浪</li>
+<li><strong>保護</strong>：防止過大的啟動電流</li>
+</ul>
+<h3 id="2-電力電子"><a href="#2-電力電子" class="headerlink" title="2. 電力電子"></a>2. 電力電子</h3><ul>
+<li><strong>DC-DC轉換器</strong>：電感電流控制</li>
+<li><strong>開關穩壓器</strong>：電流斜坡控制</li>
+<li><strong>濾波器設計</strong>：電流平滑應用</li>
+</ul>
+<h3 id="3-電磁裝置"><a href="#3-電磁裝置" class="headerlink" title="3. 電磁裝置"></a>3. 電磁裝置</h3><ul>
+<li><strong>螺線管</strong>：受控啟動</li>
+<li><strong>繼電器</strong>：漸進電流建立</li>
+<li><strong>變壓器</strong>：初級電流控制</li>
+</ul>
+<h2 id="常見誤解"><a href="#常見誤解" class="headerlink" title="常見誤解"></a>常見誤解</h2><h3 id="1-線性增長"><a href="#1-線性增長" class="headerlink" title="1. 線性增長"></a>1. 線性增長</h3><ul>
+<li><strong>誤解</strong>：電流隨時間線性增加</li>
+<li><strong>事實</strong>：電流遵循指數增長模式</li>
+</ul>
+<h3 id="2-瞬間電流流動"><a href="#2-瞬間電流流動" class="headerlink" title="2. 瞬間電流流動"></a>2. 瞬間電流流動</h3><ul>
+<li><strong>誤解</strong>：開關閉合時電流立即流動</li>
+<li><strong>事實</strong>：由於電感器反對，電流逐漸建立</li>
+</ul>
+<h3 id="3-恆定增長率"><a href="#3-恆定增長率" class="headerlink" title="3. 恆定增長率"></a>3. 恆定增長率</h3><ul>
+<li><strong>誤解</strong>：電流增長率保持恆定</li>
+<li><strong>事實</strong>：增長率隨時間指數衰減</li>
+</ul>
+<h3 id="4-能量損失"><a href="#4-能量損失" class="headerlink" title="4. 能量損失"></a>4. 能量損失</h3><ul>
+<li><strong>誤解</strong>：所有能量在電阻中損失</li>
+<li><strong>事實</strong>：能量儲存在電感器的磁場中</li>
+</ul>
+<h2 id="進階主題"><a href="#進階主題" class="headerlink" title="進階主題"></a>進階主題</h2><h3 id="多重時間常數"><a href="#多重時間常數" class="headerlink" title="多重時間常數"></a>多重時間常數</h3><p>複雜 RL 場景：</p>
+<ul>
+<li><strong>串聯 RL</strong>：多個電感器充電</li>
+<li><strong>並聯 RL</strong>：多個充電路徑</li>
+<li><strong>混合配置</strong>：戴維寧等效法</li>
+</ul>
+<h3 id="非理想元件"><a href="#非理想元件" class="headerlink" title="非理想元件"></a>非理想元件</h3><p>實際考量：</p>
+<ul>
+<li><strong>電感電阻</strong>：內部電阻效應</li>
+<li><strong>鐵心損耗</strong>：磁鐵心損耗</li>
+<li><strong>溫度效應</strong>：元件參數變化</li>
+</ul>
+<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><strong>標題：</strong> RL充電暫態基本公式與例題解析 - 張偉勤老師<br><strong>連結：</strong> <a href="https://www.youtube.com/watch?v=SIqOJ0BBwlE">https://www.youtube.com/watch?v=SIqOJ0BBwlE</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em> </p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>時間常數</tag>
+        <tag>例題解析</tag>
+        <tag>電壓公式</tag>
+        <tag>電流公式</tag>
+        <tag>RL充電暫態</tag>
+        <tag>基本公式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Analysis of Transient Current Formula in RL Charging Circuit</title>
     <url>/2025/08/02/rl-charging-circuit-transient-current-formula-analysis/</url>
     <content><![CDATA[<h1 id="Analysis-of-Transient-Current-Formula-in-RL-Charging-Circuit"><a href="#Analysis-of-Transient-Current-Formula-in-RL-Charging-Circuit" class="headerlink" title="Analysis of Transient Current Formula in RL Charging Circuit"></a>Analysis of Transient Current Formula in RL Charging Circuit</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This comprehensive article provides detailed analysis of the transient current behavior in RL charging circuits. We examine the mathematical relationships, physical principles, and practical applications of current growth during inductor charging, focusing on the exponential nature of the charging process and its relationship to circuit parameters.</p>
@@ -17764,517 +19422,6 @@ ok
         <tag>RL充電電路</tag>
         <tag>指數增長</tag>
         <tag>電感器充電</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RL Charging Transient Basic Formulas and Example Analysis</title>
-    <url>/2025/08/02/rl-charging-transient-basic-formulas-example-analysis/</url>
-    <content><![CDATA[<h1 id="RL-Charging-Transient-Basic-Formulas-and-Example-Analysis"><a href="#RL-Charging-Transient-Basic-Formulas-and-Example-Analysis" class="headerlink" title="RL Charging Transient Basic Formulas and Example Analysis"></a>RL Charging Transient Basic Formulas and Example Analysis</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This comprehensive article provides detailed analysis of the fundamental formulas governing RL charging transient behavior and their application in practical example problems. We examine the mathematical relationships between current and voltage components, time constant calculations, and step-by-step problem-solving strategies.</p>
-<h2 id="RL-Charging-Circuit-Fundamentals"><a href="#RL-Charging-Circuit-Fundamentals" class="headerlink" title="RL Charging Circuit Fundamentals"></a>RL Charging Circuit Fundamentals</h2><h3 id="Circuit-Configuration"><a href="#Circuit-Configuration" class="headerlink" title="Circuit Configuration"></a>Circuit Configuration</h3><p>In a typical RL charging circuit:</p>
-<ul>
-<li><strong>Voltage Source</strong>: ( E ) (DC power supply)</li>
-<li><strong>Resistor</strong>: ( R ) (current limiting element)</li>
-<li><strong>Inductor</strong>: ( L ) (energy storage element)</li>
-<li><strong>Switch</strong>: Controls circuit operation</li>
-<li><strong>Time Constant</strong>: ( τ &#x3D; \frac{L}{R} ) (characteristic charging time)</li>
-</ul>
-<h3 id="Charging-Process-Overview"><a href="#Charging-Process-Overview" class="headerlink" title="Charging Process Overview"></a>Charging Process Overview</h3><p>The charging process involves:</p>
-<ol>
-<li><strong>Initial State</strong>: Inductor acts as open circuit, no current flow</li>
-<li><strong>Current Build-up</strong>: Current increases exponentially over time</li>
-<li><strong>Voltage Distribution</strong>: Voltage gradually transfers from inductor to resistor</li>
-<li><strong>Steady State</strong>: Current reaches maximum value ( \frac{E}{R} )</li>
-</ol>
-<h2 id="Fundamental-Formulas"><a href="#Fundamental-Formulas" class="headerlink" title="Fundamental Formulas"></a>Fundamental Formulas</h2><h3 id="1-RL-Charging-Transient-Current-Formula"><a href="#1-RL-Charging-Transient-Current-Formula" class="headerlink" title="1. RL Charging Transient Current Formula"></a>1. RL Charging Transient Current Formula</h3><p>The current in an RL charging circuit follows the exponential growth function:</p>
-<p>$$ i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
-<p>Where:</p>
-<ul>
-<li><strong>( i(t) )</strong>：Current at time t</li>
-<li><strong>( I_{\infty} )</strong>：Steady-state current ( &#x3D; \frac{E}{R} )</li>
-<li><strong>( t )</strong>：Time after switch closure</li>
-<li><strong>( τ )</strong>：Time constant ( &#x3D; \frac{L}{R} )</li>
-</ul>
-<p><strong>Physical Interpretation:</strong></p>
-<ul>
-<li>Current rises from 0 to steady-state value over time</li>
-<li>Exponential growth pattern</li>
-<li>Rate controlled by time constant</li>
-</ul>
-<h3 id="2-Resistor-Voltage-Formula"><a href="#2-Resistor-Voltage-Formula" class="headerlink" title="2. Resistor Voltage Formula"></a>2. Resistor Voltage Formula</h3><p>The voltage across the resistor follows the same exponential growth pattern:</p>
-<p>$$ V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
-<p>Where:</p>
-<ul>
-<li><strong>( V_R(t) )</strong>：Resistor voltage at time t</li>
-<li><strong>( V_{\infty} )</strong>：Steady-state voltage ( &#x3D; E )</li>
-<li><strong>( t )</strong>：Time after switch closure</li>
-<li><strong>( τ )</strong>：Time constant ( &#x3D; \frac{L}{R} )</li>
-</ul>
-<p><strong>Physical Interpretation:</strong></p>
-<ul>
-<li>Resistor voltage rises from 0 to steady-state value</li>
-<li>Follows same exponential pattern as current</li>
-<li>Directly proportional to current (Ohm’s law)</li>
-</ul>
-<h3 id="3-Inductor-Voltage-Formula"><a href="#3-Inductor-Voltage-Formula" class="headerlink" title="3. Inductor Voltage Formula"></a>3. Inductor Voltage Formula</h3><p>The voltage across the inductor follows exponential decay:</p>
-<p>$$ V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} $$</p>
-<p>Where:</p>
-<ul>
-<li><strong>( V_L(t) )</strong>：Inductor voltage at time t</li>
-<li><strong>( V_0 )</strong>：Initial voltage ( &#x3D; E )</li>
-<li><strong>( t )</strong>：Time after switch closure</li>
-<li><strong>( τ )</strong>：Time constant ( &#x3D; \frac{L}{R} )</li>
-</ul>
-<p><strong>Physical Interpretation:</strong></p>
-<ul>
-<li>Inductor voltage decays from initial value to 0</li>
-<li>Exponential decay pattern</li>
-<li>Opposite behavior to resistor voltage</li>
-</ul>
-<h2 id="Time-Constant-Calculation"><a href="#Time-Constant-Calculation" class="headerlink" title="Time Constant Calculation"></a>Time Constant Calculation</h2><h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h3><p>The time constant for RL circuits is:</p>
-<p>$$ \tau &#x3D; \frac{L}{R} $$</p>
-<h3 id="Physical-Significance"><a href="#Physical-Significance" class="headerlink" title="Physical Significance"></a>Physical Significance</h3><ul>
-<li><strong>Units</strong>: Seconds (s)</li>
-<li><strong>Meaning</strong>: Time for current to reach 63.2% of final value</li>
-<li><strong>Growth Rate</strong>: Determines how quickly current builds up</li>
-<li><strong>Circuit Response</strong>: Characterizes the circuit’s transient behavior</li>
-</ul>
-<h3 id="Example-Calculation"><a href="#Example-Calculation" class="headerlink" title="Example Calculation"></a>Example Calculation</h3><p><strong>Given:</strong> ( L &#x3D; 60mH ), ( R &#x3D; 20Ω )</p>
-<p><strong>Time Constant:</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; \frac{0.06H}{20Ω} &#x3D; 0.003s &#x3D; 3ms $$</p>
-<h2 id="Kirchhoff’s-Voltage-Law-Verification"><a href="#Kirchhoff’s-Voltage-Law-Verification" class="headerlink" title="Kirchhoff’s Voltage Law Verification"></a>Kirchhoff’s Voltage Law Verification</h2><h3 id="Circuit-Equation"><a href="#Circuit-Equation" class="headerlink" title="Circuit Equation"></a>Circuit Equation</h3><p>At any time t:<br>$$ V_L(t) + V_R(t) &#x3D; E $$</p>
-<h3 id="Formula-Verification"><a href="#Formula-Verification" class="headerlink" title="Formula Verification"></a>Formula Verification</h3><p>Substituting the formulas:<br>$$ E \cdot e^{-\frac{t}{\tau}} + E(1 - e^{-\frac{t}{\tau}}) &#x3D; E $$</p>
-<p>Simplifying:<br>$$ E \cdot e^{-\frac{t}{\tau}} + E - E \cdot e^{-\frac{t}{\tau}} &#x3D; E $$</p>
-<p>This confirms that the formulas satisfy Kirchhoff’s voltage law.</p>
-<h2 id="Key-Time-Points-Analysis"><a href="#Key-Time-Points-Analysis" class="headerlink" title="Key Time Points Analysis"></a>Key Time Points Analysis</h2><h3 id="Time-Constant-Multiples"><a href="#Time-Constant-Multiples" class="headerlink" title="Time Constant Multiples"></a>Time Constant Multiples</h3><p>Important reference points during charging:</p>
-<h4 id="1-Initial-State-t-0"><a href="#1-Initial-State-t-0" class="headerlink" title="1. Initial State (t &#x3D; 0)"></a>1. Initial State (t &#x3D; 0)</h4><ul>
-<li><strong>Current</strong>: ( i(0) &#x3D; 0 ) A</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(0) &#x3D; 0 ) V</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(0) &#x3D; E ) V</li>
-<li><strong>Behavior</strong>: Inductor acts as open circuit</li>
-</ul>
-<h4 id="2-One-Time-Constant-t-τ"><a href="#2-One-Time-Constant-t-τ" class="headerlink" title="2. One Time Constant (t &#x3D; τ)"></a>2. One Time Constant (t &#x3D; τ)</h4><ul>
-<li><strong>Current</strong>: ( i(τ) &#x3D; 0.632I_{\infty} )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(τ) &#x3D; 0.632E )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(τ) &#x3D; 0.368E )</li>
-<li><strong>Significance</strong>: Standard reference point</li>
-</ul>
-<h4 id="3-Two-Time-Constants-t-2τ"><a href="#3-Two-Time-Constants-t-2τ" class="headerlink" title="3. Two Time Constants (t &#x3D; 2τ)"></a>3. Two Time Constants (t &#x3D; 2τ)</h4><ul>
-<li><strong>Current</strong>: ( i(2τ) &#x3D; 0.865I_{\infty} )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(2τ) &#x3D; 0.865E )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(2τ) &#x3D; 0.135E )</li>
-</ul>
-<h4 id="4-Three-Time-Constants-t-3τ"><a href="#4-Three-Time-Constants-t-3τ" class="headerlink" title="4. Three Time Constants (t &#x3D; 3τ)"></a>4. Three Time Constants (t &#x3D; 3τ)</h4><ul>
-<li><strong>Current</strong>: ( i(3τ) &#x3D; 0.950I_{\infty} )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(3τ) &#x3D; 0.950E )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(3τ) &#x3D; 0.050E )</li>
-</ul>
-<h4 id="5-Five-Time-Constants-t-5τ"><a href="#5-Five-Time-Constants-t-5τ" class="headerlink" title="5. Five Time Constants (t &#x3D; 5τ)"></a>5. Five Time Constants (t &#x3D; 5τ)</h4><ul>
-<li><strong>Current</strong>: ( i(5τ) &#x3D; 0.993I_{\infty} )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(5τ) &#x3D; 0.993E )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(5τ) &#x3D; 0.007E )</li>
-<li><strong>Significance</strong>: Charging essentially complete</li>
-</ul>
-<h2 id="Example-Problem-Analysis"><a href="#Example-Problem-Analysis" class="headerlink" title="Example Problem Analysis"></a>Example Problem Analysis</h2><h3 id="Problem-Setup"><a href="#Problem-Setup" class="headerlink" title="Problem Setup"></a>Problem Setup</h3><p><strong>Given:</strong> ( E &#x3D; 100V ), ( R &#x3D; 20Ω ), ( L &#x3D; 60mH )</p>
-<p><strong>Time Constant:</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; 3ms $$</p>
-<p><strong>Steady-State Values:</strong></p>
-<ul>
-<li><strong>Current</strong>: ( I_{\infty} &#x3D; \frac{E}{R} &#x3D; \frac{100V}{20Ω} &#x3D; 5A )</li>
-<li><strong>Resistor Voltage</strong>: ( V_{R\infty} &#x3D; E &#x3D; 100V )</li>
-<li><strong>Inductor Voltage</strong>: ( V_{L\infty} &#x3D; 0V )</li>
-</ul>
-<h3 id="Calculations-at-Different-Time-Points"><a href="#Calculations-at-Different-Time-Points" class="headerlink" title="Calculations at Different Time Points"></a>Calculations at Different Time Points</h3><h4 id="At-t-0-Switch-Closure"><a href="#At-t-0-Switch-Closure" class="headerlink" title="At t &#x3D; 0 (Switch Closure)"></a>At t &#x3D; 0 (Switch Closure)</h4><ul>
-<li><strong>Current</strong>: ( i(0) &#x3D; 5A \times (1 - e^0) &#x3D; 0A )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(0) &#x3D; 100V \times (1 - e^0) &#x3D; 0V )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(0) &#x3D; 100V \times e^0 &#x3D; 100V )</li>
-</ul>
-<h4 id="At-t-3ms-One-Time-Constant"><a href="#At-t-3ms-One-Time-Constant" class="headerlink" title="At t &#x3D; 3ms (One Time Constant)"></a>At t &#x3D; 3ms (One Time Constant)</h4><ul>
-<li><strong>Current</strong>: ( i(3ms) &#x3D; 5A \times (1 - e^{-1}) &#x3D; 3.16A )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(3ms) &#x3D; 100V \times (1 - e^{-1}) &#x3D; 63.2V )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(3ms) &#x3D; 100V \times e^{-1} &#x3D; 36.8V )</li>
-</ul>
-<h4 id="At-t-6ms-Two-Time-Constants"><a href="#At-t-6ms-Two-Time-Constants" class="headerlink" title="At t &#x3D; 6ms (Two Time Constants)"></a>At t &#x3D; 6ms (Two Time Constants)</h4><ul>
-<li><strong>Current</strong>: ( i(6ms) &#x3D; 5A \times (1 - e^{-2}) &#x3D; 4.33A )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(6ms) &#x3D; 100V \times (1 - e^{-2}) &#x3D; 86.5V )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(6ms) &#x3D; 100V \times e^{-2} &#x3D; 13.5V )</li>
-</ul>
-<h4 id="At-t-15ms-Five-Time-Constants"><a href="#At-t-15ms-Five-Time-Constants" class="headerlink" title="At t &#x3D; 15ms (Five Time Constants)"></a>At t &#x3D; 15ms (Five Time Constants)</h4><ul>
-<li><strong>Current</strong>: ( i(15ms) &#x3D; 5A \times (1 - e^{-5}) &#x3D; 4.97A )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(15ms) &#x3D; 100V \times (1 - e^{-5}) &#x3D; 99.3V )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(15ms) &#x3D; 100V \times e^{-5} &#x3D; 0.7V )</li>
-</ul>
-<h2 id="Problem-Solving-Strategy"><a href="#Problem-Solving-Strategy" class="headerlink" title="Problem-Solving Strategy"></a>Problem-Solving Strategy</h2><h3 id="1-Identify-Parameters"><a href="#1-Identify-Parameters" class="headerlink" title="1. Identify Parameters"></a>1. Identify Parameters</h3><ul>
-<li>Extract E, R, L values from problem</li>
-<li>Calculate time constant ( \tau &#x3D; \frac{L}{R} )</li>
-<li>Determine steady-state values</li>
-<li>Identify time points of interest</li>
-</ul>
-<h3 id="2-Apply-Fundamental-Formulas"><a href="#2-Apply-Fundamental-Formulas" class="headerlink" title="2. Apply Fundamental Formulas"></a>2. Apply Fundamental Formulas</h3><ul>
-<li><strong>Current</strong>: ( i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
-<li><strong>Resistor Voltage</strong>: ( V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
-<li><strong>Inductor Voltage</strong>: ( V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} )</li>
-</ul>
-<h3 id="3-Verify-Results"><a href="#3-Verify-Results" class="headerlink" title="3. Verify Results"></a>3. Verify Results</h3><ul>
-<li>Check units (current in Amperes, voltage in Volts)</li>
-<li>Ensure Kirchhoff’s voltage law is satisfied</li>
-<li>Verify physical reasonableness</li>
-<li>Cross-check calculations</li>
-</ul>
-<h3 id="4-Cross-Check-Calculations"><a href="#4-Cross-Check-Calculations" class="headerlink" title="4. Cross-Check Calculations"></a>4. Cross-Check Calculations</h3><ul>
-<li>Use Ohm’s law: ( V_R(t) &#x3D; i(t) \times R )</li>
-<li>Verify Kirchhoff’s voltage law: ( V_L(t) + V_R(t) &#x3D; E )</li>
-<li>Check time constant calculations</li>
-</ul>
-<h2 id="Comparison-with-RC-Charging"><a href="#Comparison-with-RC-Charging" class="headerlink" title="Comparison with RC Charging"></a>Comparison with RC Charging</h2><h3 id="Formula-Comparison"><a href="#Formula-Comparison" class="headerlink" title="Formula Comparison"></a>Formula Comparison</h3><table>
-<thead>
-<tr>
-<th>Component</th>
-<th>RL Charging</th>
-<th>RC Charging</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Current</td>
-<td>( i(t) &#x3D; I_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
-<td>( i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} )</td>
-</tr>
-<tr>
-<td>Resistor Voltage</td>
-<td>( V_R(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
-<td>( V_R(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
-</tr>
-<tr>
-<td>Storage Element Voltage</td>
-<td>( V_L(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
-<td>( V_C(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
-</tr>
-<tr>
-<td>Time Constant</td>
-<td>( \tau &#x3D; \frac{L}{R} )</td>
-<td>( \tau &#x3D; RC )</td>
-</tr>
-</tbody></table>
-<h3 id="Energy-Storage"><a href="#Energy-Storage" class="headerlink" title="Energy Storage"></a>Energy Storage</h3><table>
-<thead>
-<tr>
-<th>Circuit Type</th>
-<th>Energy Storage</th>
-<th>Storage Element</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>RL Circuit</td>
-<td>Magnetic energy</td>
-<td>Inductor</td>
-</tr>
-<tr>
-<td>RC Circuit</td>
-<td>Electric energy</td>
-<td>Capacitor</td>
-</tr>
-</tbody></table>
-<h2 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h2><h3 id="1-Motor-Starting"><a href="#1-Motor-Starting" class="headerlink" title="1. Motor Starting"></a>1. Motor Starting</h3><ul>
-<li><strong>Soft Start</strong>: Gradual current build-up prevents motor damage</li>
-<li><strong>Current Limiting</strong>: Controls initial current surge</li>
-<li><strong>Protection</strong>: Prevents excessive starting current</li>
-</ul>
-<h3 id="2-Power-Electronics"><a href="#2-Power-Electronics" class="headerlink" title="2. Power Electronics"></a>2. Power Electronics</h3><ul>
-<li><strong>DC-DC Converters</strong>: Inductor current control</li>
-<li><strong>Switching Regulators</strong>: Current ramping control</li>
-<li><strong>Filter Design</strong>: Current smoothing applications</li>
-</ul>
-<h3 id="3-Electromagnetic-Devices"><a href="#3-Electromagnetic-Devices" class="headerlink" title="3. Electromagnetic Devices"></a>3. Electromagnetic Devices</h3><ul>
-<li><strong>Solenoids</strong>: Controlled activation</li>
-<li><strong>Relays</strong>: Gradual current build-up</li>
-<li><strong>Transformers</strong>: Primary current control</li>
-</ul>
-<h2 id="Common-Misconceptions"><a href="#Common-Misconceptions" class="headerlink" title="Common Misconceptions"></a>Common Misconceptions</h2><h3 id="1-Linear-Growth"><a href="#1-Linear-Growth" class="headerlink" title="1. Linear Growth"></a>1. Linear Growth</h3><ul>
-<li><strong>Misconception</strong>: Current increases linearly over time</li>
-<li><strong>Reality</strong>: Current follows exponential growth pattern</li>
-</ul>
-<h3 id="2-Instant-Current-Flow"><a href="#2-Instant-Current-Flow" class="headerlink" title="2. Instant Current Flow"></a>2. Instant Current Flow</h3><ul>
-<li><strong>Misconception</strong>: Current flows immediately when switch closes</li>
-<li><strong>Reality</strong>: Current builds up gradually due to inductor opposition</li>
-</ul>
-<h3 id="3-Constant-Growth-Rate"><a href="#3-Constant-Growth-Rate" class="headerlink" title="3. Constant Growth Rate"></a>3. Constant Growth Rate</h3><ul>
-<li><strong>Misconception</strong>: Current growth rate remains constant</li>
-<li><strong>Reality</strong>: Growth rate decreases exponentially over time</li>
-</ul>
-<h3 id="4-Energy-Loss"><a href="#4-Energy-Loss" class="headerlink" title="4. Energy Loss"></a>4. Energy Loss</h3><ul>
-<li><strong>Misconception</strong>: All energy is lost in resistor</li>
-<li><strong>Reality</strong>: Energy is stored in inductor’s magnetic field</li>
-</ul>
-<h2 id="Advanced-Topics"><a href="#Advanced-Topics" class="headerlink" title="Advanced Topics"></a>Advanced Topics</h2><h3 id="Multiple-Time-Constants"><a href="#Multiple-Time-Constants" class="headerlink" title="Multiple Time Constants"></a>Multiple Time Constants</h3><p>Complex RL scenarios:</p>
-<ul>
-<li><strong>Series RL</strong>: Multiple inductors charging</li>
-<li><strong>Parallel RL</strong>: Multiple charging paths</li>
-<li><strong>Mixed Configurations</strong>: Thevenin equivalent method</li>
-</ul>
-<h3 id="Non-Ideal-Components"><a href="#Non-Ideal-Components" class="headerlink" title="Non-Ideal Components"></a>Non-Ideal Components</h3><p>Real-world considerations:</p>
-<ul>
-<li><strong>Inductor Resistance</strong>: Internal resistance effects</li>
-<li><strong>Core Losses</strong>: Magnetic core losses</li>
-<li><strong>Temperature Effects</strong>: Component parameter variations</li>
-</ul>
-<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><strong>Title:</strong> RL充電暫態基本公式與例題解析 - 張偉勤老師<br><strong>Link:</strong> <a href="https://www.youtube.com/watch?v=SIqOJ0BBwlE">https://www.youtube.com/watch?v=SIqOJ0BBwlE</a></p>
-<hr>
-<h1 id="RL充電暫態基本公式與例題解析"><a href="#RL充電暫態基本公式與例題解析" class="headerlink" title="RL充電暫態基本公式與例題解析"></a>RL充電暫態基本公式與例題解析</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文提供 RL 充電暫態行為基本公式的詳細分析及其在實際例題中的應用。我們檢視電流與電壓元件之間的數學關係、時間常數計算，以及逐步解題策略。</p>
-<h2 id="RL充電電路基礎"><a href="#RL充電電路基礎" class="headerlink" title="RL充電電路基礎"></a>RL充電電路基礎</h2><h3 id="電路配置"><a href="#電路配置" class="headerlink" title="電路配置"></a>電路配置</h3><p>典型的 RL 充電電路包含：</p>
-<ul>
-<li><strong>電壓源</strong>：( E )（直流電源）</li>
-<li><strong>電阻</strong>：( R )（限流元件）</li>
-<li><strong>電感</strong>：( L )（儲能元件）</li>
-<li><strong>開關</strong>：控制電路操作</li>
-<li><strong>時間常數</strong>：( τ &#x3D; \frac{L}{R} )（特徵充電時間）</li>
-</ul>
-<h3 id="充電過程概述"><a href="#充電過程概述" class="headerlink" title="充電過程概述"></a>充電過程概述</h3><p>充電過程包含：</p>
-<ol>
-<li><strong>初始狀態</strong>：電感器呈斷路，無電流流動</li>
-<li><strong>電流建立</strong>：電流隨時間指數增長</li>
-<li><strong>電壓分佈</strong>：電壓逐漸從電感器轉移到電阻</li>
-<li><strong>穩態</strong>：電流達到最大值 ( \frac{E}{R} )</li>
-</ol>
-<h2 id="基本公式"><a href="#基本公式" class="headerlink" title="基本公式"></a>基本公式</h2><h3 id="1-RL充電暫態電流公式"><a href="#1-RL充電暫態電流公式" class="headerlink" title="1. RL充電暫態電流公式"></a>1. RL充電暫態電流公式</h3><p>RL 充電電路中的電流遵循指數增長函數：</p>
-<p>$$ i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
-<p>其中：</p>
-<ul>
-<li><strong>( i(t) )</strong>：時間 t 時的電流</li>
-<li><strong>( I_{\infty} )</strong>：穩態電流 ( &#x3D; \frac{E}{R} )</li>
-<li><strong>( t )</strong>：開關閉合後的時間</li>
-<li><strong>( τ )</strong>：時間常數 ( &#x3D; \frac{L}{R} )</li>
-</ul>
-<p><strong>物理解釋：</strong></p>
-<ul>
-<li>電流隨時間從 0 增加到穩態值</li>
-<li>指數增長模式</li>
-<li>速率由時間常數控制</li>
-</ul>
-<h3 id="2-電阻電壓公式"><a href="#2-電阻電壓公式" class="headerlink" title="2. 電阻電壓公式"></a>2. 電阻電壓公式</h3><p>電阻兩端電壓遵循相同的指數增長模式：</p>
-<p>$$ V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) $$</p>
-<p>其中：</p>
-<ul>
-<li><strong>( V_R(t) )</strong>：時間 t 時的電阻電壓</li>
-<li><strong>( V_{\infty} )</strong>：穩態電壓 ( &#x3D; E )</li>
-<li><strong>( t )</strong>：開關閉合後的時間</li>
-<li><strong>( τ )</strong>：時間常數 ( &#x3D; \frac{L}{R} )</li>
-</ul>
-<p><strong>物理解釋：</strong></p>
-<ul>
-<li>電阻電壓從 0 增加到穩態值</li>
-<li>與電流遵循相同的指數模式</li>
-<li>與電流成正比（歐姆定律）</li>
-</ul>
-<h3 id="3-電感電壓公式"><a href="#3-電感電壓公式" class="headerlink" title="3. 電感電壓公式"></a>3. 電感電壓公式</h3><p>電感兩端電壓遵循指數衰減：</p>
-<p>$$ V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} $$</p>
-<p>其中：</p>
-<ul>
-<li><strong>( V_L(t) )</strong>：時間 t 時的電感電壓</li>
-<li><strong>( V_0 )</strong>：初始電壓 ( &#x3D; E )</li>
-<li><strong>( t )</strong>：開關閉合後的時間</li>
-<li><strong>( τ )</strong>：時間常數 ( &#x3D; \frac{L}{R} )</li>
-</ul>
-<p><strong>物理解釋：</strong></p>
-<ul>
-<li>電感電壓從初始值衰減到 0</li>
-<li>指數衰減模式</li>
-<li>與電阻電壓相反的行為</li>
-</ul>
-<h2 id="時間常數計算"><a href="#時間常數計算" class="headerlink" title="時間常數計算"></a>時間常數計算</h2><h3 id="定義"><a href="#定義" class="headerlink" title="定義"></a>定義</h3><p>RL 電路的時間常數為：</p>
-<p>$$ \tau &#x3D; \frac{L}{R} $$</p>
-<h3 id="物理意義"><a href="#物理意義" class="headerlink" title="物理意義"></a>物理意義</h3><ul>
-<li><strong>單位</strong>：秒（s）</li>
-<li><strong>意義</strong>：電流達到最終值 63.2% 的時間</li>
-<li><strong>增長率</strong>：決定電流建立的速度</li>
-<li><strong>電路響應</strong>：表徵電路的暫態行為</li>
-</ul>
-<h3 id="計算範例"><a href="#計算範例" class="headerlink" title="計算範例"></a>計算範例</h3><p><strong>已知：</strong> ( L &#x3D; 60mH )，( R &#x3D; 20Ω )</p>
-<p><strong>時間常數：</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; \frac{0.06H}{20Ω} &#x3D; 0.003s &#x3D; 3ms $$</p>
-<h2 id="基爾霍夫電壓定律驗證"><a href="#基爾霍夫電壓定律驗證" class="headerlink" title="基爾霍夫電壓定律驗證"></a>基爾霍夫電壓定律驗證</h2><h3 id="電路方程式"><a href="#電路方程式" class="headerlink" title="電路方程式"></a>電路方程式</h3><p>在任何時間 t：<br>$$ V_L(t) + V_R(t) &#x3D; E $$</p>
-<h3 id="公式驗證"><a href="#公式驗證" class="headerlink" title="公式驗證"></a>公式驗證</h3><p>代入公式：<br>$$ E \cdot e^{-\frac{t}{\tau}} + E(1 - e^{-\frac{t}{\tau}}) &#x3D; E $$</p>
-<p>簡化：<br>$$ E \cdot e^{-\frac{t}{\tau}} + E - E \cdot e^{-\frac{t}{\tau}} &#x3D; E $$</p>
-<p>這確認了公式滿足基爾霍夫電壓定律。</p>
-<h2 id="關鍵時間點分析"><a href="#關鍵時間點分析" class="headerlink" title="關鍵時間點分析"></a>關鍵時間點分析</h2><h3 id="時間常數倍數"><a href="#時間常數倍數" class="headerlink" title="時間常數倍數"></a>時間常數倍數</h3><p>充電期間的重要參考點：</p>
-<h4 id="1-初始狀態（t-0）"><a href="#1-初始狀態（t-0）" class="headerlink" title="1. 初始狀態（t &#x3D; 0）"></a>1. 初始狀態（t &#x3D; 0）</h4><ul>
-<li><strong>電流</strong>：( i(0) &#x3D; 0 ) A</li>
-<li><strong>電阻電壓</strong>：( V_R(0) &#x3D; 0 ) V</li>
-<li><strong>電感電壓</strong>：( V_L(0) &#x3D; E ) V</li>
-<li><strong>行為</strong>：電感器呈斷路</li>
-</ul>
-<h4 id="2-一個時間常數（t-τ）"><a href="#2-一個時間常數（t-τ）" class="headerlink" title="2. 一個時間常數（t &#x3D; τ）"></a>2. 一個時間常數（t &#x3D; τ）</h4><ul>
-<li><strong>電流</strong>：( i(τ) &#x3D; 0.632I_{\infty} )</li>
-<li><strong>電阻電壓</strong>：( V_R(τ) &#x3D; 0.632E )</li>
-<li><strong>電感電壓</strong>：( V_L(τ) &#x3D; 0.368E )</li>
-<li><strong>意義</strong>：標準參考點</li>
-</ul>
-<h4 id="3-兩個時間常數（t-2τ）"><a href="#3-兩個時間常數（t-2τ）" class="headerlink" title="3. 兩個時間常數（t &#x3D; 2τ）"></a>3. 兩個時間常數（t &#x3D; 2τ）</h4><ul>
-<li><strong>電流</strong>：( i(2τ) &#x3D; 0.865I_{\infty} )</li>
-<li><strong>電阻電壓</strong>：( V_R(2τ) &#x3D; 0.865E )</li>
-<li><strong>電感電壓</strong>：( V_L(2τ) &#x3D; 0.135E )</li>
-</ul>
-<h4 id="4-三個時間常數（t-3τ）"><a href="#4-三個時間常數（t-3τ）" class="headerlink" title="4. 三個時間常數（t &#x3D; 3τ）"></a>4. 三個時間常數（t &#x3D; 3τ）</h4><ul>
-<li><strong>電流</strong>：( i(3τ) &#x3D; 0.950I_{\infty} )</li>
-<li><strong>電阻電壓</strong>：( V_R(3τ) &#x3D; 0.950E )</li>
-<li><strong>電感電壓</strong>：( V_L(3τ) &#x3D; 0.050E )</li>
-</ul>
-<h4 id="5-五個時間常數（t-5τ）"><a href="#5-五個時間常數（t-5τ）" class="headerlink" title="5. 五個時間常數（t &#x3D; 5τ）"></a>5. 五個時間常數（t &#x3D; 5τ）</h4><ul>
-<li><strong>電流</strong>：( i(5τ) &#x3D; 0.993I_{\infty} )</li>
-<li><strong>電阻電壓</strong>：( V_R(5τ) &#x3D; 0.993E )</li>
-<li><strong>電感電壓</strong>：( V_L(5τ) &#x3D; 0.007E )</li>
-<li><strong>意義</strong>：充電基本完成</li>
-</ul>
-<h2 id="例題解析"><a href="#例題解析" class="headerlink" title="例題解析"></a>例題解析</h2><h3 id="問題設定"><a href="#問題設定" class="headerlink" title="問題設定"></a>問題設定</h3><p><strong>已知：</strong> ( E &#x3D; 100V )，( R &#x3D; 20Ω )，( L &#x3D; 60mH )</p>
-<p><strong>時間常數：</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{60mH}{20Ω} &#x3D; 3ms $$</p>
-<p><strong>穩態值：</strong></p>
-<ul>
-<li><strong>電流</strong>：( I_{\infty} &#x3D; \frac{E}{R} &#x3D; \frac{100V}{20Ω} &#x3D; 5A )</li>
-<li><strong>電阻電壓</strong>：( V_{R\infty} &#x3D; E &#x3D; 100V )</li>
-<li><strong>電感電壓</strong>：( V_{L\infty} &#x3D; 0V )</li>
-</ul>
-<h3 id="不同時間點的計算"><a href="#不同時間點的計算" class="headerlink" title="不同時間點的計算"></a>不同時間點的計算</h3><h4 id="t-0-時（開關閉合）"><a href="#t-0-時（開關閉合）" class="headerlink" title="t &#x3D; 0 時（開關閉合）"></a>t &#x3D; 0 時（開關閉合）</h4><ul>
-<li><strong>電流</strong>：( i(0) &#x3D; 5A \times (1 - e^0) &#x3D; 0A )</li>
-<li><strong>電阻電壓</strong>：( V_R(0) &#x3D; 100V \times (1 - e^0) &#x3D; 0V )</li>
-<li><strong>電感電壓</strong>：( V_L(0) &#x3D; 100V \times e^0 &#x3D; 100V )</li>
-</ul>
-<h4 id="t-3ms-時（一個時間常數）"><a href="#t-3ms-時（一個時間常數）" class="headerlink" title="t &#x3D; 3ms 時（一個時間常數）"></a>t &#x3D; 3ms 時（一個時間常數）</h4><ul>
-<li><strong>電流</strong>：( i(3ms) &#x3D; 5A \times (1 - e^{-1}) &#x3D; 3.16A )</li>
-<li><strong>電阻電壓</strong>：( V_R(3ms) &#x3D; 100V \times (1 - e^{-1}) &#x3D; 63.2V )</li>
-<li><strong>電感電壓</strong>：( V_L(3ms) &#x3D; 100V \times e^{-1} &#x3D; 36.8V )</li>
-</ul>
-<h4 id="t-6ms-時（兩個時間常數）"><a href="#t-6ms-時（兩個時間常數）" class="headerlink" title="t &#x3D; 6ms 時（兩個時間常數）"></a>t &#x3D; 6ms 時（兩個時間常數）</h4><ul>
-<li><strong>電流</strong>：( i(6ms) &#x3D; 5A \times (1 - e^{-2}) &#x3D; 4.33A )</li>
-<li><strong>電阻電壓</strong>：( V_R(6ms) &#x3D; 100V \times (1 - e^{-2}) &#x3D; 86.5V )</li>
-<li><strong>電感電壓</strong>：( V_L(6ms) &#x3D; 100V \times e^{-2} &#x3D; 13.5V )</li>
-</ul>
-<h4 id="t-15ms-時（五個時間常數）"><a href="#t-15ms-時（五個時間常數）" class="headerlink" title="t &#x3D; 15ms 時（五個時間常數）"></a>t &#x3D; 15ms 時（五個時間常數）</h4><ul>
-<li><strong>電流</strong>：( i(15ms) &#x3D; 5A \times (1 - e^{-5}) &#x3D; 4.97A )</li>
-<li><strong>電阻電壓</strong>：( V_R(15ms) &#x3D; 100V \times (1 - e^{-5}) &#x3D; 99.3V )</li>
-<li><strong>電感電壓</strong>：( V_L(15ms) &#x3D; 100V \times e^{-5} &#x3D; 0.7V )</li>
-</ul>
-<h2 id="解題策略"><a href="#解題策略" class="headerlink" title="解題策略"></a>解題策略</h2><h3 id="1-識別參數"><a href="#1-識別參數" class="headerlink" title="1. 識別參數"></a>1. 識別參數</h3><ul>
-<li>從問題中提取 E、R、L 值</li>
-<li>計算時間常數 ( \tau &#x3D; \frac{L}{R} )</li>
-<li>確定穩態值</li>
-<li>識別感興趣的時間點</li>
-</ul>
-<h3 id="2-應用基本公式"><a href="#2-應用基本公式" class="headerlink" title="2. 應用基本公式"></a>2. 應用基本公式</h3><ul>
-<li><strong>電流</strong>：( i(t) &#x3D; I_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
-<li><strong>電阻電壓</strong>：( V_R(t) &#x3D; V_{\infty} \times (1 - e^{-\frac{t}{\tau}}) )</li>
-<li><strong>電感電壓</strong>：( V_L(t) &#x3D; V_0 \times e^{-\frac{t}{\tau}} )</li>
-</ul>
-<h3 id="3-驗證結果"><a href="#3-驗證結果" class="headerlink" title="3. 驗證結果"></a>3. 驗證結果</h3><ul>
-<li>檢查單位（電流為安培，電壓為伏特）</li>
-<li>確保基爾霍夫電壓定律得到滿足</li>
-<li>驗證物理合理性</li>
-<li>交叉檢查計算</li>
-</ul>
-<h3 id="4-交叉檢查計算"><a href="#4-交叉檢查計算" class="headerlink" title="4. 交叉檢查計算"></a>4. 交叉檢查計算</h3><ul>
-<li>使用歐姆定律：( V_R(t) &#x3D; i(t) \times R )</li>
-<li>驗證基爾霍夫電壓定律：( V_L(t) + V_R(t) &#x3D; E )</li>
-<li>檢查時間常數計算</li>
-</ul>
-<h2 id="與RC充電比較"><a href="#與RC充電比較" class="headerlink" title="與RC充電比較"></a>與RC充電比較</h2><h3 id="公式比較"><a href="#公式比較" class="headerlink" title="公式比較"></a>公式比較</h3><table>
-<thead>
-<tr>
-<th>元件</th>
-<th>RL充電</th>
-<th>RC充電</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>電流</td>
-<td>( i(t) &#x3D; I_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
-<td>( i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} )</td>
-</tr>
-<tr>
-<td>電阻電壓</td>
-<td>( V_R(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
-<td>( V_R(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
-</tr>
-<tr>
-<td>儲能元件電壓</td>
-<td>( V_L(t) &#x3D; V_0 e^{-\frac{t}{\tau}} )</td>
-<td>( V_C(t) &#x3D; V_{\infty}(1 - e^{-\frac{t}{\tau}}) )</td>
-</tr>
-<tr>
-<td>時間常數</td>
-<td>( \tau &#x3D; \frac{L}{R} )</td>
-<td>( \tau &#x3D; RC )</td>
-</tr>
-</tbody></table>
-<h3 id="能量儲存"><a href="#能量儲存" class="headerlink" title="能量儲存"></a>能量儲存</h3><table>
-<thead>
-<tr>
-<th>電路類型</th>
-<th>能量儲存</th>
-<th>儲存元件</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>RL電路</td>
-<td>磁能</td>
-<td>電感器</td>
-</tr>
-<tr>
-<td>RC電路</td>
-<td>電能</td>
-<td>電容器</td>
-</tr>
-</tbody></table>
-<h2 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h2><h3 id="1-電機啟動"><a href="#1-電機啟動" class="headerlink" title="1. 電機啟動"></a>1. 電機啟動</h3><ul>
-<li><strong>軟啟動</strong>：漸進電流建立防止電機損壞</li>
-<li><strong>電流限制</strong>：控制初始電流湧浪</li>
-<li><strong>保護</strong>：防止過大的啟動電流</li>
-</ul>
-<h3 id="2-電力電子"><a href="#2-電力電子" class="headerlink" title="2. 電力電子"></a>2. 電力電子</h3><ul>
-<li><strong>DC-DC轉換器</strong>：電感電流控制</li>
-<li><strong>開關穩壓器</strong>：電流斜坡控制</li>
-<li><strong>濾波器設計</strong>：電流平滑應用</li>
-</ul>
-<h3 id="3-電磁裝置"><a href="#3-電磁裝置" class="headerlink" title="3. 電磁裝置"></a>3. 電磁裝置</h3><ul>
-<li><strong>螺線管</strong>：受控啟動</li>
-<li><strong>繼電器</strong>：漸進電流建立</li>
-<li><strong>變壓器</strong>：初級電流控制</li>
-</ul>
-<h2 id="常見誤解"><a href="#常見誤解" class="headerlink" title="常見誤解"></a>常見誤解</h2><h3 id="1-線性增長"><a href="#1-線性增長" class="headerlink" title="1. 線性增長"></a>1. 線性增長</h3><ul>
-<li><strong>誤解</strong>：電流隨時間線性增加</li>
-<li><strong>事實</strong>：電流遵循指數增長模式</li>
-</ul>
-<h3 id="2-瞬間電流流動"><a href="#2-瞬間電流流動" class="headerlink" title="2. 瞬間電流流動"></a>2. 瞬間電流流動</h3><ul>
-<li><strong>誤解</strong>：開關閉合時電流立即流動</li>
-<li><strong>事實</strong>：由於電感器反對，電流逐漸建立</li>
-</ul>
-<h3 id="3-恆定增長率"><a href="#3-恆定增長率" class="headerlink" title="3. 恆定增長率"></a>3. 恆定增長率</h3><ul>
-<li><strong>誤解</strong>：電流增長率保持恆定</li>
-<li><strong>事實</strong>：增長率隨時間指數衰減</li>
-</ul>
-<h3 id="4-能量損失"><a href="#4-能量損失" class="headerlink" title="4. 能量損失"></a>4. 能量損失</h3><ul>
-<li><strong>誤解</strong>：所有能量在電阻中損失</li>
-<li><strong>事實</strong>：能量儲存在電感器的磁場中</li>
-</ul>
-<h2 id="進階主題"><a href="#進階主題" class="headerlink" title="進階主題"></a>進階主題</h2><h3 id="多重時間常數"><a href="#多重時間常數" class="headerlink" title="多重時間常數"></a>多重時間常數</h3><p>複雜 RL 場景：</p>
-<ul>
-<li><strong>串聯 RL</strong>：多個電感器充電</li>
-<li><strong>並聯 RL</strong>：多個充電路徑</li>
-<li><strong>混合配置</strong>：戴維寧等效法</li>
-</ul>
-<h3 id="非理想元件"><a href="#非理想元件" class="headerlink" title="非理想元件"></a>非理想元件</h3><p>實際考量：</p>
-<ul>
-<li><strong>電感電阻</strong>：內部電阻效應</li>
-<li><strong>鐵心損耗</strong>：磁鐵心損耗</li>
-<li><strong>溫度效應</strong>：元件參數變化</li>
-</ul>
-<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><strong>標題：</strong> RL充電暫態基本公式與例題解析 - 張偉勤老師<br><strong>連結：</strong> <a href="https://www.youtube.com/watch?v=SIqOJ0BBwlE">https://www.youtube.com/watch?v=SIqOJ0BBwlE</a></p>
-<hr>
-<p><em>本文發布日期：2025-08-02</em> </p>
-]]></content>
-      <categories>
-        <category>基本電學</category>
-      </categories>
-      <tags>
-        <tag>時間常數</tag>
-        <tag>例題解析</tag>
-        <tag>電壓公式</tag>
-        <tag>電流公式</tag>
-        <tag>RL充電暫態</tag>
-        <tag>基本公式</tag>
       </tags>
   </entry>
   <entry>
@@ -19685,6 +20832,309 @@ ok
         <tag>電流公式</tag>
         <tag>放電過程</tag>
         <tag>RL放電電路</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example of Instantaneous Power in AC Circuits</title>
+    <url>/2025/08/03/ac-power-instantaneous-power-example-analysis/</url>
+    <content><![CDATA[<h1 id="Example-of-Instantaneous-Power-in-AC-Circuits"><a href="#Example-of-Instantaneous-Power-in-AC-Circuits" class="headerlink" title="Example of Instantaneous Power in AC Circuits"></a>Example of Instantaneous Power in AC Circuits</h1><p>This article analyzes an example of instantaneous power calculation in AC circuits, including waveform equations, RMS values, frequency, and the physical meaning of negative instantaneous power.</p>
+<hr>
+<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
+<li>Instantaneous power (p(t)) is the product of voltage (v(t)) and current (i(t)).</li>
+<li>Voltage and current waveforms:<br>[<br>v(t) &#x3D; 10\sqrt{2} \sin(314t) , V<br>]<br>[<br>i(t) &#x3D; 2\sqrt{2} \sin(314t - 60^\circ) , A<br>]</li>
+<li>Instantaneous power formula uses trigonometric product identities:<br>[<br>p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(\theta_v + \theta_i)<br>]</li>
+<li>RMS values:<ul>
+<li>Voltage RMS (V &#x3D; 10,V)</li>
+<li>Current RMS (I &#x3D; 2,A)</li>
+</ul>
+</li>
+<li>Frequency calculation:<br>[<br>\omega &#x3D; 2\pi f_p &#x3D; 628 \Rightarrow f_p &#x3D; 100,Hz<br>]</li>
+<li>Maximum and minimum instantaneous power:<br>[<br>P_{\max} &#x3D; 30,W, \quad P_{\min} &#x3D; -10,W<br>]</li>
+<li>Negative instantaneous power means the load returns power to the source.</li>
+</ul>
+<hr>
+<h1 id="交流電功率瞬間功率範例解析"><a href="#交流電功率瞬間功率範例解析" class="headerlink" title="交流電功率瞬間功率範例解析"></a>交流電功率瞬間功率範例解析</h1><p>本文解析交流電路中瞬間功率的計算範例，包含波形方程式、有效值、頻率計算，以及負瞬間功率的物理意義。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
+<li>瞬間功率 (p(t)) 計算為電壓 (v(t)) 與電流 (i(t)) 的乘積。</li>
+<li>電壓與電流波形分別為：<br>[<br>v(t) &#x3D; 10\sqrt{2} \sin(314t) \quad \text{伏特}<br>]<br>[<br>i(t) &#x3D; 2\sqrt{2} \sin(314t - 60^\circ) \quad \text{安培}<br>]</li>
+<li>瞬間功率公式利用三角函數乘積轉換：<br>[<br>p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(\theta_v + \theta_i)<br>]</li>
+<li>有效值計算：<ul>
+<li>電壓有效值 (V &#x3D; 10,V)</li>
+<li>電流有效值 (I &#x3D; 2,A)</li>
+</ul>
+</li>
+<li>頻率計算：<br>[<br>\omega &#x3D; 2\pi f_p &#x3D; 628 \Rightarrow f_p &#x3D; \frac{628}{2\pi} &#x3D; 100,Hz<br>]</li>
+<li>瞬間功率最大值與最小值：<br>[<br>P_{\max} &#x3D; 10 + 20 &#x3D; 30,W<br>]<br>[<br>P_{\min} &#x3D; 10 - 20 &#x3D; -10,W<br>]</li>
+<li>負瞬間功率代表負載將功率回饋給電源。</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=BKxbtIWgElk">點此觀看影片</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-03</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>基本電學</tag>
+        <tag>有效值</tag>
+        <tag>瞬間功率</tag>
+        <tag>正弦波</tag>
+        <tag>範例</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Transient Characteristics of RL Circuits and Comparison with Capacitors</title>
+    <url>/2025/08/02/rl-circuit-dc-transient-characteristics-comparison/</url>
+    <content><![CDATA[<h1 id="Transient-Characteristics-of-RL-Circuits-and-Comparison-with-Capacitors"><a href="#Transient-Characteristics-of-RL-Circuits-and-Comparison-with-Capacitors" class="headerlink" title="Transient Characteristics of RL Circuits and Comparison with Capacitors"></a>Transient Characteristics of RL Circuits and Comparison with Capacitors</h1><p>This unit mainly explains the DC transient characteristics of RL circuits and compares the behaviors of inductors and capacitors in DC circuits.</p>
+<hr>
+<h2 id="Key-Summary"><a href="#Key-Summary" class="headerlink" title="Key Summary"></a>Key Summary</h2><h3 id="Transient-Characteristics-of-Inductors-in-RL-Circuits"><a href="#Transient-Characteristics-of-Inductors-in-RL-Circuits" class="headerlink" title="Transient Characteristics of Inductors in RL Circuits"></a>Transient Characteristics of Inductors in RL Circuits</h3><p>An inductor is a component capable of inducing electricity and storing magnetic energy.</p>
+<ul>
+<li><strong>At the Instant of Power-On</strong>: The inductor generates voltage to block current flow. At this moment, it behaves like an <strong>open circuit</strong>, with maximum voltage across it but no current.</li>
+<li><strong>During the Charging Process</strong>: The magnetic energy inside the inductor gradually accumulates. The induced voltage decreases over time, while the current flowing through it increases over time. The equivalent impedance of the inductor decreases with time.</li>
+<li><strong>Upon Completion of Charging</strong>: The voltage across the inductor drops to 0 volts, and the current flowing through it reaches its maximum value. Its state is similar to a <strong>short circuit</strong>.</li>
+</ul>
+<hr>
+<h3 id="Transient-Characteristics-of-RL-Charging-Circuits"><a href="#Transient-Characteristics-of-RL-Charging-Circuits" class="headerlink" title="Transient Characteristics of RL Charging Circuits"></a>Transient Characteristics of RL Charging Circuits</h3><p>In an RL charging circuit, when switch S is closed:</p>
+<ul>
+<li><strong>At the Instant of Closure</strong>: The inductor induces a voltage E to oppose current flow, resulting in zero circuit current. The inductor behaves as an <strong>open circuit</strong>.</li>
+<li><strong>During the Charging Process</strong>: Both the voltage across the inductor VL(t) and the voltage across the resistor VR(t) change with time. The circuit current i(t) also changes with time.</li>
+<li><strong>Upon Completion of Charging</strong>: The inductor is equivalent to a <strong>short circuit</strong>, with 0 volts across it. The voltage across the resistor equals the DC source E, and the circuit current reaches its maximum value of E&#x2F;R.</li>
+</ul>
+<hr>
+<h3 id="Comparison-of-DC-Characteristics-of-Inductors-and-Capacitors"><a href="#Comparison-of-DC-Characteristics-of-Inductors-and-Capacitors" class="headerlink" title="Comparison of DC Characteristics of Inductors and Capacitors"></a>Comparison of DC Characteristics of Inductors and Capacitors</h3><p>Inductors and capacitors are two components with completely opposite electrical properties.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Characteristic</th>
+<th align="left">Inductor</th>
+<th align="left">Capacitor</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Instant of Charging</strong></td>
+<td align="left">Max voltage, no current, equivalent to <strong>open circuit</strong></td>
+<td align="left">0V voltage, max current, equivalent to <strong>short circuit</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>During Charging</strong></td>
+<td align="left">Voltage decreases, current increases, equivalent impedance decreases</td>
+<td align="left">Voltage increases, current decreases, equivalent impedance increases</td>
+</tr>
+<tr>
+<td align="left"><strong>After Charging</strong></td>
+<td align="left">0V voltage, max current, equivalent to <strong>short circuit</strong></td>
+<td align="left">Max voltage, 0A current, equivalent to <strong>open circuit</strong></td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="RL電路的直流暫態特性與電感-電容比較"><a href="#RL電路的直流暫態特性與電感-電容比較" class="headerlink" title="RL電路的直流暫態特性與電感&#x2F;電容比較"></a>RL電路的直流暫態特性與電感&#x2F;電容比較</h1><p>這個單元主要說明了RL電路的直流暫態特性，並比較了電感器與電容器在直流電路中的行為。</p>
+<hr>
+<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><h3 id="電感器在RL電路中的暫態特性"><a href="#電感器在RL電路中的暫態特性" class="headerlink" title="電感器在RL電路中的暫態特性"></a>電感器在RL電路中的暫態特性</h3><p>電感器是一種能感應起電並儲存磁能的元件。</p>
+<ul>
+<li><strong>剛通電瞬間</strong>：電感器會感應生成電壓以阻絕電流流入，此時其狀態類似於<strong>斷路</strong>，兩端有最大電壓但無電流。</li>
+<li><strong>充電過程中</strong>：電感器內部的磁能逐漸累積，感應電壓會隨時間減小，而流經的電流則會隨時間增大。此時電感器的等效阻抗會隨時間變小。</li>
+<li><strong>充電完畢時</strong>：電感器兩端的電壓降至0伏特，流過的最大電流達到最大值，其狀態類似於<strong>短路</strong>。</li>
+</ul>
+<hr>
+<h3 id="RL充電電路暫態特性"><a href="#RL充電電路暫態特性" class="headerlink" title="RL充電電路暫態特性"></a>RL充電電路暫態特性</h3><p>在RL充電電路中，當開關S閉合時：</p>
+<ul>
+<li><strong>閉合瞬間</strong>：電感器會感應電壓E來抑制電流流入，導致電路電流為0安培，電感器呈現<strong>斷路</strong>狀態。</li>
+<li><strong>充電過程中</strong>：電感器兩端的電壓VL(t)和電阻器兩端的電壓VR(t)都會隨時間變化，迴路電流i(t)也隨時間變化。</li>
+<li><strong>充電完畢時</strong>：電感器等效為<strong>短路</strong>，其兩端電壓為0伏特，電阻器兩端電壓等於直流電源E，迴路電流達到最大值E&#x2F;R。</li>
+</ul>
+<hr>
+<h3 id="電感器與電容器直流特性比較"><a href="#電感器與電容器直流特性比較" class="headerlink" title="電感器與電容器直流特性比較"></a>電感器與電容器直流特性比較</h3><p>電感器和電容器在電氣性質上是兩種完全相反的元件。</p>
+<table>
+<thead>
+<tr>
+<th align="left">特性</th>
+<th align="left">電感器</th>
+<th align="left">電容器</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>充電瞬間</strong></td>
+<td align="left">最大電壓，無電流，等效<strong>斷路</strong></td>
+<td align="left">0伏特電壓，最大電流，等效<strong>短路</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>充電過程中</strong></td>
+<td align="left">電壓減小，電流增大，等效阻抗減小</td>
+<td align="left">電壓增大，電流減小，等效阻抗增大</td>
+</tr>
+<tr>
+<td align="left"><strong>充電完畢時</strong></td>
+<td align="left">0伏特電壓，最大電流，等效<strong>短路</strong></td>
+<td align="left">最大電壓，0安培電流，等效<strong>斷路</strong></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="參考影片連結"><a href="#參考影片連結" class="headerlink" title="參考影片連結"></a>參考影片連結</h2><p><a href="https://www.youtube.com/watch?v=tfJ6NsWAxAE">YouTube 影片教學</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-02</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>基本電學</tag>
+        <tag>電容器</tag>
+        <tag>直流暫態</tag>
+        <tag>電感器</tag>
+        <tag>RL電路</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AC Power Reactive Power Part F Examples</title>
+    <url>/2025/08/03/ac-power-reactive-power-part-f-examples/</url>
+    <content><![CDATA[<h1 id="AC-Power-Reactive-Power-Part-F-Examples"><a href="#AC-Power-Reactive-Power-Part-F-Examples" class="headerlink" title="AC Power Reactive Power Part F Examples"></a>AC Power Reactive Power Part F Examples</h1><p>This article provides comprehensive examples of average power and reactive power calculations in various AC circuits, including pure capacitive, RL series, and parallel RC circuits.</p>
+<hr>
+<h2 id="Key-Points-Summary-English"><a href="#Key-Points-Summary-English" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ul>
+<li><p><strong>Example 1:</strong> Pure Capacitive Circuit  </p>
+<ul>
+<li>Voltage ( v(t) &#x3D; 100\sqrt{2} \sin(500t) )  </li>
+<li>Capacitive Reactance ( X_C &#x3D; 50 \Omega )  </li>
+<li>Reactive Power ( Q_C &#x3D; \frac{V^2}{X_C} &#x3D; \frac{100^2}{50} &#x3D; 200 ) VAR</li>
+</ul>
+</li>
+<li><p><strong>Example 2:</strong> RL Series Circuit  </p>
+<ul>
+<li>Voltage ( v(t) &#x3D; 200\sqrt{2} \sin(377t) )  </li>
+<li>Resistance ( R &#x3D; 12 \Omega ), Inductive Reactance ( X_L &#x3D; 16 \Omega )  </li>
+<li>Total Impedance ( Z &#x3D; 12 + j16 &#x3D; 20 \angle 53^\circ )  </li>
+<li>Current ( I &#x3D; \frac{V}{Z} &#x3D; 10 \angle -53^\circ ) A  </li>
+<li>Average Power ( P &#x3D; I^2 R &#x3D; 10^2 \times 12 &#x3D; 1200 ) W  </li>
+<li>Reactive Power ( Q &#x3D; I^2 X_L &#x3D; 10^2 \times 16 &#x3D; 1600 ) VAR</li>
+</ul>
+</li>
+<li><p><strong>Example 3:</strong> Parallel Resistor and Capacitor Circuit  </p>
+<ul>
+<li>Voltage ( V &#x3D; 40 \angle 0^\circ ) V  </li>
+<li>Resistance ( R &#x3D; 20 \Omega ), Capacitive Reactance ( X_C &#x3D; 80 \Omega )  </li>
+<li>Average Power ( P &#x3D; \frac{V^2}{R} &#x3D; \frac{40^2}{20} &#x3D; 80 ) W  </li>
+<li>Reactive Power ( Q &#x3D; \frac{V^2}{X_C} &#x3D; \frac{40^2}{80} &#x3D; 20 ) VAR</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="高中基本電學-交流電功率-虛功率-PART-F-範例：平均功率、虛功率綜合計算"><a href="#高中基本電學-交流電功率-虛功率-PART-F-範例：平均功率、虛功率綜合計算" class="headerlink" title="高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算"></a>高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算</h1><p>本文提供多種交流電路下平均功率與虛功率的綜合計算範例，包含純電容、RL 串聯、電阻與電容並聯等情境。</p>
+<hr>
+<h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul>
+<li><p><strong>範例一</strong>：純電容電路  </p>
+<ul>
+<li>電壓 ( v(t) &#x3D; 100\sqrt{2} \sin(500t) )  </li>
+<li>電容抗 ( X_C &#x3D; 50 \Omega )  </li>
+<li>虛功率 ( Q_C &#x3D; \frac{100^2}{50} &#x3D; 200 ) 乏爾</li>
+</ul>
+</li>
+<li><p><strong>範例二</strong>：RL串聯電路  </p>
+<ul>
+<li>電壓 ( v(t) &#x3D; 200\sqrt{2} \sin(377t) )  </li>
+<li>電阻 ( R &#x3D; 12 \Omega )，電感抗 ( X_L &#x3D; 16 \Omega )  </li>
+<li>總阻抗 ( Z &#x3D; 12 + j16 &#x3D; 20 \angle 53^\circ )  </li>
+<li>電流 ( I &#x3D; \frac{V}{Z} &#x3D; 10 \angle -53^\circ ) 安培  </li>
+<li>平均功率 ( P &#x3D; 10^2 \times 12 &#x3D; 1200 ) 瓦特  </li>
+<li>虛功率 ( Q &#x3D; 10^2 \times 16 &#x3D; 1600 ) 乏爾</li>
+</ul>
+</li>
+<li><p><strong>範例三</strong>：電阻與電容並聯電路  </p>
+<ul>
+<li>電壓 ( V &#x3D; 40 \angle 0^\circ ) 伏特  </li>
+<li>電阻 ( R &#x3D; 20 \Omega )，電容抗 ( X_C &#x3D; 80 \Omega )  </li>
+<li>平均功率 ( P &#x3D; \frac{40^2}{20} &#x3D; 80 ) 瓦特  </li>
+<li>虛功率 ( Q &#x3D; \frac{40^2}{80} &#x3D; 20 ) 乏爾</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=xcIK3GDdT4c">高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算</a></p>
+<hr>
+<p><em>本文發布日期：2025-08-03</em></p>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+      </categories>
+      <tags>
+        <tag>交流電</tag>
+        <tag>平均功率</tag>
+        <tag>虛功率</tag>
+        <tag>基本電學</tag>
+        <tag>綜合範例</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Example Power Factor 10-6 Part C</title>
+    <url>/2025/08/03/example-power-factor-10-6-part-c/</url>
+    <content><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Example: Power Factor (10-6 Part C)</strong></p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+<li><strong>Scope</strong>: Solve a PF example given voltage and current phasors; compute θ, PF, S, and P.</li>
+<li><strong>Why it matters</strong>: Reinforces the relationship among phasors, power factor, apparent and active power.</li>
+<li><strong>What you’ll learn</strong>: How to extract the phase angle, determine PF type (lagging&#x2F;leading), and compute S and P.</li>
+</ul>
+<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol>
+<li>Hello students, welcome to the Basic Electricity MOOC by Teacher Chen Zhengxu.</li>
+<li>In this unit we introduce 10-6 Part C: an example of power factor.</li>
+<li>Given phasors: voltage (100\angle 30^\circ), current (10\angle -30^\circ).</li>
+<li>Q1: Find the phase angle (\theta) between voltage and current.</li>
+<li>Q2: Find the power factor (PF).</li>
+<li>Q3: Find apparent power (S).</li>
+<li>Q4: Find active power (P).</li>
+<li>With 30° (V) and −30° (I), (\theta &#x3D; 30^\circ - (−30^\circ) &#x3D; 60^\circ).</li>
+<li>60° indicates current lags voltage by 60° (inductive).</li>
+<li>PF &#x3D; (\cos 60^\circ &#x3D; 0.5), lagging.</li>
+<li>( S &#x3D; VI &#x3D; 100 \times 10 &#x3D; 1000 ) VA.</li>
+<li>( P &#x3D; S \times PF &#x3D; 1000 \times 0.5 &#x3D; 500 ) W.</li>
+<li>Alternatively, ( P &#x3D; VI\cos\theta ) gives the same 500 W.</li>
+<li>Summary: How to obtain (\theta), PF, (S), and (P) from given phasors.</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<li>YouTube: <a href="https://www.youtube.com/watch?v=kdwAQzPwpwI">Example: Power Factor (10-6 Part C)</a></li>
+</ul>
+<hr>
+<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>範例功率因數（10-6 Part C）</strong></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<li><strong>主題範圍</strong>：在已知電壓、電流相量下，依序求相位角 (\theta)、PF、視在功率 S 與有功功率 P。</li>
+<li><strong>為何重要</strong>：鞏固相量、功率因數、視在功率與平均功率的關聯。</li>
+<li><strong>你將學到</strong>：如何從相量求出相位角、判定滯後&#x2F;超前型 PF，並計算 S 與 P。</li>
+</ul>
+<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
+<li>各位同學好，歡迎收看磨課師基本電學（陳政旭老師）。</li>
+<li>本單元介紹 10-6 Part C：範例功率因數。</li>
+<li>已知相量：電壓 (100\angle 30^\circ)、電流 (10\angle -30^\circ)。</li>
+<li>問題一：求電壓與電流的相位角 (\theta)。</li>
+<li>問題二：功率因數（PF）。</li>
+<li>問題三：視在功率 (S)。</li>
+<li>問題四：有功功率 (P)。</li>
+<li>由 30°（V）與 −30°（I）得 (\theta &#x3D; 30^\circ - (−30^\circ) &#x3D; 60^\circ)。</li>
+<li>60° 表示電流滯後電壓 60°，為電感性電路。</li>
+<li>PF &#x3D; (\cos 60^\circ &#x3D; 0.5)，滯後型。</li>
+<li>( S &#x3D; VI &#x3D; 100 \times 10 &#x3D; 1000 ) 伏安。</li>
+<li>( P &#x3D; S \times PF &#x3D; 1000 \times 0.5 &#x3D; 500 ) 瓦。</li>
+<li>亦可用 ( P &#x3D; VI\cos\theta ) 計算，結果相同為 500 W。</li>
+<li>小結：由既有相量求得 (\theta)、PF、(S)、(P) 的流程。</li>
+</ol>
+<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<li>YouTube：<a href="https://www.youtube.com/watch?v=kdwAQzPwpwI">@範例功率因數（10-6 Part C）</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<li><a href="https://www.youtube.com/watch?v=kdwAQzPwpwI">https://www.youtube.com/watch?v=kdwAQzPwpwI</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>基本電學</category>
+        <category>交流電功率</category>
+      </categories>
+      <tags>
+        <tag>視在功率</tag>
+        <tag>平均功率</tag>
+        <tag>相位角</tag>
+        <tag>相量</tag>
+        <tag>功率因數</tag>
       </tags>
   </entry>
 </search>

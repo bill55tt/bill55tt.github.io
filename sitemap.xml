@@ -2,9 +2,207 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-introduction/</loc>
+    
+    <lastmod>2025-08-23T02:14:26.984Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/example-power-factor-10-6-part-c/</loc>
+    
+    <lastmod>2025-08-23T02:14:03.604Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-reactive-power-part-f-examples/</loc>
+    
+    <lastmod>2025-08-23T02:13:42.056Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-power/</loc>
+    
+    <lastmod>2025-08-23T02:10:45.276Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/02/rl-circuit-dc-transient-characteristics-comparison/</loc>
+    
+    <lastmod>2025-08-23T02:03:26.036Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-instantaneous-power-example-analysis/</loc>
+    
+    <lastmod>2025-08-23T02:03:13.332Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/09/25/parallel-capacitor-sizing-and-pf-improvement-20250925/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.260Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/power-factor-improvement-methods-20250803/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.252Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a-20250803/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.236Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/22/pf-series-parallel-relationship-20250822/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.212Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-part-b-type1-pt-qt-st-pf/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.204Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/21/pf-using-impedance-rl-series-parallel-20250821/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.196Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/pf-using-impedance-rl-series-parallel/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.148Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-comprehensive-practice-part-e/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.136Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/pf-effect-on-ac-circuit/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.120Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/power-factor-part-b-phase-and-pf-by-load/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.084Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/power-triangle-and-complex-power-part-c-examples/</loc>
+    
+    <lastmod>2025-08-23T00:34:53.056Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/power-triangle-and-complex-power-part-b/</loc>
+    
+    <lastmod>2025-08-23T00:34:52.996Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-power-factor-improvement-part-a/</loc>
+    
+    <lastmod>2025-08-23T00:34:52.636Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-pt-qt-st-pf-part-d-block-examples/</loc>
+    
+    <lastmod>2025-08-23T00:34:51.952Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/21/ac-power-pt-qt-st-pf-type2/</loc>
+    
+    <lastmod>2025-08-23T00:34:51.744Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://bill55tt.github.io/2025/08/21/pf-series-parallel-relationship/</loc>
     
-    <lastmod>2025-08-22T13:32:52.657Z</lastmod>
+    <lastmod>2025-08-23T00:34:51.432Z</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bill55tt.github.io/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a/</loc>
+    
+    <lastmod>2025-08-22T13:35:06.511Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -173,7 +371,7 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-capacitor-voltage-formula-analysis/</loc>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-transient-current-curve-analysis/</loc>
     
     <lastmod>2025-08-02T14:16:38.069Z</lastmod>
     
@@ -182,7 +380,7 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-transient-current-curve-analysis/</loc>
+    <loc>https://bill55tt.github.io/2025/08/02/rc-charging-circuit-capacitor-voltage-formula-analysis/</loc>
     
     <lastmod>2025-08-02T14:16:38.069Z</lastmod>
     
@@ -947,15 +1145,6 @@
   </url>
 
   <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-introduction/</loc>
-    
-    <lastmod>2025-05-18T08:33:02.147Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-examples/</loc>
     
     <lastmod>2025-05-18T08:32:39.650Z</lastmod>
@@ -977,15 +1166,6 @@
     <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-limitations/</loc>
     
     <lastmod>2025-05-18T08:29:54.815Z</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://bill55tt.github.io/2025/05/14/2025-05-14-thevenin-theorem-power/</loc>
-    
-    <lastmod>2025-05-18T08:29:38.783Z</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
