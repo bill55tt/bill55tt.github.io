@@ -80,27 +80,29 @@
   <script src="/js/third-party/statistics/lean-analytics.js" defer></script>
 
 
-<script>
-    function clickEffect(){
-    clickEffect();    
-    }
+  
 
-</script>
-<!-- 点击特效 -->
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"cdn":"//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js" defer></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {
+        delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+        ],
+        throwOnError: false
+    });"></script>
+
 <script src="/js/click-effect.js"></script>
 
 <script src="/js/bilingual.js"></script>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-     crossorigin="anonymous"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "你的 AdSense 客户端 ID",
-          enable_page_level_ads: true
-     });
-</script>
-
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
@@ -141,7 +143,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">220</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">13</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">176</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li><li class="menu-item menu-item-subscribe"><a href="/subscribe/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>subscribe</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">10</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">8</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">176</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li><li class="menu-item menu-item-subscribe"><a href="/subscribe/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>subscribe</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -212,12 +214,12 @@
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">220</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -240,7 +242,7 @@
     <h3 class="widget-title">Tag Cloud</h3>
     <div id="myCanvasContainer" class="widget tagcloud">
         <canvas width="250" height="250" id="resCanvas" style="width=100%">
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Atomic-Theory/" rel="tag">Atomic Theory</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Basic-Electronics/" rel="tag">Basic Electronics</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Bilingual/" rel="tag">Bilingual</a><span class="tag-list-count">77</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CNC/" rel="tag">CNC</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Calculation/" rel="tag">Calculation</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Calculations/" rel="tag">Calculations</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Charge/" rel="tag">Charge</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Charged-Particles/" rel="tag">Charged Particles</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chemistry/" rel="tag">Chemistry</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Circuit-Analysis/" rel="tag">Circuit Analysis</a><span class="tag-list-count">30</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Circuit-Components/" rel="tag">Circuit Components</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Components/" rel="tag">Components</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductance/" rel="tag">Conductance</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductivity/" rel="tag">Conductivity</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductor/" rel="tag">Conductor</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductors/" rel="tag">Conductors</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Configuration/" rel="tag">Configuration</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Coulomb-s-Law/" rel="tag">Coulomb&#39;s Law</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Coupling-Coefficient/" rel="tag">Coupling Coefficient</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Current/" rel="tag">Current</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DC-Circuit/" rel="tag">DC Circuit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Definition/" rel="tag">Definition</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Delta-Y-Transformation/" rel="tag">Delta-Y Transformation</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Drilling/" rel="tag">Drilling</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Efficiency/" rel="tag">Efficiency</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electric-Energy/" rel="tag">Electric Energy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electrical/" rel="tag">Electrical</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electricity/" rel="tag">Electricity</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetic-Effect/" rel="tag">Electromagnetic Effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetic-Induction/" rel="tag">Electromagnetic Induction</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetism/" rel="tag">Electromagnetism</a><span class="tag-list-count">32</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electronics/" rel="tag">Electronics</a><span class="tag-list-count">32</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Energy/" rel="tag">Energy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Energy-Storage/" rel="tag">Energy Storage</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Equivalent-Circuits/" rel="tag">Equivalent Circuits</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Examples/" rel="tag">Examples</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Faraday-s-Law/" rel="tag">Faraday&#39;s Law</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Field-Lines/" rel="tag">Field Lines</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Fleming-s-Rule/" rel="tag">Fleming&#39;s Rule</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Function/" rel="tag">Function</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hall-Effect/" rel="tag">Hall Effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/History/" rel="tag">History</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Horsepower/" rel="tag">Horsepower</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hysteresis-Loop/" rel="tag">Hysteresis Loop</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Inductance/" rel="tag">Inductance</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Inductor/" rel="tag">Inductor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Inductors/" rel="tag">Inductors</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Kirchhoff-s-laws/" rel="tag">Kirchhoff&#39;s laws</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Long-Straight-Conductor/" rel="tag">Long Straight Conductor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Loop-Current-Method/" rel="tag">Loop Current Method</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Lorentz-Force/" rel="tag">Lorentz Force</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Effect/" rel="tag">Magnetic Effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Field/" rel="tag">Magnetic Field</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Fields/" rel="tag">Magnetic Fields</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Flux/" rel="tag">Magnetic Flux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Force/" rel="tag">Magnetic Force</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Hysteresis/" rel="tag">Magnetic Hysteresis</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetism/" rel="tag">Magnetism</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetization/" rel="tag">Magnetization</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Manufacturing/" rel="tag">Manufacturing</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Maximum-Power-Transfer/" rel="tag">Maximum Power Transfer</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Measurement/" rel="tag">Measurement</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mechanics/" rel="tag">Mechanics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mutual-Inductance/" rel="tag">Mutual Inductance</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Next-JS-%EF%BC%88Animation%EF%BC%89/" rel="tag">Next JS （Animation）</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Next-Theme/" rel="tag">Next Theme</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node-Voltage-Method/" rel="tag">Node Voltage Method</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Norton/" rel="tag">Norton</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Norton-s-Theorem/" rel="tag">Norton&#39;s Theorem</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Oersted/" rel="tag">Oersted</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PCB/" rel="tag">PCB</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parallel/" rel="tag">Parallel</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parallel-Circuits/" rel="tag">Parallel Circuits</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Permeability/" rel="tag">Permeability</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Physics/" rel="tag">Physics</a><span class="tag-list-count">77</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Power/" rel="tag">Power</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Powers-of-Ten/" rel="tag">Powers of Ten</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Prefixes/" rel="tag">Prefixes</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RC%E5%85%85%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RC充電電路</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RC%E6%94%BE%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RC放電電路</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RC%E9%9B%BB%E8%B7%AF/" rel="tag">RC電路</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E5%85%85%E9%9B%BB%E6%9A%AB%E6%85%8B/" rel="tag">RL充電暫態</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E5%85%85%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RL充電電路</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E6%94%BE%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RL放電電路</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E9%9B%BB%E8%B7%AF/" rel="tag">RL電路</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Resistance/" rel="tag">Resistance</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Resistivity/" rel="tag">Resistivity</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Right-Hand-Rule/" rel="tag">Right-Hand Rule</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SI/" rel="tag">SI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SMD/" rel="tag">SMD</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Self-Inductance/" rel="tag">Self-Inductance</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Series/" rel="tag">Series</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Series-Circuits/" rel="tag">Series Circuits</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Soldering/" rel="tag">Soldering</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Solenoid/" rel="tag">Solenoid</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Static-Charge/" rel="tag">Static Charge</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Structure/" rel="tag">Structure</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Superposition-Theorem/" rel="tag">Superposition Theorem</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Thevenin/" rel="tag">Thevenin</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Thevenin-s-Theorem/" rel="tag">Thevenin&#39;s Theorem</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tutorial/" rel="tag">Tutorial</a><span class="tag-list-count">20</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Units/" rel="tag">Units</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Voltage/" rel="tag">Voltage</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Watt/" rel="tag">Watt</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Wheatstone-bridge/" rel="tag">Wheatstone bridge</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Work/" rel="tag">Work</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Y-Delta-Transformation/" rel="tag">Y-Delta Transformation</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Y-delta-transformation/" rel="tag">Y-delta transformation</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/basic-electricity/" rel="tag">basic electricity</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/circuit-analysis/" rel="tag">circuit analysis</a><span class="tag-list-count">25</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/circuit-components/" rel="tag">circuit components</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/circuit-analysis/" rel="tag">circuit-analysis</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/color-code/" rel="tag">color code</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/conductance/" rel="tag">conductance</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/current-source/" rel="tag">current source</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/electric-current/" rel="tag">electric current</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/electromagnetic-induction/" rel="tag">electromagnetic-induction</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/electronics/" rel="tag">electronics</a><span class="tag-list-count">31</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/heat-effect/" rel="tag">heat effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/induced-emf/" rel="tag">induced-emf</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/joule-s-law/" rel="tag">joule&#39;s law</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kWh/" rel="tag">kWh</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lenz-law/" rel="tag">lenz-law</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ohm-s-law/" rel="tag">ohm&#39;s law</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/parallel-circuit/" rel="tag">parallel circuit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/parallel-circuits/" rel="tag">parallel circuits</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/physics/" rel="tag">physics</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/rc-circuit/" rel="tag">rc-circuit</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/resistance/" rel="tag">resistance</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/resistivity/" rel="tag">resistivity</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/resistors/" rel="tag">resistors</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/series-circuit/" rel="tag">series circuit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/series-circuits/" rel="tag">series circuits</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/temperature-coefficient/" rel="tag">temperature coefficient</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/transient-analysis/" rel="tag">transient-analysis</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/voltage-division/" rel="tag">voltage division</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/voltage-source/" rel="tag">voltage source</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%A6%E8%81%AF%E9%9B%BB%E8%B7%AF/" rel="tag">並聯電路</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%B2%E8%81%AF%E4%B8%A6%E8%81%AF/" rel="tag">串聯並聯</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%B2%E8%81%AF%E9%9B%BB%E8%B7%AF/" rel="tag">串聯電路</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/" rel="tag">交流電</a><span class="tag-list-count">19</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%8B%E9%9B%BB%E4%BF%82%E6%95%B8/" rel="tag">介電係數</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BD%9B%E8%90%8A%E6%98%8E%E5%8F%B3%E6%89%8B%E5%AE%9A%E5%89%87/" rel="tag">佛萊明右手定則</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BE%8B%E9%A1%8C%E8%A7%A3%E6%9E%90/" rel="tag">例題解析</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%84%B2%E8%83%BD/" rel="tag">儲能</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%85%E6%94%BE%E9%9B%BB/" rel="tag">充放電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%85%E6%94%BE%E9%9B%BB%E9%81%8E%E7%A8%8B/" rel="tag">充放電過程</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87/" rel="tag">功率</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E4%B8%89%E8%A7%92%E5%BD%A2/" rel="tag">功率三角形</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E5%93%81%E8%B3%AA/" rel="tag">功率品質</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/" rel="tag">功率因數</a><span class="tag-list-count">15</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E7%89%B9%E6%80%A7/" rel="tag">功率特性</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E8%A8%88%E7%AE%97/" rel="tag">功率計算</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F/" rel="tag">基本公式</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/" rel="tag">基本電學</a><span class="tag-list-count">15</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E7%A4%8E%E4%BE%8B%E9%A1%8C/" rel="tag">基礎例題</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/" rel="tag">平均功率</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%87%89%E9%9B%BB%E5%8B%A2/" rel="tag">應電勢</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%88%B4%E7%B6%AD%E5%AF%A7%E5%AE%9A%E7%90%86/" rel="tag">戴維寧定理</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8C%87%E6%95%B8%E5%87%BD%E6%95%B8/" rel="tag">指數函數</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8C%87%E6%95%B8%E5%A2%9E%E9%95%B7/" rel="tag">指數增長</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8C%87%E6%95%B8%E8%A1%B0%E6%B8%9B/" rel="tag">指數衰減</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%94%BE%E9%9B%BB%E9%81%8E%E7%A8%8B/" rel="tag">放電過程</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E5%AD%B8%E7%AF%84%E4%BE%8B/" rel="tag">教學範例</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%99%82%E9%96%93%E5%B8%B8%E6%95%B8/" rel="tag">時間常數</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9A%AB%E6%85%8B%E5%88%86%E6%9E%90/" rel="tag">暫態分析</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9A%AB%E6%85%8B%E9%9B%BB%E6%B5%81/" rel="tag">暫態電流</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9A%AB%E6%85%8B%E9%9F%BF%E6%87%89/" rel="tag">暫態響應</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%95%88%E5%80%BC/" rel="tag">有效值</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AD%90%E5%A7%86%E5%AE%9A%E5%BE%8B/" rel="tag">歐姆定律</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AD%A3%E5%BC%A6%E6%B3%A2/" rel="tag">正弦波</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%95%E6%8B%89%E7%AC%AC%E5%AE%9A%E5%BE%8B/" rel="tag">法拉第定律</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%A2%E5%BD%A2/" rel="tag">波形</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%84%A1%E5%8A%9F%E5%8A%9F%E7%8E%87/" rel="tag">無功功率</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%84%A1%E6%95%88%E5%8A%9F%E7%8E%87/" rel="tag">無效功率</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%99%BC%E9%9B%BB%E6%A9%9F/" rel="tag">發電機</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%99%BC%E9%9B%BB%E6%A9%9F%E5%8E%9F%E7%90%86/" rel="tag">發電機原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B4%E6%B5%81%E6%9A%AB%E6%85%8B/" rel="tag">直流暫態</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B8%E4%BD%8D/" rel="tag">相位</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B8%E4%BD%8D%E8%A7%92/" rel="tag">相位角</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B8%E9%87%8F/" rel="tag">相量</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9C%81%E9%9B%BB/" rel="tag">省電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9E%AC%E9%96%93%E5%8A%9F%E7%8E%87/" rel="tag">瞬間功率</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%80%E9%BB%9E%E9%9B%BB%E5%A3%93%E6%B3%95/" rel="tag">節點電壓法</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%84%E4%BE%8B/" rel="tag">範例</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%84%E4%BE%8B%E7%B7%B4%E7%BF%92/" rel="tag">範例練習</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B4%94%E9%9B%BB%E5%AE%B9/" rel="tag">純電容</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B4%94%E9%9B%BB%E6%84%9F/" rel="tag">純電感</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B4%94%E9%9B%BB%E9%98%BB/" rel="tag">純電阻</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B6%9C%E5%90%88%E7%AF%84%E4%BE%8B/" rel="tag">綜合範例</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/" rel="tag">虛功率</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A4%87%E6%95%B8%E5%8A%9F%E7%8E%87/" rel="tag">複數功率</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/" rel="tag">視在功率</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A8%88%E7%AE%97%E6%AD%A5%E9%A9%9F/" rel="tag">計算步驟</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%80%B2%E9%9A%8E%E4%BE%8B%E9%A1%8C/" rel="tag">進階例題</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%87%8D%E7%96%8A%E5%AE%9A%E7%90%86/" rel="tag">重疊定理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%98%BB%E6%8A%97/" rel="tag">阻抗</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%8A%9B%E5%93%81%E8%B3%AA/" rel="tag">電力品質</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%8A%9B%E7%B3%BB%E7%B5%B1/" rel="tag">電力系統</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%A3%93%E5%85%AC%E5%BC%8F/" rel="tag">電壓公式</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%A3%93%E8%A8%88%E7%AE%97/" rel="tag">電壓計算</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E5%99%A8/" rel="tag">電容器</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E5%99%A8%E5%85%85%E9%9B%BB/" rel="tag">電容器充電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E5%99%A8%E7%89%B9%E6%80%A7/" rel="tag">電容器特性</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E6%80%A7%E8%B2%A0%E8%BC%89/" rel="tag">電容性負載</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E8%A3%9C%E5%84%9F/" rel="tag">電容補償</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E9%87%8F/" rel="tag">電容量</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E9%9B%BB%E5%A3%93/" rel="tag">電容電壓</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E9%9B%BB%E5%A3%93%E5%85%AC%E5%BC%8F/" rel="tag">電容電壓公式</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E5%99%A8/" rel="tag">電感器</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E5%99%A8%E5%85%85%E9%9B%BB/" rel="tag">電感器充電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E6%80%A7%E8%B2%A0%E8%BC%89/" rel="tag">電感性負載</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E9%9B%BB%E5%A3%93/" rel="tag">電感電壓</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%B5%81/" rel="tag">電流</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%B5%81%E5%85%AC%E5%BC%8F/" rel="tag">電流公式</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%B5%81%E6%9B%B2%E7%B7%9A/" rel="tag">電流曲線</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E7%A3%81%E6%84%9F%E6%87%89/" rel="tag">電磁感應</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E8%B7%AF%E5%88%86%E6%9E%90/" rel="tag">電路分析</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E9%98%BB%E9%9B%BB%E5%A3%93/" rel="tag">電阻電壓</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A1%8C%E5%9E%8B%E8%A7%A3%E6%9E%90/" rel="tag">題型解析</a><span class="tag-list-count">3</span></li></ul>
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AC-Power/" rel="tag">AC Power</a><span class="tag-list-count">30</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Basic-Electricity/" rel="tag">Basic Electricity</a><span class="tag-list-count">49</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Bilingual/" rel="tag">Bilingual</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Circuit-Analysis/" rel="tag">Circuit Analysis</a><span class="tag-list-count">30</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetic-Induction/" rel="tag">Electromagnetic Induction</a><span class="tag-list-count">37</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electronics/" rel="tag">Electronics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Physics/" rel="tag">Physics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Thevenin-s-Theorem/" rel="tag">Thevenin&#39;s Theorem</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Transient-Circuits/" rel="tag">Transient Circuits</a><span class="tag-list-count">20</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tutorial/" rel="tag">Tutorial</a><span class="tag-list-count">10</span></li></ul>
         </canvas>
     </div>
 </div>
@@ -268,6 +270,175 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://bill55tt.github.io/2025/08/03/power-factor-improvement-methods-20250803/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Bill">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SUWACHA">
+      <meta itemprop="description" content="Electronics for Absolute Beginners">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | SUWACHA">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/08/03/power-factor-improvement-methods-20250803/" class="post-title-link" itemprop="url">功率因數改善方法及原理 / Methods and Principles for Power Factor Improvement</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2025-08-03 09:00:00" itemprop="dateCreated datePublished" datetime="2025-08-03T09:00:00+08:00">2025-08-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2026-02-20 15:20:54" itemprop="dateModified" datetime="2026-02-20T15:20:54+08:00">2026-02-20</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/AC-Circuits/" itemprop="url" rel="index"><span itemprop="name">AC Circuits</span></a>
+        </span>
+    </span>
+
+  
+    <span id="/2025/08/03/power-factor-improvement-methods-20250803/" class="post-meta-item leancloud_visitors" data-flag-title="功率因數改善方法及原理 / Methods and Principles for Power Factor Improvement" title="Views">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2025/08/03/power-factor-improvement-methods-20250803/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2025/08/03/power-factor-improvement-methods-20250803/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        
+          
+            <h2 id="English-Version">English Version</h2>
+<h3 id="Title">Title</h3>
+<p><strong>Methods and Principles for Power Factor Improvement</strong></p>
+<h3 id="Introduction">Introduction</h3>
+<ul>
+<li><strong>Scope</strong>: Explain why low PF occurs, how it impacts systems, and practical correction methods.</li>
+<li><strong>Why it matters</strong>: PF affects current, losses, voltage regulation, and equipment sizing; utilities may penalize low PF.</li>
+<li><strong>What you’ll learn</strong>: Power triangle concepts (P/Q/S), capacitor compensation, and modern automatic PF controllers.</li>
+</ul>
+<h3 id="Key-Points">Key Points</h3>
+<ul>
+<li>Low PF mainly comes from inductive loads (e.g., motors) producing reactive power $Q_L$.</li>
+<li>In the power triangle, active power $P$ and reactive power $Q_L$ form apparent power $S$.</li>
+<li>Power factor: $ PF = \cos\theta = P/S $. Larger $Q$ → larger $\theta$ → lower PF.</li>
+<li>Improvement method: add a shunt capacitor near the inductive load to generate $Q_C$ that offsets $Q_L$.</li>
+<li>After compensation: total reactive $ Q_T = Q_L - Q_C $ decreases, $\theta$ shrinks, PF rises.</li>
+<li>Modern solutions often use computerized PF controllers for automatic, stepwise capacitor switching.</li>
+</ul>
+<h3 id="Reference">Reference</h3>
+<ul>
+<li>YouTube: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gphs_Ijn-cY">Power Factor Improvement – Principles and Methods</a></li>
+<li>Auto captions: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gphs_Ijn-cY&amp;cc_load_policy=1">Open with captions</a></li>
+</ul>
+<hr>
+<h2 id="中文版">中文版</h2>
+<h3 id="標題">標題</h3>
+<p><strong>功率因數改善方法及原理</strong></p>
+<h3 id="前言">前言</h3>
+<ul>
+<li><strong>主題範圍</strong>：說明 PF 偏低的原因、對系統的影響，以及常見的改善方法。</li>
+<li><strong>為何重要</strong>：PF 影響電流大小、線損、電壓調節與設備容量；多數電力公司對低 PF 有費率機制。</li>
+<li><strong>你將學到</strong>：功率三角形（P/Q/S）、電容補償的原理與實務、自動功率因數控制器的運作概念。</li>
+</ul>
+<h3 id="重點統整">重點統整</h3>
+<ul>
+<li>PF 低多由電感性負載（如馬達）產生虛功率 $Q_L$ 所致。</li>
+<li>在功率三角形中，平均功率 $P$ 與虛功率 $Q_L$ 共同構成視在功率 $S$。</li>
+<li>功率因數 $ PF = \cos\theta = P/S $；虛功越大，$\theta$ 越大，PF 越低。</li>
+<li>改善方法：在電感性負載旁並聯電容器產生 $Q_C$ 以抵消 $Q_L$。</li>
+<li>補償後：總虛功 $ Q_T = Q_L - Q_C $ 降低，功率因數角 $\theta$ 變小，PF 提升。</li>
+<li>現代作法多採用電腦化功率因數調整器，自動分階投入電容進行補償。</li>
+</ul>
+<h3 id="參考">參考</h3>
+<ul>
+<li>YouTube：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gphs_Ijn-cY">@功率因數改善</a></li>
+<li>自動字幕：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gphs_Ijn-cY&amp;cc_load_policy=1">@開啟字幕版本</a></li>
+</ul>
+<hr>
+<p><strong>日期：2025年08月03日</strong></p>
+<h3 id="YouTube-影片連結">YouTube 影片連結</h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gphs_Ijn-cY">https://www.youtube.com/watch?v=gphs_Ijn-cY</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gphs_Ijn-cY&amp;cc_load_policy=1">https://www.youtube.com/watch?v=gphs_Ijn-cY&amp;cc_load_policy=1</a></li>
+</ul>
+
+
+        <!--noindex-->
+          <div class="post-button">
+            <a class="btn" href="/2025/08/03/power-factor-improvement-methods-20250803/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+        <!--/noindex-->
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -313,7 +484,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-08-23 08:34:53" itemprop="dateModified" datetime="2025-08-23T08:34:53+08:00">2025-08-23</time>
+      <time title="Modified: 2026-02-20 15:20:54" itemprop="dateModified" datetime="2026-02-20T15:20:54+08:00">2026-02-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -321,11 +492,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">基本電學</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/" itemprop="url" rel="index"><span itemprop="name">交流電功率</span></a>
+          <a href="/categories/AC-Circuits/" itemprop="url" rel="index"><span itemprop="name">AC Circuits</span></a>
         </span>
     </span>
 
@@ -362,50 +529,61 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Factor – PART B: θ and PF under Different Loads</strong></p>
-<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+            <h2 id="English-Version">English Version</h2>
+<h3 id="Title">Title</h3>
+<p><strong>High School Basic Electricity – AC Power – Power Factor – PART B: θ and PF under Different Loads</strong></p>
+<h3 id="Introduction">Introduction</h3>
+<ul>
 <li><strong>Scope</strong>: Summarize how phase angle θ and power factor PF behave across resistive, inductive, and capacitive loads.</li>
-<li><strong>Why it matters</strong>: Clarifies leading&#x2F;lagging conventions and how PF relates to circuit topology.</li>
-<li><strong>What you’ll learn</strong>: Phase relations (V leads I or I leads V) and PF extremes in pure R&#x2F;L&#x2F;C and series RL&#x2F;RC.</li>
+<li><strong>Why it matters</strong>: Clarifies leading/lagging conventions and how PF relates to circuit topology.</li>
+<li><strong>What you’ll learn</strong>: Phase relations (V leads I or I leads V) and PF extremes in pure R/L/C and series RL/RC.</li>
 </ul>
-<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol>
-<li>PF angle ((\theta)) and PF definitions.</li>
+<h3 id="Key-Points-Summary">Key Points Summary</h3>
+<ol>
+<li>PF angle ($\theta$) and PF definitions.</li>
 <li>Inductive circuits: Voltage leads current (mnemonic “VL” in VLSIC).</li>
 <li>Capacitive circuits: Current leads voltage (mnemonic “IC” in VLSIC).</li>
-<li>Pure resistive load: in-phase, (\theta &#x3D; 0^\circ), PF &#x3D; 1.</li>
-<li>Pure inductive load: current lags by 90°, (\theta &#x3D; 90^\circ), PF &#x3D; 0 (reactive only).</li>
-<li>Pure capacitive load: current leads by 90°, (\theta &#x3D; 90^\circ), PF &#x3D; 0 (reactive only).</li>
-<li>Inductive load (series RL): 0° &lt; (\theta) &lt; 90°, 0 &lt; PF &lt; 1 (lagging).</li>
-<li>Capacitive load (series RC): 0° &lt; (\theta) &lt; 90°, 0 &lt; PF &lt; 1 (leading).</li>
+<li>Pure resistive load: in-phase, $\theta = 0^\circ$, PF = 1.</li>
+<li>Pure inductive load: current lags by 90°, $\theta = 90^\circ$, PF = 0 (reactive only).</li>
+<li>Pure capacitive load: current leads by 90°, $\theta = 90^\circ$, PF = 0 (reactive only).</li>
+<li>Inductive load (series RL): 0° &lt; $\theta$ &lt; 90°, 0 &lt; PF &lt; 1 (lagging).</li>
+<li>Capacitive load (series RC): 0° &lt; $\theta$ &lt; 90°, 0 &lt; PF &lt; 1 (leading).</li>
 </ol>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<h3 id="Reference">Reference</h3>
+<ul>
 <li>YouTube: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Pdt3xQlheQs">PF – PART B: θ and PF by Load</a></li>
 <li>Auto-caption tip: Use the player’s Settings → Subtitles → Auto-translate to Chinese (Traditional) or English.</li>
 </ul>
 <hr>
-<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率因數_PART B 各種負載下 θ 與 PF 情形</strong></p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
-<li><strong>主題範圍</strong>：整理純 R&#x2F;L&#x2F;C 與 RL&#x2F;RC 串聯電路中相位角 (\theta) 與功率因數 PF 的行為。</li>
-<li><strong>為何重要</strong>：釐清超前&#x2F;滯後的判定與 PF 與電路拓撲的關係。</li>
-<li><strong>你將學到</strong>：電壓與電流誰超前、純量極限（PF&#x3D;1、PF&#x3D;0）、以及 RL&#x2F;RC 的範圍。</li>
+<h2 id="中文版">中文版</h2>
+<h3 id="標題">標題</h3>
+<p><strong>高中基本電學_交流電功率_功率因數_PART B 各種負載下 θ 與 PF 情形</strong></p>
+<h3 id="前言">前言</h3>
+<ul>
+<li><strong>主題範圍</strong>：整理純 R/L/C 與 RL/RC 串聯電路中相位角 $\theta$ 與功率因數 PF 的行為。</li>
+<li><strong>為何重要</strong>：釐清超前/滯後的判定與 PF 與電路拓撲的關係。</li>
+<li><strong>你將學到</strong>：電壓與電流誰超前、純量極限（PF=1、PF=0）、以及 RL/RC 的範圍。</li>
 </ul>
-<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
-<li>功率因數角（(\theta)）與功率因數（PF）定義。</li>
+<h3 id="重點統整">重點統整</h3>
+<ol>
+<li>功率因數角（$\theta$）與功率因數（PF）定義。</li>
 <li>電感性電路：電壓超前電流（VLSIC 的 VL 口訣）。</li>
 <li>電容性電路：電流超前電壓（VLSIC 的 IC 口訣）。</li>
-<li>純電阻負載：同相，(\theta &#x3D; 0^\circ)，PF &#x3D; 1。</li>
-<li>純電感負載：電流滯後 90°，(\theta &#x3D; 90^\circ)，PF &#x3D; 0（僅虛功）。</li>
-<li>純電容負載：電流超前 90°，(\theta &#x3D; 90^\circ)，PF &#x3D; 0（僅虛功）。</li>
-<li>電感性負載（R 與 (jX_L) 串聯）：(0^\circ &lt; \theta &lt; 90^\circ)，(0 &lt; PF &lt; 1)，滯後功率因數。</li>
-<li>電容性負載（R 與 (-jX_C) 串聯）：(0^\circ &lt; \theta &lt; 90^\circ)，(0 &lt; PF &lt; 1)，超前功率因數。</li>
+<li>純電阻負載：同相，$\theta = 0^\circ$，PF = 1。</li>
+<li>純電感負載：電流滯後 90°，$\theta = 90^\circ$，PF = 0（僅虛功）。</li>
+<li>純電容負載：電流超前 90°，$\theta = 90^\circ$，PF = 0（僅虛功）。</li>
+<li>電感性負載（R 與 $jX_L$ 串聯）：$0^\circ &lt; \theta &lt; 90^\circ$，$0 &lt; PF &lt; 1$，滯後功率因數。</li>
+<li>電容性負載（R 與 $-jX_C$ 串聯）：$0^\circ &lt; \theta &lt; 90^\circ$，$0 &lt; PF &lt; 1$，超前功率因數。</li>
 </ol>
-<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<h3 id="參考">參考</h3>
+<ul>
 <li>YouTube：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Pdt3xQlheQs">@功率因數_PART B 各種負載 θ 與 PF</a></li>
 <li>自動翻譯：播放器「設定 → 字幕 → 自動翻譯」選擇中文（繁體）或 English。</li>
 </ul>
 <hr>
 <p><strong>日期：2025年08月03日</strong></p>
-<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<h3 id="YouTube-影片連結">YouTube 影片連結</h3>
+<ul>
 <li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Pdt3xQlheQs">https://www.youtube.com/watch?v=Pdt3xQlheQs</a></li>
 </ul>
 
@@ -478,7 +656,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-08-23 08:34:52" itemprop="dateModified" datetime="2025-08-23T08:34:52+08:00">2025-08-23</time>
+      <time title="Modified: 2026-02-20 15:20:54" itemprop="dateModified" datetime="2026-02-20T15:20:54+08:00">2026-02-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -486,11 +664,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">基本電學</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/" itemprop="url" rel="index"><span itemprop="name">交流電功率</span></a>
+          <a href="/categories/DC-Circuits/" itemprop="url" rel="index"><span itemprop="name">DC Circuits</span></a>
         </span>
     </span>
 
@@ -527,76 +701,95 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Triangle and Complex Power – PART B: Complex Power (Summary: 0:12–8:14)</strong></p>
-<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+            <h2 id="English-Version">English Version</h2>
+<h3 id="Title">Title</h3>
+<p><strong>High School Basic Electricity – AC Power – Power Triangle and Complex Power – PART B: Complex Power (Summary: 0:12–8:14)</strong></p>
+<h3 id="Introduction">Introduction</h3>
+<ul>
 <li><strong>Scope</strong>: Summarize relationships among P, Q, and S; connect the power triangle to complex power.</li>
 <li><strong>Why it matters</strong>: Complex power clarifies sign conventions and the roles of inductive vs. capacitive loads.</li>
-<li><strong>What you’ll learn</strong>: P–Q–S identities, phase angle interpretation, and the definition ( \bar{S} &#x3D; \bar{V},\bar{I}^* ).</li>
+<li><strong>What you’ll learn</strong>: P–Q–S identities, phase angle interpretation, and the definition $ \bar{S} = \bar{V},\bar{I}^* $.</li>
 </ul>
-<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol>
-<li>Meaning and Use of the Power Triangle<ul>
+<h3 id="Key-Points-Summary">Key Points Summary</h3>
+<ol>
+<li>Meaning and Use of the Power Triangle
+<ul>
 <li>Understand relations between active power (P), reactive power (Q), apparent power (S).</li>
 <li>Map triangle representation to complex power notation.</li>
 </ul>
 </li>
-<li>P, Q, S Relationships<ul>
-<li>( P &#x3D; S\cos\theta )</li>
-<li>( Q &#x3D; S\sin\theta )</li>
-<li>( S &#x3D; \sqrt{P^2 + Q^2} )</li>
+<li>P, Q, S Relationships
+<ul>
+<li>$ P = S\cos\theta $</li>
+<li>$ Q = S\sin\theta $</li>
+<li>$ S = \sqrt{P^2 + Q^2} $</li>
 </ul>
 </li>
-<li>Phase Angle (\theta)<ul>
-<li>(\theta) is the voltage–current phase difference.</li>
-<li>RL (inductive): ( \bar{S} &#x3D; P + jQ )</li>
-<li>RC (capacitive): ( \bar{S} &#x3D; P - jQ )</li>
+<li>Phase Angle $\theta$
+<ul>
+<li>$\theta$ is the voltage–current phase difference.</li>
+<li>RL (inductive): $ \bar{S} = P + jQ $</li>
+<li>RC (capacitive): $ \bar{S} = P - jQ $</li>
 </ul>
 </li>
-<li>Definition of Complex Power<ul>
-<li>( \bar{S} &#x3D; \bar{V},\bar{I}^* )</li>
-<li>Conjugation yields correct phase difference (\theta &#x3D; \theta_V - \theta_I).</li>
+<li>Definition of Complex Power
+<ul>
+<li>$ \bar{S} = \bar{V},\bar{I}^* $</li>
+<li>Conjugation yields correct phase difference $\theta = \theta_V - \theta_I$.</li>
 </ul>
 </li>
 </ol>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<h3 id="Reference">Reference</h3>
+<ul>
 <li>YouTube: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=fFtI69ngj1k">Power Triangle &amp; Complex Power – PART B</a></li>
 </ul>
 <hr>
-<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率三角形與複數功率_PART B 複數功率（摘要：0:12–8:14）</strong></p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<h2 id="中文版">中文版</h2>
+<h3 id="標題">標題</h3>
+<p><strong>高中基本電學_交流電功率_功率三角形與複數功率_PART B 複數功率（摘要：0:12–8:14）</strong></p>
+<h3 id="前言">前言</h3>
+<ul>
 <li><strong>主題範圍</strong>：整理 P、Q、S 的關係，並將功率三角形連結至複數功率表示。</li>
-<li><strong>為何重要</strong>：複數功率有助於釐清正負號慣例與電感&#x2F;電容負載的角色。</li>
-<li><strong>你將學到</strong>：P–Q–S 恆等式、相位角詮釋，以及 ( \bar{S} &#x3D; \bar{V},\bar{I}^* ) 的定義。</li>
+<li><strong>為何重要</strong>：複數功率有助於釐清正負號慣例與電感/電容負載的角色。</li>
+<li><strong>你將學到</strong>：P–Q–S 恆等式、相位角詮釋，以及 $ \bar{S} = \bar{V},\bar{I}^* $ 的定義。</li>
 </ul>
-<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
-<li>功率三角形的意義與用途<ul>
+<h3 id="重點統整">重點統整</h3>
+<ol>
+<li>功率三角形的意義與用途
+<ul>
 <li>理解平均功率（P）、虛功率（Q）、視在功率（S）的關係。</li>
 <li>可將功率三角形轉為複數功率表示。</li>
 </ul>
 </li>
-<li>P、Q、S 的關係式<ul>
-<li>( P &#x3D; S\cos\theta )</li>
-<li>( Q &#x3D; S\sin\theta )</li>
-<li>( S &#x3D; \sqrt{P^2 + Q^2} )</li>
+<li>P、Q、S 的關係式
+<ul>
+<li>$ P = S\cos\theta $</li>
+<li>$ Q = S\sin\theta $</li>
+<li>$ S = \sqrt{P^2 + Q^2} $</li>
 </ul>
 </li>
-<li>與電路相位角 (\theta) 的關聯<ul>
-<li>(\theta) 為電壓與電流之相位差。</li>
-<li>RL 串聯（電感性）：( \bar{S} &#x3D; P + jQ )</li>
-<li>RC 串聯（電容性）：( \bar{S} &#x3D; P - jQ )</li>
+<li>與電路相位角 $\theta$ 的關聯
+<ul>
+<li>$\theta$ 為電壓與電流之相位差。</li>
+<li>RL 串聯（電感性）：$ \bar{S} = P + jQ $</li>
+<li>RC 串聯（電容性）：$ \bar{S} = P - jQ $</li>
 </ul>
 </li>
-<li>複數功率定義<ul>
-<li>( \bar{S} &#x3D; \bar{V},\bar{I}^* )</li>
-<li>乘以共軛用以得到正確相位差 (\theta &#x3D; \theta_V - \theta_I)。</li>
+<li>複數功率定義
+<ul>
+<li>$ \bar{S} = \bar{V},\bar{I}^* $</li>
+<li>乘以共軛用以得到正確相位差 $\theta = \theta_V - \theta_I$。</li>
 </ul>
 </li>
 </ol>
-<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<h3 id="參考">參考</h3>
+<ul>
 <li>YouTube：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=fFtI69ngj1k">@功率三角形與複數功率_PART B</a></li>
 </ul>
 <hr>
 <p><strong>日期：2025年08月03日</strong></p>
-<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<h3 id="YouTube-影片連結">YouTube 影片連結</h3>
+<ul>
 <li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=fFtI69ngj1k">https://www.youtube.com/watch?v=fFtI69ngj1k</a></li>
 </ul>
 
@@ -669,7 +862,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-08-23 08:34:53" itemprop="dateModified" datetime="2025-08-23T08:34:53+08:00">2025-08-23</time>
+      <time title="Modified: 2026-02-20 15:20:54" itemprop="dateModified" datetime="2026-02-20T15:20:54+08:00">2026-02-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -677,11 +870,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">基本電學</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/" itemprop="url" rel="index"><span itemprop="name">交流電功率</span></a>
+          <a href="/categories/DC-Circuits/" itemprop="url" rel="index"><span itemprop="name">DC Circuits</span></a>
         </span>
     </span>
 
@@ -718,46 +907,57 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Triangle and Complex Power – PART C Examples: Complex Power (Three Examples)</strong></p>
-<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
+            <h2 id="English-Version">English Version</h2>
+<h3 id="Title">Title</h3>
+<p><strong>High School Basic Electricity – AC Power – Power Triangle and Complex Power – PART C Examples: Complex Power (Three Examples)</strong></p>
+<h3 id="Introduction">Introduction</h3>
+<ul>
 <li><strong>Scope</strong>: Demonstrate complex power calculations and forms using three examples.</li>
 <li><strong>Why it matters</strong>: Links power triangle geometry with complex notation and PF angle.</li>
-<li><strong>What you’ll learn</strong>: Rectangular&#x2F;polar forms of (\bar{S}), extracting P and Q from given quantities.</li>
+<li><strong>What you’ll learn</strong>: Rectangular/polar forms of $\bar{S}$, extracting P and Q from given quantities.</li>
 </ul>
-<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul>
+<h3 id="Key-Points-Summary">Key Points Summary</h3>
+<ul>
 <li>Complex power intro: computation and representation in AC circuits.</li>
-<li>Example 1: Given ( \bar{S} &#x3D; 1000 \angle 60^\circ ) VA → find (P, Q) via triangle ratios.</li>
-<li>Example 2: Given ( P &#x3D; 3000 ) W, ( Q &#x3D; 4000 ) var (capacitive) → rectangular and polar forms of (\bar{S}).</li>
-<li>Example 3: Given ( V &#x3D; 20 - j10 ) V, ( I &#x3D; 10 + j5 ) A → ( \bar{S} &#x3D; V I^* ), then extract (P, Q).</li>
-<li>Power triangle: use similarity to split (S) into (P) and (Q).</li>
-<li>Representation: rectangular ( P \pm jQ ); inductive ( P + jQ ), capacitive ( P - jQ ).</li>
-<li>Polar conversion: magnitude &#x3D; hypotenuse, angle &#x3D; PF angle (sign per reactive type).</li>
+<li>Example 1: Given $ \bar{S} = 1000 \angle 60^\circ $ VA → find $P, Q$ via triangle ratios.</li>
+<li>Example 2: Given $ P = 3000 $ W, $ Q = 4000 $ var (capacitive) → rectangular and polar forms of $\bar{S}$.</li>
+<li>Example 3: Given $ V = 20 - j10 $ V, $ I = 10 + j5 $ A → $ \bar{S} = V I^* $, then extract $P, Q$.</li>
+<li>Power triangle: use similarity to split $S$ into $P$ and $Q$.</li>
+<li>Representation: rectangular $ P \pm jQ $; inductive $ P + jQ $, capacitive $ P - jQ $.</li>
+<li>Polar conversion: magnitude = hypotenuse, angle = PF angle (sign per reactive type).</li>
 </ul>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
+<h3 id="Reference">Reference</h3>
+<ul>
 <li>YouTube: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kZgWYgoCBjc">PART C – Complex Power (3 Examples)</a></li>
 </ul>
 <hr>
-<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率三角形與複數功率_PART C 範例：複數功率（三範例）</strong></p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
+<h2 id="中文版">中文版</h2>
+<h3 id="標題">標題</h3>
+<p><strong>高中基本電學_交流電功率_功率三角形與複數功率_PART C 範例：複數功率（三範例）</strong></p>
+<h3 id="前言">前言</h3>
+<ul>
 <li><strong>主題範圍</strong>：以三個範例示範複數功率的計算與表示。</li>
 <li><strong>為何重要</strong>：把功率三角形幾何關係與複數表示及 PF 角連結起來。</li>
-<li><strong>你將學到</strong>：(\bar{S}) 的直角&#x2F;極座標形式，如何由既有量求出 (P)、(Q)。</li>
+<li><strong>你將學到</strong>：$\bar{S}$ 的直角/極座標形式，如何由既有量求出 $P$、$Q$。</li>
 </ul>
-<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul>
+<h3 id="重點統整">重點統整</h3>
+<ul>
 <li><strong>複數功率介紹</strong>：透過三個範例說明交流電路中複數功率的計算與表示。</li>
-<li><strong>範例一</strong>：已知 ( \bar{S} &#x3D; 1000 \angle 60^\circ ) VA，利用功率三角形比例求 (P, Q)。</li>
-<li><strong>範例二</strong>：已知 ( P &#x3D; 3000 ) W，( Q &#x3D; 4000 ) var（電容性），求 (\bar{S}) 的直角與極座標表示。</li>
-<li><strong>範例三</strong>：給定 ( V &#x3D; 20 - j10 ) V、( I &#x3D; 10 + j5 ) A，計算 ( \bar{S} &#x3D; V I^* )，再求 (P)、(Q)。</li>
-<li><strong>功率三角形</strong>：用相似三角形比例將 (S) 分解為 (P)、(Q)。</li>
-<li><strong>複數功率表示</strong>：直角形式 ( P \pm jQ )；電感性 ( P + jQ )，電容性 ( P - jQ )。</li>
-<li><strong>極座標轉換</strong>：大小為斜邊，角度為功率因數角（正負由電感&#x2F;電容性別決定）。</li>
+<li><strong>範例一</strong>：已知 $ \bar{S} = 1000 \angle 60^\circ $ VA，利用功率三角形比例求 $P, Q$。</li>
+<li><strong>範例二</strong>：已知 $ P = 3000 $ W，$ Q = 4000 $ var（電容性），求 $\bar{S}$ 的直角與極座標表示。</li>
+<li><strong>範例三</strong>：給定 $ V = 20 - j10 $ V、$ I = 10 + j5 $ A，計算 $ \bar{S} = V I^* $，再求 $P$、$Q$。</li>
+<li><strong>功率三角形</strong>：用相似三角形比例將 $S$ 分解為 $P$、$Q$。</li>
+<li><strong>複數功率表示</strong>：直角形式 $ P \pm jQ $；電感性 $ P + jQ $，電容性 $ P - jQ $。</li>
+<li><strong>極座標轉換</strong>：大小為斜邊，角度為功率因數角（正負由電感/電容性別決定）。</li>
 </ul>
-<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
+<h3 id="參考">參考</h3>
+<ul>
 <li>YouTube：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kZgWYgoCBjc">@PART C：複數功率（三範例）</a></li>
 </ul>
 <hr>
 <p><strong>日期：2025年08月03日</strong></p>
-<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
+<h3 id="YouTube-影片連結">YouTube 影片連結</h3>
+<ul>
 <li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kZgWYgoCBjc">https://www.youtube.com/watch?v=kZgWYgoCBjc</a></li>
 </ul>
 
@@ -765,181 +965,6 @@
         <!--noindex-->
           <div class="post-button">
             <a class="btn" href="/2025/08/03/power-triangle-and-complex-power-part-c-examples/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-        <!--/noindex-->
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://bill55tt.github.io/2025/08/03/example-power-factor-10-6-part-c/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Bill">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SUWACHA">
-      <meta itemprop="description" content="Electronics for Absolute Beginners">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | SUWACHA">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/08/03/example-power-factor-10-6-part-c/" class="post-title-link" itemprop="url">Example Power Factor 10-6 Part C</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2025-08-03 09:00:00" itemprop="dateCreated datePublished" datetime="2025-08-03T09:00:00+08:00">2025-08-03</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-08-23 10:14:03" itemprop="dateModified" datetime="2025-08-23T10:14:03+08:00">2025-08-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">基本電學</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/" itemprop="url" rel="index"><span itemprop="name">交流電功率</span></a>
-        </span>
-    </span>
-
-  
-    <span id="/2025/08/03/example-power-factor-10-6-part-c/" class="post-meta-item leancloud_visitors" data-flag-title="Example Power Factor 10-6 Part C" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/2025/08/03/example-power-factor-10-6-part-c/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2025/08/03/example-power-factor-10-6-part-c/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-        
-          
-            <h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Example: Power Factor (10-6 Part C)</strong></p>
-<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul>
-<li><strong>Scope</strong>: Solve a PF example given voltage and current phasors; compute θ, PF, S, and P.</li>
-<li><strong>Why it matters</strong>: Reinforces the relationship among phasors, power factor, apparent and active power.</li>
-<li><strong>What you’ll learn</strong>: How to extract the phase angle, determine PF type (lagging&#x2F;leading), and compute S and P.</li>
-</ul>
-<h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol>
-<li>Hello students, welcome to the Basic Electricity MOOC by Teacher Chen Zhengxu.</li>
-<li>In this unit we introduce 10-6 Part C: an example of power factor.</li>
-<li>Given phasors: voltage (100\angle 30^\circ), current (10\angle -30^\circ).</li>
-<li>Q1: Find the phase angle (\theta) between voltage and current.</li>
-<li>Q2: Find the power factor (PF).</li>
-<li>Q3: Find apparent power (S).</li>
-<li>Q4: Find active power (P).</li>
-<li>With 30° (V) and −30° (I), (\theta &#x3D; 30^\circ - (−30^\circ) &#x3D; 60^\circ).</li>
-<li>60° indicates current lags voltage by 60° (inductive).</li>
-<li>PF &#x3D; (\cos 60^\circ &#x3D; 0.5), lagging.</li>
-<li>( S &#x3D; VI &#x3D; 100 \times 10 &#x3D; 1000 ) VA.</li>
-<li>( P &#x3D; S \times PF &#x3D; 1000 \times 0.5 &#x3D; 500 ) W.</li>
-<li>Alternatively, ( P &#x3D; VI\cos\theta ) gives the same 500 W.</li>
-<li>Summary: How to obtain (\theta), PF, (S), and (P) from given phasors.</li>
-</ol>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul>
-<li>YouTube: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kdwAQzPwpwI">Example: Power Factor (10-6 Part C)</a></li>
-</ul>
-<hr>
-<h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>範例功率因數（10-6 Part C）</strong></p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul>
-<li><strong>主題範圍</strong>：在已知電壓、電流相量下，依序求相位角 (\theta)、PF、視在功率 S 與有功功率 P。</li>
-<li><strong>為何重要</strong>：鞏固相量、功率因數、視在功率與平均功率的關聯。</li>
-<li><strong>你將學到</strong>：如何從相量求出相位角、判定滯後&#x2F;超前型 PF，並計算 S 與 P。</li>
-</ul>
-<h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol>
-<li>各位同學好，歡迎收看磨課師基本電學（陳政旭老師）。</li>
-<li>本單元介紹 10-6 Part C：範例功率因數。</li>
-<li>已知相量：電壓 (100\angle 30^\circ)、電流 (10\angle -30^\circ)。</li>
-<li>問題一：求電壓與電流的相位角 (\theta)。</li>
-<li>問題二：功率因數（PF）。</li>
-<li>問題三：視在功率 (S)。</li>
-<li>問題四：有功功率 (P)。</li>
-<li>由 30°（V）與 −30°（I）得 (\theta &#x3D; 30^\circ - (−30^\circ) &#x3D; 60^\circ)。</li>
-<li>60° 表示電流滯後電壓 60°，為電感性電路。</li>
-<li>PF &#x3D; (\cos 60^\circ &#x3D; 0.5)，滯後型。</li>
-<li>( S &#x3D; VI &#x3D; 100 \times 10 &#x3D; 1000 ) 伏安。</li>
-<li>( P &#x3D; S \times PF &#x3D; 1000 \times 0.5 &#x3D; 500 ) 瓦。</li>
-<li>亦可用 ( P &#x3D; VI\cos\theta ) 計算，結果相同為 500 W。</li>
-<li>小結：由既有相量求得 (\theta)、PF、(S)、(P) 的流程。</li>
-</ol>
-<h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul>
-<li>YouTube：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kdwAQzPwpwI">@範例功率因數（10-6 Part C）</a></li>
-</ul>
-<hr>
-<p><strong>日期：2025年08月03日</strong></p>
-<h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul>
-<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kdwAQzPwpwI">https://www.youtube.com/watch?v=kdwAQzPwpwI</a></li>
-</ul>
-
-
-        <!--noindex-->
-          <div class="post-button">
-            <a class="btn" href="/2025/08/03/example-power-factor-10-6-part-c/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -997,9 +1022,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2025-08-02 23:59:59 / Modified: 22:31:30" itemprop="dateCreated datePublished" datetime="2025-08-02T23:59:59+08:00">2025-08-02</time>
+      <time title="Created: 2025-08-02 23:59:59" itemprop="dateCreated datePublished" datetime="2025-08-02T23:59:59+08:00">2025-08-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2026-02-21 14:33:07" itemprop="dateModified" datetime="2026-02-21T14:33:07+08:00">2026-02-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1007,7 +1038,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">基本電學</span></a>
+          <a href="/categories/Transient-Analysis/" itemprop="url" rel="index"><span itemprop="name">Transient Analysis</span></a>
         </span>
     </span>
 
@@ -1044,19 +1075,25 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h1 id="Advanced-Example-Analysis-of-RL-Discharge-Transient-Circuit"><a href="#Advanced-Example-Analysis-of-RL-Discharge-Transient-Circuit" class="headerlink" title="Advanced Example Analysis of RL Discharge Transient Circuit"></a>Advanced Example Analysis of RL Discharge Transient Circuit</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This comprehensive article provides an advanced example analysis of RL discharge transient circuits. We examine complex circuit configurations, apply superposition theorem, and demonstrate sophisticated problem-solving techniques for RL discharge phenomena.</p>
-<h2 id="Advanced-RL-Discharge-Circuit-Analysis"><a href="#Advanced-RL-Discharge-Circuit-Analysis" class="headerlink" title="Advanced RL Discharge Circuit Analysis"></a>Advanced RL Discharge Circuit Analysis</h2><h3 id="Circuit-Configuration"><a href="#Circuit-Configuration" class="headerlink" title="Circuit Configuration"></a>Circuit Configuration</h3><p><strong>Complex RL Discharge Circuit:</strong></p>
+            <h1>Advanced Example Analysis of RL Discharge Transient Circuit</h1>
+<h2 id="Overview">Overview</h2>
+<p>This comprehensive article provides an advanced example analysis of RL discharge transient circuits. We examine complex circuit configurations, apply superposition theorem, and demonstrate sophisticated problem-solving techniques for RL discharge phenomena.</p>
+<h2 id="Advanced-RL-Discharge-Circuit-Analysis">Advanced RL Discharge Circuit Analysis</h2>
+<h3 id="Circuit-Configuration">Circuit Configuration</h3>
+<p><strong>Complex RL Discharge Circuit:</strong></p>
 <ul>
-<li><strong>Inductor</strong>: L &#x3D; 2 H (energy storage element)</li>
+<li><strong>Inductor</strong>: L = 2 H (energy storage element)</li>
 <li><strong>Resistors</strong>: Multiple resistors in series-parallel configuration</li>
 <li><strong>Switch</strong>: Controls transition from steady state to discharge</li>
 <li><strong>Power Supply</strong>: Provides initial energy for charging</li>
 <li><strong>Multiple Paths</strong>: Complex discharge path analysis</li>
 </ul>
-<h3 id="Steady-State-Analysis"><a href="#Steady-State-Analysis" class="headerlink" title="Steady State Analysis"></a>Steady State Analysis</h3><p><strong>Before Switch Closure:</strong></p>
+<h3 id="Steady-State-Analysis">Steady State Analysis</h3>
+<p><strong>Before Switch Closure:</strong></p>
 <ul>
 <li><strong>Inductor State</strong>: Fully charged, behaves as short circuit</li>
-<li><strong>Voltage Distribution</strong>: <ul>
+<li><strong>Voltage Distribution</strong>:
+<ul>
 <li>Inductor voltage: 0V (steady state)</li>
 <li>Resistor voltages: Distributed according to voltage division</li>
 </ul>
@@ -1064,118 +1101,163 @@
 <li><strong>Current</strong>: Calculated using total voltage and resistance</li>
 <li><strong>Energy State</strong>: Maximum magnetic energy stored</li>
 </ul>
-<p><strong>Current Calculation:</strong><br>$$ I_{steady} &#x3D; \frac{V_{total}}{R_{total}} &#x3D; \frac{100V}{5k\Omega} &#x3D; 20mA $$</p>
-<h2 id="Transient-Analysis"><a href="#Transient-Analysis" class="headerlink" title="Transient Analysis"></a>Transient Analysis</h2><h3 id="1-Initial-Discharge-Conditions"><a href="#1-Initial-Discharge-Conditions" class="headerlink" title="1. Initial Discharge Conditions"></a>1. Initial Discharge Conditions</h3><p><strong>When Switch S Closes:</strong></p>
+<p><strong>Current Calculation:</strong><br>
+$$ W_L = \frac{1}{2} L I_0^2 $$</p>
+<h2 id="Transient-Analysis">Transient Analysis</h2>
+<h3 id="1-Initial-Discharge-Conditions">1. Initial Discharge Conditions</h3>
+<p><strong>When Switch S Closes:</strong></p>
 <ul>
 <li><strong>Circuit Reconfiguration</strong>: New discharge path established</li>
 <li><strong>Inductor Behavior</strong>: Begins discharging stored energy</li>
-<li><strong>Initial Current</strong>: Maintains pre-closure value (20mA)</li>
+<li><strong>Initial Current</strong>: Maintains pre-closure value (20\text{ mA})</li>
 <li><strong>Voltage Polarity</strong>: Reverses compared to charging state</li>
 </ul>
-<h3 id="2-Voltage-Analysis"><a href="#2-Voltage-Analysis" class="headerlink" title="2. Voltage Analysis"></a>2. Voltage Analysis</h3><p><strong>Inductor Voltage Calculation:</strong><br>$$ V_L(0) &#x3D; I(0) \times R_{discharge} &#x3D; 20mA \times 4k\Omega &#x3D; 80V $$</p>
+<h3 id="2-Voltage-Analysis">2. Voltage Analysis</h3>
+<p><strong>Inductor Voltage Calculation:</strong><br>
+$$ V_L(0) = I(0) \times R_{discharge} = 20mA \times 4k\Omega = 80V $$</p>
 <p><strong>Voltage Polarity:</strong></p>
 <ul>
 <li><strong>Charging</strong>: Positive voltage across inductor</li>
 <li><strong>Discharging</strong>: Negative voltage across inductor (opposite polarity)</li>
 </ul>
-<h3 id="3-Time-Constant-Analysis"><a href="#3-Time-Constant-Analysis" class="headerlink" title="3. Time Constant Analysis"></a>3. Time Constant Analysis</h3><p><strong>Discharge Time Constant:</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{2H}{4k\Omega} &#x3D; 0.5ms $$</p>
+<h3 id="3-Time-Constant-Analysis">3. Time Constant Analysis</h3>
+<p><strong>Discharge Time Constant:</strong><br>
+$$ \tau = \frac{L}{R} = \frac{2H}{4k\Omega} = 0.5ms $$</p>
 <p><strong>Physical Interpretation:</strong></p>
 <ul>
 <li><strong>Fast Discharge</strong>: Small time constant indicates rapid energy release</li>
 <li><strong>High Resistance</strong>: Large resistance in discharge path</li>
 <li><strong>Energy Dissipation</strong>: Rapid power transfer to resistors</li>
 </ul>
-<h2 id="Mathematical-Analysis"><a href="#Mathematical-Analysis" class="headerlink" title="Mathematical Analysis"></a>Mathematical Analysis</h2><h3 id="1-Current-Decay-Formula"><a href="#1-Current-Decay-Formula" class="headerlink" title="1. Current Decay Formula"></a>1. Current Decay Formula</h3><p><strong>Exponential Decay Expression:</strong><br>$$ i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} &#x3D; 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<h2 id="Mathematical-Analysis">Mathematical Analysis</h2>
+<h3 id="1-Current-Decay-Formula">1. Current Decay Formula</h3>
+<p><strong>Exponential Decay Expression:</strong><br>
+$$ i(t) = I_0 e^{-\frac{t}{\tau}} = 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
 <p><strong>Formula Components:</strong></p>
 <ul>
-<li><strong>( i(t) )</strong>：Current at time t</li>
-<li><strong>( I_0 )</strong>：Initial current (20mA)</li>
-<li><strong>( t )</strong>：Time after discharge begins</li>
-<li><strong>( τ )</strong>：Time constant (0.5ms)</li>
+<li><strong>$ i(t) $</strong>：Current at time t</li>
+<li><strong>$ I_0 $</strong>：Initial current (20\text{ mA})</li>
+<li><strong>$ t $</strong>：Time after discharge begins</li>
+<li><strong>$ \tau $</strong>：Time constant (0.5\text{ ms})</li>
 </ul>
-<h3 id="2-Voltage-Decay-Formula"><a href="#2-Voltage-Decay-Formula" class="headerlink" title="2. Voltage Decay Formula"></a>2. Voltage Decay Formula</h3><p><strong>Inductor Voltage:</strong><br>$$ V_L(t) &#x3D; V_L(0) e^{-\frac{t}{\tau}} &#x3D; 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
-<p><strong>Resistor Voltage:</strong><br>$$ V_R(t) &#x3D; i(t) \times R &#x3D; 20mA \cdot e^{-\frac{t}{0.5ms}} \times 4k\Omega &#x3D; 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
-<h3 id="3-Time-Dependent-Calculations"><a href="#3-Time-Dependent-Calculations" class="headerlink" title="3. Time-Dependent Calculations"></a>3. Time-Dependent Calculations</h3><p><strong>At t &#x3D; 1ms (2τ):</strong><br>$$ i(1ms) &#x3D; 20mA \cdot e^{-2} &#x3D; 20mA \cdot 0.135 &#x3D; 2.7mA $$</p>
-<p>$$ V_L(1ms) &#x3D; 80V \cdot e^{-2} &#x3D; 80V \cdot 0.135 &#x3D; 10.8V $$</p>
-<h2 id="Superposition-Theorem-Application"><a href="#Superposition-Theorem-Application" class="headerlink" title="Superposition Theorem Application"></a>Superposition Theorem Application</h2><h3 id="1-Circuit-Decomposition"><a href="#1-Circuit-Decomposition" class="headerlink" title="1. Circuit Decomposition"></a>1. Circuit Decomposition</h3><p><strong>Original Circuit</strong>: Complex RL discharge circuit<br><strong>Decomposed Circuits</strong>:</p>
+<h3 id="2-Voltage-Decay-Formula">2. Voltage Decay Formula</h3>
+<p><strong>Inductor Voltage:</strong><br>
+$$ V_L(t) = V_L(0) e^{-\frac{t}{\tau}} = 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<p><strong>Resistor Voltage:</strong><br>
+$$ V_R(t) = i(t) \times R = 20mA \cdot e^{-\frac{t}{0.5ms}} \times 4k\Omega = 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<h3 id="3-Time-Dependent-Calculations">3. Time-Dependent Calculations</h3>
+<p>At t = 1ms (2τ):<br>
+$$ i(1ms) = 20mA \cdot e^{-2} = 20mA \cdot 0.135 = 2.7mA $$</p>
+<p>$$ V_L(1ms) = 80V \cdot e^{-2} = 80V \cdot 0.135 = 10.8V $$</p>
+<h2 id="Superposition-Theorem-Application">Superposition Theorem Application</h2>
+<h3 id="1-Circuit-Decomposition">1. Circuit Decomposition</h3>
+<p><strong>Original Circuit</strong>: Complex RL discharge circuit<br>
+<strong>Decomposed Circuits</strong>:</p>
 <ul>
 <li><strong>Circuit A</strong>: Steady-state current source</li>
 <li><strong>Circuit B</strong>: Discharging inductor</li>
 </ul>
-<h3 id="2-Individual-Circuit-Analysis"><a href="#2-Individual-Circuit-Analysis" class="headerlink" title="2. Individual Circuit Analysis"></a>2. Individual Circuit Analysis</h3><p><strong>Circuit A (Steady State):</strong></p>
+<h3 id="2-Individual-Circuit-Analysis">2. Individual Circuit Analysis</h3>
+<p><strong>Circuit A (Steady State):</strong></p>
 <ul>
-<li><strong>Current Source</strong>: 20mA flowing through 4kΩ resistor</li>
-<li><strong>Voltage</strong>: ( V_A &#x3D; 20mA \times 4k\Omega &#x3D; 80V )</li>
+<li><strong>Current Source</strong>: 20\text{ mA} flowing through 4\text{ k}\Omega resistor</li>
+<li><strong>Voltage</strong>: $ V_A = 20\text{ mA} \times 4k\Omega = 80\text{ V} $</li>
 </ul>
 <p><strong>Circuit B (Discharge):</strong></p>
 <ul>
-<li><strong>Inductor Current</strong>: Decaying from 20mA</li>
-<li><strong>Voltage</strong>: ( V_B(t) &#x3D; 80V \cdot e^{-\frac{t}{0.5ms}} )</li>
+<li><strong>Inductor Current</strong>: Decaying from 20\text{ mA}</li>
+<li><strong>Voltage</strong>: $ V_B(t) = 80\text{ V} \cdot e^{-\frac{t}{0.5\text{ ms}}} $</li>
 </ul>
-<h3 id="3-Superposition-Result"><a href="#3-Superposition-Result" class="headerlink" title="3. Superposition Result"></a>3. Superposition Result</h3><p><strong>Switch S Current:</strong><br>$$ I_S(t) &#x3D; I_{steady} + i_{discharge}(t) &#x3D; 20mA + 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
-<p><strong>At t &#x3D; 1ms:</strong><br>$$ I_S(1ms) &#x3D; 20mA + 2.7mA &#x3D; 22.7mA $$</p>
-<p><strong>Total Current Through Switch:</strong><br>$$ I_{total} &#x3D; 100mA - 2.7mA &#x3D; 97.3mA $$</p>
-<h2 id="Energy-Considerations"><a href="#Energy-Considerations" class="headerlink" title="Energy Considerations"></a>Energy Considerations</h2><h3 id="1-Initial-Magnetic-Energy"><a href="#1-Initial-Magnetic-Energy" class="headerlink" title="1. Initial Magnetic Energy"></a>1. Initial Magnetic Energy</h3><p><strong>Stored Energy:</strong><br>$$ W_L &#x3D; \frac{1}{2} L I_0^2 &#x3D; \frac{1}{2} \times 2H \times (20mA)^2 &#x3D; 0.4mJ $$</p>
-<h3 id="2-Power-Dissipation"><a href="#2-Power-Dissipation" class="headerlink" title="2. Power Dissipation"></a>2. Power Dissipation</h3><p><strong>Instantaneous Power:</strong><br>$$ P_R(t) &#x3D; i^2(t) R &#x3D; (20mA)^2 \times 4k\Omega \times e^{-\frac{2t}{\tau}} &#x3D; 1.6W \times e^{-\frac{2t}{0.5ms}} $$</p>
-<h3 id="3-Energy-Transfer"><a href="#3-Energy-Transfer" class="headerlink" title="3. Energy Transfer"></a>3. Energy Transfer</h3><p><strong>Total Energy Dissipated:</strong><br>$$ W_{total} &#x3D; \int_0^{\infty} P_R(t) dt &#x3D; 0.4mJ $$</p>
-<p><strong>Verification:</strong><br>$$ W_{total} &#x3D; \frac{1}{2} L I_0^2 &#x3D; 0.4mJ $$</p>
-<h2 id="Advanced-Circuit-Analysis"><a href="#Advanced-Circuit-Analysis" class="headerlink" title="Advanced Circuit Analysis"></a>Advanced Circuit Analysis</h2><h3 id="1-Multiple-Time-Constants"><a href="#1-Multiple-Time-Constants" class="headerlink" title="1. Multiple Time Constants"></a>1. Multiple Time Constants</h3><p><strong>Complex RL Networks:</strong></p>
+<h3 id="3-Superposition-Result">3. Superposition Result</h3>
+<p><strong>Switch S Current:</strong><br>
+$$ I_S(t) = I_{steady} + i_{discharge}(t) = 20mA + 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<p><strong>At t = 1\text{ ms}:</strong><br>
+$$ I_S(1ms) = 20mA + 2.7mA = 22.7mA $$</p>
+<p><strong>Total Current Through Switch:</strong><br>
+$$ I_{total} = 100mA - 2.7mA = 97.3mA $$</p>
+<h2 id="Energy-Considerations">Energy Considerations</h2>
+<h3 id="1-Initial-Magnetic-Energy">1. Initial Magnetic Energy</h3>
+<p><strong>Stored Energy:</strong><br>
+$$ W_L = \frac{1}{2} L I_0^2 = \frac{1}{2} \times 2H \times (20mA)^2 = 0.4mJ $$</p>
+<h3 id="2-Power-Dissipation">2. Power Dissipation</h3>
+<p><strong>Instantaneous Power:</strong><br>
+$$ P_R(t) = i^2(t) R = (20mA)^2 \times 4k\Omega \times e^{-\frac{2t}{\tau}} = 1.6W \times e^{-\frac{2t}{0.5ms}} $$</p>
+<h3 id="3-Energy-Transfer">3. Energy Transfer</h3>
+<p><strong>Total Energy Dissipated:</strong><br>
+$$ W_{total} = \int_0^{\infty} P_R(t) dt = 0.4mJ $$</p>
+<p><strong>Verification:</strong><br>
+$$ W_{total} = \frac{1}{2} L I_0^2 = 0.4mJ $$</p>
+<h2 id="Advanced-Circuit-Analysis">Advanced Circuit Analysis</h2>
+<h3 id="1-Multiple-Time-Constants">1. Multiple Time Constants</h3>
+<p><strong>Complex RL Networks:</strong></p>
 <ul>
-<li><strong>Series RL</strong>: ( \tau &#x3D; \frac{L_{total}}{R_{total}} )</li>
+<li><strong>Series RL</strong>: $ \tau = \frac{L_{total}}{R_{total}} $</li>
 <li><strong>Parallel RL</strong>: Multiple decay rates</li>
 <li><strong>Mixed Configurations</strong>: Combination effects</li>
 </ul>
-<h3 id="2-Non-Ideal-Components"><a href="#2-Non-Ideal-Components" class="headerlink" title="2. Non-Ideal Components"></a>2. Non-Ideal Components</h3><p><strong>Real-World Considerations:</strong></p>
+<h3 id="2-Non-Ideal-Components">2. Non-Ideal Components</h3>
+<p><strong>Real-World Considerations:</strong></p>
 <ul>
 <li><strong>Inductor Resistance</strong>: Internal resistance effects</li>
 <li><strong>Core Losses</strong>: Magnetic hysteresis losses</li>
 <li><strong>Temperature Effects</strong>: Component parameter variations</li>
 <li><strong>Parasitic Elements</strong>: Stray capacitance and resistance</li>
 </ul>
-<h3 id="3-Frequency-Domain-Analysis"><a href="#3-Frequency-Domain-Analysis" class="headerlink" title="3. Frequency Domain Analysis"></a>3. Frequency Domain Analysis</h3><p><strong>Laplace Transform Method:</strong></p>
+<h3 id="3-Frequency-Domain-Analysis">3. Frequency Domain Analysis</h3>
+<p><strong>Laplace Transform Method:</strong></p>
 <ul>
 <li><strong>Transfer Functions</strong>: System response analysis</li>
 <li><strong>Pole-Zero Analysis</strong>: Stability considerations</li>
 <li><strong>Frequency Response</strong>: AC behavior analysis</li>
 </ul>
-<h2 id="Problem-Solving-Strategy"><a href="#Problem-Solving-Strategy" class="headerlink" title="Problem-Solving Strategy"></a>Problem-Solving Strategy</h2><h3 id="1-Circuit-Analysis-Steps"><a href="#1-Circuit-Analysis-Steps" class="headerlink" title="1. Circuit Analysis Steps"></a>1. Circuit Analysis Steps</h3><ul>
+<h2 id="Problem-Solving-Strategy">Problem-Solving Strategy</h2>
+<h3 id="1-Circuit-Analysis-Steps">1. Circuit Analysis Steps</h3>
+<ul>
 <li><strong>Identify</strong>: Circuit topology and components</li>
 <li><strong>Determine</strong>: Steady-state conditions before switch closure</li>
 <li><strong>Calculate</strong>: Initial conditions for discharge</li>
 <li><strong>Apply</strong>: Appropriate discharge formulas</li>
 <li><strong>Use</strong>: Superposition theorem for complex circuits</li>
 </ul>
-<h3 id="2-Formula-Application"><a href="#2-Formula-Application" class="headerlink" title="2. Formula Application"></a>2. Formula Application</h3><ul>
-<li><strong>Current</strong>: ( i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} )</li>
-<li><strong>Voltage</strong>: ( V_L(t) &#x3D; V_L(0) e^{-\frac{t}{\tau}} )</li>
-<li><strong>Time Constant</strong>: ( \tau &#x3D; \frac{L}{R} )</li>
-<li><strong>Superposition</strong>: ( I_{total} &#x3D; I_{steady} + i_{discharge}(t) )</li>
+<h3 id="2-Formula-Application">2. Formula Application</h3>
+<ul>
+<li><strong>Current</strong>: $ i(t) = I_0 e^{-\frac{t}{\tau}} $</li>
+<li><strong>Voltage</strong>: $ V_L(t) = V_L(0) e^{-\frac{t}{\tau}} $</li>
+<li><strong>Time Constant</strong>: $ \tau = \frac{L}{R} $</li>
+<li><strong>Superposition</strong>: $ I_{total} = I_{steady} + i_{discharge}(t) $</li>
 </ul>
-<h3 id="3-Results-Validation"><a href="#3-Results-Validation" class="headerlink" title="3. Results Validation"></a>3. Results Validation</h3><ul>
+<h3 id="3-Results-Validation">3. Results Validation</h3>
+<ul>
 <li><strong>Units Check</strong>: Ensure proper units</li>
 <li><strong>Physical Reasonableness</strong>: Verify results make sense</li>
 <li><strong>Law Verification</strong>: Confirm Kirchhoff’s laws</li>
 <li><strong>Energy Conservation</strong>: Check energy balance</li>
 </ul>
-<h2 id="Practical-Applications"><a href="#Practical-Applications" class="headerlink" title="Practical Applications"></a>Practical Applications</h2><h3 id="1-Power-Electronics"><a href="#1-Power-Electronics" class="headerlink" title="1. Power Electronics"></a>1. Power Electronics</h3><ul>
+<h2 id="Practical-Applications">Practical Applications</h2>
+<h3 id="1-Power-Electronics">1. Power Electronics</h3>
+<ul>
 <li><strong>DC-DC Converters</strong>: Complex inductor discharge in switching circuits</li>
 <li><strong>Motor Drives</strong>: Field winding discharge with multiple paths</li>
 <li><strong>Inverters</strong>: Energy recovery systems with complex topologies</li>
 <li><strong>Switching Power Supplies</strong>: Multi-stage energy transfer</li>
 </ul>
-<h3 id="2-Protection-Circuits"><a href="#2-Protection-Circuits" class="headerlink" title="2. Protection Circuits"></a>2. Protection Circuits</h3><ul>
+<h3 id="2-Protection-Circuits">2. Protection Circuits</h3>
+<ul>
 <li><strong>Surge Protection</strong>: Complex inductor energy dissipation</li>
 <li><strong>Circuit Breakers</strong>: Arc suppression with multiple discharge paths</li>
 <li><strong>Snubber Circuits</strong>: Voltage spike protection in complex circuits</li>
 <li><strong>EMI Filters</strong>: Multi-stage energy absorption</li>
 </ul>
-<h3 id="3-Energy-Storage-Systems"><a href="#3-Energy-Storage-Systems" class="headerlink" title="3. Energy Storage Systems"></a>3. Energy Storage Systems</h3><ul>
+<h3 id="3-Energy-Storage-Systems">3. Energy Storage Systems</h3>
+<ul>
 <li><strong>Battery Management</strong>: Complex inductor discharge control</li>
 <li><strong>Supercapacitor Systems</strong>: Multi-path energy transfer optimization</li>
 <li><strong>Flywheel Systems</strong>: Kinetic energy conversion with multiple stages</li>
 <li><strong>Magnetic Energy Storage</strong>: Complex discharge rate control</li>
 </ul>
-<h2 id="Comparison-with-Simple-RL-Circuits"><a href="#Comparison-with-Simple-RL-Circuits" class="headerlink" title="Comparison with Simple RL Circuits"></a>Comparison with Simple RL Circuits</h2><h3 id="Complexity-Differences"><a href="#Complexity-Differences" class="headerlink" title="Complexity Differences"></a>Complexity Differences</h3><table>
+<h2 id="Comparison-with-Simple-RL-Circuits">Comparison with Simple RL Circuits</h2>
+<h3 id="Complexity-Differences">Complexity Differences</h3>
+<table>
 <thead>
 <tr>
 <th>Aspect</th>
@@ -1183,7 +1265,8 @@
 <th>Advanced RL Circuit</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>Configuration</td>
 <td>Single inductor-resistor</td>
 <td>Multiple components</td>
@@ -1203,8 +1286,10 @@
 <td>Single discharge path</td>
 <td>Multiple discharge paths</td>
 </tr>
-</tbody></table>
-<h3 id="Analysis-Complexity"><a href="#Analysis-Complexity" class="headerlink" title="Analysis Complexity"></a>Analysis Complexity</h3><p><strong>Simple RL Circuit:</strong></p>
+</tbody>
+</table>
+<h3 id="Analysis-Complexity">Analysis Complexity</h3>
+<p><strong>Simple RL Circuit:</strong></p>
 <ul>
 <li><strong>Direct Application</strong>: Use basic formulas directly</li>
 <li><strong>Single Path</strong>: One discharge path</li>
@@ -1216,31 +1301,58 @@
 <li><strong>Multiple Paths</strong>: Complex discharge paths</li>
 <li><strong>Multiple Effects</strong>: Combined transient responses</li>
 </ul>
-<h2 id="Advanced-Mathematical-Techniques"><a href="#Advanced-Mathematical-Techniques" class="headerlink" title="Advanced Mathematical Techniques"></a>Advanced Mathematical Techniques</h2><h3 id="1-Differential-Equations"><a href="#1-Differential-Equations" class="headerlink" title="1. Differential Equations"></a>1. Differential Equations</h3><p><strong>First-Order RL Circuit:</strong><br>$$ L \frac{di(t)}{dt} + Ri(t) &#x3D; 0 $$</p>
-<p><strong>Solution Method:</strong><br>$$ i(t) &#x3D; I_0 e^{-\frac{R}{L}t} &#x3D; I_0 e^{-\frac{t}{\tau}} $$</p>
-<h3 id="2-Laplace-Transform"><a href="#2-Laplace-Transform" class="headerlink" title="2. Laplace Transform"></a>2. Laplace Transform</h3><p><strong>Transfer Function:</strong><br>$$ H(s) &#x3D; \frac{I(s)}{V(s)} &#x3D; \frac{1}{Ls + R} $$</p>
-<p><strong>Pole Analysis:</strong><br>$$ s &#x3D; -\frac{R}{L} &#x3D; -\frac{1}{\tau} $$</p>
-<h3 id="3-State-Space-Analysis"><a href="#3-State-Space-Analysis" class="headerlink" title="3. State-Space Analysis"></a>3. State-Space Analysis</h3><p><strong>State Variables:</strong><br>$$ x(t) &#x3D; i(t) $$</p>
-<p><strong>State Equation:</strong><br>$$ \dot{x}(t) &#x3D; -\frac{R}{L}x(t) $$</p>
-<h2 id="Common-Challenges-and-Solutions"><a href="#Common-Challenges-and-Solutions" class="headerlink" title="Common Challenges and Solutions"></a>Common Challenges and Solutions</h2><h3 id="Challenge-1-Complex-Circuit-Topology"><a href="#Challenge-1-Complex-Circuit-Topology" class="headerlink" title="Challenge 1: Complex Circuit Topology"></a>Challenge 1: Complex Circuit Topology</h3><p><strong>Problem</strong>: Multiple components and paths<br><strong>Solution</strong>: Use superposition theorem and circuit decomposition</p>
-<h3 id="Challenge-2-Multiple-Time-Constants"><a href="#Challenge-2-Multiple-Time-Constants" class="headerlink" title="Challenge 2: Multiple Time Constants"></a>Challenge 2: Multiple Time Constants</h3><p><strong>Problem</strong>: Different decay rates in different parts<br><strong>Solution</strong>: Analyze each path separately and combine results</p>
-<h3 id="Challenge-3-Non-Ideal-Components"><a href="#Challenge-3-Non-Ideal-Components" class="headerlink" title="Challenge 3: Non-Ideal Components"></a>Challenge 3: Non-Ideal Components</h3><p><strong>Problem</strong>: Real-world component limitations<br><strong>Solution</strong>: Include parasitic elements in analysis</p>
-<h3 id="Challenge-4-Energy-Distribution"><a href="#Challenge-4-Energy-Distribution" class="headerlink" title="Challenge 4: Energy Distribution"></a>Challenge 4: Energy Distribution</h3><p><strong>Problem</strong>: Energy transfer through multiple paths<br><strong>Solution</strong>: Use energy conservation and power analysis</p>
-<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><strong>Title:</strong> RL放電電路暫態進階例題解析 - 張偉勤老師<br><strong>Link:</strong> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=bYfIhkWAKfs">https://www.youtube.com/watch?v=bYfIhkWAKfs</a></p>
+<h2 id="Advanced-Mathematical-Techniques">Advanced Mathematical Techniques</h2>
+<h3 id="1-Differential-Equations">1. Differential Equations</h3>
+<p><strong>First-Order RL Circuit:</strong><br>
+$$ L \frac{di(t)}{dt} + Ri(t) = 0 $$</p>
+<p><strong>Solution Method:</strong><br>
+$$ i(t) = I_0 e^{-\frac{R}{L}t} = I_0 e^{-\frac{t}{\tau}} $$</p>
+<h3 id="2-Laplace-Transform">2. Laplace Transform</h3>
+<p><strong>Transfer Function:</strong><br>
+$$ H(s) = \frac{I(s)}{V(s)} = \frac{1}{Ls + R} $$</p>
+<p><strong>Pole Analysis:</strong><br>
+$$ s = -\frac{R}{L} = -\frac{1}{\tau} $$</p>
+<h3 id="3-State-Space-Analysis">3. State-Space Analysis</h3>
+<p><strong>State Variables:</strong><br>
+$$ x(t) = i(t) $$</p>
+<p><strong>State Equation:</strong><br>
+$$ \dot{x}(t) = -\frac{R}{L}x(t) $$</p>
+<h2 id="Common-Challenges-and-Solutions">Common Challenges and Solutions</h2>
+<h3 id="Challenge-1-Complex-Circuit-Topology">Challenge 1: Complex Circuit Topology</h3>
+<p><strong>Problem</strong>: Multiple components and paths<br>
+<strong>Solution</strong>: Use superposition theorem and circuit decomposition</p>
+<h3 id="Challenge-2-Multiple-Time-Constants">Challenge 2: Multiple Time Constants</h3>
+<p><strong>Problem</strong>: Different decay rates in different parts<br>
+<strong>Solution</strong>: Analyze each path separately and combine results</p>
+<h3 id="Challenge-3-Non-Ideal-Components">Challenge 3: Non-Ideal Components</h3>
+<p><strong>Problem</strong>: Real-world component limitations<br>
+<strong>Solution</strong>: Include parasitic elements in analysis</p>
+<h3 id="Challenge-4-Energy-Distribution">Challenge 4: Energy Distribution</h3>
+<p><strong>Problem</strong>: Energy transfer through multiple paths<br>
+<strong>Solution</strong>: Use energy conservation and power analysis</p>
+<h2 id="Reference-Video">Reference Video</h2>
+<p><strong>Title:</strong> RL放電電路暫態進階例題解析 - 張偉勤老師<br>
+<strong>Link:</strong> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=bYfIhkWAKfs">https://www.youtube.com/watch?v=bYfIhkWAKfs</a></p>
 <hr>
-<h1 id="RL放電電路暫態進階例題解析"><a href="#RL放電電路暫態進階例題解析" class="headerlink" title="RL放電電路暫態進階例題解析"></a>RL放電電路暫態進階例題解析</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>本文提供 RL 放電電路暫態進階例題的詳細分析。我們檢視複雜電路配置，應用重疊定理，並展示 RL 放電現象的進階解題技巧。</p>
-<h2 id="進階-RL-放電電路分析"><a href="#進階-RL-放電電路分析" class="headerlink" title="進階 RL 放電電路分析"></a>進階 RL 放電電路分析</h2><h3 id="電路配置"><a href="#電路配置" class="headerlink" title="電路配置"></a>電路配置</h3><p><strong>複雜 RL 放電電路：</strong></p>
+<h1>RL放電電路暫態進階例題解析</h1>
+<h2 id="概述">概述</h2>
+<p>本文提供 RL 放電電路暫態進階例題的詳細分析。我們檢視複雜電路配置，應用重疊定理，並展示 RL 放電現象的進階解題技巧。</p>
+<h2 id="進階-RL-放電電路分析">進階 RL 放電電路分析</h2>
+<h3 id="電路配置">電路配置</h3>
+<p><strong>複雜 RL 放電電路：</strong></p>
 <ul>
-<li><strong>電感器</strong>：L &#x3D; 2 H（能量儲存元件）</li>
+<li><strong>電感器</strong>：L = 2 H（能量儲存元件）</li>
 <li><strong>電阻</strong>：串並聯配置中的多個電阻</li>
 <li><strong>開關</strong>：控制從穩態到放電的轉換</li>
 <li><strong>電源</strong>：為充電提供初始能量</li>
 <li><strong>多重路徑</strong>：複雜放電路徑分析</li>
 </ul>
-<h3 id="穩態分析"><a href="#穩態分析" class="headerlink" title="穩態分析"></a>穩態分析</h3><p><strong>開關閉合前：</strong></p>
+<h3 id="穩態分析">穩態分析</h3>
+<p><strong>開關閉合前：</strong></p>
 <ul>
 <li><strong>電感狀態</strong>：完全充電，表現為短路</li>
-<li><strong>電壓分佈</strong>：<ul>
+<li><strong>電壓分佈</strong>：
+<ul>
 <li>電感電壓：0V（穩態）</li>
 <li>電阻電壓：根據電壓分配分佈</li>
 </ul>
@@ -1248,118 +1360,163 @@
 <li><strong>電流</strong>：使用總電壓和電阻計算</li>
 <li><strong>能量狀態</strong>：最大磁能儲存</li>
 </ul>
-<p><strong>電流計算：</strong><br>$$ I_{steady} &#x3D; \frac{V_{total}}{R_{total}} &#x3D; \frac{100V}{5k\Omega} &#x3D; 20mA $$</p>
-<h2 id="暫態分析"><a href="#暫態分析" class="headerlink" title="暫態分析"></a>暫態分析</h2><h3 id="1-初始放電條件"><a href="#1-初始放電條件" class="headerlink" title="1. 初始放電條件"></a>1. 初始放電條件</h3><p><strong>當開關 S 閉合時：</strong></p>
+<p><strong>電流計算：</strong><br>
+$$ I_{steady} = \frac{V_{total}}{R_{total}} = \frac{100V}{5k\Omega} = 20mA $$</p>
+<h2 id="暫態分析">暫態分析</h2>
+<h3 id="1-初始放電條件">1. 初始放電條件</h3>
+<p><strong>當開關 S 閉合時：</strong></p>
 <ul>
 <li><strong>電路重構</strong>：建立新的放電路徑</li>
 <li><strong>電感行為</strong>：開始釋放儲存的能量</li>
-<li><strong>初始電流</strong>：維持閉合前的值（20mA）</li>
+<li><strong>初始電流</strong>：維持閉合前的值（20\text{ mA}）</li>
 <li><strong>電壓極性</strong>：與充電狀態相反</li>
 </ul>
-<h3 id="2-電壓分析"><a href="#2-電壓分析" class="headerlink" title="2. 電壓分析"></a>2. 電壓分析</h3><p><strong>電感電壓計算：</strong><br>$$ V_L(0) &#x3D; I(0) \times R_{discharge} &#x3D; 20mA \times 4k\Omega &#x3D; 80V $$</p>
+<h3 id="2-電壓分析">2. 電壓分析</h3>
+<p><strong>電感電壓計算：</strong><br>
+$$ V_L(0) = I(0) \times R_{discharge} = 20mA \times 4k\Omega = 80V $$</p>
 <p><strong>電壓極性：</strong></p>
 <ul>
 <li><strong>充電</strong>：電感兩端正電壓</li>
 <li><strong>放電</strong>：電感兩端負電壓（相反極性）</li>
 </ul>
-<h3 id="3-時間常數分析"><a href="#3-時間常數分析" class="headerlink" title="3. 時間常數分析"></a>3. 時間常數分析</h3><p><strong>放電時間常數：</strong><br>$$ \tau &#x3D; \frac{L}{R} &#x3D; \frac{2H}{4k\Omega} &#x3D; 0.5ms $$</p>
+<h3 id="3-時間常數分析">3. 時間常數分析</h3>
+<p><strong>放電時間常數：</strong><br>
+$$ \tau = \frac{L}{R} = \frac{2H}{4k\Omega} = 0.5ms $$</p>
 <p><strong>物理解釋：</strong></p>
 <ul>
 <li><strong>快速放電</strong>：小時間常數表示快速能量釋放</li>
 <li><strong>高電阻</strong>：放電路徑中的大電阻</li>
 <li><strong>能量消耗</strong>：快速功率轉移到電阻</li>
 </ul>
-<h2 id="數學分析"><a href="#數學分析" class="headerlink" title="數學分析"></a>數學分析</h2><h3 id="1-電流衰減公式"><a href="#1-電流衰減公式" class="headerlink" title="1. 電流衰減公式"></a>1. 電流衰減公式</h3><p><strong>指數衰減表達式：</strong><br>$$ i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} &#x3D; 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<h2 id="數學分析">數學分析</h2>
+<h3 id="1-電流衰減公式">1. 電流衰減公式</h3>
+<p><strong>指數衰減表達式：</strong><br>
+$$ i(t) = I_0 e^{-\frac{t}{\tau}} = 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
 <p><strong>公式組成：</strong></p>
 <ul>
-<li><strong>( i(t) )</strong>：時間 t 時的電流</li>
-<li><strong>( I_0 )</strong>：初始電流（20mA）</li>
-<li><strong>( t )</strong>：放電開始後的時間</li>
-<li><strong>( τ )</strong>：時間常數（0.5ms）</li>
+<li><strong>$ i(t) $</strong>：時間 t 時的電流</li>
+<li><strong>$ I_0 $</strong>：初始電流（20\text{ mA}）</li>
+<li><strong>$ t $</strong>：放電開始後的時間</li>
+<li><strong>$ \tau $</strong>：時間常數（0.5\text{ ms}）</li>
 </ul>
-<h3 id="2-電壓衰減公式"><a href="#2-電壓衰減公式" class="headerlink" title="2. 電壓衰減公式"></a>2. 電壓衰減公式</h3><p><strong>電感電壓：</strong><br>$$ V_L(t) &#x3D; V_L(0) e^{-\frac{t}{\tau}} &#x3D; 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
-<p><strong>電阻電壓：</strong><br>$$ V_R(t) &#x3D; i(t) \times R &#x3D; 20mA \cdot e^{-\frac{t}{0.5ms}} \times 4k\Omega &#x3D; 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
-<h3 id="3-時間相關計算"><a href="#3-時間相關計算" class="headerlink" title="3. 時間相關計算"></a>3. 時間相關計算</h3><p><strong>t &#x3D; 1ms 時（2τ）：</strong><br>$$ i(1ms) &#x3D; 20mA \cdot e^{-2} &#x3D; 20mA \cdot 0.135 &#x3D; 2.7mA $$</p>
-<p>$$ V_L(1ms) &#x3D; 80V \cdot e^{-2} &#x3D; 80V \cdot 0.135 &#x3D; 10.8V $$</p>
-<h2 id="重疊定理應用"><a href="#重疊定理應用" class="headerlink" title="重疊定理應用"></a>重疊定理應用</h2><h3 id="1-電路分解"><a href="#1-電路分解" class="headerlink" title="1. 電路分解"></a>1. 電路分解</h3><p><strong>原始電路</strong>：複雜 RL 放電電路<br><strong>分解電路</strong>：</p>
+<h3 id="2-電壓衰減公式">2. 電壓衰減公式</h3>
+<p><strong>電感電壓：</strong><br>
+$$ V_L(t) = V_L(0) e^{-\frac{t}{\tau}} = 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<p><strong>電阻電壓：</strong><br>
+$$ V_R(t) = i(t) \times R = 20mA \cdot e^{-\frac{t}{0.5ms}} \times 4k\Omega = 80V \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<h3 id="3-時間相關計算">3. 時間相關計算</h3>
+<p>t = 1ms 時（2τ）：<br>
+$$ i(1ms) = 20mA \cdot e^{-2} = 20mA \cdot 0.135 = 2.7mA $$</p>
+<p>$$ V_L(1ms) = 80V \cdot e^{-2} = 80V \cdot 0.135 = 10.8V $$</p>
+<h2 id="重疊定理應用">重疊定理應用</h2>
+<h3 id="1-電路分解">1. 電路分解</h3>
+<p><strong>原始電路</strong>：複雜 RL 放電電路<br>
+<strong>分解電路</strong>：</p>
 <ul>
 <li><strong>電路 A</strong>：穩態電流源</li>
 <li><strong>電路 B</strong>：放電電感</li>
 </ul>
-<h3 id="2-個別電路分析"><a href="#2-個別電路分析" class="headerlink" title="2. 個別電路分析"></a>2. 個別電路分析</h3><p><strong>電路 A（穩態）：</strong></p>
+<h3 id="2-個別電路分析">2. 個別電路分析</h3>
+<p><strong>電路 A（穩態）：</strong></p>
 <ul>
 <li><strong>電流源</strong>：20mA 流過 4kΩ 電阻</li>
-<li><strong>電壓</strong>：( V_A &#x3D; 20mA \times 4k\Omega &#x3D; 80V )</li>
+<li><strong>電壓</strong>：$ V_A = 20\text{ mA} \times 4k\Omega = 80\text{ V} $</li>
 </ul>
 <p><strong>電路 B（放電）：</strong></p>
 <ul>
 <li><strong>電感電流</strong>：從 20mA 衰減</li>
-<li><strong>電壓</strong>：( V_B(t) &#x3D; 80V \cdot e^{-\frac{t}{0.5ms}} )</li>
+<li><strong>電壓</strong>：$ V_B(t) = 80\text{ V} \cdot e^{-\frac{t}{0.5\text{ ms}}} $</li>
 </ul>
-<h3 id="3-重疊結果"><a href="#3-重疊結果" class="headerlink" title="3. 重疊結果"></a>3. 重疊結果</h3><p><strong>開關 S 電流：</strong><br>$$ I_S(t) &#x3D; I_{steady} + i_{discharge}(t) &#x3D; 20mA + 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
-<p><strong>t &#x3D; 1ms 時：</strong><br>$$ I_S(1ms) &#x3D; 20mA + 2.7mA &#x3D; 22.7mA $$</p>
-<p><strong>開關總電流：</strong><br>$$ I_{total} &#x3D; 100mA - 2.7mA &#x3D; 97.3mA $$</p>
-<h2 id="能量考量"><a href="#能量考量" class="headerlink" title="能量考量"></a>能量考量</h2><h3 id="1-初始磁能"><a href="#1-初始磁能" class="headerlink" title="1. 初始磁能"></a>1. 初始磁能</h3><p><strong>儲存能量：</strong><br>$$ W_L &#x3D; \frac{1}{2} L I_0^2 &#x3D; \frac{1}{2} \times 2H \times (20mA)^2 &#x3D; 0.4mJ $$</p>
-<h3 id="2-功率消耗"><a href="#2-功率消耗" class="headerlink" title="2. 功率消耗"></a>2. 功率消耗</h3><p><strong>瞬時功率：</strong><br>$$ P_R(t) &#x3D; i^2(t) R &#x3D; (20mA)^2 \times 4k\Omega \times e^{-\frac{2t}{\tau}} &#x3D; 1.6W \times e^{-\frac{2t}{0.5ms}} $$</p>
-<h3 id="3-能量轉移"><a href="#3-能量轉移" class="headerlink" title="3. 能量轉移"></a>3. 能量轉移</h3><p><strong>總能量消耗：</strong><br>$$ W_{total} &#x3D; \int_0^{\infty} P_R(t) dt &#x3D; 0.4mJ $$</p>
-<p><strong>驗證：</strong><br>$$ W_{total} &#x3D; \frac{1}{2} L I_0^2 &#x3D; 0.4mJ $$</p>
-<h2 id="進階電路分析"><a href="#進階電路分析" class="headerlink" title="進階電路分析"></a>進階電路分析</h2><h3 id="1-多重時間常數"><a href="#1-多重時間常數" class="headerlink" title="1. 多重時間常數"></a>1. 多重時間常數</h3><p><strong>複雜 RL 網路：</strong></p>
+<h3 id="3-重疊結果">3. 重疊結果</h3>
+<p><strong>開關 S 電流：</strong><br>
+$$ I_S(t) = I_{steady} + i_{discharge}(t) = 20mA + 20mA \cdot e^{-\frac{t}{0.5ms}} $$</p>
+<p>t = 1ms 時：<br>
+$$ I_S(1ms) = 20mA + 2.7mA = 22.7mA $$</p>
+<p><strong>開關總電流：</strong><br>
+$$ I_{total} = 100mA - 2.7mA = 97.3mA $$</p>
+<h2 id="能量考量">能量考量</h2>
+<h3 id="1-初始磁能">1. 初始磁能</h3>
+<p><strong>儲存能量：</strong><br>
+$$ W_L = \frac{1}{2} L I_0^2 = \frac{1}{2} \times 2H \times (20mA)^2 = 0.4mJ $$</p>
+<h3 id="2-功率消耗">2. 功率消耗</h3>
+<p><strong>瞬時功率：</strong><br>
+$$ P_R(t) = i^2(t) R = (20mA)^2 \times 4k\Omega \times e^{-\frac{2t}{\tau}} = 1.6W \times e^{-\frac{2t}{0.5ms}} $$</p>
+<h3 id="3-能量轉移">3. 能量轉移</h3>
+<p><strong>總能量消耗：</strong><br>
+$$ W_{total} = \int_0^{\infty} P_R(t) dt = 0.4mJ $$</p>
+<p><strong>驗證：</strong><br>
+$$ W_{total} = \frac{1}{2} L I_0^2 = 0.4mJ $$</p>
+<h2 id="進階電路分析">進階電路分析</h2>
+<h3 id="1-多重時間常數">1. 多重時間常數</h3>
+<p><strong>複雜 RL 網路：</strong></p>
 <ul>
-<li><strong>串聯 RL</strong>：( \tau &#x3D; \frac{L_{total}}{R_{total}} )</li>
+<li><strong>串聯 RL</strong>：$ \tau = \frac{L_{total}}{R_{total}} $</li>
 <li><strong>並聯 RL</strong>：多重衰減速率</li>
 <li><strong>混合配置</strong>：組合效應</li>
 </ul>
-<h3 id="2-非理想元件"><a href="#2-非理想元件" class="headerlink" title="2. 非理想元件"></a>2. 非理想元件</h3><p><strong>實際考量：</strong></p>
+<h3 id="2-非理想元件">2. 非理想元件</h3>
+<p><strong>實際考量：</strong></p>
 <ul>
 <li><strong>電感電阻</strong>：內部電阻效應</li>
 <li><strong>鐵心損耗</strong>：磁滯損耗</li>
 <li><strong>溫度效應</strong>：元件參數變化</li>
 <li><strong>寄生元件</strong>：雜散電容和電阻</li>
 </ul>
-<h3 id="3-頻域分析"><a href="#3-頻域分析" class="headerlink" title="3. 頻域分析"></a>3. 頻域分析</h3><p><strong>拉普拉斯變換方法：</strong></p>
+<h3 id="3-頻域分析">3. 頻域分析</h3>
+<p><strong>拉普拉斯變換方法：</strong></p>
 <ul>
 <li><strong>轉移函數</strong>：系統響應分析</li>
 <li><strong>極零點分析</strong>：穩定性考量</li>
 <li><strong>頻率響應</strong>：交流行為分析</li>
 </ul>
-<h2 id="解題策略"><a href="#解題策略" class="headerlink" title="解題策略"></a>解題策略</h2><h3 id="1-電路分析步驟"><a href="#1-電路分析步驟" class="headerlink" title="1. 電路分析步驟"></a>1. 電路分析步驟</h3><ul>
+<h2 id="解題策略">解題策略</h2>
+<h3 id="1-電路分析步驟">1. 電路分析步驟</h3>
+<ul>
 <li><strong>識別</strong>：電路拓撲和元件</li>
 <li><strong>確定</strong>：開關閉合前的穩態條件</li>
 <li><strong>計算</strong>：放電的初始條件</li>
 <li><strong>應用</strong>：適當的放電公式</li>
 <li><strong>使用</strong>：複雜電路的重疊定理</li>
 </ul>
-<h3 id="2-公式應用"><a href="#2-公式應用" class="headerlink" title="2. 公式應用"></a>2. 公式應用</h3><ul>
-<li><strong>電流</strong>：( i(t) &#x3D; I_0 e^{-\frac{t}{\tau}} )</li>
-<li><strong>電壓</strong>：( V_L(t) &#x3D; V_L(0) e^{-\frac{t}{\tau}} )</li>
-<li><strong>時間常數</strong>：( \tau &#x3D; \frac{L}{R} )</li>
-<li><strong>重疊</strong>：( I_{total} &#x3D; I_{steady} + i_{discharge}(t) )</li>
+<h3 id="2-公式應用">2. 公式應用</h3>
+<ul>
+<li><strong>電流</strong>：$ i(t) = I_0 e^{-\frac{t}{\tau}} $</li>
+<li><strong>電壓</strong>：$ V_L(t) = V_L(0) e^{-\frac{t}{\tau}} $</li>
+<li><strong>時間常數</strong>：$ \tau = \frac{L}{R} $</li>
+<li><strong>重疊</strong>：$ I_{total} = I_{steady} + i_{discharge}(t) $</li>
 </ul>
-<h3 id="3-結果驗證"><a href="#3-結果驗證" class="headerlink" title="3. 結果驗證"></a>3. 結果驗證</h3><ul>
+<h3 id="3-結果驗證">3. 結果驗證</h3>
+<ul>
 <li><strong>單位檢查</strong>：確保正確的單位</li>
 <li><strong>物理合理性</strong>：驗證結果合理</li>
 <li><strong>定律驗證</strong>：確認基爾霍夫定律</li>
 <li><strong>能量守恆</strong>：檢查能量平衡</li>
 </ul>
-<h2 id="實際應用"><a href="#實際應用" class="headerlink" title="實際應用"></a>實際應用</h2><h3 id="1-電力電子"><a href="#1-電力電子" class="headerlink" title="1. 電力電子"></a>1. 電力電子</h3><ul>
+<h2 id="實際應用">實際應用</h2>
+<h3 id="1-電力電子">1. 電力電子</h3>
+<ul>
 <li><strong>DC-DC轉換器</strong>：開關電路中的複雜電感放電</li>
 <li><strong>電機驅動</strong>：具有多重路徑的磁場繞組放電</li>
 <li><strong>逆變器</strong>：複雜拓撲的能量回收系統</li>
 <li><strong>開關電源</strong>：多級能量轉移</li>
 </ul>
-<h3 id="2-保護電路"><a href="#2-保護電路" class="headerlink" title="2. 保護電路"></a>2. 保護電路</h3><ul>
+<h3 id="2-保護電路">2. 保護電路</h3>
+<ul>
 <li><strong>突波保護</strong>：複雜電感能量消耗</li>
 <li><strong>斷路器</strong>：具有多重放電路徑的電弧抑制</li>
 <li><strong>緩衝電路</strong>：複雜電路中的電壓尖峰保護</li>
 <li><strong>EMI濾波器</strong>：多級能量吸收</li>
 </ul>
-<h3 id="3-能量儲存系統"><a href="#3-能量儲存系統" class="headerlink" title="3. 能量儲存系統"></a>3. 能量儲存系統</h3><ul>
+<h3 id="3-能量儲存系統">3. 能量儲存系統</h3>
+<ul>
 <li><strong>電池管理</strong>：複雜電感放電控制</li>
 <li><strong>超級電容器系統</strong>：多路徑能量轉移優化</li>
 <li><strong>飛輪系統</strong>：多級動能轉換</li>
 <li><strong>磁能儲存</strong>：複雜放電速率控制</li>
 </ul>
-<h2 id="與簡單-RL-電路比較"><a href="#與簡單-RL-電路比較" class="headerlink" title="與簡單 RL 電路比較"></a>與簡單 RL 電路比較</h2><h3 id="複雜度差異"><a href="#複雜度差異" class="headerlink" title="複雜度差異"></a>複雜度差異</h3><table>
+<h2 id="與簡單-RL-電路比較">與簡單 RL 電路比較</h2>
+<h3 id="複雜度差異">複雜度差異</h3>
+<table>
 <thead>
 <tr>
 <th>方面</th>
@@ -1367,7 +1524,8 @@
 <th>進階 RL 電路</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>配置</td>
 <td>單一電感電阻</td>
 <td>多個元件</td>
@@ -1387,8 +1545,10 @@
 <td>單一放電路徑</td>
 <td>多重放電路徑</td>
 </tr>
-</tbody></table>
-<h3 id="分析複雜度"><a href="#分析複雜度" class="headerlink" title="分析複雜度"></a>分析複雜度</h3><p><strong>簡單 RL 電路：</strong></p>
+</tbody>
+</table>
+<h3 id="分析複雜度">分析複雜度</h3>
+<p><strong>簡單 RL 電路：</strong></p>
 <ul>
 <li><strong>直接應用</strong>：直接使用基本公式</li>
 <li><strong>單一路徑</strong>：一個放電路徑</li>
@@ -1400,19 +1560,40 @@
 <li><strong>多重路徑</strong>：複雜放電路徑</li>
 <li><strong>多重效應</strong>：組合暫態響應</li>
 </ul>
-<h2 id="進階數學技巧"><a href="#進階數學技巧" class="headerlink" title="進階數學技巧"></a>進階數學技巧</h2><h3 id="1-微分方程式"><a href="#1-微分方程式" class="headerlink" title="1. 微分方程式"></a>1. 微分方程式</h3><p><strong>一階 RL 電路：</strong><br>$$ L \frac{di(t)}{dt} + Ri(t) &#x3D; 0 $$</p>
-<p><strong>求解方法：</strong><br>$$ i(t) &#x3D; I_0 e^{-\frac{R}{L}t} &#x3D; I_0 e^{-\frac{t}{\tau}} $$</p>
-<h3 id="2-拉普拉斯變換"><a href="#2-拉普拉斯變換" class="headerlink" title="2. 拉普拉斯變換"></a>2. 拉普拉斯變換</h3><p><strong>轉移函數：</strong><br>$$ H(s) &#x3D; \frac{I(s)}{V(s)} &#x3D; \frac{1}{Ls + R} $$</p>
-<p><strong>極點分析：</strong><br>$$ s &#x3D; -\frac{R}{L} &#x3D; -\frac{1}{\tau} $$</p>
-<h3 id="3-狀態空間分析"><a href="#3-狀態空間分析" class="headerlink" title="3. 狀態空間分析"></a>3. 狀態空間分析</h3><p><strong>狀態變數：</strong><br>$$ x(t) &#x3D; i(t) $$</p>
-<p><strong>狀態方程式：</strong><br>$$ \dot{x}(t) &#x3D; -\frac{R}{L}x(t) $$</p>
-<h2 id="常見挑戰和解決方案"><a href="#常見挑戰和解決方案" class="headerlink" title="常見挑戰和解決方案"></a>常見挑戰和解決方案</h2><h3 id="挑戰一：複雜電路拓撲"><a href="#挑戰一：複雜電路拓撲" class="headerlink" title="挑戰一：複雜電路拓撲"></a>挑戰一：複雜電路拓撲</h3><p><strong>問題</strong>：多個元件和路徑<br><strong>解決方案</strong>：使用重疊定理和電路分解</p>
-<h3 id="挑戰二：多重時間常數"><a href="#挑戰二：多重時間常數" class="headerlink" title="挑戰二：多重時間常數"></a>挑戰二：多重時間常數</h3><p><strong>問題</strong>：不同部分的不同衰減速率<br><strong>解決方案</strong>：分別分析每個路徑並組合結果</p>
-<h3 id="挑戰三：非理想元件"><a href="#挑戰三：非理想元件" class="headerlink" title="挑戰三：非理想元件"></a>挑戰三：非理想元件</h3><p><strong>問題</strong>：實際元件限制<br><strong>解決方案</strong>：在分析中包含寄生元件</p>
-<h3 id="挑戰四：能量分佈"><a href="#挑戰四：能量分佈" class="headerlink" title="挑戰四：能量分佈"></a>挑戰四：能量分佈</h3><p><strong>問題</strong>：通過多重路徑的能量轉移<br><strong>解決方案</strong>：使用能量守恆和功率分析</p>
-<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><strong>標題：</strong> RL放電電路暫態進階例題解析 - 張偉勤老師<br><strong>連結：</strong> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=bYfIhkWAKfs">https://www.youtube.com/watch?v=bYfIhkWAKfs</a></p>
+<h2 id="進階數學技巧">進階數學技巧</h2>
+<h3 id="1-微分方程式">1. 微分方程式</h3>
+<p><strong>一階 RL 電路：</strong><br>
+$$ L \frac{di(t)}{dt} + Ri(t) = 0 $$</p>
+<p><strong>求解方法：</strong><br>
+$$ i(t) = I_0 e^{-\frac{R}{L}t} = I_0 e^{-\frac{t}{\tau}} $$</p>
+<h3 id="2-拉普拉斯變換">2. 拉普拉斯變換</h3>
+<p><strong>轉移函數：</strong><br>
+$$ H(s) = \frac{I(s)}{V(s)} = \frac{1}{Ls + R} $$</p>
+<p><strong>極點分析：</strong><br>
+$$ s = -\frac{R}{L} = -\frac{1}{\tau} $$</p>
+<h3 id="3-狀態空間分析">3. 狀態空間分析</h3>
+<p><strong>狀態變數：</strong><br>
+$$ x(t) = i(t) $$</p>
+<p><strong>狀態方程式：</strong><br>
+$$ \dot{x}(t) = -\frac{R}{L}x(t) $$</p>
+<h2 id="常見挑戰和解決方案">常見挑戰和解決方案</h2>
+<h3 id="挑戰一：複雜電路拓撲">挑戰一：複雜電路拓撲</h3>
+<p><strong>問題</strong>：多個元件和路徑<br>
+<strong>解決方案</strong>：使用重疊定理和電路分解</p>
+<h3 id="挑戰二：多重時間常數">挑戰二：多重時間常數</h3>
+<p><strong>問題</strong>：不同部分的不同衰減速率<br>
+<strong>解決方案</strong>：分別分析每個路徑並組合結果</p>
+<h3 id="挑戰三：非理想元件">挑戰三：非理想元件</h3>
+<p><strong>問題</strong>：實際元件限制<br>
+<strong>解決方案</strong>：在分析中包含寄生元件</p>
+<h3 id="挑戰四：能量分佈">挑戰四：能量分佈</h3>
+<p><strong>問題</strong>：通過多重路徑的能量轉移<br>
+<strong>解決方案</strong>：使用能量守恆和功率分析</p>
+<h2 id="參考影片">參考影片</h2>
+<p><strong>標題：</strong> RL放電電路暫態進階例題解析 - 張偉勤老師<br>
+<strong>連結：</strong> <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=bYfIhkWAKfs">https://www.youtube.com/watch?v=bYfIhkWAKfs</a></p>
 <hr>
-<p><em>本文發布日期：2025-08-02</em> </p>
+<p><em>本文發布日期：2025-08-02</em></p>
 
 
         <!--noindex-->
@@ -1451,7 +1632,7 @@
 
   <div class="copyright">
     &copy; 
-    <span itemprop="copyrightYear">2025</span>
+    <span itemprop="copyrightYear">2026</span>
     <span class="with-love">
       <i class="fa fa-heart"></i>
     </span>

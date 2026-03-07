@@ -6,7 +6,7 @@
   <link href="https://bill55tt.github.io/atom.xml" rel="self"/>
   
   <link href="https://bill55tt.github.io/"/>
-  <updated>2025-08-23T00:34:53.260Z</updated>
+  <updated>2026-03-01T15:03:25.539Z</updated>
   <id>https://bill55tt.github.io/</id>
   
   <author>
@@ -21,35 +21,27 @@
     <link href="https://bill55tt.github.io/2025/09/25/parallel-capacitor-sizing-and-pf-improvement-20250925/"/>
     <id>https://bill55tt.github.io/2025/09/25/parallel-capacitor-sizing-and-pf-improvement-20250925/</id>
     <published>2025-09-25T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.260Z</updated>
+    <updated>2026-03-01T15:03:25.539Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Calculation of Parallel Capacitor Size and Power Factor Improvement</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Derive required capacitor reactive power for PF correction and convert it to capacitance.</li><li><strong>Why it matters</strong>: Proper capacitor sizing reduces current, losses, and penalties while improving voltage regulation.</li><li><strong>What you’ll learn</strong>: Use PF angles to compute (Q_C) and convert to (C) via frequency and voltage.</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul><li>PF improvement by adding a shunt capacitor across an inductive load.</li><li>Reactive power:<ul><li>Before: ( Q_L &#x3D; P\tan\theta_1 )</li><li>After: ( Q_T &#x3D; P\tan\theta_2 )</li><li>Capacitor: ( Q_C &#x3D; Q_L - Q_T &#x3D; P(\tan\theta_1 - \tan\theta_2) )</li></ul></li><li>Capacitance sizing:<br>[<br>C &#x3D; \frac{Q_C}{2\pi f V^2}<br>]<br>where (f) is frequency, (V) is voltage (RMS), (Q_C) is capacitor reactive power.</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=F45PX-GllE8">Auto-translated video</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>並聯電容器大小計算與功率因數改善</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：由功率因數角推得所需電容虛功並換算電容量。</li><li><strong>為何重要</strong>：適當的電容補償可降低電流與線損、改善電壓調節並避免低 PF 罰款。</li><li><strong>你將學到</strong>：利用 PF 角計算 (Q_C)，並以頻率與電壓換算為 (C)。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>改善 PF 方法：在電感性負載兩端並聯電容器。</li><li>虛功計算：<ul><li>改善前 ( Q_L &#x3D; P\tan\theta_1 )</li><li>改善後 ( Q_T &#x3D; P\tan\theta_2 )</li><li>電容 ( Q_C &#x3D; Q_L - Q_T &#x3D; P(\tan\theta_1 - \tan\theta_2) )</li></ul></li><li>電容量公式：<br>[<br>C &#x3D; \frac{Q_C}{2\pi f V^2}<br>]<br>其中 (f) 為頻率、(V) 為電壓（有效值）、(Q_C) 為電容虛功。</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=F45PX-GllE8">@自動翻譯影片</a></li></ul><hr><p><strong>日期：2025年09月25日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=F45PX-GllE8">https://www.youtube.com/watch?v=F45PX-GllE8</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Calculation of Parallel Capacitor Size and Power Factor Improvement</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Derive required capacitor reactive power for PF correction and convert it to capacitance.</li><li><strong>Why it matters</strong>: Proper capacitor sizing reduces current, losses, and penalties while improving voltage regulation.</li><li><strong>What you’ll learn</strong>: Use PF angles to compute $Q_C$ and convert to $C$ via frequency and voltage.</li></ul><h3 id="Key-Points">Key Points</h3><ul><li>PF improvement by adding a shunt capacitor across an inductive load.</li><li>Reactive power:<ul><li>Before: $ Q_L = P\tan\theta_1 $</li><li>After: $ Q_T = P\tan\theta_2 $</li><li>Capacitor: $ Q_C = Q_L - Q_T = P(\tan\theta_1 - \tan\theta_2) $</li></ul></li><li>Capacitance sizing:</li></ul><p>$$C = \frac{Q_C}{2\pi f V^2}$$<br>where $f$ is frequency, $V$ is voltage (RMS), $Q_C$ is capacitor reactive power.</p><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=F45PX-GllE8">Auto-translated video</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>並聯電容器大小計算與功率因數改善</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：由功率因數角推得所需電容虛功並換算電容量。</li><li><strong>為何重要</strong>：適當的電容補償可降低電流與線損、改善電壓調節並避免低 PF 罰款。</li><li><strong>你將學到</strong>：利用 PF 角計算 $Q_C$，並以頻率與電壓換算為 $C$。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>改善 PF 方法：在電感性負載兩端並聯電容器。</li><li>虛功計算：<ul><li>改善前 $ Q_L = P\tan\theta_1 $</li><li>改善後 $ Q_T = P\tan\theta_2 $</li><li>電容 $ Q_C = Q_L - Q_T = P(\tan\theta_1 - \tan\theta_2) $</li></ul></li><li>電容量公式：<br>$$C = \frac{Q_C}{2\pi f V^2}$$</li></ul><p>，並以頻率與電壓換算為</p><p>其中 $f$ 為頻率、$V$ 為電壓（有效值）、$Q_C$ 為電容虛功。</p><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=F45PX-GllE8">@自動翻譯影片</a></li></ul><hr><p><strong>日期：2025年09月25日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=F45PX-GllE8">https://www.youtube.com/watch?v=F45PX-GllE8</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Calculation of Parallel Capacitor Size and Power Factor I</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="功率三角形" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
-    
-    <category term="電容補償" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E5%AE%B9%E8%A3%9C%E5%84%9F/"/>
-    
-    <category term="電力品質" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E5%8A%9B%E5%93%81%E8%B3%AA/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -58,33 +50,28 @@
     <link href="https://bill55tt.github.io/2025/08/22/apparent-power-part-b/"/>
     <id>https://bill55tt.github.io/2025/08/22/apparent-power-part-b/</id>
     <published>2025-08-22T01:00:00.000Z</published>
-    <updated>2025-08-22T13:21:04.722Z</updated>
+    <updated>2026-02-20T07:20:54.948Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Apparent Power Examples (Part B)</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Walk through three typical scenarios of apparent power S in AC circuits: phasor product, complex impedance, and transformer ratings.</li><li><strong>Why it matters</strong>: Apparent power bridges voltage and current magnitudes regardless of phase, underpinning sizing of equipment and conductors.</li><li><strong>What you’ll learn</strong>: How to compute S, separate it into P and Q when impedance is known, and apply kVA ratings to estimate allowable currents.</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ol><li><p><strong>Example 1: Apparent Power in Single-Phase AC Circuit</strong></p><ul><li>Voltage ( V &#x3D; 10 \angle 60^\circ ) V</li><li>Current ( I &#x3D; 10 \angle 15^\circ ) A</li><li>Apparent power ( S &#x3D; V \times I &#x3D; 100 ) VA</li></ul></li><li><p><strong>Example 2: Power Calculation with Complex Impedance</strong></p><ul><li>Impedance ( Z &#x3D; 8 + j6 ) Ω (8 Ω resistor in series with inductive reactance 6 Ω)</li><li>Current ( I &#x3D; 10 ) A</li><li>Real power ( P &#x3D; I^2 R &#x3D; 800 ) W</li><li>Reactive power ( Q &#x3D; I^2 X_L &#x3D; 600 ) VAR</li><li>Apparent power ( S &#x3D; I^2 |Z| &#x3D; 1000 ) VA</li></ul></li><li><p><strong>Example 3: Transformer Maximum Input and Output Current</strong></p><ul><li>Rated apparent power ( S &#x3D; 10,\text{kVA} )</li><li>Input voltage ( V_{in} &#x3D; 2000,\text{V} ), output voltage ( V_{out} &#x3D; 200,\text{V} )</li><li>Maximum input current ( I_{in} &#x3D; \dfrac{S}{V_{in}} &#x3D; 5,\text{A} )</li><li>Maximum output current ( I_{out} &#x3D; \dfrac{S}{V_{out}} &#x3D; 50,\text{A} )</li></ul></li></ol><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">High school basic electricity – AC power – Apparent Power PART B (Examples)</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>視在功率範例解析（Part B）</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：透過三個常見情境認識視在功率 S 的計算：相量相乘、複數阻抗分解、變壓器容量應用。</li><li><strong>為何重要</strong>：視在功率連結電壓與電流的大小（不論相位），是設備與線路容量選用的依據。</li><li><strong>你將學到</strong>：如何計算 S、在已知阻抗時拆解為 P 與 Q，以及運用 kVA 額定值估算允許電流。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol><li><p><strong>範例一：單相交流電路視在功率</strong></p><ul><li>電壓 ( V &#x3D; 10 \angle 60^\circ ) 伏特</li><li>電流 ( I &#x3D; 10 \angle 15^\circ ) 安培</li><li>視在功率 ( S &#x3D; V \times I &#x3D; 100 ) 伏安</li></ul></li><li><p><strong>範例二：複數阻抗的功率計算</strong></p><ul><li>阻抗 ( Z &#x3D; 8 + j6 ) 歐姆（8 歐姆電阻串聯 6 歐姆感抗）</li><li>電流 ( I &#x3D; 10 ) 安培</li><li>平均功率 ( P &#x3D; I^2 R &#x3D; 800 ) 瓦特</li><li>無功功率 ( Q &#x3D; I^2 X_L &#x3D; 600 ) 乏爾（VAR）</li><li>視在功率 ( S &#x3D; I^2 |Z| &#x3D; 1000 ) 伏安</li></ul></li><li><p><strong>範例三：變壓器最大輸入／輸出電流</strong></p><ul><li>額定視在功率 ( S &#x3D; 10,\text{kVA} )</li><li>輸入電壓 ( V_{in} &#x3D; 2000,\text{V} )，輸出電壓 ( V_{out} &#x3D; 200,\text{V} )</li><li>最大輸入電流 ( I_{in} &#x3D; \dfrac{S}{V_{in}} &#x3D; 5,\text{A} )</li><li>最大輸出電流 ( I_{out} &#x3D; \dfrac{S}{V_{out}} &#x3D; 50,\text{A} )</li></ul></li></ol><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">@高中基本電學_交流電功率_視在功率_PART B 範例：視在功率</a></li></ul><hr><p><strong>日期：2025年08月22日</strong> </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Apparent Power Examples (Part B)</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Walk through three typical scenarios of apparent power S in AC circuits: phasor product, complex impedance, and transformer ratings.</li><li><strong>Why it matters</strong>: Apparent power bridges voltage and current magnitudes regardless of phase, underpinning sizing of equipment and conductors.</li><li><strong>What you’ll learn</strong>: How to compute S, separate it into P and Q when impedance is known, and apply kVA ratings to estimate allowable currents.</li></ul><h3 id="Key-Points">Key Points</h3><ol><li><p><strong>Example 1: Apparent Power in Single-Phase AC Circuit</strong></p><ul><li>Voltage $ V = 10 \angle 60^\circ $ V</li><li>Current $ I = 10 \angle 15^\circ $ A</li><li>Apparent power $ S = V \times I = 100 $ VA</li></ul></li><li><p><strong>Example 2: Power Calculation with Complex Impedance</strong></p><ul><li>Impedance $ Z = 8 + j6 $ Ω (8 Ω resistor in series with inductive reactance 6 Ω)</li><li>Current $ I = 10 $ A</li><li>Real power $ P = I^2 R = 800 $ W</li><li>Reactive power $ Q = I^2 X_L = 600 $ VAR</li><li>Apparent power $ S = I^2 |Z| = 1000 $ VA</li></ul></li><li><p><strong>Example 3: Transformer Maximum Input and Output Current</strong></p><ul><li>Rated apparent power $ S = 10,\text{kVA} $</li><li>Input voltage $ V_{in} = 2000,\text{V} $, output voltage $ V_{out} = 200,\text{V} $</li><li>Maximum input current $ I_{in} = \frac{S}{V_{in}} = 5,\text{A} $</li><li>Maximum output current $ I_{out} = \frac{S}{V_{out}} = 50,\text{A} $</li></ul></li></ol><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">High school basic electricity – AC power – Apparent Power PART B (Examples)</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>視在功率範例解析（Part B）</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：透過三個常見情境認識視在功率 S 的計算：相量相乘、複數阻抗分解、變壓器容量應用。</li><li><strong>為何重要</strong>：視在功率連結電壓與電流的大小（不論相位），是設備與線路容量選用的依據。</li><li><strong>你將學到</strong>：如何計算 S、在已知阻抗時拆解為 P 與 Q，以及運用 kVA 額定值估算允許電流。</li></ul><h3 id="重點統整">重點統整</h3><ol><li><p><strong>範例一：單相交流電路視在功率</strong></p><ul><li>電壓 $ V = 10 \angle 60^\circ $ 伏特</li><li>電流 $ I = 10 \angle 15^\circ $ 安培</li><li>視在功率 $ S = V \times I = 100 $ 伏安</li></ul></li><li><p><strong>範例二：複數阻抗的功率計算</strong></p><ul><li>阻抗 $ Z = 8 + j6 $ 歐姆（8 歐姆電阻串聯 6 歐姆感抗）</li><li>電流 $ I = 10 $ 安培</li><li>平均功率 $ P = I^2 R = 800 $ 瓦特</li><li>無功功率 $ Q = I^2 X_L = 600 $ 乏爾（VAR）</li><li>視在功率 $ S = I^2 |Z| = 1000 $ 伏安</li></ul></li><li><p><strong>範例三：變壓器最大輸入／輸出電流</strong></p><ul><li>額定視在功率 $ S = 10,\text{kVA} $</li><li>輸入電壓 $ V_{in} = 2000,\text{V} $，輸出電壓 $ V_{out} = 200,\text{V} $</li><li>最大輸入電流 $ I_{in} = \frac{S}{V_{in}} = 5,\text{A} $</li><li>最大輸出電流 $ I_{out} = \frac{S}{V_{out}} = 50,\text{A} $</li></ul></li></ol><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=WXZTBd0vXUQ">@高中基本電學_交流電功率_視在功率_PART B 範例：視在功率</a></li></ul><hr><p><strong>日期：2025年08月22日</strong></p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Apparent Power Examples (Part B)&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Int</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="複數功率" scheme="https://bill55tt.github.io/tags/%E8%A4%87%E6%95%B8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率三角形" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -93,33 +80,27 @@
     <link href="https://bill55tt.github.io/2025/08/22/pf-series-parallel-relationship-20250822/"/>
     <id>https://bill55tt.github.io/2025/08/22/pf-series-parallel-relationship-20250822/</id>
     <published>2025-08-22T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.212Z</updated>
+    <updated>2026-03-01T15:01:11.244Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Relationship Between Power Factor (PF) of Series and Parallel Circuits</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Show closed-form PF formulas for RL series and parallel and their relation.</li><li><strong>Why it matters</strong>: Lets you translate PF between topologies instantly when (R) and (X_L) match.</li><li><strong>What you’ll learn</strong>: Series PF, parallel PF, and identity (PFS^2 + PFP^2 &#x3D; 1).</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul><li>Series PF (PFS):<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li><li>Parallel PF (PFP):<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li><li>If (R) and (X_L) are identical in both circuits:<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li><li>Example: (R&#x3D;4,\Omega, X_L&#x3D;3,\Omega) → (PFS&#x3D;0.8), (PFP&#x3D;0.6)</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">PF – Series vs Parallel Relationship</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>串聯電路功率因數 (PF) 與並聯電路功率因數的關係</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：列出 RL 串聯與並聯電路的 PF 閉式公式，並說明相互關係。</li><li><strong>為何重要</strong>：當 (R)、(X_L) 相同時，可在兩拓撲間快速換算 PF。</li><li><strong>你將學到</strong>：串聯 PF、並聯 PF 與恆等式 (PFS^2 + PFP^2 &#x3D; 1)。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>串聯功率因數：<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li><li>並聯功率因數：<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li><li>當兩電路 (R)、(X_L) 相同：<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li><li>範例：(R&#x3D;4,\Omega, X_L&#x3D;3,\Omega) → (PFS&#x3D;0.8)、(PFP&#x3D;0.6)</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">@串並聯功率因數關係</a></li></ul><hr><p><strong>日期：2025年08月22日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">https://www.youtube.com/watch?v=XrqnOBHWDOo</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Relationship Between Power Factor (PF) of Series and Parallel Circuits</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Show closed-form PF formulas for RL series and parallel and their relation.</li><li><strong>Why it matters</strong>: Lets you translate PF between topologies instantly when $R$ and $X_L$ match.</li><li><strong>What you’ll learn</strong>: Series PF, parallel PF, and identity $PFS^2 + PFP^2 = 1$.</li></ul><h3 id="Key-Points">Key Points</h3><ul><li>Series PF $PFS$:</li></ul><p>$$PFS = \frac{R}{\sqrt{R^2 + X_L^2}}$$</p><ul><li>Parallel PF $PFP$:</li></ul><p>$$PFP = \frac{X_L}{\sqrt{R^2 + X_L^2}}$$</p><ul><li>If $R$ and $X_L$ are identical in both circuits:</li></ul><p>$$PFS^2 + PFP^2 = 1$$</p><ul><li>Example: $R=4,\Omega, X_L=3,\Omega$ → $PFS=0.8$, $PFP=0.6$</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">PF – Series vs Parallel Relationship</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>串聯電路功率因數 (PF) 與並聯電路功率因數的關係</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：列出 RL 串聯與並聯電路的 PF 閉式公式，並說明相互關係。</li><li><strong>為何重要</strong>：當 $R$、$X_L$ 相同時，可在兩拓撲間快速換算 PF。</li><li><strong>你將學到</strong>：串聯 PF、並聯 PF 與恆等式 $PFS^2 + PFP^2 = 1$。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>串聯功率因數：</li></ul><p>$$PFS = \frac{R}{\sqrt{R^2 + X_L^2}}$$</p><ul><li>並聯功率因數：</li></ul><p>$$PFP = \frac{X_L}{\sqrt{R^2 + X_L^2}}$$</p><ul><li>當兩電路 $R$、$X_L$ 相同：</li></ul><p>$$PFS^2 + PFP^2 = 1$$</p><ul><li>範例：$R=4,\Omega, X_L=3,\Omega$ → $PFS=0.8$、$PFP=0.6$</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">@串並聯功率因數關係</a></li></ul><hr><p><strong>日期：2025年08月22日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">https://www.youtube.com/watch?v=XrqnOBHWDOo</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Relationship Between Power Factor (PF) of Series and Para</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="串聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%B2%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
-    
-    <category term="並聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%A6%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -128,35 +109,27 @@
     <link href="https://bill55tt.github.io/2025/08/21/ac-power-pt-qt-st-pf-type2/"/>
     <id>https://bill55tt.github.io/2025/08/21/ac-power-pt-qt-st-pf-type2/</id>
     <published>2025-08-21T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:51.744Z</updated>
+    <updated>2026-02-20T07:20:54.944Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering – AC Power – Problem Type 2: Steps for PT&#x2F;QT&#x2F;ST and PF (PART A, Extended)</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Solve a representative circuit (type 2) by computing branch currents, then PT, QT, ST, and PF.</li><li><strong>Why it matters</strong>: A structured flow avoids mixing P and Q contributions and clarifies lagging vs. leading PF.</li><li><strong>What you’ll learn</strong>: How to apply current division, sum active&#x2F;reactive power, and derive overall apparent power and PF.</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ol><li><strong>Example Problem Introduction</strong><ul><li>Circuit type 2 for PT, QT, ST, and PF</li><li>Tasks: compute powers and power factor</li></ul></li><li><strong>Calculation of Branch Currents</strong><ul><li>Use current division to obtain RMS currents ( I_1, I_2, I_3 )</li><li>( I_1, I_2 ) via impedance division; ( I_3 ) equals total current</li></ul></li><li><strong>Total Active Power (P_T)</strong><ul><li>Resistor power: ( P &#x3D; I^2 R )</li><li>Sum power on 5 Ω and 1 Ω resistors</li></ul></li><li><strong>Total Reactive Power (Q_T)</strong><ul><li>Reactors&#x2F;capacitor: ( Q &#x3D; I^2 X )</li><li>Sum inductive Q and subtract capacitive Q</li></ul></li><li><strong>Total Apparent Power (S_T)</strong><ul><li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li></ul></li><li><strong>Power Factor (PF)</strong><ul><li>( PF &#x3D; \dfrac{P_T}{S_T} ), indicate lagging (inductive) or leading (capacitive)</li></ul></li></ol><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=xj8fkCl21SA">AC Power – Problem Type 2: PT&#x2F;QT&#x2F;ST and PF</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_題型二：PT&#x2F;QT&#x2F;ST 與 PF 的計算步驟_PART A（延伸）</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：針對題型二，先由各支路電流著手，依序求 PT、QT、ST 與 PF。</li><li><strong>為何重要</strong>：流程化可避免 P、Q 來源混淆，並正確判定滯後&#x2F;超前功率因數。</li><li><strong>你將學到</strong>：分流定則應用、P&#x2F;Q 加總、視在功率與功率因數的整體推導。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ol><li><strong>範例題目介紹</strong><ul><li>介紹 PT、QT、ST 與 PF 的電路圖題型二</li><li>求各項功率與功率因數</li></ul></li><li><strong>各支路電流計算</strong><ul><li>使用分流定則計算 ( I_1, I_2, I_3 )（有效值）</li><li>( I_1, I_2 ) 由阻抗分流；( I_3 ) 與總電流相同</li></ul></li><li><strong>總平均功率 (P_T) 計算</strong><ul><li>電阻功率：( P &#x3D; I^2 R )</li><li>計算 5 Ω 與 1 Ω 電阻功率並相加</li></ul></li><li><strong>總虛功率 (Q_T) 計算</strong><ul><li>電感&#x2F;電容的虛功率：( Q &#x3D; I^2 X )</li><li>電感虛功率相加後減去電容虛功率</li></ul></li><li><strong>總視在功率 (S_T) 計算</strong><ul><li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li></ul></li><li><strong>功率因數 (PF) 計算</strong><ul><li>( PF &#x3D; \dfrac{P_T}{S_T} )，結果標註滯後（電感性）或超前（電容性）</li></ul></li></ol><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=xj8fkCl21SA">@高中基本電學_交流電功率_題型二：PT&#x2F;QT&#x2F;ST 與 PF</a></li></ul><hr><p><strong>日期：2025年08月21日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=xj8fkCl21SA">https://www.youtube.com/watch?v=xj8fkCl21SA</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Basic Electrical Engineering – AC Power – Problem Type 2: Steps for PT/QT/ST and PF (PART A, Extended)</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Solve a representative circuit (type 2) by computing branch currents, then PT, QT, ST, and PF.</li><li><strong>Why it matters</strong>: A structured flow avoids mixing P and Q contributions and clarifies lagging vs. leading PF.</li><li><strong>What you’ll learn</strong>: How to apply current division, sum active/reactive power, and derive overall apparent power and PF.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ol><li><strong>Example Problem Introduction</strong><ul><li>Circuit type 2 for PT, QT, ST, and PF</li><li>Tasks: compute powers and power factor</li></ul></li><li><strong>Calculation of Branch Currents</strong><ul><li>Use current division to obtain RMS currents $ I_1, I_2, I_3 $</li><li>$ I_1, I_2 $ via impedance division; $ I_3 $ equals total current</li></ul></li><li><strong>Total Active Power $P_T$</strong><ul><li>Resistor power: $ P = I^2 R $</li><li>Sum power on 5 Ω and 1 Ω resistors</li></ul></li><li><strong>Total Reactive Power $Q_T$</strong><ul><li>Reactors/capacitor: $ Q = I^2 X $</li><li>Sum inductive Q and subtract capacitive Q</li></ul></li><li><strong>Total Apparent Power $S_T$</strong><ul><li>$ S_T = \sqrt{P_T^2 + Q_T^2} $</li></ul></li><li><strong>Power Factor $PF$</strong><ul><li>$ PF = \frac{P_T}{S_T} $, indicate lagging (inductive) or leading (capacitive)</li></ul></li></ol><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=xj8fkCl21SA">AC Power – Problem Type 2: PT/QT/ST and PF</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>高中基本電學_交流電功率_題型二：PT/QT/ST 與 PF 的計算步驟_PART A（延伸）</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：針對題型二，先由各支路電流著手，依序求 PT、QT、ST 與 PF。</li><li><strong>為何重要</strong>：流程化可避免 P、Q 來源混淆，並正確判定滯後/超前功率因數。</li><li><strong>你將學到</strong>：分流定則應用、P/Q 加總、視在功率與功率因數的整體推導。</li></ul><h3 id="重點統整">重點統整</h3><ol><li><strong>範例題目介紹</strong><ul><li>介紹 PT、QT、ST 與 PF 的電路圖題型二</li><li>求各項功率與功率因數</li></ul></li><li><strong>各支路電流計算</strong><ul><li>使用分流定則計算 $ I_1, I_2, I_3 $（有效值）</li><li>$ I_1, I_2 $ 由阻抗分流；$ I_3 $ 與總電流相同</li></ul></li><li><strong>總平均功率 $P_T$ 計算</strong><ul><li>電阻功率：$ P = I^2 R $</li><li>計算 5 Ω 與 1 Ω 電阻功率並相加</li></ul></li><li><strong>總虛功率 $Q_T$ 計算</strong><ul><li>電感/電容的虛功率：$ Q = I^2 X $</li><li>電感虛功率相加後減去電容虛功率</li></ul></li><li><strong>總視在功率 $S_T$ 計算</strong><ul><li>$ S_T = \sqrt{P_T^2 + Q_T^2} $</li></ul></li><li><strong>功率因數 $PF$ 計算</strong><ul><li>$ PF = \frac{P_T}{S_T} $，結果標註滯後（電感性）或超前（電容性）</li></ul></li></ol><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=xj8fkCl21SA">@高中基本電學_交流電功率_題型二：PT/QT/ST 與 PF</a></li></ul><hr><p><strong>日期：2025年08月21日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=xj8fkCl21SA">https://www.youtube.com/watch?v=xj8fkCl21SA</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Basic Electrical Engineering – AC Power – Problem Type 2:</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="題型解析" scheme="https://bill55tt.github.io/tags/%E9%A1%8C%E5%9E%8B%E8%A7%A3%E6%9E%90/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -165,33 +138,27 @@
     <link href="https://bill55tt.github.io/2025/08/21/pf-series-parallel-relationship/"/>
     <id>https://bill55tt.github.io/2025/08/21/pf-series-parallel-relationship/</id>
     <published>2025-08-21T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:51.432Z</updated>
+    <updated>2026-03-01T14:58:20.253Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Relationship Between Power Factor (PF) of Series and Parallel Circuits</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Derive and compare power factor definitions for series RL and parallel RL circuits with the same R and XL.</li><li><strong>Why it matters</strong>: Understanding PF relationships helps convert results between topologies and quickly estimate PF without re-deriving.</li><li><strong>What you’ll learn</strong>: Closed-form PF formulas, the identity (PFS^2 + PFP^2 &#x3D; 1), and a numerical example.</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul><li><strong>Power Factor of Series Circuit (PFS)</strong>:<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li><li><strong>Power Factor of Parallel Circuit (PFP)</strong>:<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li><li>If (R) and (X_L) are the same in both circuits:<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li><li>Example:<ul><li>(R &#x3D; 4,\Omega, ; X_L &#x3D; 3,\Omega)</li><li>Series PF (PFS &#x3D; 0.8)</li><li>Parallel PF (PFP &#x3D; 0.6)</li></ul></li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">High school basic electricity – AC power – Power Factor PART G: Relationship of Series PF and Parallel PF</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>串聯電路功率因數 (PF) 與並聯電路功率因數的關係</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：推導並比較在相同 (R) 與 (X_L) 下，串聯 RL 與並聯 RL 電路的功率因數。</li><li><strong>為何重要</strong>：理解兩種拓撲之 PF 關係，可在兩者之間快速換算並估算 PF，無需每次重推。</li><li><strong>你將學到</strong>：PF 的閉式公式、恆等式 (PFS^2 + PFP^2 &#x3D; 1) 與數值範例。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li><strong>串聯電路功率因數 (PFS)</strong>：<br>[<br>PFS &#x3D; \frac{R}{\sqrt{R^2 + X_L^2}}<br>]</li><li><strong>並聯電路功率因數 (PFP)</strong>：<br>[<br>PFP &#x3D; \frac{X_L}{\sqrt{R^2 + X_L^2}}<br>]</li><li>若兩電路的 (R) 與 (X_L) 相同，則：<br>[<br>PFS^2 + PFP^2 &#x3D; 1<br>]</li><li>範例：<ul><li>(R &#x3D; 4,\Omega, ; X_L &#x3D; 3,\Omega)</li><li>串聯功率因數 (PFS &#x3D; 0.8)</li><li>並聯功率因數 (PFP &#x3D; 0.6)</li></ul></li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">@高中基本電學_交流電功率_功率因數_PART G 串聯電路PF與並聯電路PF關係_陳政旭</a></li></ul><hr><p><strong>日期：2025年08月21日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">https://www.youtube.com/watch?v=XrqnOBHWDOo</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Relationship Between Power Factor (PF) of Series and Parallel Circuits</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Derive and compare power factor definitions for series RL and parallel RL circuits with the same R and XL.</li><li><strong>Why it matters</strong>: Understanding PF relationships helps convert results between topologies and quickly estimate PF without re-deriving.</li><li><strong>What you’ll learn</strong>: Closed-form PF formulas, the identity $PFS^2 + PFP^2 = 1$, and a numerical example.</li></ul><h3 id="Key-Points">Key Points</h3><ul><li><strong>Power Factor of Series Circuit (PFS)</strong>:</li></ul><p>$$PFS = \frac{R}{\sqrt{R^2 + X_L^2}}$$</p><ul><li><strong>Power Factor of Parallel Circuit (PFP)</strong>:</li></ul><p>$$PFP = \frac{X_L}{\sqrt{R^2 + X_L^2}}$$</p><ul><li>If $R$ and $X_L$ are the same in both circuits:</li></ul><p>$$PFS^2 + PFP^2 = 1$$</p><ul><li>Example:<ul><li>$R = 4,\Omega, ; X_L = 3,\Omega$</li><li>Series PF $PFS = 0.8$</li><li>Parallel PF $PFP = 0.6$</li></ul></li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">High school basic electricity – AC power – Power Factor PART G: Relationship of Series PF and Parallel PF</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>串聯電路功率因數 (PF) 與並聯電路功率因數的關係</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：推導並比較在相同 $R$ 與 $X_L$ 下，串聯 RL 與並聯 RL 電路的功率因數。</li><li><strong>為何重要</strong>：理解兩種拓撲之 PF 關係，可在兩者之間快速換算並估算 PF，無需每次重推。</li><li><strong>你將學到</strong>：PF 的閉式公式、恆等式 $PFS^2 + PFP^2 = 1$ 與數值範例。</li></ul><h3 id="重點統整">重點統整</h3><ul><li><strong>串聯電路功率因數 (PFS)</strong>：</li></ul><p>$$PFS = \frac{R}{\sqrt{R^2 + X_L^2}}$$</p><ul><li><strong>並聯電路功率因數 (PFP)</strong>：</li></ul><p>$$PFP = \frac{X_L}{\sqrt{R^2 + X_L^2}}$$</p><ul><li>若兩電路的 $R$ 與 $X_L$ 相同，則：</li></ul><p>$$PFS^2 + PFP^2 = 1$$</p><ul><li>範例：<ul><li>$R = 4,\Omega, ; X_L = 3,\Omega$</li><li>串聯功率因數 $PFS = 0.8$</li><li>並聯功率因數 $PFP = 0.6$</li></ul></li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">@高中基本電學_交流電功率_功率因數_PART G 串聯電路PF與並聯電路PF關係_陳政旭</a></li></ul><hr><p><strong>日期：2025年08月21日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=XrqnOBHWDOo">https://www.youtube.com/watch?v=XrqnOBHWDOo</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Relationship Between Power Factor (PF) of Series and Para</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="串聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%B2%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
-    
-    <category term="並聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%A6%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -200,35 +167,27 @@
     <link href="https://bill55tt.github.io/2025/08/21/pf-using-impedance-rl-series-parallel-20250821/"/>
     <id>https://bill55tt.github.io/2025/08/21/pf-using-impedance-rl-series-parallel-20250821/</id>
     <published>2025-08-21T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.196Z</updated>
+    <updated>2026-02-20T07:20:54.964Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Calculating Power Factor (PF) Using Impedance Concept — R-L Series and Parallel Circuits</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Derive PF from impedance when phasors are not available, for RL series and parallel.</li><li><strong>Why it matters</strong>: PF can be inferred from circuit parameters for quick estimation and design checks.</li><li><strong>What you’ll learn</strong>: PF via (Z): series PF &#x3D; (R&#x2F;|Z|); parallel PF via (|Z|) relation.</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul><li>Methods to compute PF:<ul><li>From phase angle (\theta): ( PF &#x3D; \cos\theta )</li><li>From powers: ( PF &#x3D; P&#x2F;S )</li></ul></li><li>Using impedance when (\bar{V}), (\bar{I}) are unavailable.</li><li>RL series circuit:<ul><li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li><li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li></ul></li><li>RL parallel circuit:<ul><li>From equivalent (|Z|): ( PF &#x3D; \dfrac{|Z|}{R} )</li><li>Using the provided relation: ( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} )</li></ul></li><li>Series vs. parallel PF differ; see Part G for details.</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">PF via Impedance – RL Series&#x2F;Parallel</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：在無法直接取得相量時，利用阻抗推導 RL 串聯與並聯電路的 PF。</li><li><strong>為何重要</strong>：可由電路參數快速估算 PF，利於設計與評估。</li><li><strong>你將學到</strong>：由 (Z) 出發的 PF 公式：串聯 (PF &#x3D; R&#x2F;|Z|)，並聯由 (|Z|) 推得。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>PF 計算方式：<ul><li>由相位角 (\theta)：( PF &#x3D; \cos\theta )</li><li>由功率比：( PF &#x3D; P&#x2F;S )</li></ul></li><li>相量不可得時，改用阻抗求 PF。</li><li>R-L 串聯電路：<ul><li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li><li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li></ul></li><li>R-L 並聯電路：<ul><li>先求等效 (|Z|)，再得 ( PF &#x3D; \dfrac{|Z|}{R} )</li><li>依提供關係：( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} )</li></ul></li><li>串聯與並聯之 PF 表達不同，詳見 Part G。</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">@使用阻抗觀念求 PF（RL 串&#x2F;並）</a></li></ul><hr><p><strong>日期：2025年08月21日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">https://www.youtube.com/watch?v=OwJ-Cu5IQfc</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Calculating Power Factor (PF) Using Impedance Concept — R-L Series and Parallel Circuits</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Derive PF from impedance when phasors are not available, for RL series and parallel.</li><li><strong>Why it matters</strong>: PF can be inferred from circuit parameters for quick estimation and design checks.</li><li><strong>What you’ll learn</strong>: PF via $Z$: series PF = $R/|Z|$; parallel PF via $|Z|$ relation.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ul><li>Methods to compute PF:<ul><li>From phase angle $\theta$: $ PF = \cos\theta $</li><li>From powers: $ PF = P/S $</li></ul></li><li>Using impedance when $\bar{V}$, $\bar{I}$ are unavailable.</li><li>RL series circuit:<ul><li>$ |Z| = \sqrt{R^2 + X_L^2} $</li><li>$ PF = \frac{R}{\sqrt{R^2 + X_L^2}} $</li></ul></li><li>RL parallel circuit:<ul><li>From equivalent $|Z|$: $ PF = \frac{|Z|}{R} $</li><li>Using the provided relation: $ PF = \frac{\sqrt{R^2 + X_L^2}}{X_L} $</li></ul></li><li>Series vs. parallel PF differ; see Part G for details.</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">PF via Impedance – RL Series/Parallel</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：在無法直接取得相量時，利用阻抗推導 RL 串聯與並聯電路的 PF。</li><li><strong>為何重要</strong>：可由電路參數快速估算 PF，利於設計與評估。</li><li><strong>你將學到</strong>：由 $Z$ 出發的 PF 公式：串聯 $PF = R/|Z|$，並聯由 $|Z|$ 推得。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>PF 計算方式：<ul><li>由相位角 $\theta$：$ PF = \cos\theta $</li><li>由功率比：$ PF = P/S $</li></ul></li><li>相量不可得時，改用阻抗求 PF。</li><li>R-L 串聯電路：<ul><li>$ |Z| = \sqrt{R^2 + X_L^2} $</li><li>$ PF = \frac{R}{\sqrt{R^2 + X_L^2}} $</li></ul></li><li>R-L 並聯電路：<ul><li>先求等效 $|Z|$，再得 $ PF = \frac{|Z|}{R} $</li><li>依提供關係：$ PF = \frac{\sqrt{R^2 + X_L^2}}{X_L} $</li></ul></li><li>串聯與並聯之 PF 表達不同，詳見 Part G。</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">@使用阻抗觀念求 PF（RL 串/並）</a></li></ul><hr><p><strong>日期：2025年08月21日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">https://www.youtube.com/watch?v=OwJ-Cu5IQfc</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Calculating Power Factor (PF) Using Impedance Concept — R</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="串聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%B2%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
-    
-    <category term="並聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%A6%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
-    
-    <category term="阻抗" scheme="https://bill55tt.github.io/tags/%E9%98%BB%E6%8A%97/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -237,33 +196,26 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-apparent-power-part-a/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-apparent-power-part-a/</id>
     <published>2025-08-03T04:00:00.000Z</published>
-    <updated>2025-08-22T13:27:45.928Z</updated>
+    <updated>2026-03-02T14:28:38.685Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu"><a href="#High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu" class="headerlink" title="High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</h1><p>This article explains the concepts of apparent power, average power, and reactive power in AC circuits, including their formulas, physical meanings, and real-life analogies.</p><hr><h2 id="Key-Points-English"><a href="#Key-Points-English" class="headerlink" title="Key Points (English)"></a>Key Points (English)</h2><ul><li><strong>Apparent Power (S)</strong>: The product of voltage (V) and current (I), representing the total power in the circuit. Unit: volt-ampere (VA).</li><li><strong>Average Power (P)</strong>: The real power consumed by a pure resistive load, analogous to rent—actual energy spent.</li><li><strong>Reactive Power (Q)</strong>: The power stored and released by inductive and capacitive loads, analogous to a deposit—eventually returned.</li><li><strong>Meaning of Apparent Power</strong>:<ul><li>At the source: Total power delivered to the load.</li><li>At the load: Rated capacity and rated current of electrical equipment.</li></ul></li><li><strong>Apparent Power Formula</strong>:<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>Unit: volt-ampere (VA).</li><li><strong>English Terms</strong>:<ul><li>Apparent Power: 視在功率</li><li>Average Power (or Real Power): 平均功率</li><li>Reactive Power: 虛功率</li></ul></li><li><strong>Real-life Analogy</strong>:<ul><li>Rent (Average Power): Actual expense.</li><li>Deposit (Reactive Power): Temporarily paid, eventually returned.</li><li>Apparent Power: The sum of rent and deposit, representing the total amount you need to prepare.</li></ul></li></ul><hr><h1 id="高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭"><a href="#高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭" class="headerlink" title="高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭"></a>高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</h1><p>本文說明交流電路中視在功率、平均功率與虛功率的定義、公式、物理意義與生活化比喻。</p><hr><h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul><li><strong>視在功率 (Apparent Power)</strong>：電壓 (V) 與電流 (I) 的乘積，表示電路中電壓與電流的總功率，單位為伏安 (VA)。</li><li><strong>平均功率 (Average Power)</strong>：純電阻負載消耗的實際功率，類比為租房的租金，是實際花費的能量。</li><li><strong>虛功率 (Reactive Power)</strong>：電感與電容負載儲存並釋放能量的功率，類比為押金，最後會退還。</li><li><strong>視在功率的意義</strong>：<ul><li>電源端：表示電源輸送給負載的總功率。</li><li>負載端：表示電力設備的額定容量與額定電流。</li></ul></li><li><strong>視在功率的計算公式</strong>：<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>單位為伏安 (VA)。</li><li><strong>英文翻譯</strong>：<ul><li>視在功率：Apparent Power</li><li>平均功率：Average Power (或 Real Power)</li><li>虛功率：Reactive Power</li></ul></li><li><strong>生活化比喻</strong>：<ul><li>租金（平均功率）是實際花費。</li><li>押金（虛功率）是暫時繳納，最後會退還。</li><li>視在功率是租金加押金的總和，代表你必須準備的總金額。</li></ul></li></ul><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=OzSVqQCy3tk">高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</a></p><hr><h2 id="本文發布日期：2025-08-03title-High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsudate-2025-08-03-12-00-00tags-交流電-視在功率-平均功率-虛功率-基本電學-categories-基本電學"><a href="#本文發布日期：2025-08-03title-High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsudate-2025-08-03-12-00-00tags-交流電-視在功率-平均功率-虛功率-基本電學-categories-基本電學" class="headerlink" title="本文發布日期：2025-08-03title: High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsudate: 2025-08-03 12:00:00tags: [交流電, 視在功率, 平均功率, 虛功率, 基本電學]categories: [基本電學]"></a><em>本文發布日期：2025-08-03</em><br>title: High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu<br>date: 2025-08-03 12:00:00<br>tags: [交流電, 視在功率, 平均功率, 虛功率, 基本電學]<br>categories: [基本電學]</h2><h1 id="High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu-1"><a href="#High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu-1" class="headerlink" title="High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</h1><p>This article explains the concepts of apparent power, average power, and reactive power in AC circuits, including their formulas, physical meanings, and real-life analogies.</p><hr><h2 id="Key-Points-English-1"><a href="#Key-Points-English-1" class="headerlink" title="Key Points (English)"></a>Key Points (English)</h2><ul><li><strong>Apparent Power (S)</strong>: The product of voltage (V) and current (I), representing the total power in the circuit. Unit: volt-ampere (VA).</li><li><strong>Average Power (P)</strong>: The real power consumed by a pure resistive load, analogous to rent—actual energy spent.</li><li><strong>Reactive Power (Q)</strong>: The power stored and released by inductive and capacitive loads, analogous to a deposit—eventually returned.</li><li><strong>Meaning of Apparent Power</strong>:<ul><li>At the source: Total power delivered to the load.</li><li>At the load: Rated capacity and rated current of electrical equipment.</li></ul></li><li><strong>Apparent Power Formula</strong>:<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>Unit: volt-ampere (VA).</li><li><strong>English Terms</strong>:<ul><li>Apparent Power: 視在功率</li><li>Average Power (or Real Power): 平均功率</li><li>Reactive Power: 虛功率</li></ul></li><li><strong>Real-life Analogy</strong>:<ul><li>Rent (Average Power): Actual expense.</li><li>Deposit (Reactive Power): Temporarily paid, eventually returned.</li><li>Apparent Power: The sum of rent and deposit, representing the total amount you need to prepare.</li></ul></li></ul><hr><h1 id="高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭-1"><a href="#高中基本電學-交流電功率-視在功率-PART-A-視在功率-陳政旭-1" class="headerlink" title="高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭"></a>高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</h1><p>本文說明交流電路中視在功率、平均功率與虛功率的定義、公式、物理意義與生活化比喻。</p><hr><h2 id="重點歸納（中文）-1"><a href="#重點歸納（中文）-1" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul><li><strong>視在功率 (Apparent Power)</strong>：電壓 (V) 與電流 (I) 的乘積，表示電路中電壓與電流的總功率，單位為伏安 (VA)。</li><li><strong>平均功率 (Average Power)</strong>：純電阻負載消耗的實際功率，類比為租房的租金，是實際花費的能量。</li><li><strong>虛功率 (Reactive Power)</strong>：電感與電容負載儲存並釋放能量的功率，類比為押金，最後會退還。</li><li><strong>視在功率的意義</strong>：<ul><li>電源端：表示電源輸送給負載的總功率。</li><li>負載端：表示電力設備的額定容量與額定電流。</li></ul></li><li><strong>視在功率的計算公式</strong>：<br>$$<br>S &#x3D; VI &#x3D; I^2 Z &#x3D; \frac{V^2}{Z}<br>$$<br>單位為伏安 (VA)。</li><li><strong>英文翻譯</strong>：<ul><li>視在功率：Apparent Power</li><li>平均功率：Average Power (或 Real Power)</li><li>虛功率：Reactive Power</li></ul></li><li><strong>生活化比喻</strong>：<ul><li>租金（平均功率）是實際花費。</li><li>押金（虛功率）是暫時繳納，最後會退還。</li><li>視在功率是租金加押金的總和，代表你必須準備的總金額。</li></ul></li></ul><hr><h2 id="YouTube-影片連結-1"><a href="#YouTube-影片連結-1" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=OzSVqQCy3tk">高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
+    <content type="html"><![CDATA[<h1>High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu</h1><p>This article explains the concepts of apparent power, average power, and reactive power in AC circuits, including their formulas, physical meanings, and real-life analogies.</p><hr><h2 id="Key-Points-English">Key Points (English)</h2><ul><li><p><strong>Apparent Power (S)</strong>: The product of voltage $V$ and current $I$, representing the total power in the circuit. Unit: volt-ampere (VA).</p></li><li><p><strong>Average Power (P)</strong>: The real power consumed by a pure resistive load, analogous to rent—actual energy spent.</p></li><li><p><strong>Reactive Power (Q)</strong>: The power stored and released by inductive and capacitive loads, analogous to a deposit—eventually returned.</p></li><li><p><strong>Meaning of Apparent Power</strong>:</p><ul><li>At the source: Total power delivered to the load.</li><li>At the load: Rated capacity and rated current of electrical equipment.</li></ul></li><li><p><strong>Apparent Power Formula</strong>:</p></li><li><p><strong>視在功率的計算公式</strong>：</p></li></ul><p>$$S = VI = I^2 Z = \frac{V^2}{Z}$$</p><blockquote><p>或是利用功率三角形關係：</p></blockquote><p>$$S = \sqrt{P^2 + Q^2}$$</p><p>單位為 <strong>伏安 (VA)</strong>。<br>Unit: volt-ampere (VA).</p><ul><li><strong>English Terms</strong>:<ul><li>Apparent Power: 視在功率</li><li>Average Power (or Real Power): 平均功率</li><li>Reactive Power: 虛功率</li></ul></li><li><strong>Real-life Analogy</strong>:<ul><li>Rent (Average Power): Actual expense.</li><li>Deposit (Reactive Power): Temporarily paid, eventually returned.</li><li>Apparent Power: The sum of rent and deposit, representing the total amount you need to prepare.</li></ul></li></ul><hr><h1>高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</h1><p>本文說明交流電路中視在功率、平均功率與虛功率的定義、公式、物理意義與生活化比喻。</p><hr><h2 id="重點歸納（中文）">重點歸納（中文）</h2><ul><li><strong>視在功率 (Apparent Power)</strong>：電壓 $V$ 與電流 $I$ 的乘積，表示電路中電壓與電流的總功率，單位為伏安 (VA)。</li><li><strong>平均功率 (Average Power)</strong>：純電阻負載消耗的實際功率，類比為租房的租金，是實際花費的能量。</li><li><strong>虛功率 (Reactive Power)</strong>：電感與電容負載儲存並釋放能量的功率，類比為押金，最後會退還。</li><li><strong>視在功率的意義</strong>：<ul><li>電源端：表示電源輸送給負載的總功率。</li><li>負載端：表示電力設備的額定容量與額定電流。</li></ul></li></ul><!-- - **視在功率的計算公式**： --><!-- $$W_L = \frac{1}{2} L I_0^2$$ --><ul><li><strong>視在功率的計算公式</strong>：</li></ul><p>$$S = VI = I^2 Z = \frac{V^2}{Z}$$</p><blockquote><p>或是利用功率三角形關係：</p></blockquote><p>$$S = \sqrt{P^2 + Q^2}$$</p><p>單位為 <strong>伏安 (VA)</strong>。</p><ul><li><strong>英文翻譯</strong>：<ul><li>視在功率：Apparent Power</li><li>平均功率：Average Power (或 Real Power)</li><li>虛功率：Reactive Power</li></ul></li><li><strong>生活化比喻</strong>：<ul><li>租金（平均功率）是實際花費。</li><li>押金（虛功率）是暫時繳納，最後會退還。</li><li>視在功率是租金加押金的總和，代表你必須準備的總金額。</li></ul></li></ul><hr><h2 id="YouTube-影片連結">YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=OzSVqQCy3tk">高中基本電學_交流電功率_視在功率_PART A 視在功率_陳政旭</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;High-School-Basic-Electricity-AC-Power-Apparent-Power-PART-A-Apparent-Power-Prof-Chen-Cheng-Hsu&quot;&gt;&lt;a href=&quot;#High-School-Basic-Electri</summary>
+    <summary type="html">&lt;h1&gt;High School Basic Electricity_AC Power_Apparent Power_PART A Apparent Power_Prof. Chen Cheng-Hsu&lt;/h1&gt;
+&lt;p&gt;This article explains the conce</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -272,70 +224,25 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-average-power-definition-example-part-a/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-average-power-definition-example-part-a/</id>
     <published>2025-08-03T04:00:00.000Z</published>
-    <updated>2025-08-03T03:53:04.349Z</updated>
+    <updated>2026-03-02T14:26:17.515Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu"><a href="#High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu" class="headerlink" title="High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu"></a>High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu</h1><p>This article explains the definition of average power in AC circuits, the calculation formula, the effect of phase difference, and provides a detailed example.</p><hr><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul><li><strong>Definition of Average Power</strong>: The average power is the mean value of the instantaneous power ( p(t) ) over a complete cycle.</li><li><strong>Voltage and Current Waveforms</strong>:<ul><li>Voltage ( v(t) &#x3D; V_m \sin(\omega t) ) with phase angle set to 0° for simplicity.</li><li>Current ( i(t) &#x3D; I_m \sin(\omega t - \theta) ).</li></ul></li><li><strong>Instantaneous Power Formula</strong>:<br>$$<br>p(t) &#x3D; v(t) \times i(t) &#x3D; VI \cos \theta - VI \cos(2\omega t - \theta)<br>$$</li><li><strong>Average Power Calculation</strong>:<ul><li>( VI \cos \theta ) is a constant, product of RMS values and cosine of phase angle.</li><li>( VI \cos(2\omega t - \theta) ) is a symmetric sinusoid with zero average.</li><li>Therefore, average power ( P &#x3D; VI \cos \theta ).</li></ul></li><li><strong>Effect of Phase Difference</strong>: If voltage and current have phase angles ( \theta_v ) and ( \theta_i ), then<br>$$<br>P &#x3D; VI \cos(\theta_v - \theta_i)<br>$$</li><li><strong>Example Calculation</strong>:<ul><li>Voltage: ( v(t) &#x3D; 50\sqrt{2} \sin(377t + 30^\circ) ), RMS ( V &#x3D; 50 ), phase angle ( \theta_v &#x3D; 30^\circ ).</li><li>Current: ( i(t) &#x3D; 5\sqrt{2} \sin(377t - 30^\circ) ), RMS ( I &#x3D; 5 ), phase angle ( \theta_i &#x3D; -30^\circ ).</li><li>Average power:<br>$$<br>P &#x3D; 50 \times 5 \times \cos(30^\circ - (-30^\circ)) &#x3D; 250 \times \cos 60^\circ &#x3D; 125 \text{W}<br>$$</li></ul></li></ul><hr><h1 id="高中基本電學-交流電功率-平均功率-PART-A-平均功率定義、範例：平均功率計算-陳政旭"><a href="#高中基本電學-交流電功率-平均功率-PART-A-平均功率定義、範例：平均功率計算-陳政旭" class="headerlink" title="高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭"></a>高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</h1><p>本文說明交流電平均功率的定義、計算公式、相位差影響，並提供詳細範例。</p><hr><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul><li><strong>平均功率定義</strong>：平均功率是完整週期內瞬間功率 ( p(t) ) 的平均值。</li><li><strong>電壓與電流波形</strong>：<ul><li>電壓 ( v(t) &#x3D; V_m \sin(\omega t) )，相位角設為0度方便說明。</li><li>電流 ( i(t) &#x3D; I_m \sin(\omega t - \theta) )。</li></ul></li><li><strong>瞬間功率公式</strong>：<br>$$<br>p(t) &#x3D; v(t) \times i(t) &#x3D; VI \cos \theta - VI \cos(2\omega t - \theta)<br>$$</li><li><strong>平均功率計算</strong>：<ul><li>( VI \cos \theta ) 是常數，為有效值乘上相位角的餘弦。</li><li>( VI \cos(2\omega t - \theta) ) 是正負對稱的正弦波，平均值為0。</li><li>因此平均功率 ( P &#x3D; VI \cos \theta )。</li></ul></li><li><strong>相位差影響</strong>：若電壓與電流相位角分別為 ( \theta_v ) 與 ( \theta_i )，則<br>$$<br>P &#x3D; VI \cos(\theta_v - \theta_i)<br>$$</li><li><strong>範例計算</strong>：<ul><li>電壓：( v(t) &#x3D; 50\sqrt{2} \sin(377t + 30^\circ) )，有效值 ( V &#x3D; 50 )，相位角 ( \theta_v &#x3D; 30^\circ )。</li><li>電流：( i(t) &#x3D; 5\sqrt{2} \sin(377t - 30^\circ) )，有效值 ( I &#x3D; 5 )，相位角 ( \theta_i &#x3D; -30^\circ )。</li><li>平均功率：<br>$$<br>P &#x3D; 50 \times 5 \times \cos(30^\circ - (-30^\circ)) &#x3D; 250 \times \cos 60^\circ &#x3D; 125 \text{瓦}<br>$$</li></ul></li></ul><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=MK1EiNOZd68">高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;High-School-Basic-Electricity-AC-Power-Average-Power-PART-A-Definition-and-Example-of-Average-Power-Calculation-Prof-Chen-Cheng-Hsu&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="有效值" scheme="https://bill55tt.github.io/tags/%E6%9C%89%E6%95%88%E5%80%BC/"/>
-    
-    <category term="相位角" scheme="https://bill55tt.github.io/tags/%E7%9B%B8%E4%BD%8D%E8%A7%92/"/>
-    
-    <category term="教學範例" scheme="https://bill55tt.github.io/tags/%E6%95%99%E5%AD%B8%E7%AF%84%E4%BE%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Power Characteristics of Pure Capacitive AC Circuit</title>
-    <link href="https://bill55tt.github.io/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/"/>
-    <id>https://bill55tt.github.io/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/</id>
-    <published>2025-08-03T04:00:00.000Z</published>
-    <updated>2025-08-22T13:27:45.884Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Power-Characteristics-of-Pure-Capacitive-AC-Circuit"><a href="#Power-Characteristics-of-Pure-Capacitive-AC-Circuit" class="headerlink" title="Power Characteristics of Pure Capacitive AC Circuit"></a>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p><hr><h2 id="Key-Points-Summary-English"><a href="#Key-Points-Summary-English" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ol><li><strong>Voltage and current in a pure capacitive AC circuit have a phase difference of -90 degrees</strong>, with current leading voltage by 90 degrees.</li><li><strong>Average power is zero</strong> because positive and negative power waves cancel out; pure capacitors do not consume average power.</li><li><strong>Reactive power (Q_c) formulas</strong>:<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>Instantaneous maximum power (P_{max} &#x3D; VI)</strong> and minimum power (P_{min} &#x3D; -VI)**.</li><li><strong>Power frequency is twice the source frequency</strong>.</li><li><strong>Power waveforms of pure inductors and capacitors differ by 180 degrees, being opposite in phase</strong>.</li><li><strong>When inductors and capacitors coexist in a circuit, their reactive powers subtract</strong>.</li></ol><hr><h1 id="純電容交流電路之功率特性"><a href="#純電容交流電路之功率特性" class="headerlink" title="純電容交流電路之功率特性"></a>純電容交流電路之功率特性</h1><p>本文整理純電容交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p><hr><h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ol><li><strong>純電容交流電路的電壓與電流相位差為 -90度</strong>，電流超前電壓90度。</li><li><strong>平均功率為零</strong>，因為正負功率波形相互抵銷，純電容不消耗平均功率。</li><li><strong>虛功率 (Q_c) 計算公式</strong>：<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>瞬間最大功率 (P_{max} &#x3D; VI)</strong>，瞬間最小功率 (P_{min} &#x3D; -VI)。</li><li><strong>功率頻率為電源頻率的兩倍</strong>。</li><li><strong>純電感與純電容功率波形相差180度，互為反向</strong>。</li><li><strong>電路中同時有電感與電容時，虛功率做相減運算</strong>。</li></ol><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=wkXEhpDtL-Y">點此觀看影片及自動翻譯</a></p><hr><h2 id="本文發布日期：2025-08-03title-Power-Characteristics-of-Pure-Capacitive-AC-Circuitdate-2025-08-03-12-00-00tags-交流電-純電容-功率特性-虛功率-基本電學-categories-基本電學"><a href="#本文發布日期：2025-08-03title-Power-Characteristics-of-Pure-Capacitive-AC-Circuitdate-2025-08-03-12-00-00tags-交流電-純電容-功率特性-虛功率-基本電學-categories-基本電學" class="headerlink" title="本文發布日期：2025-08-03title: Power Characteristics of Pure Capacitive AC Circuitdate: 2025-08-03 12:00:00tags: [交流電, 純電容, 功率特性, 虛功率, 基本電學]categories: [基本電學]"></a><em>本文發布日期：2025-08-03</em><br>title: Power Characteristics of Pure Capacitive AC Circuit<br>date: 2025-08-03 12:00:00<br>tags: [交流電, 純電容, 功率特性, 虛功率, 基本電學]<br>categories: [基本電學]</h2><h1 id="Power-Characteristics-of-Pure-Capacitive-AC-Circuit-1"><a href="#Power-Characteristics-of-Pure-Capacitive-AC-Circuit-1" class="headerlink" title="Power Characteristics of Pure Capacitive AC Circuit"></a>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p><hr><h2 id="Key-Points-Summary-English-1"><a href="#Key-Points-Summary-English-1" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ol><li><strong>Voltage and current in a pure capacitive AC circuit have a phase difference of -90 degrees</strong>, with current leading voltage by 90 degrees.</li><li><strong>Average power is zero</strong> because positive and negative power waves cancel out; pure capacitors do not consume average power.</li><li><strong>Reactive power (Q_c) formulas</strong>:<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>Instantaneous maximum power (P_{max} &#x3D; VI)</strong> and minimum power (P_{min} &#x3D; -VI)**.</li><li><strong>Power frequency is twice the source frequency</strong>.</li><li><strong>Power waveforms of pure inductors and capacitors differ by 180 degrees, being opposite in phase</strong>.</li><li><strong>When inductors and capacitors coexist in a circuit, their reactive powers subtract</strong>.</li></ol><hr><h1 id="純電容交流電路之功率特性-1"><a href="#純電容交流電路之功率特性-1" class="headerlink" title="純電容交流電路之功率特性"></a>純電容交流電路之功率特性</h1><p>本文整理純電容交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p><hr><h2 id="重點歸納（中文）-1"><a href="#重點歸納（中文）-1" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ol><li><strong>純電容交流電路的電壓與電流相位差為 -90度</strong>，電流超前電壓90度。</li><li><strong>平均功率為零</strong>，因為正負功率波形相互抵銷，純電容不消耗平均功率。</li><li><strong>虛功率 (Q_c) 計算公式</strong>：<ul><li>(Q_c &#x3D; VI &#x3D; I^2 X_c &#x3D; \frac{V^2}{X_c})</li></ul></li><li><strong>瞬間最大功率 (P_{max} &#x3D; VI)</strong>，瞬間最小功率 (P_{min} &#x3D; -VI)。</li><li><strong>功率頻率為電源頻率的兩倍</strong>。</li><li><strong>純電感與純電容功率波形相差180度，互為反向</strong>。</li><li><strong>電路中同時有電感與電容時，虛功率做相減運算</strong>。</li></ol><hr><h2 id="YouTube-影片連結-1"><a href="#YouTube-影片連結-1" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=wkXEhpDtL-Y">點此觀看影片及自動翻譯</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
+    <content type="html"><![CDATA[<h1>High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu</h1><p>This article explains the definition of average power in AC circuits, the calculation formula, the effect of phase difference, and provides a detailed example.</p><hr><h2 id="Key-Points">Key Points</h2><ul><li><strong>Definition of Average Power</strong>: The average power is the mean value of the instantaneous power $ p(t) $ over a complete cycle.</li><li><strong>Voltage and Current Waveforms</strong>:<ul><li>Voltage $ v(t) = V_m \sin(\omega t) $ with phase angle set to 0° for simplicity.</li><li>Current $ i(t) = I_m \sin(\omega t - \theta) $.</li></ul></li><li><strong>Instantaneous Power Formula</strong>:</li></ul><p>$$p(t) = v(t) \times i(t) = VI \cos \theta - VI \cos(2\omega t - \theta)$$</p><ul><li><strong>Average Power Calculation</strong>:<ul><li>$ VI \cos \theta $ is a constant, product of RMS values and cosine of phase angle.</li><li>$ VI \cos(2\omega t - \theta) $ is a symmetric sinusoid with zero average.</li><li>Therefore, average power $ P = VI \cos \theta $.</li></ul></li><li><strong>Effect of Phase Difference</strong>: If voltage and current have phase angles $ \theta_v $ and $ \theta_i $, then</li></ul><p>$$P = VI \cos(\theta_v - \theta_i)$$</p><ul><li><strong>Example Calculation</strong>:<ul><li>Voltage: $ v(t) = 50\sqrt{2} \sin(377t + 30^\circ) $, RMS $ V = 50 $, phase angle $ \theta_v = 30^\circ $.</li><li>Current: $ i(t) = 5\sqrt{2} \sin(377t - 30^\circ) $, RMS $ I = 5 $, phase angle $ \theta_i = -30^\circ $.</li><li>Average power:</li></ul></li></ul><p>$$P = VI \cos(\theta_v - \theta_i)$$</p><hr><h1>高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</h1><p>本文說明交流電平均功率的定義、計算公式、相位差影響，並提供詳細範例。</p><hr><h2 id="重點歸納">重點歸納</h2><ul><li><strong>平均功率定義</strong>：平均功率是完整週期內瞬間功率 $ p(t) $ 的平均值。</li><li><strong>電壓與電流波形</strong>：<ul><li>電壓 $ v(t) = V_m \sin(\omega t) $，相位角設為0度方便說明。</li><li>電流 $ i(t) = I_m \sin(\omega t - \theta) $。</li></ul></li><li><strong>瞬間功率公式</strong>：</li></ul><p>$$p(t) = v(t) \times i(t) = VI \cos \theta - VI \cos(2\omega t - \theta)$$</p><ul><li><strong>平均功率計算</strong>：<ul><li>$ VI \cos \theta $ 是常數，為有效值乘上相位角的餘弦。</li><li>$ VI \cos(2\omega t - \theta) $ 是正負對稱的正弦波，平均值為0。</li><li>因此平均功率 $ P = VI \cos \theta $。</li></ul></li><li><strong>相位差影響</strong>：若電壓與電流相位角分別為 $ \theta_v $ 與 $ \theta_i $，則</li></ul><p>$$P = VI \cos(\theta_v - \theta_i)$$</p><ul><li><strong>範例計算</strong>：<ul><li>電壓：$ v(t) = 50\sqrt{2} \sin(377t + 30^\circ) $，有效值 $ V = 50 $，相位角 $ \theta_v = 30^\circ $。</li><li>電流：$ i(t) = 5\sqrt{2} \sin(377t - 30^\circ) $，有效值 $ I = 5 $，相位角 $ \theta_i = -30^\circ $。</li><li>平均功率：</li></ul></li></ul><p>$$P = 50 \times 5 \times \cos (30^\circ - (-30^\circ)) = 250 \times \cos 60^\circ = 125 \text {瓦}$$</p><hr><h2 id="YouTube-影片連結">YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=MK1EiNOZd68">高中基本電學_交流電功率_平均功率_PART A 平均功率定義、範例：平均功率計算_陳政旭</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Power-Characteristics-of-Pure-Capacitive-AC-Circuit&quot;&gt;&lt;a href=&quot;#Power-Characteristics-of-Pure-Capacitive-AC-Circuit&quot; class=&quot;headerlin</summary>
+    <summary type="html">&lt;h1&gt;High School Basic Electricity_AC Power_Average Power_PART A Definition and Example of Average Power Calculation_Prof. Chen Cheng-Hsu&lt;/h1</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="純電容" scheme="https://bill55tt.github.io/tags/%E7%B4%94%E9%9B%BB%E5%AE%B9/"/>
-    
-    <category term="功率特性" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E7%89%B9%E6%80%A7/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -344,35 +251,26 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-instantaneous-power-example-analysis/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-instantaneous-power-example-analysis/</id>
     <published>2025-08-03T04:00:00.000Z</published>
-    <updated>2025-08-23T02:03:13.332Z</updated>
+    <updated>2026-03-02T14:23:12.943Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Example-of-Instantaneous-Power-in-AC-Circuits"><a href="#Example-of-Instantaneous-Power-in-AC-Circuits" class="headerlink" title="Example of Instantaneous Power in AC Circuits"></a>Example of Instantaneous Power in AC Circuits</h1><p>This article analyzes an example of instantaneous power calculation in AC circuits, including waveform equations, RMS values, frequency, and the physical meaning of negative instantaneous power.</p><hr><h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul><li>Instantaneous power (p(t)) is the product of voltage (v(t)) and current (i(t)).</li><li>Voltage and current waveforms:<br>[<br>v(t) &#x3D; 10\sqrt{2} \sin(314t) , V<br>]<br>[<br>i(t) &#x3D; 2\sqrt{2} \sin(314t - 60^\circ) , A<br>]</li><li>Instantaneous power formula uses trigonometric product identities:<br>[<br>p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(\theta_v + \theta_i)<br>]</li><li>RMS values:<ul><li>Voltage RMS (V &#x3D; 10,V)</li><li>Current RMS (I &#x3D; 2,A)</li></ul></li><li>Frequency calculation:<br>[<br>\omega &#x3D; 2\pi f_p &#x3D; 628 \Rightarrow f_p &#x3D; 100,Hz<br>]</li><li>Maximum and minimum instantaneous power:<br>[<br>P_{\max} &#x3D; 30,W, \quad P_{\min} &#x3D; -10,W<br>]</li><li>Negative instantaneous power means the load returns power to the source.</li></ul><hr><h1 id="交流電功率瞬間功率範例解析"><a href="#交流電功率瞬間功率範例解析" class="headerlink" title="交流電功率瞬間功率範例解析"></a>交流電功率瞬間功率範例解析</h1><p>本文解析交流電路中瞬間功率的計算範例，包含波形方程式、有效值、頻率計算，以及負瞬間功率的物理意義。</p><hr><h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul><li>瞬間功率 (p(t)) 計算為電壓 (v(t)) 與電流 (i(t)) 的乘積。</li><li>電壓與電流波形分別為：<br>[<br>v(t) &#x3D; 10\sqrt{2} \sin(314t) \quad \text{伏特}<br>]<br>[<br>i(t) &#x3D; 2\sqrt{2} \sin(314t - 60^\circ) \quad \text{安培}<br>]</li><li>瞬間功率公式利用三角函數乘積轉換：<br>[<br>p(t) &#x3D; VI \cos(\theta_v - \theta_i) - VI \cos(\theta_v + \theta_i)<br>]</li><li>有效值計算：<ul><li>電壓有效值 (V &#x3D; 10,V)</li><li>電流有效值 (I &#x3D; 2,A)</li></ul></li><li>頻率計算：<br>[<br>\omega &#x3D; 2\pi f_p &#x3D; 628 \Rightarrow f_p &#x3D; \frac{628}{2\pi} &#x3D; 100,Hz<br>]</li><li>瞬間功率最大值與最小值：<br>[<br>P_{\max} &#x3D; 10 + 20 &#x3D; 30,W<br>]<br>[<br>P_{\min} &#x3D; 10 - 20 &#x3D; -10,W<br>]</li><li>負瞬間功率代表負載將功率回饋給電源。</li></ul><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=BKxbtIWgElk">點此觀看影片</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
+    <content type="html"><![CDATA[<h1>Example of Instantaneous Power in AC Circuits</h1><p>This article analyzes an example of instantaneous power calculation in AC circuits, including waveform equations, RMS values, frequency, and the physical meaning of negative instantaneous power.</p><hr><h2 id="Key-Points">Key Points</h2><ul><li>Instantaneous power $p(t)$ is the product of voltage $v(t)$ and current $i(t)$.</li><li>Voltage and current waveforms:</li></ul><p>$$v(t) = 10\sqrt{2} \sin(314t) , V$$</p><p>$$i(t) = 2\sqrt{2} \sin(314t - 60^\circ) , A$$</p><ul><li>Instantaneous power formula uses trigonometric product identities:</li></ul><p>$$p(t) = VI \cos(\theta_v - \theta_i) - VI \cos(\theta_v + \theta_i)$$</p><ul><li>RMS values:<ul><li>Voltage RMS $V = 10,V$</li><li>Current RMS $I = 2,A$</li></ul></li><li>Frequency calculation:</li></ul><p>$$\omega = 2\pi f_p = 628 \Rightarrow f_p = 100,Hz$$</p><ul><li>Maximum and minimum instantaneous power:</li></ul><p>$$P_{\max} = 30,W, \quad P_{\min} = -10,W$$</p><ul><li>Negative instantaneous power means the load returns power to the source.</li></ul><hr><h1>交流電功率瞬間功率範例解析</h1><p>本文解析交流電路中瞬間功率的計算範例，包含波形方程式、有效值、頻率計算，以及負瞬間功率的物理意義。</p><hr><h2 id="重點歸納">重點歸納</h2><ul><li>瞬間功率 $p(t)$ 計算為電壓 $v(t)$ 與電流 $i(t)$ 的乘積。</li><li>電壓與電流波形分別為：</li></ul><p>$$v (t) = 10\sqrt {2} \sin (314t) \quad \text {伏特}$$</p><p>$$i (t) = 2\sqrt {2} \sin (314t - 60^\circ) \quad \text {安培}$$</p><ul><li>瞬間功率公式利用三角函數乘積轉換：</li></ul><p>$$p(t) = VI \cos(\theta_v - \theta_i) - VI \cos(\theta_v + \theta_i)$$</p><ul><li>有效值計算：<ul><li>電壓有效值 $V = 10,V$</li><li>電流有效值 $I = 2,A$</li></ul></li><li>頻率計算：</li></ul><p>$$\omega = 2\pi f_p = 628 \Rightarrow f_p = \frac{628}{2\pi} = 100,Hz$$</p><ul><li>瞬間功率最大值與最小值：</li></ul><p>$$P_{\max} = 10 + 20 = 30,W$$</p><p>$$P_{\min} = 10 - 20 = -10,W$$</p><ul><li>負瞬間功率代表負載將功率回饋給電源。</li></ul><hr><h2 id="YouTube-影片連結">YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=BKxbtIWgElk">點此觀看影片</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Example-of-Instantaneous-Power-in-AC-Circuits&quot;&gt;&lt;a href=&quot;#Example-of-Instantaneous-Power-in-AC-Circuits&quot; class=&quot;headerlink&quot; title=&quot;Ex</summary>
+    <summary type="html">&lt;h1&gt;Example of Instantaneous Power in AC Circuits&lt;/h1&gt;
+&lt;p&gt;This article analyzes an example of instantaneous power calculation in AC circuits</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="有效值" scheme="https://bill55tt.github.io/tags/%E6%9C%89%E6%95%88%E5%80%BC/"/>
-    
-    <category term="瞬間功率" scheme="https://bill55tt.github.io/tags/%E7%9E%AC%E9%96%93%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="正弦波" scheme="https://bill55tt.github.io/tags/%E6%AD%A3%E5%BC%A6%E6%B3%A2/"/>
-    
-    <category term="範例" scheme="https://bill55tt.github.io/tags/%E7%AF%84%E4%BE%8B/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -381,33 +279,54 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-reactive-power-part-f-examples/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-reactive-power-part-f-examples/</id>
     <published>2025-08-03T04:00:00.000Z</published>
-    <updated>2025-08-23T02:13:42.056Z</updated>
+    <updated>2026-02-20T07:20:54.944Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="AC-Power-Reactive-Power-Part-F-Examples"><a href="#AC-Power-Reactive-Power-Part-F-Examples" class="headerlink" title="AC Power Reactive Power Part F Examples"></a>AC Power Reactive Power Part F Examples</h1><p>This article provides comprehensive examples of average power and reactive power calculations in various AC circuits, including pure capacitive, RL series, and parallel RC circuits.</p><hr><h2 id="Key-Points-Summary-English"><a href="#Key-Points-Summary-English" class="headerlink" title="Key Points Summary (English)"></a>Key Points Summary (English)</h2><ul><li><p><strong>Example 1:</strong> Pure Capacitive Circuit  </p><ul><li>Voltage ( v(t) &#x3D; 100\sqrt{2} \sin(500t) )  </li><li>Capacitive Reactance ( X_C &#x3D; 50 \Omega )  </li><li>Reactive Power ( Q_C &#x3D; \frac{V^2}{X_C} &#x3D; \frac{100^2}{50} &#x3D; 200 ) VAR</li></ul></li><li><p><strong>Example 2:</strong> RL Series Circuit  </p><ul><li>Voltage ( v(t) &#x3D; 200\sqrt{2} \sin(377t) )  </li><li>Resistance ( R &#x3D; 12 \Omega ), Inductive Reactance ( X_L &#x3D; 16 \Omega )  </li><li>Total Impedance ( Z &#x3D; 12 + j16 &#x3D; 20 \angle 53^\circ )  </li><li>Current ( I &#x3D; \frac{V}{Z} &#x3D; 10 \angle -53^\circ ) A  </li><li>Average Power ( P &#x3D; I^2 R &#x3D; 10^2 \times 12 &#x3D; 1200 ) W  </li><li>Reactive Power ( Q &#x3D; I^2 X_L &#x3D; 10^2 \times 16 &#x3D; 1600 ) VAR</li></ul></li><li><p><strong>Example 3:</strong> Parallel Resistor and Capacitor Circuit  </p><ul><li>Voltage ( V &#x3D; 40 \angle 0^\circ ) V  </li><li>Resistance ( R &#x3D; 20 \Omega ), Capacitive Reactance ( X_C &#x3D; 80 \Omega )  </li><li>Average Power ( P &#x3D; \frac{V^2}{R} &#x3D; \frac{40^2}{20} &#x3D; 80 ) W  </li><li>Reactive Power ( Q &#x3D; \frac{V^2}{X_C} &#x3D; \frac{40^2}{80} &#x3D; 20 ) VAR</li></ul></li></ul><hr><h1 id="高中基本電學-交流電功率-虛功率-PART-F-範例：平均功率、虛功率綜合計算"><a href="#高中基本電學-交流電功率-虛功率-PART-F-範例：平均功率、虛功率綜合計算" class="headerlink" title="高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算"></a>高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算</h1><p>本文提供多種交流電路下平均功率與虛功率的綜合計算範例，包含純電容、RL 串聯、電阻與電容並聯等情境。</p><hr><h2 id="重點歸納（中文）"><a href="#重點歸納（中文）" class="headerlink" title="重點歸納（中文）"></a>重點歸納（中文）</h2><ul><li><p><strong>範例一</strong>：純電容電路  </p><ul><li>電壓 ( v(t) &#x3D; 100\sqrt{2} \sin(500t) )  </li><li>電容抗 ( X_C &#x3D; 50 \Omega )  </li><li>虛功率 ( Q_C &#x3D; \frac{100^2}{50} &#x3D; 200 ) 乏爾</li></ul></li><li><p><strong>範例二</strong>：RL串聯電路  </p><ul><li>電壓 ( v(t) &#x3D; 200\sqrt{2} \sin(377t) )  </li><li>電阻 ( R &#x3D; 12 \Omega )，電感抗 ( X_L &#x3D; 16 \Omega )  </li><li>總阻抗 ( Z &#x3D; 12 + j16 &#x3D; 20 \angle 53^\circ )  </li><li>電流 ( I &#x3D; \frac{V}{Z} &#x3D; 10 \angle -53^\circ ) 安培  </li><li>平均功率 ( P &#x3D; 10^2 \times 12 &#x3D; 1200 ) 瓦特  </li><li>虛功率 ( Q &#x3D; 10^2 \times 16 &#x3D; 1600 ) 乏爾</li></ul></li><li><p><strong>範例三</strong>：電阻與電容並聯電路  </p><ul><li>電壓 ( V &#x3D; 40 \angle 0^\circ ) 伏特  </li><li>電阻 ( R &#x3D; 20 \Omega )，電容抗 ( X_C &#x3D; 80 \Omega )  </li><li>平均功率 ( P &#x3D; \frac{40^2}{20} &#x3D; 80 ) 瓦特  </li><li>虛功率 ( Q &#x3D; \frac{40^2}{80} &#x3D; 20 ) 乏爾</li></ul></li></ul><hr><h2 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=xcIK3GDdT4c">高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
+    <content type="html"><![CDATA[<h1>AC Power Reactive Power Part F Examples</h1><p>This article provides comprehensive examples of average power and reactive power calculations in various AC circuits, including pure capacitive, RL series, and parallel RC circuits.</p><hr><h2 id="Key-Points-Summary-English">Key Points Summary (English)</h2><ul><li><p><strong>Example 1:</strong> Pure Capacitive Circuit</p><ul><li>Voltage $ v(t) = 100\sqrt{2} \sin(500t) $</li><li>Capacitive Reactance $ X_C = 50 \Omega $</li><li>Reactive Power $ Q_C = \frac{V^2}{X_C} = \frac{100^2}{50} = 200 $ VAR</li></ul></li><li><p><strong>Example 2:</strong> RL Series Circuit</p><ul><li>Voltage $ v(t) = 200\sqrt{2} \sin(377t) $</li><li>Resistance $ R = 12 \Omega $, Inductive Reactance $ X_L = 16 \Omega $</li><li>Total Impedance $ Z = 12 + j16 = 20 \angle 53^\circ $</li><li>Current $ I = \frac{V}{Z} = 10 \angle -53^\circ $ A</li><li>Average Power $ P = I^2 R = 10^2 \times 12 = 1200 $ W</li><li>Reactive Power $ Q = I^2 X_L = 10^2 \times 16 = 1600 $ VAR</li></ul></li><li><p><strong>Example 3:</strong> Parallel Resistor and Capacitor Circuit</p><ul><li>Voltage $ V = 40 \angle 0^\circ $ V</li><li>Resistance $ R = 20 \Omega $, Capacitive Reactance $ X_C = 80 \Omega $</li><li>Average Power $ P = \frac{V^2}{R} = \frac{40^2}{20} = 80 $ W</li><li>Reactive Power $ Q = \frac{V^2}{X_C} = \frac{40^2}{80} = 20 $ VAR</li></ul></li></ul><hr><h1>高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算</h1><p>本文提供多種交流電路下平均功率與虛功率的綜合計算範例，包含純電容、RL 串聯、電阻與電容並聯等情境。</p><hr><h2 id="重點歸納（中文）">重點歸納（中文）</h2><ul><li><p><strong>範例一</strong>：純電容電路</p><ul><li>電壓 $ v(t) = 100\sqrt{2} \sin(500t) $</li><li>電容抗 $ X_C = 50 \Omega $</li><li>虛功率 $ Q_C = \frac{100^2}{50} = 200 $ 乏爾</li></ul></li><li><p><strong>範例二</strong>：RL串聯電路</p><ul><li>電壓 $ v(t) = 200\sqrt{2} \sin(377t) $</li><li>電阻 $ R = 12 \Omega $，電感抗 $ X_L = 16 \Omega $</li><li>總阻抗 $ Z = 12 + j16 = 20 \angle 53^\circ $</li><li>電流 $ I = \frac{V}{Z} = 10 \angle -53^\circ $ 安培</li><li>平均功率 $ P = 10^2 \times 12 = 1200 $ 瓦特</li><li>虛功率 $ Q = 10^2 \times 16 = 1600 $ 乏爾</li></ul></li><li><p><strong>範例三</strong>：電阻與電容並聯電路</p><ul><li>電壓 $ V = 40 \angle 0^\circ $ 伏特</li><li>電阻 $ R = 20 \Omega $，電容抗 $ X_C = 80 \Omega $</li><li>平均功率 $ P = \frac{40^2}{20} = 80 $ 瓦特</li><li>虛功率 $ Q = \frac{40^2}{80} = 20 $ 乏爾</li></ul></li></ul><hr><h2 id="YouTube-影片連結">YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=xcIK3GDdT4c">高中基本電學_交流電功率_虛功率_PART F 範例：平均功率、虛功率綜合計算</a></p><hr><p><em>本文發布日期：2025-08-03</em></p>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;AC-Power-Reactive-Power-Part-F-Examples&quot;&gt;&lt;a href=&quot;#AC-Power-Reactive-Power-Part-F-Examples&quot; class=&quot;headerlink&quot; title=&quot;AC Power React</summary>
+    <summary type="html">&lt;h1&gt;AC Power Reactive Power Part F Examples&lt;/h1&gt;
+&lt;p&gt;This article provides comprehensive examples of average power and reactive power calcula</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
+  </entry>
+  
+  <entry>
+    <title>Power Characteristics of Pure Capacitive AC Circuit</title>
+    <link href="https://bill55tt.github.io/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/"/>
+    <id>https://bill55tt.github.io/2025/08/03/pure-capacitive-ac-circuit-power-characteristics/</id>
+    <published>2025-08-03T04:00:00.000Z</published>
+    <updated>2026-03-01T14:55:00.797Z</updated>
     
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
+    <content type="html"><![CDATA[<h1>Power Characteristics of Pure Capacitive AC Circuit</h1><p>This article summarizes the power characteristics of pure capacitive AC circuits, including phase difference, average power, reactive power, and waveform properties.</p><hr><h2 id="Key-Points-Summary-English">Key Points Summary (English)</h2><ol><li><strong>Voltage and current in a pure capacitive AC circuit have a phase difference of -90 degrees</strong>, with current leading voltage by 90 degrees.</li><li><strong>Average power is zero</strong> because positive and negative power waves cancel out; pure capacitors do not consume average power.</li><li><strong>Reactive power $Q_c$ formulas</strong>:<ul><li>$Q_c = VI = I^2 X_c = \frac{V^2}{X_c}$</li></ul></li><li><strong>Instantaneous maximum power $P_{max} = VI$</strong> and minimum power $P_{min} = -VI$**.</li><li><strong>Power frequency is twice the source frequency</strong>.</li><li><strong>Power waveforms of pure inductors and capacitors differ by 180 degrees, being opposite in phase</strong>.</li><li><strong>When inductors and capacitors coexist in a circuit, their reactive powers subtract</strong>.</li></ol><hr><h1>純電容交流電路之功率特性</h1><p>本文整理純電容交流電路的功率特性，包括相位差、平均功率、虛功率與波形特性。</p><hr><h2 id="重點歸納（中文）">重點歸納（中文）</h2><ol><li><strong>純電容交流電路的電壓與電流相位差為 -90度</strong>，電流超前電壓90度。</li><li><strong>平均功率為零</strong>，因為正負功率波形相互抵銷，純電容不消耗平均功率。</li><li><strong>虛功率 $Q_c$ 計算公式</strong>：<ul><li>$Q_c = VI = I^2 X_c = \frac{V^2}{X_c}$</li></ul></li><li><strong>瞬間最大功率 $P_{max} = VI$</strong>，瞬間最小功率 $P_{min} = -VI$。</li><li><strong>功率頻率為電源頻率的兩倍</strong>。</li><li><strong>純電感與純電容功率波形相差180度，互為反向</strong>。</li><li><strong>電路中同時有電感與電容時，虛功率做相減運算</strong>。</li></ol><hr><h2 id="YouTube-影片連結">YouTube 影片連結</h2><p><a href="https://www.youtube.com/watch?v=wkXEhpDtL-Y">點此觀看影片及自動翻譯</a></p>]]></content>
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
     
-    <category term="綜合範例" scheme="https://bill55tt.github.io/tags/%E7%B6%9C%E5%90%88%E7%AF%84%E4%BE%8B/"/>
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;Power Characteristics of Pure Capacitive AC Circuit&lt;/h1&gt;
+&lt;p&gt;This article summarizes the power characteristics of pure capacitive AC circ</summary>
+        
+      
+    
+    
+    
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
+    
+    
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -416,35 +335,27 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-comprehensive-practice-part-e/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-comprehensive-practice-part-e/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.136Z</updated>
+    <updated>2026-02-20T07:20:54.940Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Comprehensive Practice of AC Circuit Power (Part E Example)</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Use given time-domain waveforms to construct phasors and compute PF, S, P, and Q.</li><li><strong>Why it matters</strong>: Connect time-domain signals to phasor-domain analysis for power calculations.</li><li><strong>What you’ll learn</strong>: Convert cos to sin with a phase shift, identify load type, and compute power quantities.</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul><li>Given:<ul><li>( v(t) &#x3D; 200\sqrt{2} \cos(500t) )</li><li>( i(t) &#x3D; 20\sqrt{2} \sin(500t) )</li></ul></li><li>Phase relation:<ul><li>( v(t) &#x3D; 200\sqrt{2} \sin(500t + 90^\circ) )</li><li>Voltage phasor: ( 200 \angle 90^\circ )</li><li>Current phasor: ( 20 \angle 0^\circ )</li><li>( \Delta\theta &#x3D; 90^\circ ) → current lags 90° → pure inductive load.</li></ul></li><li>Load type and value:<ul><li>Pure inductive</li><li>( X_L &#x3D; V&#x2F;I &#x3D; 10,\Omega )</li><li>( L &#x3D; X_L&#x2F;\omega &#x3D; 10&#x2F;500 &#x3D; 20,\text{mH} )</li></ul></li><li>PF: ( \cos 90^\circ &#x3D; 0 ) → PF &#x3D; 0 (lagging)</li><li>Apparent power: ( S &#x3D; V I &#x3D; 200 \times 20 &#x3D; 4000 ) VA</li><li>Active power: ( P &#x3D; VI\cos\theta &#x3D; 0 )</li><li>Reactive power: ( Q &#x3D; VI\sin\theta &#x3D; 4000 ) var</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">AC Power Comprehensive Practice – Part E</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>交流電路功率綜合練習（Part E 範例）</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：由時域波形建立相量，並計算 PF、S、P、Q。</li><li><strong>為何重要</strong>：將時域訊號與相量分析連結，完成功率計算。</li><li><strong>你將學到</strong>：將 cos 轉為 sin 並加入相位、判定負載型態、計算各功率量。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>已知：<ul><li>( v(t) &#x3D; 200\sqrt{2} \cos(500t) )</li><li>( i(t) &#x3D; 20\sqrt{2} \sin(500t) )</li></ul></li><li>相位關係：<ul><li>( v(t) &#x3D; 200\sqrt{2} \sin(500t + 90^\circ) )</li><li>電壓相量：( 200 \angle 90^\circ )</li><li>電流相量：( 20 \angle 0^\circ )</li><li>相位差 (90^\circ)：電流滯後 90° → 純電感負載</li></ul></li><li>負載種類與數值：<ul><li>純電感</li><li>( X_L &#x3D; V&#x2F;I &#x3D; 10,\Omega )</li><li>( L &#x3D; X_L&#x2F;\omega &#x3D; 10&#x2F;500 &#x3D; 20,\text{mH} )</li></ul></li><li>功率因數：( \cos 90^\circ &#x3D; 0 ) → PF &#x3D; 0（滯後）</li><li>視在功率：( S &#x3D; V I &#x3D; 200 \times 20 &#x3D; 4000 ) VA</li><li>平均功率：( P &#x3D; VI\cos\theta &#x3D; 0 )</li><li>無功功率：( Q &#x3D; VI\sin\theta &#x3D; 4000 ) var</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">@交流電路功率綜合練習 Part E</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">https://www.youtube.com/watch?v=dj0F-Pw0BS4</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Comprehensive Practice of AC Circuit Power (Part E Example)</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Use given time-domain waveforms to construct phasors and compute PF, S, P, and Q.</li><li><strong>Why it matters</strong>: Connect time-domain signals to phasor-domain analysis for power calculations.</li><li><strong>What you’ll learn</strong>: Convert cos to sin with a phase shift, identify load type, and compute power quantities.</li></ul><h3 id="Key-Points">Key Points</h3><ul><li>Given:<ul><li>$ v(t) = 200\sqrt{2} \cos(500t) $</li><li>$ i(t) = 20\sqrt{2} \sin(500t) $</li></ul></li><li>Phase relation:<ul><li>$ v(t) = 200\sqrt{2} \sin(500t + 90^\circ) $</li><li>Voltage phasor: $ 200 \angle 90^\circ $</li><li>Current phasor: $ 20 \angle 0^\circ $</li><li>$ \Delta\theta = 90^\circ $ → current lags 90° → pure inductive load.</li></ul></li><li>Load type and value:<ul><li>Pure inductive</li><li>$ X_L = V/I = 10,\Omega $</li><li>$ L = X_L/\omega = 10/500 = 20,\text{mH} $</li></ul></li><li>PF: $ \cos 90^\circ = 0 $ → PF = 0 (lagging)</li><li>Apparent power: $ S = V I = 200 \times 20 = 4000 $ VA</li><li>Active power: $ P = VI\cos\theta = 0 $</li><li>Reactive power: $ Q = VI\sin\theta = 4000 $ var</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">AC Power Comprehensive Practice – Part E</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>交流電路功率綜合練習（Part E 範例）</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：由時域波形建立相量，並計算 PF、S、P、Q。</li><li><strong>為何重要</strong>：將時域訊號與相量分析連結，完成功率計算。</li><li><strong>你將學到</strong>：將 cos 轉為 sin 並加入相位、判定負載型態、計算各功率量。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>已知：<ul><li>$ v(t) = 200\sqrt{2} \cos(500t) $</li><li>$ i(t) = 20\sqrt{2} \sin(500t) $</li></ul></li><li>相位關係：<ul><li>$ v(t) = 200\sqrt{2} \sin(500t + 90^\circ) $</li><li>電壓相量：$ 200 \angle 90^\circ $</li><li>電流相量：$ 20 \angle 0^\circ $</li><li>相位差 $90^\circ$：電流滯後 90° → 純電感負載</li></ul></li><li>負載種類與數值：<ul><li>純電感</li><li>$ X_L = V/I = 10,\Omega $</li><li>$ L = X_L/\omega = 10/500 = 20,\text{mH} $</li></ul></li><li>功率因數：$ \cos 90^\circ = 0 $ → PF = 0（滯後）</li><li>視在功率：$ S = V I = 200 \times 20 = 4000 $ VA</li><li>平均功率：$ P = VI\cos\theta = 0 $</li><li>無功功率：$ Q = VI\sin\theta = 4000 $ var</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">@交流電路功率綜合練習 Part E</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=dj0F-Pw0BS4">https://www.youtube.com/watch?v=dj0F-Pw0BS4</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Comprehensive Practice of AC Circuit Power (Part E Exampl</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="無功功率" scheme="https://bill55tt.github.io/tags/%E7%84%A1%E5%8A%9F%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="相量" scheme="https://bill55tt.github.io/tags/%E7%9B%B8%E9%87%8F/"/>
-    
-    <category term="純電感" scheme="https://bill55tt.github.io/tags/%E7%B4%94%E9%9B%BB%E6%84%9F/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -453,35 +364,27 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-part-b-type1-pt-qt-st-pf/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-part-b-type1-pt-qt-st-pf/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.204Z</updated>
+    <updated>2026-02-20T07:20:54.944Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering – AC Power – PART B Example: PT, QT, ST, and PF (Circuit Diagram Type 1)</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Compute total active, reactive, and apparent power plus PF from a multi-branch circuit.</li><li><strong>Why it matters</strong>: Aggregating branch P and Q correctly is essential to get the overall PF right.</li><li><strong>What you’ll learn</strong>: Branch RMS currents, branch P&#x2F;Q, totals PT&#x2F;QT, and ST, PF derivation.</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul><li>Problem type: Circuit diagram Type 1 → find PT, QT, ST, PF.</li><li>Currents:<ul><li>Source RMS voltage &#x3D; 200 V.</li><li>Each branch impedance &#x3D; 20 Ω → ( I_1 &#x3D; I_2 &#x3D; I_3 &#x3D; 10 ) A (RMS).</li></ul></li><li>Total Active Power (P_T):<ul><li>( P_1 &#x3D; I_1^2 \times 20 &#x3D; 10^2 \times 20 &#x3D; 2000 ) W</li><li>( P_2 &#x3D; I_2^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li><li>( P_3 &#x3D; I_3^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li><li>( P_T &#x3D; 2000 + 1600 + 1600 &#x3D; 5200 ) W</li></ul></li><li>Total Reactive Power (Q_T):<ul><li>Inductive: ( Q_L &#x3D; I_2^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li><li>Capacitive: ( Q_C &#x3D; I_3^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li><li>( Q_T &#x3D; |Q_L - Q_C| &#x3D; 0 ) var</li></ul></li><li>Total Apparent Power (S_T):<ul><li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} &#x3D; \sqrt{5200^2 + 0} &#x3D; 5200 ) VA</li></ul></li><li>Power Factor (PF):<ul><li>( PF &#x3D; P_T &#x2F; S_T &#x3D; 5200&#x2F;5200 &#x3D; 1 )</li></ul></li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=GSbtkmsxMag">PART B – Type 1 Example: PT&#x2F;QT&#x2F;ST&#x2F;PF</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_PART B 範例：PT&#x2F;QT&#x2F;ST 與 PF（電路圖題型一）</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：由多支路電路計算總平均功率、總虛功率、總視在功率與功率因數。</li><li><strong>為何重要</strong>：正確彙總各支路的 P 與 Q 才能得到正確的整體 PF。</li><li><strong>你將學到</strong>：求支路電流、支路 P&#x2F;Q，加總得到 PT&#x2F;QT，再求 ST 與 PF。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>題型：電路圖題型一，求 PT、QT、ST、PF。</li><li>電流計算：<ul><li>電源電壓有效值 200 V。</li><li>各支路阻抗皆 20 Ω → ( I_1 &#x3D; I_2 &#x3D; I_3 &#x3D; 10 ) A（有效值）。</li></ul></li><li>總平均功率 (P_T)：<ul><li>( P_1 &#x3D; I_1^2 \times 20 &#x3D; 10^2 \times 20 &#x3D; 2000 ) W</li><li>( P_2 &#x3D; I_2^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li><li>( P_3 &#x3D; I_3^2 \times 16 &#x3D; 10^2 \times 16 &#x3D; 1600 ) W</li><li>( P_T &#x3D; 2000 + 1600 + 1600 &#x3D; 5200 ) W</li></ul></li><li>總虛功率 (Q_T)：<ul><li>電感：( Q_L &#x3D; I_2^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li><li>電容：( Q_C &#x3D; I_3^2 \times 12 &#x3D; 10^2 \times 12 &#x3D; 1200 ) var</li><li>( Q_T &#x3D; |Q_L - Q_C| &#x3D; 0 ) var</li></ul></li><li>總視在功率 (S_T)：<ul><li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} &#x3D; \sqrt{5200^2 + 0} &#x3D; 5200 ) VA</li></ul></li><li>功率因數 (PF)：<ul><li>( PF &#x3D; P_T &#x2F; S_T &#x3D; 5200&#x2F;5200 &#x3D; 1 )</li></ul></li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=GSbtkmsxMag">@PART B 題型一：PT&#x2F;QT&#x2F;ST&#x2F;PF</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=GSbtkmsxMag">https://www.youtube.com/watch?v=GSbtkmsxMag</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Basic Electrical Engineering – AC Power – PART B Example: PT, QT, ST, and PF (Circuit Diagram Type 1)</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Compute total active, reactive, and apparent power plus PF from a multi-branch circuit.</li><li><strong>Why it matters</strong>: Aggregating branch P and Q correctly is essential to get the overall PF right.</li><li><strong>What you’ll learn</strong>: Branch RMS currents, branch P/Q, totals PT/QT, and ST, PF derivation.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ul><li>Problem type: Circuit diagram Type 1 → find PT, QT, ST, PF.</li><li>Currents:<ul><li>Source RMS voltage = 200 V.</li><li>Each branch impedance = 20 Ω → $ I_1 = I_2 = I_3 = 10 $ A (RMS).</li></ul></li><li>Total Active Power $P_T$:<ul><li>$ P_1 = I_1^2 \times 20 = 10^2 \times 20 = 2000 $ W</li><li>$ P_2 = I_2^2 \times 16 = 10^2 \times 16 = 1600 $ W</li><li>$ P_3 = I_3^2 \times 16 = 10^2 \times 16 = 1600 $ W</li><li>$ P_T = 2000 + 1600 + 1600 = 5200 $ W</li></ul></li><li>Total Reactive Power $Q_T$:<ul><li>Inductive: $ Q_L = I_2^2 \times 12 = 10^2 \times 12 = 1200 $ var</li><li>Capacitive: $ Q_C = I_3^2 \times 12 = 10^2 \times 12 = 1200 $ var</li><li>$ Q_T = |Q_L - Q_C| = 0 $ var</li></ul></li><li>Total Apparent Power $S_T$:<ul><li>$ S_T = \sqrt{P_T^2 + Q_T^2} = \sqrt{5200^2 + 0} = 5200 $ VA</li></ul></li><li>Power Factor $PF$:<ul><li>$ PF = P_T / S_T = 5200/5200 = 1 $</li></ul></li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=GSbtkmsxMag">PART B – Type 1 Example: PT/QT/ST/PF</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>高中基本電學_交流電功率_PART B 範例：PT/QT/ST 與 PF（電路圖題型一）</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：由多支路電路計算總平均功率、總虛功率、總視在功率與功率因數。</li><li><strong>為何重要</strong>：正確彙總各支路的 P 與 Q 才能得到正確的整體 PF。</li><li><strong>你將學到</strong>：求支路電流、支路 P/Q，加總得到 PT/QT，再求 ST 與 PF。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>題型：電路圖題型一，求 PT、QT、ST、PF。</li><li>電流計算：<ul><li>電源電壓有效值 200 V。</li><li>各支路阻抗皆 20 Ω → $ I_1 = I_2 = I_3 = 10 $ A（有效值）。</li></ul></li><li>總平均功率 $P_T$：<ul><li>$ P_1 = I_1^2 \times 20 = 10^2 \times 20 = 2000 $ W</li><li>$ P_2 = I_2^2 \times 16 = 10^2 \times 16 = 1600 $ W</li><li>$ P_3 = I_3^2 \times 16 = 10^2 \times 16 = 1600 $ W</li><li>$ P_T = 2000 + 1600 + 1600 = 5200 $ W</li></ul></li><li>總虛功率 $Q_T$：<ul><li>電感：$ Q_L = I_2^2 \times 12 = 10^2 \times 12 = 1200 $ var</li><li>電容：$ Q_C = I_3^2 \times 12 = 10^2 \times 12 = 1200 $ var</li><li>$ Q_T = |Q_L - Q_C| = 0 $ var</li></ul></li><li>總視在功率 $S_T$：<ul><li>$ S_T = \sqrt{P_T^2 + Q_T^2} = \sqrt{5200^2 + 0} = 5200 $ VA</li></ul></li><li>功率因數 $PF$：<ul><li>$ PF = P_T / S_T = 5200/5200 = 1 $</li></ul></li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=GSbtkmsxMag">@PART B 題型一：PT/QT/ST/PF</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=GSbtkmsxMag">https://www.youtube.com/watch?v=GSbtkmsxMag</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Basic Electrical Engineering – AC Power – PART B Example:</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="無功功率" scheme="https://bill55tt.github.io/tags/%E7%84%A1%E5%8A%9F%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="題型解析" scheme="https://bill55tt.github.io/tags/%E9%A1%8C%E5%9E%8B%E8%A7%A3%E6%9E%90/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -490,33 +393,27 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-power-factor-improvement-part-a/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-power-factor-improvement-part-a/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:52.636Z</updated>
+    <updated>2026-02-20T07:20:54.944Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – Power Factor Improvement – PART A: Why Improve Power Factor?</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Explain the meaning of power factor (PF), the downsides of low PF, and benefits of improvement.</li><li><strong>Why it matters</strong>: PF impacts losses, voltage regulation, and equipment sizing; utilities also price by PF.</li><li><strong>What you’ll learn</strong>: Practical reasons and typical outcomes of PF correction in distribution systems.</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul><li>Meaning of PF: PF &#x3D; active power &#x2F; apparent power; PF 71% → only 71% useful, 29% reactive.</li><li>Effects of low PF:<ul><li>Higher input current → more copper, higher line losses ((I^2R)).</li><li>Larger voltage drop → degraded power quality.</li><li>Bigger capacity required for transformers&#x2F;generators.</li></ul></li><li>Benefits of improving PF:<ul><li>Save electricity bills (penalized &lt; 80%, discounts &gt; 80% vary by utility).</li><li>Reduce input current, increasing line&#x2F;transformer capacity.</li><li>Improve power quality; stabilize voltage.</li><li>Extend equipment lifespan.</li></ul></li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">Power Factor Improvement – PART A</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_功率因數之改善_PART A 為何要改善功率因數？</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：說明功率因數（PF）的意義、低 PF 的不利影響，以及改善之效益。</li><li><strong>為何重要</strong>：PF 影響線路損失、電壓調節與設備容量，亦與電費計價相關。</li><li><strong>你將學到</strong>：配電系統進行 PF 改善的實務原因與常見成效。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>功率因數意義：PF &#x3D; 有效功率 &#x2F; 視在功率；PF 71% → 有效利用 71%，29% 為虛功。</li><li>PF 低的影響：<ul><li>輸入電流提高 → 導線銅量增加、線路損失（(I^2R)）變大。</li><li>線路壓降上升 → 供電品質變差。</li><li>變壓器、發電設備所需容量提高。</li></ul></li><li>改善 PF 的好處：<ul><li>節省電費（多數電力公司 PF &lt; 80% 加收費用；&gt; 80% 依規有折扣）。</li><li>降低輸入電流，提升線路與變壓器供電能力。</li><li>改善供電品質、穩定電壓。</li><li>延長電力設備壽命。</li></ul></li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">@功率因數改善_PART A</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">https://www.youtube.com/watch?v=XWqf3MwE-n0</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>High School Basic Electricity – AC Power – Power Factor Improvement – PART A: Why Improve Power Factor?</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Explain the meaning of power factor (PF), the downsides of low PF, and benefits of improvement.</li><li><strong>Why it matters</strong>: PF impacts losses, voltage regulation, and equipment sizing; utilities also price by PF.</li><li><strong>What you’ll learn</strong>: Practical reasons and typical outcomes of PF correction in distribution systems.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ul><li>Meaning of PF: PF = active power / apparent power; PF 71% → only 71% useful, 29% reactive.</li><li>Effects of low PF:<ul><li>Higher input current → more copper, higher line losses ($I^2R$).</li><li>Larger voltage drop → degraded power quality.</li><li>Bigger capacity required for transformers/generators.</li></ul></li><li>Benefits of improving PF:<ul><li>Save electricity bills (penalized &lt; 80%, discounts &gt; 80% vary by utility).</li><li>Reduce input current, increasing line/transformer capacity.</li><li>Improve power quality; stabilize voltage.</li><li>Extend equipment lifespan.</li></ul></li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">Power Factor Improvement – PART A</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>高中基本電學_交流電功率_功率因數之改善_PART A 為何要改善功率因數？</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：說明功率因數（PF）的意義、低 PF 的不利影響，以及改善之效益。</li><li><strong>為何重要</strong>：PF 影響線路損失、電壓調節與設備容量，亦與電費計價相關。</li><li><strong>你將學到</strong>：配電系統進行 PF 改善的實務原因與常見成效。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>功率因數意義：PF = 有效功率 / 視在功率；PF 71% → 有效利用 71%，29% 為虛功。</li><li>PF 低的影響：<ul><li>輸入電流提高 → 導線銅量增加、線路損失（$I^2R$）變大。</li><li>線路壓降上升 → 供電品質變差。</li><li>變壓器、發電設備所需容量提高。</li></ul></li><li>改善 PF 的好處：<ul><li>節省電費（多數電力公司 PF &lt; 80% 加收費用；&gt; 80% 依規有折扣）。</li><li>降低輸入電流，提升線路與變壓器供電能力。</li><li>改善供電品質、穩定電壓。</li><li>延長電力設備壽命。</li></ul></li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">@功率因數改善_PART A</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=XWqf3MwE-n0">https://www.youtube.com/watch?v=XWqf3MwE-n0</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;High School Basic Electricity – AC Power – Power Factor I</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="功率品質" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%93%81%E8%B3%AA/"/>
-    
-    <category term="省電" scheme="https://bill55tt.github.io/tags/%E7%9C%81%E9%9B%BB/"/>
-    
-    <category term="電力系統" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E5%8A%9B%E7%B3%BB%E7%B5%B1/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -525,35 +422,27 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-pt-qt-st-pf-part-d-block-examples/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-pt-qt-st-pf-part-d-block-examples/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:51.952Z</updated>
+    <updated>2026-02-20T07:20:54.944Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>High School Basic Electricity – AC Power – PART D Examples: PT, QT, ST and PF Block Diagram Problems (Two Examples)</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Use block diagrams to represent load powers, then compute total PT, QT, ST, and PF.</li><li><strong>Why it matters</strong>: Block diagrams help visualize contributions of different loads and avoid sign mistakes in Q.</li><li><strong>What you’ll learn</strong>: Summation strategies for PT&#x2F;QT, relation to ST, and PF interpretation (leading vs. lagging).</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul><li><strong>Block Diagram Problem Type</strong>: Represent powers per load to streamline total calculations.</li><li><strong>Total Active Power (PT)</strong>: Sum of all loads’ active powers.</li><li><strong>Total Reactive Power (QT)</strong>: Absolute difference between inductive and capacitive reactive powers.</li><li><strong>Total Apparent Power (ST)</strong>: ( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} ).</li><li><strong>Power Factor (PF)</strong>: ( PF &#x3D; \dfrac{P_T}{S_T} ), label as leading or lagging.</li><li><strong>Example 1</strong>: Compute PT, QT, ST, PF directly from given blocks.</li><li><strong>Example 2</strong>: Infer missing values via PF–S relation before summing totals.</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">AC Power – PART D: Block Diagram Examples for PT&#x2F;QT&#x2F;ST&#x2F;PF</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_PART D 範例：PT、QT、ST 及 PF 方塊圖題型（二範例）</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：用方塊圖呈現各負載功率，進而計算總 PT、QT、ST 與 PF。</li><li><strong>為何重要</strong>：方塊圖可清楚看出各負載的貢獻，避免 Q 正負號混淆。</li><li><strong>你將學到</strong>：PT&#x2F;QT 加總策略、與 ST 之關係，以及 PF（超前&#x2F;滯後）的判讀。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li><strong>方塊圖題型介紹</strong>：以方塊圖表示負載功率，方便計算總功率。</li><li><strong>總平均功率 PT 計算</strong>：將各負載平均功率相加。</li><li><strong>總虛功率 QT 計算</strong>：電感虛功率減去電容虛功率的絕對值。</li><li><strong>總視在功率 ST 計算</strong>：( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )。</li><li><strong>功率因數 PF 計算</strong>：( PF &#x3D; \dfrac{P_T}{S_T} )，並判斷超前或滯後。</li><li><strong>範例一</strong>：依方塊圖數據直接計算 PT、QT、ST、PF。</li><li><strong>範例二</strong>：部分數據缺失，先用 PF 與視在功率關係間接求未知功率，再計算總功率與功率因數。</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">@高中基本電學_交流電功率_PART D：PT&#x2F;QT&#x2F;ST&#x2F;PF 方塊圖範例</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">https://www.youtube.com/watch?v=pHsVx-Z3WWM</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>High School Basic Electricity – AC Power – PART D Examples: PT, QT, ST and PF Block Diagram Problems (Two Examples)</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Use block diagrams to represent load powers, then compute total PT, QT, ST, and PF.</li><li><strong>Why it matters</strong>: Block diagrams help visualize contributions of different loads and avoid sign mistakes in Q.</li><li><strong>What you’ll learn</strong>: Summation strategies for PT/QT, relation to ST, and PF interpretation (leading vs. lagging).</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ul><li><strong>Block Diagram Problem Type</strong>: Represent powers per load to streamline total calculations.</li><li><strong>Total Active Power (PT)</strong>: Sum of all loads’ active powers.</li><li><strong>Total Reactive Power (QT)</strong>: Absolute difference between inductive and capacitive reactive powers.</li><li><strong>Total Apparent Power (ST)</strong>: $ S_T = \sqrt{P_T^2 + Q_T^2} $.</li><li><strong>Power Factor (PF)</strong>: $ PF = \frac{P_T}{S_T} $, label as leading or lagging.</li><li><strong>Example 1</strong>: Compute PT, QT, ST, PF directly from given blocks.</li><li><strong>Example 2</strong>: Infer missing values via PF–S relation before summing totals.</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">AC Power – PART D: Block Diagram Examples for PT/QT/ST/PF</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>高中基本電學_交流電功率_PART D 範例：PT、QT、ST 及 PF 方塊圖題型（二範例）</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：用方塊圖呈現各負載功率，進而計算總 PT、QT、ST 與 PF。</li><li><strong>為何重要</strong>：方塊圖可清楚看出各負載的貢獻，避免 Q 正負號混淆。</li><li><strong>你將學到</strong>：PT/QT 加總策略、與 ST 之關係，以及 PF（超前/滯後）的判讀。</li></ul><h3 id="重點統整">重點統整</h3><ul><li><strong>方塊圖題型介紹</strong>：以方塊圖表示負載功率，方便計算總功率。</li><li><strong>總平均功率 PT 計算</strong>：將各負載平均功率相加。</li><li><strong>總虛功率 QT 計算</strong>：電感虛功率減去電容虛功率的絕對值。</li><li><strong>總視在功率 ST 計算</strong>：$ S_T = \sqrt{P_T^2 + Q_T^2} $。</li><li><strong>功率因數 PF 計算</strong>：$ PF = \frac{P_T}{S_T} $，並判斷超前或滯後。</li><li><strong>範例一</strong>：依方塊圖數據直接計算 PT、QT、ST、PF。</li><li><strong>範例二</strong>：部分數據缺失，先用 PF 與視在功率關係間接求未知功率，再計算總功率與功率因數。</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">@高中基本電學_交流電功率_PART D：PT/QT/ST/PF 方塊圖範例</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=pHsVx-Z3WWM">https://www.youtube.com/watch?v=pHsVx-Z3WWM</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;High School Basic Electricity – AC Power – PART D Example</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="題型解析" scheme="https://bill55tt.github.io/tags/%E9%A1%8C%E5%9E%8B%E8%A7%A3%E6%9E%90/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -562,35 +451,27 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a-20250803/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a-20250803/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.236Z</updated>
+    <updated>2026-02-20T07:20:54.948Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering – AC Power: Total Active Power (PT), Total Reactive Power (QT), Total Apparent Power (ST), and Power Factor (PF) Calculation Steps – PART A</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: A structured procedure to compute PT, QT, ST, and PF, including multi-branch circuits.</li><li><strong>Why it matters</strong>: Avoids phase mistakes by summing branch powers correctly before deriving system PF.</li><li><strong>What you’ll learn</strong>: From branch RMS currents → branch P&#x2F;Q → totals PT&#x2F;QT → ST and PF.</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul><li>( S &#x3D; V I )</li><li>( P &#x3D; S\cos\theta )</li><li>( Q &#x3D; S\sin\theta )</li><li>( PF &#x3D; \cos\theta )</li><li>Complex circuits: first find each branch RMS current, then compute each branch’s (P_i, Q_i)</li><li>( P_T &#x3D; \sum P_i )</li><li>( Q_T &#x3D; |Q_L - Q_C| )</li><li>( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li><li>( PF &#x3D; P_T&#x2F;S_T )</li><li>Inductive loads → lagging PF; capacitive loads → leading PF</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">PT&#x2F;QT&#x2F;ST &amp; PF – Steps (PART A)</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_總平均功率PT、總虛功率QT、總視在功率ST及功率因數PF求解步驟_PART A</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：以流程化方式求 PT、QT、ST 與 PF，並適用於多支路電路。</li><li><strong>為何重要</strong>：先分支計算、再總結，可避免相位誤判並正確求得整體 PF。</li><li><strong>你將學到</strong>：從各支路電流有效值 → 支路 (P_i&#x2F;Q_i) → 總 (P_T&#x2F;Q_T) → (S_T)、(PF)。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>視在功率：( S &#x3D; V I )</li><li>平均功率：( P &#x3D; S\cos\theta )</li><li>虛功率：( Q &#x3D; S\sin\theta )</li><li>功率因數：( PF &#x3D; \cos\theta )</li><li>複雜電路：先求各支路電流有效值，再計算各支路 (P_i)、(Q_i)</li><li>總平均功率：( P_T &#x3D; \sum P_i )</li><li>總虛功率：( Q_T &#x3D; |Q_L - Q_C| )</li><li>總視在功率：( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li><li>功率因數：( PF &#x3D; P_T&#x2F;S_T )</li><li>負載性質：電感性→滯後、電容性→超前</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">@PT&#x2F;QT&#x2F;ST 與 PF 求解步驟（PART A）</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">https://www.youtube.com/watch?v=-f8dEnT8nR8</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Basic Electrical Engineering – AC Power: Total Active Power (PT), Total Reactive Power (QT), Total Apparent Power (ST), and Power Factor (PF) Calculation Steps – PART A</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: A structured procedure to compute PT, QT, ST, and PF, including multi-branch circuits.</li><li><strong>Why it matters</strong>: Avoids phase mistakes by summing branch powers correctly before deriving system PF.</li><li><strong>What you’ll learn</strong>: From branch RMS currents → branch P/Q → totals PT/QT → ST and PF.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ul><li>$ S = V I $</li><li>$ P = S\cos\theta $</li><li>$ Q = S\sin\theta $</li><li>$ PF = \cos\theta $</li><li>Complex circuits: first find each branch RMS current, then compute each branch’s $P_i, Q_i$</li><li>$ P_T = \sum P_i $</li><li>$ Q_T = |Q_L - Q_C| $</li><li>$ S_T = \sqrt{P_T^2 + Q_T^2} $</li><li>$ PF = P_T/S_T $</li><li>Inductive loads → lagging PF; capacitive loads → leading PF</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">PT/QT/ST &amp; PF – Steps (PART A)</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>高中基本電學_交流電功率_總平均功率PT、總虛功率QT、總視在功率ST及功率因數PF求解步驟_PART A</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：以流程化方式求 PT、QT、ST 與 PF，並適用於多支路電路。</li><li><strong>為何重要</strong>：先分支計算、再總結，可避免相位誤判並正確求得整體 PF。</li><li><strong>你將學到</strong>：從各支路電流有效值 → 支路 $P_i/Q_i$ → 總 $P_T/Q_T$ → $S_T$、$PF$。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>視在功率：$ S = V I $</li><li>平均功率：$ P = S\cos\theta $</li><li>虛功率：$ Q = S\sin\theta $</li><li>功率因數：$ PF = \cos\theta $</li><li>複雜電路：先求各支路電流有效值，再計算各支路 $P_i$、$Q_i$</li><li>總平均功率：$ P_T = \sum P_i $</li><li>總虛功率：$ Q_T = |Q_L - Q_C| $</li><li>總視在功率：$ S_T = \sqrt{P_T^2 + Q_T^2} $</li><li>功率因數：$ PF = P_T/S_T $</li><li>負載性質：電感性→滯後、電容性→超前</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">@PT/QT/ST 與 PF 求解步驟（PART A）</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">https://www.youtube.com/watch?v=-f8dEnT8nR8</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Basic Electrical Engineering – AC Power: Total Active Pow</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="無功功率" scheme="https://bill55tt.github.io/tags/%E7%84%A1%E5%8A%9F%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="計算步驟" scheme="https://bill55tt.github.io/tags/%E8%A8%88%E7%AE%97%E6%AD%A5%E9%A9%9F/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -599,35 +480,57 @@
     <link href="https://bill55tt.github.io/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a/"/>
     <id>https://bill55tt.github.io/2025/08/03/ac-power-total-pt-qt-st-pf-steps-part-a/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-22T13:35:06.511Z</updated>
+    <updated>2026-02-20T07:20:54.948Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Basic Electrical Engineering - AC Power: Total Active Power (PT), Total Reactive Power (QT), Total Apparent Power (ST), and Power Factor (PF) Calculation Steps_PART A</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: A step-by-step method to compute PT, QT, ST, and PF for AC circuits, including multi-branch cases.</li><li><strong>Why it matters</strong>: Summarizing P and Q across branches avoids phase mistakes and leads to a reliable overall PF.</li><li><strong>What you’ll learn</strong>: How to get branch RMS currents, compute branch P and Q, aggregate to PT&#x2F;QT, then obtain ST and PF.</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul><li>Apparent power: ( S &#x3D; V \times I )</li><li>Active (average) power: ( P &#x3D; S \times \cos\theta )</li><li>Reactive power: ( Q &#x3D; S \times \sin\theta )</li><li>Power factor: ( PF &#x3D; \cos\theta )</li><li>For complex circuits: first find RMS current of each branch, then compute each branch’s (P_i) and (Q_i)</li><li>Total active power: ( P_T &#x3D; \sum P_i )</li><li>Total reactive power: ( Q_T &#x3D; |Q_L - Q_C| ) (absolute difference between inductive and capacitive reactive power)</li><li>Total apparent power: ( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li><li>Power factor: ( PF &#x3D; \dfrac{P_T}{S_T} )</li><li>Inductive loads → lagging PF; capacitive loads → leading PF</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">AC Power – PT&#x2F;QT&#x2F;ST and PF Calculation Steps (PART A)</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>高中基本電學_交流電功率_總平均功率PT、總虛功率QT、總視在功率ST及功率因數PF求解步驟_PART A</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：以步驟化方式說明 AC 電路中 PT、QT、ST 與 PF 的求解流程，亦涵蓋多支路電路。</li><li><strong>為何重要</strong>：先分支後總結的方式可避免相位判斷錯誤，得到可靠的整體功率因數。</li><li><strong>你將學到</strong>：如何求各支路電流有效值、計算各支路 (P_i)、(Q_i)，再彙總得到 (P_T)、(Q_T)，進而求得 (S_T) 與 (PF)。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>視在功率：( S &#x3D; V \times I )</li><li>平均功率：( P &#x3D; S \times \cos\theta )</li><li>虛功率：( Q &#x3D; S \times \sin\theta )</li><li>功率因數：( PF &#x3D; \cos\theta )</li><li>複雜電路：先求各支路電流有效值，再計算各支路的 (P_i)、(Q_i)</li><li>總平均功率：( P_T &#x3D; \sum P_i )</li><li>總虛功率：( Q_T &#x3D; |Q_L - Q_C| )（電感與電容虛功率差的絕對值）</li><li>總視在功率：( S_T &#x3D; \sqrt{P_T^2 + Q_T^2} )</li><li>功率因數：( PF &#x3D; \dfrac{P_T}{S_T} )</li><li>負載性質：電感性→滯後 PF；電容性→超前 PF</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">@高中基本電學_交流電功率_PT&#x2F;QT&#x2F;ST 與 PF 求解步驟_PART A</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">https://www.youtube.com/watch?v=-f8dEnT8nR8</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Basic Electrical Engineering - AC Power: Total Active Power (PT), Total Reactive Power (QT), Total Apparent Power (ST), and Power Factor (PF) Calculation Steps_PART A</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: A step-by-step method to compute PT, QT, ST, and PF for AC circuits, including multi-branch cases.</li><li><strong>Why it matters</strong>: Summarizing P and Q across branches avoids phase mistakes and leads to a reliable overall PF.</li><li><strong>What you’ll learn</strong>: How to get branch RMS currents, compute branch P and Q, aggregate to PT/QT, then obtain ST and PF.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ul><li>Apparent power: $ S = V \times I $</li><li>Active (average) power: $ P = S \times \cos\theta $</li><li>Reactive power: $ Q = S \times \sin\theta $</li><li>Power factor: $ PF = \cos\theta $</li><li>For complex circuits: first find RMS current of each branch, then compute each branch’s $P_i$ and $Q_i$</li><li>Total active power: $ P_T = \sum P_i $</li><li>Total reactive power: $ Q_T = |Q_L - Q_C| $ (absolute difference between inductive and capacitive reactive power)</li><li>Total apparent power: $ S_T = \sqrt{P_T^2 + Q_T^2} $</li><li>Power factor: $ PF = \frac{P_T}{S_T} $</li><li>Inductive loads → lagging PF; capacitive loads → leading PF</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">AC Power – PT/QT/ST and PF Calculation Steps (PART A)</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>高中基本電學_交流電功率_總平均功率PT、總虛功率QT、總視在功率ST及功率因數PF求解步驟_PART A</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：以步驟化方式說明 AC 電路中 PT、QT、ST 與 PF 的求解流程，亦涵蓋多支路電路。</li><li><strong>為何重要</strong>：先分支後總結的方式可避免相位判斷錯誤，得到可靠的整體功率因數。</li><li><strong>你將學到</strong>：如何求各支路電流有效值、計算各支路 $P_i$、$Q_i$，再彙總得到 $P_T$、$Q_T$，進而求得 $S_T$ 與 $PF$。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>視在功率：$ S = V \times I $</li><li>平均功率：$ P = S \times \cos\theta $</li><li>虛功率：$ Q = S \times \sin\theta $</li><li>功率因數：$ PF = \cos\theta $</li><li>複雜電路：先求各支路電流有效值，再計算各支路的 $P_i$、$Q_i$</li><li>總平均功率：$ P_T = \sum P_i $</li><li>總虛功率：$ Q_T = |Q_L - Q_C| $（電感與電容虛功率差的絕對值）</li><li>總視在功率：$ S_T = \sqrt{P_T^2 + Q_T^2} $</li><li>功率因數：$ PF = \frac{P_T}{S_T} $</li><li>負載性質：電感性→滯後 PF；電容性→超前 PF</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">@高中基本電學_交流電功率_PT/QT/ST 與 PF 求解步驟_PART A</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=-f8dEnT8nR8">https://www.youtube.com/watch?v=-f8dEnT8nR8</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Basic Electrical Engineering - AC Power: Total Active Pow</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
+  </entry>
+  
+  <entry>
+    <title>Example Power Factor 10-6 Part C</title>
+    <link href="https://bill55tt.github.io/2025/08/03/example-power-factor-10-6-part-c/"/>
+    <id>https://bill55tt.github.io/2025/08/03/example-power-factor-10-6-part-c/</id>
+    <published>2025-08-03T01:00:00.000Z</published>
+    <updated>2026-02-20T07:20:54.956Z</updated>
     
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Example: Power Factor (10-6 Part C)</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Solve a PF example given voltage and current phasors; compute θ, PF, S, and P.</li><li><strong>Why it matters</strong>: Reinforces the relationship among phasors, power factor, apparent and active power.</li><li><strong>What you’ll learn</strong>: How to extract the phase angle, determine PF type (lagging/leading), and compute S and P.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ol><li>Hello students, welcome to the Basic Electricity MOOC by Teacher Chen Zhengxu.</li><li>In this unit we introduce 10-6 Part C: an example of power factor.</li><li>Given phasors: voltage $100\angle 30^\circ$, current $10\angle -30^\circ$.</li><li>Q1: Find the phase angle $\theta$ between voltage and current.</li><li>Q2: Find the power factor (PF).</li><li>Q3: Find apparent power $S$.</li><li>Q4: Find active power $P$.</li><li>With 30° (V) and −30° (I), $\theta = 30^\circ - (−30^\circ) = 60^\circ$.</li><li>60° indicates current lags voltage by 60° (inductive).</li><li>PF = $\cos 60^\circ = 0.5$, lagging.</li><li>$ S = VI = 100 \times 10 = 1000 $ VA.</li><li>$ P = S \times PF = 1000 \times 0.5 = 500 $ W.</li><li>Alternatively, $ P = VI\cos\theta $ gives the same 500 W.</li><li>Summary: How to obtain $\theta$, PF, $S$, and $P$ from given phasors.</li></ol><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=kdwAQzPwpwI">Example: Power Factor (10-6 Part C)</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>範例功率因數（10-6 Part C）</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：在已知電壓、電流相量下，依序求相位角 $\theta$、PF、視在功率 S 與有功功率 P。</li><li><strong>為何重要</strong>：鞏固相量、功率因數、視在功率與平均功率的關聯。</li><li><strong>你將學到</strong>：如何從相量求出相位角、判定滯後/超前型 PF，並計算 S 與 P。</li></ul><h3 id="重點統整">重點統整</h3><ol><li>各位同學好，歡迎收看磨課師基本電學（陳政旭老師）。</li><li>本單元介紹 10-6 Part C：範例功率因數。</li><li>已知相量：電壓 $100\angle 30^\circ$、電流 $10\angle -30^\circ$。</li><li>問題一：求電壓與電流的相位角 $\theta$。</li><li>問題二：功率因數（PF）。</li><li>問題三：視在功率 $S$。</li><li>問題四：有功功率 $P$。</li><li>由 30°（V）與 −30°（I）得 $\theta = 30^\circ - (−30^\circ) = 60^\circ$。</li><li>60° 表示電流滯後電壓 60°，為電感性電路。</li><li>PF = $\cos 60^\circ = 0.5$，滯後型。</li><li>$ S = VI = 100 \times 10 = 1000 $ 伏安。</li><li>$ P = S \times PF = 1000 \times 0.5 = 500 $ 瓦。</li><li>亦可用 $ P = VI\cos\theta $ 計算，結果相同為 500 W。</li><li>小結：由既有相量求得 $\theta$、PF、$S$、$P$ 的流程。</li></ol><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=kdwAQzPwpwI">@範例功率因數（10-6 Part C）</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=kdwAQzPwpwI">https://www.youtube.com/watch?v=kdwAQzPwpwI</a></li></ul>]]></content>
     
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
     
-    <category term="計算步驟" scheme="https://bill55tt.github.io/tags/%E8%A8%88%E7%AE%97%E6%AD%A5%E9%A9%9F/"/>
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Example: Power Factor (10-6 Part C)&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
+    
+    
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -636,35 +539,27 @@
     <link href="https://bill55tt.github.io/2025/08/03/pf-effect-on-ac-circuit/"/>
     <id>https://bill55tt.github.io/2025/08/03/pf-effect-on-ac-circuit/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.120Z</updated>
+    <updated>2026-02-20T07:20:54.964Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Example: Effect of Power Factor on AC Circuit Power</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Compare apparent power and current under different PF while keeping the same active power.</li><li><strong>Why it matters</strong>: Lower PF increases current and losses; improving PF reduces capacity needs and cost.</li><li><strong>What you’ll learn</strong>: Quick PF-to-current impact using ( S &#x3D; P&#x2F;PF ) and ( I &#x3D; S&#x2F;V ).</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul><li>Source voltage ( V &#x3D; 100\angle 0^\circ ) V, active power ( P &#x3D; 1200 ) W.</li><li>If ( PF &#x3D; 0.5 ):<ul><li>( S &#x3D; 1200&#x2F;0.5 &#x3D; 2400 ) VA</li><li>( I &#x3D; 2400&#x2F;100 &#x3D; 24 ) A</li></ul></li><li>If ( PF &#x3D; 1 ):<ul><li>( S &#x3D; 1200&#x2F;1 &#x3D; 1200 ) VA</li><li>( I &#x3D; 1200&#x2F;100 &#x3D; 12 ) A</li></ul></li><li>Low PF → higher current → more losses and capacity burden.</li><li>Improving PF → lower (S) and (I) → reduced losses and cost.</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">Effect of Power Factor on AC Circuit</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>交流電功率功率因數對交流電路的影響範例</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：在相同平均功率下，比較不同 PF 對視在功率與電流的影響。</li><li><strong>為何重要</strong>：PF 低會使電流與損耗增加；改善 PF 可降低容量需求與成本。</li><li><strong>你將學到</strong>：運用 ( S &#x3D; P&#x2F;PF )、( I &#x3D; S&#x2F;V ) 快速評估 PF 對電流的影響。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>電源電壓 ( V &#x3D; 100\angle 0^\circ ) 伏特，平均功率 ( P &#x3D; 1200 ) 瓦。</li><li>若 ( PF &#x3D; 0.5 )：<ul><li>( S &#x3D; 1200&#x2F;0.5 &#x3D; 2400 ) 伏安</li><li>( I &#x3D; 2400&#x2F;100 &#x3D; 24 ) 安培</li></ul></li><li>若 ( PF &#x3D; 1 )：<ul><li>( S &#x3D; 1200&#x2F;1 &#x3D; 1200 ) 伏安</li><li>( I &#x3D; 1200&#x2F;100 &#x3D; 12 ) 安培</li></ul></li><li>PF 低 → 電流增大 → 供電負擔與成本上升。</li><li>提高 PF → 降低 (S)、(I) → 減少損耗與成本。</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">@功率因數對交流電路影響範例</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">https://www.youtube.com/watch?v=j4fp3GrNP0M</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Example: Effect of Power Factor on AC Circuit Power</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Compare apparent power and current under different PF while keeping the same active power.</li><li><strong>Why it matters</strong>: Lower PF increases current and losses; improving PF reduces capacity needs and cost.</li><li><strong>What you’ll learn</strong>: Quick PF-to-current impact using $ S = P/PF $ and $ I = S/V $.</li></ul><h3 id="Key-Points">Key Points</h3><ul><li>Source voltage $ V = 100\angle 0^\circ $ V, active power $ P = 1200 $ W.</li><li>If $ PF = 0.5 $:<ul><li>$ S = 1200/0.5 = 2400 $ VA</li><li>$ I = 2400/100 = 24 $ A</li></ul></li><li>If $ PF = 1 $:<ul><li>$ S = 1200/1 = 1200 $ VA</li><li>$ I = 1200/100 = 12 $ A</li></ul></li><li>Low PF → higher current → more losses and capacity burden.</li><li>Improving PF → lower $S$ and $I$ → reduced losses and cost.</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">Effect of Power Factor on AC Circuit</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>交流電功率功率因數對交流電路的影響範例</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：在相同平均功率下，比較不同 PF 對視在功率與電流的影響。</li><li><strong>為何重要</strong>：PF 低會使電流與損耗增加；改善 PF 可降低容量需求與成本。</li><li><strong>你將學到</strong>：運用 $ S = P/PF $、$ I = S/V $ 快速評估 PF 對電流的影響。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>電源電壓 $ V = 100\angle 0^\circ $ 伏特，平均功率 $ P = 1200 $ 瓦。</li><li>若 $ PF = 0.5 $：<ul><li>$ S = 1200/0.5 = 2400 $ 伏安</li><li>$ I = 2400/100 = 24 $ 安培</li></ul></li><li>若 $ PF = 1 $：<ul><li>$ S = 1200/1 = 1200 $ 伏安</li><li>$ I = 1200/100 = 12 $ 安培</li></ul></li><li>PF 低 → 電流增大 → 供電負擔與成本上升。</li><li>提高 PF → 降低 $S$、$I$ → 減少損耗與成本。</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">@功率因數對交流電路影響範例</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=j4fp3GrNP0M">https://www.youtube.com/watch?v=j4fp3GrNP0M</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Example: Effect of Power Factor on AC Circuit Power&lt;/stro</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="視在功率" scheme="https://bill55tt.github.io/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="平均功率" scheme="https://bill55tt.github.io/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="電流" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E6%B5%81/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   
@@ -673,72 +568,27 @@
     <link href="https://bill55tt.github.io/2025/08/03/pf-using-impedance-rl-series-parallel/"/>
     <id>https://bill55tt.github.io/2025/08/03/pf-using-impedance-rl-series-parallel/</id>
     <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.148Z</updated>
+    <updated>2026-02-20T07:20:54.968Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Calculating Power Factor (PF) Using Impedance Concept — R-L Series and Parallel Circuits</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Derive PF from impedance when phasors are not directly available, for RL series and parallel.</li><li><strong>Why it matters</strong>: PF can be inferred from circuit parameters, enabling quick estimation during design.</li><li><strong>What you’ll learn</strong>: PF formulas via (Z): series PF &#x3D; (R&#x2F;|Z|); parallel PF via (|Z|).</li></ul><h3 id="Key-Points-Summary"><a href="#Key-Points-Summary" class="headerlink" title="Key Points Summary"></a>Key Points Summary</h3><ul><li>Methods to compute PF:<ul><li>From phase angle (\theta): ( PF &#x3D; \cos\theta )</li><li>From powers: ( PF &#x3D; P&#x2F;S )</li></ul></li><li>Using impedance when (\bar{V}), (\bar{I}) are unavailable.</li><li>RL series circuit:<ul><li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li><li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li></ul></li><li>RL parallel circuit:<ul><li>Use equivalent (|Z|) to get ( PF &#x3D; \dfrac{|Z|}{R} )</li><li>With standard derivation, ( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} ) (per provided relation)</li></ul></li><li>Series vs. parallel PF: different expressions; further details in Part G.</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">PF via Impedance – RL Series&#x2F;Parallel</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：在無法直接取得相量時，利用阻抗推導 RL 串聯與並聯電路的 PF。</li><li><strong>為何重要</strong>：可由電路參數快速估算 PF，利於設計與評估。</li><li><strong>你將學到</strong>：由 (Z) 出發的 PF 公式：串聯 (PF &#x3D; R&#x2F;|Z|)，並聯由 (|Z|) 推得。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>PF 計算方式：<ul><li>由相位角 (\theta)：( PF &#x3D; \cos\theta )</li><li>由功率比：( PF &#x3D; P&#x2F;S )</li></ul></li><li>相量不可得時，改用阻抗求 PF。</li><li>R-L 串聯電路：<ul><li>( |Z| &#x3D; \sqrt{R^2 + X_L^2} )</li><li>( PF &#x3D; \dfrac{R}{\sqrt{R^2 + X_L^2}} )</li></ul></li><li>R-L 並聯電路：<ul><li>先求等效 (|Z|)，再得 ( PF &#x3D; \dfrac{|Z|}{R} )</li><li>依提供關係：( PF &#x3D; \dfrac{\sqrt{R^2 + X_L^2}}{X_L} )</li></ul></li><li>串聯與並聯之 PF 表達不同，詳見 Part G。</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">@使用阻抗觀念求 PF（RL 串&#x2F;並）</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">https://www.youtube.com/watch?v=OwJ-Cu5IQfc</a></li></ul>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
-        
-      
-    
-    
-    
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
-    
-    
-    <category term="交流電" scheme="https://bill55tt.github.io/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="串聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%B2%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
-    
-    <category term="並聯電路" scheme="https://bill55tt.github.io/tags/%E4%B8%A6%E8%81%AF%E9%9B%BB%E8%B7%AF/"/>
-    
-    <category term="阻抗" scheme="https://bill55tt.github.io/tags/%E9%98%BB%E6%8A%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>功率因數改善方法及原理 / Methods and Principles for Power Factor Improvement</title>
-    <link href="https://bill55tt.github.io/2025/08/03/power-factor-improvement-methods-20250803/"/>
-    <id>https://bill55tt.github.io/2025/08/03/power-factor-improvement-methods-20250803/</id>
-    <published>2025-08-03T01:00:00.000Z</published>
-    <updated>2025-08-23T00:34:53.252Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="English-Version"><a href="#English-Version" class="headerlink" title="English Version"></a>English Version</h2><h3 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h3><p><strong>Methods and Principles for Power Factor Improvement</strong></p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li><strong>Scope</strong>: Explain why low PF occurs, how it impacts systems, and practical correction methods.</li><li><strong>Why it matters</strong>: PF affects current, losses, voltage regulation, and equipment sizing; utilities may penalize low PF.</li><li><strong>What you’ll learn</strong>: Power triangle concepts (P&#x2F;Q&#x2F;S), capacitor compensation, and modern automatic PF controllers.</li></ul><h3 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h3><ul><li>Low PF mainly comes from inductive loads (e.g., motors) producing reactive power (Q_L).</li><li>In the power triangle, active power (P) and reactive power (Q_L) form apparent power (S).</li><li>Power factor: ( PF &#x3D; \cos\theta &#x3D; P&#x2F;S ). Larger (Q) → larger (\theta) → lower PF.</li><li>Improvement method: add a shunt capacitor near the inductive load to generate (Q_C) that offsets (Q_L).</li><li>After compensation: total reactive ( Q_T &#x3D; Q_L - Q_C ) decreases, (\theta) shrinks, PF rises.</li><li>Modern solutions often use computerized PF controllers for automatic, stepwise capacitor switching.</li></ul><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=gphs_Ijn-cY">Power Factor Improvement – Principles and Methods</a></li><li>Auto captions: <a href="https://www.youtube.com/watch?v=gphs_Ijn-cY&cc_load_policy=1">Open with captions</a></li></ul><hr><h2 id="中文版"><a href="#中文版" class="headerlink" title="中文版"></a>中文版</h2><h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><p><strong>功率因數改善方法及原理</strong></p><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ul><li><strong>主題範圍</strong>：說明 PF 偏低的原因、對系統的影響，以及常見的改善方法。</li><li><strong>為何重要</strong>：PF 影響電流大小、線損、電壓調節與設備容量；多數電力公司對低 PF 有費率機制。</li><li><strong>你將學到</strong>：功率三角形（P&#x2F;Q&#x2F;S）、電容補償的原理與實務、自動功率因數控制器的運作概念。</li></ul><h3 id="重點統整"><a href="#重點統整" class="headerlink" title="重點統整"></a>重點統整</h3><ul><li>PF 低多由電感性負載（如馬達）產生虛功率 (Q_L) 所致。</li><li>在功率三角形中，平均功率 (P) 與虛功率 (Q_L) 共同構成視在功率 (S)。</li><li>功率因數 ( PF &#x3D; \cos\theta &#x3D; P&#x2F;S )；虛功越大，(\theta) 越大，PF 越低。</li><li>改善方法：在電感性負載旁並聯電容器產生 (Q_C) 以抵消 (Q_L)。</li><li>補償後：總虛功 ( Q_T &#x3D; Q_L - Q_C ) 降低，功率因數角 (\theta) 變小，PF 提升。</li><li>現代作法多採用電腦化功率因數調整器，自動分階投入電容進行補償。</li></ul><h3 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=gphs_Ijn-cY">@功率因數改善</a></li><li>自動字幕：<a href="https://www.youtube.com/watch?v=gphs_Ijn-cY&cc_load_policy=1">@開啟字幕版本</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結"><a href="#YouTube-影片連結" class="headerlink" title="YouTube 影片連結"></a>YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=gphs_Ijn-cY">https://www.youtube.com/watch?v=gphs_Ijn-cY</a></li><li><a href="https://www.youtube.com/watch?v=gphs_Ijn-cY&cc_load_policy=1">https://www.youtube.com/watch?v=gphs_Ijn-cY&amp;cc_load_policy=1</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="English-Version">English Version</h2><h3 id="Title">Title</h3><p><strong>Calculating Power Factor (PF) Using Impedance Concept — R-L Series and Parallel Circuits</strong></p><h3 id="Introduction">Introduction</h3><ul><li><strong>Scope</strong>: Derive PF from impedance when phasors are not directly available, for RL series and parallel.</li><li><strong>Why it matters</strong>: PF can be inferred from circuit parameters, enabling quick estimation during design.</li><li><strong>What you’ll learn</strong>: PF formulas via $Z$: series PF = $R/|Z|$; parallel PF via $|Z|$.</li></ul><h3 id="Key-Points-Summary">Key Points Summary</h3><ul><li>Methods to compute PF:<ul><li>From phase angle $\theta$: $ PF = \cos\theta $</li><li>From powers: $ PF = P/S $</li></ul></li><li>Using impedance when $\bar{V}$, $\bar{I}$ are unavailable.</li><li>RL series circuit:<ul><li>$ |Z| = \sqrt{R^2 + X_L^2} $</li><li>$ PF = \frac{R}{\sqrt{R^2 + X_L^2}} $</li></ul></li><li>RL parallel circuit:<ul><li>Use equivalent $|Z|$ to get $ PF = \frac{|Z|}{R} $</li><li>With standard derivation, $ PF = \frac{\sqrt{R^2 + X_L^2}}{X_L} $ (per provided relation)</li></ul></li><li>Series vs. parallel PF: different expressions; further details in Part G.</li></ul><h3 id="Reference">Reference</h3><ul><li>YouTube: <a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">PF via Impedance – RL Series/Parallel</a></li></ul><hr><h2 id="中文版">中文版</h2><h3 id="標題">標題</h3><p><strong>使用阻抗觀念求功率因數（PF）— R-L 串聯與並聯電路</strong></p><h3 id="前言">前言</h3><ul><li><strong>主題範圍</strong>：在無法直接取得相量時，利用阻抗推導 RL 串聯與並聯電路的 PF。</li><li><strong>為何重要</strong>：可由電路參數快速估算 PF，利於設計與評估。</li><li><strong>你將學到</strong>：由 $Z$ 出發的 PF 公式：串聯 $PF = R/|Z|$，並聯由 $|Z|$ 推得。</li></ul><h3 id="重點統整">重點統整</h3><ul><li>PF 計算方式：<ul><li>由相位角 $\theta$：$ PF = \cos\theta $</li><li>由功率比：$ PF = P/S $</li></ul></li><li>相量不可得時，改用阻抗求 PF。</li><li>R-L 串聯電路：<ul><li>$ |Z| = \sqrt{R^2 + X_L^2} $</li><li>$ PF = \frac{R}{\sqrt{R^2 + X_L^2}} $</li></ul></li><li>R-L 並聯電路：<ul><li>先求等效 $|Z|$，再得 $ PF = \frac{|Z|}{R} $</li><li>依提供關係：$ PF = \frac{\sqrt{R^2 + X_L^2}}{X_L} $</li></ul></li><li>串聯與並聯之 PF 表達不同，詳見 Part G。</li></ul><h3 id="參考">參考</h3><ul><li>YouTube：<a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">@使用阻抗觀念求 PF（RL 串/並）</a></li></ul><hr><p><strong>日期：2025年08月03日</strong></p><h3 id="YouTube-影片連結">YouTube 影片連結</h3><ul><li><a href="https://www.youtube.com/watch?v=OwJ-Cu5IQfc">https://www.youtube.com/watch?v=OwJ-Cu5IQfc</a></li></ul>]]></content>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;&lt;a href=&quot;#English-Version&quot; class=&quot;headerlink&quot; title=&quot;English Version&quot;&gt;&lt;/a&gt;English Version&lt;/h2&gt;&lt;h3 id=&quot;Title&quot;&gt;&lt;a hre</summary>
+    <summary type="html">&lt;h2 id=&quot;English-Version&quot;&gt;English Version&lt;/h2&gt;
+&lt;h3 id=&quot;Title&quot;&gt;Title&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Calculating Power Factor (PF) Using Impedance Concept — R</summary>
         
       
     
     
     
-    <category term="基本電學" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/"/>
-    
-    <category term="交流電功率" scheme="https://bill55tt.github.io/categories/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/%E4%BA%A4%E6%B5%81%E9%9B%BB%E5%8A%9F%E7%8E%87/"/>
+    <category term="AC Circuits" scheme="https://bill55tt.github.io/categories/AC-Circuits/"/>
     
     
-    <category term="虛功率" scheme="https://bill55tt.github.io/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/"/>
-    
-    <category term="功率因數" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/"/>
-    
-    <category term="功率三角形" scheme="https://bill55tt.github.io/tags/%E5%8A%9F%E7%8E%87%E4%B8%89%E8%A7%92%E5%BD%A2/"/>
-    
-    <category term="電容補償" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E5%AE%B9%E8%A3%9C%E5%84%9F/"/>
-    
-    <category term="電力品質" scheme="https://bill55tt.github.io/tags/%E9%9B%BB%E5%8A%9B%E5%93%81%E8%B3%AA/"/>
+    <category term="AC Power" scheme="https://bill55tt.github.io/tags/AC-Power/"/>
     
   </entry>
   

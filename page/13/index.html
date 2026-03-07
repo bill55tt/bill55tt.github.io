@@ -80,27 +80,29 @@
   <script src="/js/third-party/statistics/lean-analytics.js" defer></script>
 
 
-<script>
-    function clickEffect(){
-    clickEffect();    
-    }
+  
 
-</script>
-<!-- 点击特效 -->
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"cdn":"//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js" defer></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {
+        delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false}
+        ],
+        throwOnError: false
+    });"></script>
+
 <script src="/js/click-effect.js"></script>
 
 <script src="/js/bilingual.js"></script>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-     crossorigin="anonymous"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "你的 AdSense 客户端 ID",
-          enable_page_level_ads: true
-     });
-</script>
-
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
@@ -141,7 +143,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">220</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">13</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">176</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li><li class="menu-item menu-item-subscribe"><a href="/subscribe/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>subscribe</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">10</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">8</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">176</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li><li class="menu-item menu-item-subscribe"><a href="/subscribe/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>subscribe</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -212,12 +214,12 @@
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">220</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -240,7 +242,7 @@
     <h3 class="widget-title">Tag Cloud</h3>
     <div id="myCanvasContainer" class="widget tagcloud">
         <canvas width="250" height="250" id="resCanvas" style="width=100%">
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Atomic-Theory/" rel="tag">Atomic Theory</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Basic-Electronics/" rel="tag">Basic Electronics</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Bilingual/" rel="tag">Bilingual</a><span class="tag-list-count">77</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CNC/" rel="tag">CNC</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Calculation/" rel="tag">Calculation</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Calculations/" rel="tag">Calculations</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Charge/" rel="tag">Charge</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Charged-Particles/" rel="tag">Charged Particles</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chemistry/" rel="tag">Chemistry</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Circuit-Analysis/" rel="tag">Circuit Analysis</a><span class="tag-list-count">30</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Circuit-Components/" rel="tag">Circuit Components</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Components/" rel="tag">Components</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductance/" rel="tag">Conductance</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductivity/" rel="tag">Conductivity</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductor/" rel="tag">Conductor</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Conductors/" rel="tag">Conductors</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Configuration/" rel="tag">Configuration</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Coulomb-s-Law/" rel="tag">Coulomb&#39;s Law</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Coupling-Coefficient/" rel="tag">Coupling Coefficient</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Current/" rel="tag">Current</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DC-Circuit/" rel="tag">DC Circuit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Definition/" rel="tag">Definition</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Delta-Y-Transformation/" rel="tag">Delta-Y Transformation</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Drilling/" rel="tag">Drilling</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Efficiency/" rel="tag">Efficiency</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electric-Energy/" rel="tag">Electric Energy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electrical/" rel="tag">Electrical</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electricity/" rel="tag">Electricity</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetic-Effect/" rel="tag">Electromagnetic Effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetic-Induction/" rel="tag">Electromagnetic Induction</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetism/" rel="tag">Electromagnetism</a><span class="tag-list-count">32</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electronics/" rel="tag">Electronics</a><span class="tag-list-count">32</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Energy/" rel="tag">Energy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Energy-Storage/" rel="tag">Energy Storage</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Equivalent-Circuits/" rel="tag">Equivalent Circuits</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Examples/" rel="tag">Examples</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Faraday-s-Law/" rel="tag">Faraday&#39;s Law</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Field-Lines/" rel="tag">Field Lines</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Fleming-s-Rule/" rel="tag">Fleming&#39;s Rule</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Function/" rel="tag">Function</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hall-Effect/" rel="tag">Hall Effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/History/" rel="tag">History</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Horsepower/" rel="tag">Horsepower</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hysteresis-Loop/" rel="tag">Hysteresis Loop</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Inductance/" rel="tag">Inductance</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Inductor/" rel="tag">Inductor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Inductors/" rel="tag">Inductors</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Kirchhoff-s-laws/" rel="tag">Kirchhoff&#39;s laws</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Long-Straight-Conductor/" rel="tag">Long Straight Conductor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Loop-Current-Method/" rel="tag">Loop Current Method</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Lorentz-Force/" rel="tag">Lorentz Force</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Effect/" rel="tag">Magnetic Effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Field/" rel="tag">Magnetic Field</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Fields/" rel="tag">Magnetic Fields</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Flux/" rel="tag">Magnetic Flux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Force/" rel="tag">Magnetic Force</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetic-Hysteresis/" rel="tag">Magnetic Hysteresis</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetism/" rel="tag">Magnetism</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Magnetization/" rel="tag">Magnetization</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Manufacturing/" rel="tag">Manufacturing</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Maximum-Power-Transfer/" rel="tag">Maximum Power Transfer</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Measurement/" rel="tag">Measurement</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mechanics/" rel="tag">Mechanics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mutual-Inductance/" rel="tag">Mutual Inductance</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Next-JS-%EF%BC%88Animation%EF%BC%89/" rel="tag">Next JS （Animation）</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Next-Theme/" rel="tag">Next Theme</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node-Voltage-Method/" rel="tag">Node Voltage Method</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Norton/" rel="tag">Norton</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Norton-s-Theorem/" rel="tag">Norton&#39;s Theorem</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Oersted/" rel="tag">Oersted</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PCB/" rel="tag">PCB</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parallel/" rel="tag">Parallel</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parallel-Circuits/" rel="tag">Parallel Circuits</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Permeability/" rel="tag">Permeability</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Physics/" rel="tag">Physics</a><span class="tag-list-count">77</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Power/" rel="tag">Power</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Powers-of-Ten/" rel="tag">Powers of Ten</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Prefixes/" rel="tag">Prefixes</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RC%E5%85%85%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RC充電電路</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RC%E6%94%BE%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RC放電電路</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RC%E9%9B%BB%E8%B7%AF/" rel="tag">RC電路</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E5%85%85%E9%9B%BB%E6%9A%AB%E6%85%8B/" rel="tag">RL充電暫態</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E5%85%85%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RL充電電路</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E6%94%BE%E9%9B%BB%E9%9B%BB%E8%B7%AF/" rel="tag">RL放電電路</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RL%E9%9B%BB%E8%B7%AF/" rel="tag">RL電路</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Resistance/" rel="tag">Resistance</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Resistivity/" rel="tag">Resistivity</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Right-Hand-Rule/" rel="tag">Right-Hand Rule</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SI/" rel="tag">SI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SMD/" rel="tag">SMD</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Self-Inductance/" rel="tag">Self-Inductance</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Series/" rel="tag">Series</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Series-Circuits/" rel="tag">Series Circuits</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Soldering/" rel="tag">Soldering</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Solenoid/" rel="tag">Solenoid</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Static-Charge/" rel="tag">Static Charge</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Structure/" rel="tag">Structure</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Superposition-Theorem/" rel="tag">Superposition Theorem</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Thevenin/" rel="tag">Thevenin</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Thevenin-s-Theorem/" rel="tag">Thevenin&#39;s Theorem</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tutorial/" rel="tag">Tutorial</a><span class="tag-list-count">20</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Units/" rel="tag">Units</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Voltage/" rel="tag">Voltage</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Watt/" rel="tag">Watt</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Wheatstone-bridge/" rel="tag">Wheatstone bridge</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Work/" rel="tag">Work</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Y-Delta-Transformation/" rel="tag">Y-Delta Transformation</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Y-delta-transformation/" rel="tag">Y-delta transformation</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/basic-electricity/" rel="tag">basic electricity</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/circuit-analysis/" rel="tag">circuit analysis</a><span class="tag-list-count">25</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/circuit-components/" rel="tag">circuit components</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/circuit-analysis/" rel="tag">circuit-analysis</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/color-code/" rel="tag">color code</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/conductance/" rel="tag">conductance</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/current-source/" rel="tag">current source</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/electric-current/" rel="tag">electric current</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/electromagnetic-induction/" rel="tag">electromagnetic-induction</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/electronics/" rel="tag">electronics</a><span class="tag-list-count">31</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/heat-effect/" rel="tag">heat effect</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/induced-emf/" rel="tag">induced-emf</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/joule-s-law/" rel="tag">joule&#39;s law</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kWh/" rel="tag">kWh</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lenz-law/" rel="tag">lenz-law</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ohm-s-law/" rel="tag">ohm&#39;s law</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/parallel-circuit/" rel="tag">parallel circuit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/parallel-circuits/" rel="tag">parallel circuits</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/physics/" rel="tag">physics</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/rc-circuit/" rel="tag">rc-circuit</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/resistance/" rel="tag">resistance</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/resistivity/" rel="tag">resistivity</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/resistors/" rel="tag">resistors</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/series-circuit/" rel="tag">series circuit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/series-circuits/" rel="tag">series circuits</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/temperature-coefficient/" rel="tag">temperature coefficient</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/transient-analysis/" rel="tag">transient-analysis</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/voltage-division/" rel="tag">voltage division</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/voltage-source/" rel="tag">voltage source</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%A6%E8%81%AF%E9%9B%BB%E8%B7%AF/" rel="tag">並聯電路</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%B2%E8%81%AF%E4%B8%A6%E8%81%AF/" rel="tag">串聯並聯</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%B2%E8%81%AF%E9%9B%BB%E8%B7%AF/" rel="tag">串聯電路</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%A4%E6%B5%81%E9%9B%BB/" rel="tag">交流電</a><span class="tag-list-count">19</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%8B%E9%9B%BB%E4%BF%82%E6%95%B8/" rel="tag">介電係數</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BD%9B%E8%90%8A%E6%98%8E%E5%8F%B3%E6%89%8B%E5%AE%9A%E5%89%87/" rel="tag">佛萊明右手定則</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BE%8B%E9%A1%8C%E8%A7%A3%E6%9E%90/" rel="tag">例題解析</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%84%B2%E8%83%BD/" rel="tag">儲能</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%85%E6%94%BE%E9%9B%BB/" rel="tag">充放電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%85%E6%94%BE%E9%9B%BB%E9%81%8E%E7%A8%8B/" rel="tag">充放電過程</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87/" rel="tag">功率</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E4%B8%89%E8%A7%92%E5%BD%A2/" rel="tag">功率三角形</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E5%93%81%E8%B3%AA/" rel="tag">功率品質</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E5%9B%A0%E6%95%B8/" rel="tag">功率因數</a><span class="tag-list-count">15</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E7%89%B9%E6%80%A7/" rel="tag">功率特性</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%9F%E7%8E%87%E8%A8%88%E7%AE%97/" rel="tag">功率計算</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F/" rel="tag">基本公式</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E6%9C%AC%E9%9B%BB%E5%AD%B8/" rel="tag">基本電學</a><span class="tag-list-count">15</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E7%A4%8E%E4%BE%8B%E9%A1%8C/" rel="tag">基礎例題</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%B3%E5%9D%87%E5%8A%9F%E7%8E%87/" rel="tag">平均功率</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%87%89%E9%9B%BB%E5%8B%A2/" rel="tag">應電勢</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%88%B4%E7%B6%AD%E5%AF%A7%E5%AE%9A%E7%90%86/" rel="tag">戴維寧定理</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8C%87%E6%95%B8%E5%87%BD%E6%95%B8/" rel="tag">指數函數</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8C%87%E6%95%B8%E5%A2%9E%E9%95%B7/" rel="tag">指數增長</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8C%87%E6%95%B8%E8%A1%B0%E6%B8%9B/" rel="tag">指數衰減</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%94%BE%E9%9B%BB%E9%81%8E%E7%A8%8B/" rel="tag">放電過程</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E5%AD%B8%E7%AF%84%E4%BE%8B/" rel="tag">教學範例</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%99%82%E9%96%93%E5%B8%B8%E6%95%B8/" rel="tag">時間常數</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9A%AB%E6%85%8B%E5%88%86%E6%9E%90/" rel="tag">暫態分析</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9A%AB%E6%85%8B%E9%9B%BB%E6%B5%81/" rel="tag">暫態電流</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9A%AB%E6%85%8B%E9%9F%BF%E6%87%89/" rel="tag">暫態響應</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%95%88%E5%80%BC/" rel="tag">有效值</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AD%90%E5%A7%86%E5%AE%9A%E5%BE%8B/" rel="tag">歐姆定律</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AD%A3%E5%BC%A6%E6%B3%A2/" rel="tag">正弦波</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%95%E6%8B%89%E7%AC%AC%E5%AE%9A%E5%BE%8B/" rel="tag">法拉第定律</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%A2%E5%BD%A2/" rel="tag">波形</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%84%A1%E5%8A%9F%E5%8A%9F%E7%8E%87/" rel="tag">無功功率</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%84%A1%E6%95%88%E5%8A%9F%E7%8E%87/" rel="tag">無效功率</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%99%BC%E9%9B%BB%E6%A9%9F/" rel="tag">發電機</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%99%BC%E9%9B%BB%E6%A9%9F%E5%8E%9F%E7%90%86/" rel="tag">發電機原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B4%E6%B5%81%E6%9A%AB%E6%85%8B/" rel="tag">直流暫態</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B8%E4%BD%8D/" rel="tag">相位</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B8%E4%BD%8D%E8%A7%92/" rel="tag">相位角</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9B%B8%E9%87%8F/" rel="tag">相量</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9C%81%E9%9B%BB/" rel="tag">省電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%9E%AC%E9%96%93%E5%8A%9F%E7%8E%87/" rel="tag">瞬間功率</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%80%E9%BB%9E%E9%9B%BB%E5%A3%93%E6%B3%95/" rel="tag">節點電壓法</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%84%E4%BE%8B/" rel="tag">範例</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%84%E4%BE%8B%E7%B7%B4%E7%BF%92/" rel="tag">範例練習</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B4%94%E9%9B%BB%E5%AE%B9/" rel="tag">純電容</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B4%94%E9%9B%BB%E6%84%9F/" rel="tag">純電感</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B4%94%E9%9B%BB%E9%98%BB/" rel="tag">純電阻</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B6%9C%E5%90%88%E7%AF%84%E4%BE%8B/" rel="tag">綜合範例</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%99%9B%E5%8A%9F%E7%8E%87/" rel="tag">虛功率</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A4%87%E6%95%B8%E5%8A%9F%E7%8E%87/" rel="tag">複數功率</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A6%96%E5%9C%A8%E5%8A%9F%E7%8E%87/" rel="tag">視在功率</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A8%88%E7%AE%97%E6%AD%A5%E9%A9%9F/" rel="tag">計算步驟</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%80%B2%E9%9A%8E%E4%BE%8B%E9%A1%8C/" rel="tag">進階例題</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%87%8D%E7%96%8A%E5%AE%9A%E7%90%86/" rel="tag">重疊定理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%98%BB%E6%8A%97/" rel="tag">阻抗</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%8A%9B%E5%93%81%E8%B3%AA/" rel="tag">電力品質</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%8A%9B%E7%B3%BB%E7%B5%B1/" rel="tag">電力系統</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%A3%93%E5%85%AC%E5%BC%8F/" rel="tag">電壓公式</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%A3%93%E8%A8%88%E7%AE%97/" rel="tag">電壓計算</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E5%99%A8/" rel="tag">電容器</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E5%99%A8%E5%85%85%E9%9B%BB/" rel="tag">電容器充電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E5%99%A8%E7%89%B9%E6%80%A7/" rel="tag">電容器特性</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E6%80%A7%E8%B2%A0%E8%BC%89/" rel="tag">電容性負載</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E8%A3%9C%E5%84%9F/" rel="tag">電容補償</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E9%87%8F/" rel="tag">電容量</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E9%9B%BB%E5%A3%93/" rel="tag">電容電壓</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E5%AE%B9%E9%9B%BB%E5%A3%93%E5%85%AC%E5%BC%8F/" rel="tag">電容電壓公式</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E5%99%A8/" rel="tag">電感器</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E5%99%A8%E5%85%85%E9%9B%BB/" rel="tag">電感器充電</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E6%80%A7%E8%B2%A0%E8%BC%89/" rel="tag">電感性負載</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%84%9F%E9%9B%BB%E5%A3%93/" rel="tag">電感電壓</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%B5%81/" rel="tag">電流</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%B5%81%E5%85%AC%E5%BC%8F/" rel="tag">電流公式</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E6%B5%81%E6%9B%B2%E7%B7%9A/" rel="tag">電流曲線</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E7%A3%81%E6%84%9F%E6%87%89/" rel="tag">電磁感應</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E8%B7%AF%E5%88%86%E6%9E%90/" rel="tag">電路分析</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%BB%E9%98%BB%E9%9B%BB%E5%A3%93/" rel="tag">電阻電壓</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A1%8C%E5%9E%8B%E8%A7%A3%E6%9E%90/" rel="tag">題型解析</a><span class="tag-list-count">3</span></li></ul>
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AC-Power/" rel="tag">AC Power</a><span class="tag-list-count">30</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Basic-Electricity/" rel="tag">Basic Electricity</a><span class="tag-list-count">49</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Bilingual/" rel="tag">Bilingual</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Circuit-Analysis/" rel="tag">Circuit Analysis</a><span class="tag-list-count">30</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electromagnetic-Induction/" rel="tag">Electromagnetic Induction</a><span class="tag-list-count">37</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Electronics/" rel="tag">Electronics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Physics/" rel="tag">Physics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Thevenin-s-Theorem/" rel="tag">Thevenin&#39;s Theorem</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Transient-Circuits/" rel="tag">Transient Circuits</a><span class="tag-list-count">20</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tutorial/" rel="tag">Tutorial</a><span class="tag-list-count">10</span></li></ul>
         </canvas>
     </div>
 </div>
@@ -305,9 +307,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2025-05-14 00:00:00 / Modified: 21:01:29" itemprop="dateCreated datePublished" datetime="2025-05-14T00:00:00+08:00">2025-05-14</time>
+      <time title="Created: 2025-05-14 00:00:00" itemprop="dateCreated datePublished" datetime="2025-05-14T00:00:00+08:00">2025-05-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2026-02-20 15:20:54" itemprop="dateModified" datetime="2026-02-20T15:20:54+08:00">2026-02-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -315,11 +323,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/" itemprop="url" rel="index"><span itemprop="name">Physics</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/Electromagnetism/" itemprop="url" rel="index"><span itemprop="name">Electromagnetism</span></a>
+          <a href="/categories/Electromagnetics/" itemprop="url" rel="index"><span itemprop="name">Electromagnetics</span></a>
         </span>
     </span>
 
@@ -356,39 +360,57 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explores the fundamental principles of charged particle motion in magnetic fields, including the Lorentz force, trajectory analysis, and practical applications.</p>
+            <h2 id="Introduction-引言">Introduction 引言</h2>
+<p>This article explores the fundamental principles of charged particle motion in magnetic fields, including the Lorentz force, trajectory analysis, and practical applications.</p>
 <p>本文探討電荷在磁場中運動的基本原理，包括洛倫茲力、運動軌跡分析以及實際應用。</p>
-<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Lorentz-Force-and-Direction-洛倫茲力與方向"><a href="#1-Lorentz-Force-and-Direction-洛倫茲力與方向" class="headerlink" title="1. Lorentz Force and Direction 洛倫茲力與方向"></a>1. Lorentz Force and Direction 洛倫茲力與方向</h3><ul>
-<li><p>A charged particle moving in a magnetic field experiences the Lorentz force, whose direction is determined by Fleming’s left-hand rule.</p>
+<h2 id="Key-Points-重點歸納">Key Points 重點歸納</h2>
+<h3 id="1-Lorentz-Force-and-Direction-洛倫茲力與方向">1. Lorentz Force and Direction 洛倫茲力與方向</h3>
+<ul>
+<li>
+<p>A charged particle moving in a magnetic field experiences the Lorentz force, whose direction is determined by Fleming’s left-hand rule.</p>
 </li>
-<li><p>The direction of positive charge movement is the current direction; with the magnetic field directed into the plane, the force is perpendicular to both velocity and magnetic field.</p>
+<li>
+<p>The direction of positive charge movement is the current direction; with the magnetic field directed into the plane, the force is perpendicular to both velocity and magnetic field.</p>
 </li>
-<li><p>電荷在磁場中運動時會受到洛倫茲力作用，力的方向可用佛萊明左手定則判斷。</p>
+<li>
+<p>電荷在磁場中運動時會受到洛倫茲力作用，力的方向可用佛萊明左手定則判斷。</p>
 </li>
-<li><p>正電荷運動方向為電流方向，磁場方向垂直紙面射入，受力方向垂直於速度與磁場方向。</p>
-</li>
-</ul>
-<h3 id="2-Circular-Motion-圓周運動"><a href="#2-Circular-Motion-圓周運動" class="headerlink" title="2. Circular Motion 圓周運動"></a>2. Circular Motion 圓周運動</h3><ul>
-<li><p>Positive charges undergo counterclockwise circular motion in the magnetic field, while negative charges move clockwise.</p>
-</li>
-<li><p>The force magnitude is given by ( F &#x3D; B Q v ), where ( B ) is magnetic flux density, ( Q ) is charge, and ( v ) is velocity.</p>
-</li>
-<li><p>電荷在磁場中會做逆時針圓周運動（正電荷），負電荷則為順時針圓周運動。</p>
-</li>
-<li><p>受力大小公式為 ( F &#x3D; B Q v )，其中 ( B ) 是磁通密度，( Q ) 是電荷量，( v ) 是速度。</p>
+<li>
+<p>正電荷運動方向為電流方向，磁場方向垂直紙面射入，受力方向垂直於速度與磁場方向。</p>
 </li>
 </ul>
-<h3 id="3-Practical-Applications-實際應用"><a href="#3-Practical-Applications-實際應用" class="headerlink" title="3. Practical Applications 實際應用"></a>3. Practical Applications 實際應用</h3><ul>
-<li><p>This principle is applied in CRT displays to control electron beam deflection.</p>
+<h3 id="2-Circular-Motion-圓周運動">2. Circular Motion 圓周運動</h3>
+<ul>
+<li>
+<p>Positive charges undergo counterclockwise circular motion in the magnetic field, while negative charges move clockwise.</p>
 </li>
-<li><p>The understanding of charged particle motion in magnetic fields is crucial for various technologies including particle accelerators and mass spectrometers.</p>
+<li>
+<p>The force magnitude is given by $ F = B Q v $, where $ B $ is magnetic flux density, $ Q $ is charge, and $ v $ is velocity.</p>
 </li>
-<li><p>此原理應用於CRT顯示器中控制電子束的偏轉。</p>
+<li>
+<p>電荷在磁場中會做逆時針圓周運動（正電荷），負電荷則為順時針圓周運動。</p>
 </li>
-<li><p>理解電荷在磁場中的運動對於粒子加速器和質譜儀等各種技術至關重要。</p>
+<li>
+<p>受力大小公式為 $ F = B Q v $，其中 $ B $ 是磁通密度，$ Q $ 是電荷量，$ v $ 是速度。</p>
 </li>
 </ul>
-<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=1BEH9lPoCho&t=1s">Charged Particle Motion in Magnetic Fields</a> </p>
+<h3 id="3-Practical-Applications-實際應用">3. Practical Applications 實際應用</h3>
+<ul>
+<li>
+<p>This principle is applied in CRT displays to control electron beam deflection.</p>
+</li>
+<li>
+<p>The understanding of charged particle motion in magnetic fields is crucial for various technologies including particle accelerators and mass spectrometers.</p>
+</li>
+<li>
+<p>此原理應用於CRT顯示器中控制電子束的偏轉。</p>
+</li>
+<li>
+<p>理解電荷在磁場中的運動對於粒子加速器和質譜儀等各種技術至關重要。</p>
+</li>
+</ul>
+<h2 id="Reference-Video-參考影片">Reference Video 參考影片</h2>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=1BEH9lPoCho&amp;t=1s">Charged Particle Motion in Magnetic Fields</a></p>
 
 
         <!--noindex-->
@@ -459,7 +481,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-05-18 20:29:33" itemprop="dateModified" datetime="2025-05-18T20:29:33+08:00">2025-05-18</time>
+      <time title="Modified: 2026-03-07 17:24:15" itemprop="dateModified" datetime="2026-03-07T17:24:15+08:00">2026-03-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -467,11 +489,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/" itemprop="url" rel="index"><span itemprop="name">Physics</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/Electromagnetism/" itemprop="url" rel="index"><span itemprop="name">Electromagnetism</span></a>
+          <a href="/categories/Electromagnetics/" itemprop="url" rel="index"><span itemprop="name">Electromagnetics</span></a>
         </span>
     </span>
 
@@ -508,87 +526,86 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>This article explains Coulomb’s magnetic force law and its relationship with magnetic field intensity, including the mathematical formulas and practical applications in electromagnetism.</p>
-<h2 id="Key-Points"><a href="#Key-Points" class="headerlink" title="Key Points"></a>Key Points</h2><ul>
-<li><p><strong>Basic Concepts</strong></p>
+            <h2 id="Introduction">Introduction</h2>
+<p>This article explains Coulomb’s magnetic force law and its relationship with magnetic field intensity, including the mathematical formulas and practical applications in electromagnetism.</p>
+<h2 id="Key-Points">Key Points</h2>
 <ul>
-<li><p>Coulomb’s magnetic force law is analogous to Newton’s law of universal gravitation</p>
-</li>
-<li><p>Magnetic force magnitude is proportional to the product of magnetic pole strengths</p>
-</li>
-<li><p>Force is inversely proportional to the square of the distance</p>
-</li>
-<li><p>Magnetic force formula:<br>$$ F &#x3D; K \frac{M_1 M_2}{d^2} $$<br>where:</p>
+<li><strong>Basic Concepts</strong>
 <ul>
-<li>F: magnetic force</li>
-<li>M₁, M₂: magnetic pole strengths</li>
-<li>d: distance between poles</li>
-<li>K: magnetic force constant</li>
+<li>Coulomb’s magnetic force law is analogous to Newton’s law of universal gravitation</li>
+<li>Magnetic force magnitude is proportional to the product of magnetic pole strengths</li>
+<li>Force is inversely proportional to the square of the distance</li>
+<li>Magnetic force formula:</li>
 </ul>
 </li>
-<li><p>Magnetic pole strength unit is Weber (Wb)</p>
-</li>
-<li><p>Magnetic force constant in air&#x2F;vacuum: K &#x3D; 6.33 × 10⁴ (includes Henry)</p>
-</li>
 </ul>
-</li>
-<li><p><strong>Magnetic Field Intensity (H)</strong></p>
+<p>$$ F = K \frac{M_1 M_2}{d^2} $$</p>
+<pre><code> where:
+    *   F: magnetic force
+    *   M₁, M₂: magnetic pole strengths
+    *   d: distance between poles
+    *   K: magnetic force constant
+
+*   Magnetic pole strength unit is Weber (Wb)
+*   Magnetic force constant in air/vacuum: K = 6.33 × 10⁴ (includes Henry)
+</code></pre>
 <ul>
-<li><p>Magnetic field intensity is force per unit magnetic pole:<br>$$ H &#x3D; \frac{F}{m} $$<br>where:</p>
+<li><strong>Magnetic Field Intensity (H)</strong>
 <ul>
-<li>F: force</li>
-<li>m: magnetic pole strength</li>
-</ul>
-</li>
-<li><p>Magnetic field intensity is a vector quantity</p>
-</li>
-<li><p>Direction follows magnetic field line tangent</p>
-</li>
+<li>Magnetic field intensity is force per unit magnetic pole:</li>
 </ul>
 </li>
 </ul>
-<h2 id="Reference-Video"><a href="#Reference-Video" class="headerlink" title="Reference Video"></a>Reference Video</h2><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（Please select subtitle settings on the video page and choose auto-translate to your preferred language）</p>
-<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>本文解釋庫侖磁力定律及其與磁場強度的關係，包括數學公式和電磁學中的實際應用。</p>
-<h2 id="重點歸納"><a href="#重點歸納" class="headerlink" title="重點歸納"></a>重點歸納</h2><ul>
-<li><p><strong>基本概念</strong></p>
+<p>$$ H = \frac{F}{m} $$</p>
+<pre><code>    where:
+    *   F: force
+    *   m: magnetic pole strength
+
+*   Magnetic field intensity is a vector quantity
+*   Direction follows magnetic field line tangent
+</code></pre>
+<h2 id="Reference-Video">Reference Video</h2>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（Please select subtitle settings on the video page and choose auto-translate to your preferred language）</p>
+<h2 id="引言">引言</h2>
+<p>本文解釋庫侖磁力定律及其與磁場強度的關係，包括數學公式和電磁學中的實際應用。</p>
+<h2 id="重點歸納">重點歸納</h2>
 <ul>
-<li><p>庫侖磁力定律類似牛頓萬有引力定律</p>
-</li>
-<li><p>磁力大小與磁極強度成正比</p>
-</li>
-<li><p>磁力與距離平方成反比</p>
-</li>
-<li><p>磁力公式：<br>$$ F &#x3D; K \frac{M_1 M_2}{d^2} $$<br>其中：</p>
+<li><strong>基本概念</strong>
 <ul>
-<li>F：磁力</li>
-<li>M₁, M₂：磁極強度</li>
-<li>d：磁極間距離</li>
-<li>K：磁力常數</li>
+<li>庫侖磁力定律類似牛頓萬有引力定律</li>
+<li>磁力大小與磁極強度成正比</li>
+<li>磁力與距離平方成反比</li>
+<li>磁力公式：</li>
 </ul>
 </li>
-<li><p>磁極強度單位為韋伯（Wb）</p>
-</li>
-<li><p>空氣或真空中磁力常數：K &#x3D; 6.33 × 10⁴（含亨利）</p>
-</li>
 </ul>
-</li>
-<li><p><strong>磁場強度（H）</strong></p>
+<p>$$ F = K \frac{M_1 M_2}{d^2} $$</p>
+<pre><code>    其中：
+    *   F：磁力
+    *   M₁, M₂：磁極強度
+    *   d：磁極間距離
+    *   K：磁力常數
+
+*   磁極強度單位為韋伯（Wb）
+*   空氣或真空中磁力常數：K = 6.33 × 10⁴（含亨利）
+</code></pre>
 <ul>
-<li><p>磁場強度定義為單位磁極受力：<br>$$ H &#x3D; \frac{F}{m} $$<br>其中：</p>
+<li><strong>磁場強度（H）</strong>
 <ul>
-<li>F：受力</li>
-<li>m：磁極強度</li>
-</ul>
-</li>
-<li><p>磁場強度為向量</p>
-</li>
-<li><p>方向為磁力線切線方向</p>
-</li>
+<li>磁場強度定義為單位磁極受力：</li>
 </ul>
 </li>
 </ul>
-<h2 id="參考影片"><a href="#參考影片" class="headerlink" title="參考影片"></a>參考影片</h2><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
-<p><em>文章日期：2025-05-14</em> </p>
+<p>$$ H = \frac{F}{m} $$<br>
+其中：<br>
+*   F：受力<br>
+*   m：磁極強度</p>
+<pre><code>*   磁場強度為向量
+*   方向為磁力線切線方向
+</code></pre>
+<h2 id="參考影片">參考影片</h2>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=sUNC0lKJ5os">Understanding Coulomb’s Magnetic Law</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
+<p><em>文章日期：2025-05-14</em></p>
 
 
         <!--noindex-->
@@ -659,7 +676,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-05-16 20:24:23" itemprop="dateModified" datetime="2025-05-16T20:24:23+08:00">2025-05-16</time>
+      <time title="Modified: 2026-03-07 17:22:50" itemprop="dateModified" datetime="2026-03-07T17:22:50+08:00">2026-03-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -667,11 +684,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/" itemprop="url" rel="index"><span itemprop="name">Physics</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/Electromagnetism/" itemprop="url" rel="index"><span itemprop="name">Electromagnetism</span></a>
+          <a href="/categories/Electromagnetics/" itemprop="url" rel="index"><span itemprop="name">Electromagnetics</span></a>
         </span>
     </span>
 
@@ -708,17 +721,22 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article analyzes the relationships between coupling coefficient, self-inductance, and mutual inductance in electromagnetic systems. It explains the fundamental concepts and mathematical relationships that govern these interactions.</p>
+            <h2 id="Introduction-引言">Introduction 引言</h2>
+<p>This article analyzes the relationships between coupling coefficient, self-inductance, and mutual inductance in electromagnetic systems. It explains the fundamental concepts and mathematical relationships that govern these interactions.</p>
 <p>本文分析電磁系統中耦合係數、自感和互感之間的關係。內容解釋這些相互作用的基本概念和數學關係。</p>
-<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Coupling-Coefficient-耦合係數"><a href="#1-Coupling-Coefficient-耦合係數" class="headerlink" title="1. Coupling Coefficient 耦合係數"></a>1. Coupling Coefficient 耦合係數</h3><ul>
-<li><p><strong>Coupling coefficient K:</strong></p>
+<h2 id="Key-Points-重點歸納">Key Points 重點歸納</h2>
+<h3 id="1-Coupling-Coefficient-耦合係數">1. Coupling Coefficient 耦合係數</h3>
+<ul>
+<li>
+<p><strong>Coupling coefficient K:</strong></p>
 <ul>
 <li>Represents the magnetic coupling efficiency between two coils</li>
 <li>Ranges from 0 to 1</li>
 <li>Closer to 1 indicates better coupling</li>
 </ul>
 </li>
-<li><p><strong>耦合係數K：</strong></p>
+<li>
+<p><strong>耦合係數K：</strong></p>
 <ul>
 <li>表示兩線圈間磁通的導磁效率</li>
 <li>範圍為0到1</li>
@@ -726,61 +744,70 @@
 </ul>
 </li>
 </ul>
-<h3 id="2-Coupling-Efficiencies-耦合效率"><a href="#2-Coupling-Efficiencies-耦合效率" class="headerlink" title="2. Coupling Efficiencies 耦合效率"></a>2. Coupling Efficiencies 耦合效率</h3><ul>
-<li><p><strong>K1 and K2:</strong></p>
+<h3 id="2-Coupling-Efficiencies-耦合效率">2. Coupling Efficiencies 耦合效率</h3>
+<ul>
+<li>
+<p><strong>K1 and K2:</strong></p>
 <ul>
 <li>K1: Magnetic coupling efficiency from coil 1 to coil 2</li>
 <li>K2: Magnetic coupling efficiency from coil 2 to coil 1</li>
-<li>K1 &#x3D; K2 in practice</li>
+<li>K1 = K2 in practice</li>
 </ul>
 </li>
-<li><p><strong>K1與K2：</strong></p>
+<li>
+<p><strong>K1與K2：</strong></p>
 <ul>
 <li>K1：線圈1對線圈2磁通的導磁效率</li>
 <li>K2：線圈2對線圈1的導磁效率</li>
-<li>實際應用中K1 &#x3D; K2</li>
+<li>實際應用中K1 = K2</li>
 </ul>
 </li>
 </ul>
-<h3 id="3-Magnetic-Flux-磁通量"><a href="#3-Magnetic-Flux-磁通量" class="headerlink" title="3. Magnetic Flux 磁通量"></a>3. Magnetic Flux 磁通量</h3><ul>
-<li><p><strong>Magnetic flux relationships:</strong></p>
+<h3 id="3-Magnetic-Flux-磁通量">3. Magnetic Flux 磁通量</h3>
+<ul>
+<li>
+<p><strong>Magnetic flux relationships:</strong></p>
 <ul>
 <li>Φ12: Magnetic flux from coil 1 affecting coil 2</li>
 <li>Φ21: Magnetic flux from coil 2 affecting coil 1</li>
 </ul>
 </li>
-<li><p><strong>磁通關係：</strong></p>
+<li>
+<p><strong>磁通關係：</strong></p>
 <ul>
 <li>Φ12：線圈1產生影響線圈2的磁通</li>
 <li>Φ21：線圈2影響線圈1的磁通</li>
 </ul>
 </li>
 </ul>
-<h3 id="4-Self-Inductance-自感量"><a href="#4-Self-Inductance-自感量" class="headerlink" title="4. Self-Inductance 自感量"></a>4. Self-Inductance 自感量</h3><ul>
-<li><p><strong>Self-inductance values:</strong></p>
+<h3 id="4-Self-Inductance-自感量">4. Self-Inductance 自感量</h3>
+<ul>
+<li>
+<p><strong>Self-inductance values:</strong></p>
 <ul>
 <li>L1: Inductance of coil 1</li>
 <li>L2: Inductance of coil 2</li>
 </ul>
 </li>
-<li><p><strong>自感量：</strong></p>
+<li>
+<p><strong>自感量：</strong></p>
 <ul>
 <li>L1：線圈1的電感量</li>
 <li>L2：線圈2的電感量</li>
 </ul>
 </li>
 </ul>
-<h3 id="5-Mutual-Inductance-互感量"><a href="#5-Mutual-Inductance-互感量" class="headerlink" title="5. Mutual Inductance 互感量"></a>5. Mutual Inductance 互感量</h3><ul>
-<li><p><strong>Mutual inductance formula:</strong><br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p>
-</li>
-<li><p><strong>Equality of mutual inductances:</strong><br>[<br>M_{12} &#x3D; M_{21} &#x3D; M<br>]</p>
-</li>
-<li><p><strong>互感量公式：</strong><br>[<br>M &#x3D; K \sqrt{L_1 L_2}<br>]</p>
-</li>
-<li><p><strong>互感量相等關係：</strong><br>[<br>M_{12} &#x3D; M_{21} &#x3D; M<br>]</p>
-</li>
-</ul>
-<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=L4-S0KjHWMc">Coupling Coefficient Analysis</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+<h3 id="5-Mutual-Inductance-互感量">5. Mutual Inductance 互感量</h3>
+<p>Mutual inductance formula:</p>
+<p>$$M = K \sqrt{L_1 L_2}$$</p>
+<p>Equality of mutual inductances:</p>
+<p>$$M_{12} = M_{21} = M$$</p>
+<p>互感量公式：</p>
+<p>$$M = K \sqrt{L_1 L_2}$$</p>
+<p>互感量相等關係：</p>
+<p>$$M_{12} = M_{21} = M$$</p>
+<h2 id="Reference-Video-參考影片">Reference Video 參考影片</h2>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=L4-S0KjHWMc">Coupling Coefficient Analysis</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
 
 
         <!--noindex-->
@@ -843,9 +870,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2025-05-14 00:00:00 / Modified: 20:59:43" itemprop="dateCreated datePublished" datetime="2025-05-14T00:00:00+08:00">2025-05-14</time>
+      <time title="Created: 2025-05-14 00:00:00" itemprop="dateCreated datePublished" datetime="2025-05-14T00:00:00+08:00">2025-05-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2026-02-20 15:20:54" itemprop="dateModified" datetime="2026-02-20T15:20:54+08:00">2026-02-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -853,11 +886,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/" itemprop="url" rel="index"><span itemprop="name">Physics</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/Electromagnetism/" itemprop="url" rel="index"><span itemprop="name">Electromagnetism</span></a>
+          <a href="/categories/Electromagnetics/" itemprop="url" rel="index"><span itemprop="name">Electromagnetics</span></a>
         </span>
     </span>
 
@@ -894,38 +923,52 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article explains the principles of force direction on current-carrying conductors in magnetic fields and the application of Fleming’s left-hand rule, including magnetic field interactions and practical applications.</p>
+            <h2 id="Introduction-引言">Introduction 引言</h2>
+<p>This article explains the principles of force direction on current-carrying conductors in magnetic fields and the application of Fleming’s left-hand rule, including magnetic field interactions and practical applications.</p>
 <p>本文解釋載流導體在磁場中受力方向的原理和佛萊明左手定則的應用，包括磁場相互作用和實際應用。</p>
-<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Current-Carrying-Conductor-and-Magnetic-Field-載流導體與磁場"><a href="#1-Current-Carrying-Conductor-and-Magnetic-Field-載流導體與磁場" class="headerlink" title="1. Current-Carrying Conductor and Magnetic Field 載流導體與磁場"></a>1. Current-Carrying Conductor and Magnetic Field 載流導體與磁場</h3><ul>
-<li><p><strong>Current-Carrying Conductor:</strong> A conductor with electric current generates a magnetic field.</p>
+<h2 id="Key-Points-重點歸納">Key Points 重點歸納</h2>
+<h3 id="1-Current-Carrying-Conductor-and-Magnetic-Field-載流導體與磁場">1. Current-Carrying Conductor and Magnetic Field 載流導體與磁場</h3>
+<ul>
+<li>
+<p><strong>Current-Carrying Conductor:</strong> A conductor with electric current generates a magnetic field.</p>
 </li>
-<li><p><strong>Main Magnetic Field Direction:</strong> Magnetic lines run from the North (N) pole to the South (S) pole.</p>
+<li>
+<p><strong>Main Magnetic Field Direction:</strong> Magnetic lines run from the North (N) pole to the South (S) pole.</p>
 </li>
-<li><p><strong>載流導體</strong>：導體中通有電流，會產生磁場。</p>
+<li>
+<p><strong>載流導體</strong>：導體中通有電流，會產生磁場。</p>
 </li>
-<li><p><strong>主極磁場方向</strong>：磁力線由N極指向S極。</p>
+<li>
+<p><strong>主極磁場方向</strong>：磁力線由N極指向S極。</p>
 </li>
 </ul>
-<h3 id="2-Magnetic-Field-Interactions-磁場相互作用"><a href="#2-Magnetic-Field-Interactions-磁場相互作用" class="headerlink" title="2. Magnetic Field Interactions 磁場相互作用"></a>2. Magnetic Field Interactions 磁場相互作用</h3><ul>
-<li><p><strong>Interaction of Magnetic Lines:</strong></p>
+<h3 id="2-Magnetic-Field-Interactions-磁場相互作用">2. Magnetic Field Interactions 磁場相互作用</h3>
+<ul>
+<li>
+<p><strong>Interaction of Magnetic Lines:</strong></p>
 <ul>
 <li>Above the conductor, magnetic lines oppose and weaken each other.</li>
 <li>Below the conductor, magnetic lines align and strengthen.</li>
 </ul>
 </li>
-<li><p><strong>Force Direction:</strong> The conductor is pushed from regions of higher magnetic line density to lower density, resulting in an upward force.</p>
+<li>
+<p><strong>Force Direction:</strong> The conductor is pushed from regions of higher magnetic line density to lower density, resulting in an upward force.</p>
 </li>
-<li><p><strong>磁力線互動</strong>：</p>
+<li>
+<p><strong>磁力線互動</strong>：</p>
 <ul>
 <li>導體上方磁力線方向相反，磁力線抵銷，磁場減弱。</li>
 <li>導體下方磁力線方向相同，磁力線增強。</li>
 </ul>
 </li>
-<li><p><strong>受力方向</strong>：導體受力由磁力線密度高處推向低處，導體向上受力。</p>
+<li>
+<p><strong>受力方向</strong>：導體受力由磁力線密度高處推向低處，導體向上受力。</p>
 </li>
 </ul>
-<h3 id="3-Fleming’s-Left-Hand-Rule-佛萊明左手定則"><a href="#3-Fleming’s-Left-Hand-Rule-佛萊明左手定則" class="headerlink" title="3. Fleming’s Left-Hand Rule 佛萊明左手定則"></a>3. Fleming’s Left-Hand Rule 佛萊明左手定則</h3><ul>
-<li><p><strong>Fleming’s Left-Hand Rule:</strong></p>
+<h3 id="3-Fleming’s-Left-Hand-Rule-佛萊明左手定則">3. Fleming’s Left-Hand Rule 佛萊明左手定則</h3>
+<ul>
+<li>
+<p><strong>Fleming’s Left-Hand Rule:</strong></p>
 <ul>
 <li>Thumb: Force direction (F)</li>
 <li>Index finger: Magnetic field direction (B)</li>
@@ -933,9 +976,11 @@
 <li>All three are perpendicular; use the left hand to determine the force direction on the conductor.</li>
 </ul>
 </li>
-<li><p><strong>Application:</strong> Fleming’s left-hand rule simplifies determining the force direction on a current-carrying conductor in a magnetic field.</p>
+<li>
+<p><strong>Application:</strong> Fleming’s left-hand rule simplifies determining the force direction on a current-carrying conductor in a magnetic field.</p>
 </li>
-<li><p><strong>佛萊明左手定則</strong>：</p>
+<li>
+<p><strong>佛萊明左手定則</strong>：</p>
 <ul>
 <li>拇指：受力方向（F）</li>
 <li>食指：磁場方向（B）</li>
@@ -943,10 +988,12 @@
 <li>三者互相垂直，用左手判斷載流導體受力方向。</li>
 </ul>
 </li>
-<li><p><strong>應用</strong>：佛萊明左手定則簡化判斷載流導體在磁場中受力方向的過程。</p>
+<li>
+<p><strong>應用</strong>：佛萊明左手定則簡化判斷載流導體在磁場中受力方向的過程。</p>
 </li>
 </ul>
-<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">YouTube 自動翻譯功能</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言） </p>
+<h2 id="Reference-Video-參考影片">Reference Video 參考影片</h2>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uL5pnuI-l-Y">YouTube 自動翻譯功能</a>（請在影片播放頁面點選字幕設定，選擇自動翻譯為所需語言）</p>
 
 
         <!--noindex-->
@@ -1009,9 +1056,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2025-05-14 00:00:00 / Modified: 20:58:36" itemprop="dateCreated datePublished" datetime="2025-05-14T00:00:00+08:00">2025-05-14</time>
+      <time title="Created: 2025-05-14 00:00:00" itemprop="dateCreated datePublished" datetime="2025-05-14T00:00:00+08:00">2025-05-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2026-02-20 15:20:54" itemprop="dateModified" datetime="2026-02-20T15:20:54+08:00">2026-02-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1019,11 +1072,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/" itemprop="url" rel="index"><span itemprop="name">Physics</span></a>
-        </span>
-          , 
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Physics/Electromagnetism/" itemprop="url" rel="index"><span itemprop="name">Electromagnetism</span></a>
+          <a href="/categories/Electromagnetics/" itemprop="url" rel="index"><span itemprop="name">Electromagnetics</span></a>
         </span>
     </span>
 
@@ -1060,49 +1109,71 @@
     <div class="post-body" itemprop="articleBody">
         
           
-            <h2 id="Introduction-引言"><a href="#Introduction-引言" class="headerlink" title="Introduction 引言"></a>Introduction 引言</h2><p>This article examines the calculation of force magnitude on a current-carrying conductor in a magnetic field, including both perpendicular and angled cases, along with practical examples.</p>
+            <h2 id="Introduction-引言">Introduction 引言</h2>
+<p>This article examines the calculation of force magnitude on a current-carrying conductor in a magnetic field, including both perpendicular and angled cases, along with practical examples.</p>
 <p>本文探討載流導體在磁場中受力大小的計算方法，包括垂直和斜角兩種情況，並提供實際範例。</p>
-<h2 id="Key-Points-重點歸納"><a href="#Key-Points-重點歸納" class="headerlink" title="Key Points 重點歸納"></a>Key Points 重點歸納</h2><h3 id="1-Force-Calculation-Methods-受力計算方法"><a href="#1-Force-Calculation-Methods-受力計算方法" class="headerlink" title="1. Force Calculation Methods 受力計算方法"></a>1. Force Calculation Methods 受力計算方法</h3><ul>
-<li><p>The force magnitude on a current-carrying conductor in a magnetic field is calculated in two cases:  </p>
+<h2 id="Key-Points-重點歸納">Key Points 重點歸納</h2>
+<h3 id="1-Force-Calculation-Methods-受力計算方法">1. Force Calculation Methods 受力計算方法</h3>
+<ul>
+<li>
+<p>The force magnitude on a current-carrying conductor in a magnetic field is calculated in two cases:</p>
 <ol>
-<li><strong>Conductor perpendicular to magnetic field:</strong><br>Formula: ( F &#x3D; B l I )<br>where ( F ) is force (Newtons), ( B ) is magnetic flux density (Tesla), ( l ) is effective length of conductor in the field (meters), and ( I ) is current (Amperes).  </li>
-<li><strong>Conductor at an angle (\theta) to magnetic field:</strong><br>Formula: ( F &#x3D; B l I \sin \theta ), where (\sin \theta) adjusts the effective length cut by the magnetic field.</li>
+<li><strong>Conductor perpendicular to magnetic field:</strong><br>
+Formula: $ F = B l I $<br>
+where $ F $ is force (Newtons), $ B $ is magnetic flux density (Tesla), $ l $ is effective length of conductor in the field (meters), and $ I $ is current (Amperes).</li>
+<li><strong>Conductor at an angle $\theta$ to magnetic field:</strong><br>
+Formula: $ F = B l I \sin \theta $, where $\sin \theta$ adjusts the effective length cut by the magnetic field.</li>
 </ol>
 </li>
-<li><p>載流導體在磁場中受力的大小計算分兩種情況：</p>
+<li>
+<p>載流導體在磁場中受力的大小計算分兩種情況：</p>
 <ol>
-<li><strong>導體與磁場垂直</strong>：<br>公式為 ( F &#x3D; B l I )<br>其中，  <ul>
-<li>( F ) 是受力大小（牛頓，N）  </li>
-<li>( B ) 是磁通密度（特斯拉，T）  </li>
-<li>( l ) 是導體在磁場中的有效長度（公尺，m）  </li>
-<li>( I ) 是電流大小（安培，A）</li>
+<li><strong>導體與磁場垂直</strong>：<br>
+公式為 $ F = B l I $<br>
+其中，
+<ul>
+<li>$ F $ 是受力大小（牛頓，N）</li>
+<li>$ B $ 是磁通密度（特斯拉，T）</li>
+<li>$ l $ 是導體在磁場中的有效長度（公尺，m）</li>
+<li>$ I $ 是電流大小（安培，A）</li>
 </ul>
 </li>
-<li><strong>導體與磁場不垂直</strong>（與磁場成角度 (\theta)）：<br>公式修正為 ( F &#x3D; B l I \sin \theta )，其中 (\sin \theta) 是導體在磁場中切割的有效長度比例。</li>
+<li><strong>導體與磁場不垂直</strong>（與磁場成角度 $\theta$）：<br>
+公式修正為 $ F = B l I \sin \theta $，其中 $\sin \theta$ 是導體在磁場中切割的有效長度比例。</li>
 </ol>
 </li>
 </ul>
-<h3 id="2-Force-Direction-力的方向"><a href="#2-Force-Direction-力的方向" class="headerlink" title="2. Force Direction 力的方向"></a>2. Force Direction 力的方向</h3><ul>
-<li><p>The force direction is determined by Fleming’s left-hand rule:<br>Thumb points to force, index finger to magnetic field, middle finger to current.</p>
-</li>
-<li><p>力的方向可用佛萊明左手定則判斷：<br>拇指指向力的方向，食指指向磁場方向，中指指向電流方向。</p>
-</li>
-</ul>
-<h3 id="3-Example-Calculations-範例計算"><a href="#3-Example-Calculations-範例計算" class="headerlink" title="3. Example Calculations 範例計算"></a>3. Example Calculations 範例計算</h3><ul>
-<li><p>Example calculations:  </p>
+<h3 id="2-Force-Direction-力的方向">2. Force Direction 力的方向</h3>
 <ul>
-<li>Perpendicular case: ( B&#x3D;2,T, l&#x3D;1,m, I&#x3D;10,A \Rightarrow F&#x3D;20,N )  </li>
-<li>Angled case: ( B&#x3D;0.5,T, l&#x3D;0.2,m, I&#x3D;10,A, \theta&#x3D;30^\circ \Rightarrow F&#x3D;0.5,N )</li>
-</ul>
+<li>
+<p>The force direction is determined by Fleming’s left-hand rule:<br>
+Thumb points to force, index finger to magnetic field, middle finger to current.</p>
 </li>
-<li><p>範例計算：  </p>
+<li>
+<p>力的方向可用佛萊明左手定則判斷：<br>
+拇指指向力的方向，食指指向磁場方向，中指指向電流方向。</p>
+</li>
+</ul>
+<h3 id="3-Example-Calculations-範例計算">3. Example Calculations 範例計算</h3>
 <ul>
-<li>垂直情況：( B&#x3D;2,T, l&#x3D;1,m, I&#x3D;10,A \Rightarrow F&#x3D;20,N )  </li>
-<li>斜角情況：( B&#x3D;0.5,T, l&#x3D;0.2,m, I&#x3D;10,A, \theta&#x3D;30^\circ \Rightarrow F&#x3D;0.5,N )</li>
+<li>
+<p>Example calculations:</p>
+<ul>
+<li>Perpendicular case: $ B=2,T, l=1,m, I=10,A \Rightarrow F=20,N $</li>
+<li>Angled case: $ B=0.5,T, l=0.2,m, I=10,A, \theta=30^\circ \Rightarrow F=0.5,N $</li>
+</ul>
+</li>
+<li>
+<p>範例計算：</p>
+<ul>
+<li>垂直情況：$ B=2,T, l=1,m, I=10,A \Rightarrow F=20,N $</li>
+<li>斜角情況：$ B=0.5,T, l=0.2,m, I=10,A, \theta=30^\circ \Rightarrow F=0.5,N $</li>
 </ul>
 </li>
 </ul>
-<h2 id="Reference-Video-參考影片"><a href="#Reference-Video-參考影片" class="headerlink" title="Reference Video 參考影片"></a>Reference Video 參考影片</h2><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=3z9c1rQx5oI">點此觀看影片並啟用YouTube自動翻譯</a><br>（請在影片設定中開啟字幕及自動翻譯功能） </p>
+<h2 id="Reference-Video-參考影片">Reference Video 參考影片</h2>
+<p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=3z9c1rQx5oI">點此觀看影片並啟用YouTube自動翻譯</a><br>
+（請在影片設定中開啟字幕及自動翻譯功能）</p>
 
 
         <!--noindex-->
@@ -1141,7 +1212,7 @@
 
   <div class="copyright">
     &copy; 
-    <span itemprop="copyrightYear">2025</span>
+    <span itemprop="copyrightYear">2026</span>
     <span class="with-love">
       <i class="fa fa-heart"></i>
     </span>

@@ -1461,7 +1461,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #fffff9;
+    background: #26a328;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2778,6 +2778,13 @@ mark.search-keyword {
   color: #ff2a2a;
   font-weight: bold;
 }
+mjx-container[jax='CHTML'][display='true'],
+.has-jax {
+  overflow: auto hidden;
+}
+mjx-container[display='true'] + br {
+  display: none;
+}
 .use-motion .animated {
   animation-fill-mode: none;
   visibility: inherit;
@@ -3101,14 +3108,54 @@ header.header {
  * @Author: bill503084699 bill503084699@gmail.com
  * @Date: 2025-03-21 20:44:21
  * @LastEditors: bill503084699 bill503084699@gmail.com
- * @LastEditTime: 2025-05-18 18:41:27
+ * @LastEditTime: 2026-02-21 22:21:44
  * @FilePath: /bill55tt.github.io/source/_data/styles.styl
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-/* 背景图片 */
-body {
-  background: url("/images/bg.jpg") no-repeat center center fixed !important;
+/* 背景图片  蓝绿色云朵照片*/
+/*body {
+  background: url('/images/bg.jpg') no-repeat center center fixed !important;
   background-size: cover !important;
+}*/
+/* 強制覆蓋：消除首頁所有莫名其妙的黃色背景 */
+/* 1. 針對 NexT 可能的內建高亮類名 */
+.post-body mark,
+.post-body span.highlight,
+.post-body .search-keyword {
+  background-color: transparent !important;
+  background: none !important;
+  color: inherit !important;
+  border: none !important;
+}
+/* 2. 針對您截圖中 li 內公式顯示異常的白塊/黃塊 */
+.post-body li mjx-container,
+.post-body p mjx-container {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+/* 3. 針對首頁 (index) 的特殊處理 */
+.index .post-body {
+  background: transparent !important;
+}
+/* 4. 關鍵：如果上述無效，代表背景可能來自於您的「雙語切換」插件樣式 */
+.lang-show-both .lang-zh,
+.lang-show-both .lang-en {
+  background: transparent !important; /* 確保雙語顯示時不會帶背景 */
+}
+.post-body,
+.content {
+  background: rgba(255,255,255,0.88) !important;
+  border-radius: 12px;
+  padding: 20px;
+}
+body {
+  background: #1f1f1f !important;
+}
+.post-block,
+.sidebar-inner,
+.page {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
 /* 博客内容透明背景 */
 :root {
@@ -3331,6 +3378,86 @@ body {
 .posts-expand .post {
   position: relative !important;
   z-index: 1 !important;
+}
+/* ========== 數學公式：清楚易讀（參考電壓→電流 / 電流→電壓式樣）========== */
+/* 區塊公式 $$ ... $$：白底、黑字、分隔線、字稍大，公式看得懂 */
+mjx-container[jax='CHTML'][display='true'] {
+  display: block !important;
+  margin: 1em 0 !important;
+  padding: 1em 1.25em !important;
+  background: #fff !important;
+  border: 1px solid #e8e8e8 !important;
+  border-left: 4px solid #4a90e2 !important;
+  border-radius: 0 6px 6px 0 !important;
+  overflow-x: auto !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05) !important;
+  font-size: 1.08em !important;
+  color: #1a1a1a !important;
+}
+mjx-container[jax='CHTML'][display='true'] mjx-math {
+  color: #1a1a1a !important;
+}
+/* 暗色主題下區塊公式 */
+[data-theme='dark'] mjx-container[jax='CHTML'][display='true'] {
+  background: #2d3136 !important;
+  border-color: #454a52 !important;
+  border-left-color: #61afef !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2) !important;
+  color: #e6e6e6 !important;
+}
+[data-theme='dark'] mjx-container[jax='CHTML'][display='true'] mjx-math {
+  color: #e6e6e6 !important;
+}
+/* 行內公式 $ ... $：白底、黑字、分數與乘號清楚，與正文區隔 */
+.post-body mjx-container[jax='CHTML']:not([display='true']) {
+  padding: 0.2em 0.45em !important;
+  margin: 0 0.15em !important;
+  background: #f8f9fc !important;
+  border: 1px solid #e8eaef !important;
+  border-radius: 4px !important;
+  font-size: 1.05em !important;
+  color: #1a1a1a !important;
+  vertical-align: middle !important;
+}
+.post-body mjx-container[jax='CHTML']:not([display='true']) mjx-math {
+  color: #1a1a1a !important;
+}
+[data-theme='dark'] .post-body mjx-container[jax='CHTML']:not([display='true']) {
+  background: rgba(50,54,60,0.9) !important;
+  border-color: #3d4248 !important;
+  color: #e6e6e6 !important;
+}
+[data-theme='dark'] .post-body mjx-container[jax='CHTML']:not([display='true']) mjx-math {
+  color: #e6e6e6 !important;
+}
+/* 列表項內「說明 + 公式」：加底部分隔線，像 電壓→電流 / 電流→電壓 那樣一行一行分開 */
+.post-body li:has(mjx-container),
+.post-body p:has(mjx-container) {
+  padding-bottom: 0.5em;
+}
+.post-body li:has(mjx-container) + li,
+.post-body p:has(mjx-container) + p {
+  border-top: 1px solid #eee;
+  padding-top: 0.6em;
+  margin-top: 0.25em;
+}
+[data-theme='dark'] .post-body li:has(mjx-container) + li,
+[data-theme='dark'] .post-body p:has(mjx-container) + p {
+  border-top-color: #40444a;
+}
+/* 重點統整等側邊區塊內的公式 */
+.has-jax mjx-container[jax='CHTML'][display='true'] {
+  margin: 0.6em 0 !important;
+}
+/* 去除 mark 標籤的黃色背景 */
+mark {
+  background-color: transparent;
+  color: inherit;
+  border-bottom: 2px solid #222; /* 如果想保留強調感，改用底線 */
+}
+/* 針對文章內容區域的特殊背景去除 */
+.post-body mark {
+  background-color: transparent !important;
 }
 @keyframes float {
   0% {

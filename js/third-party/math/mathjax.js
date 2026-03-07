@@ -6,10 +6,16 @@ document.addEventListener('page:loaded', () => {
   if (typeof MathJax === 'undefined') {
     window.MathJax = {
       tex: {
-        inlineMath: { '[+]': [['$', '$']] },
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true,
+        processEnvironments: true,
         tags      : CONFIG.mathjax.tags
       },
       options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process',
         renderActions: {
           insertedScript: [200, () => {
             document.querySelectorAll('mjx-container').forEach(node => {
